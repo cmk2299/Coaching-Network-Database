@@ -1,0 +1,22 @@
+# Environment and credentials
+.env
+credentials.json
+token.json
+
+# Cache and temp files
+tmp/
+data/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

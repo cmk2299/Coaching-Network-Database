@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.footballdb.preload-weekly</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/cmk/Documents/Football Coaches DB/execution/preload_coach_data.py</string>
+        <string>--force</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/cmk/Documents/Football Coaches DB</string>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key>
+        <integer>0</integer>
+        <key>Hour</key>
+        <integer>3</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/cmk/Documents/Football Coaches DB/tmp/preload-weekly.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/cmk/Documents/Football Coaches DB/tmp/preload-weekly-error.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin</string>
+    </dict>
+</dict>
+</plist>

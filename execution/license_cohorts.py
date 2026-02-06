@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+"""
+DFB Pro-Lizenz / Fußball-Lehrer Lehrgang Cohorts Database
+
+This module contains data about DFB coaching license cohorts.
+These connections are extremely valuable for understanding coach networks.
+
+Sources:
+- https://www.dfb.de/news/
+- https://www.kicker.de/
+- https://www.bdfl.de/
+"""
+
+from typing import Dict, List, Optional
+
+# DFB Fußball-Lehrer / Pro-Lizenz Lehrgänge
+# Format: cohort_number -> { year, name, graduates }
+LICENSE_COHORTS: Dict[int, Dict] = {
+    62: {
+        "year": "2015/2016",
+        "name": "62. Fußball-Lehrer-Lehrgang",
+        "location": "Hennes-Weisweiler-Akademie, Hennef",
+        "graduates": [
+            {"name": "Marco Antwerpen", "note": ""},
+            {"name": "Holger Bachthaler", "note": ""},
+            {"name": "David Bergner", "note": ""},
+            {"name": "Alexander Blessin", "note": ""},
+            {"name": "Hannes Drews", "note": ""},
+            {"name": "Katja Greulich", "note": ""},
+            {"name": "Inka Grings", "note": "Frauenfußball-Legende"},
+            {"name": "Jan Hoepner", "note": ""},
+            {"name": "Kenan Kocak", "note": ""},
+            {"name": "Daniel Kraus", "note": ""},
+            {"name": "Pellegrino Matarazzo", "note": ""},
+            {"name": "Julian Nagelsmann", "note": "Jahrgangsbester, jetzt Bundestrainer"},
+            {"name": "Alexander Nouri", "note": ""},
+            {"name": "Darius Scholtysik", "note": ""},
+            {"name": "Martin Schweizer", "note": ""},
+            {"name": "Roger Stilz", "note": ""},
+            {"name": "Jeff Strasser", "note": ""},
+            {"name": "Domenico Tedesco", "note": ""},
+            {"name": "Daniel Thioune", "note": ""},
+            {"name": "Patrick Weiser", "note": ""},
+            {"name": "Nico Willig", "note": ""},
+            {"name": "Oliver Zapel", "note": ""},
+            {"name": "Mark Zimmermann", "note": ""},
+        ],
+    },
+    63: {
+        "year": "2016/2017",
+        "name": "63. Fußball-Lehrer-Lehrgang",
+        "location": "Hennes-Weisweiler-Akademie, Hennef",
+        "graduates": [
+            {"name": "Stefan Leitl", "note": ""},
+            {"name": "Christian Preußer", "note": ""},
+            {"name": "Florian Kohfeldt", "note": ""},
+            {"name": "Robert Klauß", "note": "Jahrgangsbester"},
+            # TODO: Complete list
+        ],
+    },
+    64: {
+        "year": "2017/2018",
+        "name": "64. Fußball-Lehrer-Lehrgang",
+        "location": "Hennes-Weisweiler-Akademie, Hennef",
+        "graduates": [
+            {"name": "Sebastian Hoeneß", "note": ""},
+            {"name": "Enrico Maaßen", "note": ""},
+            {"name": "Bo Svensson", "note": ""},
+            # TODO: Complete list
+        ],
+    },
+    65: {
+        "year": "2018/2019",
+        "name": "65. Fußball-Lehrer-Lehrgang",
+        "location": "Hennes-Weisweiler-Akademie, Hennef",
+        "graduates": [
+            {"name": "Ole Werner", "note": ""},
+            # TODO: Complete list
+        ],
+    },
+    68: {
+        "year": "2022/2023",
+        "name": "68. Pro-Lizenz-Lehrgang",
+        "location": "DFB-Akademie, Frankfurt",
+        "graduates": [
+            {"name": "Nils Döring", "note": ""},
+            {"name": "Benjamin Duda", "note": ""},
+            {"name": "Marie-Louise Eta", "note": "Erste Trainerin in der Bundesliga"},
+            {"name": "Marc Hensel", "note": ""},
+            {"name": "Kai Herdling", "note": ""},
+            {"name": "Fabian Hürzeler", "note": "Brighton & Hove Albion"},
+            {"name": "Matthias Kaltenbach", "note": ""},
+            {"name": "Joseph Laumann", "note": ""},
+            {"name": "Robert Lechleiter", "note": ""},
+            {"name": "Björn Mehnert", "note": ""},
+            {"name": "Benedetto Muzzicato", "note": ""},
+            {"name": "Oliver Reiss", "note": ""},
+            {"name": "Danny Röhl", "note": "Sheffield Wednesday"},
+            {"name": "Jonas Stephan", "note": ""},
+            {"name": "Tobias Strobl", "note": ""},
+            {"name": "Michael Urbansky", "note": ""},
+        ],
+    },
+    69: {
+        "year": "2023/2024",
+        "name": "69. Pro-Lizenz-Lehrgang",
+        "location": "DFB-Akademie, Frankfurt",
+        "graduates": [
+            {"name": "Fabian Adelmann", "note": ""},
+            {"name": "Timm Fahrion", "note": ""},
+            {"name": "Dario Fossi", "note": ""},
+            {"name": "Christian Gmünder", "note": ""},
+            {"name": "Leonhard Haas", "note": ""},
+            {"name": "Miroslav Jagatic", "note": ""},
+            {"name": "Oliver Kirch", "note": ""},
+            {"name": "Matthias Mincu", "note": ""},
+            {"name": "Eugen Polanski", "note": "Borussia M'gladbach II"},
+            {"name": "Stefan Reisinger", "note": ""},
+            {"name": "Jonas Scheuermann", "note": ""},
+            {"name": "Julian Schuster", "note": "SC Freiburg"},
+            {"name": "Olufemi Smith", "note": ""},
+            {"name": "Tommy Stroot", "note": "VfL Wolfsburg Frauen"},
+            {"name": "Moritz Volz", "note": ""},
+            {"name": "Willi Weiße", "note": ""},
+        ],
+    },
+    70: {
+        "year": "2024/2025",
+        "name": "70. Pro-Lizenz-Lehrgang",
+        "location": "DFB-Akademie, Frankfurt",
+        "graduates": [
+            {"name": "Marc Unterberger", "note": "SpVgg Unterhaching, alternativer Zulassungsweg"},
+            # TODO: Complete when finished
+        ],
+    },
+}
+
+# Mapping of coach names to their cohort
+COACH_TO_COHORT: Dict[str, int] = {}
+for cohort_num, cohort_data in LICENSE_COHORTS.items():
+    for grad in cohort_data.get("graduates", []):
+        name = grad["name"]
+        COACH_TO_COHORT[name.lower()] = cohort_num
+
+
+def find_cohort_for_coach(coach_name: str) -> Optional[int]:
+    """Find which cohort a coach belongs to."""
+    name_lower = coach_name.lower().strip()
+
+    # Direct match
+    if name_lower in COACH_TO_COHORT:
+        return COACH_TO_COHORT[name_lower]
+
+    # Partial match (last name)
+    for full_name, cohort in COACH_TO_COHORT.items():
+        if name_lower in full_name or full_name.split()[-1] in name_lower:
+            return cohort
+
+    return None
+
+
+def get_cohort_mates(coach_name: str) -> List[Dict]:
+    """Get all coaches from the same license cohort."""
+    cohort_num = find_cohort_for_coach(coach_name)
+    if not cohort_num:
+        return []
+
+    cohort = LICENSE_COHORTS.get(cohort_num, {})
+    graduates = cohort.get("graduates", [])
+
+    # Filter out the coach themselves
+    name_lower = coach_name.lower()
+    mates = []
+    for grad in graduates:
+        if grad["name"].lower() != name_lower:
+            mates.append({
+                "name": grad["name"],
+                "note": grad.get("note", ""),
+                "cohort": cohort_num,
+                "cohort_name": cohort.get("name", ""),
+                "year": cohort.get("year", ""),
+            })
+
+    return mates
+
+
+def get_cohort_info(cohort_num: int) -> Optional[Dict]:
+    """Get full info about a specific cohort."""
+    return LICENSE_COHORTS.get(cohort_num)
+
+
+if __name__ == "__main__":
+    # Test with Blessin
+    print("=" * 60)
+    print("Testing: Alexander Blessin")
+    print("=" * 60)
+
+    cohort = find_cohort_for_coach("Alexander Blessin")
+    print(f"Cohort: {cohort}")
+
+    if cohort:
+        info = get_cohort_info(cohort)
+        print(f"Name: {info['name']}")
+        print(f"Year: {info['year']}")
+        print(f"Location: {info['location']}")
+
+    print("\nCohort mates:")
+    mates = get_cohort_mates("Alexander Blessin")
+    for mate in mates:
+        note = f" - {mate['note']}" if mate['note'] else ""
+        print(f"  - {mate['name']}{note}")
