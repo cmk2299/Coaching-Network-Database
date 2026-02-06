@@ -4,8 +4,13 @@ credentials.json
 token.json
 
 # Cache and temp files
-tmp/
+tmp/cache/
+tmp/raw_html/
+tmp/*.log
 data/*.json
+
+# Keep preloaded data for deployment
+!tmp/preloaded/
 
 # Python
 __pycache__/
