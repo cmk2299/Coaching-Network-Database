@@ -122,7 +122,7 @@ def preload_single_coach(coach_name: str, force: bool = False) -> dict:
 
     try:
         # 1. Scrape profile
-        log(f"  [1/6] Scraping profile...")
+        log(f"  [1/7] Scraping profile...")
         profile = scrape_coach(name=coach_name)
         if not profile:
             log(f"  ERROR: Could not find coach profile")
@@ -133,17 +133,17 @@ def preload_single_coach(coach_name: str, force: bool = False) -> dict:
         coach_id = profile.get("coach_id")
 
         # 2. Scrape teammates
-        log(f"  [2/6] Scraping teammates...")
+        log(f"  [2/7] Scraping teammates...")
         teammates = scrape_teammates(coach_profile_url=coach_url) if coach_url else None
         result["teammates"] = teammates
 
         # 3. Scrape players used
-        log(f"  [3/6] Scraping players used...")
+        log(f"  [3/7] Scraping players used...")
         players_used = scrape_players_used(coach_profile_url=coach_url) if coach_url else None
         result["players_used"] = players_used
 
         # 4. Scrape players detail
-        log(f"  [4/6] Scraping players detail...")
+        log(f"  [4/7] Scraping players detail...")
         players_detail = scrape_players_for_coach_url(coach_url, top_n=None) if coach_url else None
         result["players_detail"] = players_detail
 
@@ -151,7 +151,7 @@ def preload_single_coach(coach_name: str, force: bool = False) -> dict:
         if teammates and teammates.get("all_teammates"):
             all_tm = teammates["all_teammates"]
             total = len(all_tm)
-            log(f"  [5/6] Enriching {total} teammates with current roles...")
+            log(f"  [5/7] Enriching {total} teammates with current roles...")
             log(f"        (This will take ~{total * 3 / 60:.0f} minutes)")
 
             start_time = time.time()
@@ -178,7 +178,7 @@ def preload_single_coach(coach_name: str, force: bool = False) -> dict:
             log(f"        Found: {coaches_found} coaches, {directors_found} directors")
 
         # 6. Scrape companions
-        log(f"  [6/6] Scraping companions...")
+        log(f"  [6/7] Scraping companions...")
         if players_used and players_used.get("stations") and coach_id:
             stations_for_companions = []
             for station in players_used["stations"]:
@@ -207,6 +207,27 @@ def preload_single_coach(coach_name: str, force: bool = False) -> dict:
             if stations_for_companions:
                 companions = get_companions_for_coach(coach_id, coach_url, stations_for_companions)
                 result["companions"] = companions
+
+        # 7. Enrich decision makers
+        log(f"  [7/7] Enriching decision makers...")
+        if stations_for_companions:  # Use same stations list
+            try:
+                from enrich_decision_makers import get_all_decision_makers
+                decision_makers = get_all_decision_makers(coach_name, stations_for_companions)
+                result["decision_makers"] = decision_makers
+
+                total = decision_makers.get("total", 0)
+                hiring_managers = len(decision_makers.get("hiring_managers", []))
+                sports_directors = len(decision_makers.get("sports_directors", []))
+                executives = len(decision_makers.get("executives", []))
+
+                log(f"        Total decision makers: {total}")
+                log(f"        - Hiring Managers: {hiring_managers}")
+                log(f"        - Sports Directors: {sports_directors}")
+                log(f"        - Executives: {executives}")
+            except Exception as e:
+                log(f"        Warning: Could not enrich decision makers: {e}")
+                result["decision_makers"] = None
 
         # Save preloaded data
         save_preloaded(coach_name, result)
