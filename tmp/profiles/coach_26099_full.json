@@ -1,0 +1,525 @@
+{
+  "profile": {
+    "url": "https://www.transfermarkt.de/alexander-blessin/profil/trainer/26099",
+    "scraped_at": "2026-02-04T15:39:33.311410",
+    "name": "AlexanderBlessin",
+    "image_url": "https://img.a.transfermarkt.technology/portrait/header/26099-1755065437.jpg?lm=1",
+    "current_role": "Trainer",
+    "current_club": "FC St. Pauli",
+    "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+    "career_history": [
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2024",
+        "role": "FC St. PauliTrainer",
+        "period": "0,97"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/royale-union-saint-gilloise/startseite/verein/3948/saison_id/2023",
+        "role": "Union SGTrainer",
+        "period": "2,07"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/genua-cfc/startseite/verein/252/saison_id/2021",
+        "role": "Genua CFCTrainer",
+        "period": "1,36"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/kv-oostende/startseite/verein/2861/saison_id/2020",
+        "role": "KV OostendeTrainer",
+        "period": "1,37"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u19/startseite/verein/26621/saison_id/2018",
+        "role": "RB Leipzig U19Trainer",
+        "period": "1,98"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-uefa-u19/startseite/verein/62103/saison_id/2018",
+        "role": "RB Leipzig YLTrainer",
+        "period": "0,67"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u17/startseite/verein/32942/saison_id/2017",
+        "role": "RB Leipzig U17Trainer",
+        "period": "2,32"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-ii/startseite/verein/24293/saison_id/2016",
+        "role": "RB Leipzig IICo-Trainer",
+        "period": "0,00"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u19/startseite/verein/26621/saison_id/2015",
+        "role": "RB Leipzig U19Co-Trainer",
+        "period": "0,00"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u17/startseite/verein/32942/saison_id/2014",
+        "role": "RB Leipzig U17Co-Trainer",
+        "period": "0,00"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-jugend/startseite/verein/39962/saison_id/2013",
+        "role": "RB Leipzig Jgd.Trainer",
+        "period": "0,00"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u17/startseite/verein/32942/saison_id/2012",
+        "role": "RB Leipzig U17Co-Trainer",
+        "period": "0,00"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/sv-bonlanden/startseite/verein/1353/saison_id/2010",
+        "role": "SV BonlandenCo-Trainer",
+        "period": "0,00"
+      }
+    ],
+    "coach_id": "26099",
+    "_cached_at": "2026-02-04T15:39:33.325169"
+  },
+  "teammates": {
+    "player_id": "1731",
+    "teammates_url": "https://www.transfermarkt.de/alexander-blessin/gemeinsameSpiele/spieler/1731",
+    "total_teammates": 25,
+    "all_teammates": [
+      {
+        "name": "Ralf Hermanutz",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/ralf-hermanutz/profil/spieler/1012",
+        "shared_matches": 65,
+        "teams_together": 1,
+        "total_minutes": 5614
+      },
+      {
+        "name": "Patrick Hagg",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/patrick-hagg/profil/spieler/2051",
+        "shared_matches": 62,
+        "teams_together": 1,
+        "total_minutes": 5305
+      },
+      {
+        "name": "Christian Gmünder",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/christian-gmunder/profil/spieler/5038",
+        "shared_matches": 61,
+        "teams_together": 1,
+        "total_minutes": 3494
+      },
+      {
+        "name": "Marcel Rapp",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/marcel-rapp/profil/spieler/1296",
+        "shared_matches": 60,
+        "teams_together": 1,
+        "total_minutes": 5110
+      },
+      {
+        "name": "Christian Deufel",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/christian-deufel/profil/spieler/1931",
+        "shared_matches": 58,
+        "teams_together": 1,
+        "total_minutes": 4357
+      },
+      {
+        "name": "Nils Pfingsten-Reddig",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/nils-pfingsten-reddig/profil/spieler/6250",
+        "shared_matches": 57,
+        "teams_together": 1,
+        "total_minutes": 3792
+      },
+      {
+        "name": "Daniel Bogusz",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/daniel-bogusz/profil/spieler/1463",
+        "shared_matches": 56,
+        "teams_together": 1,
+        "total_minutes": 4618
+      },
+      {
+        "name": "Michael Kümmerle",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/michael-kummerle/profil/spieler/1243",
+        "shared_matches": 56,
+        "teams_together": 2,
+        "total_minutes": 3046
+      },
+      {
+        "name": "Cem Islamoglu",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/cem-islamoglu/profil/spieler/2111",
+        "shared_matches": 53,
+        "teams_together": 1,
+        "total_minutes": 3966
+      },
+      {
+        "name": "Björn Weikl",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/bjorn-weikl/profil/spieler/4023",
+        "shared_matches": 48,
+        "teams_together": 1,
+        "total_minutes": 3100
+      },
+      {
+        "name": "Peter Németh",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/peter-nemeth/profil/spieler/1377",
+        "shared_matches": 45,
+        "teams_together": 1,
+        "total_minutes": 3664
+      },
+      {
+        "name": "Enrico Gaede",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/enrico-gaede/profil/spieler/6520",
+        "shared_matches": 44,
+        "teams_together": 1,
+        "total_minutes": 3411
+      },
+      {
+        "name": "Carsten Keuler",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/carsten-keuler/profil/spieler/2147",
+        "shared_matches": 44,
+        "teams_together": 1,
+        "total_minutes": 2298
+      },
+      {
+        "name": "Marco Konrad",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/marco-konrad/profil/spieler/498",
+        "shared_matches": 41,
+        "teams_together": 1,
+        "total_minutes": 3341
+      },
+      {
+        "name": "Markus Fuchs",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/markus-fuchs/profil/spieler/4283",
+        "shared_matches": 41,
+        "teams_together": 1,
+        "total_minutes": 2038
+      },
+      {
+        "name": "Marcel Throm",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/marcel-throm/profil/spieler/2610",
+        "shared_matches": 39,
+        "teams_together": 2,
+        "total_minutes": 2539
+      },
+      {
+        "name": "Christian Okpala",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/christian-okpala/profil/spieler/4297",
+        "shared_matches": 38,
+        "teams_together": 1,
+        "total_minutes": 2735
+      },
+      {
+        "name": "Andreas Schumacher",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/andreas-schumacher/profil/spieler/4284",
+        "shared_matches": 38,
+        "teams_together": 1,
+        "total_minutes": 2553
+      },
+      {
+        "name": "Tomislav Maric",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/tomislav-maric/profil/spieler/664",
+        "shared_matches": 37,
+        "teams_together": 2,
+        "total_minutes": 1927
+      },
+      {
+        "name": "Thomas Richter",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/thomas-richter/profil/spieler/4987",
+        "shared_matches": 32,
+        "teams_together": 1,
+        "total_minutes": 2775
+      },
+      {
+        "name": "Stefan Buck",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/stefan-buck/profil/spieler/1880",
+        "shared_matches": 32,
+        "teams_together": 1,
+        "total_minutes": 2764
+      },
+      {
+        "name": "Alexander Schnetzler",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/alexander-schnetzler/profil/spieler/2495",
+        "shared_matches": 32,
+        "teams_together": 1,
+        "total_minutes": 2636
+      },
+      {
+        "name": "Marc Gallego",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/marc-gallego/profil/spieler/28534",
+        "shared_matches": 32,
+        "teams_together": 1,
+        "total_minutes": 2630
+      },
+      {
+        "name": "Sascha Maier",
+        "position": "Sturm",
+        "url": "https://www.transfermarkt.de/sascha-maier/profil/spieler/2264",
+        "shared_matches": 32,
+        "teams_together": 1,
+        "total_minutes": 2615
+      },
+      {
+        "name": "Carsten Marell",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/carsten-marell/profil/spieler/1661",
+        "shared_matches": 32,
+        "teams_together": 1,
+        "total_minutes": 1233
+      }
+    ],
+    "coaches": [],
+    "sporting_directors": [],
+    "players": [
+      {
+        "name": "Ralf Hermanutz",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/ralf-hermanutz/profil/spieler/1012",
+        "shared_matches": 65,
+        "teams_together": 1,
+        "total_minutes": 5614
+      },
+      {
+        "name": "Patrick Hagg",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/patrick-hagg/profil/spieler/2051",
+        "shared_matches": 62,
+        "teams_together": 1,
+        "total_minutes": 5305
+      },
+      {
+        "name": "Christian Gmünder",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/christian-gmunder/profil/spieler/5038",
+        "shared_matches": 61,
+        "teams_together": 1,
+        "total_minutes": 3494
+      },
+      {
+        "name": "Marcel Rapp",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/marcel-rapp/profil/spieler/1296",
+        "shared_matches": 60,
+        "teams_together": 1,
+        "total_minutes": 5110
+      },
+      {
+        "name": "Christian Deufel",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/christian-deufel/profil/spieler/1931",
+        "shared_matches": 58,
+        "teams_together": 1,
+        "total_minutes": 4357
+      },
+      {
+        "name": "Nils Pfingsten-Reddig",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/nils-pfingsten-reddig/profil/spieler/6250",
+        "shared_matches": 57,
+        "teams_together": 1,
+        "total_minutes": 3792
+      },
+      {
+        "name": "Daniel Bogusz",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/daniel-bogusz/profil/spieler/1463",
+        "shared_matches": 56,
+        "teams_together": 1,
+        "total_minutes": 4618
+      },
+      {
+        "name": "Michael Kümmerle",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/michael-kummerle/profil/spieler/1243",
+        "shared_matches": 56,
+        "teams_together": 2,
+        "total_minutes": 3046
+      },
+      {
+        "name": "Cem Islamoglu",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/cem-islamoglu/profil/spieler/2111",
+        "shared_matches": 53,
+        "teams_together": 1,
+        "total_minutes": 3966
+      },
+      {
+        "name": "Björn Weikl",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/bjorn-weikl/profil/spieler/4023",
+        "shared_matches": 48,
+        "teams_together": 1,
+        "total_minutes": 3100
+      },
+      {
+        "name": "Peter Németh",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/peter-nemeth/profil/spieler/1377",
+        "shared_matches": 45,
+        "teams_together": 1,
+        "total_minutes": 3664
+      },
+      {
+        "name": "Enrico Gaede",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/enrico-gaede/profil/spieler/6520",
+        "shared_matches": 44,
+        "teams_together": 1,
+        "total_minutes": 3411
+      },
+      {
+        "name": "Carsten Keuler",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/carsten-keuler/profil/spieler/2147",
+        "shared_matches": 44,
+        "teams_together": 1,
+        "total_minutes": 2298
+      },
+      {
+        "name": "Marco Konrad",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/marco-konrad/profil/spieler/498",
+        "shared_matches": 41,
+        "teams_together": 1,
+        "total_minutes": 3341
+      },
+      {
+        "name": "Markus Fuchs",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/markus-fuchs/profil/spieler/4283",
+        "shared_matches": 41,
+        "teams_together": 1,
+        "total_minutes": 2038
+      },
+      {
+        "name": "Marcel Throm",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/marcel-throm/profil/spieler/2610",
+        "shared_matches": 39,
+        "teams_together": 2,
+        "total_minutes": 2539
+      },
+      {
+        "name": "Christian Okpala",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/christian-okpala/profil/spieler/4297",
+        "shared_matches": 38,
+        "teams_together": 1,
+        "total_minutes": 2735
+      },
+      {
+        "name": "Andreas Schumacher",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/andreas-schumacher/profil/spieler/4284",
+        "shared_matches": 38,
+        "teams_together": 1,
+        "total_minutes": 2553
+      },
+      {
+        "name": "Tomislav Maric",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/tomislav-maric/profil/spieler/664",
+        "shared_matches": 37,
+        "teams_together": 2,
+        "total_minutes": 1927
+      },
+      {
+        "name": "Thomas Richter",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/thomas-richter/profil/spieler/4987",
+        "shared_matches": 32,
+        "teams_together": 1,
+        "total_minutes": 2775
+      }
+    ],
+    "_cached_at": "2026-02-04T16:58:23.083291"
+  },
+  "players_used": {
+    "coach_id": "26099",
+    "stations_url": "https://www.transfermarkt.de/alexander-blessin/stationen/trainer/26099/plus/1",
+    "stations": [
+      {
+        "club": "FC St. Pauli",
+        "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2024",
+        "games": 60,
+        "players_used": 38,
+        "players_url": "https://www.transfermarkt.dehttps://www.transfermarkt.de/alexander-blessin/eingesetzteSpieler/trainer/26099/verein_id/35/datum_zu/2024-07-01/datum_ab/2026-02-04"
+      },
+      {
+        "club": "Union SG",
+        "club_url": "https://www.transfermarkt.de/royale-union-saint-gilloise/startseite/verein/3948/saison_id/2023",
+        "games": 58,
+        "players_used": 27,
+        "players_url": "https://www.transfermarkt.dehttps://www.transfermarkt.de/alexander-blessin/eingesetzteSpieler/trainer/26099/verein_id/3948/datum_zu/2023-07-03/datum_ab/2024-06-30"
+      },
+      {
+        "club": "Genua CFC",
+        "club_url": "https://www.transfermarkt.de/genua-cfc/startseite/verein/252/saison_id/2021",
+        "games": 33,
+        "players_used": 41,
+        "players_url": "https://www.transfermarkt.dehttps://www.transfermarkt.de/alexander-blessin/eingesetzteSpieler/trainer/26099/verein_id/252/datum_zu/2022-01-19/datum_ab/2022-12-06"
+      },
+      {
+        "club": "KV Oostende",
+        "club_url": "https://www.transfermarkt.de/kv-oostende/startseite/verein/2861/saison_id/2020",
+        "games": 65,
+        "players_used": 34,
+        "players_url": "https://www.transfermarkt.dehttps://www.transfermarkt.de/alexander-blessin/eingesetzteSpieler/trainer/26099/verein_id/2861/datum_zu/2020-07-01/datum_ab/2022-01-18"
+      },
+      {
+        "club": "RB Leipzig U19",
+        "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u19/startseite/verein/26621/saison_id/2018",
+        "games": 53,
+        "players_used": 42,
+        "players_url": "https://www.transfermarkt.dehttps://www.transfermarkt.de/alexander-blessin/eingesetzteSpieler/trainer/26099/verein_id/26621/datum_zu/2018-07-01/datum_ab/2020-06-30"
+      },
+      {
+        "club": "RB Leipzig YL",
+        "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-uefa-u19/startseite/verein/62103/saison_id/2018",
+        "games": 6,
+        "players_used": 24,
+        "players_url": "https://www.transfermarkt.dehttps://www.transfermarkt.de/alexander-blessin/eingesetzteSpieler/trainer/26099/verein_id/62103/datum_zu/2018-07-01/datum_ab/2020-06-30"
+      },
+      {
+        "club": "RB Leipzig U17",
+        "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u17/startseite/verein/32942/saison_id/2017",
+        "games": 28,
+        "players_used": 23,
+        "players_url": "https://www.transfermarkt.dehttps://www.transfermarkt.de/alexander-blessin/eingesetzteSpieler/trainer/26099/verein_id/32942/datum_zu/2017-07-01/datum_ab/2018-06-30"
+      }
+    ],
+    "total_games": 303,
+    "total_players_used": 229,
+    "clubs_coached": 7,
+    "_cached_at": "2026-02-04T16:51:37.314018"
+  },
+  "built_at": "2026-02-04T16:58:23.085564"
+}
