@@ -998,7 +998,7 @@ if st.session_state.coach_data:
         network_context = "Large" if teammates_count > 100 else ("Medium" if teammates_count > 50 else "Small")
         st.metric("👥 Teammates", teammates_count, delta=f"{network_context} Network")
 
-    # P1.2: Key Insights Section
+    # P1.2: Enhanced Key Insights Section with Sports Directors & Contract
     st.divider()
     with st.expander("💡 **Key Insights & Highlights**", expanded=True):
         insights = []
@@ -1011,28 +1011,43 @@ if st.session_state.coach_data:
                 current_club = stations[0].get("club", profile.get("current_club", "Unknown"))
                 insights.append(f"📈 **Career Progression**: Started at {first_club}, now at {current_club} ({len(stations)} stations)")
 
-        # International experience
-        if players_used and players_used.get("stations"):
-            # Extract countries from club names (simplified)
-            insights.append(f"🌍 **Experience**: Coached at {stations_count} different clubs")
+        # Sports Directors worked with (from companions data)
+        companions_data = data.get("companions")
+        if companions_data:
+            current_sd = companions_data.get("current_sports_director")
+            all_sds = companions_data.get("all_sports_directors", [])
+            if current_sd:
+                sd_name = current_sd.get("name", "Unknown")
+                insights.append(f"🤝 **Current Sports Director**: {sd_name} at {profile.get('current_club', '')}")
+            if len(all_sds) > 1:
+                insights.append(f"📋 **Network**: Worked with {len(all_sds)} different Sports Directors in career")
 
-        # Network connections
+        # Contract duration (if available from profile)
+        if profile.get("contract_until"):
+            insights.append(f"📝 **Contract**: Until {profile.get('contract_until')}")
+        elif profile.get("contract_expires"):
+            insights.append(f"📝 **Contract**: Expires {profile.get('contract_expires')}")
+
+        # Network connections from teammates
         if teammates:
             coaches_in_network = sum(1 for tm in teammates.get('all_teammates', []) if tm.get('is_coach'))
             directors_in_network = sum(1 for tm in teammates.get('all_teammates', []) if tm.get('is_director'))
             if coaches_in_network > 0 or directors_in_network > 0:
-                insights.append(f"🔗 **Network**: Connected to {coaches_in_network} current coaches, {directors_in_network} directors")
+                insights.append(f"🔗 **Teammate Network**: {coaches_in_network} now coaches, {directors_in_network} directors")
 
         # Performance insight
         if career_ppg >= 1.6:
             insights.append(f"⭐ **Performance**: {career_ppg:.2f} PPG (Above league average of ~1.45)")
+        elif career_ppg > 0:
+            context = "Average" if career_ppg >= 1.3 else "Below Average"
+            insights.append(f"📊 **Performance**: {career_ppg:.2f} PPG ({context})")
 
         # Display insights
         if insights:
             for insight in insights:
                 st.markdown(f"• {insight}")
         else:
-            st.info("Load full profile data to see insights")
+            st.info("💡 Load full profile data to see insights (click 'Load Companions' in Companions tab)")
 
     # Tabs for detailed info
     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["🕸️ Network", "📋 Career & Titles", "🏟️ Coaching Stations", "👥 Teammates", "⚽ Players Coached", "🤝 Companions"])
@@ -1488,40 +1503,51 @@ if st.session_state.coach_data:
         # Get coach name for session state keys
         coach_name = profile.get("name", "unknown")
 
-        # P1.1: Career Timeline Visualization
+        # P1.1: Career Timeline Visualization (Fixed HTML rendering)
         if players_used and players_used.get("stations"):
             st.markdown("#### 📅 Career Timeline")
             stations = players_used["stations"]
-            timeline_html = "<div style='padding: 1rem; background: #f8f9fa; border-radius: 8px; margin-bottom: 1rem;'>"
 
+            # Use st.container for better rendering
             for i, station in enumerate(reversed(stations[:7])):  # Show last 7 stations chronologically
                 club = station.get("club", "Unknown")
-                role = station.get("role", "Trainer")
+                role_text = station.get("role", "Trainer")
                 period = station.get("period", "")
-                games = station.get("games", 0)
-                ppg = station.get("ppg", 0)
+
+                # Calculate PPG from station data
+                wins = station.get("wins", 0)
+                draws = station.get("draws", 0)
+                losses = station.get("losses", 0)
+                games = wins + draws + losses
+                ppg = (wins * 3 + draws) / games if games > 0 else 0
 
                 # Color based on PPG
                 if ppg >= 2.0:
                     color = "#28a745"  # Green
+                    indicator = "⭐"
                 elif ppg >= 1.5:
                     color = "#17a2b8"  # Blue
+                    indicator = "📈"
                 elif ppg >= 1.0:
                     color = "#ffc107"  # Yellow
+                    indicator = "➡️"
                 else:
                     color = "#6c757d"  # Gray
+                    indicator = "📉"
 
                 is_current = i == len(stations[:7]) - 1
-                arrow = "→" if not is_current else "📍"
-                timeline_html += f"""
-                <div style='margin: 0.5rem 0; padding: 0.75rem; background: white; border-left: 4px solid {color}; border-radius: 4px;'>
-                    <div style='font-weight: bold; color: {color};'>{arrow} {club}</div>
-                    <div style='font-size: 0.9rem; color: #666;'>{role} {'(Current)' if is_current else f'• {period} yrs'} • {games} games • PPG: {ppg:.2f}</div>
-                </div>
-                """
+                arrow = "📍" if is_current else "→"
+                period_display = "(Current)" if is_current else f"• {period} yrs" if period else ""
 
-            timeline_html += "</div>"
-            st.markdown(timeline_html, unsafe_allow_html=True)
+                # Use markdown with inline HTML for color
+                st.markdown(
+                    f'<div style="margin: 0.5rem 0; padding: 0.75rem; background: white; border-left: 4px solid {color}; border-radius: 4px;">'
+                    f'<div style="font-weight: bold; color: {color};">{arrow} {club}</div>'
+                    f'<div style="font-size: 0.9rem; color: #666;">{role_text} {period_display} • {games} games • {indicator} PPG: {ppg:.2f}</div>'
+                    f'</div>',
+                    unsafe_allow_html=True
+                )
+
             st.divider()
 
         col_career, col_titles = st.columns(2)
