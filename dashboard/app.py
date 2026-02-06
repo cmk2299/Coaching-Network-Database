@@ -1011,16 +1011,34 @@ if st.session_state.coach_data:
                 current_club = stations[0].get("club", profile.get("current_club", "Unknown"))
                 insights.append(f"📈 **Career Progression**: Started at {first_club}, now at {current_club} ({len(stations)} stations)")
 
-        # Sports Directors worked with (from companions data)
-        companions_data = data.get("companions")
-        if companions_data:
-            current_sd = companions_data.get("current_sports_director")
-            all_sds = companions_data.get("all_sports_directors", [])
-            if current_sd:
-                sd_name = current_sd.get("name", "Unknown")
-                insights.append(f"🤝 **Current Sports Director**: {sd_name} at {profile.get('current_club', '')}")
-            if len(all_sds) > 1:
-                insights.append(f"📋 **Network**: Worked with {len(all_sds)} different Sports Directors in career")
+        # Decision Makers worked with (from enriched data - preferred source)
+        decision_makers_data = data.get("decision_makers")
+        if decision_makers_data:
+            hiring_managers = decision_makers_data.get("hiring_managers", [])
+            sports_directors = decision_makers_data.get("sports_directors", [])
+            executives = decision_makers_data.get("executives", [])
+
+            if hiring_managers:
+                # Show hiring managers prominently
+                for hm in hiring_managers[:2]:  # Show top 2
+                    hm_name = hm.get("name", "Unknown")
+                    hm_club = hm.get("club_name", "")
+                    insights.append(f"🎯 **Hired by**: {hm_name} at {hm_club}")
+
+            if sports_directors:
+                total_sds = len(sports_directors)
+                insights.append(f"📋 **Network**: Worked with {total_sds} Sports Director{'s' if total_sds != 1 else ''}")
+        else:
+            # Fallback to companions data if decision_makers not available
+            companions_data = data.get("companions")
+            if companions_data:
+                current_sd = companions_data.get("current_sports_director")
+                all_sds = companions_data.get("all_sports_directors", [])
+                if current_sd:
+                    sd_name = current_sd.get("name", "Unknown")
+                    insights.append(f"🤝 **Current Sports Director**: {sd_name} at {profile.get('current_club', '')}")
+                if len(all_sds) > 1:
+                    insights.append(f"📋 **Network**: Worked with {len(all_sds)} different Sports Directors in career")
 
         # Contract duration (if available from profile)
         if profile.get("contract_until"):
@@ -1056,6 +1074,50 @@ if st.session_state.coach_data:
         # Collect all network contacts
         network_contacts = []
 
+        # 0. Decision Makers (Hiring Managers, Sports Directors, Executives - from enriched data)
+        decision_makers_data = data.get("decision_makers")
+        if decision_makers_data:
+            # Hiring Managers (most important - who hired this coach)
+            for hm in decision_makers_data.get("hiring_managers", []):
+                network_contacts.append({
+                    "name": hm.get("name", ""),
+                    "role": f"🎯 {hm.get('role', 'Hiring Manager')}",
+                    "current_club": hm.get("club_name", ""),
+                    "connection": hm.get("notes", "Hired this coach"),
+                    "url": hm.get("url", ""),
+                    "category": "🎯 Hiring Managers",
+                    "category_order": 0,
+                    "strength": 150,
+                })
+
+            # Sports Directors worked with
+            for sd in decision_makers_data.get("sports_directors", []):
+                # Skip if already added as hiring manager
+                if sd.get("name") not in [hm.get("name") for hm in decision_makers_data.get("hiring_managers", [])]:
+                    network_contacts.append({
+                        "name": sd.get("name", ""),
+                        "role": sd.get("role", "Sports Director"),
+                        "current_club": sd.get("club_name", ""),
+                        "connection": f"At {sd.get('club_name', '')}",
+                        "url": sd.get("url", ""),
+                        "category": "Sports Directors",
+                        "category_order": 1,
+                        "strength": 100,
+                    })
+
+            # Executives (CEOs, Presidents)
+            for exec in decision_makers_data.get("executives", []) + decision_makers_data.get("presidents", []):
+                network_contacts.append({
+                    "name": exec.get("name", ""),
+                    "role": exec.get("role", "Executive"),
+                    "current_club": exec.get("club_name", ""),
+                    "connection": f"At {exec.get('club_name', '')}",
+                    "url": exec.get("url", ""),
+                    "category": "Executives",
+                    "category_order": 2,
+                    "strength": 80,
+                })
+
         # 1. Teammates who are now coaches/directors
         if teammates and teammates.get("all_teammates"):
             for tm in teammates["all_teammates"]:
@@ -1069,13 +1131,14 @@ if st.session_state.coach_data:
                         "connection": f"{tm.get('shared_matches', 0)} games",
                         "url": tm_url,
                         "category": "Former Teammates",
-                        "category_order": 1,
+                        "category_order": 3,
                         "strength": tm.get("shared_matches", 0),
                     })
 
         # 2. Companions (Sports Directors, Co-Trainers, Former Bosses)
+        # Only add if not already in decision_makers (avoid duplicates)
         companions_data = data.get("companions")
-        if companions_data:
+        if companions_data and not decision_makers_data:  # Fallback if decision_makers not available
             # Current SD
             current_sd = companions_data.get("current_sports_director")
             if current_sd:
@@ -1086,7 +1149,7 @@ if st.session_state.coach_data:
                     "connection": "Current",
                     "url": current_sd.get("url", ""),
                     "category": "Sports Directors",
-                    "category_order": 2,
+                    "category_order": 1,
                     "strength": 100,
                 })
 
@@ -1101,11 +1164,12 @@ if st.session_state.coach_data:
                     "connection": sd.get("club_name", ""),
                     "url": sd.get("url", ""),
                     "category": "Sports Directors",
-                    "category_order": 2,
+                    "category_order": 1,
                     "strength": 50,
                 })
 
-            # Former bosses
+        # Former bosses (always show - not duplicated in decision_makers)
+        if companions_data:
             for boss in companions_data.get("former_bosses", []):
                 network_contacts.append({
                     "name": boss.get("name", ""),
@@ -1114,7 +1178,7 @@ if st.session_state.coach_data:
                     "connection": boss.get("club_name", ""),
                     "url": boss.get("url", ""),
                     "category": "Former Bosses",
-                    "category_order": 3,
+                    "category_order": 4,
                     "strength": 75,
                 })
 
@@ -1127,22 +1191,23 @@ if st.session_state.coach_data:
                     "connection": "Current",
                     "url": ct.get("url", ""),
                     "category": "Assistant Coaches",
-                    "category_order": 4,
+                    "category_order": 5,
                     "strength": 90,
                 })
 
-            # Management contacts
-            for mgmt in companions_data.get("all_management", []):
-                network_contacts.append({
-                    "name": mgmt.get("name", ""),
-                    "role": mgmt.get("role", "Executive"),
-                    "current_club": mgmt.get("club_name", ""),
-                    "connection": mgmt.get("club_name", ""),
-                    "url": mgmt.get("url", ""),
-                    "category": "Management",
-                    "category_order": 5,
-                    "strength": 40,
-                })
+            # Management contacts (skip if already in decision_makers to avoid duplicates)
+            if not decision_makers_data:
+                for mgmt in companions_data.get("all_management", []):
+                    network_contacts.append({
+                        "name": mgmt.get("name", ""),
+                        "role": mgmt.get("role", "Executive"),
+                        "current_club": mgmt.get("club_name", ""),
+                        "connection": mgmt.get("club_name", ""),
+                        "url": mgmt.get("url", ""),
+                        "category": "Management",
+                        "category_order": 2,
+                        "strength": 40,
+                    })
 
         # 3. License cohort mates
         coach_name_for_cohort = profile.get("name", "")
