@@ -7022,5 +7022,45 @@
   },
   "teammates_enriched": true,
   "_preloaded_at": "2026-02-05T13:28:06.200514",
-  "_coach_name": "Alexander Blessin"
+  "_coach_name": "Alexander Blessin",
+  "decision_makers": {
+    "sports_directors": [],
+    "hiring_managers": [
+      {
+        "name": "Johannes Spors",
+        "role": "Sportdirektor",
+        "notes": "Hired Blessin at Genua 2022, previously worked together indirectly through RB network",
+        "connection_type": "hiring_manager",
+        "club_name": "Genua CFC",
+        "period": "2022",
+        "source": "manual_curated"
+      }
+    ],
+    "executives": [
+      {
+        "name": "Bart Verbruggen",
+        "role": "CEO",
+        "notes": "Union SG CEO during successful period",
+        "connection_type": "executive",
+        "club_name": "Union SG",
+        "period": "2023-2024",
+        "source": "manual_curated"
+      }
+    ],
+    "presidents": [],
+    "technical_directors": [],
+    "other": [
+      {
+        "name": "Alberto Zangrillo",
+        "role": "President",
+        "notes": "Club president during Blessin's tenure",
+        "connection_type": "board",
+        "club_name": "Genua CFC",
+        "period": "2022",
+        "source": "manual_curated"
+      }
+    ],
+    "total": 3,
+    "enriched_at": "2026-02-07T00:14:22.607987"
+  }
 }
