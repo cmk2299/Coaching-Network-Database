@@ -36,24 +36,30 @@ st.set_page_config(
     layout="wide"
 )
 
-# Custom CSS
+# Custom CSS with P1.3 Mobile Responsive + P2.2 Visual Hierarchy
 st.markdown("""
 <style>
+    /* Typography Hierarchy */
     .main-header {
         font-size: 2.5rem;
         font-weight: bold;
         margin-bottom: 0.5rem;
+        color: #1d3557;
     }
     .sub-header {
         color: #666;
         margin-bottom: 2rem;
+        font-size: 1.1rem;
     }
+
+    /* Enhanced Stat Cards */
     .stat-card {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         padding: 1.5rem;
         border-radius: 10px;
         color: white;
         text-align: center;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
     .stat-number {
         font-size: 2rem;
@@ -63,13 +69,21 @@ st.markdown("""
         font-size: 0.9rem;
         opacity: 0.9;
     }
+
+    /* Card Components */
     .teammate-card {
         background: #f8f9fa;
         padding: 1rem;
         border-radius: 8px;
         margin-bottom: 0.5rem;
         border-left: 4px solid #667eea;
+        transition: transform 0.2s;
     }
+    .teammate-card:hover {
+        transform: translateX(4px);
+    }
+
+    /* Badges */
     .coach-badge {
         background: #28a745;
         color: white;
@@ -77,6 +91,50 @@ st.markdown("""
         border-radius: 4px;
         font-size: 0.8rem;
         margin-left: 8px;
+    }
+    .insight-badge {
+        background: #e63946;
+        color: white;
+        padding: 4px 12px;
+        border-radius: 16px;
+        font-size: 0.85rem;
+        font-weight: 500;
+    }
+
+    /* Improved Spacing */
+    .block-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    div[data-testid="stExpander"] {
+        background: #f8f9fa;
+        border-radius: 8px;
+        border: 1px solid #e1e4e8;
+    }
+
+    /* Mobile Responsive (P1.3) */
+    @media (max-width: 768px) {
+        .main-header {
+            font-size: 1.8rem;
+        }
+        .stat-card {
+            padding: 1rem;
+        }
+        .stat-number {
+            font-size: 1.5rem;
+        }
+        div[data-testid="column"] {
+            min-width: 100% !important;
+            margin-bottom: 1rem;
+        }
+    }
+
+    /* Tab Improvements for Touch */
+    @media (max-width: 768px) {
+        button[data-baseweb="tab"] {
+            min-height: 48px;
+            padding: 12px 16px;
+        }
     }
 </style>
 """, unsafe_allow_html=True)
@@ -309,7 +367,13 @@ with st.sidebar:
     )
 
     if search_method == "Direct Search":
-        coach_name = st.text_input("Coach Name", placeholder="e.g. Alexander Blessin")
+        # P0.3: Better Search UX with examples
+        st.caption("💡 Try: **Xabi Alonso**, **Vincent Kompany**, **Nuri Şahin**")
+        coach_name = st.text_input(
+            "Coach Name",
+            placeholder="e.g. Alexander Blessin",
+            help="Enter coach name - autocomplete coming soon!"
+        )
         search_button = st.button("🔍 Search Coach", type="primary", use_container_width=True)
 
         if search_button and coach_name:
@@ -908,19 +972,67 @@ if st.session_state.coach_data:
         if link_parts:
             st.markdown(" &nbsp;|&nbsp; ".join(link_parts))
 
-    # Key Stats Row
+    # Key Stats Row with Context (P0.2)
     st.divider()
     stat_cols = st.columns(4)
 
     with stat_cols[0]:
         st.metric("🎮 Total Games", total_games)
     with stat_cols[1]:
-        st.metric("📊 Career PPG", f"{career_ppg:.2f}")
+        # Add context for PPG
+        ppg_context = ""
+        if career_ppg >= 2.0:
+            ppg_context = "⭐ Excellent"
+        elif career_ppg >= 1.6:
+            ppg_context = "📈 Above Average"
+        elif career_ppg >= 1.3:
+            ppg_context = "➡️ Average"
+        else:
+            ppg_context = "📉 Below Average"
+        st.metric("📊 Career PPG", f"{career_ppg:.2f}", delta=ppg_context)
     with stat_cols[2]:
         st.metric("🏟️ Stations", stations_count)
     with stat_cols[3]:
         teammates_count = len(teammates.get('all_teammates', [])) if teammates else 0
-        st.metric("👥 Teammates", teammates_count)
+        # Add context for network size
+        network_context = "Large" if teammates_count > 100 else ("Medium" if teammates_count > 50 else "Small")
+        st.metric("👥 Teammates", teammates_count, delta=f"{network_context} Network")
+
+    # P1.2: Key Insights Section
+    st.divider()
+    with st.expander("💡 **Key Insights & Highlights**", expanded=True):
+        insights = []
+
+        # Career path insight
+        if players_used and players_used.get("stations"):
+            stations = players_used["stations"]
+            if len(stations) > 3:
+                first_club = stations[-1].get("club", "Unknown")
+                current_club = stations[0].get("club", profile.get("current_club", "Unknown"))
+                insights.append(f"📈 **Career Progression**: Started at {first_club}, now at {current_club} ({len(stations)} stations)")
+
+        # International experience
+        if players_used and players_used.get("stations"):
+            # Extract countries from club names (simplified)
+            insights.append(f"🌍 **Experience**: Coached at {stations_count} different clubs")
+
+        # Network connections
+        if teammates:
+            coaches_in_network = sum(1 for tm in teammates.get('all_teammates', []) if tm.get('is_coach'))
+            directors_in_network = sum(1 for tm in teammates.get('all_teammates', []) if tm.get('is_director'))
+            if coaches_in_network > 0 or directors_in_network > 0:
+                insights.append(f"🔗 **Network**: Connected to {coaches_in_network} current coaches, {directors_in_network} directors")
+
+        # Performance insight
+        if career_ppg >= 1.6:
+            insights.append(f"⭐ **Performance**: {career_ppg:.2f} PPG (Above league average of ~1.45)")
+
+        # Display insights
+        if insights:
+            for insight in insights:
+                st.markdown(f"• {insight}")
+        else:
+            st.info("Load full profile data to see insights")
 
     # Tabs for detailed info
     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["🕸️ Network", "📋 Career & Titles", "🏟️ Coaching Stations", "👥 Teammates", "⚽ Players Coached", "🤝 Companions"])
@@ -1040,6 +1152,23 @@ if st.session_state.coach_data:
             network_contacts.sort(key=lambda x: (x.get("category_order", 99), -x.get("strength", 0)))
 
             st.subheader("Professional Football Network")
+
+            # P2.1: Network Summary Stats
+            summary_cols = st.columns(4)
+            with summary_cols[0]:
+                total_contacts = len(network_contacts)
+                st.metric("🌐 Total Contacts", total_contacts)
+            with summary_cols[1]:
+                coaches_count = sum(1 for c in network_contacts if "Coach" in c.get("role", ""))
+                st.metric("🎯 Coaches", coaches_count)
+            with summary_cols[2]:
+                directors_count = sum(1 for c in network_contacts if "Director" in c.get("role", ""))
+                st.metric("📋 Directors", directors_count)
+            with summary_cols[3]:
+                unique_clubs = len(set(c.get("current_club", "") for c in network_contacts if c.get("current_club")))
+                st.metric("🏟️ Clubs", unique_clubs)
+
+            st.divider()
 
             # Count by category
             categories = {}
@@ -1358,6 +1487,42 @@ if st.session_state.coach_data:
 
         # Get coach name for session state keys
         coach_name = profile.get("name", "unknown")
+
+        # P1.1: Career Timeline Visualization
+        if players_used and players_used.get("stations"):
+            st.markdown("#### 📅 Career Timeline")
+            stations = players_used["stations"]
+            timeline_html = "<div style='padding: 1rem; background: #f8f9fa; border-radius: 8px; margin-bottom: 1rem;'>"
+
+            for i, station in enumerate(reversed(stations[:7])):  # Show last 7 stations chronologically
+                club = station.get("club", "Unknown")
+                role = station.get("role", "Trainer")
+                period = station.get("period", "")
+                games = station.get("games", 0)
+                ppg = station.get("ppg", 0)
+
+                # Color based on PPG
+                if ppg >= 2.0:
+                    color = "#28a745"  # Green
+                elif ppg >= 1.5:
+                    color = "#17a2b8"  # Blue
+                elif ppg >= 1.0:
+                    color = "#ffc107"  # Yellow
+                else:
+                    color = "#6c757d"  # Gray
+
+                is_current = i == len(stations[:7]) - 1
+                arrow = "→" if not is_current else "📍"
+                timeline_html += f"""
+                <div style='margin: 0.5rem 0; padding: 0.75rem; background: white; border-left: 4px solid {color}; border-radius: 4px;'>
+                    <div style='font-weight: bold; color: {color};'>{arrow} {club}</div>
+                    <div style='font-size: 0.9rem; color: #666;'>{role} {'(Current)' if is_current else f'• {period} yrs'} • {games} games • PPG: {ppg:.2f}</div>
+                </div>
+                """
+
+            timeline_html += "</div>"
+            st.markdown(timeline_html, unsafe_allow_html=True)
+            st.divider()
 
         col_career, col_titles = st.columns(2)
 
