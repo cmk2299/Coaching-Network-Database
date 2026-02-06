@@ -2,6 +2,7 @@
 
 # Dashboard
 streamlit>=1.30.0
+streamlit-agraph>=0.0.45
 
 # Web scraping
 requests>=2.31.0
