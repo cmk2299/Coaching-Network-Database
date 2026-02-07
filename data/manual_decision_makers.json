@@ -864,6 +864,51 @@
           "connection_type": "hiring_manager"
         }
       ]
+    },
+    {
+      "coach_name": "Uwe Rösler",
+      "club": "Wigan Athletic",
+      "period": "2013-2014",
+      "decision_makers": [
+        {
+          "name": "Dave Whelan",
+          "role": "Chairman",
+          "notes": "Appointed Rösler from Brentford in December 2013, praised his philosophy and ambition",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Uwe Rösler",
+      "club": "Fortuna Düsseldorf",
+      "period": "2020",
+      "decision_makers": [
+        {
+          "name": "Lutz Pfannenstiel",
+          "role": "Sportvorstand",
+          "notes": "Appointed Rösler to replace Friedhelm Funkel in January 2020, signed 1.5 year contract",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Uwe Rösler",
+      "club": "VfL Bochum",
+      "period": "2025-present",
+      "decision_makers": [
+        {
+          "name": "Ilja Kaenzig",
+          "role": "Geschäftsführer",
+          "notes": "CEO who appointed Rösler in October 2025 on contract until 2027",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Dirk Dufner",
+          "role": "Geschäftsführer Sport",
+          "notes": "Appointed as sporting director in March 2025, involved in Rösler hiring",
+          "connection_type": "sports_director"
+        }
+      ]
     }
   ],
   "sources": [
