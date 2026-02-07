@@ -3987,6 +3987,53 @@
     ]
   },
   "teammates_enriched": false,
-  "_preloaded_at": "2026-02-06T22:33:09.981935",
+  "decision_makers": {
+    "sports_directors": [],
+    "hiring_managers": [
+      {
+        "name": "Simon Rolfes",
+        "role": "Geschäftsführer Sport",
+        "notes": "Appointed Hjulmand to replace Erik ten Hag in September 2025",
+        "connection_type": "hiring_manager",
+        "club_name": "Bayer 04 Leverkusen",
+        "period": "2025-present",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Jan Laursen",
+        "role": "Director",
+        "notes": "Promoted Hjulmand from assistant to head coach in summer 2011, led to first Superliga title in 2012",
+        "connection_type": "hiring_manager",
+        "club_name": "FC Nordsjælland",
+        "period": "2011-2014",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Christian Heidel",
+        "role": "Geschäftsführer Sport",
+        "notes": "Appointed Hjulmand as Thomas Tuchel's successor on May 15, 2014, dismissed after less than a year",
+        "connection_type": "hiring_manager",
+        "club_name": "1. FSV Mainz 05",
+        "period": "2014-2015",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Peter Møller",
+        "role": "Director",
+        "notes": "DBU announced Hjulmand on four-year deal in June 2019 to start after Euro 2020",
+        "connection_type": "hiring_manager",
+        "club_name": "Denmark National Team",
+        "period": "2020-2025",
+        "source": "manual_curated"
+      }
+    ],
+    "executives": [],
+    "presidents": [],
+    "technical_directors": [],
+    "other": [],
+    "total": 4,
+    "enriched_at": "2026-02-07T13:07:43.516945"
+  },
+  "_preloaded_at": "2026-02-07T13:07:43.517711",
   "_coach_name": "Kasper Hjulmand"
 }

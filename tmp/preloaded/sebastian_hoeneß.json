@@ -1078,9 +1078,7 @@
         "teams_together": 1,
         "total_minutes": 61,
         "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/nderim-nedzipi/profil/trainer/105698",
-        "current_club": "FC Ballkani",
-        "current_role": "Sportdirektor"
+        "trainer_url": "https://www.transfermarkt.de/nderim-nedzipi/profil/trainer/105698"
       },
       {
         "name": "André Thomas",
@@ -1612,9 +1610,7 @@
         "teams_together": 1,
         "total_minutes": 52,
         "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/kai-hesse/profil/trainer/73295",
-        "current_club": "RB Salzburg",
-        "current_role": "Co-Trainer"
+        "trainer_url": "https://www.transfermarkt.de/kai-hesse/profil/trainer/73295"
       },
       {
         "name": "Gianmario Strambace",
@@ -1785,11 +1781,7 @@
         "url": "https://www.transfermarkt.de/pascal-bieler/profil/spieler/19358",
         "shared_matches": 52,
         "teams_together": 1,
-        "total_minutes": 3205,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/pascal-bieler/profil/trainer/50547",
-        "current_club": "SV Elversberg",
-        "current_role": "Co-Trainer"
+        "total_minutes": 3205
       },
       {
         "name": "Sofian Chahed",
@@ -1797,11 +1789,7 @@
         "url": "https://www.transfermarkt.de/sofian-chahed/profil/spieler/3816",
         "shared_matches": 52,
         "teams_together": 1,
-        "total_minutes": 2872,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/sofian-chahed/profil/trainer/41791",
-        "current_club": "Frauenfußball",
-        "current_role": "Sportlicher Leiter"
+        "total_minutes": 2872
       },
       {
         "name": "Ante Covic",
@@ -1809,11 +1797,7 @@
         "url": "https://www.transfermarkt.de/ante-covic/profil/spieler/621",
         "shared_matches": 51,
         "teams_together": 1,
-        "total_minutes": 2777,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/ante-covic/profil/trainer/14175",
-        "current_club": "Hertha BSC U19",
-        "current_role": "Trainer"
+        "total_minutes": 2777
       },
       {
         "name": "Sven Kretschmer",
@@ -1821,11 +1805,7 @@
         "url": "https://www.transfermarkt.de/sven-kretschmer/profil/spieler/9345",
         "shared_matches": 50,
         "teams_together": 1,
-        "total_minutes": 2986,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/sven-kretschmer/profil/trainer/1114",
-        "current_club": "Hertha BSC",
-        "current_role": "Chefscout"
+        "total_minutes": 2986
       },
       {
         "name": "Olaf Kapagiannidis",
@@ -1833,11 +1813,7 @@
         "url": "https://www.transfermarkt.de/olaf-kapagiannidis/profil/spieler/6348",
         "shared_matches": 47,
         "teams_together": 1,
-        "total_minutes": 2912,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/olaf-kapagiannidis/profil/trainer/97530",
-        "current_club": "Hertha BSC",
-        "current_role": "Nachwuchsscout"
+        "total_minutes": 2912
       },
       {
         "name": "Andreas Schmidt",
@@ -1845,11 +1821,7 @@
         "url": "https://www.transfermarkt.de/andreas-schmidt/profil/spieler/353",
         "shared_matches": 44,
         "teams_together": 1,
-        "total_minutes": 2493,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/andreas-schmidt/profil/trainer/18099",
-        "current_club": "Hertha BSC",
-        "current_role": "Aufsichtsratsmitglied"
+        "total_minutes": 2493
       },
       {
         "name": "Christian Schalle",
@@ -1865,11 +1837,7 @@
         "url": "https://www.transfermarkt.de/sejad-salihovic/profil/spieler/9354",
         "shared_matches": 43,
         "teams_together": 3,
-        "total_minutes": 2541,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/sejad-salihovic/profil/trainer/85106",
-        "current_club": "Bosnien U21",
-        "current_role": "Co-Trainer"
+        "total_minutes": 2541
       },
       {
         "name": "Tomasz Kuszczak",
@@ -1877,11 +1845,7 @@
         "url": "https://www.transfermarkt.de/tomasz-kuszczak/profil/spieler/1320",
         "shared_matches": 41,
         "teams_together": 1,
-        "total_minutes": 2404,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/tomasz-kuszczak/profil/trainer/120843",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:TorwarttrainerPolenAmtsende:18.03.2024"
+        "total_minutes": 2404
       },
       {
         "name": "Amadeus Wallschläger",
@@ -1897,11 +1861,7 @@
         "url": "https://www.transfermarkt.de/robert-muller/profil/spieler/16917",
         "shared_matches": 37,
         "teams_together": 1,
-        "total_minutes": 2240,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/robert-muller/profil/trainer/149522",
-        "current_club": "Siedenbollentin",
-        "current_role": "Co-Trainer Analyse"
+        "total_minutes": 2240
       },
       {
         "name": "David Krecidlo",
@@ -1909,11 +1869,7 @@
         "url": "https://www.transfermarkt.de/david-krecidlo/profil/spieler/9346",
         "shared_matches": 37,
         "teams_together": 1,
-        "total_minutes": 2058,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/david-krecidlo/profil/trainer/22057",
-        "current_club": "VfB Stuttgart",
-        "current_role": "Co-Trainer"
+        "total_minutes": 2058
       },
       {
         "name": "Michael Steiner",
@@ -1921,11 +1877,7 @@
         "url": "https://www.transfermarkt.de/michael-steiner/profil/spieler/9358",
         "shared_matches": 35,
         "teams_together": 1,
-        "total_minutes": 2392,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/michael-steiner/profil/trainer/146126",
-        "current_club": "Altglienicke",
-        "current_role": "Sportlicher Leiter"
+        "total_minutes": 2392
       },
       {
         "name": "Sascha Bigalke",
@@ -1933,11 +1885,7 @@
         "url": "https://www.transfermarkt.de/sascha-bigalke/profil/spieler/44298",
         "shared_matches": 33,
         "teams_together": 1,
-        "total_minutes": 2171,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/sascha-bigalke/profil/trainer/92408",
-        "current_club": "1.FC Köln",
-        "current_role": "Verbindungstrainer"
+        "total_minutes": 2171
       },
       {
         "name": "Ibrahima Traoré",
@@ -1953,11 +1901,7 @@
         "url": "https://www.transfermarkt.de/ashkan-dejagah/profil/spieler/13979",
         "shared_matches": 31,
         "teams_together": 1,
-        "total_minutes": 1742,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/ashkan-dejagah/profil/trainer/145948",
-        "current_club": "Lusail SC",
-        "current_role": "Co-Trainer"
+        "total_minutes": 1742
       },
       {
         "name": "Malick Bolivard",
@@ -1981,11 +1925,7 @@
         "url": "https://www.transfermarkt.de/patrick-ebert/profil/spieler/32622",
         "shared_matches": 30,
         "teams_together": 1,
-        "total_minutes": 1755,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/patrick-ebert/profil/trainer/116822",
-        "current_club": "Hertha BSC",
-        "current_role": "Co-Trainer"
+        "total_minutes": 1755
       }
     ],
     "_cached_at": "2026-02-06T22:33:48.809813"
@@ -5400,6 +5340,54 @@
     ]
   },
   "teammates_enriched": true,
-  "_preloaded_at": "2026-02-06T23:06:51.578438",
+  "decision_makers": {
+    "sports_directors": [],
+    "hiring_managers": [
+      {
+        "name": "Fabian Wohlgemuth",
+        "role": "Sportdirektor",
+        "notes": "Promoted Hoeneß from interim to permanent head coach",
+        "connection_type": "hiring_manager",
+        "club_name": "VfB Stuttgart",
+        "period": "2023-present",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Alexander Rosen",
+        "role": "Sportdirektor",
+        "notes": "Director of football who appointed Hoeneß from Bayern Munich II in July 2020",
+        "connection_type": "hiring_manager",
+        "club_name": "TSG Hoffenheim",
+        "period": "2020-2023",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Jochen Sauer",
+        "role": "Campus Director",
+        "notes": "Appointed Hoeneß as U19 head coach in July 2017 from RB Leipzig U17",
+        "connection_type": "hiring_manager",
+        "club_name": "FC Bayern München U19",
+        "period": "2017-2019",
+        "source": "manual_curated"
+      }
+    ],
+    "executives": [
+      {
+        "name": "Alexander Wehrle",
+        "role": "Vorstandsvorsitzender",
+        "notes": "Stuttgart CEO",
+        "connection_type": "executive",
+        "club_name": "VfB Stuttgart",
+        "period": "2023-present",
+        "source": "manual_curated"
+      }
+    ],
+    "presidents": [],
+    "technical_directors": [],
+    "other": [],
+    "total": 4,
+    "enriched_at": "2026-02-07T13:23:04.335766"
+  },
+  "_preloaded_at": "2026-02-07T13:23:04.336625",
   "_coach_name": "Sebastian Hoeneß"
 }

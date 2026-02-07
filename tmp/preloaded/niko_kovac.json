@@ -3757,11 +3757,7 @@
         "url": "https://www.transfermarkt.de/robert-kovac/profil/spieler/75",
         "shared_matches": 151,
         "teams_together": 3,
-        "total_minutes": 8929,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/robert-kovac/profil/trainer/27509",
-        "current_club": "Bor. Dortmund",
-        "current_role": "Co-Trainer"
+        "total_minutes": 8929
       },
       {
         "name": "Carsten Ramelow",
@@ -3769,11 +3765,7 @@
         "url": "https://www.transfermarkt.de/carsten-ramelow/profil/spieler/86",
         "shared_matches": 149,
         "teams_together": 2,
-        "total_minutes": 9979,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/carsten-ramelow/profil/trainer/51805",
-        "current_club": "Vereinslos",
-        "current_role": ""
+        "total_minutes": 9979
       },
       {
         "name": "Josip Simunic",
@@ -3781,11 +3773,7 @@
         "url": "https://www.transfermarkt.de/josip-simunic/profil/spieler/354",
         "shared_matches": 126,
         "teams_together": 3,
-        "total_minutes": 9471,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/josip-simunic/profil/trainer/69509",
-        "current_club": "NK Rudes",
-        "current_role": "Präsident"
+        "total_minutes": 9471
       },
       {
         "name": "Christian Fiedler",
@@ -3793,11 +3781,7 @@
         "url": "https://www.transfermarkt.de/christian-fiedler/profil/spieler/339",
         "shared_matches": 123,
         "teams_together": 1,
-        "total_minutes": 10010,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/christian-fiedler/profil/trainer/9895",
-        "current_club": "Greuther Fürth",
-        "current_role": "Leiter der Nachwuchsabteilung"
+        "total_minutes": 10010
       },
       {
         "name": "Mike Lünsmann",
@@ -3805,11 +3789,7 @@
         "url": "https://www.transfermarkt.de/mike-lunsmann/profil/spieler/5263",
         "shared_matches": 103,
         "teams_together": 1,
-        "total_minutes": 7173,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/mike-lunsmann/profil/trainer/37390",
-        "current_club": "Hertha BSC Jgd.",
-        "current_role": "Spielbetrieb"
+        "total_minutes": 7173
       },
       {
         "name": "Miroslav Tanjga",
@@ -3817,11 +3797,7 @@
         "url": "https://www.transfermarkt.de/miroslav-tanjga/profil/spieler/25352",
         "shared_matches": 91,
         "teams_together": 1,
-        "total_minutes": 7500,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/miroslav-tanjga/profil/trainer/48888",
-        "current_club": "Vojvodina",
-        "current_role": "Trainer"
+        "total_minutes": 7500
       },
       {
         "name": "Erik Meijer",
@@ -3829,11 +3805,7 @@
         "url": "https://www.transfermarkt.de/erik-meijer/profil/spieler/710",
         "shared_matches": 84,
         "teams_together": 2,
-        "total_minutes": 4140,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/erik-meijer/profil/trainer/3872",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:Co-TrainerMVV MaastrichtAmtsende:30.06.2019"
+        "total_minutes": 4140
       },
       {
         "name": "Oliver Schmidt",
@@ -3841,11 +3813,7 @@
         "url": "https://www.transfermarkt.de/oliver-schmidt/profil/spieler/2487",
         "shared_matches": 80,
         "teams_together": 1,
-        "total_minutes": 6650,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/andreas-schmidt/profil/trainer/18099",
-        "current_club": "Hertha BSC",
-        "current_role": "Aufsichtsratsmitglied"
+        "total_minutes": 6650
       },
       {
         "name": "Alexander Zickler",
@@ -3853,11 +3821,7 @@
         "url": "https://www.transfermarkt.de/alexander-zickler/profil/spieler/227",
         "shared_matches": 79,
         "teams_together": 2,
-        "total_minutes": 5445,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/alexander-zickler/profil/trainer/26916",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:Co-TrainerRB LeipzigAmtsende:30.03.2025"
+        "total_minutes": 5445
       },
       {
         "name": "Markus Happe",
@@ -3881,11 +3845,7 @@
         "url": "https://www.transfermarkt.de/jens-nowotny/profil/spieler/82",
         "shared_matches": 77,
         "teams_together": 1,
-        "total_minutes": 4093,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/jens-nowotny/profil/trainer/94633",
-        "current_club": "Deutschland U17",
-        "current_role": "Trainerund weitere Tätigkeiten"
+        "total_minutes": 4093
       },
       {
         "name": "Marco Zernicke",
@@ -3901,11 +3861,7 @@
         "url": "https://www.transfermarkt.de/ulf-kirsten/profil/spieler/74",
         "shared_matches": 76,
         "teams_together": 1,
-        "total_minutes": 4061,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/ulf-kirsten/profil/trainer/1304",
-        "current_club": "B. Leverkusen",
-        "current_role": "Klubrepräsentantund weitere Tätigkeiten"
+        "total_minutes": 4061
       },
       {
         "name": "Timo Ochs",
@@ -3921,11 +3877,7 @@
         "url": "https://www.transfermarkt.de/arne-friedrich/profil/spieler/698",
         "shared_matches": 74,
         "teams_together": 1,
-        "total_minutes": 5942,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/arne-friedrich/profil/trainer/36355",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:SportdirektorHertha BSCAmtsende:07.03.2022"
+        "total_minutes": 5942
       },
       {
         "name": "Jan Heintze",
@@ -3941,11 +3893,7 @@
         "url": "https://www.transfermarkt.de/hans-jorg-butt/profil/spieler/294",
         "shared_matches": 72,
         "teams_together": 1,
-        "total_minutes": 6188,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/hans-jorg-butt/profil/trainer/24918",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:Leiter der NachwuchsabteilungFC Bayern MünchenAmtsende:07.08.2012"
+        "total_minutes": 6188
       },
       {
         "name": "Marcelinho Paraíba",
@@ -3953,11 +3901,7 @@
         "url": "https://www.transfermarkt.de/marcelinho-paraiba/profil/spieler/953",
         "shared_matches": 71,
         "teams_together": 1,
-        "total_minutes": 5669,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/marcelinho-paraiba/profil/trainer/84089",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:TrainerNacional AC (PB)Amtsende:24.02.2025"
+        "total_minutes": 5669
       },
       {
         "name": "Michael Hartmann",
@@ -3965,11 +3909,7 @@
         "url": "https://www.transfermarkt.de/michael-hartmann/profil/spieler/340",
         "shared_matches": 70,
         "teams_together": 1,
-        "total_minutes": 4766,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/michael-hartmann/profil/trainer/7400",
-        "current_club": "Hertha BSC",
-        "current_role": "Verbindungstrainer"
+        "total_minutes": 4766
       }
     ],
     "_cached_at": "2026-02-06T21:49:17.899825"
@@ -9005,6 +8945,81 @@
     ]
   },
   "teammates_enriched": true,
-  "_preloaded_at": "2026-02-06T22:25:19.421161",
+  "decision_makers": {
+    "sports_directors": [
+      {
+        "name": "Sebastian Kehl",
+        "role": "Sportdirektor",
+        "notes": "Works with Ricken, endorsed Kovac appointment",
+        "connection_type": "sports_director",
+        "club_name": "Borussia Dortmund",
+        "period": "2025-present",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Marcel Schäfer",
+        "role": "Geschäftsführer Sport",
+        "notes": "Became managing director for sport in February 2023, worked with Kovac",
+        "connection_type": "sports_director",
+        "club_name": "VfL Wolfsburg",
+        "period": "2022-2024",
+        "source": "manual_curated"
+      }
+    ],
+    "hiring_managers": [
+      {
+        "name": "Lars Ricken",
+        "role": "Geschäftsführer Sport",
+        "notes": "Hired Kovac to replace Nuri Şahin in January 2025",
+        "connection_type": "hiring_manager",
+        "club_name": "Borussia Dortmund",
+        "period": "2025-present",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Fredi Bobic",
+        "role": "Sportvorstand",
+        "notes": "Sporting director during Kovac's appointment at Frankfurt in March 2016",
+        "connection_type": "hiring_manager",
+        "club_name": "Eintracht Frankfurt",
+        "period": "2016-2018",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Hasan Salihamidzic",
+        "role": "Sportdirektor",
+        "notes": "Sporting director who announced Kovac's appointment on three-year contract starting July 1, 2018",
+        "connection_type": "hiring_manager",
+        "club_name": "Bayern München",
+        "period": "2018-2019",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Paul Mitchell",
+        "role": "Sporting Director",
+        "notes": "Sporting director at Monaco when Kovac was appointed in July 2020",
+        "connection_type": "hiring_manager",
+        "club_name": "AS Monaco",
+        "period": "2020-2022",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Jörg Schmadtke",
+        "role": "Geschäftsführer Sport",
+        "notes": "Sporting director who appointed Kovac on May 24, 2022",
+        "connection_type": "hiring_manager",
+        "club_name": "VfL Wolfsburg",
+        "period": "2022-2024",
+        "source": "manual_curated"
+      }
+    ],
+    "executives": [],
+    "presidents": [],
+    "technical_directors": [],
+    "other": [],
+    "total": 7,
+    "enriched_at": "2026-02-07T13:09:32.361723"
+  },
+  "_preloaded_at": "2026-02-07T13:09:32.362490",
   "_coach_name": "Niko Kovac"
 }

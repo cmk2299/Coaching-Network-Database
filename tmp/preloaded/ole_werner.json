@@ -815,11 +815,7 @@
         "url": "https://www.transfermarkt.de/tolgahan-kilit/profil/spieler/16548",
         "shared_matches": 15,
         "teams_together": 1,
-        "total_minutes": 968,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/tolgahan-kilit/profil/trainer/108110",
-        "current_club": "BJ Guoan",
-        "current_role": "Kaderplanerund weitere Tätigkeiten"
+        "total_minutes": 968
       },
       {
         "name": "Shpend Meshekrani",
@@ -851,11 +847,7 @@
         "url": "https://www.transfermarkt.de/robin-ziesecke/profil/spieler/80543",
         "shared_matches": 13,
         "teams_together": 1,
-        "total_minutes": 1079,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/robin-ziesecke/profil/trainer/100329",
-        "current_club": "FC Kilia Kiel",
-        "current_role": "Co-Trainer"
+        "total_minutes": 1079
       },
       {
         "name": "Philip Timm",
@@ -887,11 +879,7 @@
         "url": "https://www.transfermarkt.de/arend-muller/profil/spieler/33274",
         "shared_matches": 13,
         "teams_together": 1,
-        "total_minutes": 724,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/arend-muller/profil/trainer/148992",
-        "current_club": "Hohenwestedt",
-        "current_role": "Trainer"
+        "total_minutes": 724
       },
       {
         "name": "Björn Duggen",
@@ -923,11 +911,7 @@
         "url": "https://www.transfermarkt.de/liridon-imeri/profil/spieler/47709",
         "shared_matches": 12,
         "teams_together": 1,
-        "total_minutes": 474,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/liridon-imeri/profil/trainer/47703",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:TrainerVfR NeumünsterAmtsende:08.12.2024"
+        "total_minutes": 474
       },
       {
         "name": "Björn Kastner",
@@ -4594,6 +4578,54 @@
     ]
   },
   "teammates_enriched": true,
-  "_preloaded_at": "2026-02-06T22:32:11.496422",
+  "decision_makers": {
+    "sports_directors": [],
+    "hiring_managers": [
+      {
+        "name": "Clemens Fritz",
+        "role": "Leiter Profifußball",
+        "notes": "Hired Werner from Holstein Kiel in 2022",
+        "connection_type": "hiring_manager",
+        "club_name": "Werder Bremen",
+        "period": "2022-present",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Marcel Schäfer",
+        "role": "Managing Director",
+        "notes": "Hired Werner from Werder Bremen in June 2025",
+        "connection_type": "hiring_manager",
+        "club_name": "RB Leipzig",
+        "period": "2025-present",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Fabian Wohlgemuth",
+        "role": "Geschäftsführer Sport",
+        "notes": "Sporting director who permanently appointed Werner on October 24, 2019 after interim spell",
+        "connection_type": "hiring_manager",
+        "club_name": "Holstein Kiel",
+        "period": "2019-2021",
+        "source": "manual_curated"
+      }
+    ],
+    "executives": [],
+    "presidents": [],
+    "technical_directors": [
+      {
+        "name": "Peter Niemeyer",
+        "role": "Technischer Direktor",
+        "notes": "Former Werder player, technical director",
+        "connection_type": "technical_director",
+        "club_name": "Werder Bremen",
+        "period": "2022-present",
+        "source": "manual_curated"
+      }
+    ],
+    "other": [],
+    "total": 4,
+    "enriched_at": "2026-02-07T13:07:23.014160"
+  },
+  "_preloaded_at": "2026-02-07T13:07:23.016874",
   "_coach_name": "Ole Werner"
 }

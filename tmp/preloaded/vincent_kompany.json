@@ -1606,9 +1606,7 @@
         "teams_together": 1,
         "total_minutes": 680,
         "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/darius-vassell/profil/trainer/134278",
-        "current_club": "England U18",
-        "current_role": "Co-Trainerund weitere Tätigkeiten"
+        "trainer_url": "https://www.transfermarkt.de/darius-vassell/profil/trainer/134278"
       },
       {
         "name": "Jack Rodwell",
@@ -2842,9 +2840,7 @@
         "teams_together": 1,
         "total_minutes": 20,
         "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/ryan-mcgivern/profil/trainer/145747",
-        "current_club": "Portadown U21",
-        "current_role": "Co-Trainer"
+        "trainer_url": "https://www.transfermarkt.de/ryan-mcgivern/profil/trainer/145747"
       },
       {
         "name": "Leander Dendoncker",
@@ -5562,6 +5558,63 @@
     ]
   },
   "teammates_enriched": true,
-  "_preloaded_at": "2026-02-06T21:35:54.315350",
+  "decision_makers": {
+    "sports_directors": [
+      {
+        "name": "Christoph Freund",
+        "role": "Sportdirektor",
+        "notes": "Former RB Salzburg SD, works with Eberl at Bayern",
+        "connection_type": "sports_director",
+        "club_name": "Bayern München",
+        "period": "2024-present",
+        "source": "manual_curated"
+      }
+    ],
+    "hiring_managers": [
+      {
+        "name": "Peter Verbeke",
+        "role": "Sporting Director",
+        "notes": "Promoted Kompany from player-manager to full head coach in 2020",
+        "connection_type": "hiring_manager",
+        "club_name": "Anderlecht",
+        "period": "2020-2022",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Alan Pace",
+        "role": "Chairman",
+        "notes": "Hired Kompany from Anderlecht after Burnley's relegation",
+        "connection_type": "hiring_manager",
+        "club_name": "Burnley",
+        "period": "2022-2024",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Max Eberl",
+        "role": "Sportvorstand",
+        "notes": "Hired Kompany from Burnley, previously at RB Leipzig and Gladbach",
+        "connection_type": "hiring_manager",
+        "club_name": "Bayern München",
+        "period": "2024-present",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Michael Verschueren",
+        "role": "General Manager",
+        "notes": "Appointed Kompany as player-manager on May 19, 2019",
+        "connection_type": "hiring_manager",
+        "club_name": "RSC Anderlecht",
+        "period": "2019-2020 (Player-Manager)",
+        "source": "manual_curated"
+      }
+    ],
+    "executives": [],
+    "presidents": [],
+    "technical_directors": [],
+    "other": [],
+    "total": 5,
+    "enriched_at": "2026-02-07T12:15:15.622794"
+  },
+  "_preloaded_at": "2026-02-07T12:15:15.623528",
   "_coach_name": "Vincent Kompany"
 }

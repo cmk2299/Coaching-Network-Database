@@ -3683,11 +3683,7 @@
         "url": "https://www.transfermarkt.de/luis-garcia/profil/spieler/8006",
         "shared_matches": 88,
         "teams_together": 2,
-        "total_minutes": 5496,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/luis-garcia/profil/trainer/72702",
-        "current_club": "UD Las Palmas",
-        "current_role": "Trainer"
+        "total_minutes": 5496
       },
       {
         "name": "Dani Jarque",
@@ -3703,11 +3699,7 @@
         "url": "https://www.transfermarkt.de/moises-hurtado/profil/spieler/15764",
         "shared_matches": 83,
         "teams_together": 2,
-        "total_minutes": 5236,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/moises-hurtado/profil/trainer/64905",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:Co-TrainerCD LugoAmtsende:30.06.2023"
+        "total_minutes": 5236
       },
       {
         "name": "Selçuk İnan",
@@ -3715,11 +3707,7 @@
         "url": "https://www.transfermarkt.de/selcuk-inan/profil/spieler/35026",
         "shared_matches": 73,
         "teams_together": 1,
-        "total_minutes": 5179,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/selcuk-inan/profil/trainer/83535",
-        "current_club": "Kocaelispor",
-        "current_role": "Trainer"
+        "total_minutes": 5179
       },
       {
         "name": "Walter Pandiani",
@@ -3727,11 +3715,7 @@
         "url": "https://www.transfermarkt.de/walter-pandiani/profil/spieler/7691",
         "shared_matches": 73,
         "teams_together": 2,
-        "total_minutes": 3957,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/walter-pandiani/profil/trainer/70806",
-        "current_club": "Palencia CF",
-        "current_role": "Trainer"
+        "total_minutes": 3957
       },
       {
         "name": "Marc Torrejón",
@@ -3771,11 +3755,7 @@
         "url": "https://www.transfermarkt.de/pablo-zabaleta/profil/spieler/20007",
         "shared_matches": 65,
         "teams_together": 1,
-        "total_minutes": 4138,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/pablo-zabaleta/profil/trainer/111613",
-        "current_club": "Albanien",
-        "current_role": "Co-Trainer"
+        "total_minutes": 4138
       },
       {
         "name": "Raúl Tamudo",
@@ -3783,11 +3763,7 @@
         "url": "https://www.transfermarkt.de/raul-tamudo/profil/spieler/7899",
         "shared_matches": 65,
         "teams_together": 2,
-        "total_minutes": 3769,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/raul-tamudo/profil/trainer/98108",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:Leitender Assistent des Geschäftsführers SportEspanyol BarcelonaAmtsende:30.06.2025"
+        "total_minutes": 3769
       },
       {
         "name": "Ulrich Ramé",
@@ -3795,11 +3771,7 @@
         "url": "https://www.transfermarkt.de/ulrich-rame/profil/spieler/5364",
         "shared_matches": 64,
         "teams_together": 1,
-        "total_minutes": 4834,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/ulrich-rame/profil/trainer/46039",
-        "current_club": "Frauenfußball",
-        "current_role": "Teammanager"
+        "total_minutes": 4834
       },
       {
         "name": "Pepe Reina",
@@ -3807,11 +3779,7 @@
         "url": "https://www.transfermarkt.de/pepe-reina/profil/spieler/7825",
         "shared_matches": 64,
         "teams_together": 3,
-        "total_minutes": 3945,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/pepe-reina/profil/trainer/143300",
-        "current_club": "Villarreal U19",
-        "current_role": "Trainerund weitere Tätigkeiten"
+        "total_minutes": 3945
       },
       {
         "name": "Ariel Ibagaza",
@@ -3819,11 +3787,7 @@
         "url": "https://www.transfermarkt.de/ariel-ibagaza/profil/spieler/7682",
         "shared_matches": 59,
         "teams_together": 2,
-        "total_minutes": 4047,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/ariel-ibagaza/profil/trainer/48625",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:TrainerOlympiakos Piräus BAmtsende:30.06.2024"
+        "total_minutes": 4047
       },
       {
         "name": "Emmanuel Eboué",
@@ -3871,11 +3835,7 @@
         "url": "https://www.transfermarkt.de/eduardo-costa/profil/spieler/5374",
         "shared_matches": 53,
         "teams_together": 2,
-        "total_minutes": 2964,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/eduardo-costa/profil/trainer/112772",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:TrainerAtlético Catarinense (SC)Amtsende:13.02.2023"
+        "total_minutes": 2964
       }
     ],
     "_cached_at": "2026-02-06T23:08:10.227690"
@@ -6470,6 +6430,73 @@
     ]
   },
   "teammates_enriched": true,
-  "_preloaded_at": "2026-02-06T23:46:32.403338",
+  "decision_makers": {
+    "sports_directors": [
+      {
+        "name": "Philipp Reschke",
+        "role": "Sportdirektor",
+        "notes": "Works alongside Krösche in Frankfurt management",
+        "connection_type": "sports_director",
+        "club_name": "Eintracht Frankfurt",
+        "period": "2024-2025",
+        "source": "manual_curated"
+      }
+    ],
+    "hiring_managers": [
+      {
+        "name": "Markus Krösche",
+        "role": "Sportvorstand",
+        "notes": "Hired Riera as Frankfurt head coach in 2024",
+        "connection_type": "hiring_manager",
+        "club_name": "Eintracht Frankfurt",
+        "period": "2024-2025",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Milan Mandarić",
+        "role": "President",
+        "notes": "Appointed Riera as manager on July 4, 2022, first managerial position. Won double in first season",
+        "connection_type": "hiring_manager",
+        "club_name": "Olimpija Ljubljana",
+        "period": "2022-2023",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Valeriy Kolotilo",
+        "role": "President",
+        "notes": "Appointed Riera on July 20, 2023, left with team top of table on Oct 11",
+        "connection_type": "hiring_manager",
+        "club_name": "NK Celje",
+        "period": "2023",
+        "source": "manual_curated"
+      },
+      {
+        "name": "Gérard López",
+        "role": "Owner/President",
+        "notes": "Appointed Riera as manager on October 12, 2023 on 1.5-year deal, club declared bankruptcy end of season",
+        "connection_type": "hiring_manager",
+        "club_name": "FC Girondins de Bordeaux",
+        "period": "2023-2024",
+        "source": "manual_curated"
+      }
+    ],
+    "executives": [],
+    "presidents": [],
+    "technical_directors": [],
+    "other": [
+      {
+        "name": "Fatih Terim",
+        "role": "Head Coach",
+        "notes": "Appointed Riera as assistant coach in August 2020 at Galatasaray",
+        "connection_type": "mentor",
+        "club_name": "Galatasaray",
+        "period": "2020-2022",
+        "source": "manual_curated"
+      }
+    ],
+    "total": 6,
+    "enriched_at": "2026-02-07T13:59:07.174054"
+  },
+  "_preloaded_at": "2026-02-07T13:59:07.174813",
   "_coach_name": "Albert Riera"
 }
