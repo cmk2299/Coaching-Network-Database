@@ -16,6 +16,13 @@ EXEC_DIR = Path(__file__).resolve().parent.parent / "execution"
 sys.path.insert(0, str(EXEC_DIR))
 
 import streamlit as st
+
+# Force cache clear on startup to ensure fresh data after deployment
+# This ensures Decision Makers data is loaded after GitHub updates
+if 'cache_cleared' not in st.session_state:
+    st.cache_data.clear()
+    st.session_state.cache_cleared = True
+
 from scrape_transfermarkt import scrape_coach, search_coach
 from scrape_teammates import scrape_teammates, enrich_teammates_with_current_roles
 from scrape_players_used import scrape_players_used
