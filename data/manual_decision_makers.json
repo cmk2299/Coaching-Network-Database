@@ -34,6 +34,19 @@
       ]
     },
     {
+      "coach_name": "Alexander Blessin",
+      "club": "FC St. Pauli",
+      "period": "2024-present",
+      "decision_makers": [
+        {
+          "name": "Andreas Bornemann",
+          "role": "Sportdirektor",
+          "notes": "Hired Blessin to replace Hürzeler after promotion to Bundesliga",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
       "coach_name": "Albert Riera",
       "club": "Eintracht Frankfurt",
       "period": "2024-2025",
@@ -73,8 +86,34 @@
     },
     {
       "coach_name": "Vincent Kompany",
+      "club": "Anderlecht",
+      "period": "2020-2022",
+      "decision_makers": [
+        {
+          "name": "Peter Verbeke",
+          "role": "Sporting Director",
+          "notes": "Promoted Kompany from player-manager to full head coach in 2020",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Vincent Kompany",
+      "club": "Burnley",
+      "period": "2022-2024",
+      "decision_makers": [
+        {
+          "name": "Alan Pace",
+          "role": "Chairman",
+          "notes": "Hired Kompany from Anderlecht after Burnley's relegation",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Vincent Kompany",
       "club": "Bayern München",
-      "period": "2024-2025",
+      "period": "2024-present",
       "decision_makers": [
         {
           "name": "Max Eberl",
@@ -87,6 +126,19 @@
           "role": "Sportdirektor",
           "notes": "Former RB Salzburg SD, works with Eberl at Bayern",
           "connection_type": "sports_director"
+        }
+      ]
+    },
+    {
+      "coach_name": "Nuri Şahin",
+      "club": "Antalyaspor",
+      "period": "2021-2023",
+      "decision_makers": [
+        {
+          "name": "Ali Şafak Öztürk",
+          "role": "President",
+          "notes": "Appointed Şahin as head coach at age 33",
+          "connection_type": "hiring_manager"
         }
       ]
     },
@@ -184,6 +236,19 @@
           "connection_type": "technical_director"
         }
       ]
+    },
+    {
+      "coach_name": "Julian Schuster",
+      "club": "SC Freiburg",
+      "period": "2024-present",
+      "decision_makers": [
+        {
+          "name": "Jochen Saier",
+          "role": "Managing Director",
+          "notes": "Promoted Schuster from U23/assistant coach to succeed Christian Streich",
+          "connection_type": "hiring_manager"
+        }
+      ]
     }
   ],
   "sources": [
@@ -193,6 +258,6 @@
     "Club official announcements",
     "Industry knowledge and reporting"
   ],
-  "last_updated": "2026-02-06",
+  "last_updated": "2026-02-07",
   "notes": "This data supplements automatic scraping with verified hiring manager relationships"
 }
