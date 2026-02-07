@@ -2,9 +2,11 @@
 
 ## 🚀 Latest Deployment
 
-**Commit**: `10459f9`
-**Date**: 2026-02-07
-**Status**: ✅ Pushed to GitHub
+**Commit**: `936246a` - **CRITICAL FIX**
+**Date**: 2026-02-07 15:00 UTC
+**Status**: ✅ Pushed to GitHub - Full caches with decision_makers data
+**Previous**: `10459f9` (stub data only - didn't work)
+**Root Cause**: Cache files were regenerated locally but never fully committed to GitHub
 
 ---
 
@@ -51,10 +53,14 @@
 ## 🐛 Known Issues & Fixes
 
 ### Issue 1: "No decision maker data available"
-**Status**: ✅ FIXED
-**Cause**: Stale cache on Streamlit Cloud
-**Fix**: Updated all preloaded caches and pushed (commit 10459f9)
-**ETA**: Live in 2-3 minutes after deploy
+**Status**: ✅ FIXED (commit 936246a)
+**Root Cause**: Cache files regenerated locally but NEVER pushed to GitHub with full data
+  - Local caches: 234KB with all decision_makers
+  - GitHub caches: < 1KB stub data only
+  - Previous commits (10459f9, 213e5b5) deployed stub data → failed
+**Fix**: Pushed full 234KB cache files with all decision_makers data
+**Details**: See ROOT_CAUSE_ANALYSIS.md
+**ETA**: Live in 2-3 minutes after deploy (commit 936246a)
 
 ### Issue 2: Leverkusen logo missing
 **Status**: ✅ FIXED
@@ -113,5 +119,7 @@ After deployment, verify:
 
 ---
 
-**Last Updated**: 2026-02-07 14:30 UTC
-**Next Deployment**: Automatic on next git push
+**Last Updated**: 2026-02-07 15:00 UTC
+**Latest Commit**: 936246a (CRITICAL FIX - full caches pushed)
+**Expected Live**: ~15:05 UTC (2-3 min after push)
+**Next Steps**: Wait for deployment, hard refresh browser, verify Decision Makers appear
