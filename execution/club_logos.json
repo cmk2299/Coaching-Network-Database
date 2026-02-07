@@ -1,0 +1,97 @@
+{
+  "clubs": [
+    {
+      "name": "Bayern München",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/27.png",
+      "transfermarkt_id": 27
+    },
+    {
+      "name": "Borussia Dortmund",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/16.png",
+      "transfermarkt_id": 16
+    },
+    {
+      "name": "RB Leipzig",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/23826.png",
+      "transfermarkt_id": 23826
+    },
+    {
+      "name": "Bayer Leverkusen",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/15.png",
+      "transfermarkt_id": 15
+    },
+    {
+      "name": "VfB Stuttgart",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/79.png",
+      "transfermarkt_id": 79
+    },
+    {
+      "name": "Eintracht Frankfurt",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/24.png",
+      "transfermarkt_id": 24
+    },
+    {
+      "name": "VfL Wolfsburg",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/82.png",
+      "transfermarkt_id": 82
+    },
+    {
+      "name": "SC Freiburg",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/60.png",
+      "transfermarkt_id": 60
+    },
+    {
+      "name": "TSG Hoffenheim",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/533.png",
+      "transfermarkt_id": 533
+    },
+    {
+      "name": "Union Berlin",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/89.png",
+      "transfermarkt_id": 89
+    },
+    {
+      "name": "Werder Bremen",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/86.png",
+      "transfermarkt_id": 86
+    },
+    {
+      "name": "Borussia Mönchengladbach",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/18.png",
+      "transfermarkt_id": 18
+    },
+    {
+      "name": "Mainz 05",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/39.png",
+      "transfermarkt_id": 39
+    },
+    {
+      "name": "FC Augsburg",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/167.png",
+      "transfermarkt_id": 167
+    },
+    {
+      "name": "Heidenheim",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/2036.png",
+      "transfermarkt_id": 2036
+    },
+    {
+      "name": "FC St. Pauli",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/35.png",
+      "transfermarkt_id": 35
+    },
+    {
+      "name": "VfL Bochum",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/80.png",
+      "transfermarkt_id": 80
+    },
+    {
+      "name": "1. FC Köln",
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/3.png",
+      "transfermarkt_id": 3
+    }
+  ],
+  "source": "Transfermarkt CDN",
+  "pattern": "https://tmssl.akamaized.net/images/wappen/head/{CLUB_ID}.png",
+  "notes": "Logo URLs from Transfermarkt's Akamai CDN. Format: head = 150x150px. Can be changed to: tiny (25x25), small (40x40), medium (80x80), big (120x120), header (200x200)"
+}
