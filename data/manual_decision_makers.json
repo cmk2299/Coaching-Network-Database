@@ -339,6 +339,531 @@
           "connection_type": "hiring_manager"
         }
       ]
+    },
+    {
+      "coach_name": "Niko Kovac",
+      "club": "Eintracht Frankfurt",
+      "period": "2016-2018",
+      "decision_makers": [
+        {
+          "name": "Fredi Bobic",
+          "role": "Sportvorstand",
+          "notes": "Sporting director during Kovac's appointment at Frankfurt in March 2016",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Niko Kovac",
+      "club": "Bayern München",
+      "period": "2018-2019",
+      "decision_makers": [
+        {
+          "name": "Hasan Salihamidzic",
+          "role": "Sportdirektor",
+          "notes": "Sporting director who announced Kovac's appointment on three-year contract starting July 1, 2018",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Niko Kovac",
+      "club": "AS Monaco",
+      "period": "2020-2022",
+      "decision_makers": [
+        {
+          "name": "Paul Mitchell",
+          "role": "Sporting Director",
+          "notes": "Sporting director at Monaco when Kovac was appointed in July 2020",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Niko Kovac",
+      "club": "VfL Wolfsburg",
+      "period": "2022-2024",
+      "decision_makers": [
+        {
+          "name": "Jörg Schmadtke",
+          "role": "Geschäftsführer Sport",
+          "notes": "Sporting director who appointed Kovac on May 24, 2022",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Marcel Schäfer",
+          "role": "Geschäftsführer Sport",
+          "notes": "Became managing director for sport in February 2023, worked with Kovac",
+          "connection_type": "sports_director"
+        }
+      ]
+    },
+    {
+      "coach_name": "Marco Rose",
+      "club": "Borussia Mönchengladbach",
+      "period": "2019-2021",
+      "decision_makers": [
+        {
+          "name": "Max Eberl",
+          "role": "Sportdirektor",
+          "notes": "Appointed Rose from RB Salzburg in summer 2019 on contract until June 2022",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Marco Rose",
+      "club": "Borussia Dortmund",
+      "period": "2021-2022",
+      "decision_makers": [
+        {
+          "name": "Michael Zorc",
+          "role": "Sportdirektor",
+          "notes": "Sporting director who drove the decision to appoint Rose in summer 2021",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Sebastian Kehl",
+          "role": "Sportdirektor",
+          "notes": "Replaced Zorc as sporting director at end of 2021/22 season",
+          "connection_type": "sports_director"
+        }
+      ]
+    },
+    {
+      "coach_name": "Xabi Alonso",
+      "club": "Real Sociedad B",
+      "period": "2019-2022",
+      "decision_makers": [
+        {
+          "name": "Roberto Olabe",
+          "role": "Director of Football",
+          "notes": "Director of Football at Real Sociedad who appointed Alonso on June 1, 2019",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Steffen Baumgart",
+      "club": "1. FC Köln",
+      "period": "2021-2023",
+      "decision_makers": [
+        {
+          "name": "Horst Heldt",
+          "role": "Geschäftsführer Sport",
+          "notes": "Managing director who appointed Baumgart from Paderborn in May 2021",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Sebastian Hoeneß",
+      "club": "TSG Hoffenheim",
+      "period": "2020-2023",
+      "decision_makers": [
+        {
+          "name": "Alexander Rosen",
+          "role": "Sportdirektor",
+          "notes": "Director of football who appointed Hoeneß from Bayern Munich II in July 2020",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Ole Werner",
+      "club": "Holstein Kiel",
+      "period": "2019-2021",
+      "decision_makers": [
+        {
+          "name": "Fabian Wohlgemuth",
+          "role": "Geschäftsführer Sport",
+          "notes": "Sporting director who permanently appointed Werner on October 24, 2019 after interim spell",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Christian Ilzer",
+      "club": "Sturm Graz",
+      "period": "2020-2024",
+      "decision_makers": [
+        {
+          "name": "Andreas Schicker",
+          "role": "Sportdirektor",
+          "notes": "Sporting director who appointed Ilzer as head coach in July 2020, later moved together to Hoffenheim",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Urs Fischer",
+      "club": "1. FC Union Berlin",
+      "period": "2018-2024",
+      "decision_makers": [
+        {
+          "name": "Oliver Ruhnert",
+          "role": "Geschäftsführer Profifußball",
+          "notes": "Managing director of professional football who appointed Fischer in June 2018",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Daniel Thioune",
+      "club": "VfL Osnabrück",
+      "period": "2017-2020",
+      "decision_makers": [
+        {
+          "name": "Benjamin Schmedes",
+          "role": "Geschäftsführer Sport",
+          "notes": "Promoted Thioune from academy to interim (Oct 2017) then permanent manager (Nov 2017)",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Daniel Thioune",
+      "club": "Hamburger SV",
+      "period": "2020-2021",
+      "decision_makers": [
+        {
+          "name": "Jonas Boldt",
+          "role": "Sportvorstand",
+          "notes": "Head of Sport who appointed Thioune from VfL Osnabrück in 2020 on two-year contract",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Steffen Baumgart",
+      "club": "SC Paderborn 07",
+      "period": "2017-2021",
+      "decision_makers": [
+        {
+          "name": "Markus Krösche",
+          "role": "Geschäftsführer Sport",
+          "notes": "Became sporting director in March 2017, hired Baumgart and worked together to achieve Bundesliga promotion in 2019",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Kasper Hjulmand",
+      "club": "FC Nordsjælland",
+      "period": "2011-2014",
+      "decision_makers": [
+        {
+          "name": "Jan Laursen",
+          "role": "Director",
+          "notes": "Promoted Hjulmand from assistant to head coach in summer 2011, led to first Superliga title in 2012",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Kasper Hjulmand",
+      "club": "1. FSV Mainz 05",
+      "period": "2014-2015",
+      "decision_makers": [
+        {
+          "name": "Christian Heidel",
+          "role": "Geschäftsführer Sport",
+          "notes": "Appointed Hjulmand as Thomas Tuchel's successor on May 15, 2014, dismissed after less than a year",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Sebastian Hoeneß",
+      "club": "FC Bayern München II",
+      "period": "2019-2020",
+      "decision_makers": [
+        {
+          "name": "Jochen Sauer",
+          "role": "Campus Director",
+          "notes": "Promoted Hoeneß from U-19 coach to Bayern II manager in 2019",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Marco Rose",
+      "club": "FC Red Bull Salzburg",
+      "period": "2017-2019",
+      "decision_makers": [
+        {
+          "name": "Christoph Freund",
+          "role": "Sportdirektor",
+          "notes": "Promoted Rose from U-19 coach to first team head coach on June 15, 2017",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Albert Riera",
+      "club": "Galatasaray",
+      "period": "2020-2022",
+      "decision_makers": [
+        {
+          "name": "Fatih Terim",
+          "role": "Head Coach",
+          "notes": "Appointed Riera as assistant coach in August 2020 at Galatasaray",
+          "connection_type": "mentor"
+        }
+      ]
+    },
+    {
+      "coach_name": "Kasper Hjulmand",
+      "club": "Denmark National Team",
+      "period": "2020-2025",
+      "decision_makers": [
+        {
+          "name": "Peter Møller",
+          "role": "Director",
+          "notes": "DBU announced Hjulmand on four-year deal in June 2019 to start after Euro 2020",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Nuri Şahin",
+      "club": "Borussia Dortmund",
+      "period": "2023-2024 (Assistant)",
+      "decision_makers": [
+        {
+          "name": "Edin Terzić",
+          "role": "Head Coach",
+          "notes": "Appointed Şahin as assistant coach on December 29, 2023",
+          "connection_type": "mentor"
+        },
+        {
+          "name": "Sebastian Kehl",
+          "role": "Sportdirektor",
+          "notes": "Sporting director who approved Şahin's return to BVB as assistant",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Vincent Kompany",
+      "club": "RSC Anderlecht",
+      "period": "2019-2020 (Player-Manager)",
+      "decision_makers": [
+        {
+          "name": "Michael Verschueren",
+          "role": "General Manager",
+          "notes": "Appointed Kompany as player-manager on May 19, 2019",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Albert Riera",
+      "club": "Olimpija Ljubljana",
+      "period": "2022-2023",
+      "decision_makers": [
+        {
+          "name": "Milan Mandarić",
+          "role": "President",
+          "notes": "Appointed Riera as manager on July 4, 2022, first managerial position. Won double in first season",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Albert Riera",
+      "club": "NK Celje",
+      "period": "2023",
+      "decision_makers": [
+        {
+          "name": "Valeriy Kolotilo",
+          "role": "President",
+          "notes": "Appointed Riera on July 20, 2023, left with team top of table on Oct 11",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Albert Riera",
+      "club": "FC Girondins de Bordeaux",
+      "period": "2023-2024",
+      "decision_makers": [
+        {
+          "name": "Gérard López",
+          "role": "Owner/President",
+          "notes": "Appointed Riera as manager on October 12, 2023 on 1.5-year deal, club declared bankruptcy end of season",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Lukas Kwasniok",
+      "club": "SC Paderborn 07",
+      "period": "2021-2025",
+      "decision_makers": [
+        {
+          "name": "Fabian Wohlgemuth",
+          "role": "Geschäftsführer Sport",
+          "notes": "Sporting director who appointed Kwasniok to succeed Steffen Baumgart on July 1, 2021",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Manuel Baum",
+      "club": "FC Augsburg",
+      "period": "2016-2019",
+      "decision_makers": [
+        {
+          "name": "Stefan Reuter",
+          "role": "Geschäftsführer Sport",
+          "notes": "Sporting director who promoted Baum from youth coach to first team on December 14, 2016",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Manuel Baum",
+      "club": "FC Schalke 04",
+      "period": "2020",
+      "decision_makers": [
+        {
+          "name": "Jochen Schneider",
+          "role": "Sportvorstand",
+          "notes": "Board member who appointed Baum from DFB U18 on September 30, 2020, dismissed after 10 winless games",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Manuel Baum",
+      "club": "FC Augsburg",
+      "period": "2024-present (Interim)",
+      "decision_makers": [
+        {
+          "name": "Marinko Jurendić",
+          "role": "Geschäftsführer Sport",
+          "notes": "Sporting director who appointed Baum as interim coach until end of 2025/26 season",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Frank Schmidt",
+      "club": "1. FC Heidenheim",
+      "period": "2007-present",
+      "decision_makers": [
+        {
+          "name": "Holger Sanwald",
+          "role": "Chairman",
+          "notes": "Appointed Schmidt as interim coach on September 17, 2007, made permanent after securing promotion",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Daniel Bauer",
+      "club": "VfL Wolfsburg",
+      "period": "2025-present",
+      "decision_makers": [
+        {
+          "name": "Pirmin Schwegler",
+          "role": "Sportdirektor",
+          "notes": "New sporting director who made Bauer permanent on contract through June 2027, December 2025",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Eugen Polanski",
+      "club": "Borussia Mönchengladbach II",
+      "period": "2022-2025",
+      "decision_makers": [
+        {
+          "name": "Roland Virkus",
+          "role": "Sportdirektor",
+          "notes": "Sporting director who appointed Polanski as reserve team coach in May 2022",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Eugen Polanski",
+      "club": "Borussia Mönchengladbach",
+      "period": "2025-present",
+      "decision_makers": [
+        {
+          "name": "Roland Virkus",
+          "role": "Sportdirektor",
+          "notes": "Promoted Polanski from interim to permanent head coach on contract through 2028 in November 2025",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Marco Rose",
+      "club": "FC Red Bull Salzburg U18/U19",
+      "period": "2013-2017",
+      "decision_makers": [
+        {
+          "name": "Christoph Freund",
+          "role": "Sportdirektor",
+          "notes": "Appointed Rose as youth coach in July 2013, oversaw progression from U16 to U18 to U19 (UEFA Youth League winners 2017)",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Sebastian Hoeneß",
+      "club": "FC Bayern München U19",
+      "period": "2017-2019",
+      "decision_makers": [
+        {
+          "name": "Jochen Sauer",
+          "role": "Campus Director",
+          "notes": "Appointed Hoeneß as U19 head coach in July 2017 from RB Leipzig U17",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Julian Schuster",
+      "club": "SC Freiburg",
+      "period": "2018-2024 (Youth/Talent Management)",
+      "decision_makers": [
+        {
+          "name": "Jochen Saier",
+          "role": "Managing Director",
+          "notes": "Appointed Schuster as coordinator of talent management in July 2018, liaison coach between U19/U23/first team",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Urs Fischer",
+      "club": "FC Thun",
+      "period": "2013-2017",
+      "decision_makers": [
+        {
+          "name": "Andreas Gerber",
+          "role": "President",
+          "notes": "Appointed Fischer as head coach on January 1, 2013, led to Europa League group stage qualification",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Christian Ilzer",
+      "club": "FK Austria Wien",
+      "period": "2019-2020",
+      "decision_makers": [
+        {
+          "name": "Peter Stöger",
+          "role": "Sportdirektor",
+          "notes": "Appointed Ilzer as manager for 2019-20 season before move to Sturm Graz",
+          "connection_type": "hiring_manager"
+        }
+      ]
     }
   ],
   "sources": [
@@ -348,6 +873,6 @@
     "Club official announcements",
     "Industry knowledge and reporting"
   ],
-  "last_updated": "2026-02-07",
+  "last_updated": "2026-02-07 (expanded career coverage)",
   "notes": "This data supplements automatic scraping with verified hiring manager relationships"
 }
