@@ -2066,8 +2066,9 @@ if st.session_state.coach_data:
         # Section 1: Players Coached (moved from old tab5)
         st.markdown("### ⚽ Players Coached")
 
-        if players_used and players_used.get("players"):
-            players_list = players_used["players"]
+        # Use players_detail (has individual player data) instead of players_used (only has station summaries)
+        if players_detail and players_detail.get("players"):
+            players_list = players_detail["players"]
 
             # Filter: Players with 20+ games and 70+ avg minutes
             key_players = [
