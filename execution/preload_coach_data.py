@@ -77,21 +77,36 @@ def load_preloaded(coach_name: str) -> dict:
     safe_name = re.sub(r'[^\w\-]', '_', coach_name.lower())
     filepath = PRELOAD_DIR / f"{safe_name}.json"
 
+    # DEBUG: Log path and existence for troubleshooting
+    print(f"[DEBUG] load_preloaded: coach={coach_name}, safe_name={safe_name}")
+    print(f"[DEBUG] PRELOAD_DIR={PRELOAD_DIR}, filepath={filepath}")
+    print(f"[DEBUG] filepath.exists()={filepath.exists()}")
+
     if not filepath.exists():
+        print(f"[DEBUG] File not found: {filepath}")
         return None
 
     with open(filepath, "r", encoding="utf-8") as f:
         data = json.load(f)
+
+    # DEBUG: Log data keys
+    print(f"[DEBUG] Loaded data keys: {list(data.keys())}")
+    print(f"[DEBUG] Has decision_makers: {'decision_makers' in data}")
+    if 'decision_makers' in data:
+        print(f"[DEBUG] decision_makers.total: {data['decision_makers'].get('total', 'N/A')}")
 
     # Check if data is fresh (less than 7 days old)
     preloaded_at = datetime.fromisoformat(data.get("_preloaded_at", "2000-01-01"))
     age_hours = (datetime.now() - preloaded_at).total_seconds() / 3600
     age_days = age_hours / 24
 
+    print(f"[DEBUG] Cache age: {age_days:.1f} days (fresh if < 7)")
+
     if age_days > 7:
-        log(f"  Preloaded data too old ({age_days:.1f} days), will refresh")
+        print(f"[DEBUG] Cache too old, returning None")
         return None
 
+    print(f"[DEBUG] Returning fresh cache data")
     return data
 
 def preload_single_coach(coach_name: str, force: bool = False) -> dict:
