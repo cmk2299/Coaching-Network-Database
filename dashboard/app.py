@@ -2061,60 +2061,9 @@ if st.session_state.coach_data:
     # ===== TAB 4: PERFORMANCE =====
     with tab_performance:
         st.subheader("⚽ Performance & Network")
-        st.caption("Players coached, teammates from playing career, and coaching companions")
+        st.caption("Teammates from playing career and coaching companions")
 
-        # Section 1: Players Coached (moved from old tab5)
-        st.markdown("### ⚽ Players Coached")
-
-        # Use players_detail (has individual player data) instead of players_used (only has station summaries)
-        if players_detail and players_detail.get("players"):
-            players_list = players_detail["players"]
-
-            # Filter: Players with 20+ games and 70+ avg minutes
-            key_players = [
-                p for p in players_list
-                if p.get("games", 0) >= 20 and p.get("avg_minutes", 0) >= 70
-            ]
-
-            if key_players:
-                st.info(f"📊 Showing {len(key_players)} key players (20+ games, 70+ avg minutes)")
-
-                players_data = []
-                for p in key_players[:50]:  # Top 50
-                    players_data.append({
-                        "Player": p.get("name", "Unknown"),
-                        "Nationality": p.get("nationality", ""),
-                        "Position": p.get("position", ""),
-                        "Games": p.get("games", 0),
-                        "Goals": p.get("goals", 0),
-                        "Assists": p.get("assists", 0),
-                        "Avg Min": round(p.get("avg_minutes", 0)),
-                        "Profile": p.get("url", ""),
-                    })
-
-                st.dataframe(
-                    players_data,
-                    use_container_width=True,
-                    hide_index=True,
-                    column_config={
-                        "Player": st.column_config.TextColumn("Player", width="medium"),
-                        "Nationality": st.column_config.TextColumn("Nat", width="small"),
-                        "Position": st.column_config.TextColumn("Pos", width="small"),
-                        "Games": st.column_config.NumberColumn("G", width="small"),
-                        "Goals": st.column_config.NumberColumn("⚽", width="small"),
-                        "Assists": st.column_config.NumberColumn("🅰️", width="small"),
-                        "Avg Min": st.column_config.NumberColumn("Min/G", width="small"),
-                        "Profile": st.column_config.LinkColumn("🔗", width="small", display_text="View"),
-                    }
-                )
-            else:
-                st.info("No key players found (filter: 20+ games, 70+ avg minutes)")
-        else:
-            st.info("No players coached data available")
-
-        st.divider()
-
-        # Section 2: Teammates from Playing Career (moved from old tab4)
+        # Section 1: Teammates from Playing Career
         st.markdown("### 👥 Teammates from Playing Career")
         if teammates and teammates.get("all_teammates"):
             tm_list = teammates["all_teammates"]
