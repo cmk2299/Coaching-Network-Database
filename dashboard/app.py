@@ -1191,28 +1191,28 @@ if st.session_state.coach_data:
                         if idx < len(timeline_events) - 1:
                             st.markdown("↓")
 
-            st.divider()
+            # PATTERN RECOGNITION (only show if we have hiring managers)
+            if hiring_managers:
+                st.divider()
+                st.markdown("### 🔥 Hiring Patterns")
 
-            # PATTERN RECOGNITION
-            st.markdown("### 🔥 Hiring Patterns")
+                # Analyze patterns efficiently with Counter
+                from collections import Counter, defaultdict
 
-            # Analyze patterns efficiently with Counter
-            from collections import Counter, defaultdict
+                hiring_count = Counter(hm.get("name", "Unknown") for hm in hiring_managers)
+                repeat_hirers = {name: count for name, count in hiring_count.items() if count > 1}
 
-            hiring_count = Counter(hm.get("name", "Unknown") for hm in hiring_managers)
-            repeat_hirers = {name: count for name, count in hiring_count.items() if count > 1}
+                if repeat_hirers:
+                    st.success("🔁 **Repeat Hiring Relationships Found!**")
+                    # Build clubs dict once
+                    clubs_by_hirer = defaultdict(list)
+                    for hm in hiring_managers:
+                        clubs_by_hirer[hm.get("name", "Unknown")].append(hm.get("club_name", ""))
 
-            if repeat_hirers:
-                st.success("🔁 **Repeat Hiring Relationships Found!**")
-                # Build clubs dict once
-                clubs_by_hirer = defaultdict(list)
-                for hm in hiring_managers:
-                    clubs_by_hirer[hm.get("name", "Unknown")].append(hm.get("club_name", ""))
-
-                for name, count in sorted(repeat_hirers.items(), key=lambda x: -x[1]):
-                    st.markdown(f"- **{name}**: Hired {count}x ({', '.join(clubs_by_hirer[name])})")
-            else:
-                st.info("No repeat hiring patterns detected. Each hiring manager hired this coach once.")
+                    for name, count in sorted(repeat_hirers.items(), key=lambda x: -x[1]):
+                        st.markdown(f"- **{name}**: Hired {count}x ({', '.join(clubs_by_hirer[name])})")
+                else:
+                    st.info("No repeat hiring patterns detected. Each hiring manager hired this coach once.")
 
             st.divider()
 
@@ -1436,9 +1436,11 @@ if st.session_state.coach_data:
 
             # Category color mapping
             CATEGORY_COLORS = {
-                "Former Teammates": "#3498db",  # Blue
+                "🎯 Hiring Managers": "#e63946",  # Red (primary color)
                 "Sports Directors": "#9b59b6",  # Purple
-                "Former Bosses": "#e74c3c",     # Red
+                "Executives": "#457b9d",        # Blue
+                "Former Teammates": "#3498db",  # Light Blue
+                "Former Bosses": "#e74c3c",     # Red-Orange
                 "Assistant Coaches": "#2ecc71", # Green
                 "Management": "#f39c12",        # Orange
                 "License Cohort": "#1abc9c",    # Teal
@@ -1956,23 +1958,15 @@ if st.session_state.coach_data:
         st.divider()
         st.markdown("### 🏟️ Coaching Stations")
         if players_used and players_used.get("stations"):
-            # Calculate career PPG
-            total_wins = sum(s.get("wins", 0) for s in players_used["stations"])
-            total_draws = sum(s.get("draws", 0) for s in players_used["stations"])
-            total_losses = sum(s.get("losses", 0) for s in players_used["stations"])
-            total_games_calc = total_wins + total_draws + total_losses
-            career_ppg = (total_wins * 3 + total_draws) / total_games_calc if total_games_calc > 0 else 0
+            # Reuse stats calculated above (avoid duplication)
+            career_ppg = (total_wins * 3 + total_draws) / total_games if total_games > 0 else 0
 
             # PPG Summary
             ppg_cols = st.columns(4)
-            with ppg_cols[0]:
-                st.metric("Career PPG", f"{career_ppg:.2f}")
-            with ppg_cols[1]:
-                st.metric("Wins", total_wins)
-            with ppg_cols[2]:
-                st.metric("Draws", total_draws)
-            with ppg_cols[3]:
-                st.metric("Losses", total_losses)
+            ppg_cols[0].metric("Career PPG", f"{career_ppg:.2f}")
+            ppg_cols[1].metric("Wins", total_wins)
+            ppg_cols[2].metric("Draws", total_draws)
+            ppg_cols[3].metric("Losses", total_losses)
 
             st.divider()
 
