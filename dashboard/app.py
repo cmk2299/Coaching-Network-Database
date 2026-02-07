@@ -1058,9 +1058,22 @@ if st.session_state.coach_data:
                     top_hirer, top_count = max(repeat_hirers.items(), key=lambda x: x[1])
                     insights.append(f"🎯 **Hired {len(hiring_managers)}x** across career • Pattern: {top_count}x by **{top_hirer}**")
                 else:
-                    # Show most recent hiring
-                    hm_name = hiring_managers[0].get("name", "Unknown")
-                    hm_club = hiring_managers[0].get("club_name", "")
+                    # Show most recent hiring - find the latest by period
+                    # Sort by period to get most recent (handles "2024-present", "2022", etc.)
+                    def get_year(hm):
+                        period = hm.get("period", "0")
+                        if "-" in period:
+                            year_part = period.split("-")[0]
+                        else:
+                            year_part = period
+                        try:
+                            return int(year_part)
+                        except:
+                            return 0
+
+                    most_recent = max(hiring_managers, key=get_year)
+                    hm_name = most_recent.get("name", "Unknown")
+                    hm_club = most_recent.get("club_name", "")
                     insights.append(f"🎯 **Most recent**: Hired by {hm_name} at {hm_club}")
 
             if sports_directors:
