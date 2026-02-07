@@ -1148,9 +1148,18 @@ if st.session_state.coach_data:
             career_history = profile.get("career_history", [])
             career_span = "N/A"
             if career_history:
-                years = [int(entry["period"].split("-")[0])
-                        for entry in career_history
-                        if entry.get("period") and entry["period"][0].isdigit()]
+                years = []
+                for entry in career_history:
+                    period = entry.get("period", "")
+                    if not period or not period[0].isdigit():
+                        continue
+                    # Handle different formats: "2024-2025", "2024-present", "0,97" (invalid)
+                    if "-" in period:
+                        year_str = period.split("-")[0]
+                        try:
+                            years.append(int(year_str))
+                        except ValueError:
+                            continue
                 if years:
                     career_span = f"{min(years)}-{max(years)}"
             col4.metric("📅 Career Span", career_span)
@@ -1162,27 +1171,39 @@ if st.session_state.coach_data:
                 st.markdown("### 📅 Hiring Timeline")
                 st.caption("Chronological view of who hired this coach at each club")
 
-                # Build club lookup dict once (O(1) instead of O(n) per lookup)
-                club_lookup = {station.get("club", "").lower(): station
-                              for station in career_history if station.get("club")}
-
-                # Build timeline efficiently with list comprehension
+                # Build timeline from hiring_managers data directly
+                # (career_history may have scraping issues with empty clubs)
                 timeline_events = []
                 for hm in hiring_managers:
                     club = hm.get("club_name", "Unknown Club")
-                    matching = club_lookup.get(club.lower(), {})
+                    period = hm.get("period", "Unknown")
 
                     timeline_events.append({
-                        "period": matching.get("period", ""),
+                        "period": period,
                         "club": club,
-                        "position": matching.get("position", ""),
+                        "position": "Trainer",  # Default, could be enhanced
                         "hired_by": hm.get("name", "Unknown"),
                         "hired_by_role": hm.get("role", ""),
                         "notes": hm.get("notes", "")
                     })
 
                 # Sort by period (most recent first)
-                timeline_events.sort(key=lambda x: x["period"], reverse=True)
+                # Handle different period formats: "2024-present" vs "2022"
+                def sort_key(event):
+                    p = event["period"]
+                    if not p or p == "Unknown":
+                        return 0
+                    # Extract first year
+                    if "-" in p:
+                        year_part = p.split("-")[0]
+                    else:
+                        year_part = p
+                    try:
+                        return int(year_part)
+                    except:
+                        return 0
+
+                timeline_events.sort(key=sort_key, reverse=True)
 
                 # Display timeline
                 for idx, event in enumerate(timeline_events):
