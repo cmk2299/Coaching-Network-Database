@@ -249,6 +249,96 @@
           "connection_type": "hiring_manager"
         }
       ]
+    },
+    {
+      "coach_name": "Niko Kovac",
+      "club": "Borussia Dortmund",
+      "period": "2025-present",
+      "decision_makers": [
+        {
+          "name": "Lars Ricken",
+          "role": "Geschäftsführer Sport",
+          "notes": "Hired Kovac to replace Nuri Şahin in January 2025",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Sebastian Kehl",
+          "role": "Sportdirektor",
+          "notes": "Works with Ricken, endorsed Kovac appointment",
+          "connection_type": "sports_director"
+        }
+      ]
+    },
+    {
+      "coach_name": "Steffen Baumgart",
+      "club": "1. FC Union Berlin",
+      "period": "2024-present",
+      "decision_makers": [
+        {
+          "name": "Horst Heldt",
+          "role": "Managing Director Professional Football",
+          "notes": "Hired Baumgart after working with him previously at Cologne",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Christian Ilzer",
+      "club": "TSG Hoffenheim",
+      "period": "2024-present",
+      "decision_makers": [
+        {
+          "name": "Andreas Schicker",
+          "role": "Managing Director",
+          "notes": "Brought Ilzer from Sturm Graz, where they previously worked together",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Urs Fischer",
+      "club": "1. FSV Mainz 05",
+      "period": "2024-present",
+      "decision_makers": [
+        {
+          "name": "Christian Heidel",
+          "role": "Geschäftsführer Sport",
+          "notes": "Appointed Fischer on long-term contract until 2028",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Nico Bungert",
+          "role": "Sportdirektor",
+          "notes": "Works with Heidel in dual management regime",
+          "connection_type": "sports_director"
+        }
+      ]
+    },
+    {
+      "coach_name": "Ole Werner",
+      "club": "RB Leipzig",
+      "period": "2025-present",
+      "decision_makers": [
+        {
+          "name": "Marcel Schäfer",
+          "role": "Managing Director",
+          "notes": "Hired Werner from Werder Bremen in June 2025",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Kasper Hjulmand",
+      "club": "Bayer 04 Leverkusen",
+      "period": "2025-present",
+      "decision_makers": [
+        {
+          "name": "Simon Rolfes",
+          "role": "Geschäftsführer Sport",
+          "notes": "Appointed Hjulmand to replace Erik ten Hag in September 2025",
+          "connection_type": "hiring_manager"
+        }
+      ]
     }
   ],
   "sources": [
