@@ -1149,37 +1149,7 @@ if st.session_state.coach_data:
             executives = decision_makers_data.get("executives", [])
             presidents = decision_makers_data.get("presidents", [])
 
-            # Summary Cards
-            col1, col2, col3, col4 = st.columns(4)
-
-            col1.metric("🎯 Hiring Managers", len(hiring_managers))
-            col2.metric("📋 Sports Directors", len(sports_directors))
-            col3.metric("💼 Executives", len(executives) + len(presidents))
-
-            # Calculate career span efficiently
-            profile = data.get("profile", {})
-            career_history = profile.get("career_history", [])
-            career_span = "N/A"
-            if career_history:
-                years = []
-                for entry in career_history:
-                    period = entry.get("period", "")
-                    if not period or not period[0].isdigit():
-                        continue
-                    # Handle different formats: "2024-2025", "2024-present", "0,97" (invalid)
-                    if "-" in period:
-                        year_str = period.split("-")[0]
-                        try:
-                            years.append(int(year_str))
-                        except ValueError:
-                            continue
-                if years:
-                    career_span = f"{min(years)}-{max(years)}"
-            col4.metric("📅 Career Span", career_span)
-
-            st.divider()
-
-            # TIMELINE VIEW
+            # TIMELINE VIEW (removed summary cards - info is clear from timeline)
             if hiring_managers:
                 st.markdown("### 📅 Hiring Timeline")
                 st.caption("Chronological view of who hired this coach at each club")
