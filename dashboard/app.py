@@ -188,6 +188,7 @@ def try_load_preloaded(coach_name: str) -> dict:
                     "players_used": data.get("players_used"),
                     "players_detail": data.get("players_detail"),
                     "companions": data.get("companions"),
+                    "decision_makers": data.get("decision_makers"),  # CRITICAL FIX: Was missing!
                     "_preloaded": True,
                     "_preloaded_at": data.get("_preloaded_at"),
                 }
