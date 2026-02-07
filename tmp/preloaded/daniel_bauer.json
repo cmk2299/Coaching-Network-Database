@@ -2405,11 +2405,7 @@
         "url": "https://www.transfermarkt.de/matthias-tischer/profil/spieler/21664",
         "shared_matches": 51,
         "teams_together": 1,
-        "total_minutes": 4372,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/matthias-tischer/profil/trainer/69949",
-        "current_club": "1.FC Magdeburg",
-        "current_role": "Torwarttrainer"
+        "total_minutes": 4372
       },
       {
         "name": "Stephan Neumann",
@@ -2417,11 +2413,7 @@
         "url": "https://www.transfermarkt.de/stephan-neumann/profil/spieler/11727",
         "shared_matches": 48,
         "teams_together": 1,
-        "total_minutes": 3831,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/stephan-neumann/profil/trainer/97728",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:Scout1.FC MagdeburgAmtsende:30.06.2020"
+        "total_minutes": 3831
       },
       {
         "name": "Cătălin Răcănel",
@@ -2429,11 +2421,7 @@
         "url": "https://www.transfermarkt.de/catalin-racanel/profil/spieler/1266",
         "shared_matches": 45,
         "teams_together": 2,
-        "total_minutes": 2770,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/catalin-racanel/profil/trainer/23231",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:TrainerSG Niederkail/Binsfeld/LandscheidAmtsende:30.10.2014"
+        "total_minutes": 2770
       },
       {
         "name": "Maik Georgi",
@@ -2441,11 +2429,7 @@
         "url": "https://www.transfermarkt.de/maik-georgi/profil/spieler/45681",
         "shared_matches": 41,
         "teams_together": 2,
-        "total_minutes": 1565,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/maik-georgi/profil/trainer/110283",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:TrainerVfB Zwenkau 02Amtsende:11.04.2025"
+        "total_minutes": 1565
       },
       {
         "name": "Daniel Halke",
@@ -2461,11 +2445,7 @@
         "url": "https://www.transfermarkt.de/najeh-braham/profil/spieler/1691",
         "shared_matches": 37,
         "teams_together": 2,
-        "total_minutes": 1893,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/najeh-braham/profil/trainer/33836",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:TrainerFC Bosporus KasselAmtsende:30.06.2018"
+        "total_minutes": 1893
       },
       {
         "name": "Denis Wolf",
@@ -2473,11 +2453,7 @@
         "url": "https://www.transfermarkt.de/denis-wolf/profil/spieler/11317",
         "shared_matches": 33,
         "teams_together": 1,
-        "total_minutes": 2389,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/denis-wolf/profil/trainer/55502",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:Co-TrainerHSC HannoverAmtsende:30.06.2018"
+        "total_minutes": 2389
       },
       {
         "name": "Markus Lösch",
@@ -2485,11 +2461,7 @@
         "url": "https://www.transfermarkt.de/markus-losch/profil/spieler/432",
         "shared_matches": 32,
         "teams_together": 1,
-        "total_minutes": 1661,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/markus-losch/profil/trainer/9246",
-        "current_club": "VfB Stuttgart",
-        "current_role": "Betreuer der Leihspielerund weitere Tätigkeiten"
+        "total_minutes": 1661
       },
       {
         "name": "Tobias Becker",
@@ -2505,11 +2477,7 @@
         "url": "https://www.transfermarkt.de/radovan-vujanovic/profil/spieler/28033",
         "shared_matches": 31,
         "teams_together": 1,
-        "total_minutes": 2545,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/radovan-vujanovic/profil/trainer/74307",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:Geschäftsführer SportLASKAmtsende:03.09.2024"
+        "total_minutes": 2545
       },
       {
         "name": "Udo Schmitt",
@@ -2525,11 +2493,7 @@
         "url": "https://www.transfermarkt.de/jens-eckl/profil/spieler/9562",
         "shared_matches": 30,
         "teams_together": 1,
-        "total_minutes": 2495,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/jens-eckl/profil/trainer/67710",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:TrainerTuS HolzkirchenAmtsende:09.09.2019"
+        "total_minutes": 2495
       },
       {
         "name": "Nicolas Eckl",
@@ -2537,11 +2501,7 @@
         "url": "https://www.transfermarkt.de/nicolas-eckl/profil/spieler/9563",
         "shared_matches": 30,
         "teams_together": 1,
-        "total_minutes": 2494,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/nicolas-eckl/profil/trainer/34177",
-        "current_club": "Vereinslos",
-        "current_role": ""
+        "total_minutes": 2494
       },
       {
         "name": "Maximilian Watzka",
@@ -2557,11 +2517,7 @@
         "url": "https://www.transfermarkt.de/stefan-ruthenbeck/profil/spieler/9576",
         "shared_matches": 27,
         "teams_together": 1,
-        "total_minutes": 2305,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/stefan-ruthenbeck/profil/trainer/1985",
-        "current_club": "1.FC Köln U19",
-        "current_role": "Trainerund weitere Tätigkeiten"
+        "total_minutes": 2305
       },
       {
         "name": "Leonid Merling",
@@ -2569,11 +2525,7 @@
         "url": "https://www.transfermarkt.de/leonid-merling/profil/spieler/9569",
         "shared_matches": 26,
         "teams_together": 1,
-        "total_minutes": 1907,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/leonid-merling/profil/trainer/62827",
-        "current_club": "SV Masburg",
-        "current_role": "Trainer"
+        "total_minutes": 1907
       },
       {
         "name": "Nico Patschinski",
@@ -2581,11 +2533,7 @@
         "url": "https://www.transfermarkt.de/nico-patschinski/profil/spieler/758",
         "shared_matches": 26,
         "teams_together": 2,
-        "total_minutes": 1490,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/nico-patschinski/profil/trainer/38662",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:SpielertrainerFC SchnelsenAmtsende:23.01.2016"
+        "total_minutes": 1490
       },
       {
         "name": "Harry Koch",
@@ -2593,11 +2541,7 @@
         "url": "https://www.transfermarkt.de/harry-koch/profil/spieler/12",
         "shared_matches": 25,
         "teams_together": 1,
-        "total_minutes": 1502,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/harry-koch/profil/trainer/7662",
-        "current_club": "Vereinslos",
-        "current_role": "Letzter Posten:TrainerSV DörbachAmtsende:30.06.2011"
+        "total_minutes": 1502
       },
       {
         "name": "Silvio Bankert",
@@ -2605,11 +2549,7 @@
         "url": "https://www.transfermarkt.de/silvio-bankert/profil/spieler/35602",
         "shared_matches": 24,
         "teams_together": 1,
-        "total_minutes": 1932,
-        "is_coach": true,
-        "trainer_url": "https://www.transfermarkt.de/silvio-bankert/profil/trainer/64897",
-        "current_club": "1.FC Magdeburg",
-        "current_role": "Co-Trainer"
+        "total_minutes": 1932
       },
       {
         "name": "Marcel Probst",
@@ -4723,6 +4663,26 @@
     ]
   },
   "teammates_enriched": true,
-  "_preloaded_at": "2026-02-07T00:07:53.058975",
+  "decision_makers": {
+    "sports_directors": [],
+    "hiring_managers": [
+      {
+        "name": "Pirmin Schwegler",
+        "role": "Sportdirektor",
+        "notes": "New sporting director who made Bauer permanent on contract through June 2027, December 2025",
+        "connection_type": "hiring_manager",
+        "club_name": "VfL Wolfsburg",
+        "period": "2025-present",
+        "source": "manual_curated"
+      }
+    ],
+    "executives": [],
+    "presidents": [],
+    "technical_directors": [],
+    "other": [],
+    "total": 1,
+    "enriched_at": "2026-02-07T14:49:30.317217"
+  },
+  "_preloaded_at": "2026-02-07T14:49:30.318044",
   "_coach_name": "Daniel Bauer"
 }
