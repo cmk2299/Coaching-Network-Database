@@ -50,12 +50,19 @@ APP_VERSION = "1.1.0"  # Updated: Decision Makers integration
 # Custom CSS with P1.3 Mobile Responsive + P2.2 Visual Hierarchy
 st.markdown("""
 <style>
+    /* Fix header spacing - prevent overlap with Streamlit's top bar */
+    .main {
+        padding-top: 1rem;
+    }
+
     /* Typography Hierarchy */
     .main-header {
         font-size: 2.5rem;
         font-weight: bold;
+        margin-top: 1rem;
         margin-bottom: 0.5rem;
         color: #1d3557;
+        padding-top: 0.5rem;
     }
     .sub-header {
         color: #666;
