@@ -1032,9 +1032,6 @@ if st.session_state.coach_data:
         # Decision Makers worked with (from enriched data - preferred source)
         decision_makers_data = data.get("decision_makers")
 
-        # DEBUG: Show if decision_makers exists
-        if decision_makers_data:
-            st.caption(f"🐛 DEBUG: Found decision_makers data (Total: {decision_makers_data.get('total', 0)})")
 
         if decision_makers_data:
             hiring_managers = decision_makers_data.get("hiring_managers", [])
@@ -1042,15 +1039,39 @@ if st.session_state.coach_data:
             executives = decision_makers_data.get("executives", [])
 
             if hiring_managers:
-                # Show hiring managers prominently
-                for hm in hiring_managers[:2]:  # Show top 2
-                    hm_name = hm.get("name", "Unknown")
-                    hm_club = hm.get("club_name", "")
-                    insights.append(f"🎯 **Hired by**: {hm_name} at {hm_club}")
+                # Analyze hiring patterns
+                hiring_count = {}
+                for hm in hiring_managers:
+                    name = hm.get("name", "Unknown")
+                    hiring_count[name] = hiring_count.get(name, 0) + 1
+
+                # Find repeat hirers
+                repeat_hirers = {name: count for name, count in hiring_count.items() if count > 1}
+
+                if repeat_hirers:
+                    # Show pattern: "Hired Nx times"
+                    total_hires = len(hiring_managers)
+                    top_hirer = max(repeat_hirers.items(), key=lambda x: x[1])
+                    insights.append(f"🎯 **Hired {total_hires}x** across career • Pattern: {top_hirer[1]}x by **{top_hirer[0]}**")
+                else:
+                    # Show most recent hiring
+                    most_recent = hiring_managers[0] if hiring_managers else None
+                    if most_recent:
+                        hm_name = most_recent.get("name", "Unknown")
+                        hm_club = most_recent.get("club_name", "")
+                        insights.append(f"🎯 **Most recent**: Hired by {hm_name} at {hm_club}")
 
             if sports_directors:
                 total_sds = len(sports_directors)
-                insights.append(f"📋 **Network**: Worked with {total_sds} Sports Director{'s' if total_sds != 1 else ''}")
+                # Find strong ties (Sports Directors in multiple roles)
+                sd_names = [sd.get("name", "") for sd in sports_directors]
+                unique_sds = len(set(sd_names))
+
+                if unique_sds != total_sds:
+                    # There are duplicates = strong ties
+                    insights.append(f"📋 **{unique_sds} Sports Directors** in network • Strong ties with key decision makers")
+                else:
+                    insights.append(f"📋 **{total_sds} Sports Directors** in network")
         else:
             # Fallback to companions data if decision_makers not available
             companions_data = data.get("companions")
@@ -1091,9 +1112,195 @@ if st.session_state.coach_data:
             st.info("💡 Load full profile data to see insights (click 'Load Companions' in Companions tab)")
 
     # Tabs for detailed info
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["🕸️ Network", "📋 Career & Titles", "🏟️ Coaching Stations", "👥 Teammates", "⚽ Players Coached", "🤝 Companions"])
+    tab_dm, tab_network, tab_career, tab_performance = st.tabs([
+        "🎯 Decision Makers",
+        "🕸️ Complete Network",
+        "📋 Career Overview",
+        "⚽ Performance"
+    ])
 
-    with tab1:
+    # ===== TAB 1: DECISION MAKERS (NEW!) =====
+    with tab_dm:
+        st.subheader("Decision Makers Timeline")
+        st.caption("Who hired this coach? When and where? This is the intelligence edge.")
+
+        decision_makers_data = data.get("decision_makers")
+
+        if not decision_makers_data or decision_makers_data.get("total", 0) == 0:
+            st.info("💡 No decision maker data available yet. This coach's hiring managers will be enriched soon.")
+        else:
+            # Summary Cards
+            col1, col2, col3, col4 = st.columns(4)
+
+            with col1:
+                total_hm = len(decision_makers_data.get("hiring_managers", []))
+                st.metric("🎯 Hiring Managers", total_hm)
+
+            with col2:
+                total_sd = len(decision_makers_data.get("sports_directors", []))
+                st.metric("📋 Sports Directors", total_sd)
+
+            with col3:
+                total_exec = len(decision_makers_data.get("executives", [])) + len(decision_makers_data.get("presidents", []))
+                st.metric("💼 Executives", total_exec)
+
+            with col4:
+                # Calculate career span from profile
+                profile = data.get("profile", {})
+                career_history = profile.get("career_history", [])
+                if career_history:
+                    years = [int(entry.get("period", "0000-0000").split("-")[0]) for entry in career_history if entry.get("period")]
+                    if years:
+                        career_span = f"{min(years)}-{max(years)}"
+                    else:
+                        career_span = "N/A"
+                else:
+                    career_span = "N/A"
+                st.metric("📅 Career Span", career_span)
+
+            st.divider()
+
+            # TIMELINE VIEW
+            hiring_managers = decision_makers_data.get("hiring_managers", [])
+
+            if hiring_managers:
+                st.markdown("### 📅 Hiring Timeline")
+                st.caption("Chronological view of who hired this coach at each club")
+
+                # Build timeline from hiring managers + career history
+                timeline_events = []
+
+                for hm in hiring_managers:
+                    club = hm.get("club_name", "Unknown Club")
+                    name = hm.get("name", "Unknown")
+                    role = hm.get("role", "")
+                    notes = hm.get("notes", "")
+
+                    # Try to find matching career station for dates
+                    matching_station = None
+                    for station in career_history:
+                        if club.lower() in station.get("club", "").lower():
+                            matching_station = station
+                            break
+
+                    period = matching_station.get("period", "") if matching_station else ""
+                    position = matching_station.get("position", "") if matching_station else ""
+
+                    timeline_events.append({
+                        "period": period,
+                        "club": club,
+                        "position": position,
+                        "hired_by": name,
+                        "hired_by_role": role,
+                        "notes": notes
+                    })
+
+                # Sort by period (most recent first)
+                timeline_events.sort(key=lambda x: x.get("period", ""), reverse=True)
+
+                # Display timeline
+                for idx, event in enumerate(timeline_events):
+                    period = event.get("period", "Unknown")
+                    club = event.get("club", "")
+                    position = event.get("position", "")
+                    hired_by = event.get("hired_by", "")
+                    hired_by_role = event.get("hired_by_role", "")
+                    notes = event.get("notes", "")
+
+                    # Timeline entry
+                    with st.container():
+                        col_year, col_details = st.columns([1, 4])
+
+                        with col_year:
+                            st.markdown(f"**{period}**")
+
+                        with col_details:
+                            st.markdown(f"**🏟️ {club}** · {position}")
+                            st.markdown(f"🎯 Hired by: **{hired_by}** ({hired_by_role})")
+                            if notes:
+                                st.caption(notes)
+
+                        if idx < len(timeline_events) - 1:
+                            st.markdown("↓")
+
+            st.divider()
+
+            # PATTERN RECOGNITION
+            st.markdown("### 🔥 Hiring Patterns")
+
+            # Analyze patterns: who hired this coach multiple times?
+            hiring_count = {}
+            for hm in hiring_managers:
+                name = hm.get("name", "Unknown")
+                hiring_count[name] = hiring_count.get(name, 0) + 1
+
+            repeat_hirers = {name: count for name, count in hiring_count.items() if count > 1}
+
+            if repeat_hirers:
+                st.success("🔁 **Repeat Hiring Relationships Found!**")
+                for name, count in sorted(repeat_hirers.items(), key=lambda x: -x[1]):
+                    clubs_hired = [hm.get("club_name", "") for hm in hiring_managers if hm.get("name") == name]
+                    st.markdown(f"- **{name}**: Hired {count}x ({', '.join(clubs_hired)})")
+            else:
+                st.info("No repeat hiring patterns detected. Each hiring manager hired this coach once.")
+
+            st.divider()
+
+            # BY ROLE: Expandable cards
+            st.markdown("### 💼 Decision Makers by Role")
+
+            # Hiring Managers
+            if hiring_managers:
+                with st.expander(f"🎯 Hiring Managers ({len(hiring_managers)})", expanded=True):
+                    for hm in hiring_managers:
+                        name = hm.get("name", "Unknown")
+                        role = hm.get("role", "Hiring Manager")
+                        club = hm.get("club_name", "")
+                        notes = hm.get("notes", "")
+                        url = hm.get("url", "")
+
+                        st.markdown(f"**{name}** - {role}")
+                        st.caption(f"📍 {club}")
+                        if notes:
+                            st.caption(f"ℹ️ {notes}")
+                        if url:
+                            st.caption(f"[Transfermarkt Profile]({url})")
+                        st.markdown("---")
+
+            # Sports Directors
+            sports_directors = decision_makers_data.get("sports_directors", [])
+            if sports_directors:
+                with st.expander(f"📋 Sports Directors ({len(sports_directors)})", expanded=False):
+                    for sd in sports_directors:
+                        name = sd.get("name", "Unknown")
+                        role = sd.get("role", "Sports Director")
+                        club = sd.get("club_name", "")
+                        url = sd.get("url", "")
+
+                        st.markdown(f"**{name}** - {role}")
+                        st.caption(f"📍 {club}")
+                        if url:
+                            st.caption(f"[Transfermarkt Profile]({url})")
+                        st.markdown("---")
+
+            # Executives
+            executives = decision_makers_data.get("executives", []) + decision_makers_data.get("presidents", [])
+            if executives:
+                with st.expander(f"💼 Executives & Presidents ({len(executives)})", expanded=False):
+                    for exec_person in executives:
+                        name = exec_person.get("name", "Unknown")
+                        role = exec_person.get("role", "Executive")
+                        club = exec_person.get("club_name", "")
+                        url = exec_person.get("url", "")
+
+                        st.markdown(f"**{name}** - {role}")
+                        st.caption(f"📍 {club}")
+                        if url:
+                            st.caption(f"[Transfermarkt Profile]({url})")
+                        st.markdown("---")
+
+    # ===== TAB 2: COMPLETE NETWORK =====
+    with tab_network:
         # Collect all network contacts
         network_contacts = []
 
@@ -1584,9 +1791,10 @@ if st.session_state.coach_data:
         else:
             st.info("Load the Companions data in the 'Companions' tab to see the full network")
 
-    with tab2:
-        # Career & Titles Tab - Playing Career + Achievements
+    # ===== TAB 3: CAREER OVERVIEW =====
+    with tab_career:
         st.subheader("📋 Career Overview & Achievements")
+        st.caption("Complete career history: playing career, coaching stations, titles won")
 
         # Get coach name for session state keys
         coach_name = profile.get("name", "unknown")
@@ -1796,8 +2004,9 @@ if st.session_state.coach_data:
                     st.markdown("---")
                     st.markdown(f"**🎓 Pro License:** {cohort_info.get('name', '')} ({cohort_info.get('year', '')})")
 
-    with tab3:
-        st.subheader("Coaching Career")
+        # Coaching Stations - merged from old tab3
+        st.divider()
+        st.markdown("### 🏟️ Coaching Stations")
         if players_used and players_used.get("stations"):
             # Calculate career PPG
             total_wins = sum(s.get("wins", 0) for s in players_used["stations"])
@@ -1904,8 +2113,61 @@ if st.session_state.coach_data:
         else:
             st.info("No coaching stations data available")
 
-    with tab4:
-        st.subheader("Teammates from Playing Career")
+    # ===== TAB 4: PERFORMANCE =====
+    with tab_performance:
+        st.subheader("⚽ Performance & Network")
+        st.caption("Players coached, teammates from playing career, and coaching companions")
+
+        # Section 1: Players Coached (moved from old tab5)
+        st.markdown("### ⚽ Players Coached")
+
+        if players_used and players_used.get("players"):
+            players_list = players_used["players"]
+
+            # Filter: Players with 20+ games and 70+ avg minutes
+            key_players = [
+                p for p in players_list
+                if p.get("games", 0) >= 20 and p.get("avg_minutes", 0) >= 70
+            ]
+
+            if key_players:
+                st.info(f"📊 Showing {len(key_players)} key players (20+ games, 70+ avg minutes)")
+
+                players_data = []
+                for p in key_players[:50]:  # Top 50
+                    players_data.append({
+                        "Player": p.get("name", "Unknown"),
+                        "Nationality": p.get("nationality", ""),
+                        "Position": p.get("position", ""),
+                        "Games": p.get("games", 0),
+                        "Goals": p.get("goals", 0),
+                        "Assists": p.get("assists", 0),
+                        "Avg Min": round(p.get("avg_minutes", 0)),
+                    })
+
+                st.dataframe(
+                    players_data,
+                    use_container_width=True,
+                    hide_index=True,
+                    column_config={
+                        "Player": st.column_config.TextColumn("Player", width="medium"),
+                        "Nationality": st.column_config.TextColumn("Nat", width="small"),
+                        "Position": st.column_config.TextColumn("Pos", width="small"),
+                        "Games": st.column_config.NumberColumn("G", width="small"),
+                        "Goals": st.column_config.NumberColumn("⚽", width="small"),
+                        "Assists": st.column_config.NumberColumn("🅰️", width="small"),
+                        "Avg Min": st.column_config.NumberColumn("Min/G", width="small"),
+                    }
+                )
+            else:
+                st.info("No key players found (filter: 20+ games, 70+ avg minutes)")
+        else:
+            st.info("No players coached data available")
+
+        st.divider()
+
+        # Section 2: Teammates from Playing Career (moved from old tab4)
+        st.markdown("### 👥 Teammates from Playing Career")
         if teammates and teammates.get("all_teammates"):
             tm_list = teammates["all_teammates"]
             total_in_list = len(tm_list)
@@ -2048,8 +2310,9 @@ if st.session_state.coach_data:
         else:
             st.info("No teammate data available (coach may not have had a professional playing career)")
 
-    with tab5:
-        st.subheader("Players Coached (by Minutes)")
+        # Section removed - Players Coached now at top of Performance tab
+
+        # OLD TAB5 CODE BELOW - TO BE REMOVED OR INTEGRATED
         players_detail = data.get("players_detail", {})
 
         if players_detail and players_detail.get("players"):
@@ -2178,9 +2441,10 @@ if st.session_state.coach_data:
         else:
             st.info("No detailed player data available")
 
-    with tab6:
-        st.subheader("🤝 Career Network & Companions")
-        st.markdown("*People who worked alongside this coach: Sports Directors, Assistants, Bosses, and Management*")
+        # Companions section - merged into Performance tab
+        st.divider()
+        st.markdown("### 🤝 Coaching Companions")
+        st.caption("Assistant coaches, co-trainers, and former bosses")
 
         # Button to load companions data
         companions_data = data.get("companions")
