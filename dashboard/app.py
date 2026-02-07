@@ -1755,56 +1755,7 @@ if st.session_state.coach_data:
         # Get coach name for session state keys
         coach_name = profile.get("name", "unknown")
 
-        # P1.1: Career Timeline Visualization (Fixed HTML rendering)
-        if players_used and players_used.get("stations"):
-            st.markdown("#### 📅 Career Timeline")
-            stations = players_used["stations"]
-
-            # Use st.container for better rendering
-            for i, station in enumerate(reversed(stations[:7])):  # Show last 7 stations chronologically
-                club = station.get("club", "Unknown")
-                role_text = station.get("role", "Trainer")
-                period = station.get("period", "")
-
-                # Calculate PPG from station data
-                wins = station.get("wins", 0)
-                draws = station.get("draws", 0)
-                losses = station.get("losses", 0)
-                games = wins + draws + losses
-                ppg = (wins * 3 + draws) / games if games > 0 else 0
-
-                # Color based on PPG
-                if ppg >= 2.0:
-                    color = "#28a745"  # Green
-                    indicator = "⭐"
-                elif ppg >= 1.5:
-                    color = "#17a2b8"  # Blue
-                    indicator = "📈"
-                elif ppg >= 1.0:
-                    color = "#ffc107"  # Yellow
-                    indicator = "➡️"
-                else:
-                    color = "#6c757d"  # Gray
-                    indicator = "📉"
-
-                is_current = i == len(stations[:7]) - 1
-                arrow = "📍" if is_current else "→"
-                period_display = "(Current)" if is_current else f"• {period} yrs" if period else ""
-
-                # Get club logo
-                club_logo = get_club_logo(club)
-                logo_html = f'<img src="{club_logo}" style="height: 30px; vertical-align: middle; margin-right: 10px;">' if club_logo else ''
-
-                # Use markdown with inline HTML for color + logo
-                st.markdown(
-                    f'<div style="margin: 0.5rem 0; padding: 0.75rem; background: white; border-left: 4px solid {color}; border-radius: 4px;">'
-                    f'<div style="font-weight: bold; color: {color};">{logo_html}{arrow} {club}</div>'
-                    f'<div style="font-size: 0.9rem; color: #666; margin-left: {40 if club_logo else 0}px;">{role_text} {period_display} • {games} games • {indicator} PPG: {ppg:.2f}</div>'
-                    f'</div>',
-                    unsafe_allow_html=True
-                )
-
-            st.divider()
+        # Career Timeline removed - full details shown in Coaching Stations table below
 
         col_career, col_titles = st.columns(2)
 
@@ -2095,6 +2046,7 @@ if st.session_state.coach_data:
                         "Goals": p.get("goals", 0),
                         "Assists": p.get("assists", 0),
                         "Avg Min": round(p.get("avg_minutes", 0)),
+                        "Profile": p.get("url", ""),
                     })
 
                 st.dataframe(
@@ -2109,6 +2061,7 @@ if st.session_state.coach_data:
                         "Goals": st.column_config.NumberColumn("⚽", width="small"),
                         "Assists": st.column_config.NumberColumn("🅰️", width="small"),
                         "Avg Min": st.column_config.NumberColumn("Min/G", width="small"),
+                        "Profile": st.column_config.LinkColumn("🔗", width="small", display_text="View"),
                     }
                 )
             else:
