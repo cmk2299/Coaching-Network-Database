@@ -36,6 +36,9 @@ st.set_page_config(
     layout="wide"
 )
 
+# Version for cache busting
+APP_VERSION = "1.1.0"  # Updated: Decision Makers integration
+
 # Custom CSS with P1.3 Mobile Responsive + P2.2 Visual Hierarchy
 st.markdown("""
 <style>
@@ -949,7 +952,22 @@ if st.session_state.coach_data:
 
     with header_col2:
         st.markdown(f"## {profile.get('name', 'Unknown Coach')}")
-        st.markdown(f"**{profile.get('current_role', 'Coach')}** @ **{profile.get('current_club', 'Unknown')}**")
+
+        # Club logo and role
+        club_name = profile.get('current_club', 'Unknown')
+        club_url = profile.get('club_url', '')
+
+        # Extract club ID for logo
+        club_logo_html = ""
+        if club_url:
+            import re
+            club_id_match = re.search(r'/verein/(\d+)', club_url)
+            if club_id_match:
+                club_id = club_id_match.group(1)
+                logo_url = f"https://tmssl.akamaized.net/images/wappen/head/{club_id}.png"
+                club_logo_html = f'<img src="{logo_url}" width="24" style="vertical-align: middle; margin-right: 8px;">'
+
+        st.markdown(f"{club_logo_html}**{profile.get('current_role', 'Coach')}** @ **{club_name}**", unsafe_allow_html=True)
 
         # Info chips
         info_parts = [
@@ -1013,6 +1031,11 @@ if st.session_state.coach_data:
 
         # Decision Makers worked with (from enriched data - preferred source)
         decision_makers_data = data.get("decision_makers")
+
+        # DEBUG: Show if decision_makers exists
+        if decision_makers_data:
+            st.caption(f"🐛 DEBUG: Found decision_makers data (Total: {decision_makers_data.get('total', 0)})")
+
         if decision_makers_data:
             hiring_managers = decision_makers_data.get("hiring_managers", [])
             sports_directors = decision_makers_data.get("sports_directors", [])
