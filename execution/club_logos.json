@@ -17,6 +17,7 @@
     },
     {
       "name": "Bayer Leverkusen",
+      "aliases": ["Bayer 04 Leverkusen", "Leverkusen"],
       "logo_url": "https://tmssl.akamaized.net/images/wappen/head/15.png",
       "transfermarkt_id": 15
     },

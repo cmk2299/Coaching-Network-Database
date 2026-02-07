@@ -2678,14 +2678,6 @@ else:
 
     1. **Direct Search**: Enter a coach name to find them directly
     2. **Browse by League**: Select Bundesliga → Club → View current coach
-
-    ---
-
-    **Example searches:**
-    - Alexander Blessin (FC St. Pauli)
-    - Kasper Hjulmand (Bayer Leverkusen)
-    - Vincent Kompany (FC Bayern)
-    - Ole Werner (RB Leipzig)
     """)
 
     # Quick access buttons

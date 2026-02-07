@@ -44,13 +44,24 @@ def get_club_logo(club_name: str) -> str:
             club_normalized = club['name'].lower().strip()
 
             # Remove prefixes from mapping name too
-            for prefix in ['fc ', '1. fc ', 'vfl ', 'vfb ', 'tsg ', '1. fsv ']:
+            for prefix in ['fc ', '1. fc ', 'vfl ', 'vfb ', 'tsg ', '1. fsv ', 'bayer 04 ', '1. ']:
                 if club_normalized.startswith(prefix):
                     club_normalized = club_normalized[len(prefix):]
 
             # Check if names match
             if normalized_search in club_normalized or club_normalized in normalized_search:
                 return club['logo_url']
+
+            # Also check aliases if they exist
+            if 'aliases' in club:
+                for alias in club['aliases']:
+                    alias_normalized = alias.lower().strip()
+                    for prefix in ['fc ', '1. fc ', 'vfl ', 'vfb ', 'tsg ', '1. fsv ', 'bayer 04 ', '1. ']:
+                        if alias_normalized.startswith(prefix):
+                            alias_normalized = alias_normalized[len(prefix):]
+
+                    if normalized_search in alias_normalized or alias_normalized in normalized_search:
+                        return club['logo_url']
 
         # Not found
         return ""
