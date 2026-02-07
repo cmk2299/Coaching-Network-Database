@@ -26,6 +26,7 @@ from scrape_companions import get_companions_for_coach
 from license_cohorts import get_cohort_mates, find_cohort_for_coach, get_cohort_info
 from preload_coach_data import load_preloaded, PRELOAD_DIR
 from scrape_playing_career import scrape_coach_achievements
+from get_club_logo import get_club_logo, get_logo_by_id
 import re
 from streamlit_agraph import agraph, Node, Edge, Config
 
@@ -1178,7 +1179,12 @@ if st.session_state.coach_data:
                 # Display timeline
                 for idx, event in enumerate(timeline_events):
                     with st.container():
-                        col_year, col_details = st.columns([1, 4])
+                        col_logo, col_year, col_details = st.columns([0.5, 1, 3.5])
+
+                        # Club logo
+                        club_logo = get_club_logo(event['club'])
+                        if club_logo:
+                            col_logo.image(club_logo, width=40)
 
                         col_year.markdown(f"**{event['period'] or 'Unknown'}**")
 
@@ -1785,11 +1791,15 @@ if st.session_state.coach_data:
                 arrow = "📍" if is_current else "→"
                 period_display = "(Current)" if is_current else f"• {period} yrs" if period else ""
 
-                # Use markdown with inline HTML for color
+                # Get club logo
+                club_logo = get_club_logo(club)
+                logo_html = f'<img src="{club_logo}" style="height: 30px; vertical-align: middle; margin-right: 10px;">' if club_logo else ''
+
+                # Use markdown with inline HTML for color + logo
                 st.markdown(
                     f'<div style="margin: 0.5rem 0; padding: 0.75rem; background: white; border-left: 4px solid {color}; border-radius: 4px;">'
-                    f'<div style="font-weight: bold; color: {color};">{arrow} {club}</div>'
-                    f'<div style="font-size: 0.9rem; color: #666;">{role_text} {period_display} • {games} games • {indicator} PPG: {ppg:.2f}</div>'
+                    f'<div style="font-weight: bold; color: {color};">{logo_html}{arrow} {club}</div>'
+                    f'<div style="font-size: 0.9rem; color: #666; margin-left: {40 if club_logo else 0}px;">{role_text} {period_display} • {games} games • {indicator} PPG: {ppg:.2f}</div>'
                     f'</div>',
                     unsafe_allow_html=True
                 )
@@ -2704,14 +2714,32 @@ else:
 
         coaches_data = st.session_state.bundesliga_coaches.get("clubs", {})
         if coaches_data:
-            overview_data = []
-            for club, info in sorted(coaches_data.items()):
-                overview_data.append({
-                    "Club": club,
-                    "Coach": info.get("coach_name", "Unknown"),
-                })
+            # Display as grid with logos (3 columns)
+            sorted_clubs = sorted(coaches_data.items())
+            cols_per_row = 3
 
-            st.dataframe(overview_data, use_container_width=True, hide_index=True)
+            for i in range(0, len(sorted_clubs), cols_per_row):
+                cols = st.columns(cols_per_row)
+
+                for j, (club, info) in enumerate(sorted_clubs[i:i+cols_per_row]):
+                    with cols[j]:
+                        # Get club logo
+                        logo_url = get_club_logo(club)
+
+                        # Display club card
+                        if logo_url:
+                            st.image(logo_url, width=60)
+
+                        st.markdown(f"**{club}**")
+                        coach_name = info.get("coach_name", "Unknown")
+                        coach_url = info.get("coach_url", "")
+
+                        if coach_url:
+                            st.caption(f"👤 {coach_name}")
+                        else:
+                            st.caption(f"👤 {coach_name}")
+
+                        st.markdown("")  # Spacing
 
 
 if __name__ == "__main__":
