@@ -146,6 +146,96 @@ CREATE INDEX IF NOT EXISTS idx_players_minutes ON players_used(minutes_avg);
 CREATE INDEX IF NOT EXISTS idx_career_coach ON career_stations(coach_id);
 CREATE INDEX IF NOT EXISTS idx_decision_makers_coach ON decision_makers(coach_id);
 
+-- Sportdirektor profiles (NEW - for Trainerberater use case)
+CREATE TABLE IF NOT EXISTS sportdirektoren (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT UNIQUE NOT NULL,
+    current_club TEXT,
+    current_role TEXT,
+    nationality TEXT,
+    dob DATE,
+
+    -- Contact info
+    phone TEXT,
+    email TEXT,
+    linkedin_url TEXT,
+    tm_url TEXT,
+
+    -- Career tracking
+    clubs_worked_at TEXT, -- JSON array of clubs
+    years_experience INTEGER,
+
+    -- Metadata
+    added_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- SD ↔ Coach relationships (CRITICAL for Trainerberater)
+CREATE TABLE IF NOT EXISTS sd_coach_relationships (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    sd_id INTEGER NOT NULL,
+    coach_id INTEGER NOT NULL,
+
+    -- Relationship details
+    relationship_type TEXT, -- "hired", "worked_together", "indirect"
+    club_name TEXT,
+    period_start DATE,
+    period_end DATE,
+
+    -- Context
+    hire_reason TEXT, -- "Promotion specialist", "Young talent", etc.
+    outcome TEXT, -- "Promoted", "Fired after 6 months", "Successful", etc.
+    notes TEXT,
+
+    -- Metadata
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+
+    FOREIGN KEY (sd_id) REFERENCES sportdirektoren(id),
+    FOREIGN KEY (coach_id) REFERENCES coaches(id),
+    UNIQUE(sd_id, coach_id, club_name, period_start)
+);
+
+-- SD hiring patterns (derived from relationships)
+CREATE VIEW IF NOT EXISTS v_sd_hiring_patterns AS
+SELECT
+    sd.name as sd_name,
+    sd.current_club,
+    COUNT(DISTINCT rel.coach_id) as coaches_hired,
+    AVG(CASE
+        WHEN rel.outcome LIKE '%Promoted%' OR rel.outcome LIKE '%Successful%'
+        THEN 1 ELSE 0
+    END) as success_rate,
+    GROUP_CONCAT(DISTINCT c.nationality) as nationalities_hired,
+    AVG(c.age) as avg_coach_age_hired
+FROM sportdirektoren sd
+LEFT JOIN sd_coach_relationships rel ON sd.id = rel.sd_id
+LEFT JOIN coaches c ON rel.coach_id = c.id
+WHERE rel.relationship_type = 'hired'
+GROUP BY sd.id;
+
+-- Coach relationship finder (for "Wer kennt meinen Trainer?")
+CREATE VIEW IF NOT EXISTS v_coach_sd_connections AS
+SELECT
+    c.name as coach_name,
+    c.id as coach_id,
+    sd.name as sd_name,
+    sd.id as sd_id,
+    sd.current_club as sd_current_club,
+    rel.relationship_type,
+    rel.club_name as worked_at,
+    rel.period_start,
+    rel.period_end,
+    rel.outcome,
+    CASE
+        WHEN rel.relationship_type = 'hired' AND rel.period_end IS NULL THEN 'active'
+        WHEN rel.relationship_type = 'hired' THEN 'past'
+        ELSE rel.relationship_type
+    END as connection_status
+FROM coaches c
+JOIN sd_coach_relationships rel ON c.id = rel.coach_id
+JOIN sportdirektoren sd ON rel.sd_id = sd.id
+ORDER BY c.name, rel.period_start DESC;
+
 -- Views for common queries
 
 -- Agent View: Find coaches who use specific positions heavily

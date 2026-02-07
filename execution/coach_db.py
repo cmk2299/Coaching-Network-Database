@@ -319,6 +319,219 @@ class CoachDB:
 
         return results
 
+    # ========== SPORTDIREKTOR FUNCTIONS (for Trainerberater) ==========
+
+    def get_or_create_sd(self, name: str, current_club: str = None) -> int:
+        """
+        Get SD id from database, or create if doesn't exist.
+        Returns: sd_id
+        """
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+
+        # Try to find existing
+        cursor.execute("SELECT id FROM sportdirektoren WHERE name = ?", (name,))
+        row = cursor.fetchone()
+
+        if row:
+            sd_id = row[0]
+        else:
+            # Create new
+            cursor.execute("""
+                INSERT INTO sportdirektoren (name, current_club, added_at)
+                VALUES (?, ?, ?)
+            """, (name, current_club, datetime.now()))
+            sd_id = cursor.lastrowid
+            conn.commit()
+
+        conn.close()
+        return sd_id
+
+    def add_sd_coach_relationship(self, sd_name: str, coach_tm_id: int,
+                                   relationship_type: str, club_name: str,
+                                   period: str, outcome: str = None, notes: str = None):
+        """
+        Add a relationship between SD and Coach.
+
+        Args:
+            sd_name: Name of Sportdirektor
+            coach_tm_id: Transfermarkt ID of coach
+            relationship_type: "hired", "worked_together", "indirect"
+            club_name: Where they worked together
+            period: "2024-present" or "2022-2023"
+            outcome: "Promoted", "Successful", "Fired", etc.
+            notes: Additional context
+        """
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+
+        # Get or create SD
+        sd_id = self.get_or_create_sd(sd_name, club_name)
+
+        # Get coach
+        cursor.execute("SELECT id FROM coaches WHERE tm_id = ?", (coach_tm_id,))
+        coach_row = cursor.fetchone()
+        if not coach_row:
+            conn.close()
+            raise ValueError(f"Coach with tm_id {coach_tm_id} not found in database")
+
+        coach_id = coach_row[0]
+
+        # Parse period
+        period_start = None
+        period_end = None
+        if "-" in period:
+            parts = period.split("-")
+            period_start = parts[0].strip()
+            period_end = parts[1].strip() if parts[1].strip().lower() != "present" else None
+
+        # Insert relationship
+        cursor.execute("""
+            INSERT OR IGNORE INTO sd_coach_relationships
+            (sd_id, coach_id, relationship_type, club_name, period_start, period_end, outcome, notes)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """, (sd_id, coach_id, relationship_type, club_name, period_start, period_end, outcome, notes))
+
+        conn.commit()
+        conn.close()
+
+    def find_sd_connections_for_coach(self, coach_tm_id: int) -> dict:
+        """
+        TRAINERBERATER FEATURE: Find all SD connections for a coach.
+
+        Returns categorized connections:
+        - existing: SDs who hired this coach
+        - indirect: SDs in same network/clubs
+        - no_relationship: SDs who might fit but no connection yet
+        """
+        conn = sqlite3.connect(self.db_path)
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
+
+        # Existing relationships
+        cursor.execute("""
+            SELECT
+                sd.name as sd_name,
+                sd.current_club,
+                sd.current_role,
+                rel.relationship_type,
+                rel.club_name as worked_at,
+                rel.period_start,
+                rel.period_end,
+                rel.outcome,
+                rel.notes,
+                CASE
+                    WHEN rel.period_end IS NULL THEN 'active'
+                    ELSE 'past'
+                END as status
+            FROM coaches c
+            JOIN sd_coach_relationships rel ON c.id = rel.coach_id
+            JOIN sportdirektoren sd ON rel.sd_id = sd.id
+            WHERE c.tm_id = ?
+            ORDER BY rel.period_start DESC
+        """, (coach_tm_id,))
+
+        existing = [dict(row) for row in cursor.fetchall()]
+
+        conn.close()
+
+        return {
+            "existing": existing,
+            "indirect": [],  # TODO: Implement indirect connections
+            "no_relationship": []  # TODO: Implement potential fits
+        }
+
+    def find_coaches_for_sd(self, sd_name: str) -> List[dict]:
+        """
+        TRAINERBERATER FEATURE: Find all coaches hired by this SD.
+        Shows hiring pattern for pitching similar coaches.
+        """
+        conn = sqlite3.connect(self.db_path)
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
+
+        cursor.execute("""
+            SELECT
+                c.name as coach_name,
+                c.tm_id,
+                c.nationality,
+                c.dob,
+                c.license_level,
+                rel.club_name,
+                rel.period_start,
+                rel.period_end,
+                rel.outcome,
+                rel.notes
+            FROM sportdirektoren sd
+            JOIN sd_coach_relationships rel ON sd.id = rel.sd_id
+            JOIN coaches c ON rel.coach_id = c.id
+            WHERE sd.name = ?
+              AND rel.relationship_type = 'hired'
+            ORDER BY rel.period_start DESC
+        """, (sd_name,))
+
+        results = [dict(row) for row in cursor.fetchall()]
+        conn.close()
+
+        return results
+
+    def find_matching_sds_for_coach_profile(self, nationality: str = None,
+                                             license_level: str = None,
+                                             min_age: int = None,
+                                             max_age: int = None) -> List[dict]:
+        """
+        TRAINERBERATER FEATURE: Reverse search - find SDs who hire coaches
+        matching this profile.
+
+        Example: "Welche SDs hired German coaches mit UEFA Pro?"
+        """
+        conn = sqlite3.connect(self.db_path)
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
+
+        # Build query dynamically
+        query = """
+            SELECT
+                sd.name as sd_name,
+                sd.current_club,
+                sd.current_role,
+                COUNT(DISTINCT c.id) as coaches_hired,
+                GROUP_CONCAT(DISTINCT c.name) as coaches_list,
+                AVG(CASE
+                    WHEN rel.outcome LIKE '%romot%' OR rel.outcome LIKE '%uccessful%'
+                    THEN 1 ELSE 0
+                END) as success_rate
+            FROM sportdirektoren sd
+            JOIN sd_coach_relationships rel ON sd.id = rel.sd_id
+            JOIN coaches c ON rel.coach_id = c.id
+            WHERE rel.relationship_type = 'hired'
+        """
+
+        params = []
+
+        if nationality:
+            query += " AND c.nationality = ?"
+            params.append(nationality)
+
+        if license_level:
+            query += " AND c.license_level = ?"
+            params.append(license_level)
+
+        # TODO: Add age filtering when we have proper DOB data
+
+        query += """
+            GROUP BY sd.id
+            HAVING coaches_hired >= 2
+            ORDER BY coaches_hired DESC, success_rate DESC
+        """
+
+        cursor.execute(query, params)
+
+        results = [dict(row) for row in cursor.fetchall()]
+        conn.close()
+
+        return results
+
 # Singleton instance
 _db = None
 
