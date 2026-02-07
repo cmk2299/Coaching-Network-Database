@@ -172,10 +172,11 @@ def get_all_decision_makers(coach_name: str, stations: List[Dict]) -> Dict:
     Combines:
     1. Manual curated data
     2. Scraped current staff for each station
+    3. Club news/press releases for hiring managers
 
     Args:
         coach_name: Coach name
-        stations: List of coaching stations with club_id, club_name
+        stations: List of coaching stations with club_id, club_name, start_date, end_date
 
     Returns:
         Dict with categorized decision makers and metadata
@@ -204,6 +205,35 @@ def get_all_decision_makers(coach_name: str, stations: List[Dict]) -> Dict:
 
         scraped = scrape_club_decision_makers(club_id, club_name)
         all_dms.extend(scraped)
+
+    # 3. Scrape club news for hiring managers (NEW!)
+    try:
+        from scrape_club_news import scrape_coach_announcement
+
+        for station in stations:
+            club_name = station.get("club_name", "Unknown")
+            start_date = station.get("start_date", "")
+
+            # Extract year from start_date
+            year = None
+            if start_date:
+                import re
+                year_match = re.search(r'\d{4}', start_date)
+                if year_match:
+                    year = int(year_match.group(0))
+
+            # Scrape club news
+            news_result = scrape_coach_announcement(club_name, coach_name, year)
+
+            # Add hiring managers from news
+            for hm in news_result.get("hiring_managers", []):
+                hm["club_name"] = club_name
+                if news_result.get("article_url"):
+                    hm["article_url"] = news_result["article_url"]
+                all_dms.append(hm)
+
+    except Exception as e:
+        print(f"  Warning: Could not scrape club news: {e}")
 
     # 3. Deduplicate by name
     unique_dms = {}

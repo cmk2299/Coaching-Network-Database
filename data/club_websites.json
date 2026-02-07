@@ -1,0 +1,124 @@
+{
+  "clubs": {
+    "Bayern München": {
+      "website": "https://fcbayern.com",
+      "news_url": "https://fcbayern.com/de/news",
+      "search_patterns": ["/de/news/", "/aktuelles/"],
+      "language": "de"
+    },
+    "Borussia Dortmund": {
+      "website": "https://www.bvb.de",
+      "news_url": "https://www.bvb.de/News",
+      "search_patterns": ["/News/", "/Aktuelles/"],
+      "language": "de"
+    },
+    "RB Leipzig": {
+      "website": "https://www.dierotenbullen.com",
+      "news_url": "https://www.dierotenbullen.com/de/aktuell",
+      "search_patterns": ["/de/aktuell/", "/news/"],
+      "language": "de"
+    },
+    "Bayer Leverkusen": {
+      "website": "https://www.bayer04.de",
+      "news_url": "https://www.bayer04.de/de-de/aktuelles",
+      "search_patterns": ["/de-de/aktuelles/", "/news/"],
+      "language": "de"
+    },
+    "Eintracht Frankfurt": {
+      "website": "https://www.eintracht.de",
+      "news_url": "https://www.eintracht.de/news/",
+      "search_patterns": ["/news/", "/aktuelles/"],
+      "language": "de"
+    },
+    "VfB Stuttgart": {
+      "website": "https://www.vfb.de",
+      "news_url": "https://www.vfb.de/de/vfb/aktuell/news/",
+      "search_patterns": ["/aktuell/news/", "/news/"],
+      "language": "de"
+    },
+    "SC Freiburg": {
+      "website": "https://www.scfreiburg.com",
+      "news_url": "https://www.scfreiburg.com/aktuelles/",
+      "search_patterns": ["/aktuelles/", "/news/"],
+      "language": "de"
+    },
+    "FC St. Pauli": {
+      "website": "https://www.fcstpauli.com",
+      "news_url": "https://www.fcstpauli.com/news/",
+      "search_patterns": ["/news/", "/aktuell/"],
+      "language": "de"
+    },
+    "1. FC Union Berlin": {
+      "website": "https://www.fc-union-berlin.de",
+      "news_url": "https://www.fc-union-berlin.de/de/union-live/news",
+      "search_patterns": ["/news", "/aktuelles"],
+      "language": "de"
+    },
+    "Werder Bremen": {
+      "website": "https://www.werder.de",
+      "news_url": "https://www.werder.de/aktuell/news/",
+      "search_patterns": ["/aktuell/news/", "/news/"],
+      "language": "de"
+    },
+    "Borussia Mönchengladbach": {
+      "website": "https://www.borussia.de",
+      "news_url": "https://www.borussia.de/german/aktuell/news.html",
+      "search_patterns": ["/aktuell/news", "/news"],
+      "language": "de"
+    },
+    "VfL Wolfsburg": {
+      "website": "https://www.vfl-wolfsburg.de",
+      "news_url": "https://www.vfl-wolfsburg.de/info/aktuelles/news.html",
+      "search_patterns": ["/aktuelles/news", "/news"],
+      "language": "de"
+    },
+    "1. FSV Mainz 05": {
+      "website": "https://www.mainz05.de",
+      "news_url": "https://www.mainz05.de/news/",
+      "search_patterns": ["/news/", "/aktuelles/"],
+      "language": "de"
+    },
+    "TSG Hoffenheim": {
+      "website": "https://www.achtzehn99.de",
+      "news_url": "https://www.achtzehn99.de/aktuell/news/",
+      "search_patterns": ["/aktuell/news/", "/news/"],
+      "language": "de"
+    },
+    "FC Augsburg": {
+      "website": "https://www.fcaugsburg.de",
+      "news_url": "https://www.fcaugsburg.de/newslist",
+      "search_patterns": ["/newslist", "/news"],
+      "language": "de"
+    },
+    "1. FC Heidenheim": {
+      "website": "https://www.fc-heidenheim.de",
+      "news_url": "https://www.fc-heidenheim.de/aktuell/",
+      "search_patterns": ["/aktuell/", "/news/"],
+      "language": "de"
+    },
+    "Holstein Kiel": {
+      "website": "https://www.holstein-kiel.de",
+      "news_url": "https://www.holstein-kiel.de/aktuell/",
+      "search_patterns": ["/aktuell/", "/news/"],
+      "language": "de"
+    },
+    "VfL Bochum": {
+      "website": "https://www.vfl-bochum.de",
+      "news_url": "https://www.vfl-bochum.de/Aktuell/",
+      "search_patterns": ["/Aktuell/", "/News/"],
+      "language": "de"
+    },
+    "Genua CFC": {
+      "website": "https://www.genoacfc.it",
+      "news_url": "https://www.genoacfc.it/news/",
+      "search_patterns": ["/news/", "/notizie/"],
+      "language": "it"
+    },
+    "Union SG": {
+      "website": "https://www.rusg.be",
+      "news_url": "https://www.rusg.be/nl/nieuws",
+      "search_patterns": ["/nieuws", "/news"],
+      "language": "nl"
+    }
+  }
+}

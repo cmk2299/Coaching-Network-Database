@@ -1,0 +1,198 @@
+{
+  "description": "Manually curated decision maker relationships - hiring managers and key connections",
+  "relationships": [
+    {
+      "coach_name": "Alexander Blessin",
+      "club": "Genua CFC",
+      "period": "2022",
+      "decision_makers": [
+        {
+          "name": "Johannes Spors",
+          "role": "Sportdirektor",
+          "notes": "Hired Blessin at Genua 2022, previously worked together indirectly through RB network",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Alberto Zangrillo",
+          "role": "President",
+          "notes": "Club president during Blessin's tenure",
+          "connection_type": "board"
+        }
+      ]
+    },
+    {
+      "coach_name": "Alexander Blessin",
+      "club": "Union SG",
+      "period": "2023-2024",
+      "decision_makers": [
+        {
+          "name": "Bart Verbruggen",
+          "role": "CEO",
+          "notes": "Union SG CEO during successful period",
+          "connection_type": "executive"
+        }
+      ]
+    },
+    {
+      "coach_name": "Albert Riera",
+      "club": "Eintracht Frankfurt",
+      "period": "2024-2025",
+      "decision_makers": [
+        {
+          "name": "Markus Krösche",
+          "role": "Sportvorstand",
+          "notes": "Hired Riera as Frankfurt head coach in 2024",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Philipp Reschke",
+          "role": "Sportdirektor",
+          "notes": "Works alongside Krösche in Frankfurt management",
+          "connection_type": "sports_director"
+        }
+      ]
+    },
+    {
+      "coach_name": "Daniel Thioune",
+      "club": "Werder Bremen",
+      "period": "2023-2024",
+      "decision_makers": [
+        {
+          "name": "Clemens Fritz",
+          "role": "Leiter Profifußball",
+          "notes": "Hired Thioune as Werder head coach, former Werder player",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Peter Niemeyer",
+          "role": "Technischer Direktor",
+          "notes": "Part of Werder management team",
+          "connection_type": "technical_director"
+        }
+      ]
+    },
+    {
+      "coach_name": "Vincent Kompany",
+      "club": "Bayern München",
+      "period": "2024-2025",
+      "decision_makers": [
+        {
+          "name": "Max Eberl",
+          "role": "Sportvorstand",
+          "notes": "Hired Kompany from Burnley, previously at RB Leipzig and Gladbach",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Christoph Freund",
+          "role": "Sportdirektor",
+          "notes": "Former RB Salzburg SD, works with Eberl at Bayern",
+          "connection_type": "sports_director"
+        }
+      ]
+    },
+    {
+      "coach_name": "Nuri Şahin",
+      "club": "Borussia Dortmund",
+      "period": "2024-2025",
+      "decision_makers": [
+        {
+          "name": "Lars Ricken",
+          "role": "Geschäftsführer Sport",
+          "notes": "Former BVB player, promoted Şahin from assistant to head coach",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Sebastian Kehl",
+          "role": "Sportdirektor",
+          "notes": "Former BVB captain, works with Ricken",
+          "connection_type": "sports_director"
+        }
+      ]
+    },
+    {
+      "coach_name": "Xabi Alonso",
+      "club": "Bayer Leverkusen",
+      "period": "2022-present",
+      "decision_makers": [
+        {
+          "name": "Simon Rolfes",
+          "role": "Geschäftsführer Sport",
+          "notes": "Hired Alonso from Real Sociedad B in 2022",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Fernando Carro",
+          "role": "Vorsitzender der Geschäftsführung",
+          "notes": "CEO of Bayer Leverkusen",
+          "connection_type": "executive"
+        }
+      ]
+    },
+    {
+      "coach_name": "Marco Rose",
+      "club": "RB Leipzig",
+      "period": "2024-2025",
+      "decision_makers": [
+        {
+          "name": "Rouven Schröder",
+          "role": "Geschäftsführer Sport",
+          "notes": "Hired Rose from RB Leipzig in 2024",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Marcel Schäfer",
+          "role": "Sportdirektor",
+          "notes": "Former VfL Wolfsburg SD",
+          "connection_type": "sports_director"
+        }
+      ]
+    },
+    {
+      "coach_name": "Sebastian Hoeneß",
+      "club": "VfB Stuttgart",
+      "period": "2023-present",
+      "decision_makers": [
+        {
+          "name": "Fabian Wohlgemuth",
+          "role": "Sportdirektor",
+          "notes": "Promoted Hoeneß from interim to permanent head coach",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Alexander Wehrle",
+          "role": "Vorstandsvorsitzender",
+          "notes": "Stuttgart CEO",
+          "connection_type": "executive"
+        }
+      ]
+    },
+    {
+      "coach_name": "Ole Werner",
+      "club": "Werder Bremen",
+      "period": "2022-present",
+      "decision_makers": [
+        {
+          "name": "Clemens Fritz",
+          "role": "Leiter Profifußball",
+          "notes": "Hired Werner from Holstein Kiel in 2022",
+          "connection_type": "hiring_manager"
+        },
+        {
+          "name": "Peter Niemeyer",
+          "role": "Technischer Direktor",
+          "notes": "Former Werder player, technical director",
+          "connection_type": "technical_director"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.transfermarkt.de",
+    "https://de.wikipedia.org",
+    "https://www.kicker.de",
+    "Club official announcements",
+    "Industry knowledge and reporting"
+  ],
+  "last_updated": "2026-02-06",
+  "notes": "This data supplements automatic scraping with verified hiring manager relationships"
+}
