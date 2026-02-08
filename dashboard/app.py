@@ -1273,12 +1273,27 @@ if st.session_state.coach_data:
         st.markdown("### 🏢 Sporting Director Relationships")
 
         # Load SD-Coach overlaps data
-        # Try dashboard folder first (for Streamlit Cloud), then data folder (for local)
-        sd_overlaps_file = Path(__file__).resolve().parent / "sd_coach_overlaps.json"
-        if not sd_overlaps_file.exists():
-            sd_overlaps_file = Path(__file__).resolve().parent.parent / "data" / "sd_coach_overlaps.json"
+        # Try multiple path strategies for robustness across environments
+        sd_data = None
+        sd_overlaps_file = None
 
-        if sd_overlaps_file.exists():
+        # Strategy 1: Dashboard folder (Streamlit Cloud)
+        path1 = Path(__file__).resolve().parent / "sd_coach_overlaps.json"
+        # Strategy 2: Data folder relative to dashboard
+        path2 = Path(__file__).resolve().parent.parent / "data" / "sd_coach_overlaps.json"
+        # Strategy 3: Absolute path from execution dir
+        path3 = EXEC_DIR.parent / "data" / "sd_coach_overlaps.json"
+        # Strategy 4: Relative to current working directory
+        path4 = Path("data/sd_coach_overlaps.json")
+        # Strategy 5: Dashboard subfolder
+        path5 = Path("dashboard/sd_coach_overlaps.json")
+
+        for attempt_path in [path1, path2, path3, path4, path5]:
+            if attempt_path.exists():
+                sd_overlaps_file = attempt_path
+                break
+
+        if sd_overlaps_file:
             with open(sd_overlaps_file, 'r', encoding='utf-8') as f:
                 sd_data = json.load(f)
 
@@ -1375,6 +1390,19 @@ if st.session_state.coach_data:
                 st.info(f"No Sporting Director relationships found for {coach_name}")
         else:
             st.warning("SD overlap data not available. Run analyze_sd_coach_overlaps.py to generate.")
+            # Debug info (can be removed in production)
+            with st.expander("🔍 Debug Info"):
+                st.code(f"""
+Paths checked:
+1. {path1} - Exists: {path1.exists()}
+2. {path2} - Exists: {path2.exists()}
+3. {path3} - Exists: {path3.exists()}
+4. {path4} - Exists: {path4.exists()}
+5. {path5} - Exists: {path5.exists()}
+
+Current working directory: {Path.cwd()}
+Dashboard file location: {Path(__file__).resolve()}
+                """)
 
     # ===== TAB 3: COMPLETE NETWORK =====
     with tab_network:
