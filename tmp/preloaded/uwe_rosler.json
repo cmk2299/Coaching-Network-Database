@@ -4189,46 +4189,56 @@
     "cached_at": "2026-02-08T14:19:37.774005"
   },
   "companions": {},
-  "decision_makers": [
-    {
-      "name": "Dave Whelan",
-      "role": "Chairman",
-      "club": "Wigan Athletic",
-      "period": "2013-2014",
-      "notes": "Appointed Rösler from Brentford in December 2013, praised his philosophy and ambition",
-      "connection_type": "hiring_manager"
-    },
-    {
-      "name": "Lutz Pfannenstiel",
-      "role": "Sportvorstand",
-      "club": "Fortuna Düsseldorf",
-      "period": "2020",
-      "notes": "Appointed Rösler to replace Friedhelm Funkel in January 2020, signed 1.5 year contract",
-      "connection_type": "hiring_manager"
-    },
-    {
-      "name": "Ilja Kaenzig",
-      "role": "Geschäftsführer",
-      "club": "VfL Bochum",
-      "period": "2025-present",
-      "notes": "CEO who appointed Rösler in October 2025 on contract until 2027",
-      "connection_type": "hiring_manager"
-    },
-    {
-      "name": "Dirk Dufner",
-      "role": "Geschäftsführer Sport",
-      "club": "VfL Bochum",
-      "period": "2025-present",
-      "notes": "Appointed as sporting director in March 2025, involved in Rösler hiring",
-      "connection_type": "sports_director"
-    },
-    {
-      "name": "Marc Lettau",
-      "role": "Sportdirektor",
-      "club": "VfL Bochum",
-      "period": "2025-present",
-      "notes": "Hired Rösler in January 2025 for relegation battle",
-      "connection_type": "hiring_manager"
-    }
-  ]
+  "decision_makers": {
+    "hiring_managers": [
+      {
+        "name": "Dave Whelan",
+        "role": "Chairman",
+        "club": "Wigan Athletic",
+        "period": "2013-2014",
+        "notes": "Appointed Rösler from Brentford in December 2013, praised his philosophy and ambition",
+        "connection_type": "hiring_manager"
+      },
+      {
+        "name": "Lutz Pfannenstiel",
+        "role": "Sportvorstand",
+        "club": "Fortuna Düsseldorf",
+        "period": "2020",
+        "notes": "Appointed Rösler to replace Friedhelm Funkel in January 2020, signed 1.5 year contract",
+        "connection_type": "hiring_manager"
+      },
+      {
+        "name": "Ilja Kaenzig",
+        "role": "Geschäftsführer",
+        "club": "VfL Bochum",
+        "period": "2025-present",
+        "notes": "CEO who appointed Rösler in October 2025 on contract until 2027",
+        "connection_type": "hiring_manager"
+      },
+      {
+        "name": "Marc Lettau",
+        "role": "Sportdirektor",
+        "club": "VfL Bochum",
+        "period": "2025-present",
+        "notes": "Hired Rösler in January 2025 for relegation battle",
+        "connection_type": "hiring_manager"
+      }
+    ],
+    "sports_directors": [
+      {
+        "name": "Dirk Dufner",
+        "role": "Geschäftsführer Sport",
+        "club": "VfL Bochum",
+        "period": "2025-present",
+        "notes": "Appointed as sporting director in March 2025, involved in Rösler hiring",
+        "connection_type": "sports_director"
+      }
+    ],
+    "executives": [],
+    "presidents": [],
+    "technical_directors": [],
+    "other": [],
+    "total": 5,
+    "enriched_at": "2026-02-08T15:20:24.166559"
+  }
 }

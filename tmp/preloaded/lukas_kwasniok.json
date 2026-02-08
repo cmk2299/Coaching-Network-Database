@@ -1536,22 +1536,31 @@
     "cached_at": "2026-02-08T14:13:32.172303"
   },
   "companions": {},
-  "decision_makers": [
-    {
-      "name": "Fabian Wohlgemuth",
-      "role": "Geschäftsführer Sport",
-      "club": "SC Paderborn 07",
-      "period": "2021-2025",
-      "notes": "Sporting director who appointed Kwasniok to succeed Steffen Baumgart on July 1, 2021",
-      "connection_type": "hiring_manager"
-    },
-    {
-      "name": "Christian Keller",
-      "role": "Sportgeschäftsführer",
-      "club": "1. FC Köln",
-      "period": "2025-present",
-      "notes": "Hired Kwasniok in January 2025 after relegation battle",
-      "connection_type": "hiring_manager"
-    }
-  ]
+  "decision_makers": {
+    "hiring_managers": [
+      {
+        "name": "Fabian Wohlgemuth",
+        "role": "Geschäftsführer Sport",
+        "club": "SC Paderborn 07",
+        "period": "2021-2025",
+        "notes": "Sporting director who appointed Kwasniok to succeed Steffen Baumgart on July 1, 2021",
+        "connection_type": "hiring_manager"
+      },
+      {
+        "name": "Christian Keller",
+        "role": "Sportgeschäftsführer",
+        "club": "1. FC Köln",
+        "period": "2025-present",
+        "notes": "Hired Kwasniok in January 2025 after relegation battle",
+        "connection_type": "hiring_manager"
+      }
+    ],
+    "sports_directors": [],
+    "executives": [],
+    "presidents": [],
+    "technical_directors": [],
+    "other": [],
+    "total": 2,
+    "enriched_at": "2026-02-08T15:20:24.158851"
+  }
 }
