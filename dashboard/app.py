@@ -1128,8 +1128,9 @@ if st.session_state.coach_data:
             st.info("💡 Load full profile data to see insights (click 'Load Companions' in Companions tab)")
 
     # Tabs for detailed info
-    tab_dm, tab_network, tab_career, tab_performance = st.tabs([
+    tab_dm, tab_sd, tab_network, tab_career, tab_performance = st.tabs([
         "🎯 Decision Makers",
+        "🏢 Sporting Directors",
         "🕸️ Complete Network",
         "📋 Career Overview",
         "⚽ Performance"
@@ -1267,7 +1268,112 @@ if st.session_state.coach_data:
                 with st.expander(f"💼 Executives & Presidents ({len(all_executives)})", expanded=False):
                     render_dm_cards(all_executives, "Executive")
 
-    # ===== TAB 2: COMPLETE NETWORK =====
+    # ===== TAB 2: SPORTING DIRECTORS =====
+    with tab_sd:
+        st.markdown("### 🏢 Sporting Director Relationships")
+
+        # Load SD-Coach overlaps data
+        sd_overlaps_file = Path(__file__).parent.parent / "data" / "sd_coach_overlaps.json"
+
+        if sd_overlaps_file.exists():
+            with open(sd_overlaps_file, 'r', encoding='utf-8') as f:
+                sd_data = json.load(f)
+
+            # Filter for this coach
+            coach_name = data.get("profile", {}).get("name", "")
+            coach_relationships = [
+                rel for rel in sd_data.get("relationships", [])
+                if rel.get("coach_name") == coach_name
+            ]
+
+            if coach_relationships:
+                st.markdown(f"**Found {len(coach_relationships)} Sporting Director relationships**")
+
+                # Sort by relationship strength
+                coach_relationships.sort(key=lambda x: x.get("relationship_strength", 0), reverse=True)
+
+                # Display each SD relationship
+                for i, rel in enumerate(coach_relationships, 1):
+                    sd_name = rel.get("sd_name", "Unknown")
+                    sd_club = rel.get("sd_current_club", "")
+                    sd_role = rel.get("sd_current_role", "Sporting Director")
+                    strength = rel.get("relationship_strength", 0)
+                    total_clubs = rel.get("total_clubs", 0)
+                    total_years = rel.get("total_years_together", 0)
+
+                    with st.expander(f"**{i}. {sd_name}** ({sd_club}) - Strength: {strength}", expanded=(i <= 3)):
+                        col1, col2, col3 = st.columns(3)
+
+                        with col1:
+                            st.metric("Clubs Together", total_clubs)
+                        with col2:
+                            st.metric("Years Together", total_years)
+                        with col3:
+                            st.metric("Strength Score", strength)
+
+                        st.markdown("---")
+                        st.markdown("**🏟️ Overlap Periods:**")
+
+                        # Show each overlap
+                        overlaps = rel.get("overlaps", [])
+                        for overlap in overlaps:
+                            club = overlap.get("club", "Unknown")
+                            sd_period = overlap.get("sd_period", "")
+                            coach_period = overlap.get("coach_period", "")
+                            hiring = overlap.get("hiring_likelihood", "unknown")
+                            overlap_years = overlap.get("overlap_years", 0)
+
+                            # Hiring likelihood badge
+                            if hiring == "high":
+                                badge = "🔥 HIGH"
+                                badge_color = "background-color: #ff4444; color: white;"
+                            elif hiring == "medium":
+                                badge = "⚠️ MEDIUM"
+                                badge_color = "background-color: #ffa500; color: white;"
+                            else:
+                                badge = "ℹ️ LOW"
+                                badge_color = "background-color: #888; color: white;"
+
+                            st.markdown(f"""
+                            <div style="padding: 10px; margin: 5px 0; border-left: 3px solid #4CAF50; background-color: #f9f9f9;">
+                                <strong>{club}</strong><br>
+                                <small>
+                                    SD Period: {sd_period}<br>
+                                    Coach Period: {coach_period}<br>
+                                    Duration: {overlap_years} years<br>
+                                    <span style="{badge_color} padding: 2px 8px; border-radius: 3px; font-weight: bold;">
+                                        Hiring Likelihood: {badge}
+                                    </span>
+                                </small>
+                            </div>
+                            """, unsafe_allow_html=True)
+
+                # Summary insights
+                st.markdown("---")
+                st.markdown("### 📊 Summary")
+
+                total_sds = len(coach_relationships)
+                total_overlaps = sum(len(r.get("overlaps", [])) for r in coach_relationships)
+                high_likelihood = sum(
+                    1 for r in coach_relationships
+                    for o in r.get("overlaps", [])
+                    if o.get("hiring_likelihood") == "high"
+                )
+
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.metric("Total SDs Worked With", total_sds)
+                with col2:
+                    st.metric("Total Overlap Periods", total_overlaps)
+                with col3:
+                    st.metric("Likely Hired By", high_likelihood)
+
+            else:
+                st.info(f"No Sporting Director relationships found for {coach_name}")
+        else:
+            st.warning("SD overlap data not available. Run analyze_sd_coach_overlaps.py to generate.")
+
+    # ===== TAB 3: COMPLETE NETWORK =====
     with tab_network:
         # Collect all network contacts
         network_contacts = []
@@ -1775,7 +1881,7 @@ if st.session_state.coach_data:
         else:
             st.info("Load the Companions data in the 'Companions' tab to see the full network")
 
-    # ===== TAB 3: CAREER OVERVIEW =====
+    # ===== TAB 4: CAREER OVERVIEW =====
     with tab_career:
         st.subheader("📋 Career Overview & Achievements")
         st.caption("Complete career history: playing career, coaching stations, titles won")
@@ -2044,7 +2150,7 @@ if st.session_state.coach_data:
         else:
             st.info("No coaching stations data available")
 
-    # ===== TAB 4: PERFORMANCE =====
+    # ===== TAB 5: PERFORMANCE =====
     with tab_performance:
         st.subheader("⚽ Performance & Network")
         st.caption("Players coached, teammates from playing career, and coaching companions")
