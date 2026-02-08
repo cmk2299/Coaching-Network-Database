@@ -2054,10 +2054,17 @@ if st.session_state.coach_data:
         if players_detail and players_detail.get("players"):
             players_list = players_detail["players"]
 
+            # Calculate avg_minutes for each player
+            for p in players_list:
+                games = p.get("appearances", p.get("games", 0))
+                total_mins = p.get("minutes", 0)
+                p["calculated_games"] = games
+                p["calculated_avg_mins"] = total_mins / games if games > 0 else 0
+
             # Filter: Players with 20+ games and 70+ avg minutes (CORE REQUIREMENT)
             key_players = [
                 p for p in players_list
-                if p.get("games", 0) >= 20 and p.get("avg_minutes", 0) >= 70
+                if p.get("calculated_games", 0) >= 20 and p.get("calculated_avg_mins", 0) >= 70
             ]
 
             if key_players:
@@ -2069,10 +2076,10 @@ if st.session_state.coach_data:
                         "Player": p.get("name", "Unknown"),
                         "Nationality": p.get("nationality", ""),
                         "Position": p.get("position", ""),
-                        "Games": p.get("games", 0),
+                        "Games": p.get("calculated_games", 0),
                         "Goals": p.get("goals", 0),
                         "Assists": p.get("assists", 0),
-                        "Avg Min": round(p.get("avg_minutes", 0)),
+                        "Avg Min": round(p.get("calculated_avg_mins", 0)),
                         "Profile": p.get("url", ""),
                     })
 
