@@ -286,7 +286,7 @@ def scrape_current_role(player_url: str) -> dict:
         # Try to get their coaching role
         parent = trainer_link.find_parent("div") or trainer_link.find_parent("span")
         if parent:
-            result["current_role"] = parent.get_text(strip=True)
+            result["current_role"] = clean_role_text(parent.get_text(strip=True))
 
     # Look for current position in data header
     data_header = soup.find("div", class_="data-header__details")
@@ -297,10 +297,10 @@ def scrape_current_role(player_url: str) -> dict:
             text = item.get_text(strip=True).lower()
             if "trainer" in text or "coach" in text or "manager" in text:
                 result["is_coach"] = True
-                result["current_role"] = item.get_text(strip=True)
+                result["current_role"] = clean_role_text(item.get_text(strip=True))
             if "direktor" in text or "director" in text:
                 result["is_director"] = True
-                result["current_role"] = item.get_text(strip=True)
+                result["current_role"] = clean_role_text(item.get_text(strip=True))
 
     # Look for current club
     current_club = soup.find("span", class_="data-header__club")
@@ -367,7 +367,7 @@ def enrich_teammates_with_current_roles(teammates: list, max_to_enrich: int = No
                         # Find role from label
                         label = trainer_soup.find("span", class_="data-header__label")
                         if label:
-                            tm["current_role"] = label.get_text(strip=True)
+                            tm["current_role"] = clean_role_text(label.get_text(strip=True))
 
                         # Also check data-header__items for more details
                         items = trainer_soup.find("ul", class_="data-header__items")
@@ -375,7 +375,7 @@ def enrich_teammates_with_current_roles(teammates: list, max_to_enrich: int = No
                             for li in items.find_all("li"):
                                 text = li.get_text(strip=True)
                                 if "Cheftrainer" in text or "Head Coach" in text or "Manager" in text:
-                                    tm["current_role"] = text.split(":")[0] if ":" in text else text
+                                    tm["current_role"] = clean_role_text(text.split(":")[0] if ":" in text else text)
 
                     enriched_count += 1
                     coaches_found.append(tm["name"])
@@ -389,7 +389,7 @@ def enrich_teammates_with_current_roles(teammates: list, max_to_enrich: int = No
                         text = header_info.get_text(strip=True).lower()
                         if any(kw in text for kw in mgmt_keywords):
                             tm["is_director"] = True
-                            tm["current_role"] = header_info.get_text(strip=True)
+                            tm["current_role"] = clean_role_text(header_info.get_text(strip=True))
                             enriched_count += 1
                             directors_found.append(tm["name"])
                             print(f"    ✓ [{i+1}/{total}] {tm['name']}: Director/Manager")
@@ -403,6 +403,33 @@ def enrich_teammates_with_current_roles(teammates: list, max_to_enrich: int = No
     print(f"     - Directors: {len(directors_found)}")
 
     return teammates
+
+
+def clean_role_text(text: str) -> str:
+    """
+    Clean role text by adding spaces between words.
+    Transfermarkt sometimes concatenates words without spaces.
+
+    Examples:
+        "Letzter Posten:TorwarttrainerVfB LübeckAmtsende:30.06.2012"
+        -> "Letzter Posten: Torwarttrainer VfB Lübeck Amtsende: 30.06.2012"
+    """
+    import re
+
+    # Add space after colon if missing
+    text = re.sub(r':([A-ZÄÖÜ])', r': \1', text)
+
+    # Add space before "Amtsende" specifically
+    text = re.sub(r'([a-zäöü])(Amtsende)', r'\1 \2', text)
+
+    # Simple approach: Add space before any capital letter that follows a lowercase letter
+    # This will split "TorwarttrainerVfB" -> "Torwarttrainer VfB"
+    text = re.sub(r'([a-zäöü])([A-ZÄÖÜ])', r'\1 \2', text)
+
+    # Clean up multiple spaces
+    text = re.sub(r'\s+', ' ', text)
+
+    return text.strip()
 
 
 def identify_coaches_and_directors(teammates: list) -> dict:
