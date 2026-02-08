@@ -909,6 +909,32 @@
           "connection_type": "sports_director"
         }
       ]
+    },
+    {
+      "coach_name": "Lukas Kwasniok",
+      "club": "1. FC Köln",
+      "period": "2025-present",
+      "decision_makers": [
+        {
+          "name": "Christian Keller",
+          "role": "Sportgeschäftsführer",
+          "notes": "Hired Kwasniok in January 2025 after relegation battle",
+          "connection_type": "hiring_manager"
+        }
+      ]
+    },
+    {
+      "coach_name": "Uwe Rösler",
+      "club": "VfL Bochum",
+      "period": "2025-present",
+      "decision_makers": [
+        {
+          "name": "Marc Lettau",
+          "role": "Sportdirektor",
+          "notes": "Hired Rösler in January 2025 for relegation battle",
+          "connection_type": "hiring_manager"
+        }
+      ]
     }
   ],
   "sources": [

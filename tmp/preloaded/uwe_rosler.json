@@ -1,0 +1,4234 @@
+{
+  "_preloaded_at": "2026-02-08T14:13:42.180800",
+  "_preloaded": true,
+  "profile": {
+    "url": "https://www.transfermarkt.de/uwe-rosler/profil/trainer/1766",
+    "scraped_at": "2026-02-07T20:49:26.613212",
+    "name": "Uwe Rösler",
+    "image_url": "https://img.a.transfermarkt.technology/portrait/header/1766-1761053776.jpg?lm=1",
+    "dob": "15.11.1968 (57)",
+    "age": 57,
+    "birthplace": "Altenburg",
+    "nationality": "Deutschland",
+    "contract_until": "30.06.2027",
+    "license": "UEFA-Pro-Lizenz",
+    "agent": "Solbakken / Player ...",
+    "agent_url": "https://www.transfermarkt.de/jim-solbakken-player-solution/beraterfirma/berater/1292",
+    "current_role": "Trainer",
+    "current_club": "VfL Bochum",
+    "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+    "career_history": [
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+        "role": "VfL BochumTrainer",
+        "period": "1,80"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/aarhus-gf/startseite/verein/678/saison_id/2022",
+        "role": "Aarhus GFTrainer",
+        "period": "1,50"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/2019",
+        "role": "F. DüsseldorfTrainer",
+        "period": "1,45"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/malmo-ff/startseite/verein/496/saison_id/2017",
+        "role": "Malmö FFTrainer",
+        "period": "2,11"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/fleetwood-town/startseite/verein/11177/saison_id/2016",
+        "role": "Fleetwood TownTrainer",
+        "period": "1,51"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/leeds-united/startseite/verein/399/saison_id/2014",
+        "role": "Leeds UnitedTrainer",
+        "period": "0,92"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/wigan-athletic/startseite/verein/1071/saison_id/2013",
+        "role": "Wigan AthleticTrainer",
+        "period": "1,47"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/fc-brentford/startseite/verein/1148/saison_id/2010",
+        "role": "FC BrentfordTrainer",
+        "period": "1,64"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/molde-fk/startseite/verein/687/saison_id/2010",
+        "role": "Molde FKTrainer",
+        "period": "2,50"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/viking-stavanger/startseite/verein/239/saison_id/2006",
+        "role": "VikingTrainer",
+        "period": "1,47"
+      },
+      {
+        "club": "",
+        "club_url": "https://www.transfermarkt.de/lillestrom-sk/startseite/verein/353/saison_id/2004",
+        "role": "LillestrømTrainer",
+        "period": "1,62"
+      }
+    ],
+    "coach_id": "1766",
+    "_cached_at": "2026-02-07T20:49:26.628892"
+  },
+  "teammates": {
+    "player_id": "1440",
+    "teammates_url": "https://www.transfermarkt.de/uwe-rosler/gemeinsameSpiele/spieler/1440",
+    "total_teammates": 308,
+    "total_teammates_unfiltered": 308,
+    "all_teammates": [
+      {
+        "name": "Nicky Summerbee",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/nicky-summerbee/profil/spieler/10378",
+        "shared_matches": 131,
+        "teams_together": 1,
+        "total_minutes": 10298
+      },
+      {
+        "name": "Ian Brightwell",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/ian-brightwell/profil/spieler/67373",
+        "shared_matches": 121,
+        "teams_together": 1,
+        "total_minutes": 9226
+      },
+      {
+        "name": "Kit Symons",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/kit-symons/profil/spieler/175935",
+        "shared_matches": 117,
+        "teams_together": 1,
+        "total_minutes": 9760
+      },
+      {
+        "name": "Giorgi Kinkladze",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/giorgi-kinkladze/profil/spieler/3425",
+        "shared_matches": 103,
+        "teams_together": 1,
+        "total_minutes": 8311
+      },
+      {
+        "name": "Steve Lomas",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/steve-lomas/profil/spieler/3801",
+        "shared_matches": 99,
+        "teams_together": 1,
+        "total_minutes": 7916
+      },
+      {
+        "name": "Keith Curle",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/keith-curle/profil/spieler/101316",
+        "shared_matches": 75,
+        "teams_together": 1,
+        "total_minutes": 6134
+      },
+      {
+        "name": "Garry Flitcroft",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/garry-flitcroft/profil/spieler/3706",
+        "shared_matches": 66,
+        "teams_together": 1,
+        "total_minutes": 5293
+      },
+      {
+        "name": "Michael Brown",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/michael-brown/profil/spieler/13509",
+        "shared_matches": 60,
+        "teams_together": 1,
+        "total_minutes": 3763
+      },
+      {
+        "name": "Niall Quinn",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/niall-quinn/profil/spieler/104110",
+        "shared_matches": 60,
+        "teams_together": 1,
+        "total_minutes": 3748
+      },
+      {
+        "name": "Detlef Schößler",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/detlef-schossler/profil/spieler/105007",
+        "shared_matches": 56,
+        "teams_together": 3,
+        "total_minutes": 3536
+      },
+      {
+        "name": "Dirk Heyne",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/dirk-heyne/profil/spieler/84639",
+        "shared_matches": 54,
+        "teams_together": 2,
+        "total_minutes": 4569
+      },
+      {
+        "name": "Peter Beagrie",
+        "position": "Linksaußen",
+        "url": "https://www.transfermarkt.de/peter-beagrie/profil/spieler/138385",
+        "shared_matches": 54,
+        "teams_together": 1,
+        "total_minutes": 3912
+      },
+      {
+        "name": "Frank Siersleben",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/frank-siersleben/profil/spieler/191492",
+        "shared_matches": 51,
+        "teams_together": 1,
+        "total_minutes": 4328
+      },
+      {
+        "name": "Paul Walsh",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/paul-walsh/profil/spieler/202797",
+        "shared_matches": 51,
+        "teams_together": 1,
+        "total_minutes": 4022
+      },
+      {
+        "name": "Stefan Minkwitz",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/stefan-minkwitz/profil/spieler/1038",
+        "shared_matches": 50,
+        "teams_together": 3,
+        "total_minutes": 4270
+      },
+      {
+        "name": "Richard Edghill",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/richard-edghill/profil/spieler/13724",
+        "shared_matches": 49,
+        "teams_together": 1,
+        "total_minutes": 3726
+      },
+      {
+        "name": "Eike Immel",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/eike-immel/profil/spieler/73587",
+        "shared_matches": 48,
+        "teams_together": 1,
+        "total_minutes": 4095
+      },
+      {
+        "name": "Alan Kernaghan",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/alan-kernaghan/profil/spieler/14619",
+        "shared_matches": 48,
+        "teams_together": 1,
+        "total_minutes": 3661
+      },
+      {
+        "name": "Matthias Maucksch",
+        "position": "Libero",
+        "url": "https://www.transfermarkt.de/matthias-maucksch/profil/spieler/4706",
+        "shared_matches": 48,
+        "teams_together": 2,
+        "total_minutes": 2938
+      },
+      {
+        "name": "Ralf Hauptmann",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/ralf-hauptmann/profil/spieler/41",
+        "shared_matches": 47,
+        "teams_together": 1,
+        "total_minutes": 3241
+      },
+      {
+        "name": "Paul Dickov",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/paul-dickov/profil/spieler/9221",
+        "shared_matches": 47,
+        "teams_together": 1,
+        "total_minutes": 3174
+      },
+      {
+        "name": "Hans-Uwe Pilz",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/hans-uwe-pilz/profil/spieler/84686",
+        "shared_matches": 46,
+        "teams_together": 1,
+        "total_minutes": 2780
+      },
+      {
+        "name": "Dirk Stahmann",
+        "position": "Libero",
+        "url": "https://www.transfermarkt.de/dirk-stahmann/profil/spieler/177925",
+        "shared_matches": 45,
+        "teams_together": 1,
+        "total_minutes": 3903
+      },
+      {
+        "name": "Peter Köhler",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/peter-kohler/profil/spieler/191498",
+        "shared_matches": 45,
+        "teams_together": 1,
+        "total_minutes": 3147
+      },
+      {
+        "name": "Heiko Scholz",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/heiko-scholz/profil/spieler/38890",
+        "shared_matches": 44,
+        "teams_together": 3,
+        "total_minutes": 3033
+      },
+      {
+        "name": "Andreas Wagenhaus",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/andreas-wagenhaus/profil/spieler/84563",
+        "shared_matches": 44,
+        "teams_together": 3,
+        "total_minutes": 2703
+      },
+      {
+        "name": "Jens Melzig",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/jens-melzig/profil/spieler/84683",
+        "shared_matches": 44,
+        "teams_together": 2,
+        "total_minutes": 2644
+      },
+      {
+        "name": "René Müller",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/rene-muller/profil/spieler/84684",
+        "shared_matches": 43,
+        "teams_together": 2,
+        "total_minutes": 2506
+      },
+      {
+        "name": "Olaf Marschall",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/olaf-marschall/profil/spieler/15",
+        "shared_matches": 43,
+        "teams_together": 3,
+        "total_minutes": 2039
+      },
+      {
+        "name": "Andy Dibble",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/andy-dibble/profil/spieler/39339",
+        "shared_matches": 42,
+        "teams_together": 1,
+        "total_minutes": 3438
+      },
+      {
+        "name": "Torsten Gütschow",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/torsten-gutschow/profil/spieler/6610",
+        "shared_matches": 40,
+        "teams_together": 1,
+        "total_minutes": 2525
+      },
+      {
+        "name": "Sven Kmetsch",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/sven-kmetsch/profil/spieler/267",
+        "shared_matches": 40,
+        "teams_together": 1,
+        "total_minutes": 2313
+      },
+      {
+        "name": "Jens Gerlach",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/jens-gerlach/profil/spieler/2008",
+        "shared_matches": 39,
+        "teams_together": 1,
+        "total_minutes": 3044
+      },
+      {
+        "name": "Nigel Clough",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/nigel-clough/profil/spieler/101322",
+        "shared_matches": 39,
+        "teams_together": 1,
+        "total_minutes": 2988
+      },
+      {
+        "name": "Heiko Laessig",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/heiko-laessig/profil/spieler/2977",
+        "shared_matches": 39,
+        "teams_together": 1,
+        "total_minutes": 2312
+      },
+      {
+        "name": "Eddie McGoldrick",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/eddie-mcgoldrick/profil/spieler/102491",
+        "shared_matches": 36,
+        "teams_together": 1,
+        "total_minutes": 2871
+      },
+      {
+        "name": "Andreas Reinke",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/andreas-reinke/profil/spieler/361",
+        "shared_matches": 36,
+        "teams_together": 1,
+        "total_minutes": 2272
+      },
+      {
+        "name": "Martyn Margetson",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/martyn-margetson/profil/spieler/12718",
+        "shared_matches": 34,
+        "teams_together": 1,
+        "total_minutes": 2276
+      },
+      {
+        "name": "Terry Phelan",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/terry-phelan/profil/spieler/102495",
+        "shared_matches": 33,
+        "teams_together": 1,
+        "total_minutes": 2710
+      },
+      {
+        "name": "Wolfgang Steinbach",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/wolfgang-steinbach/profil/spieler/132849",
+        "shared_matches": 33,
+        "teams_together": 1,
+        "total_minutes": 2530
+      },
+      {
+        "name": "Jeff Whitley",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/jeff-whitley/profil/spieler/3317",
+        "shared_matches": 32,
+        "teams_together": 1,
+        "total_minutes": 1869
+      },
+      {
+        "name": "Ciriaco Sforza",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/ciriaco-sforza/profil/spieler/219",
+        "shared_matches": 31,
+        "teams_together": 1,
+        "total_minutes": 1968
+      },
+      {
+        "name": "Dirk Zander",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/dirk-zander/profil/spieler/83677",
+        "shared_matches": 31,
+        "teams_together": 1,
+        "total_minutes": 1943
+      },
+      {
+        "name": "Marco Kurz",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/marco-kurz/profil/spieler/558",
+        "shared_matches": 31,
+        "teams_together": 1,
+        "total_minutes": 1922
+      },
+      {
+        "name": "Tommy Wright",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/tommy-wright/profil/spieler/206780",
+        "shared_matches": 30,
+        "teams_together": 1,
+        "total_minutes": 2685
+      },
+      {
+        "name": "Frank Cebulla",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/frank-cebulla/profil/spieler/191515",
+        "shared_matches": 30,
+        "teams_together": 1,
+        "total_minutes": 2303
+      },
+      {
+        "name": "Sandy Enge",
+        "position": "Abwehr",
+        "url": "https://www.transfermarkt.de/sandy-enge/profil/spieler/182485",
+        "shared_matches": 30,
+        "teams_together": 1,
+        "total_minutes": 2215
+      },
+      {
+        "name": "Hany Ramzy",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/hany-ramzy/profil/spieler/17",
+        "shared_matches": 30,
+        "teams_together": 1,
+        "total_minutes": 1882
+      },
+      {
+        "name": "Marco Reich",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/marco-reich/profil/spieler/19",
+        "shared_matches": 30,
+        "teams_together": 1,
+        "total_minutes": 1622
+      },
+      {
+        "name": "Andreas Hilfiker",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/andreas-hilfiker/profil/spieler/1124",
+        "shared_matches": 29,
+        "teams_together": 1,
+        "total_minutes": 2261
+      },
+      {
+        "name": "Michel Vonk",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/michel-vonk/profil/spieler/150889",
+        "shared_matches": 29,
+        "teams_together": 1,
+        "total_minutes": 2118
+      },
+      {
+        "name": "Steffen Büttner",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/steffen-buttner/profil/spieler/109042",
+        "shared_matches": 29,
+        "teams_together": 2,
+        "total_minutes": 1916
+      },
+      {
+        "name": "Andreas Köpke",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/andreas-kopke/profil/spieler/1445",
+        "shared_matches": 29,
+        "teams_together": 1,
+        "total_minutes": 1816
+      },
+      {
+        "name": "Dieter Eckstein",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/dieter-eckstein/profil/spieler/17948",
+        "shared_matches": 29,
+        "teams_together": 1,
+        "total_minutes": 1588
+      },
+      {
+        "name": "Markus Wuckel",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/markus-wuckel/profil/spieler/17327",
+        "shared_matches": 28,
+        "teams_together": 2,
+        "total_minutes": 2230
+      },
+      {
+        "name": "Francisco Copado",
+        "position": "Hängende Spitze",
+        "url": "https://www.transfermarkt.de/francisco-copado/profil/spieler/728",
+        "shared_matches": 28,
+        "teams_together": 2,
+        "total_minutes": 2033
+      },
+      {
+        "name": "Rainer Zietsch",
+        "position": "Libero",
+        "url": "https://www.transfermarkt.de/rainer-zietsch/profil/spieler/17985",
+        "shared_matches": 28,
+        "teams_together": 1,
+        "total_minutes": 1748
+      },
+      {
+        "name": "Marc Oechler",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/marc-oechler/profil/spieler/17989",
+        "shared_matches": 28,
+        "teams_together": 1,
+        "total_minutes": 1696
+      },
+      {
+        "name": "Thomas Riedl",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/thomas-riedl/profil/spieler/565",
+        "shared_matches": 28,
+        "teams_together": 1,
+        "total_minutes": 1446
+      },
+      {
+        "name": "Marco Walker",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/marco-walker/profil/spieler/4899",
+        "shared_matches": 27,
+        "teams_together": 1,
+        "total_minutes": 2198
+      },
+      {
+        "name": "Dirk Schuster",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/dirk-schuster/profil/spieler/971",
+        "shared_matches": 27,
+        "teams_together": 3,
+        "total_minutes": 2093
+      },
+      {
+        "name": "Ged Brannan",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/ged-brannan/profil/spieler/105216",
+        "shared_matches": 27,
+        "teams_together": 1,
+        "total_minutes": 1774
+      },
+      {
+        "name": "Michael Ballack",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/michael-ballack/profil/spieler/63",
+        "shared_matches": 27,
+        "teams_together": 1,
+        "total_minutes": 1357
+      },
+      {
+        "name": "Rae Ingram",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/rae-ingram/profil/spieler/226942",
+        "shared_matches": 26,
+        "teams_together": 1,
+        "total_minutes": 1879
+      },
+      {
+        "name": "Sasa Ciric",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/sasa-ciric/profil/spieler/428",
+        "shared_matches": 26,
+        "teams_together": 1,
+        "total_minutes": 1671
+      },
+      {
+        "name": "Ansgar Brinkmann",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/ansgar-brinkmann/profil/spieler/1103",
+        "shared_matches": 26,
+        "teams_together": 1,
+        "total_minutes": 1460
+      },
+      {
+        "name": "Kevin Horlock",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/kevin-horlock/profil/spieler/3810",
+        "shared_matches": 25,
+        "teams_together": 1,
+        "total_minutes": 1897
+      },
+      {
+        "name": "David Brightwell",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/david-brightwell/profil/spieler/222212",
+        "shared_matches": 25,
+        "teams_together": 1,
+        "total_minutes": 1788
+      },
+      {
+        "name": "Marko Tredup",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/marko-tredup/profil/spieler/1208",
+        "shared_matches": 25,
+        "teams_together": 1,
+        "total_minutes": 1761
+      },
+      {
+        "name": "Gerard Wiekens",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/gerard-wiekens/profil/spieler/3319",
+        "shared_matches": 25,
+        "teams_together": 1,
+        "total_minutes": 1622
+      },
+      {
+        "name": "Wayne Bridge",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/wayne-bridge/profil/spieler/3682",
+        "shared_matches": 25,
+        "teams_together": 1,
+        "total_minutes": 944
+      },
+      {
+        "name": "Abderrahim Ouakili",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/abderrahim-ouakili/profil/spieler/1066",
+        "shared_matches": 24,
+        "teams_together": 1,
+        "total_minutes": 1603
+      },
+      {
+        "name": "Ivan Kozák",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/ivan-kozak/profil/spieler/1198",
+        "shared_matches": 24,
+        "teams_together": 1,
+        "total_minutes": 1553
+      },
+      {
+        "name": "Tony Coton",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/tony-coton/profil/spieler/176010",
+        "shared_matches": 23,
+        "teams_together": 1,
+        "total_minutes": 1832
+      },
+      {
+        "name": "Michael Frontzeck",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/michael-frontzeck/profil/spieler/77398",
+        "shared_matches": 23,
+        "teams_together": 1,
+        "total_minutes": 1455
+      },
+      {
+        "name": "Samir Kamouna",
+        "position": "Libero",
+        "url": "https://www.transfermarkt.de/samir-kamouna/profil/spieler/21",
+        "shared_matches": 23,
+        "teams_together": 1,
+        "total_minutes": 1269
+      },
+      {
+        "name": "Harry Koch",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/harry-koch/profil/spieler/12",
+        "shared_matches": 23,
+        "teams_together": 1,
+        "total_minutes": 1188
+      },
+      {
+        "name": "Uwe Jähnig",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/uwe-jahnig/profil/spieler/84642",
+        "shared_matches": 23,
+        "teams_together": 1,
+        "total_minutes": 1167
+      },
+      {
+        "name": "Claus Lundekvam",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/claus-lundekvam/profil/spieler/3687",
+        "shared_matches": 23,
+        "teams_together": 1,
+        "total_minutes": 840
+      },
+      {
+        "name": "Martin Wagner",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/martin-wagner/profil/spieler/678",
+        "shared_matches": 22,
+        "teams_together": 1,
+        "total_minutes": 1405
+      },
+      {
+        "name": "Craig Russell",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/craig-russell/profil/spieler/223249",
+        "shared_matches": 22,
+        "teams_together": 1,
+        "total_minutes": 1368
+      },
+      {
+        "name": "Thomas Brunner",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/thomas-brunner/profil/spieler/17938",
+        "shared_matches": 22,
+        "teams_together": 1,
+        "total_minutes": 1039
+      },
+      {
+        "name": "Axel Roos",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/axel-roos/profil/spieler/20",
+        "shared_matches": 22,
+        "teams_together": 1,
+        "total_minutes": 971
+      },
+      {
+        "name": "Mikheil Kavelashvili",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/mikheil-kavelashvili/profil/spieler/4933",
+        "shared_matches": 22,
+        "teams_together": 1,
+        "total_minutes": 702
+      },
+      {
+        "name": "Jan Suchoparek",
+        "position": "Libero",
+        "url": "https://www.transfermarkt.de/jan-suchoparek/profil/spieler/103479",
+        "shared_matches": 21,
+        "teams_together": 1,
+        "total_minutes": 1784
+      },
+      {
+        "name": "Dirk Grempler",
+        "position": "Libero",
+        "url": "https://www.transfermarkt.de/dirk-grempler/profil/spieler/132062",
+        "shared_matches": 21,
+        "teams_together": 1,
+        "total_minutes": 1666
+      },
+      {
+        "name": "Maurizio Gaudino",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/maurizio-gaudino/profil/spieler/9320",
+        "shared_matches": 21,
+        "teams_together": 1,
+        "total_minutes": 1607
+      },
+      {
+        "name": "John Foster",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/john-foster/profil/spieler/226719",
+        "shared_matches": 21,
+        "teams_together": 1,
+        "total_minutes": 1602
+      },
+      {
+        "name": "Timo Ehle",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/timo-ehle/profil/spieler/135176",
+        "shared_matches": 21,
+        "teams_together": 1,
+        "total_minutes": 1589
+      },
+      {
+        "name": "Hans Dorfner",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/hans-dorfner/profil/spieler/17945",
+        "shared_matches": 21,
+        "teams_together": 1,
+        "total_minutes": 1148
+      },
+      {
+        "name": "Sergey Kiryakov",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/sergey-kiryakov/profil/spieler/10368",
+        "shared_matches": 21,
+        "teams_together": 1,
+        "total_minutes": 1117
+      },
+      {
+        "name": "Matt Oakley",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/matt-oakley/profil/spieler/3784",
+        "shared_matches": 21,
+        "teams_together": 1,
+        "total_minutes": 885
+      },
+      {
+        "name": "Gerry Creaney",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/gerry-creaney/profil/spieler/215645",
+        "shared_matches": 21,
+        "teams_together": 1,
+        "total_minutes": 839
+      },
+      {
+        "name": "Sergio Allievi",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/sergio-allievi/profil/spieler/95330",
+        "shared_matches": 21,
+        "teams_together": 1,
+        "total_minutes": 774
+      },
+      {
+        "name": "Paul Jones",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/paul-jones/profil/spieler/3684",
+        "shared_matches": 21,
+        "teams_together": 1,
+        "total_minutes": 709
+      },
+      {
+        "name": "Tahar El Khalej",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/tahar-el-khalej/profil/spieler/3121",
+        "shared_matches": 21,
+        "teams_together": 1,
+        "total_minutes": 701
+      },
+      {
+        "name": "Frank Lieberam",
+        "position": "Libero",
+        "url": "https://www.transfermarkt.de/frank-lieberam/profil/spieler/106906",
+        "shared_matches": 20,
+        "teams_together": 1,
+        "total_minutes": 1546
+      },
+      {
+        "name": "Jürgen Kramny",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/jurgen-kramny/profil/spieler/949",
+        "shared_matches": 20,
+        "teams_together": 1,
+        "total_minutes": 1278
+      },
+      {
+        "name": "Ratinho",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/ratinho/profil/spieler/18",
+        "shared_matches": 20,
+        "teams_together": 1,
+        "total_minutes": 1042
+      },
+      {
+        "name": "Matthias Hamann",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/matthias-hamann/profil/spieler/970",
+        "shared_matches": 20,
+        "teams_together": 1,
+        "total_minutes": 990
+      },
+      {
+        "name": "Dean Richards",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/dean-richards/profil/spieler/3829",
+        "shared_matches": 20,
+        "teams_together": 1,
+        "total_minutes": 725
+      },
+      {
+        "name": "Andreas Buck",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/andreas-buck/profil/spieler/3",
+        "shared_matches": 19,
+        "teams_together": 1,
+        "total_minutes": 971
+      },
+      {
+        "name": "Sven Ratke",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/sven-ratke/profil/spieler/2416",
+        "shared_matches": 19,
+        "teams_together": 1,
+        "total_minutes": 542
+      },
+      {
+        "name": "Jo Tessem",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/jo-tessem/profil/spieler/4109",
+        "shared_matches": 19,
+        "teams_together": 1,
+        "total_minutes": 482
+      },
+      {
+        "name": "Steve McMahon",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/steve-mcmahon/profil/spieler/101387",
+        "shared_matches": 18,
+        "teams_together": 1,
+        "total_minutes": 1489
+      },
+      {
+        "name": "Bruno Akrapović",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/bruno-akrapovic/profil/spieler/164",
+        "shared_matches": 18,
+        "teams_together": 1,
+        "total_minutes": 1430
+      },
+      {
+        "name": "Jens Landrath",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/jens-landrath/profil/spieler/191507",
+        "shared_matches": 18,
+        "teams_together": 1,
+        "total_minutes": 1382
+      },
+      {
+        "name": "Andy Hill",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/andy-hill/profil/spieler/222219",
+        "shared_matches": 18,
+        "teams_together": 1,
+        "total_minutes": 1294
+      },
+      {
+        "name": "Lee Crooks",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/lee-crooks/profil/spieler/21363",
+        "shared_matches": 18,
+        "teams_together": 1,
+        "total_minutes": 1187
+      },
+      {
+        "name": "Darren Wassall",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/darren-wassall/profil/spieler/223258",
+        "shared_matches": 17,
+        "teams_together": 1,
+        "total_minutes": 1368
+      },
+      {
+        "name": "Lee Bradbury",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/lee-bradbury/profil/spieler/9213",
+        "shared_matches": 17,
+        "teams_together": 1,
+        "total_minutes": 1142
+      },
+      {
+        "name": "Mario Kern",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/mario-kern/profil/spieler/8195",
+        "shared_matches": 17,
+        "teams_together": 1,
+        "total_minutes": 1086
+      },
+      {
+        "name": "Christian Wück",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/christian-wuck/profil/spieler/680",
+        "shared_matches": 17,
+        "teams_together": 1,
+        "total_minutes": 1062
+      },
+      {
+        "name": "Jim Whitley",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/jim-whitley/profil/spieler/259281",
+        "shared_matches": 17,
+        "teams_together": 1,
+        "total_minutes": 1052
+      },
+      {
+        "name": "Dirk Fengler",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/dirk-fengler/profil/spieler/1495",
+        "shared_matches": 17,
+        "teams_together": 1,
+        "total_minutes": 1038
+      },
+      {
+        "name": "Marian Hristov",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/marian-hristov/profil/spieler/8",
+        "shared_matches": 17,
+        "teams_together": 1,
+        "total_minutes": 1014
+      },
+      {
+        "name": "Jürgen Rische",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/jurgen-rische/profil/spieler/672",
+        "shared_matches": 17,
+        "teams_together": 1,
+        "total_minutes": 720
+      },
+      {
+        "name": "Uwe Wolf",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/uwe-wolf/profil/spieler/6512",
+        "shared_matches": 16,
+        "teams_together": 1,
+        "total_minutes": 1026
+      },
+      {
+        "name": "Fitzroy Simpson",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/fitzroy-simpson/profil/spieler/157682",
+        "shared_matches": 16,
+        "teams_together": 1,
+        "total_minutes": 904
+      },
+      {
+        "name": "Zbigniew Szewczyk",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/zbigniew-szewczyk/profil/spieler/106456",
+        "shared_matches": 16,
+        "teams_together": 1,
+        "total_minutes": 732
+      },
+      {
+        "name": "Marians Pahars",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/marians-pahars/profil/spieler/3689",
+        "shared_matches": 16,
+        "teams_together": 1,
+        "total_minutes": 664
+      },
+      {
+        "name": "Hassan Kachloul",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/hassan-kachloul/profil/spieler/4066",
+        "shared_matches": 16,
+        "teams_together": 1,
+        "total_minutes": 535
+      },
+      {
+        "name": "Neil Heaney",
+        "position": "Linksaußen",
+        "url": "https://www.transfermarkt.de/neil-heaney/profil/spieler/21265",
+        "shared_matches": 15,
+        "teams_together": 1,
+        "total_minutes": 1056
+      },
+      {
+        "name": "Percy Olivares",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/percy-olivares/profil/spieler/17969",
+        "shared_matches": 15,
+        "teams_together": 1,
+        "total_minutes": 983
+      },
+      {
+        "name": "Markus Bäurle",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/markus-baurle/profil/spieler/17939",
+        "shared_matches": 15,
+        "teams_together": 1,
+        "total_minutes": 750
+      },
+      {
+        "name": "Lutz Schwerinski",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/lutz-schwerinski/profil/spieler/22602",
+        "shared_matches": 15,
+        "teams_together": 1,
+        "total_minutes": 613
+      },
+      {
+        "name": "Martin Phillips",
+        "position": "Rechtsaußen",
+        "url": "https://www.transfermarkt.de/martin-phillips/profil/spieler/21266",
+        "shared_matches": 15,
+        "teams_together": 1,
+        "total_minutes": 492
+      },
+      {
+        "name": "Jason Dodd",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/jason-dodd/profil/spieler/3685",
+        "shared_matches": 15,
+        "teams_together": 1,
+        "total_minutes": 439
+      },
+      {
+        "name": "Guido Krause",
+        "position": "Sturm",
+        "url": "https://www.transfermarkt.de/guido-krause/profil/spieler/192195",
+        "shared_matches": 15,
+        "teams_together": 1,
+        "total_minutes": 431
+      },
+      {
+        "name": "Murtaz Shelia",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/murtaz-shelia/profil/spieler/139183",
+        "shared_matches": 14,
+        "teams_together": 1,
+        "total_minutes": 1142
+      },
+      {
+        "name": "James Beattie",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/james-beattie/profil/spieler/3112",
+        "shared_matches": 14,
+        "teams_together": 1,
+        "total_minutes": 130
+      },
+      {
+        "name": "Peter Werni",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/peter-werni/profil/spieler/26957",
+        "shared_matches": 13,
+        "teams_together": 1,
+        "total_minutes": 1055
+      },
+      {
+        "name": "Gylfi Einarsson",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/gylfi-einarsson/profil/spieler/26944",
+        "shared_matches": 13,
+        "teams_together": 1,
+        "total_minutes": 1038
+      },
+      {
+        "name": "René Schneider",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/rene-schneider/profil/spieler/247",
+        "shared_matches": 13,
+        "teams_together": 1,
+        "total_minutes": 978
+      },
+      {
+        "name": "Niclas Weiland",
+        "position": "Rechtsaußen",
+        "url": "https://www.transfermarkt.de/niclas-weiland/profil/spieler/1148",
+        "shared_matches": 13,
+        "teams_together": 1,
+        "total_minutes": 751
+      },
+      {
+        "name": "Mark Draper",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/mark-draper/profil/spieler/3681",
+        "shared_matches": 13,
+        "teams_together": 1,
+        "total_minutes": 533
+      },
+      {
+        "name": "David Rocastle",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/david-rocastle/profil/spieler/175583",
+        "shared_matches": 12,
+        "teams_together": 1,
+        "total_minutes": 1005
+      },
+      {
+        "name": "Dzoni Novak",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/dzoni-novak/profil/spieler/729",
+        "shared_matches": 12,
+        "teams_together": 1,
+        "total_minutes": 974
+      },
+      {
+        "name": "Gunnar Halle",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/gunnar-halle/profil/spieler/102506",
+        "shared_matches": 12,
+        "teams_together": 1,
+        "total_minutes": 974
+      },
+      {
+        "name": "Pal Strand",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/pal-strand/profil/spieler/26950",
+        "shared_matches": 12,
+        "teams_together": 1,
+        "total_minutes": 919
+      },
+      {
+        "name": "Arild Sundgot",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/arild-sundgot/profil/spieler/26951",
+        "shared_matches": 12,
+        "teams_together": 1,
+        "total_minutes": 726
+      },
+      {
+        "name": "Michael Schjønberg",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/michael-schjonberg/profil/spieler/22",
+        "shared_matches": 12,
+        "teams_together": 1,
+        "total_minutes": 725
+      },
+      {
+        "name": "Paul Beesley",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/paul-beesley/profil/spieler/223222",
+        "shared_matches": 12,
+        "teams_together": 1,
+        "total_minutes": 693
+      },
+      {
+        "name": "János Hrutka",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/janos-hrutka/profil/spieler/8201",
+        "shared_matches": 12,
+        "teams_together": 1,
+        "total_minutes": 540
+      },
+      {
+        "name": "Manfred Schwabl",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/manfred-schwabl/profil/spieler/6571",
+        "shared_matches": 12,
+        "teams_together": 1,
+        "total_minutes": 511
+      },
+      {
+        "name": "Chris Marsden",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/chris-marsden/profil/spieler/4117",
+        "shared_matches": 12,
+        "teams_together": 1,
+        "total_minutes": 453
+      },
+      {
+        "name": "Frode Kippe",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/frode-kippe/profil/spieler/8511",
+        "shared_matches": 11,
+        "teams_together": 1,
+        "total_minutes": 919
+      },
+      {
+        "name": "Emile Baron",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/emile-baron/profil/spieler/26939",
+        "shared_matches": 11,
+        "teams_together": 1,
+        "total_minutes": 854
+      },
+      {
+        "name": "Thomas Köhler",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/thomas-kohler/profil/spieler/172",
+        "shared_matches": 11,
+        "teams_together": 1,
+        "total_minutes": 848
+      },
+      {
+        "name": "Danny Schwarz",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/danny-schwarz/profil/spieler/481",
+        "shared_matches": 11,
+        "teams_together": 1,
+        "total_minutes": 824
+      },
+      {
+        "name": "Jörg Stübner",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/jorg-stubner/profil/spieler/87888",
+        "shared_matches": 11,
+        "teams_together": 2,
+        "total_minutes": 618
+      },
+      {
+        "name": "Jason van Blerk",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/jason-van-blerk/profil/spieler/243275",
+        "shared_matches": 11,
+        "teams_together": 1,
+        "total_minutes": 422
+      },
+      {
+        "name": "Kakhaber Tskhadadze",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/kakhaber-tskhadadze/profil/spieler/101041",
+        "shared_matches": 10,
+        "teams_together": 1,
+        "total_minutes": 880
+      },
+      {
+        "name": "Alexander Strehmel",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/alexander-strehmel/profil/spieler/486",
+        "shared_matches": 10,
+        "teams_together": 1,
+        "total_minutes": 787
+      },
+      {
+        "name": "Gerhard Tremmel",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/gerhard-tremmel/profil/spieler/488",
+        "shared_matches": 10,
+        "teams_together": 1,
+        "total_minutes": 752
+      },
+      {
+        "name": "Espen Søgård",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/espen-sogard/profil/spieler/26952",
+        "shared_matches": 10,
+        "teams_together": 1,
+        "total_minutes": 738
+      },
+      {
+        "name": "Jan Seifert",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/jan-seifert/profil/spieler/482",
+        "shared_matches": 10,
+        "teams_together": 1,
+        "total_minutes": 731
+      },
+      {
+        "name": "Heiko Bonan",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/heiko-bonan/profil/spieler/1857",
+        "shared_matches": 10,
+        "teams_together": 2,
+        "total_minutes": 688
+      },
+      {
+        "name": "Artim Sakiri",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/artim-sakiri/profil/spieler/9992",
+        "shared_matches": 10,
+        "teams_together": 1,
+        "total_minutes": 568
+      },
+      {
+        "name": "Jörg Dobritz",
+        "position": "Abwehr",
+        "url": "https://www.transfermarkt.de/jorg-dobritz/profil/spieler/191504",
+        "shared_matches": 10,
+        "teams_together": 1,
+        "total_minutes": 535
+      },
+      {
+        "name": "Tony Vaughan",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/tony-vaughan/profil/spieler/224431",
+        "shared_matches": 10,
+        "teams_together": 1,
+        "total_minutes": 497
+      },
+      {
+        "name": "Kevin Davies",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/kevin-davies/profil/spieler/4114",
+        "shared_matches": 10,
+        "teams_together": 1,
+        "total_minutes": 401
+      },
+      {
+        "name": "Torgeir Bjarmann",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/torgeir-bjarmann/profil/spieler/112937",
+        "shared_matches": 9,
+        "teams_together": 1,
+        "total_minutes": 699
+      },
+      {
+        "name": "Matthias Lust",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/matthias-lust/profil/spieler/628",
+        "shared_matches": 9,
+        "teams_together": 1,
+        "total_minutes": 597
+      },
+      {
+        "name": "Oliver Straube",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/oliver-straube/profil/spieler/485",
+        "shared_matches": 9,
+        "teams_together": 1,
+        "total_minutes": 569
+      },
+      {
+        "name": "Stefan Lexa",
+        "position": "Rechtsaußen",
+        "url": "https://www.transfermarkt.de/stefan-lexa/profil/spieler/1025",
+        "shared_matches": 9,
+        "teams_together": 1,
+        "total_minutes": 559
+      },
+      {
+        "name": "André Breitenreiter",
+        "position": "Hängende Spitze",
+        "url": "https://www.transfermarkt.de/andre-breitenreiter/profil/spieler/464",
+        "shared_matches": 9,
+        "teams_together": 1,
+        "total_minutes": 541
+      },
+      {
+        "name": "Martin Cizek",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/martin-cizek/profil/spieler/549",
+        "shared_matches": 9,
+        "teams_together": 1,
+        "total_minutes": 514
+      },
+      {
+        "name": "Stefan Leitl",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/stefan-leitl/profil/spieler/777",
+        "shared_matches": 9,
+        "teams_together": 1,
+        "total_minutes": 391
+      },
+      {
+        "name": "Miroslav Stevic",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/miroslav-stevic/profil/spieler/135",
+        "shared_matches": 9,
+        "teams_together": 1,
+        "total_minutes": 381
+      },
+      {
+        "name": "Markus Kranz",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/markus-kranz/profil/spieler/17785",
+        "shared_matches": 9,
+        "teams_together": 1,
+        "total_minutes": 380
+      },
+      {
+        "name": "Kay Friedmann",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/kay-friedmann/profil/spieler/17951",
+        "shared_matches": 9,
+        "teams_together": 1,
+        "total_minutes": 369
+      },
+      {
+        "name": "Indridi Sigurdsson",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/indridi-sigurdsson/profil/spieler/13361",
+        "shared_matches": 8,
+        "teams_together": 1,
+        "total_minutes": 647
+      },
+      {
+        "name": "Simon Rodger",
+        "position": "Linkes Mittelfeld",
+        "url": "https://www.transfermarkt.de/simon-rodger/profil/spieler/195606",
+        "shared_matches": 8,
+        "teams_together": 1,
+        "total_minutes": 601
+      },
+      {
+        "name": "Bernard Schuiteman",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/bernard-schuiteman/profil/spieler/1061",
+        "shared_matches": 8,
+        "teams_together": 1,
+        "total_minutes": 574
+      },
+      {
+        "name": "Alexander Bugera",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/alexander-bugera/profil/spieler/362",
+        "shared_matches": 8,
+        "teams_together": 1,
+        "total_minutes": 511
+      },
+      {
+        "name": "Goran Sukalo",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/goran-sukalo/profil/spieler/1459",
+        "shared_matches": 8,
+        "teams_together": 1,
+        "total_minutes": 497
+      },
+      {
+        "name": "Magnus Kihlberg",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/magnus-kihlberg/profil/spieler/35755",
+        "shared_matches": 8,
+        "teams_together": 1,
+        "total_minutes": 456
+      },
+      {
+        "name": "Scott Hiley",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/scott-hiley/profil/spieler/211250",
+        "shared_matches": 8,
+        "teams_together": 1,
+        "total_minutes": 300
+      },
+      {
+        "name": "Stanislav Cherchesov",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/stanislav-cherchesov/profil/spieler/87842",
+        "shared_matches": 8,
+        "teams_together": 1,
+        "total_minutes": 273
+      },
+      {
+        "name": "Ronny Teuber",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/ronny-teuber/profil/spieler/842",
+        "shared_matches": 7,
+        "teams_together": 2,
+        "total_minutes": 545
+      },
+      {
+        "name": "Johan Petter Winsnes",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/johan-petter-winsnes/profil/spieler/26958",
+        "shared_matches": 7,
+        "teams_together": 1,
+        "total_minutes": 428
+      },
+      {
+        "name": "Steffen Karl",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/steffen-karl/profil/spieler/1542",
+        "shared_matches": 7,
+        "teams_together": 2,
+        "total_minutes": 423
+      },
+      {
+        "name": "Ralf Minge",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/ralf-minge/profil/spieler/179928",
+        "shared_matches": 7,
+        "teams_together": 1,
+        "total_minutes": 376
+      },
+      {
+        "name": "Markus Brand",
+        "position": "Abwehr",
+        "url": "https://www.transfermarkt.de/markus-brand/profil/spieler/17937",
+        "shared_matches": 7,
+        "teams_together": 1,
+        "total_minutes": 329
+      },
+      {
+        "name": "Ríkhardur Dadason",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/rikhardur-dadason/profil/spieler/106101",
+        "shared_matches": 7,
+        "teams_together": 1,
+        "total_minutes": 325
+      },
+      {
+        "name": "Marek Penksa",
+        "position": "Rechtsaußen",
+        "url": "https://www.transfermarkt.de/marek-penksa/profil/spieler/8204",
+        "shared_matches": 7,
+        "teams_together": 1,
+        "total_minutes": 297
+      },
+      {
+        "name": "Matthias Zimmermann",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/matthias-zimmermann/profil/spieler/493",
+        "shared_matches": 7,
+        "teams_together": 1,
+        "total_minutes": 293
+      },
+      {
+        "name": "Júnior",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/junior/profil/spieler/770",
+        "shared_matches": 7,
+        "teams_together": 1,
+        "total_minutes": 277
+      },
+      {
+        "name": "Celaleddin Koçak",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/celaleddin-kocak/profil/spieler/10134",
+        "shared_matches": 7,
+        "teams_together": 1,
+        "total_minutes": 249
+      },
+      {
+        "name": "Sasa Jakomin",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/sasa-jakomin/profil/spieler/1458",
+        "shared_matches": 7,
+        "teams_together": 1,
+        "total_minutes": 225
+      },
+      {
+        "name": "Torjus Hansén",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/torjus-hansen/profil/spieler/2700",
+        "shared_matches": 6,
+        "teams_together": 1,
+        "total_minutes": 452
+      },
+      {
+        "name": "Peter Beardsley",
+        "position": "Hängende Spitze",
+        "url": "https://www.transfermarkt.de/peter-beardsley/profil/spieler/102030",
+        "shared_matches": 6,
+        "teams_together": 1,
+        "total_minutes": 448
+      },
+      {
+        "name": "Thomas Kluge",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/thomas-kluge/profil/spieler/133612",
+        "shared_matches": 6,
+        "teams_together": 1,
+        "total_minutes": 400
+      },
+      {
+        "name": "Dalian Atkinson",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/dalian-atkinson/profil/spieler/200738",
+        "shared_matches": 6,
+        "teams_together": 1,
+        "total_minutes": 365
+      },
+      {
+        "name": "Hendrik Herzog",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/hendrik-herzog/profil/spieler/341",
+        "shared_matches": 6,
+        "teams_together": 2,
+        "total_minutes": 346
+      },
+      {
+        "name": "Nils Schmäler",
+        "position": "Libero",
+        "url": "https://www.transfermarkt.de/nils-schmaler/profil/spieler/97181",
+        "shared_matches": 6,
+        "teams_together": 1,
+        "total_minutes": 225
+      },
+      {
+        "name": "Pascal Ojigwe",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/pascal-ojigwe/profil/spieler/83",
+        "shared_matches": 6,
+        "teams_together": 1,
+        "total_minutes": 206
+      },
+      {
+        "name": "Torsten Kracht",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/torsten-kracht/profil/spieler/443",
+        "shared_matches": 6,
+        "teams_together": 3,
+        "total_minutes": 136
+      },
+      {
+        "name": "Matt Le Tissier",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/matt-le-tissier/profil/spieler/43705",
+        "shared_matches": 6,
+        "teams_together": 1,
+        "total_minutes": 123
+      },
+      {
+        "name": "Frode Birkeland",
+        "position": "Sturm",
+        "url": "https://www.transfermarkt.de/frode-birkeland/profil/spieler/26417",
+        "shared_matches": 6,
+        "teams_together": 1,
+        "total_minutes": 65
+      },
+      {
+        "name": "Lee Briscoe",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/lee-briscoe/profil/spieler/13994",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 421
+      },
+      {
+        "name": "Russell Hoult",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/russell-hoult/profil/spieler/3653",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 415
+      },
+      {
+        "name": "Phil Gilchrist",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/phil-gilchrist/profil/spieler/3656",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 415
+      },
+      {
+        "name": "Derek McInnes",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/derek-mcinnes/profil/spieler/3673",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 415
+      },
+      {
+        "name": "Neil Clement",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/neil-clement/profil/spieler/3789",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 401
+      },
+      {
+        "name": "Lárus Orri Sigurdsson",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/larus-orri-sigurdsson/profil/spieler/3657",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 371
+      },
+      {
+        "name": "Jörg Dittwar",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/jorg-dittwar/profil/spieler/18288",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 369
+      },
+      {
+        "name": "Ronnie Ekelund",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/ronnie-ekelund/profil/spieler/168498",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 291
+      },
+      {
+        "name": "Andreas Trautmann",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/andreas-trautmann/profil/spieler/84688",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 268
+      },
+      {
+        "name": "Dennis Grassow",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/dennis-grassow/profil/spieler/468",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 240
+      },
+      {
+        "name": "Oliver Schäfer",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/oliver-schafer/profil/spieler/901",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 202
+      },
+      {
+        "name": "Thomas Weissenberger",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/thomas-weissenberger/profil/spieler/17981",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 166
+      },
+      {
+        "name": "Thomas Rath",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/thomas-rath/profil/spieler/25449",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 106
+      },
+      {
+        "name": "Frank Edmond",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/frank-edmond/profil/spieler/1621",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 68
+      },
+      {
+        "name": "Matthias Liebers",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/matthias-liebers/profil/spieler/107131",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 68
+      },
+      {
+        "name": "Uwe Bredow",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/uwe-bredow/profil/spieler/109245",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 68
+      },
+      {
+        "name": "Uwe Zötzsche",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/uwe-zotzsche/profil/spieler/192161",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 68
+      },
+      {
+        "name": "Chris Greenacre",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/chris-greenacre/profil/spieler/13576",
+        "shared_matches": 5,
+        "teams_together": 1,
+        "total_minutes": 45
+      },
+      {
+        "name": "Darren Moore",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/darren-moore/profil/spieler/3243",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 348
+      },
+      {
+        "name": "Scott Dobie",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/scott-dobie/profil/spieler/3665",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 336
+      },
+      {
+        "name": "Guido Koltermann",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/guido-koltermann/profil/spieler/475",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 333
+      },
+      {
+        "name": "Igor Balis",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/igor-balis/profil/spieler/3286",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 323
+      },
+      {
+        "name": "Richard Jobson",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/richard-jobson/profil/spieler/175897",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 298
+      },
+      {
+        "name": "Frank Weis",
+        "position": "Abwehr",
+        "url": "https://www.transfermarkt.de/frank-weis/profil/spieler/191508",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 286
+      },
+      {
+        "name": "Andy Johnson",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/andy-johnson/profil/spieler/3672",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 272
+      },
+      {
+        "name": "Rory Delap",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/rory-delap/profil/spieler/4112",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 262
+      },
+      {
+        "name": "Anders Svensson",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/anders-svensson/profil/spieler/3688",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 245
+      },
+      {
+        "name": "Jamie Pollock",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/jamie-pollock/profil/spieler/222230",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 216
+      },
+      {
+        "name": "Heiko Peschke",
+        "position": "Libero",
+        "url": "https://www.transfermarkt.de/heiko-peschke/profil/spieler/21661",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 203
+      },
+      {
+        "name": "Reinhold Hintermaier",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/reinhold-hintermaier/profil/spieler/81610",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 196
+      },
+      {
+        "name": "René Beuchel",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/rene-beuchel/profil/spieler/1836",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 192
+      },
+      {
+        "name": "Altin Rraklli",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/altin-rraklli/profil/spieler/480",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 189
+      },
+      {
+        "name": "Sergio Bustos",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/sergio-bustos/profil/spieler/2733",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 175
+      },
+      {
+        "name": "Rico Steinmann",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/rico-steinmann/profil/spieler/16021",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 174
+      },
+      {
+        "name": "Matthias Lindner",
+        "position": "Libero",
+        "url": "https://www.transfermarkt.de/matthias-lindner/profil/spieler/107132",
+        "shared_matches": 4,
+        "teams_together": 2,
+        "total_minutes": 106
+      },
+      {
+        "name": "Tom Kristoffersen",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/tom-kristoffersen/profil/spieler/26947",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 95
+      },
+      {
+        "name": "Enrico Kern",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/enrico-kern/profil/spieler/689",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 64
+      },
+      {
+        "name": "Stian Berget",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/stian-berget/profil/spieler/26943",
+        "shared_matches": 4,
+        "teams_together": 1,
+        "total_minutes": 56
+      },
+      {
+        "name": "Oskar Kosche",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/oskar-kosche/profil/spieler/129605",
+        "shared_matches": 3,
+        "teams_together": 1,
+        "total_minutes": 253
+      },
+      {
+        "name": "Michael Appleton",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/michael-appleton/profil/spieler/3279",
+        "shared_matches": 3,
+        "teams_together": 1,
+        "total_minutes": 236
+      },
+      {
+        "name": "Marius Rövde",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/marius-rovde/profil/spieler/26692",
+        "shared_matches": 3,
+        "teams_together": 1,
+        "total_minutes": 227
+      },
+      {
+        "name": "Dariusz Wosz",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/dariusz-wosz/profil/spieler/360",
+        "shared_matches": 3,
+        "teams_together": 1,
+        "total_minutes": 223
+      },
+      {
+        "name": "Neil Moss",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/neil-moss/profil/spieler/48075",
+        "shared_matches": 3,
+        "teams_together": 1,
+        "total_minutes": 221
+      },
+      {
+        "name": "John Burridge",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/john-burridge/profil/spieler/228060",
+        "shared_matches": 3,
+        "teams_together": 1,
+        "total_minutes": 213
+      },
+      {
+        "name": "Matthias Sammer",
+        "position": "Libero",
+        "url": "https://www.transfermarkt.de/matthias-sammer/profil/spieler/77010",
+        "shared_matches": 3,
+        "teams_together": 1,
+        "total_minutes": 190
+      },
+      {
+        "name": "Bernd Hobsch",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/bernd-hobsch/profil/spieler/759",
+        "shared_matches": 3,
+        "teams_together": 2,
+        "total_minutes": 174
+      },
+      {
+        "name": "Stefan Böger",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/stefan-boger/profil/spieler/4710",
+        "shared_matches": 3,
+        "teams_together": 1,
+        "total_minutes": 167
+      },
+      {
+        "name": "Manuel Benthin",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/manuel-benthin/profil/spieler/1206",
+        "shared_matches": 3,
+        "teams_together": 1,
+        "total_minutes": 166
+      },
+      {
+        "name": "Ralf Bucher",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/ralf-bucher/profil/spieler/465",
+        "shared_matches": 3,
+        "teams_together": 1,
+        "total_minutes": 157
+      },
+      {
+        "name": "Uwe Weidemann",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/uwe-weidemann/profil/spieler/1535",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 87
+      },
+      {
+        "name": "Tony Butler",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/tony-butler/profil/spieler/20956",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 81
+      },
+      {
+        "name": "Niels Mackel",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/niels-mackel/profil/spieler/4019",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 68
+      },
+      {
+        "name": "Adie Mike",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/adie-mike/profil/spieler/228081",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 66
+      },
+      {
+        "name": "Roman Görtz",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/roman-gortz/profil/spieler/8225",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 64
+      },
+      {
+        "name": "Ian Bishop",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/ian-bishop/profil/spieler/175895",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 52
+      },
+      {
+        "name": "Barry Conlon",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/barry-conlon/profil/spieler/46132",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 51
+      },
+      {
+        "name": "Magnus Powell",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/magnus-powell/profil/spieler/3729",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 50
+      },
+      {
+        "name": "Oliver Pagé",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/oliver-page/profil/spieler/84661",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 44
+      },
+      {
+        "name": "Thomas Doll",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/thomas-doll/profil/spieler/1455",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 23
+      },
+      {
+        "name": "Thomas Seitz",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/thomas-seitz/profil/spieler/100768",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 23
+      },
+      {
+        "name": "Jaroslaw Flisnik",
+        "position": "Linksaußen",
+        "url": "https://www.transfermarkt.de/jaroslaw-flisnik/profil/spieler/191506",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 21
+      },
+      {
+        "name": "Mike Lünsmann",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/mike-lunsmann/profil/spieler/5263",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 20
+      },
+      {
+        "name": "Stuart Ripley",
+        "position": "Rechtes Mittelfeld",
+        "url": "https://www.transfermarkt.de/stuart-ripley/profil/spieler/107223",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 15
+      },
+      {
+        "name": "Kevin Gibbens",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/kevin-gibbens/profil/spieler/109490",
+        "shared_matches": 2,
+        "teams_together": 1,
+        "total_minutes": 8
+      },
+      {
+        "name": "Jörg Schwanke",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/jorg-schwanke/profil/spieler/973",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 90
+      },
+      {
+        "name": "Frank Pietruska",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/frank-pietruska/profil/spieler/31473",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 90
+      },
+      {
+        "name": "Jens Schmidt",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/jens-schmidt/profil/spieler/132787",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 90
+      },
+      {
+        "name": "Matthias Weiß",
+        "position": "Abwehr",
+        "url": "https://www.transfermarkt.de/matthias-weiss/profil/spieler/197841",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 90
+      },
+      {
+        "name": "Adam Chambers",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/adam-chambers/profil/spieler/3675",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 89
+      },
+      {
+        "name": "Jens-Uwe Zöphel",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/jens-uwe-zophel/profil/spieler/1224",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 73
+      },
+      {
+        "name": "Steffen Freund",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/steffen-freund/profil/spieler/3990",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 73
+      },
+      {
+        "name": "Steffen Dünger",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/steffen-dunger/profil/spieler/22776",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 73
+      },
+      {
+        "name": "Rene Adamczewski",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/rene-adamczewski/profil/spieler/193568",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 73
+      },
+      {
+        "name": "Hilmar Weilandt",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/hilmar-weilandt/profil/spieler/249",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 65
+      },
+      {
+        "name": "Taşkın Aksoy",
+        "position": "Abwehr",
+        "url": "https://www.transfermarkt.de/taskin-aksoy/profil/spieler/8233",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 65
+      },
+      {
+        "name": "Burkhard Reich",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/burkhard-reich/profil/spieler/79570",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 65
+      },
+      {
+        "name": "Davíd Thór Vidarsson",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/david-thor-vidarsson/profil/spieler/26955",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 64
+      },
+      {
+        "name": "Carl Griffiths",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/carl-griffiths/profil/spieler/222217",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 45
+      },
+      {
+        "name": "Ruel Fox",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/ruel-fox/profil/spieler/104904",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 44
+      },
+      {
+        "name": "Sascha Licht",
+        "position": "Rechtsaußen",
+        "url": "https://www.transfermarkt.de/sascha-licht/profil/spieler/828",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 34
+      },
+      {
+        "name": "Ingo Hermanns",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/ingo-hermanns/profil/spieler/31532",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 31
+      },
+      {
+        "name": "Thaddäus Bohne",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/thaddaus-bohne/profil/spieler/575326",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 27
+      },
+      {
+        "name": "Miroslaw Spizak",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/miroslaw-spizak/profil/spieler/91",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 25
+      },
+      {
+        "name": "Frank Schmidt",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/frank-schmidt/profil/spieler/926",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 24
+      },
+      {
+        "name": "Kasey Wehrman",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/kasey-wehrman/profil/spieler/26956",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 23
+      },
+      {
+        "name": "Henri Fuchs",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/henri-fuchs/profil/spieler/237",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 20
+      },
+      {
+        "name": "Giuseppe Mazzarelli",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/giuseppe-mazzarelli/profil/spieler/3511",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 20
+      },
+      {
+        "name": "Henrik Risom",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/henrik-risom/profil/spieler/84558",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 20
+      },
+      {
+        "name": "Frank Pallgen",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/frank-pallgen/profil/spieler/197706",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 18
+      },
+      {
+        "name": "Marco Lange",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/marco-lange/profil/spieler/192207",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 17
+      },
+      {
+        "name": "Dusko Adamović",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/dusko-adamovic/profil/spieler/106415",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 15
+      },
+      {
+        "name": "Paul Jones",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/paul-jones/profil/spieler/97920",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 14
+      },
+      {
+        "name": "Ulf Kirsten",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/ulf-kirsten/profil/spieler/74",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 13
+      },
+      {
+        "name": "Perry Bräutigam",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/perry-brautigam/profil/spieler/233",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 13
+      },
+      {
+        "name": "Ivica Majstorovic",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/ivica-majstorovic/profil/spieler/1491",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 13
+      },
+      {
+        "name": "Timo Lange",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/timo-lange/profil/spieler/242",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 12
+      },
+      {
+        "name": "Francis Benali",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/francis-benali/profil/spieler/3298",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 11
+      },
+      {
+        "name": "Ifet Taljevic",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/ifet-taljevic/profil/spieler/15330",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 9
+      },
+      {
+        "name": "Paul Murray",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/paul-murray/profil/spieler/19390",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 8
+      },
+      {
+        "name": "Andreas Barth",
+        "position": "Mittelfeld",
+        "url": "https://www.transfermarkt.de/andreas-barth/profil/spieler/191616",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 8
+      },
+      {
+        "name": "Jörn Lenz",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/jorn-lenz/profil/spieler/5203",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 7
+      },
+      {
+        "name": "Scott Thomas",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/scott-thomas/profil/spieler/228268",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 7
+      },
+      {
+        "name": "James Chambers",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/james-chambers/profil/spieler/3676",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 6
+      },
+      {
+        "name": "Scott McDonald",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/scott-mcdonald/profil/spieler/13799",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 6
+      },
+      {
+        "name": "Steffen Heidrich",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/steffen-heidrich/profil/spieler/169",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 4
+      },
+      {
+        "name": "Daniel Graf",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/daniel-graf/profil/spieler/1314",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 4
+      },
+      {
+        "name": "Jens Adler",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/jens-adler/profil/spieler/25312",
+        "shared_matches": 1,
+        "teams_together": 1,
+        "total_minutes": 0
+      }
+    ],
+    "coaches": [],
+    "sporting_directors": [],
+    "players": [
+      {
+        "name": "Nicky Summerbee",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/nicky-summerbee/profil/spieler/10378",
+        "shared_matches": 131,
+        "teams_together": 1,
+        "total_minutes": 10298
+      },
+      {
+        "name": "Ian Brightwell",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/ian-brightwell/profil/spieler/67373",
+        "shared_matches": 121,
+        "teams_together": 1,
+        "total_minutes": 9226
+      },
+      {
+        "name": "Kit Symons",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/kit-symons/profil/spieler/175935",
+        "shared_matches": 117,
+        "teams_together": 1,
+        "total_minutes": 9760
+      },
+      {
+        "name": "Giorgi Kinkladze",
+        "position": "Offensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/giorgi-kinkladze/profil/spieler/3425",
+        "shared_matches": 103,
+        "teams_together": 1,
+        "total_minutes": 8311
+      },
+      {
+        "name": "Steve Lomas",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/steve-lomas/profil/spieler/3801",
+        "shared_matches": 99,
+        "teams_together": 1,
+        "total_minutes": 7916
+      },
+      {
+        "name": "Keith Curle",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/keith-curle/profil/spieler/101316",
+        "shared_matches": 75,
+        "teams_together": 1,
+        "total_minutes": 6134
+      },
+      {
+        "name": "Garry Flitcroft",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/garry-flitcroft/profil/spieler/3706",
+        "shared_matches": 66,
+        "teams_together": 1,
+        "total_minutes": 5293
+      },
+      {
+        "name": "Michael Brown",
+        "position": "Zentrales Mittelfeld",
+        "url": "https://www.transfermarkt.de/michael-brown/profil/spieler/13509",
+        "shared_matches": 60,
+        "teams_together": 1,
+        "total_minutes": 3763
+      },
+      {
+        "name": "Niall Quinn",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/niall-quinn/profil/spieler/104110",
+        "shared_matches": 60,
+        "teams_together": 1,
+        "total_minutes": 3748
+      },
+      {
+        "name": "Detlef Schößler",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/detlef-schossler/profil/spieler/105007",
+        "shared_matches": 56,
+        "teams_together": 3,
+        "total_minutes": 3536
+      },
+      {
+        "name": "Dirk Heyne",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/dirk-heyne/profil/spieler/84639",
+        "shared_matches": 54,
+        "teams_together": 2,
+        "total_minutes": 4569
+      },
+      {
+        "name": "Peter Beagrie",
+        "position": "Linksaußen",
+        "url": "https://www.transfermarkt.de/peter-beagrie/profil/spieler/138385",
+        "shared_matches": 54,
+        "teams_together": 1,
+        "total_minutes": 3912
+      },
+      {
+        "name": "Frank Siersleben",
+        "position": "Linker Verteidiger",
+        "url": "https://www.transfermarkt.de/frank-siersleben/profil/spieler/191492",
+        "shared_matches": 51,
+        "teams_together": 1,
+        "total_minutes": 4328
+      },
+      {
+        "name": "Paul Walsh",
+        "position": "Mittelstürmer",
+        "url": "https://www.transfermarkt.de/paul-walsh/profil/spieler/202797",
+        "shared_matches": 51,
+        "teams_together": 1,
+        "total_minutes": 4022
+      },
+      {
+        "name": "Stefan Minkwitz",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/stefan-minkwitz/profil/spieler/1038",
+        "shared_matches": 50,
+        "teams_together": 3,
+        "total_minutes": 4270
+      },
+      {
+        "name": "Richard Edghill",
+        "position": "Rechter Verteidiger",
+        "url": "https://www.transfermarkt.de/richard-edghill/profil/spieler/13724",
+        "shared_matches": 49,
+        "teams_together": 1,
+        "total_minutes": 3726
+      },
+      {
+        "name": "Eike Immel",
+        "position": "Torwart",
+        "url": "https://www.transfermarkt.de/eike-immel/profil/spieler/73587",
+        "shared_matches": 48,
+        "teams_together": 1,
+        "total_minutes": 4095
+      },
+      {
+        "name": "Alan Kernaghan",
+        "position": "Innenverteidiger",
+        "url": "https://www.transfermarkt.de/alan-kernaghan/profil/spieler/14619",
+        "shared_matches": 48,
+        "teams_together": 1,
+        "total_minutes": 3661
+      },
+      {
+        "name": "Matthias Maucksch",
+        "position": "Libero",
+        "url": "https://www.transfermarkt.de/matthias-maucksch/profil/spieler/4706",
+        "shared_matches": 48,
+        "teams_together": 2,
+        "total_minutes": 2938
+      },
+      {
+        "name": "Ralf Hauptmann",
+        "position": "Defensives Mittelfeld",
+        "url": "https://www.transfermarkt.de/ralf-hauptmann/profil/spieler/41",
+        "shared_matches": 47,
+        "teams_together": 1,
+        "total_minutes": 3241
+      }
+    ],
+    "_cached_at": "2026-02-08T14:18:28.415223"
+  },
+  "players_used": {
+    "coach_id": "1766",
+    "stations_url": "https://www.transfermarkt.de/uwe-rosler/stationen/trainer/1766/plus/1",
+    "stations": [
+      {
+        "club": "VfL Bochum",
+        "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+        "period": "10.2025 - 06.2027",
+        "start_date": "10.2025",
+        "end_date": "06.2027",
+        "is_current": false,
+        "games": 15,
+        "wins": 7,
+        "draws": 6,
+        "losses": 2,
+        "players_used": 25
+      },
+      {
+        "club": "Aarhus GF",
+        "club_url": "https://www.transfermarkt.de/aarhus-gf/startseite/verein/678/saison_id/2022",
+        "period": "07.2022 - 06.2025",
+        "start_date": "07.2022",
+        "end_date": "06.2025",
+        "is_current": false,
+        "games": 112,
+        "wins": 46,
+        "draws": 30,
+        "losses": 36,
+        "players_used": 49
+      },
+      {
+        "club": "F. Düsseldorf",
+        "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/2019",
+        "period": "01.2020 - 06.2021",
+        "start_date": "01.2020",
+        "end_date": "06.2021",
+        "is_current": false,
+        "games": 53,
+        "wins": 20,
+        "draws": 17,
+        "losses": 16,
+        "players_used": 40
+      },
+      {
+        "club": "Malmö FF",
+        "club_url": "https://www.transfermarkt.de/malmo-ff/startseite/verein/496/saison_id/2017",
+        "period": "06.2018 - 12.2019",
+        "start_date": "06.2018",
+        "end_date": "12.2019",
+        "is_current": false,
+        "games": 80,
+        "wins": 49,
+        "draws": 22,
+        "losses": 9,
+        "players_used": 30
+      },
+      {
+        "club": "Fleetwood Town",
+        "club_url": "https://www.transfermarkt.de/fleetwood-town/startseite/verein/11177/saison_id/2016",
+        "period": "07.2016 - 02.2018",
+        "start_date": "07.2016",
+        "end_date": "02.2018",
+        "is_current": false,
+        "games": 102,
+        "wins": 43,
+        "draws": 25,
+        "losses": 34,
+        "players_used": 52
+      },
+      {
+        "club": "Leeds United",
+        "club_url": "https://www.transfermarkt.de/leeds-united/startseite/verein/399/saison_id/2014",
+        "period": "05.2015 - 10.2015",
+        "start_date": "05.2015",
+        "end_date": "10.2015",
+        "is_current": false,
+        "games": 12,
+        "wins": 2,
+        "draws": 5,
+        "losses": 5,
+        "players_used": 20
+      },
+      {
+        "club": "Wigan Athletic",
+        "club_url": "https://www.transfermarkt.de/wigan-athletic/startseite/verein/1071/saison_id/2013",
+        "period": "12.2013 - 11.2014",
+        "start_date": "12.2013",
+        "end_date": "11.2014",
+        "is_current": false,
+        "games": 55,
+        "wins": 22,
+        "draws": 15,
+        "losses": 18,
+        "players_used": 43
+      },
+      {
+        "club": "FC Brentford",
+        "club_url": "https://www.transfermarkt.de/fc-brentford/startseite/verein/1148/saison_id/2010",
+        "period": "06.2011 - 12.2013",
+        "start_date": "06.2011",
+        "end_date": "12.2013",
+        "is_current": false,
+        "games": 136,
+        "wins": 62,
+        "draws": 37,
+        "losses": 37,
+        "players_used": 67
+      },
+      {
+        "club": "Molde FK",
+        "club_url": "https://www.transfermarkt.de/molde-fk/startseite/verein/687/saison_id/2010",
+        "period": "08.2010 - 11.2010",
+        "start_date": "08.2010",
+        "end_date": "11.2010",
+        "is_current": false,
+        "games": 8,
+        "wins": 6,
+        "draws": 2,
+        "losses": 0,
+        "players_used": 18
+      },
+      {
+        "club": "Viking",
+        "club_url": "https://www.transfermarkt.de/viking-stavanger/startseite/verein/239/saison_id/2006",
+        "period": "01.2007 - 11.2009",
+        "start_date": "01.2007",
+        "end_date": "11.2009",
+        "is_current": false,
+        "games": 89,
+        "wins": 36,
+        "draws": 23,
+        "losses": 30,
+        "players_used": 40
+      },
+      {
+        "club": "Lillestrøm",
+        "club_url": "https://www.transfermarkt.de/lillestrom-sk/startseite/verein/353/saison_id/2004",
+        "period": "01.2005 - 11.2006",
+        "start_date": "01.2005",
+        "end_date": "11.2006",
+        "is_current": false,
+        "games": 58,
+        "wins": 26,
+        "draws": 16,
+        "losses": 16,
+        "players_used": 28
+      }
+    ],
+    "total_games": 720,
+    "total_players_used": 412,
+    "stations_count": 11,
+    "unique_clubs": 11,
+    "clubs_coached": 11,
+    "_cached_at": "2026-02-08T14:18:35.013618"
+  },
+  "players_detail": {
+    "coach_id": 1766,
+    "url": "https://www.transfermarkt.de/trainer/eingesetzteSpieler/trainer/1766/plus/1",
+    "total_players": 476,
+    "players": [
+      {
+        "name": "Clayton Donaldson",
+        "url": "https://www.transfermarkt.de/clayton-donaldson/profil/spieler/52721",
+        "player_id": 52721,
+        "position": "Mittelstürmer",
+        "nationality": "Jamaika",
+        "age": 42,
+        "appearances": 127,
+        "goals": 10,
+        "assists": 15,
+        "market_value": "-",
+        "minutes": 10591
+      },
+      {
+        "name": "Jonathan Douglas",
+        "url": "https://www.transfermarkt.de/jonathan-douglas/profil/spieler/7435",
+        "player_id": 7435,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "Irland",
+        "age": 44,
+        "appearances": 115,
+        "goals": 1,
+        "assists": 5,
+        "market_value": "-",
+        "minutes": 10319
+      },
+      {
+        "name": "Frederik Tingager",
+        "url": "https://www.transfermarkt.de/frederik-tingager/profil/spieler/289683",
+        "player_id": 289683,
+        "position": "Innenverteidiger",
+        "nationality": "Dänemark",
+        "age": 32,
+        "appearances": 105,
+        "goals": 1,
+        "assists": 6,
+        "market_value": "250 Tsd. €",
+        "minutes": 9208
+      },
+      {
+        "name": "Patrick Mortensen",
+        "url": "https://www.transfermarkt.de/patrick-mortensen/profil/spieler/69511",
+        "player_id": 69511,
+        "position": "Mittelstürmer",
+        "nationality": "Dänemark",
+        "age": 36,
+        "appearances": 109,
+        "goals": 8,
+        "assists": 22,
+        "market_value": "300 Tsd. €",
+        "minutes": 9161
+      },
+      {
+        "name": "Harlee Dean",
+        "url": "https://www.transfermarkt.de/harlee-dean/profil/spieler/120504",
+        "player_id": 120504,
+        "position": "Innenverteidiger",
+        "nationality": "England",
+        "age": 34,
+        "appearances": 103,
+        "goals": 4,
+        "assists": 2,
+        "market_value": "-",
+        "minutes": 8994
+      },
+      {
+        "name": "Shay Logan",
+        "url": "https://www.transfermarkt.de/shay-logan/profil/spieler/58579",
+        "player_id": 58579,
+        "position": "Rechter Verteidiger",
+        "nationality": "England",
+        "age": 38,
+        "appearances": 98,
+        "goals": 6,
+        "assists": 16,
+        "market_value": "-",
+        "minutes": 8217
+      },
+      {
+        "name": "Toumani Diagouraga",
+        "url": "https://www.transfermarkt.de/toumani-diagouraga/profil/spieler/37010",
+        "player_id": 37010,
+        "position": "Defensives Mittelfeld",
+        "nationality": "Frankreich",
+        "age": 38,
+        "appearances": 110,
+        "goals": 23,
+        "assists": 18,
+        "market_value": "-",
+        "minutes": 8069
+      },
+      {
+        "name": "Mikael Anderson",
+        "url": "https://www.transfermarkt.de/mikael-anderson/profil/spieler/403673",
+        "player_id": 403673,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "Island",
+        "age": 27,
+        "appearances": 100,
+        "goals": 10,
+        "assists": 36,
+        "market_value": "1,70 Mio. €",
+        "minutes": 7982
+      },
+      {
+        "name": "Felix Beijmo",
+        "url": "https://www.transfermarkt.de/felix-beijmo/profil/spieler/322293",
+        "player_id": 322293,
+        "position": "Rechtes Mittelfeld",
+        "nationality": "Schweden",
+        "age": 28,
+        "appearances": 95,
+        "goals": 4,
+        "assists": 36,
+        "market_value": "2,50 Mio. €",
+        "minutes": 7745
+      },
+      {
+        "name": "Jake Bidwell",
+        "url": "https://www.transfermarkt.de/jake-bidwell/profil/spieler/121250",
+        "player_id": 121250,
+        "position": "Linker Verteidiger",
+        "nationality": "England",
+        "age": 32,
+        "appearances": 89,
+        "goals": 3,
+        "assists": 5,
+        "market_value": "800 Tsd. €",
+        "minutes": 7660
+      },
+      {
+        "name": "Amari'i Bell",
+        "url": "https://www.transfermarkt.de/amarii-bell/profil/spieler/278166",
+        "player_id": 278166,
+        "position": "Innenverteidiger",
+        "nationality": "Jamaika",
+        "age": 31,
+        "appearances": 86,
+        "goals": 0,
+        "assists": 7,
+        "market_value": "1,00 Mio. €",
+        "minutes": 7640
+      },
+      {
+        "name": "Jesper Hansen",
+        "url": "https://www.transfermarkt.de/jesper-hansen/profil/spieler/22860",
+        "player_id": 22860,
+        "position": "Torwart",
+        "nationality": "Dänemark",
+        "age": 40,
+        "appearances": 81,
+        "goals": 3,
+        "assists": 0,
+        "market_value": "50 Tsd. €",
+        "minutes": 7227
+      },
+      {
+        "name": "Mads Emil Madsen",
+        "url": "https://www.transfermarkt.de/mads-emil-madsen/profil/spieler/422950",
+        "player_id": 422950,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "Dänemark",
+        "age": 28,
+        "appearances": 91,
+        "goals": 11,
+        "assists": 22,
+        "market_value": "2,50 Mio. €",
+        "minutes": 7189
+      },
+      {
+        "name": "Ashley Eastham",
+        "url": "https://www.transfermarkt.de/ashley-eastham/profil/spieler/118265",
+        "player_id": 118265,
+        "position": "Innenverteidiger",
+        "nationality": "England",
+        "age": 34,
+        "appearances": 81,
+        "goals": 1,
+        "assists": 7,
+        "market_value": "-",
+        "minutes": 7099
+      },
+      {
+        "name": "Børre Steenslid",
+        "url": "https://www.transfermarkt.de/borre-steenslid/profil/spieler/41880",
+        "player_id": 41880,
+        "position": "Innenverteidiger",
+        "nationality": "Norwegen",
+        "age": 40,
+        "appearances": 81,
+        "goals": 2,
+        "assists": 7,
+        "market_value": "-",
+        "minutes": 7063
+      },
+      {
+        "name": "Kyle Dempsey",
+        "url": "https://www.transfermarkt.de/kyle-dempsey/profil/spieler/308388",
+        "player_id": 308388,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "England",
+        "age": 30,
+        "appearances": 83,
+        "goals": 5,
+        "assists": 13,
+        "market_value": "375 Tsd. €",
+        "minutes": 7015
+      },
+      {
+        "name": "Nicolai Poulsen",
+        "url": "https://www.transfermarkt.de/nicolai-poulsen/profil/spieler/253210",
+        "player_id": 253210,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "Dänemark",
+        "age": 32,
+        "appearances": 91,
+        "goals": 10,
+        "assists": 29,
+        "market_value": "300 Tsd. €",
+        "minutes": 6951
+      },
+      {
+        "name": "Adam Forshaw",
+        "url": "https://www.transfermarkt.de/adam-forshaw/profil/spieler/121257",
+        "player_id": 121257,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "England",
+        "age": 34,
+        "appearances": 89,
+        "goals": 10,
+        "assists": 34,
+        "market_value": "200 Tsd. €",
+        "minutes": 6847
+      },
+      {
+        "name": "Tony Craig",
+        "url": "https://www.transfermarkt.de/tony-craig/profil/spieler/13562",
+        "player_id": 13562,
+        "position": "Innenverteidiger",
+        "nationality": "England",
+        "age": 40,
+        "appearances": 76,
+        "goals": 2,
+        "assists": 1,
+        "market_value": "-",
+        "minutes": 6707
+      },
+      {
+        "name": "Johan Dahlin",
+        "url": "https://www.transfermarkt.de/johan-dahlin/profil/spieler/41653",
+        "player_id": 41653,
+        "position": "Torwart",
+        "nationality": "Schweden",
+        "age": 39,
+        "appearances": 75,
+        "goals": 0,
+        "assists": 2,
+        "market_value": "100 Tsd. €",
+        "minutes": 6660
+      },
+      {
+        "name": "Cian Bolger",
+        "url": "https://www.transfermarkt.de/cian-bolger/profil/spieler/130478",
+        "player_id": 130478,
+        "position": "Innenverteidiger",
+        "nationality": "Irland",
+        "age": 33,
+        "appearances": 79,
+        "goals": 5,
+        "assists": 5,
+        "market_value": "50 Tsd. €",
+        "minutes": 6650
+      },
+      {
+        "name": "Alex Cairns",
+        "url": "https://www.transfermarkt.de/alex-cairns/profil/spieler/194386",
+        "player_id": 194386,
+        "position": "Torwart",
+        "nationality": "England",
+        "age": 33,
+        "appearances": 68,
+        "goals": 1,
+        "assists": 0,
+        "market_value": "75 Tsd. €",
+        "minutes": 6202
+      },
+      {
+        "name": "Gift Links",
+        "url": "https://www.transfermarkt.de/gift-links/profil/spieler/445616",
+        "player_id": 445616,
+        "position": "Linkes Mittelfeld",
+        "nationality": "Südafrika",
+        "age": 27,
+        "appearances": 94,
+        "goals": 21,
+        "assists": 57,
+        "market_value": "1,50 Mio. €",
+        "minutes": 6188
+      },
+      {
+        "name": "Eric Kahl",
+        "url": "https://www.transfermarkt.de/eric-kahl/profil/spieler/675278",
+        "player_id": 675278,
+        "position": "Innenverteidiger",
+        "nationality": "Schweden",
+        "age": 24,
+        "appearances": 101,
+        "goals": 33,
+        "assists": 41,
+        "market_value": "2,50 Mio. €",
+        "minutes": 6185
+      },
+      {
+        "name": "Ragnvald Soma",
+        "url": "https://www.transfermarkt.de/ragnvald-soma/profil/spieler/3447",
+        "player_id": 3447,
+        "position": "Innenverteidiger",
+        "nationality": "Norwegen",
+        "age": 46,
+        "appearances": 70,
+        "goals": 1,
+        "assists": 3,
+        "market_value": "-",
+        "minutes": 6165
+      },
+      {
+        "name": "Bobby Grant",
+        "url": "https://www.transfermarkt.de/bobby-grant/profil/spieler/67359",
+        "player_id": 67359,
+        "position": "Rechtsaußen",
+        "nationality": "England",
+        "age": 35,
+        "appearances": 78,
+        "goals": 8,
+        "assists": 17,
+        "market_value": "-",
+        "minutes": 6150
+      },
+      {
+        "name": "Søren Rieks",
+        "url": "https://www.transfermarkt.de/soren-rieks/profil/spieler/44471",
+        "player_id": 44471,
+        "position": "Linksaußen",
+        "nationality": "Dänemark",
+        "age": 38,
+        "appearances": 70,
+        "goals": 4,
+        "assists": 10,
+        "market_value": "-",
+        "minutes": 5851
+      },
+      {
+        "name": "Simon Moore",
+        "url": "https://www.transfermarkt.de/simon-moore/profil/spieler/123536",
+        "player_id": 123536,
+        "position": "Torwart",
+        "nationality": "England",
+        "age": 35,
+        "appearances": 64,
+        "goals": 1,
+        "assists": 0,
+        "market_value": "100 Tsd. €",
+        "minutes": 5775
+      },
+      {
+        "name": "Tobias Mölgaard",
+        "url": "https://www.transfermarkt.de/tobias-molgaard/profil/spieler/341466",
+        "player_id": 341466,
+        "position": "Innenverteidiger",
+        "nationality": "Dänemark",
+        "age": 29,
+        "appearances": 76,
+        "goals": 14,
+        "assists": 24,
+        "market_value": "800 Tsd. €",
+        "minutes": 5623
+      },
+      {
+        "name": "Oscar Lewicki",
+        "url": "https://www.transfermarkt.de/oscar-lewicki/profil/spieler/76051",
+        "player_id": 76051,
+        "position": "Defensives Mittelfeld",
+        "nationality": "Schweden",
+        "age": 33,
+        "appearances": 72,
+        "goals": 10,
+        "assists": 10,
+        "market_value": "-",
+        "minutes": 5581
+      },
+      {
+        "name": "Fouad Bachirou",
+        "url": "https://www.transfermarkt.de/fouad-bachirou/profil/spieler/93663",
+        "player_id": 93663,
+        "position": "Defensives Mittelfeld",
+        "nationality": "Komoren",
+        "age": 35,
+        "appearances": 69,
+        "goals": 8,
+        "assists": 8,
+        "market_value": "-",
+        "minutes": 5513
+      },
+      {
+        "name": "Sam Saunders",
+        "url": "https://www.transfermarkt.de/sam-saunders/profil/spieler/66892",
+        "player_id": 66892,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "England",
+        "age": 42,
+        "appearances": 102,
+        "goals": 44,
+        "assists": 40,
+        "market_value": "-",
+        "minutes": 5406
+      },
+      {
+        "name": "Nathan Pond",
+        "url": "https://www.transfermarkt.de/nathan-pond/profil/spieler/105202",
+        "player_id": 105202,
+        "position": "Innenverteidiger",
+        "nationality": "Montserrat",
+        "age": 41,
+        "appearances": 65,
+        "goals": 7,
+        "assists": 9,
+        "market_value": "-",
+        "minutes": 5385
+      },
+      {
+        "name": "Markus Rosenberg",
+        "url": "https://www.transfermarkt.de/markus-rosenberg/profil/spieler/27505",
+        "player_id": 27505,
+        "position": "Mittelstürmer",
+        "nationality": "Schweden",
+        "age": 43,
+        "appearances": 69,
+        "goals": 10,
+        "assists": 8,
+        "market_value": "-",
+        "minutes": 5380
+      },
+      {
+        "name": "André Danielsen",
+        "url": "https://www.transfermarkt.de/andre-danielsen/profil/spieler/26753",
+        "player_id": 26753,
+        "position": "Defensives Mittelfeld",
+        "nationality": "Norwegen",
+        "age": 41,
+        "appearances": 75,
+        "goals": 17,
+        "assists": 19,
+        "market_value": "-",
+        "minutes": 5222
+      },
+      {
+        "name": "Alexander Ødegaard",
+        "url": "https://www.transfermarkt.de/alexander-odegaard/profil/spieler/26226",
+        "player_id": 26226,
+        "position": "Linksaußen",
+        "nationality": "Norwegen",
+        "age": 45,
+        "appearances": 77,
+        "goals": 21,
+        "assists": 32,
+        "market_value": "-",
+        "minutes": 5167
+      },
+      {
+        "name": "Robert Koren",
+        "url": "https://www.transfermarkt.de/robert-koren/profil/spieler/26946",
+        "player_id": 26946,
+        "position": "Offensives Mittelfeld",
+        "nationality": "Slowenien",
+        "age": 45,
+        "appearances": 58,
+        "goals": 0,
+        "assists": 10,
+        "market_value": "-",
+        "minutes": 5137
+      },
+      {
+        "name": "Devante Cole",
+        "url": "https://www.transfermarkt.de/devante-cole/profil/spieler/186924",
+        "player_id": 186924,
+        "position": "Mittelstürmer",
+        "nationality": "Jamaika",
+        "age": 30,
+        "appearances": 80,
+        "goals": 25,
+        "assists": 26,
+        "market_value": "550 Tsd. €",
+        "minutes": 5088
+      },
+      {
+        "name": "Peter Ijeh",
+        "url": "https://www.transfermarkt.de/peter-ijeh/profil/spieler/19232",
+        "player_id": 19232,
+        "position": "Mittelstürmer",
+        "nationality": "Nigeria",
+        "age": 48,
+        "appearances": 68,
+        "goals": 11,
+        "assists": 23,
+        "market_value": "-",
+        "minutes": 5059
+      },
+      {
+        "name": "Martin Fillo",
+        "url": "https://www.transfermarkt.de/martin-fillo/profil/spieler/35753",
+        "player_id": 35753,
+        "position": "Rechtes Mittelfeld",
+        "nationality": "Tschechien",
+        "age": 40,
+        "appearances": 65,
+        "goals": 7,
+        "assists": 26,
+        "market_value": "-",
+        "minutes": 5052
+      },
+      {
+        "name": "Tobias Bech",
+        "url": "https://www.transfermarkt.de/tobias-bech/profil/spieler/528451",
+        "player_id": 528451,
+        "position": "Rechtsaußen",
+        "nationality": "Dänemark",
+        "age": 23,
+        "appearances": 72,
+        "goals": 13,
+        "assists": 42,
+        "market_value": "4,00 Mio. €",
+        "minutes": 4989
+      },
+      {
+        "name": "Ashley Hunter",
+        "url": "https://www.transfermarkt.de/ashley-hunter/profil/spieler/351933",
+        "player_id": 351933,
+        "position": "Linksaußen",
+        "nationality": "England",
+        "age": 30,
+        "appearances": 96,
+        "goals": 52,
+        "assists": 27,
+        "market_value": "-",
+        "minutes": 4927
+      },
+      {
+        "name": "Rasmus Bengtsson",
+        "url": "https://www.transfermarkt.de/rasmus-bengtsson/profil/spieler/37080",
+        "player_id": 37080,
+        "position": "Innenverteidiger",
+        "nationality": "Schweden",
+        "age": 39,
+        "appearances": 60,
+        "goals": 4,
+        "assists": 9,
+        "market_value": "-",
+        "minutes": 4804
+      },
+      {
+        "name": "Richard Lee",
+        "url": "https://www.transfermarkt.de/richard-lee/profil/spieler/14040",
+        "player_id": 14040,
+        "position": "Torwart",
+        "nationality": "England",
+        "age": 43,
+        "appearances": 52,
+        "goals": 0,
+        "assists": 1,
+        "market_value": "-",
+        "minutes": 4725
+      },
+      {
+        "name": "Anders Christiansen",
+        "url": "https://www.transfermarkt.de/anders-christiansen/profil/spieler/77259",
+        "player_id": 77259,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "Dänemark",
+        "age": 35,
+        "appearances": 63,
+        "goals": 10,
+        "assists": 20,
+        "market_value": "300 Tsd. €",
+        "minutes": 4708
+      },
+      {
+        "name": "Jone Samuelsen",
+        "url": "https://www.transfermarkt.de/jone-samuelsen/profil/spieler/26757",
+        "player_id": 26757,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "Norwegen",
+        "age": 41,
+        "appearances": 66,
+        "goals": 9,
+        "assists": 29,
+        "market_value": "-",
+        "minutes": 4691
+      },
+      {
+        "name": "Eric Larsson",
+        "url": "https://www.transfermarkt.de/eric-larsson/profil/spieler/146774",
+        "player_id": 146774,
+        "position": "Rechter Verteidiger",
+        "nationality": "Schweden",
+        "age": 34,
+        "appearances": 61,
+        "goals": 11,
+        "assists": 9,
+        "market_value": "225 Tsd. €",
+        "minutes": 4690
+      },
+      {
+        "name": "Lasse Nielsen",
+        "url": "https://www.transfermarkt.de/lasse-nielsen/profil/spieler/42913",
+        "player_id": 42913,
+        "position": "Innenverteidiger",
+        "nationality": "Dänemark",
+        "age": 38,
+        "appearances": 57,
+        "goals": 6,
+        "assists": 5,
+        "market_value": "50 Tsd. €",
+        "minutes": 4630
+      },
+      {
+        "name": "Anders Rambekk",
+        "url": "https://www.transfermarkt.de/anders-rambekk/profil/spieler/24160",
+        "player_id": 24160,
+        "position": "Linker Verteidiger",
+        "nationality": "Norwegen",
+        "age": 49,
+        "appearances": 54,
+        "goals": 4,
+        "assists": 0,
+        "market_value": "-",
+        "minutes": 4621
+      },
+      {
+        "name": "Florian Kastenmeier",
+        "url": "https://www.transfermarkt.de/florian-kastenmeier/profil/spieler/255294",
+        "player_id": 255294,
+        "position": "Torwart",
+        "nationality": "Deutschland",
+        "age": 28,
+        "appearances": 51,
+        "goals": 0,
+        "assists": 0,
+        "market_value": "1,20 Mio. €",
+        "minutes": 4603
+      },
+      {
+        "name": "Espen Søgård",
+        "url": "https://www.transfermarkt.de/espen-sogard/profil/spieler/26952",
+        "player_id": 26952,
+        "position": "Defensives Mittelfeld",
+        "nationality": "Norwegen",
+        "age": 46,
+        "appearances": 55,
+        "goals": 2,
+        "assists": 11,
+        "market_value": "-",
+        "minutes": 4575
+      },
+      {
+        "name": "Nicolai Stokholm",
+        "url": "https://www.transfermarkt.de/nicolai-stokholm/profil/spieler/22513",
+        "player_id": 22513,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "Dänemark",
+        "age": 49,
+        "appearances": 52,
+        "goals": 0,
+        "assists": 3,
+        "market_value": "-",
+        "minutes": 4561
+      },
+      {
+        "name": "George Glendon",
+        "url": "https://www.transfermarkt.de/george-glendon/profil/spieler/201570",
+        "player_id": 201570,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "England",
+        "age": 30,
+        "appearances": 66,
+        "goals": 16,
+        "assists": 27,
+        "market_value": "-",
+        "minutes": 4555
+      },
+      {
+        "name": "Behrang Safari",
+        "url": "https://www.transfermarkt.de/behrang-safari/profil/spieler/18807",
+        "player_id": 18807,
+        "position": "Linker Verteidiger",
+        "nationality": "Schweden",
+        "age": 40,
+        "appearances": 57,
+        "goals": 6,
+        "assists": 21,
+        "market_value": "-",
+        "minutes": 4536
+      },
+      {
+        "name": "Trond Erik Bertelsen",
+        "url": "https://www.transfermarkt.de/trond-erik-bertelsen/profil/spieler/37274",
+        "player_id": 37274,
+        "position": "Linker Verteidiger",
+        "nationality": "Norwegen",
+        "age": 41,
+        "appearances": 54,
+        "goals": 5,
+        "assists": 2,
+        "market_value": "-",
+        "minutes": 4529
+      },
+      {
+        "name": "Arnór Ingvi Traustason",
+        "url": "https://www.transfermarkt.de/arnor-ingvi-traustason/profil/spieler/153237",
+        "player_id": 153237,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "Island",
+        "age": 32,
+        "appearances": 65,
+        "goals": 13,
+        "assists": 26,
+        "market_value": "700 Tsd. €",
+        "minutes": 4496
+      },
+      {
+        "name": "Thomas Myhre",
+        "url": "https://www.transfermarkt.de/thomas-myhre/profil/spieler/3566",
+        "player_id": 3566,
+        "position": "Torwart",
+        "nationality": "Norwegen",
+        "age": 50,
+        "appearances": 50,
+        "goals": 0,
+        "assists": 2,
+        "market_value": "-",
+        "minutes": 4419
+      },
+      {
+        "name": "Conor McLaughlin",
+        "url": "https://www.transfermarkt.de/conor-mclaughlin/profil/spieler/128419",
+        "player_id": 128419,
+        "position": "Rechter Verteidiger",
+        "nationality": "Nordirland",
+        "age": 34,
+        "appearances": 49,
+        "goals": 0,
+        "assists": 4,
+        "market_value": "-",
+        "minutes": 4323
+      },
+      {
+        "name": "Matthias Zimmermann",
+        "url": "https://www.transfermarkt.de/matthias-zimmermann/profil/spieler/86848",
+        "player_id": 86848,
+        "position": "Rechter Verteidiger",
+        "nationality": "Deutschland",
+        "age": 33,
+        "appearances": 50,
+        "goals": 3,
+        "assists": 7,
+        "market_value": "400 Tsd. €",
+        "minutes": 4166
+      },
+      {
+        "name": "David Ball",
+        "url": "https://www.transfermarkt.de/david-ball/profil/spieler/121401",
+        "player_id": 121401,
+        "position": "Mittelstürmer",
+        "nationality": "England",
+        "age": 36,
+        "appearances": 55,
+        "goals": 8,
+        "assists": 14,
+        "market_value": "-",
+        "minutes": 4159
+      },
+      {
+        "name": "Arild Sundgot",
+        "url": "https://www.transfermarkt.de/arild-sundgot/profil/spieler/26951",
+        "player_id": 26951,
+        "position": "Mittelstürmer",
+        "nationality": "Norwegen",
+        "age": 47,
+        "appearances": 56,
+        "goals": 12,
+        "assists": 12,
+        "market_value": "-",
+        "minutes": 4038
+      },
+      {
+        "name": "Marcus Antonsson",
+        "url": "https://www.transfermarkt.de/marcus-antonsson/profil/spieler/171676",
+        "player_id": 171676,
+        "position": "Mittelstürmer",
+        "nationality": "Schweden",
+        "age": 34,
+        "appearances": 65,
+        "goals": 18,
+        "assists": 28,
+        "market_value": "400 Tsd. €",
+        "minutes": 4037
+      },
+      {
+        "name": "James Perch",
+        "url": "https://www.transfermarkt.de/james-perch/profil/spieler/49409",
+        "player_id": 49409,
+        "position": "Innenverteidiger",
+        "nationality": "England",
+        "age": 40,
+        "appearances": 47,
+        "goals": 2,
+        "assists": 3,
+        "market_value": "-",
+        "minutes": 4035
+      },
+      {
+        "name": "Frode Kippe",
+        "url": "https://www.transfermarkt.de/frode-kippe/profil/spieler/8511",
+        "player_id": 8511,
+        "position": "Innenverteidiger",
+        "nationality": "Norwegen",
+        "age": 48,
+        "appearances": 47,
+        "goals": 4,
+        "assists": 1,
+        "market_value": "-",
+        "minutes": 3947
+      },
+      {
+        "name": "Harry Forrester",
+        "url": "https://www.transfermarkt.de/harry-forrester/profil/spieler/62643",
+        "player_id": 62643,
+        "position": "Linksaußen",
+        "nationality": "England",
+        "age": 35,
+        "appearances": 69,
+        "goals": 27,
+        "assists": 33,
+        "market_value": "-",
+        "minutes": 3903
+      },
+      {
+        "name": "Emmerson Boyce",
+        "url": "https://www.transfermarkt.de/emmerson-boyce/profil/spieler/19641",
+        "player_id": 19641,
+        "position": "Rechter Verteidiger",
+        "nationality": "Barbados",
+        "age": 46,
+        "appearances": 42,
+        "goals": 2,
+        "assists": 1,
+        "market_value": "-",
+        "minutes": 3692
+      },
+      {
+        "name": "Allan Gaarde",
+        "url": "https://www.transfermarkt.de/allan-gaarde/profil/spieler/8075",
+        "player_id": 8075,
+        "position": "Rechtes Mittelfeld",
+        "nationality": "Dänemark",
+        "age": 50,
+        "appearances": 50,
+        "goals": 10,
+        "assists": 3,
+        "market_value": "-",
+        "minutes": 3667
+      },
+      {
+        "name": "Thomas Pereira",
+        "url": "https://www.transfermarkt.de/thomas-pereira/profil/spieler/26425",
+        "player_id": 26425,
+        "position": "Linker Verteidiger",
+        "nationality": "Norwegen",
+        "age": 43,
+        "appearances": 43,
+        "goals": 3,
+        "assists": 10,
+        "market_value": "-",
+        "minutes": 3545
+      },
+      {
+        "name": "Bjørn Helge Riise",
+        "url": "https://www.transfermarkt.de/bjorn-helge-riise/profil/spieler/13485",
+        "player_id": 13485,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "Norwegen",
+        "age": 42,
+        "appearances": 44,
+        "goals": 4,
+        "assists": 14,
+        "market_value": "-",
+        "minutes": 3495
+      },
+      {
+        "name": "Rouwen Hennings",
+        "url": "https://www.transfermarkt.de/rouwen-hennings/profil/spieler/16311",
+        "player_id": 16311,
+        "position": "Mittelstürmer",
+        "nationality": "Deutschland",
+        "age": 38,
+        "appearances": 51,
+        "goals": 14,
+        "assists": 12,
+        "market_value": "-",
+        "minutes": 3482
+      },
+      {
+        "name": "Pål Steffen Andresen",
+        "url": "https://www.transfermarkt.de/pal-steffen-andresen/profil/spieler/26942",
+        "player_id": 26942,
+        "position": "Innenverteidiger",
+        "nationality": "Norwegen",
+        "age": 43,
+        "appearances": 46,
+        "goals": 8,
+        "assists": 4,
+        "market_value": "-",
+        "minutes": 3478
+      },
+      {
+        "name": "Christoffer Andersson",
+        "url": "https://www.transfermarkt.de/christoffer-andersson/profil/spieler/15347",
+        "player_id": 15347,
+        "position": "Rechter Verteidiger",
+        "nationality": "Schweden",
+        "age": 47,
+        "appearances": 39,
+        "goals": 0,
+        "assists": 4,
+        "market_value": "-",
+        "minutes": 3476
+      },
+      {
+        "name": "James McArthur",
+        "url": "https://www.transfermarkt.de/james-mcarthur/profil/spieler/41416",
+        "player_id": 41416,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "Schottland",
+        "age": 38,
+        "appearances": 40,
+        "goals": 2,
+        "assists": 8,
+        "market_value": "-",
+        "minutes": 3431
+      },
+      {
+        "name": "Shane Stefanutto",
+        "url": "https://www.transfermarkt.de/shane-stefanutto/profil/spieler/26949",
+        "player_id": 26949,
+        "position": "Linker Verteidiger",
+        "nationality": "Australien",
+        "age": 46,
+        "appearances": 41,
+        "goals": 4,
+        "assists": 6,
+        "market_value": "-",
+        "minutes": 3387
+      },
+      {
+        "name": "Kenan Karaman",
+        "url": "https://www.transfermarkt.de/kenan-karaman/profil/spieler/119557",
+        "player_id": 119557,
+        "position": "Offensives Mittelfeld",
+        "nationality": "Türkei",
+        "age": 31,
+        "appearances": 42,
+        "goals": 7,
+        "assists": 13,
+        "market_value": "2,00 Mio. €",
+        "minutes": 3288
+      },
+      {
+        "name": "Tom Adeyemi",
+        "url": "https://www.transfermarkt.de/tom-adeyemi/profil/spieler/106251",
+        "player_id": 106251,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "England",
+        "age": 34,
+        "appearances": 49,
+        "goals": 11,
+        "assists": 15,
+        "market_value": "-",
+        "minutes": 3269
+      },
+      {
+        "name": "Leon Barnett",
+        "url": "https://www.transfermarkt.de/leon-barnett/profil/spieler/33484",
+        "player_id": 33484,
+        "position": "Innenverteidiger",
+        "nationality": "England",
+        "age": 40,
+        "appearances": 39,
+        "goals": 7,
+        "assists": 1,
+        "market_value": "-",
+        "minutes": 3172
+      },
+      {
+        "name": "Chris Neal",
+        "url": "https://www.transfermarkt.de/chris-neal/profil/spieler/42204",
+        "player_id": 42204,
+        "position": "Torwart",
+        "nationality": "England",
+        "age": 40,
+        "appearances": 35,
+        "goals": 0,
+        "assists": 1,
+        "market_value": "-",
+        "minutes": 3159
+      },
+      {
+        "name": "Andre Hoffmann",
+        "url": "https://www.transfermarkt.de/andre-hoffmann/profil/spieler/85164",
+        "player_id": 85164,
+        "position": "Innenverteidiger",
+        "nationality": "Deutschland",
+        "age": 32,
+        "appearances": 38,
+        "goals": 3,
+        "assists": 4,
+        "market_value": "400 Tsd. €",
+        "minutes": 3148
+      },
+      {
+        "name": "Yann Bisseck",
+        "url": "https://www.transfermarkt.de/yann-bisseck/profil/spieler/441986",
+        "player_id": 441986,
+        "position": "Innenverteidiger",
+        "nationality": "Deutschland",
+        "age": 25,
+        "appearances": 35,
+        "goals": 0,
+        "assists": 2,
+        "market_value": "35,00 Mio. €",
+        "minutes": 3082
+      },
+      {
+        "name": "Kasey Wehrman",
+        "url": "https://www.transfermarkt.de/kasey-wehrman/profil/spieler/26956",
+        "player_id": 26956,
+        "position": "Defensives Mittelfeld",
+        "nationality": "Australien",
+        "age": 48,
+        "appearances": 39,
+        "goals": 4,
+        "assists": 8,
+        "market_value": "-",
+        "minutes": 3047
+      },
+      {
+        "name": "Michael Mifsud",
+        "url": "https://www.transfermarkt.de/michael-mifsud/profil/spieler/1386",
+        "player_id": 1386,
+        "position": "Mittelstürmer",
+        "nationality": "Malta",
+        "age": 44,
+        "appearances": 42,
+        "goals": 4,
+        "assists": 30,
+        "market_value": "-",
+        "minutes": 3014
+      },
+      {
+        "name": "Leon Legge",
+        "url": "https://www.transfermarkt.de/leon-legge/profil/spieler/117994",
+        "player_id": 117994,
+        "position": "Innenverteidiger",
+        "nationality": "England",
+        "age": 40,
+        "appearances": 42,
+        "goals": 12,
+        "assists": 3,
+        "market_value": "-",
+        "minutes": 2952
+      },
+      {
+        "name": "Kevin Danso",
+        "url": "https://www.transfermarkt.de/kevin-danso/profil/spieler/263236",
+        "player_id": 263236,
+        "position": "Innenverteidiger",
+        "nationality": "Österreich",
+        "age": 27,
+        "appearances": 33,
+        "goals": 1,
+        "assists": 2,
+        "market_value": "22,00 Mio. €",
+        "minutes": 2913
+      },
+      {
+        "name": "Heinz Müller",
+        "url": "https://www.transfermarkt.de/heinz-muller/profil/spieler/892",
+        "player_id": 892,
+        "position": "Torwart",
+        "nationality": "Deutschland",
+        "age": 47,
+        "appearances": 32,
+        "goals": 0,
+        "assists": 0,
+        "market_value": "-",
+        "minutes": 2910
+      },
+      {
+        "name": "Lewie Coyle",
+        "url": "https://www.transfermarkt.de/lewie-coyle/profil/spieler/413402",
+        "player_id": 413402,
+        "position": "Rechter Verteidiger",
+        "nationality": "England",
+        "age": 30,
+        "appearances": 34,
+        "goals": 2,
+        "assists": 3,
+        "market_value": "1,30 Mio. €",
+        "minutes": 2862
+      },
+      {
+        "name": "Mo Ross",
+        "url": "https://www.transfermarkt.de/mo-ross/profil/spieler/9486",
+        "player_id": 9486,
+        "position": "Rechter Verteidiger",
+        "nationality": "Schottland",
+        "age": 45,
+        "appearances": 35,
+        "goals": 2,
+        "assists": 8,
+        "market_value": "-",
+        "minutes": 2832
+      },
+      {
+        "name": "Håkon Skogseid",
+        "url": "https://www.transfermarkt.de/hakon-skogseid/profil/spieler/104987",
+        "player_id": 104987,
+        "position": "Rechter Verteidiger",
+        "nationality": "Norwegen",
+        "age": 38,
+        "appearances": 31,
+        "goals": 0,
+        "assists": 0,
+        "market_value": "-",
+        "minutes": 2820
+      },
+      {
+        "name": "Frederik Brandhof",
+        "url": "https://www.transfermarkt.de/frederik-brandhof/profil/spieler/282954",
+        "player_id": 282954,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "Dänemark",
+        "age": 29,
+        "appearances": 75,
+        "goals": 51,
+        "assists": 10,
+        "market_value": "450 Tsd. €",
+        "minutes": 2779
+      },
+      {
+        "name": "Birkir Bjarnason",
+        "url": "https://www.transfermarkt.de/birkir-bjarnason/profil/spieler/34453",
+        "player_id": 34453,
+        "position": "Zentrales Mittelfeld",
+        "nationality": "Island",
+        "age": 37,
+        "appearances": 38,
+        "goals": 7,
+        "assists": 13,
+        "market_value": "-",
+        "minutes": 2763
+      },
+      {
+        "name": "Ali Al-Habsi",
+        "url": "https://www.transfermarkt.de/ali-al-habsi/profil/spieler/26633",
+        "player_id": 26633,
+        "position": "Torwart",
+        "nationality": "Oman",
+        "age": 44,
+        "appearances": 29,
+        "goals": 0,
+        "assists": 0,
+        "market_value": "-",
+        "minutes": 2700
+      },
+      {
+        "name": "Marcello Trotta",
+        "url": "https://www.transfermarkt.de/marcello-trotta/profil/spieler/129505",
+        "player_id": 129505,
+        "position": "Mittelstürmer",
+        "nationality": "Italien",
+        "age": 33,
+        "appearances": 43,
+        "goals": 11,
+        "assists": 25,
+        "market_value": "75 Tsd. €",
+        "minutes": 2679
+      },
+      {
+        "name": "Marcel Sobottka",
+        "url": "https://www.transfermarkt.de/marcel-sobottka/profil/spieler/119044",
+        "player_id": 119044,
+        "position": "Defensives Mittelfeld",
+        "nationality": "Deutschland",
+        "age": 31,
+        "appearances": 45,
+        "goals": 15,
+        "assists": 12,
+        "market_value": "350 Tsd. €",
+        "minutes": 2669
+      },
+      {
+        "name": "Jean Beausejour",
+        "url": "https://www.transfermarkt.de/jean-beausejour/profil/spieler/18871",
+        "player_id": 18871,
+        "position": "Linker Verteidiger",
+        "nationality": "Chile",
+        "age": 41,
+        "appearances": 30,
+        "goals": 1,
+        "assists": 3,
+        "market_value": "-",
+        "minutes": 2667
+      },
+      {
+        "name": "Vidar Nisja",
+        "url": "https://www.transfermarkt.de/vidar-nisja/profil/spieler/41852",
+        "player_id": 41852,
+        "position": "Offensives Mittelfeld",
+        "nationality": "Norwegen",
+        "age": 39,
+        "appearances": 49,
+        "goals": 20,
+        "assists": 20,
+        "market_value": "-",
+        "minutes": 2661
+      },
+      {
+        "name": "Niall McGinn",
+        "url": "https://www.transfermarkt.de/niall-mcginn/profil/spieler/68321",
+        "player_id": 68321,
+        "position": "Linksaußen",
+        "nationality": "Nordirland",
+        "age": 38,
+        "appearances": 41,
+        "goals": 12,
+        "assists": 18,
+        "market_value": "-",
+        "minutes": 2585
+      },
+      {
+        "name": "Callum McManaman",
+        "url": "https://www.transfermarkt.de/callum-mcmanaman/profil/spieler/61711",
+        "player_id": 61711,
+        "position": "Rechtsaußen",
+        "nationality": "England",
+        "age": 34,
+        "appearances": 40,
+        "goals": 9,
+        "assists": 21,
+        "market_value": "50 Tsd. €",
+        "minutes": 2552
+      },
+      {
+        "name": "Rob Kiernan",
+        "url": "https://www.transfermarkt.de/rob-kiernan/profil/spieler/99463",
+        "player_id": 99463,
+        "position": "Innenverteidiger",
+        "nationality": "Irland",
+        "age": 35,
+        "appearances": 37,
+        "goals": 9,
+        "assists": 8,
+        "market_value": "-",
+        "minutes": 2532
+      },
+      {
+        "name": "Kevin O'Connor",
+        "url": "https://www.transfermarkt.de/kevin-oconnor/profil/spieler/48376",
+        "player_id": 48376,
+        "position": "Rechter Verteidiger",
+        "nationality": "Irland",
+        "age": 43,
+        "appearances": 39,
+        "goals": 11,
+        "assists": 9,
+        "market_value": "-",
+        "minutes": 2529
+      },
+      {
+        "name": "Adam Bodzek",
+        "url": "https://www.transfermarkt.de/adam-bodzek/profil/spieler/20778",
+        "player_id": 20778,
+        "position": "Defensives Mittelfeld",
+        "nationality": "Polen",
+        "age": 40,
+        "appearances": 43,
+        "goals": 12,
+        "assists": 19,
+        "market_value": "-",
+        "minutes": 2501
+      }
+    ],
+    "cached_at": "2026-02-08T14:19:37.774005"
+  },
+  "companions": {},
+  "decision_makers": [
+    {
+      "name": "Dave Whelan",
+      "role": "Chairman",
+      "club": "Wigan Athletic",
+      "period": "2013-2014",
+      "notes": "Appointed Rösler from Brentford in December 2013, praised his philosophy and ambition",
+      "connection_type": "hiring_manager"
+    },
+    {
+      "name": "Lutz Pfannenstiel",
+      "role": "Sportvorstand",
+      "club": "Fortuna Düsseldorf",
+      "period": "2020",
+      "notes": "Appointed Rösler to replace Friedhelm Funkel in January 2020, signed 1.5 year contract",
+      "connection_type": "hiring_manager"
+    },
+    {
+      "name": "Ilja Kaenzig",
+      "role": "Geschäftsführer",
+      "club": "VfL Bochum",
+      "period": "2025-present",
+      "notes": "CEO who appointed Rösler in October 2025 on contract until 2027",
+      "connection_type": "hiring_manager"
+    },
+    {
+      "name": "Dirk Dufner",
+      "role": "Geschäftsführer Sport",
+      "club": "VfL Bochum",
+      "period": "2025-present",
+      "notes": "Appointed as sporting director in March 2025, involved in Rösler hiring",
+      "connection_type": "sports_director"
+    },
+    {
+      "name": "Marc Lettau",
+      "role": "Sportdirektor",
+      "club": "VfL Bochum",
+      "period": "2025-present",
+      "notes": "Hired Rösler in January 2025 for relegation battle",
+      "connection_type": "hiring_manager"
+    }
+  ]
+}
