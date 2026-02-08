@@ -17,7 +17,7 @@ sys.path.insert(0, str(EXEC_DIR))
 
 import streamlit as st
 from scrape_transfermarkt import scrape_coach, search_coach
-from scrape_teammates import scrape_teammates, enrich_teammates_with_current_roles
+from scrape_teammates import scrape_teammates, enrich_teammates_with_current_roles, clean_role_text
 from scrape_players_used import scrape_players_used
 from scrape_league_coaches import scrape_bundesliga_coaches, BUNDESLIGA_CLUBS
 from scrape_players_detail import scrape_players_for_coach_url
@@ -1322,6 +1322,8 @@ if st.session_state.coach_data:
                 if tm.get("is_coach") or tm.get("is_director"):
                     # Determine current role based on current_role field
                     current_role = tm.get("current_role", "")
+                    # IMPORTANT: Clean role text to add spaces between words
+                    current_role = clean_role_text(current_role) if current_role else ""
                     role_type = "Coach"  # default
 
                     # Check if current role is director/management position

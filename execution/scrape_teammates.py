@@ -416,15 +416,34 @@ def clean_role_text(text: str) -> str:
     """
     import re
 
+    if not text:
+        return text
+
     # Add space after colon if missing
     text = re.sub(r':([A-ZÄÖÜ])', r': \1', text)
 
     # Add space before "Amtsende" specifically
     text = re.sub(r'([a-zäöü])(Amtsende)', r'\1 \2', text)
 
+    # Protect common German club abbreviations by adding markers
+    # VfB, VfL, VfR, SV, TSV, FSV, etc.
+    protected = [
+        ('VfB', '§VFB§'), ('VfL', '§VFL§'), ('VfR', '§VFR§'),
+        ('FC', '§FC§'), ('SV', '§SV§'), ('TSV', '§TSV§'),
+        ('FSV', '§FSV§'), ('TSG', '§TSG§'), ('RB', '§RB§'),
+        ('1.FC', '§1FC§'), ('SC', '§SC§')
+    ]
+
+    for original, placeholder in protected:
+        text = text.replace(original, placeholder)
+
     # Simple approach: Add space before any capital letter that follows a lowercase letter
     # This will split "TorwarttrainerVfB" -> "Torwarttrainer VfB"
     text = re.sub(r'([a-zäöü])([A-ZÄÖÜ])', r'\1 \2', text)
+
+    # Restore protected abbreviations
+    for original, placeholder in protected:
+        text = text.replace(placeholder, original)
 
     # Clean up multiple spaces
     text = re.sub(r'\s+', ' ', text)

@@ -51,11 +51,12 @@ LICENSE_COHORTS: Dict[int, Dict] = {
         "name": "63. Fußball-Lehrer-Lehrgang",
         "location": "Hennes-Weisweiler-Akademie, Hennef",
         "graduates": [
-            {"name": "Stefan Leitl", "note": ""},
-            {"name": "Christian Preußer", "note": ""},
-            {"name": "Florian Kohfeldt", "note": ""},
-            {"name": "Robert Klauß", "note": "Jahrgangsbester"},
-            # TODO: Complete list
+            {"name": "Stefan Leitl", "note": "Hannover 96", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/stefan-leitl/profil/trainer/6644"},
+            {"name": "Christian Preußer", "note": "Zuletzt Fortuna Düsseldorf", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/christian-preusser/profil/trainer/15166"},
+            {"name": "Florian Kohfeldt", "note": "Zuletzt VfL Wolfsburg", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/florian-kohfeldt/profil/trainer/7896"},
+            {"name": "Robert Klauß", "note": "RB Leipzig Jugd.", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/robert-klauss/profil/trainer/29940"},
+            {"name": "Tomas Oral", "note": "Zuletzt FC Ingolstadt 04", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/tomas-oral/profil/trainer/1991"},
+            {"name": "Alois Schwartz", "note": "Zuletzt Karlsruher SC", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/alois-schwartz/profil/trainer/8192"},
         ],
     },
     64: {
@@ -63,10 +64,15 @@ LICENSE_COHORTS: Dict[int, Dict] = {
         "name": "64. Fußball-Lehrer-Lehrgang",
         "location": "Hennes-Weisweiler-Akademie, Hennef",
         "graduates": [
-            {"name": "Sebastian Hoeneß", "note": ""},
-            {"name": "Enrico Maaßen", "note": ""},
-            {"name": "Bo Svensson", "note": ""},
-            # TODO: Complete list
+            {"name": "Sebastian Hoeneß", "note": "VfB Stuttgart", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/sebastian-hoeness/profil/trainer/20940"},
+            {"name": "Enrico Maaßen", "note": "Zuletzt Hamburger SV", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/enrico-maassen/profil/trainer/16913"},
+            {"name": "Bo Svensson", "note": "Union Saint-Gilloise", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/bo-svensson/profil/trainer/17126"},
+            {"name": "Tim Walter", "note": "Zuletzt Hull City", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/tim-walter/profil/trainer/6470"},
+            {"name": "Rüdiger Rehm", "note": "FC Bayern München II", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/rudiger-rehm/profil/trainer/3236"},
+            {"name": "André Schubert", "note": "Zuletzt Arminia Bielefeld", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/andre-schubert/profil/trainer/8194"},
+            {"name": "Zvonimir Soldo", "note": "1. FC Heidenheim II", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/zvonimir-soldo/profil/trainer/18254"},
+            {"name": "Torsten Lieberknecht", "note": "SV Darmstadt 98", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/torsten-lieberknecht/profil/trainer/996"},
+            {"name": "Bryang Perea", "note": "Peru U20 Nationaltrainer", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/bryang-perea/profil/trainer/60437"},
         ],
     },
     65: {
@@ -74,8 +80,13 @@ LICENSE_COHORTS: Dict[int, Dict] = {
         "name": "65. Fußball-Lehrer-Lehrgang",
         "location": "Hennes-Weisweiler-Akademie, Hennef",
         "graduates": [
-            {"name": "Ole Werner", "note": ""},
-            # TODO: Complete list
+            {"name": "Ole Werner", "note": "RB Leipzig", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/ole-werner/profil/trainer/34514"},
+            {"name": "Robin Dutt", "note": "Zuletzt Panathinaikos Athen", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/robin-dutt/profil/trainer/3152"},
+            {"name": "Danny Schwarz", "note": "SpVgg Unterhaching", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/danny-schwarz/profil/trainer/49835"},
+            {"name": "Daniel Niedzkowski", "note": "Zuletzt SC Verl", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/daniel-niedzkowski/profil/trainer/38293"},
+            {"name": "Kai Hesse", "note": "Zuletzt VfL Osnabrück", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/kai-hesse/profil/trainer/34843"},
+            {"name": "Patrick Glöckner", "note": "Zuletzt MSV Duisburg", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/patrick-glockner/profil/trainer/25419"},
+            {"name": "Guerino Capretti", "note": "Zuletzt SC Paderborn 07 II", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/guerino-capretti/profil/trainer/33838"},
         ],
     },
     68: {
