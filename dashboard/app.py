@@ -1320,11 +1320,23 @@ if st.session_state.coach_data:
         if teammates and teammates.get("all_teammates"):
             for tm in teammates["all_teammates"]:
                 if tm.get("is_coach") or tm.get("is_director"):
-                    role_type = "Coach" if tm.get("is_coach") else "Director"
+                    # Determine current role based on current_role field
+                    current_role = tm.get("current_role", "")
+                    role_type = "Coach"  # default
+
+                    # Check if current role is director/management position
+                    director_keywords = ["direktor", "leiter", "geschäftsführer", "manager", "sportdirektor"]
+                    if current_role and any(keyword in current_role.lower() for keyword in director_keywords):
+                        role_type = "Head Coach" if "cheftrainer" in current_role.lower() or "trainer" in current_role.lower() else "Director"
+                    elif tm.get("is_director"):
+                        role_type = "Director"
+                    elif "trainer" in current_role.lower() or "coach" in current_role.lower():
+                        role_type = "Coach"
+
                     tm_url = tm.get("trainer_url") or tm.get("url", "")
                     network_contacts.append({
                         "name": tm.get("name", ""),
-                        "role": role_type,
+                        "role": current_role if current_role else role_type,  # Use actual current_role if available
                         "current_club": tm.get("current_club", ""),
                         "connection": f"{tm.get('shared_matches', 0)} games",
                         "url": tm_url,
@@ -1415,10 +1427,10 @@ if st.session_state.coach_data:
             for mate in cohort_mates:
                 network_contacts.append({
                     "name": mate.get("name", ""),
-                    "role": "Coach",
+                    "role": mate.get("current_job", "Coach"),
                     "current_club": mate.get("note", ""),
                     "connection": f"Cohort {cohort_num}",
-                    "url": "",
+                    "url": mate.get("tm_url", ""),
                     "category": "License Cohort",
                     "category_order": 6,
                     "strength": 30,
@@ -2628,10 +2640,24 @@ if st.session_state.coach_data:
                 mate_cols = st.columns(4)
                 for i, mate in enumerate(cohort_mates):
                     with mate_cols[i % 4]:
-                        note = f"<br><span style='color: #a89060; font-size: 0.85em;'>{mate['note']}</span>" if mate.get('note') else ""
+                        # Build display components
+                        name = mate['name']
+                        current_job = mate.get('current_job', '')
+                        note = mate.get('note', '')
+                        tm_url = mate.get('tm_url', '')
+
+                        # Job badge
+                        job_badge = f"<span style='background: #3d2e1c; padding: 2px 6px; border-radius: 4px; font-size: 0.75em; color: #f0b429;'>{current_job}</span>" if current_job else ""
+
+                        # Club/Note info
+                        club_info = f"<br><span style='color: #a89060; font-size: 0.85em;'>{note}</span>" if note else ""
+
+                        # TM link
+                        tm_link = f"<br><a href='{tm_url}' target='_blank' style='color: #6fa8dc; font-size: 0.8em; text-decoration: none;'>🔗 TM Profile</a>" if tm_url else ""
+
                         st.markdown(f"""
                         <div style="background: #2d2a1c; padding: 10px; border-radius: 6px; margin-bottom: 6px; border-left: 3px solid #c9a227;">
-                            <strong style="color: #e6dfc9; font-size: 0.95em;">{mate['name']}</strong>{note}
+                            <strong style="color: #e6dfc9; font-size: 0.95em;">{name}</strong> {job_badge}{club_info}{tm_link}
                         </div>
                         """, unsafe_allow_html=True)
             else:
