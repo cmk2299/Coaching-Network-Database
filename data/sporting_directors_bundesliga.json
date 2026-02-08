@@ -1,0 +1,951 @@
+{
+  "league": "Bundesliga",
+  "season": "2024/25",
+  "total_sds": 18,
+  "scraped_at": "2026-02-08T20:58:41.967753",
+  "sporting_directors": [
+    {
+      "url": "https://www.transfermarkt.de/max-eberl/profil/trainer/6343",
+      "scraped_at": "2026-02-08T20:56:51.741360",
+      "name": "MaxEberl",
+      "current_club": "Bayern München",
+      "current_role": "Sportvorstand",
+      "career_history": [
+        {
+          "club": "Bayern München",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2023",
+          "role": "Sportvorstand",
+          "start_period": "23/24 (01.03.2024)",
+          "start_year": 2023,
+          "end_period": "vsl. 30.06.2027"
+        },
+        {
+          "club": "RB Leipzig",
+          "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2022",
+          "role": "Geschäftsführer Sport",
+          "start_period": "22/23 (01.12.2022)",
+          "start_year": 2022,
+          "end_period": "23/24 (29.09.2023)",
+          "end_year": 2023
+        },
+        {
+          "club": "Bor. M'gladbach",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2008",
+          "role": "Sportdirektor",
+          "start_period": "08/09 (19.10.2008)",
+          "start_year": 2008,
+          "end_period": "21/22 (28.01.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "Bor. M'gladbach",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2004",
+          "role": "Nachwuchskoordinator",
+          "start_period": "04/05 (01.01.2005)",
+          "start_year": 2004,
+          "end_period": "08/09 (18.10.2008)",
+          "end_year": 2008
+        }
+      ],
+      "total_stations": 4,
+      "expected_club": "FC Bayern München",
+      "expected_role": "Sportvorstand"
+    },
+    {
+      "url": "https://www.transfermarkt.de/lars-ricken/profil/trainer/6983",
+      "scraped_at": "2026-02-08T20:56:58.196708",
+      "name": "LarsRicken",
+      "current_club": "Bor. Dortmund",
+      "current_role": "Geschäftsführer Sportund weitere Tätigkeiten",
+      "career_history": [
+        {
+          "club": "Bor. Dortmund",
+          "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2023",
+          "role": "Geschäftsführer Sport",
+          "start_period": "23/24 (01.05.2024)",
+          "start_year": 2023,
+          "end_period": "vsl. 30.06.2027"
+        },
+        {
+          "club": "Bor. Dortmund",
+          "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2020",
+          "role": "Leiter der Nachwuchsabteilung",
+          "start_period": "20/21 (10.11.2020)",
+          "start_year": 2020,
+          "end_period": "23/24 (30.04.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Bor. Dortmund",
+          "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2008",
+          "role": "Nachwuchskoordinator",
+          "start_period": "08/09 (11.07.2008)",
+          "start_year": 2008,
+          "end_period": "20/21 (09.11.2020)",
+          "end_year": 2020
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "Borussia Dortmund",
+      "expected_role": "Geschäftsführer Sport"
+    },
+    {
+      "url": "https://www.transfermarkt.de/marcel-schafer/profil/trainer/61041",
+      "scraped_at": "2026-02-08T20:57:04.681773",
+      "name": "MarcelSchäfer",
+      "current_club": "RB Leipzig",
+      "current_role": "Geschäftsführer Sport",
+      "career_history": [
+        {
+          "club": "RB Leipzig",
+          "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2024",
+          "role": "Geschäftsführer Sport",
+          "start_period": "24/25 (01.08.2024)",
+          "start_year": 2024,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "VfL Wolfsburg",
+          "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2022",
+          "role": "Geschäftsführer Sport",
+          "start_period": "22/23 (01.02.2023)",
+          "start_year": 2022,
+          "end_period": "23/24 (10.04.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "VfL Wolfsburg",
+          "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+          "role": "Sportdirektor",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "22/23 (31.01.2023)",
+          "end_year": 2022
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "RB Leipzig",
+      "expected_role": "Geschäftsführer Sport"
+    },
+    {
+      "url": "https://www.transfermarkt.de/simon-rolfes/profil/trainer/61237",
+      "scraped_at": "2026-02-08T20:57:11.544277",
+      "name": "SimonRolfes",
+      "current_club": "B. Leverkusen",
+      "current_role": "Geschäftsführer Sport",
+      "career_history": [
+        {
+          "club": "B. Leverkusen",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2022",
+          "role": "Geschäftsführer Sport",
+          "start_period": "22/23 (01.07.2022)",
+          "start_year": 2022,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "B. Leverkusen",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+          "role": "Sportdirektor",
+          "start_period": "18/19 (01.12.2018)",
+          "start_year": 2018,
+          "end_period": "21/22 (30.06.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "B. Leverkusen",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+          "role": "Leiter der Nachwuchsabteilung",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "18/19 (30.11.2018)",
+          "end_year": 2018
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "Bayer 04 Leverkusen",
+      "expected_role": "Geschäftsführer Sport"
+    },
+    {
+      "url": "https://www.transfermarkt.de/christian-gentner/profil/trainer/108151",
+      "scraped_at": "2026-02-08T20:57:17.579781",
+      "name": "ChristianGentner",
+      "current_club": "VfB Stuttgart",
+      "current_role": "Sportdirektor",
+      "career_history": [
+        {
+          "club": "VfB Stuttgart",
+          "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2024",
+          "role": "Sportdirektor",
+          "start_period": "24/25 (12.11.2024)",
+          "start_year": 2024,
+          "end_period": "vsl. 30.06.2027"
+        },
+        {
+          "club": "VfB Stuttgart",
+          "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2022",
+          "role": "Leiter Lizenzbereich",
+          "start_period": "22/23 (01.01.2023)",
+          "start_year": 2022,
+          "end_period": "24/25 (11.11.2024)",
+          "end_year": 2024
+        }
+      ],
+      "total_stations": 2,
+      "expected_club": "VfB Stuttgart",
+      "expected_role": "Sportdirektor"
+    },
+    {
+      "url": "https://www.transfermarkt.de/markus-krosche/profil/trainer/34524",
+      "scraped_at": "2026-02-08T20:57:23.677255",
+      "name": "MarkusKrösche",
+      "current_club": "E. Frankfurt",
+      "current_role": "Sportvorstand",
+      "career_history": [
+        {
+          "club": "E. Frankfurt",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2020",
+          "role": "Sportvorstand",
+          "start_period": "20/21 (01.06.2021)",
+          "start_year": 2020,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "RB Leipzig",
+          "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2019",
+          "role": "Sportdirektor",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "20/21 (31.05.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "SC Paderborn",
+          "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2016",
+          "role": "Geschäftsführer Sport",
+          "start_period": "16/17 (17.03.2017)",
+          "start_year": 2016,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "B. Leverkusen",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "16/17 (05.03.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "SC Paderborn II",
+          "club_url": "https://www.transfermarkt.de/sc-paderborn-07-ii/startseite/verein/6604/saison_id/2014",
+          "role": "Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "14/15 (30.06.2015)",
+          "end_year": 2014
+        }
+      ],
+      "total_stations": 5,
+      "expected_club": "Eintracht Frankfurt",
+      "expected_role": "Sportvorstand"
+    },
+    {
+      "url": "https://www.transfermarkt.de/peter-christiansen/profil/trainer/8900",
+      "scraped_at": "2026-02-08T20:57:29.742591",
+      "name": "PeterChristiansen",
+      "current_club": "VfL Wolfsburg",
+      "current_role": "Geschäftsführer Sport",
+      "career_history": [
+        {
+          "club": "VfL Wolfsburg",
+          "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2024",
+          "role": "Geschäftsführer Sport",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "vsl. 31.01.2027"
+        },
+        {
+          "club": "Kopenhagen",
+          "club_url": "https://www.transfermarkt.de/fc-kopenhagen/startseite/verein/190/saison_id/2020",
+          "role": "Direktor Profifußball",
+          "start_period": "20/21 (01.04.2021)",
+          "start_year": 2020,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Aarhus GF",
+          "club_url": "https://www.transfermarkt.de/aarhus-gf/startseite/verein/678/saison_id/2016",
+          "role": "Sportdirektor",
+          "start_period": "16/17 (06.12.2016)",
+          "start_year": 2016,
+          "end_period": "20/21 (31.03.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "Aarhus GF",
+          "club_url": "https://www.transfermarkt.de/aarhus-gf/startseite/verein/678/saison_id/2015",
+          "role": "Chefscout",
+          "start_period": "15/16 (07.01.2016)",
+          "start_year": 2015,
+          "end_period": "20/21 (31.03.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "Randers FC",
+          "club_url": "https://www.transfermarkt.de/randers-fc/startseite/verein/5724/saison_id/2013",
+          "role": "Sportdirektor",
+          "start_period": "13/14 (02.10.2013)",
+          "start_year": 2013,
+          "end_period": "15/16 (31.12.2015)",
+          "end_year": 2015
+        },
+        {
+          "club": "Randers FC",
+          "club_url": "https://www.transfermarkt.de/randers-fc/startseite/verein/5724/saison_id/2007",
+          "role": "Chefscout",
+          "start_period": "07/08 (01.01.2008)",
+          "start_year": 2007,
+          "end_period": "13/14 (01.10.2013)",
+          "end_year": 2013
+        }
+      ],
+      "total_stations": 6,
+      "expected_club": "VfL Wolfsburg",
+      "expected_role": "Geschäftsführer Sport"
+    },
+    {
+      "url": "https://www.transfermarkt.de/jochen-saier/profil/trainer/8568",
+      "scraped_at": "2026-02-08T20:57:36.133525",
+      "name": "JochenSaier",
+      "current_club": "SC Freiburg",
+      "current_role": "Sportvorstandund weitere Tätigkeiten",
+      "career_history": [
+        {
+          "club": "SC Freiburg",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2014",
+          "role": "Sportvorstand",
+          "start_period": "14/15 (01.10.2014)",
+          "start_year": 2014,
+          "end_period": "vsl. 30.06.2027"
+        },
+        {
+          "club": "SC Freiburg",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2012",
+          "role": "Sportdirektor",
+          "start_period": "12/13 (01.04.2013)",
+          "start_year": 2012,
+          "end_period": "14/15 (30.09.2014)",
+          "end_year": 2014
+        },
+        {
+          "club": "FFS",
+          "club_url": "https://www.transfermarkt.de/freiburger-fussballschule/startseite/verein/47068/saison_id/2003",
+          "role": "Vorstandsmitglied",
+          "start_period": "03/04 (26.04.2004)",
+          "start_year": 2003,
+          "end_period": "-"
+        },
+        {
+          "club": "SC Freiburg",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2003",
+          "role": "Leiter der Fußballschule",
+          "start_period": "03/04 (01.07.2003)",
+          "start_year": 2003,
+          "end_period": "13/14 (31.03.2013)",
+          "end_year": 2013
+        }
+      ],
+      "total_stations": 4,
+      "expected_club": "SC Freiburg",
+      "expected_role": "Sportvorstand"
+    },
+    {
+      "url": "https://www.transfermarkt.de/andreas-schicker/profil/trainer/40663",
+      "scraped_at": "2026-02-08T20:57:42.575269",
+      "name": "AndreasSchicker",
+      "current_club": "TSG Hoffenheim",
+      "current_role": "Geschäftsführer Sport",
+      "career_history": [
+        {
+          "club": "TSG Hoffenheim",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2024",
+          "role": "Geschäftsführer Sport",
+          "start_period": "24/25 (09.10.2024)",
+          "start_year": 2024,
+          "end_period": "vsl. 30.06.2029"
+        },
+        {
+          "club": "Sturm Graz",
+          "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2019",
+          "role": "Geschäftsführer Sport",
+          "start_period": "19/20 (01.05.2020)",
+          "start_year": 2019,
+          "end_period": "24/25 (08.10.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "Sturm Graz",
+          "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2018",
+          "role": "Chefscout",
+          "start_period": "18/19 (26.11.2018)",
+          "start_year": 2018,
+          "end_period": "19/20 (30.04.2020)",
+          "end_year": 2019
+        },
+        {
+          "club": "Wiener Neustadt",
+          "club_url": "https://www.transfermarkt.de/1-wiener-neustadter-sc/startseite/verein/17444/saison_id/2017",
+          "role": "Sportdirektor",
+          "start_period": "17/18 (01.06.2017)",
+          "start_year": 2017,
+          "end_period": "18/19 (25.11.2018)",
+          "end_year": 2018
+        },
+        {
+          "club": "Wiener Neustadt",
+          "club_url": "https://www.transfermarkt.de/1-wiener-neustadter-sc/startseite/verein/17444/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (10.06.2015)",
+          "start_year": 2015,
+          "end_period": "16/17 (31.05.2017)",
+          "end_year": 2016
+        }
+      ],
+      "total_stations": 5,
+      "expected_club": "TSG Hoffenheim",
+      "expected_role": "Geschäftsführer Sport"
+    },
+    {
+      "url": "https://www.transfermarkt.de/horst-heldt/profil/trainer/3201",
+      "scraped_at": "2026-02-08T20:57:49.497884",
+      "name": "HorstHeldt",
+      "current_club": "Union Berlin",
+      "current_role": "Geschäftsführer Profifußball",
+      "career_history": [
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2024",
+          "role": "Geschäftsführer Profifußball",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "-"
+        },
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2019",
+          "role": "Geschäftsführer Sport",
+          "start_period": "19/20 (18.11.2019)",
+          "start_year": 2019,
+          "end_period": "20/21 (30.05.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "Hannover 96",
+          "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2016",
+          "role": "Manager",
+          "start_period": "16/17 (05.03.2017)",
+          "start_year": 2016,
+          "end_period": "18/19 (09.04.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "FC Schalke 04",
+          "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2010",
+          "role": "Vorstand Sport",
+          "start_period": "10/11 (16.03.2011)",
+          "start_year": 2010,
+          "end_period": "15/16 (14.05.2016)",
+          "end_year": 2015
+        },
+        {
+          "club": "FC Schalke 04",
+          "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2010",
+          "role": "Vorstandsmitglied",
+          "start_period": "10/11 (01.07.2010)",
+          "start_year": 2010,
+          "end_period": "10/11 (15.03.2011)",
+          "end_year": 2010
+        },
+        {
+          "club": "VfB Stuttgart",
+          "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2009",
+          "role": "Sportvorstand",
+          "start_period": "09/10 (01.07.2009)",
+          "start_year": 2009,
+          "end_period": "09/10 (30.06.2010)",
+          "end_year": 2009
+        },
+        {
+          "club": "VfB Stuttgart",
+          "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2005",
+          "role": "Sportdirektor",
+          "start_period": "05/06 (03.01.2006)",
+          "start_year": 2005,
+          "end_period": "08/09 (30.06.2009)",
+          "end_year": 2008
+        }
+      ],
+      "total_stations": 7,
+      "expected_club": "1. FC Union Berlin",
+      "expected_role": "Geschäftsführer Profifußball"
+    },
+    {
+      "url": "https://www.transfermarkt.de/clemens-fritz/profil/trainer/74148",
+      "scraped_at": "2026-02-08T20:57:56.392451",
+      "name": "ClemensFritz",
+      "current_club": "Werder Bremen",
+      "current_role": "Geschäftsführer Profifußball",
+      "career_history": [
+        {
+          "club": "Werder Bremen",
+          "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2024",
+          "role": "Geschäftsführer Profifußball",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "-"
+        },
+        {
+          "club": "Werder Bremen",
+          "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2020",
+          "role": "Leiter Lizenzbereich",
+          "start_period": "20/21 (03.08.2020)",
+          "start_year": 2020,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Werder Bremen",
+          "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2019",
+          "role": "Leiter der Scouting-Abteilung",
+          "start_period": "19/20 (25.11.2019)",
+          "start_year": 2019,
+          "end_period": "22/23 (30.06.2023)",
+          "end_year": 2022
+        },
+        {
+          "club": "Werder Bremen",
+          "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2019",
+          "role": "Betreuer der Leihspieler",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "19/20 (24.11.2019)",
+          "end_year": 2019
+        }
+      ],
+      "total_stations": 4,
+      "expected_club": "Werder Bremen",
+      "expected_role": "Geschäftsführer Profifußball"
+    },
+    {
+      "url": "https://www.transfermarkt.de/markus-aretz/profil/trainer/25872",
+      "scraped_at": "2026-02-08T20:58:04.030784",
+      "name": "MarkusAretz",
+      "current_club": "Bor. M'gladbach",
+      "current_role": "Geschäftsführer Sport & Kommunikation",
+      "career_history": [
+        {
+          "club": "Bor. M'gladbach",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2021",
+          "role": "Geschäftsführer Sport & Kommunikation",
+          "start_period": "21/22 (10.05.2022)",
+          "start_year": 2021,
+          "end_period": "-"
+        },
+        {
+          "club": "Bor. M'gladbach",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2016",
+          "role": "Direktor Medien und Kommunikation",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "21/22 (09.05.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "Bor. M'gladbach",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/1999",
+          "role": "Pressesprecher",
+          "start_period": "99/00 (01.07.1999)",
+          "start_year": 1999,
+          "end_period": "21/22 (09.05.2022)",
+          "end_year": 2021
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "Borussia Mönchengladbach",
+      "expected_role": "Geschäftsführer Sport & Kommunikation"
+    },
+    {
+      "url": "https://www.transfermarkt.de/niko-bungert/profil/trainer/74511",
+      "scraped_at": "2026-02-08T20:58:09.557471",
+      "name": "NikoBungert",
+      "current_club": "1.FSV Mainz 05",
+      "current_role": "Sportdirektor",
+      "career_history": [
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2024",
+          "role": "Sportdirektor",
+          "start_period": "24/25 (30.07.2024)",
+          "start_year": 2024,
+          "end_period": "-"
+        },
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (01.01.2024)",
+          "start_year": 2023,
+          "end_period": "24/25 (29.07.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2021",
+          "role": "Klubrepräsentant",
+          "start_period": "21/22 (17.11.2021)",
+          "start_year": 2021,
+          "end_period": "23/24 (31.12.2023)",
+          "end_year": 2023
+        },
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (12.08.2021)",
+          "start_year": 2021,
+          "end_period": "21/22 (18.08.2021)",
+          "end_year": 2021
+        },
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (18.11.2019)",
+          "start_year": 2019,
+          "end_period": "19/20 (30.06.2020)",
+          "end_year": 2019
+        }
+      ],
+      "total_stations": 5,
+      "expected_club": "1. FSV Mainz 05",
+      "expected_role": "Sportdirektor"
+    },
+    {
+      "url": "https://www.transfermarkt.de/benjamin-weber/profil/trainer/6159",
+      "scraped_at": "2026-02-08T20:58:16.674553",
+      "name": "BenjaminWeber",
+      "current_club": "FC Augsburg",
+      "current_role": "Sportdirektor",
+      "career_history": [
+        {
+          "club": "FC Augsburg",
+          "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2025",
+          "role": "Sportdirektor",
+          "start_period": "25/26 (01.07.2025)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "SC Paderborn",
+          "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2022",
+          "role": "Geschäftsführer Sport",
+          "start_period": "22/23 (02.01.2023)",
+          "start_year": 2022,
+          "end_period": "24/25 (30.06.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "Chelsea",
+          "club_url": "https://www.transfermarkt.de/fc-chelsea/startseite/verein/631/saison_id/2020",
+          "role": "Videoanalyst",
+          "start_period": "20/21 (26.01.2021)",
+          "start_year": 2020,
+          "end_period": "22/23 (07.09.2022)",
+          "end_year": 2022
+        },
+        {
+          "club": "PSG",
+          "club_url": "https://www.transfermarkt.de/fc-paris-saint-germain/startseite/verein/583/saison_id/2018",
+          "role": "Videoanalyst",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "20/21 (29.12.2020)",
+          "end_year": 2020
+        },
+        {
+          "club": "Bor. Dortmund",
+          "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2015",
+          "role": "Videoanalyst",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "16/17 (30.05.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2011",
+          "role": "Chefscout",
+          "start_period": "11/12 (01.07.2011)",
+          "start_year": 2011,
+          "end_period": "14/15 (30.06.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2006",
+          "role": "Videoanalyst",
+          "start_period": "06/07 (01.07.2006)",
+          "start_year": 2006,
+          "end_period": "14/15 (30.06.2015)",
+          "end_year": 2014
+        }
+      ],
+      "total_stations": 7,
+      "expected_club": "FC Augsburg",
+      "expected_role": "Sportdirektor"
+    },
+    {
+      "url": "https://www.transfermarkt.de/holger-sanwald/profil/trainer/22856",
+      "scraped_at": "2026-02-08T20:58:23.528960",
+      "name": "HolgerSanwald",
+      "current_club": "1.FC Heidenheim",
+      "current_role": "Vorstandsvorsitzenderund weitere Tätigkeiten",
+      "career_history": [
+        {
+          "club": "Deutschland",
+          "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2017",
+          "role": "Vorstandsmitglied",
+          "start_period": "17/18 (01.12.2017)",
+          "start_year": 2017,
+          "end_period": "23/24 (31.12.2023)",
+          "end_year": 2023
+        },
+        {
+          "club": "DFL",
+          "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2017",
+          "role": "Aufsichtsratsmitglied",
+          "start_period": "17/18 (01.12.2017)",
+          "start_year": 2017,
+          "end_period": "-"
+        },
+        {
+          "club": "1.FC Heidenheim",
+          "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2016",
+          "role": "Vorstandsvorsitzender",
+          "start_period": "16/17 (12.12.2016)",
+          "start_year": 2016,
+          "end_period": "-"
+        },
+        {
+          "club": "Heidenheimer SB",
+          "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/1994",
+          "role": "Geschäftsführer",
+          "start_period": "94/95 (01.07.1994)",
+          "start_year": 1994,
+          "end_period": "16/17 (11.12.2016)",
+          "end_year": 2016
+        }
+      ],
+      "total_stations": 4,
+      "expected_club": "1. FC Heidenheim",
+      "expected_role": "Vorstandsvorsitzender"
+    },
+    {
+      "url": "https://www.transfermarkt.de/andreas-bornemann/profil/trainer/3223",
+      "scraped_at": "2026-02-08T20:58:30.338277",
+      "name": "AndreasBornemann",
+      "current_club": "FC St. Pauli",
+      "current_role": "Geschäftsführer Sport",
+      "career_history": [
+        {
+          "club": "FC St. Pauli",
+          "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2019",
+          "role": "Geschäftsführer Sport",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "-"
+        },
+        {
+          "club": "1.FC Nürnberg",
+          "club_url": "https://www.transfermarkt.de/1-fc-nurnberg/startseite/verein/4/saison_id/2015",
+          "role": "Vorstand Sport",
+          "start_period": "15/16 (24.09.2015)",
+          "start_year": 2015,
+          "end_period": "18/19 (11.02.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "Holstein Kiel",
+          "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2009",
+          "role": "Sportlicher Leiter",
+          "start_period": "09/10 (03.02.2010)",
+          "start_year": 2009,
+          "end_period": "13/14 (30.06.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "Holstein Kiel",
+          "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2009",
+          "role": "Vize-Präsident",
+          "start_period": "09/10 (03.02.2010)",
+          "start_year": 2009,
+          "end_period": "13/14 (30.06.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "Alem. Aachen",
+          "club_url": "https://www.transfermarkt.de/alemannia-aachen/startseite/verein/8/saison_id/2008",
+          "role": "Sportdirektor",
+          "start_period": "08/09 (03.01.2009)",
+          "start_year": 2008,
+          "end_period": "09/10 (29.11.2009)",
+          "end_year": 2009
+        },
+        {
+          "club": "SC Freiburg",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2001",
+          "role": "Manager",
+          "start_period": "01/02 (01.05.2002)",
+          "start_year": 2001,
+          "end_period": "06/07 (24.05.2007)",
+          "end_year": 2006
+        },
+        {
+          "club": "SC Freiburg",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2000",
+          "role": "Leiter der Fußballschule",
+          "start_period": "00/01 (01.07.2000)",
+          "start_year": 2000,
+          "end_period": "01/02 (30.04.2002)",
+          "end_year": 2001
+        }
+      ],
+      "total_stations": 7,
+      "expected_club": "FC St. Pauli",
+      "expected_role": "Geschäftsführer Sport"
+    },
+    {
+      "url": "https://www.transfermarkt.de/markus-brunnschneider/profil/trainer/126277",
+      "scraped_at": "2026-02-08T20:58:36.384283",
+      "name": "MarkusBrunnschneider",
+      "current_club": "VfL Bochum",
+      "current_role": "Direktor Profifußball und Scout",
+      "career_history": [
+        {
+          "club": "VfL Bochum",
+          "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+          "role": "Direktor Profifußball und Scout",
+          "start_period": "25/26 (01.11.2025)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "Holstein Kiel",
+          "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2024",
+          "role": "Koordinator Sport-Technologien",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "25/26 (31.10.2025)",
+          "end_year": 2025
+        },
+        {
+          "club": "Darmstadt 98",
+          "club_url": "https://www.transfermarkt.de/sv-darmstadt-98/startseite/verein/105/saison_id/2019",
+          "role": "Leiter der Scouting-Abteilung",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Holstein Kiel",
+          "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2016",
+          "role": "Scout",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "TSV 1860 U17",
+          "club_url": "https://www.transfermarkt.de/tsv-1860-munchen-u17/startseite/verein/21083/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (01.09.2015)",
+          "start_year": 2015,
+          "end_period": "15/16 (30.06.2016)",
+          "end_year": 2015
+        },
+        {
+          "club": "B. München Jgd.",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2013",
+          "role": "Spielanalyst",
+          "start_period": "13/14 (01.09.2013)",
+          "start_year": 2013,
+          "end_period": "14/15 (28.02.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "B. München II",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2013",
+          "role": "Spielanalyst",
+          "start_period": "13/14 (01.09.2013)",
+          "start_year": 2013,
+          "end_period": "14/15 (28.02.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "B. München U17",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u17/startseite/verein/21058/saison_id/2011",
+          "role": "Spielanalyst",
+          "start_period": "11/12 (01.08.2011)",
+          "start_year": 2011,
+          "end_period": "13/14 (31.08.2013)",
+          "end_year": 2013
+        }
+      ],
+      "total_stations": 8,
+      "expected_club": "VfL Bochum",
+      "expected_role": "Direktor Profifußball und Scout"
+    },
+    {
+      "url": "https://www.transfermarkt.de/thomas-kessler/profil/trainer/94274",
+      "scraped_at": "2026-02-08T20:58:41.960750",
+      "name": "ThomasKessler",
+      "current_club": "1.FC Köln",
+      "current_role": "Geschäftsführer Sport",
+      "career_history": [
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2025",
+          "role": "Geschäftsführer Sport",
+          "start_period": "25/26 (22.01.2026)",
+          "start_year": 2025,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2024",
+          "role": "Sportdirektor",
+          "start_period": "24/25 (05.05.2025)",
+          "start_year": 2024,
+          "end_period": "25/26 (21.01.2026)",
+          "end_year": 2025
+        },
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2021",
+          "role": "Leiter Lizenzbereich",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "24/25 (22.05.2025)",
+          "end_year": 2024
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "1. FC Köln",
+      "expected_role": "Geschäftsführer Sport"
+    }
+  ]
+}

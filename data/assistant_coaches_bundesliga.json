@@ -1,0 +1,4114 @@
+{
+  "league": "Bundesliga",
+  "season": "2024/25",
+  "total_assistants": 62,
+  "scraped_at": "2026-02-08T21:09:57.716961",
+  "assistant_coaches": [
+    {
+      "url": "https://www.transfermarkt.de/aaron-danks/profil/trainer/84980",
+      "scraped_at": "2026-02-08T21:04:54.634293",
+      "name": "AaronDanks",
+      "current_club": "Bayern München",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Bayern München",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "vsl. 30.06.2029"
+        },
+        {
+          "club": "Middlesbrough",
+          "club_url": "https://www.transfermarkt.de/fc-middlesbrough/startseite/verein/641/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (01.12.2022)",
+          "start_year": 2022,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Aston Villa",
+          "club_url": "https://www.transfermarkt.de/aston-villa/startseite/verein/405/saison_id/2022",
+          "role": "Interimstrainer",
+          "start_period": "22/23 (21.10.2022)",
+          "start_year": 2022,
+          "end_period": "22/23 (31.10.2022)",
+          "end_year": 2022
+        },
+        {
+          "club": "Aston Villa",
+          "club_url": "https://www.transfermarkt.de/aston-villa/startseite/verein/405/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (01.09.2021)",
+          "start_year": 2021,
+          "end_period": "22/23 (30.11.2022)",
+          "end_year": 2022
+        },
+        {
+          "club": "RSC Anderlecht",
+          "club_url": "https://www.transfermarkt.de/rsc-anderlecht/startseite/verein/58/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "21/22 (31.08.2021)",
+          "end_year": 2021
+        },
+        {
+          "club": "England U21",
+          "club_url": "https://www.transfermarkt.de/england-u21/startseite/verein/9565/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (01.09.2020)",
+          "start_year": 2020,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "England U21",
+          "club_url": "https://www.transfermarkt.de/england-u21/startseite/verein/9565/saison_id/2018",
+          "role": "Sportkoordinator",
+          "start_period": "18/19 (01.01.2019)",
+          "start_year": 2018,
+          "end_period": "20/21 (31.08.2020)",
+          "end_year": 2020
+        },
+        {
+          "club": "England U20",
+          "club_url": "https://www.transfermarkt.de/england-u20/startseite/verein/22907/saison_id/2016",
+          "role": "Co-Trainer",
+          "start_period": "16/17 (01.05.2017)",
+          "start_year": 2016,
+          "end_period": "16/17 (30.06.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "England U21",
+          "club_url": "https://www.transfermarkt.de/england-u21/startseite/verein/9565/saison_id/2016",
+          "role": "Techniktrainer",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "18/19 (31.12.2018)",
+          "end_year": 2018
+        },
+        {
+          "club": "West Brom Jgd.",
+          "club_url": "https://www.transfermarkt.de/west-bromwich-albion-jugend/startseite/verein/52928/saison_id/2005",
+          "role": "Trainer",
+          "start_period": "05/06 (01.07.2005)",
+          "start_year": 2005,
+          "end_period": "16/17 (30.06.2016)",
+          "end_year": 2016
+        },
+        {
+          "club": "Birmingham Jgd.",
+          "club_url": "https://www.transfermarkt.de/birmingham-city-jugend/startseite/verein/53004/saison_id/2004",
+          "role": "Trainer",
+          "start_period": "04/05 (01.07.2004)",
+          "start_year": 2004,
+          "end_period": "04/05 (30.06.2005)",
+          "end_year": 2004
+        }
+      ],
+      "total_stations": 11,
+      "expected_club": "FC Bayern München",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/floribert-ngalula/profil/trainer/69831",
+      "scraped_at": "2026-02-08T21:04:58.490129",
+      "name": "FloribertN'Galula",
+      "current_club": "Bayern München",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Bayern München",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "vsl. 30.06.2029"
+        },
+        {
+          "club": "FC Burnley",
+          "club_url": "https://www.transfermarkt.de/fc-burnley/startseite/verein/1132/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (08.07.2022)",
+          "start_year": 2022,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Anderlecht U21",
+          "club_url": "https://www.transfermarkt.de/rsc-anderlecht-u21/startseite/verein/30857/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (01.07.2020)",
+          "start_year": 2020,
+          "end_period": "21/22 (30.06.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "RSC Anderlecht",
+          "club_url": "https://www.transfermarkt.de/rsc-anderlecht/startseite/verein/58/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "19/20 (30.06.2020)",
+          "end_year": 2019
+        },
+        {
+          "club": "BX Brussels",
+          "club_url": "https://www.transfermarkt.de/bx-brussels/startseite/verein/10327/saison_id/2017",
+          "role": "Trainer",
+          "start_period": "17/18 (16.01.2018)",
+          "start_year": 2017,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        }
+      ],
+      "total_stations": 5,
+      "expected_club": "FC Bayern München",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/rene-maric/profil/trainer/49415",
+      "scraped_at": "2026-02-08T21:05:02.461299",
+      "name": "RenéMarić",
+      "current_club": "Bayern München",
+      "current_role": "Co-Trainerund weitere Tätigkeiten",
+      "career_history": [
+        {
+          "club": "Bayern München",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "vsl. 30.06.2029"
+        },
+        {
+          "club": "B. München U19",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/2024",
+          "role": "Entwicklungscoach",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "vsl. 30.06.2029"
+        },
+        {
+          "club": "B. München U19",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/2023",
+          "role": "Trainer",
+          "start_period": "23/24 (05.02.2024)",
+          "start_year": 2023,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "B. München YL",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-uefa-u19/startseite/verein/41585/saison_id/2023",
+          "role": "Trainer",
+          "start_period": "23/24 (05.02.2024)",
+          "start_year": 2023,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "B. München II",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2023",
+          "role": "Entwicklungscoach",
+          "start_period": "23/24 (15.11.2023)",
+          "start_year": 2023,
+          "end_period": "vsl. 30.06.2029"
+        },
+        {
+          "club": "B. München Jgd.",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2023",
+          "role": "Entwicklungscoach",
+          "start_period": "23/24 (15.11.2023)",
+          "start_year": 2023,
+          "end_period": "vsl. 30.06.2029"
+        },
+        {
+          "club": "B. München U17",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u17/startseite/verein/21058/saison_id/2023",
+          "role": "Entwicklungscoach",
+          "start_period": "23/24 (15.11.2023)",
+          "start_year": 2023,
+          "end_period": "vsl. 30.06.2029"
+        },
+        {
+          "club": "Leeds United",
+          "club_url": "https://www.transfermarkt.de/leeds-united/startseite/verein/399/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (30.07.2022)",
+          "start_year": 2022,
+          "end_period": "22/23 (06.02.2023)",
+          "end_year": 2022
+        },
+        {
+          "club": "Bor. Dortmund",
+          "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "21/22 (20.05.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "Bor. M'gladbach",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "RB Salzburg",
+          "club_url": "https://www.transfermarkt.de/red-bull-salzburg/startseite/verein/409/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "AKA Salzb. U18",
+          "club_url": "https://www.transfermarkt.de/aka-red-bull-salzburg-u18/startseite/verein/11263/saison_id/2016",
+          "role": "Co-Trainer",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "16/17 (30.06.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "Handenberg",
+          "club_url": "https://www.transfermarkt.de/tsu-handenberg/startseite/verein/35817/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "15/16 (30.06.2016)",
+          "end_year": 2015
+        }
+      ],
+      "total_stations": 13,
+      "expected_club": "FC Bayern München",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/daniel-fradley/profil/trainer/132676",
+      "scraped_at": "2026-02-08T21:05:06.114299",
+      "name": "DanielFradley",
+      "current_club": "Bayern München",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Bayern München",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (02.01.2026)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "Man City",
+          "club_url": "https://www.transfermarkt.de/manchester-city/startseite/verein/281/saison_id/2023",
+          "role": "Chefanalytiker",
+          "start_period": "23/24 (01.11.2023)",
+          "start_year": 2023,
+          "end_period": "25/26 (01.01.2026)",
+          "end_year": 2025
+        },
+        {
+          "club": "New York City",
+          "club_url": "https://www.transfermarkt.de/new-york-city-fc/startseite/verein/40058/saison_id/2016",
+          "role": "Techniktrainer",
+          "start_period": "16/17 (01.01.2017)",
+          "start_year": 2016,
+          "end_period": "23/24 (31.10.2023)",
+          "end_year": 2023
+        },
+        {
+          "club": "New York City",
+          "club_url": "https://www.transfermarkt.de/new-york-city-fc/startseite/verein/40058/saison_id/2015",
+          "role": "Chefanalytiker",
+          "start_period": "15/16 (01.08.2015)",
+          "start_year": 2015,
+          "end_period": "16/17 (31.12.2016)",
+          "end_year": 2016
+        },
+        {
+          "club": "AFC Rochdale",
+          "club_url": "https://www.transfermarkt.de/afc-rochdale/startseite/verein/1088/saison_id/2012",
+          "role": "Chefanalytiker",
+          "start_period": "12/13 (01.07.2012)",
+          "start_year": 2012,
+          "end_period": "14/15 (30.06.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "Rochdale U21",
+          "club_url": "https://www.transfermarkt.de/afc-rochdale-u21/startseite/verein/89136/saison_id/2010",
+          "role": "Chefanalytiker",
+          "start_period": "10/11 (01.09.2010)",
+          "start_year": 2010,
+          "end_period": "12/13 (31.07.2012)",
+          "end_year": 2012
+        },
+        {
+          "club": "Rochdale U18",
+          "club_url": "https://www.transfermarkt.de/afc-rochdale-u18/startseite/verein/15009/saison_id/2010",
+          "role": "Chefanalytiker",
+          "start_period": "10/11 (01.09.2010)",
+          "start_year": 2010,
+          "end_period": "12/13 (31.07.2012)",
+          "end_year": 2012
+        },
+        {
+          "club": "Rochdale Jgd.",
+          "club_url": "https://www.transfermarkt.de/rochdale-afc-youth/startseite/verein/120959/saison_id/2010",
+          "role": "Chefanalytiker",
+          "start_period": "10/11 (01.09.2010)",
+          "start_year": 2010,
+          "end_period": "12/13 (31.07.2012)",
+          "end_year": 2012
+        }
+      ],
+      "total_stations": 8,
+      "expected_club": "FC Bayern München",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/bastian-wernscheid/profil/trainer/94737",
+      "scraped_at": "2026-02-08T21:05:09.609666",
+      "name": "BastianWernscheid",
+      "current_club": "Bayern München",
+      "current_role": "Assistent der Geschäftsführung",
+      "career_history": [
+        {
+          "club": "Bayern München",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2023",
+          "role": "Assistent der Geschäftsführung",
+          "start_period": "23/24 (01.01.2024)",
+          "start_year": 2023,
+          "end_period": "-"
+        },
+        {
+          "club": "Bayern München",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2020",
+          "role": "Teammanager",
+          "start_period": "20/21 (01.04.2021)",
+          "start_year": 2020,
+          "end_period": "23/24 (31.12.2023)",
+          "end_year": 2023
+        },
+        {
+          "club": "Bayern München",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2016",
+          "role": "Mitarbeiter/-in d. Geschäftsstelle",
+          "start_period": "16/17 (01.04.2017)",
+          "start_year": 2016,
+          "end_period": "20/21 (01.04.2021)",
+          "end_year": 2020
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "FC Bayern München",
+      "expected_role": "Assistent der Geschäftsführung"
+    },
+    {
+      "url": "https://www.transfermarkt.de/robert-kovac/profil/trainer/27509",
+      "scraped_at": "2026-02-08T21:05:16.598453",
+      "name": "RobertKovac",
+      "current_club": "Bor. Dortmund",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Bor. Dortmund",
+          "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (02.02.2025)",
+          "start_year": 2024,
+          "end_period": "vsl. 30.06.2026"
+        },
+        {
+          "club": "VfL Wolfsburg",
+          "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (01.07.2022)",
+          "start_year": 2022,
+          "end_period": "23/24 (17.03.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "AS Monaco",
+          "club_url": "https://www.transfermarkt.de/as-monaco/startseite/verein/162/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (19.07.2020)",
+          "start_year": 2020,
+          "end_period": "21/22 (01.01.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "Bayern München",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2018",
+          "role": "Co-Trainer",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "19/20 (03.11.2019)",
+          "end_year": 2019
+        },
+        {
+          "club": "E. Frankfurt",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (08.03.2016)",
+          "start_year": 2015,
+          "end_period": "17/18 (30.06.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "Kroatien",
+          "club_url": "https://www.transfermarkt.de/kroatien/startseite/verein/3556/saison_id/2013",
+          "role": "Co-Trainer",
+          "start_period": "13/14 (16.10.2013)",
+          "start_year": 2013,
+          "end_period": "15/16 (09.09.2015)",
+          "end_year": 2015
+        },
+        {
+          "club": "Kroatien U21",
+          "club_url": "https://www.transfermarkt.de/kroatien-u21/startseite/verein/11943/saison_id/2012",
+          "role": "Co-Trainer",
+          "start_period": "12/13 (21.01.2013)",
+          "start_year": 2012,
+          "end_period": "13/14 (16.10.2013)",
+          "end_year": 2013
+        }
+      ],
+      "total_stations": 7,
+      "expected_club": "Borussia Dortmund",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/filip-tapalovic/profil/trainer/27165",
+      "scraped_at": "2026-02-08T21:05:20.681566",
+      "name": "FilipTapalovic",
+      "current_club": "Bor. Dortmund",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Bor. Dortmund",
+          "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (02.02.2025)",
+          "start_year": 2024,
+          "end_period": "vsl. 30.06.2026"
+        },
+        {
+          "club": "Hull City",
+          "club_url": "https://www.transfermarkt.de/hull-city/startseite/verein/3008/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "24/25 (27.11.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "Hamburger SV",
+          "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "23/24 (12.02.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Melbourne Vict.",
+          "club_url": "https://www.transfermarkt.de/melbourne-victory/startseite/verein/7006/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (04.07.2019)",
+          "start_year": 2019,
+          "end_period": "19/20 (15.01.2020)",
+          "end_year": 2019
+        },
+        {
+          "club": "Adelaide United",
+          "club_url": "https://www.transfermarkt.de/adelaide-united/startseite/verein/875/saison_id/2016",
+          "role": "Co-Trainer",
+          "start_period": "16/17 (27.06.2017)",
+          "start_year": 2016,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "1860 München",
+          "club_url": "https://www.transfermarkt.de/tsv-1860-munchen/startseite/verein/72/saison_id/2014",
+          "role": "Co-Trainer",
+          "start_period": "14/15 (08.10.2014)",
+          "start_year": 2014,
+          "end_period": "14/15 (17.02.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "TSV 1860 U19",
+          "club_url": "https://www.transfermarkt.de/tsv-1860-munchen-u19/startseite/verein/2510/saison_id/2014",
+          "role": "Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "14/15 (07.10.2014)",
+          "end_year": 2014
+        },
+        {
+          "club": "1860 München",
+          "club_url": "https://www.transfermarkt.de/tsv-1860-munchen/startseite/verein/72/saison_id/2013",
+          "role": "Co-Trainer",
+          "start_period": "13/14 (09.04.2014)",
+          "start_year": 2013,
+          "end_period": "13/14 (30.06.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "TSV 1860 U17",
+          "club_url": "https://www.transfermarkt.de/tsv-1860-munchen-u17/startseite/verein/21083/saison_id/2013",
+          "role": "Trainer",
+          "start_period": "13/14 (01.07.2013)",
+          "start_year": 2013,
+          "end_period": "13/14 (30.06.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "TSV 1860 U19",
+          "club_url": "https://www.transfermarkt.de/tsv-1860-munchen-u19/startseite/verein/2510/saison_id/2012",
+          "role": "Co-Trainer",
+          "start_period": "12/13 (01.01.2013)",
+          "start_year": 2012,
+          "end_period": "12/13 (30.06.2013)",
+          "end_year": 2012
+        }
+      ],
+      "total_stations": 10,
+      "expected_club": "Borussia Dortmund",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/stephen-rands/profil/trainer/65195",
+      "scraped_at": "2026-02-08T21:05:24.119895",
+      "name": "StephenRands",
+      "current_club": "Bor. Dortmund",
+      "current_role": "Co-Trainer Analyse",
+      "career_history": [
+        {
+          "club": "Bor. Dortmund",
+          "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2024",
+          "role": "Co-Trainer Analyse",
+          "start_period": "24/25 (27.02.2025)",
+          "start_year": 2024,
+          "end_period": "-"
+        },
+        {
+          "club": "Leicester City",
+          "club_url": "https://www.transfermarkt.de/leicester-city/startseite/verein/1003/saison_id/2024",
+          "role": "Co-Trainer Analyse",
+          "start_period": "24/25 (10.07.2024)",
+          "start_year": 2024,
+          "end_period": "24/25 (24.11.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "Nottingham",
+          "club_url": "https://www.transfermarkt.de/nottingham-forest/startseite/verein/703/saison_id/2021",
+          "role": "Chefanalytiker",
+          "start_period": "21/22 (21.09.2021)",
+          "start_year": 2021,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Swansea City",
+          "club_url": "https://www.transfermarkt.de/swansea-city/startseite/verein/2288/saison_id/2019",
+          "role": "Chefanalytiker",
+          "start_period": "19/20 (24.07.2019)",
+          "start_year": 2019,
+          "end_period": "21/22 (06.08.2021)",
+          "end_year": 2021
+        },
+        {
+          "club": "Derby County",
+          "club_url": "https://www.transfermarkt.de/derby-county/startseite/verein/22/saison_id/2018",
+          "role": "Chefanalytiker",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "19/20 (04.07.2019)",
+          "end_year": 2019
+        },
+        {
+          "club": "Man City",
+          "club_url": "https://www.transfermarkt.de/manchester-city/startseite/verein/281/saison_id/2016",
+          "role": "Chefanalytiker",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "17/18 (30.06.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "Man City",
+          "club_url": "https://www.transfermarkt.de/manchester-city/startseite/verein/281/saison_id/2011",
+          "role": "Spielanalyst",
+          "start_period": "11/12 (01.07.2011)",
+          "start_year": 2011,
+          "end_period": "17/18 (30.06.2016)",
+          "end_year": 2017
+        },
+        {
+          "club": "Scunthorpe Utd.",
+          "club_url": "https://www.transfermarkt.de/scunthorpe-united/startseite/verein/2964/saison_id/2008",
+          "role": "Chefanalytiker",
+          "start_period": "08/09 (01.07.2008)",
+          "start_year": 2008,
+          "end_period": "10/11 (30.06.2011)",
+          "end_year": 2010
+        },
+        {
+          "club": "Scunthorpe Jgd.",
+          "club_url": "https://www.transfermarkt.de/scunthorpe-united-youth/startseite/verein/84128/saison_id/2008",
+          "role": "Chefanalytiker",
+          "start_period": "08/09 (01.07.2008)",
+          "start_year": 2008,
+          "end_period": "10/11 (30.06.2011)",
+          "end_year": 2010
+        },
+        {
+          "club": "Scunthorpe Jgd.",
+          "club_url": "https://www.transfermarkt.de/scunthorpe-united-youth/startseite/verein/84128/saison_id/2008",
+          "role": "Trainer",
+          "start_period": "08/09 (01.07.2008)",
+          "start_year": 2008,
+          "end_period": "09/10 (31.07.2009)",
+          "end_year": 2009
+        },
+        {
+          "club": "FC Barnsley",
+          "club_url": "https://www.transfermarkt.de/fc-barnsley/startseite/verein/349/saison_id/2007",
+          "role": "Spielanalyst",
+          "start_period": "07/08 (01.07.2007)",
+          "start_year": 2007,
+          "end_period": "07/08 (30.06.2008)",
+          "end_year": 2007
+        }
+      ],
+      "total_stations": 11,
+      "expected_club": "Borussia Dortmund",
+      "expected_role": "Co-Trainer Analyse"
+    },
+    {
+      "url": "https://www.transfermarkt.de/tom-cichon/profil/trainer/6024",
+      "scraped_at": "2026-02-08T21:05:31.804441",
+      "name": "TomCichon",
+      "current_club": "RB Leipzig",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "RB Leipzig",
+          "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (01.07.2025)",
+          "start_year": 2025,
+          "end_period": "vsl. 30.06.2027"
+        },
+        {
+          "club": "Werder Bremen",
+          "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2020",
+          "role": "Co-Trainer Analyse",
+          "start_period": "20/21 (19.06.2021)",
+          "start_year": 2020,
+          "end_period": "24/25 (27.05.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "Darmstadt 98",
+          "club_url": "https://www.transfermarkt.de/sv-darmstadt-98/startseite/verein/105/saison_id/2020",
+          "role": "Scout",
+          "start_period": "20/21 (01.07.2020)",
+          "start_year": 2020,
+          "end_period": "20/21 (18.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2018",
+          "role": "Co-Trainer",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "18/19 (27.04.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "Holstein Kiel",
+          "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2016",
+          "role": "Co-Trainer",
+          "start_period": "16/17 (31.08.2016)",
+          "start_year": 2016,
+          "end_period": "17/18 (30.06.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "B. Leverkusen",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2016",
+          "role": "Scout",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "16/17 (30.08.2016)",
+          "end_year": 2016
+        },
+        {
+          "club": "B. Leverkusen",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2016",
+          "role": "Videoanalyst",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "16/17 (30.08.2016)",
+          "end_year": 2016
+        },
+        {
+          "club": "Leverkusen U17",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u17/startseite/verein/21054/saison_id/2015",
+          "role": "Trainer",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "15/16 (30.06.2016)",
+          "end_year": 2015
+        },
+        {
+          "club": "Leverkusen U17",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u17/startseite/verein/21054/saison_id/2014",
+          "role": "Co-Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "14/15 (30.06.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "Leverkusen U17",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u17/startseite/verein/21054/saison_id/2011",
+          "role": "Trainer",
+          "start_period": "11/12 (01.07.2011)",
+          "start_year": 2011,
+          "end_period": "13/14 (30.06.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "Leverkusen U19",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u19/startseite/verein/4713/saison_id/2005",
+          "role": "Co-Trainer",
+          "start_period": "05/06 (01.07.2005)",
+          "start_year": 2005,
+          "end_period": "10/11 (30.06.2011)",
+          "end_year": 2010
+        },
+        {
+          "club": "Leverkusen Jgd.",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-jugend/startseite/verein/11874/saison_id/2003",
+          "role": "Trainer",
+          "start_period": "03/04 (01.07.2003)",
+          "start_year": 2003,
+          "end_period": "04/05 (30.06.2005)",
+          "end_year": 2004
+        }
+      ],
+      "total_stations": 12,
+      "expected_club": "RB Leipzig",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/patrick-kohlmann/profil/trainer/54683",
+      "scraped_at": "2026-02-08T21:05:35.193674",
+      "name": "PatrickKohlmann",
+      "current_club": "RB Leipzig",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "RB Leipzig",
+          "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (01.07.2025)",
+          "start_year": 2025,
+          "end_period": "vsl. 30.06.2027"
+        },
+        {
+          "club": "Werder Bremen",
+          "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (28.11.2021)",
+          "start_year": 2021,
+          "end_period": "24/25 (27.05.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "Holstein Kiel",
+          "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "21/22 (07.10.2021)",
+          "end_year": 2021
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "RB Leipzig",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/jan-zimmermann/profil/trainer/24114",
+      "scraped_at": "2026-02-08T21:05:39.361949",
+      "name": "JanZimmermann",
+      "current_club": "RB Leipzig",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "RB Leipzig",
+          "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (14.07.2025)",
+          "start_year": 2025,
+          "end_period": "vsl. 30.06.2027"
+        },
+        {
+          "club": "B. Dortmund II",
+          "club_url": "https://www.transfermarkt.de/borussia-dortmund-ii/startseite/verein/17/saison_id/2022",
+          "role": "Trainer",
+          "start_period": "22/23 (08.02.2023)",
+          "start_year": 2022,
+          "end_period": "24/25 (05.05.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "Hannover 96",
+          "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2021",
+          "role": "Trainer",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "21/22 (29.11.2021)",
+          "end_year": 2021
+        },
+        {
+          "club": "TSV Havelse",
+          "club_url": "https://www.transfermarkt.de/tsv-havelse/startseite/verein/476/saison_id/2018",
+          "role": "Trainer",
+          "start_period": "18/19 (10.12.2018)",
+          "start_year": 2018,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "TSV Havelse",
+          "club_url": "https://www.transfermarkt.de/tsv-havelse/startseite/verein/476/saison_id/2018",
+          "role": "Sportlicher Leiter",
+          "start_period": "18/19 (10.12.2018)",
+          "start_year": 2018,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "G. Egestorf/L.",
+          "club_url": "https://www.transfermarkt.de/1-fc-germania-egestorf-langreder/startseite/verein/10381/saison_id/2014",
+          "role": "Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "18/19 (23.10.2018)",
+          "end_year": 2018
+        },
+        {
+          "club": "G. Egestorf/L.",
+          "club_url": "https://www.transfermarkt.de/1-fc-germania-egestorf-langreder/startseite/verein/10381/saison_id/2011",
+          "role": "Spielertrainer",
+          "start_period": "11/12 (01.07.2011)",
+          "start_year": 2011,
+          "end_period": "13/14 (30.06.2014)",
+          "end_year": 2013
+        }
+      ],
+      "total_stations": 7,
+      "expected_club": "RB Leipzig",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/rogier-meijer/profil/trainer/49162",
+      "scraped_at": "2026-02-08T21:05:48.041414",
+      "name": "RogierMeijer",
+      "current_club": "B. Leverkusen",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "B. Leverkusen",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (02.07.2025)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "NEC Nijmegen",
+          "club_url": "https://www.transfermarkt.de/nec-nijmegen/startseite/verein/467/saison_id/2019",
+          "role": "Trainer",
+          "start_period": "19/20 (02.06.2020)",
+          "start_year": 2019,
+          "end_period": "24/25 (30.06.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "NEC Nijmegen",
+          "club_url": "https://www.transfermarkt.de/nec-nijmegen/startseite/verein/467/saison_id/2018",
+          "role": "Co-Trainer",
+          "start_period": "18/19 (03.04.2019)",
+          "start_year": 2018,
+          "end_period": "19/20 (01.06.2020)",
+          "end_year": 2019
+        },
+        {
+          "club": "NEC U19",
+          "club_url": "https://www.transfermarkt.de/nec-nijmegen-u19/startseite/verein/7463/saison_id/2017",
+          "role": "Trainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "18/19 (03.04.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "Graafschap U19",
+          "club_url": "https://www.transfermarkt.de/de-graafschap-doetinchem-u19/startseite/verein/14348/saison_id/2015",
+          "role": "Trainer",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "16/17 (30.06.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "Graafschap Jgd.",
+          "club_url": "https://www.transfermarkt.de/de-graafschap-doetinchem-jugend/startseite/verein/32794/saison_id/2014",
+          "role": "Jugendtrainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "14/15 (30.06.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "VIOD Doetinchem",
+          "club_url": "https://www.transfermarkt.de/viod-doetinchem/startseite/verein/2953/saison_id/2008",
+          "role": "Co-Trainer",
+          "start_period": "08/09 (01.07.2008)",
+          "start_year": 2008,
+          "end_period": "08/09 (30.06.2009)",
+          "end_year": 2008
+        }
+      ],
+      "total_stations": 7,
+      "expected_club": "Bayer 04 Leverkusen",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/sergi-runge/profil/trainer/101715",
+      "scraped_at": "2026-02-08T21:05:51.495063",
+      "name": "SergiRunge",
+      "current_club": "B. Leverkusen",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "4",
+          "club_url": "https://www.transfermarkt.de/sergi-runge/leistungsdatenDetail/trainer/101715/saison_id/2025/wettbewerb_id/19D8",
+          "start_period": "3",
+          "end_period": "-"
+        },
+        {
+          "club": "1",
+          "club_url": "https://www.transfermarkt.de/sergi-runge/leistungsdatenDetail/trainer/101715/saison_id/2025/wettbewerb_id/DFBJ",
+          "start_period": "1",
+          "end_period": "-"
+        }
+      ],
+      "total_stations": 2,
+      "expected_club": "Bayer 04 Leverkusen",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/marcel-daum/profil/trainer/19820",
+      "scraped_at": "2026-02-08T21:05:55.076639",
+      "name": "MarcelDaum",
+      "current_club": "B. Leverkusen",
+      "current_role": "Co-Trainer Analyse",
+      "career_history": [
+        {
+          "club": "B. Leverkusen",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+          "role": "Co-Trainer Analyse",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "Rumänien",
+          "club_url": "https://www.transfermarkt.de/rumanien/startseite/verein/3447/saison_id/2016",
+          "role": "Chefanalytiker",
+          "start_period": "16/17 (01.08.2016)",
+          "start_year": 2016,
+          "end_period": "17/18 (31.08.2017)",
+          "end_year": 2017
+        },
+        {
+          "club": "E. Frankfurt",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2010",
+          "role": "Chefanalytiker",
+          "start_period": "10/11 (01.03.2011)",
+          "start_year": 2010,
+          "end_period": "17/18 (30.06.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "Fenerbahce",
+          "club_url": "https://www.transfermarkt.de/fenerbahce-istanbul/startseite/verein/36/saison_id/2009",
+          "role": "Spielanalyst",
+          "start_period": "09/10 (01.07.2009)",
+          "start_year": 2009,
+          "end_period": "09/10 (30.06.2010)",
+          "end_year": 2009
+        },
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2007",
+          "role": "Spielanalyst",
+          "start_period": "07/08 (01.01.2008)",
+          "start_year": 2007,
+          "end_period": "08/09 (30.06.2009)",
+          "end_year": 2008
+        }
+      ],
+      "total_stations": 5,
+      "expected_club": "Bayer 04 Leverkusen",
+      "expected_role": "Co-Trainer Analyse"
+    },
+    {
+      "url": "https://www.transfermarkt.de/david-krecidlo/profil/trainer/22057",
+      "scraped_at": "2026-02-08T21:06:02.517300",
+      "name": "DavidKrecidlo",
+      "current_club": "VfB Stuttgart",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "VfB Stuttgart",
+          "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (03.04.2023)",
+          "start_year": 2022,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "TSG Hoffenheim",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (27.07.2020)",
+          "start_year": 2020,
+          "end_period": "21/22 (30.06.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "B. München II",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "20/21 (26.07.2020)",
+          "end_year": 2020
+        },
+        {
+          "club": "B. München U19",
+          "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "RB Leipzig U19",
+          "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u19/startseite/verein/26621/saison_id/2016",
+          "role": "Co-Trainer",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "16/17 (30.06.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "H. Zehlendorf",
+          "club_url": "https://www.transfermarkt.de/fc-hertha-03-zehlendorf/startseite/verein/2943/saison_id/2015",
+          "role": "Sportlicher Leiter",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "15/16 (30.06.2016)",
+          "end_year": 2015
+        },
+        {
+          "club": "Zehlendorf U19",
+          "club_url": "https://www.transfermarkt.de/fc-hertha-03-zehlendorf-u19/startseite/verein/10342/saison_id/2013",
+          "role": "Trainer",
+          "start_period": "13/14 (01.07.2013)",
+          "start_year": 2013,
+          "end_period": "14/15 (30.06.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "Zehlendorf U19",
+          "club_url": "https://www.transfermarkt.de/fc-hertha-03-zehlendorf-u19/startseite/verein/10342/saison_id/2011",
+          "role": "Co-Trainer",
+          "start_period": "11/12 (01.07.2011)",
+          "start_year": 2011,
+          "end_period": "12/13 (30.06.2013)",
+          "end_year": 2012
+        }
+      ],
+      "total_stations": 8,
+      "expected_club": "VfB Stuttgart",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/malik-fathi/profil/trainer/69978",
+      "scraped_at": "2026-02-08T21:06:06.303373",
+      "name": "MalikFathi",
+      "current_club": "VfB Stuttgart",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "VfB Stuttgart",
+          "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (01.07.2023)",
+          "start_year": 2023,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "Hertha BSC Jgd.",
+          "club_url": "https://www.transfermarkt.de/hertha-bsc-jugend/startseite/verein/11844/saison_id/2021",
+          "role": "Trainer",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "22/23 (30.06.2023)",
+          "end_year": 2022
+        },
+        {
+          "club": "Hertha BSC II",
+          "club_url": "https://www.transfermarkt.de/hertha-bsc-ii/startseite/verein/45/saison_id/2020",
+          "role": "Trainer",
+          "start_period": "20/21 (26.01.2021)",
+          "start_year": 2020,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "Hertha BSC II",
+          "club_url": "https://www.transfermarkt.de/hertha-bsc-ii/startseite/verein/45/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "20/21 (25.01.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "Atl. Baleares",
+          "club_url": "https://www.transfermarkt.de/atletico-baleares/startseite/verein/18687/saison_id/2018",
+          "role": "Mentaltrainer",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        }
+      ],
+      "total_stations": 5,
+      "expected_club": "VfB Stuttgart",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/jan-fiesser/profil/trainer/59126",
+      "scraped_at": "2026-02-08T21:06:13.643484",
+      "name": "JanFießer",
+      "current_club": "E. Frankfurt",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "E. Frankfurt",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (09.07.2024)",
+          "start_year": 2024,
+          "end_period": "vsl. 30.06.2026"
+        },
+        {
+          "club": "VfL Bochum",
+          "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (22.09.2022)",
+          "start_year": 2022,
+          "end_period": "23/24 (08.04.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Vitesse Arnheim",
+          "club_url": "https://www.transfermarkt.de/vitesse-arnheim/startseite/verein/499/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (01.07.2020)",
+          "start_year": 2020,
+          "end_period": "22/23 (21.09.2022)",
+          "end_year": 2022
+        },
+        {
+          "club": "Frankfurt U17",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2019",
+          "role": "Trainer",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "19/20 (30.06.2020)",
+          "end_year": 2019
+        },
+        {
+          "club": "Frankfurt U17",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2018",
+          "role": "Interimstrainer",
+          "start_period": "18/19 (29.03.2019)",
+          "start_year": 2018,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "Frankfurt U17",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2018",
+          "role": "Co-Trainer",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "18/19 (28.03.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "Frankfurt U19",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (13.02.2018)",
+          "start_year": 2017,
+          "end_period": "17/18 (30.06.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "Frankfurt U17",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "17/18 (12.02.2018)",
+          "end_year": 2017
+        }
+      ],
+      "total_stations": 8,
+      "expected_club": "Eintracht Frankfurt",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/pablo-remon-arteta/profil/trainer/118276",
+      "scraped_at": "2026-02-08T21:06:17.352630",
+      "name": "PabloRemon Arteta",
+      "current_club": "E. Frankfurt",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "E. Frankfurt",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (02.02.2026)",
+          "start_year": 2025,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "NK Celje",
+          "club_url": "https://www.transfermarkt.de/nk-celje/startseite/verein/710/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (29.07.2024)",
+          "start_year": 2024,
+          "end_period": "25/26 (01.02.2026)",
+          "end_year": 2025
+        },
+        {
+          "club": "G. Bordeaux",
+          "club_url": "https://www.transfermarkt.de/fc-girondins-bordeaux/startseite/verein/40/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (12.10.2023)",
+          "start_year": 2023,
+          "end_period": "24/25 (28.07.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "NK Celje",
+          "club_url": "https://www.transfermarkt.de/nk-celje/startseite/verein/710/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (20.07.2023)",
+          "start_year": 2023,
+          "end_period": "23/24 (11.10.2023)",
+          "end_year": 2023
+        },
+        {
+          "club": "NK Olimpija",
+          "club_url": "https://www.transfermarkt.de/nk-olimpija-ljubljana/startseite/verein/4772/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (04.07.2022)",
+          "start_year": 2022,
+          "end_period": "22/23 (31.05.2023)",
+          "end_year": 2022
+        }
+      ],
+      "total_stations": 5,
+      "expected_club": "Eintracht Frankfurt",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/lorenzo-dolcetti/profil/trainer/114379",
+      "scraped_at": "2026-02-08T21:06:21.426612",
+      "name": "LorenzoDolcetti",
+      "current_club": "E. Frankfurt",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "E. Frankfurt",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (02.02.2026)",
+          "start_year": 2025,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "NK Celje",
+          "club_url": "https://www.transfermarkt.de/nk-celje/startseite/verein/710/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (18.06.2025)",
+          "start_year": 2025,
+          "end_period": "25/26 (01.02.2026)",
+          "end_year": 2025
+        },
+        {
+          "club": "Castellón",
+          "club_url": "https://www.transfermarkt.de/cd-castellon/startseite/verein/2502/saison_id/2024",
+          "role": "Techniktrainer",
+          "start_period": "24/25 (25.02.2025)",
+          "start_year": 2024,
+          "end_period": "24/25 (17.06.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "Kallithea",
+          "club_url": "https://www.transfermarkt.de/gs-kallithea/startseite/verein/3062/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (08.07.2024)",
+          "start_year": 2024,
+          "end_period": "24/25 (11.12.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "Colchester Utd.",
+          "club_url": "https://www.transfermarkt.de/colchester-united/startseite/verein/1060/saison_id/2023",
+          "role": "Spielanalyst",
+          "start_period": "23/24 (07.02.2024)",
+          "start_year": 2023,
+          "end_period": "24/25 (07.07.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "FC Portsmouth",
+          "club_url": "https://www.transfermarkt.de/fc-portsmouth/startseite/verein/1020/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "22/23 (20.01.2023)",
+          "end_year": 2022
+        },
+        {
+          "club": "Welling Utd.",
+          "club_url": "https://www.transfermarkt.de/welling-united/startseite/verein/7454/saison_id/2020",
+          "role": "Jugendtrainer",
+          "start_period": "20/21 (01.07.2020)",
+          "start_year": 2020,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "FC Southampton",
+          "club_url": "https://www.transfermarkt.de/fc-southampton/startseite/verein/180/saison_id/2019",
+          "role": "Spielanalyst",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "19/20 (30.06.2020)",
+          "end_year": 2019
+        }
+      ],
+      "total_stations": 8,
+      "expected_club": "Eintracht Frankfurt",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/rainer-falkenhain/profil/trainer/4740",
+      "scraped_at": "2026-02-08T21:06:25.013658",
+      "name": "RainerFalkenhain",
+      "current_club": "E. Frankfurt",
+      "current_role": "Assistent der Geschäftsführung",
+      "career_history": [
+        {
+          "club": "E. Frankfurt",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2018",
+          "role": "Assistent der Geschäftsführung",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "-"
+        },
+        {
+          "club": "E. Frankfurt",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/1985",
+          "role": "Leiter Lizenzbereich",
+          "start_period": "85/86 (01.07.1985)",
+          "start_year": 1985,
+          "end_period": "17/18 (30.06.2018)",
+          "end_year": 2017
+        }
+      ],
+      "total_stations": 2,
+      "expected_club": "Eintracht Frankfurt",
+      "expected_role": "Assistent der Geschäftsführung"
+    },
+    {
+      "url": "https://www.transfermarkt.de/ole-siegel/profil/trainer/92744",
+      "scraped_at": "2026-02-08T21:06:29.098225",
+      "name": "OleSiegel",
+      "current_club": "E. Frankfurt",
+      "current_role": "Assistent der Geschäftsführung",
+      "career_history": [
+        {
+          "club": "E. Frankfurt",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+          "role": "Assistent der Geschäftsführung",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "-"
+        },
+        {
+          "club": "SC Paderborn",
+          "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2016",
+          "role": "Teammanager",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "20/21 (30.07.2020)",
+          "end_year": 2020
+        }
+      ],
+      "total_stations": 2,
+      "expected_club": "Eintracht Frankfurt",
+      "expected_role": "Assistent der Geschäftsführung"
+    },
+    {
+      "url": "https://www.transfermarkt.de/maureen-rodrigues/profil/trainer/36947",
+      "scraped_at": "2026-02-08T21:06:33.294799",
+      "name": "MaureenRodrigues",
+      "current_club": "E. Frankfurt",
+      "current_role": "Assistentin der Geschäftsführung",
+      "career_history": [
+        {
+          "club": "E. Frankfurt",
+          "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+          "role": "Assistentin der Geschäftsführung",
+          "start_period": "",
+          "end_period": "-"
+        }
+      ],
+      "total_stations": 1,
+      "expected_club": "Eintracht Frankfurt",
+      "expected_role": "Assistentin der Geschäftsführung"
+    },
+    {
+      "url": "https://www.transfermarkt.de/julian-klamt/profil/trainer/113702",
+      "scraped_at": "2026-02-08T21:06:41.037095",
+      "name": "JulianKlamt",
+      "current_club": "VfL Wolfsburg",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "VfL Wolfsburg",
+          "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (09.11.2025)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "VfL Wolfsburg",
+          "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (04.05.2025)",
+          "start_year": 2024,
+          "end_period": "24/25 (30.06.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "Wolfsburg U19",
+          "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-u19/startseite/verein/5343/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (01.07.2023)",
+          "start_year": 2023,
+          "end_period": "25/26 (08.11.2025)",
+          "end_year": 2025
+        },
+        {
+          "club": "Wolfsburg Jgd.",
+          "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-jugend/startseite/verein/12821/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (01.07.2022)",
+          "start_year": 2022,
+          "end_period": "22/23 (30.06.2023)",
+          "end_year": 2022
+        }
+      ],
+      "total_stations": 4,
+      "expected_club": "VfL Wolfsburg",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/tobias-holm/profil/trainer/63531",
+      "scraped_at": "2026-02-08T21:06:44.773224",
+      "name": "TobiasHolm",
+      "current_club": "VfL Wolfsburg",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "9",
+          "club_url": "https://www.transfermarkt.de/tobias-holm/leistungsdatenDetail/trainer/63531/saison_id/2025/wettbewerb_id/17DB",
+          "start_period": "6",
+          "end_period": "2"
+        }
+      ],
+      "total_stations": 1,
+      "expected_club": "VfL Wolfsburg",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/lars-vossler/profil/trainer/7334",
+      "scraped_at": "2026-02-08T21:06:53.269279",
+      "name": "LarsVoßler",
+      "current_club": "SC Freiburg",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "SC Freiburg",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2011",
+          "role": "Co-Trainer",
+          "start_period": "11/12 (01.01.2012)",
+          "start_year": 2011,
+          "end_period": "-"
+        },
+        {
+          "club": "SC Freiburg U19",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2011",
+          "role": "Trainer",
+          "start_period": "11/12 (01.07.2011)",
+          "start_year": 2011,
+          "end_period": "11/12 (31.12.2011)",
+          "end_year": 2011
+        },
+        {
+          "club": "SC Freiburg U19",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2006",
+          "role": "Co-Trainer",
+          "start_period": "06/07 (01.07.2006)",
+          "start_year": 2006,
+          "end_period": "10/11 (30.06.2011)",
+          "end_year": 2010
+        },
+        {
+          "club": "Freiburg Jgd.",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg-jugend/startseite/verein/18042/saison_id/2004",
+          "role": "Trainer",
+          "start_period": "04/05 (01.01.2005)",
+          "start_year": 2004,
+          "end_period": "05/06 (30.06.2006)",
+          "end_year": 2005
+        },
+        {
+          "club": "SC Freiburg",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2004",
+          "role": "Technische/r Mitarbeiter/in",
+          "start_period": "04/05 (01.01.2005)",
+          "start_year": 2004,
+          "end_period": "10/11 (30.06.2011)",
+          "end_year": 2010
+        },
+        {
+          "club": "SC Freiburg",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2004",
+          "role": "Spielanalyst",
+          "start_period": "04/05 (01.01.2005)",
+          "start_year": 2004,
+          "end_period": "10/11 (30.06.2011)",
+          "end_year": 2010
+        },
+        {
+          "club": "SC Freiburg",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2004",
+          "role": "Scout",
+          "start_period": "04/05 (01.01.2005)",
+          "start_year": 2004,
+          "end_period": "10/11 (30.06.2011)",
+          "end_year": 2010
+        }
+      ],
+      "total_stations": 7,
+      "expected_club": "SC Freiburg",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/florian-bruns/profil/trainer/39530",
+      "scraped_at": "2026-02-08T21:06:56.785513",
+      "name": "FlorianBruns",
+      "current_club": "SC Freiburg",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "SC Freiburg",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "-"
+        },
+        {
+          "club": "Werder Bremen",
+          "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2016",
+          "role": "Co-Trainer",
+          "start_period": "16/17 (19.09.2016)",
+          "start_year": 2016,
+          "end_period": "16/17 (30.06.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "W. Bremen II",
+          "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "16/17 (18.09.2016)",
+          "end_year": 2016
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "SC Freiburg",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/patrik-grolimund/profil/trainer/30453",
+      "scraped_at": "2026-02-08T21:07:00.150855",
+      "name": "PatrikGrolimund",
+      "current_club": "SC Freiburg",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "SC Freiburg",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "-"
+        },
+        {
+          "club": "Frauenfußball",
+          "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2020",
+          "role": "Entwicklungscoach",
+          "start_period": "20/21 (01.01.2021)",
+          "start_year": 2020,
+          "end_period": "22/23 (30.09.2022)",
+          "end_year": 2022
+        },
+        {
+          "club": "Fußball-Lehrer-Ausbildung des DFB",
+          "club_url": "https://www.transfermarkt.de/fussball-lehrer-ausbildung-des-dfb/startseite/verein/13256/saison_id/2019",
+          "role": "Trainer-Auszubildender",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Frauenfußball",
+          "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (01.08.2017)",
+          "start_year": 2017,
+          "end_period": "20/21 (31.12.2020)",
+          "end_year": 2020
+        },
+        {
+          "club": "Schweiz",
+          "club_url": "https://www.transfermarkt.de/schweiz/startseite/verein/3384/saison_id/2013",
+          "role": "Jugendtrainer",
+          "start_period": "13/14 (01.08.2014)",
+          "start_year": 2013,
+          "end_period": "16/17 (01.12.2016)",
+          "end_year": 2016
+        },
+        {
+          "club": "FC Solothurn",
+          "club_url": "https://www.transfermarkt.de/fc-solothurn/startseite/verein/1287/saison_id/2013",
+          "role": "Trainer",
+          "start_period": "13/14 (01.07.2013)",
+          "start_year": 2013,
+          "end_period": "13/14 (20.03.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "Solothurn Jgd.",
+          "club_url": "https://www.transfermarkt.de/fc-solothurn-jugend/startseite/verein/14396/saison_id/2011",
+          "role": "Trainer",
+          "start_period": "11/12 (01.07.2011)",
+          "start_year": 2011,
+          "end_period": "12/13 (30.06.2013)",
+          "end_year": 2012
+        },
+        {
+          "club": "FC Breitenrain",
+          "club_url": "https://www.transfermarkt.de/fc-breitenrain/startseite/verein/17574/saison_id/2006",
+          "role": "Trainer",
+          "start_period": "06/07 (01.04.2007)",
+          "start_year": 2006,
+          "end_period": "07/08 (30.06.2008)",
+          "end_year": 2007
+        }
+      ],
+      "total_stations": 8,
+      "expected_club": "SC Freiburg",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/franz-georg-wieland/profil/trainer/144971",
+      "scraped_at": "2026-02-08T21:07:03.713250",
+      "name": "Franz-GeorgWieland",
+      "current_club": "SC Freiburg",
+      "current_role": "Co-Trainer Analyse",
+      "career_history": [
+        {
+          "club": "SC Freiburg",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2024",
+          "role": "Co-Trainer Analyse",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "-"
+        },
+        {
+          "club": "SC Freiburg U19",
+          "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2021",
+          "role": "Videoanalyst",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Freiburger FC",
+          "club_url": "https://www.transfermarkt.de/freiburger-fc/startseite/verein/745/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (01.07.2020)",
+          "start_year": 2020,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "Freib. FC U19",
+          "club_url": "https://www.transfermarkt.de/freiburger-fc-u19/startseite/verein/16128/saison_id/2019",
+          "role": "Teammanager",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "19/20 (30.06.2020)",
+          "end_year": 2019
+        },
+        {
+          "club": "Oberteuringen",
+          "club_url": "https://www.transfermarkt.de/sv-oberteuringen/startseite/verein/24989/saison_id/2015",
+          "role": "Betreuer",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "17/18 (30.06.2018)",
+          "end_year": 2017
+        }
+      ],
+      "total_stations": 5,
+      "expected_club": "SC Freiburg",
+      "expected_role": "Co-Trainer Analyse"
+    },
+    {
+      "url": "https://www.transfermarkt.de/uwe-holzl/profil/trainer/29461",
+      "scraped_at": "2026-02-08T21:07:12.728571",
+      "name": "UweHölzl",
+      "current_club": "TSG Hoffenheim",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "TSG Hoffenheim",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (15.11.2024)",
+          "start_year": 2024,
+          "end_period": "-"
+        },
+        {
+          "club": "Sturm Graz",
+          "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (17.07.2020)",
+          "start_year": 2020,
+          "end_period": "24/25 (15.11.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "Austria Wien",
+          "club_url": "https://www.transfermarkt.de/fk-austria-wien/startseite/verein/14/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "19/20 (16.07.2020)",
+          "end_year": 2019
+        },
+        {
+          "club": "Wolfsberger AC",
+          "club_url": "https://www.transfermarkt.de/wolfsberger-ac/startseite/verein/4441/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (01.06.2018)",
+          "start_year": 2017,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "TSV Hartberg",
+          "club_url": "https://www.transfermarkt.de/tsv-hartberg/startseite/verein/4467/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "17/18 (31.05.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "TSV Hartberg",
+          "club_url": "https://www.transfermarkt.de/tsv-hartberg/startseite/verein/4467/saison_id/2015",
+          "role": "Trainer",
+          "start_period": "15/16 (12.12.2015)",
+          "start_year": 2015,
+          "end_period": "16/17 (30.06.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "TSV Hartberg",
+          "club_url": "https://www.transfermarkt.de/tsv-hartberg/startseite/verein/4467/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "15/16 (11.12.2015)",
+          "end_year": 2015
+        },
+        {
+          "club": "SC Weiz",
+          "club_url": "https://www.transfermarkt.de/sc-weiz/startseite/verein/7141/saison_id/2013",
+          "role": "Trainer",
+          "start_period": "13/14 (01.07.2013)",
+          "start_year": 2013,
+          "end_period": "14/15 (30.06.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "SC Weiz",
+          "club_url": "https://www.transfermarkt.de/sc-weiz/startseite/verein/7141/saison_id/2012",
+          "role": "Co-Trainer",
+          "start_period": "12/13 (01.07.2012)",
+          "start_year": 2012,
+          "end_period": "12/13 (30.06.2013)",
+          "end_year": 2012
+        },
+        {
+          "club": "SC Weiz II",
+          "club_url": "https://www.transfermarkt.de/sc-weiz-ii/startseite/verein/20710/saison_id/2010",
+          "role": "Trainer",
+          "start_period": "10/11 (01.07.2010)",
+          "start_year": 2010,
+          "end_period": "11/12 (30.06.2012)",
+          "end_year": 2011
+        },
+        {
+          "club": "SC Weiz II",
+          "club_url": "https://www.transfermarkt.de/sc-weiz-ii/startseite/verein/20710/saison_id/2008",
+          "role": "Trainer",
+          "start_period": "08/09 (09.03.2009)",
+          "start_year": 2008,
+          "end_period": "09/10 (04.09.2009)",
+          "end_year": 2009
+        },
+        {
+          "club": "SV Anger Jgd",
+          "club_url": "https://www.transfermarkt.de/sv-anger-jugend/startseite/verein/43267/saison_id/2004",
+          "role": "Trainer",
+          "start_period": "04/05 (01.07.2004)",
+          "start_year": 2004,
+          "end_period": "06/07 (30.06.2007)",
+          "end_year": 2006
+        }
+      ],
+      "total_stations": 12,
+      "expected_club": "TSG Hoffenheim",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/dominik-deutschl/profil/trainer/56430",
+      "scraped_at": "2026-02-08T21:07:16.412786",
+      "name": "DominikDeutschl",
+      "current_club": "TSG Hoffenheim",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "TSG Hoffenheim",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (15.11.2024)",
+          "start_year": 2024,
+          "end_period": "-"
+        },
+        {
+          "club": "Sturm Graz",
+          "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (17.07.2020)",
+          "start_year": 2020,
+          "end_period": "24/25 (15.11.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "Austria Wien",
+          "club_url": "https://www.transfermarkt.de/fk-austria-wien/startseite/verein/14/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "19/20 (31.07.2020)",
+          "end_year": 2019
+        },
+        {
+          "club": "Wolfsberger AC",
+          "club_url": "https://www.transfermarkt.de/wolfsberger-ac/startseite/verein/4441/saison_id/2017",
+          "role": "Co-Trainer Analyse",
+          "start_period": "17/18 (01.06.2018)",
+          "start_year": 2017,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "TSV Hartberg",
+          "club_url": "https://www.transfermarkt.de/tsv-hartberg/startseite/verein/4467/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "17/18 (31.05.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "Wolfsberger AC",
+          "club_url": "https://www.transfermarkt.de/wolfsberger-ac/startseite/verein/4441/saison_id/2016",
+          "role": "Spielanalyst",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "16/17 (30.06.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "Voitsberg Jgd.",
+          "club_url": "https://www.transfermarkt.de/ask-voitsberg-jugend/startseite/verein/18323/saison_id/2016",
+          "role": "Trainer",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "16/17 (30.06.2017)",
+          "end_year": 2016
+        }
+      ],
+      "total_stations": 7,
+      "expected_club": "TSG Hoffenheim",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/moritz-volz/profil/trainer/71275",
+      "scraped_at": "2026-02-08T21:07:20.055026",
+      "name": "MoritzVolz",
+      "current_club": "TSG Hoffenheim",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "TSG Hoffenheim",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (01.07.2025)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "Frauenfußball",
+          "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (13.01.2024)",
+          "start_year": 2023,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Galatasaray",
+          "club_url": "https://www.transfermarkt.de/galatasaray-istanbul/startseite/verein/141/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (18.10.2022)",
+          "start_year": 2022,
+          "end_period": "22/23 (30.06.2023)",
+          "end_year": 2022
+        },
+        {
+          "club": "Galatasaray",
+          "club_url": "https://www.transfermarkt.de/galatasaray-istanbul/startseite/verein/141/saison_id/2022",
+          "role": "Scout",
+          "start_period": "22/23 (18.10.2022)",
+          "start_year": 2022,
+          "end_period": "22/23 (30.06.2023)",
+          "end_year": 2022
+        },
+        {
+          "club": "RB Leipzig",
+          "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "Arsenal",
+          "club_url": "https://www.transfermarkt.de/fc-arsenal/startseite/verein/11/saison_id/2015",
+          "role": "Scout",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        }
+      ],
+      "total_stations": 6,
+      "expected_club": "TSG Hoffenheim",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/kevin-mckenna/profil/trainer/41131",
+      "scraped_at": "2026-02-08T21:07:28.403679",
+      "name": "KevinMcKenna",
+      "current_club": "Union Berlin",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (02.01.2025)",
+          "start_year": 2024,
+          "end_period": "-"
+        },
+        {
+          "club": "Hamburger SV",
+          "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (03.09.2024)",
+          "start_year": 2024,
+          "end_period": "24/25 (24.11.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (13.07.2021)",
+          "start_year": 2021,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "1.FC K'lautern",
+          "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (19.09.2019)",
+          "start_year": 2019,
+          "end_period": "20/21 (29.09.2020)",
+          "end_year": 2020
+        },
+        {
+          "club": "1.FC Köln II",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln-ii/startseite/verein/438/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "19/20 (19.07.2019)",
+          "end_year": 2019
+        },
+        {
+          "club": "1.FC Köln II",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln-ii/startseite/verein/438/saison_id/2018",
+          "role": "Interimstrainer",
+          "start_period": "18/19 (28.04.2019)",
+          "start_year": 2018,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "1.FC Köln II",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln-ii/startseite/verein/438/saison_id/2018",
+          "role": "Co-Trainer",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "18/19 (27.04.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (04.12.2017)",
+          "start_year": 2017,
+          "end_period": "17/18 (30.06.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "1.FC Köln U17",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2014",
+          "role": "Co-Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "17/18 (03.12.2017)",
+          "end_year": 2017
+        }
+      ],
+      "total_stations": 9,
+      "expected_club": "1. FC Union Berlin",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/sebastian-bonig/profil/trainer/30214",
+      "scraped_at": "2026-02-08T21:07:31.878197",
+      "name": "SebastianBönig",
+      "current_club": "Union Berlin",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (02.01.2025)",
+          "start_year": 2024,
+          "end_period": "-"
+        },
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (06.05.2024)",
+          "start_year": 2023,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2023",
+          "role": "Betreuer der Leihspieler",
+          "start_period": "23/24 (18.03.2024)",
+          "start_year": 2023,
+          "end_period": "24/25 (29.12.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2014",
+          "role": "Co-Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "23/24 (19.11.2023)",
+          "end_year": 2023
+        },
+        {
+          "club": "U. Berlin U19",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2013",
+          "role": "Trainer",
+          "start_period": "13/14 (01.05.2014)",
+          "start_year": 2013,
+          "end_period": "13/14 (30.06.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "Union Berlin II",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-ii/startseite/verein/5303/saison_id/2013",
+          "role": "Co-Trainer",
+          "start_period": "13/14 (01.07.2013)",
+          "start_year": 2013,
+          "end_period": "13/14 (30.04.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "U. Berlin U19",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2012",
+          "role": "Co-Trainer",
+          "start_period": "12/13 (01.07.2012)",
+          "start_year": 2012,
+          "end_period": "12/13 (30.06.2013)",
+          "end_year": 2012
+        },
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2011",
+          "role": "Trainer-Auszubildender",
+          "start_period": "11/12 (01.07.2011)",
+          "start_year": 2011,
+          "end_period": "13/14 (30.06.2014)",
+          "end_year": 2013
+        }
+      ],
+      "total_stations": 8,
+      "expected_club": "1. FC Union Berlin",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/danilo-de-souza/profil/trainer/63679",
+      "scraped_at": "2026-02-08T21:07:35.444449",
+      "name": "Danilo de Souza",
+      "current_club": "Union Berlin",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (06.07.2025)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "Leeds United",
+          "club_url": "https://www.transfermarkt.de/leeds-united/startseite/verein/399/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (04.07.2023)",
+          "start_year": 2023,
+          "end_period": "25/26 (05.07.2025)",
+          "end_year": 2025
+        },
+        {
+          "club": "Arm. Bielefeld",
+          "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (15.01.2023)",
+          "start_year": 2022,
+          "end_period": "22/23 (30.06.2023)",
+          "end_year": 2022
+        },
+        {
+          "club": "VfL Osnabrück",
+          "club_url": "https://www.transfermarkt.de/vfl-osnabruck/startseite/verein/81/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "22/23 (14.01.2023)",
+          "end_year": 2022
+        },
+        {
+          "club": "SC Paderborn",
+          "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        }
+      ],
+      "total_stations": 5,
+      "expected_club": "1. FC Union Berlin",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/adrian-wittmann/profil/trainer/70884",
+      "scraped_at": "2026-02-08T21:07:39.303402",
+      "name": "AdrianWittmann",
+      "current_club": "Union Berlin",
+      "current_role": "Co-Trainer Analyse",
+      "career_history": [
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2013",
+          "role": "Co-Trainer Analyse",
+          "start_period": "13/14 (01.02.2014)",
+          "start_year": 2013,
+          "end_period": "-"
+        },
+        {
+          "club": "U. Berlin Jgd.",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-jugend/startseite/verein/36841/saison_id/2012",
+          "role": "Trainer",
+          "start_period": "12/13 (01.07.2012)",
+          "start_year": 2012,
+          "end_period": "13/14 (31.01.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "U. Berlin U19",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2010",
+          "role": "Videoanalyst",
+          "start_period": "10/11 (01.02.2011)",
+          "start_year": 2010,
+          "end_period": "10/11 (30.06.2011)",
+          "end_year": 2010
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "1. FC Union Berlin",
+      "expected_role": "Co-Trainer Analyse"
+    },
+    {
+      "url": "https://www.transfermarkt.de/rene-andresen/profil/trainer/118732",
+      "scraped_at": "2026-02-08T21:07:43.183426",
+      "name": "RenéAndresen",
+      "current_club": "Union Berlin",
+      "current_role": "Leitender Assistent des Geschäftsführers Sport",
+      "career_history": [
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2023",
+          "role": "Leitender Assistent des Geschäftsführers Sport",
+          "start_period": "23/24 (17.07.2023)",
+          "start_year": 2023,
+          "end_period": "-"
+        },
+        {
+          "club": "VfL Wolfsburg",
+          "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+          "role": "Mitarbeiter/-in d. Geschäftsstelle",
+          "start_period": "18/19 (01.08.2018)",
+          "start_year": 2018,
+          "end_period": "18/19 (31.01.2019)",
+          "end_year": 2018
+        }
+      ],
+      "total_stations": 2,
+      "expected_club": "1. FC Union Berlin",
+      "expected_role": "Leitender Assistent des Geschäftsführers Sport"
+    },
+    {
+      "url": "https://www.transfermarkt.de/anna-wiesner/profil/trainer/117174",
+      "scraped_at": "2026-02-08T21:07:47.482444",
+      "name": "AnnaWiesner",
+      "current_club": "Union Berlin",
+      "current_role": "Leitender Assistent des Geschäftsführers Sport",
+      "career_history": [
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2023",
+          "role": "Leitender Assistent des Geschäftsführers Sport",
+          "start_period": "23/24 (01.08.2023)",
+          "start_year": 2023,
+          "end_period": "vsl. 30.06.2026"
+        },
+        {
+          "club": "Hansa Rostock",
+          "club_url": "https://www.transfermarkt.de/fc-hansa-rostock/startseite/verein/30/saison_id/2022",
+          "role": "Teammanager",
+          "start_period": "22/23 (01.07.2022)",
+          "start_year": 2022,
+          "end_period": "22/23 (30.06.2023)",
+          "end_year": 2022
+        }
+      ],
+      "total_stations": 2,
+      "expected_club": "1. FC Union Berlin",
+      "expected_role": "Leitender Assistent des Geschäftsführers Sport"
+    },
+    {
+      "url": "https://www.transfermarkt.de/christian-gross/profil/trainer/129139",
+      "scraped_at": "2026-02-08T21:07:55.421613",
+      "name": "ChristianGroß",
+      "current_club": "Werder Bremen",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Werder Bremen",
+          "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (01.07.2025)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "B. Leverkusen",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2024",
+          "role": "Scout",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "24/25 (30.06.2025)",
+          "end_year": 2024
+        }
+      ],
+      "total_stations": 2,
+      "expected_club": "Werder Bremen",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/raphael-duarte/profil/trainer/48002",
+      "scraped_at": "2026-02-08T21:07:58.956889",
+      "name": "RaphaelDuarte",
+      "current_club": "Werder Bremen",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Werder Bremen",
+          "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (01.07.2025)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "SV Elversberg",
+          "club_url": "https://www.transfermarkt.de/sv-07-elversberg/startseite/verein/64/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (01.02.2022)",
+          "start_year": 2021,
+          "end_period": "24/25 (30.06.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "AS Nancy",
+          "club_url": "https://www.transfermarkt.de/as-nancy-lorraine/startseite/verein/1159/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "21/22 (31.01.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "Jeunesse Canach",
+          "club_url": "https://www.transfermarkt.de/fc-jeunesse-canach/startseite/verein/21465/saison_id/2018",
+          "role": "Trainer",
+          "start_period": "18/19 (14.12.2018)",
+          "start_year": 2018,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "US Hostert",
+          "club_url": "https://www.transfermarkt.de/us-hostert/startseite/verein/21645/saison_id/2018",
+          "role": "Videoanalyst",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "18/19 (13.12.2018)",
+          "end_year": 2018
+        },
+        {
+          "club": "Jeunesse Canach",
+          "club_url": "https://www.transfermarkt.de/fc-jeunesse-canach/startseite/verein/21465/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (01.02.2016)",
+          "start_year": 2015,
+          "end_period": "16/17 (01.11.2016)",
+          "end_year": 2016
+        },
+        {
+          "club": "Jeunesse Canach",
+          "club_url": "https://www.transfermarkt.de/fc-jeunesse-canach/startseite/verein/21465/saison_id/2012",
+          "role": "Jugendtrainer",
+          "start_period": "12/13 (01.07.2012)",
+          "start_year": 2012,
+          "end_period": "17/18 (30.06.2018)",
+          "end_year": 2017
+        }
+      ],
+      "total_stations": 7,
+      "expected_club": "Werder Bremen",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/jan-hoepner/profil/trainer/48621",
+      "scraped_at": "2026-02-08T21:08:02.695117",
+      "name": "JanHoepner",
+      "current_club": "Werder Bremen",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Werder Bremen",
+          "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (04.02.2026)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "F. Düsseldorf",
+          "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (08.02.2022)",
+          "start_year": 2021,
+          "end_period": "25/26 (06.10.2025)",
+          "end_year": 2025
+        },
+        {
+          "club": "Leverkusen U17",
+          "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u17/startseite/verein/21054/saison_id/2016",
+          "role": "Trainer",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "21/22 (07.02.2022)",
+          "end_year": 2021
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "Werder Bremen",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/oliver-neuville/profil/trainer/29181",
+      "scraped_at": "2026-02-08T21:08:10.186628",
+      "name": "OliverNeuville",
+      "current_club": "Bor. M'gladbach",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Bor. M'gladbach",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "-"
+        },
+        {
+          "club": "M'gladbach U19",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/2013",
+          "role": "Co-Trainer",
+          "start_period": "13/14 (01.07.2013)",
+          "start_year": 2013,
+          "end_period": "19/20 (30.06.2020)",
+          "end_year": 2019
+        }
+      ],
+      "total_stations": 2,
+      "expected_club": "Borussia Mönchengladbach",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/guido-streichsbier/profil/trainer/7842",
+      "scraped_at": "2026-02-08T21:08:14.101707",
+      "name": "GuidoStreichsbier",
+      "current_club": "Bor. M'gladbach",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Bor. M'gladbach",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (27.06.2023)",
+          "start_year": 2022,
+          "end_period": "vsl. 30.06.2026"
+        },
+        {
+          "club": "Deutschland U19",
+          "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2022",
+          "role": "Trainer",
+          "start_period": "22/23 (01.07.2022)",
+          "start_year": 2022,
+          "end_period": "22/23 (26.06.2023)",
+          "end_year": 2022
+        },
+        {
+          "club": "Deutschland U18",
+          "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/2021",
+          "role": "Trainer",
+          "start_period": "21/22 (01.08.2021)",
+          "start_year": 2021,
+          "end_period": "21/22 (30.06.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "Deutschland U20",
+          "club_url": "https://www.transfermarkt.de/deutschland-u20/startseite/verein/5709/saison_id/2020",
+          "role": "Trainer",
+          "start_period": "20/21 (01.07.2020)",
+          "start_year": 2020,
+          "end_period": "21/22 (31.07.2021)",
+          "end_year": 2021
+        },
+        {
+          "club": "Deutschland U19",
+          "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2018",
+          "role": "Trainer",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "19/20 (30.06.2020)",
+          "end_year": 2019
+        },
+        {
+          "club": "Deutschland U18",
+          "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/2017",
+          "role": "Trainer",
+          "start_period": "17/18 (01.08.2017)",
+          "start_year": 2017,
+          "end_period": "17/18 (30.06.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "Deutschland U20",
+          "club_url": "https://www.transfermarkt.de/deutschland-u20/startseite/verein/5709/saison_id/2016",
+          "role": "Trainer",
+          "start_period": "16/17 (01.09.2016)",
+          "start_year": 2016,
+          "end_period": "17/18 (31.07.2017)",
+          "end_year": 2017
+        },
+        {
+          "club": "Deutschland U19",
+          "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2015",
+          "role": "Trainer",
+          "start_period": "15/16 (18.03.2016)",
+          "start_year": 2015,
+          "end_period": "16/17 (31.08.2016)",
+          "end_year": 2016
+        },
+        {
+          "club": "Deutschland U18",
+          "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/2014",
+          "role": "Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "16/17 (31.08.2016)",
+          "end_year": 2016
+        },
+        {
+          "club": "FCA Walldorf",
+          "club_url": "https://www.transfermarkt.de/fc-astoria-walldorf/startseite/verein/1348/saison_id/2011",
+          "role": "Trainer",
+          "start_period": "11/12 (01.10.2011)",
+          "start_year": 2011,
+          "end_period": "13/14 (30.06.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "K'lautern U17",
+          "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern-u17/startseite/verein/21047/saison_id/2011",
+          "role": "Trainer",
+          "start_period": "11/12 (01.07.2011)",
+          "start_year": 2011,
+          "end_period": "11/12 (30.09.2011)",
+          "end_year": 2011
+        },
+        {
+          "club": "Hoffenheim U19",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u19/startseite/verein/8925/saison_id/2008",
+          "role": "Trainer",
+          "start_period": "08/09 (01.07.2008)",
+          "start_year": 2008,
+          "end_period": "10/11 (30.06.2011)",
+          "end_year": 2010
+        },
+        {
+          "club": "Hoffenheim U17",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u17/startseite/verein/21082/saison_id/2004",
+          "role": "Trainer",
+          "start_period": "04/05 (01.07.2004)",
+          "start_year": 2004,
+          "end_period": "07/08 (30.06.2008)",
+          "end_year": 2007
+        },
+        {
+          "club": "BFV-Jugend",
+          "club_url": "https://www.transfermarkt.de/bfv-jugend/startseite/verein/59076/saison_id/2003",
+          "role": "Co-Trainer",
+          "start_period": "03/04 (01.07.2003)",
+          "start_year": 2003,
+          "end_period": "03/04 (30.06.2004)",
+          "end_year": 2003
+        },
+        {
+          "club": "FCA Walldorf",
+          "club_url": "https://www.transfermarkt.de/fc-astoria-walldorf/startseite/verein/1348/saison_id/2002",
+          "role": "Nachwuchskoordinator",
+          "start_period": "02/03 (01.07.2002)",
+          "start_year": 2002,
+          "end_period": "02/03 (30.06.2003)",
+          "end_year": 2002
+        }
+      ],
+      "total_stations": 15,
+      "expected_club": "Borussia Mönchengladbach",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/tobias-trulsen/profil/trainer/77818",
+      "scraped_at": "2026-02-08T21:08:17.728786",
+      "name": "TobiasTrulsen",
+      "current_club": "Bor. M'gladbach",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "Bor. M'gladbach",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (15.09.2025)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "M'gladbach II",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-ii/startseite/verein/1006/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (01.07.2022)",
+          "start_year": 2022,
+          "end_period": "25/26 (14.09.2025)",
+          "end_year": 2025
+        },
+        {
+          "club": "M'gladbach U17",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u17/startseite/verein/21056/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "21/22 (30.06.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "St. Pauli II",
+          "club_url": "https://www.transfermarkt.de/fc-st-pauli-ii/startseite/verein/225/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (01.07.2020)",
+          "start_year": 2020,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "St. Pauli U19",
+          "club_url": "https://www.transfermarkt.de/fc-st-pauli-u19/startseite/verein/2486/saison_id/2018",
+          "role": "Co-Trainer",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "19/20 (30.06.2020)",
+          "end_year": 2019
+        }
+      ],
+      "total_stations": 5,
+      "expected_club": "Borussia Mönchengladbach",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/soren-hartung/profil/trainer/9891",
+      "scraped_at": "2026-02-08T21:08:25.740957",
+      "name": "SörenHartung",
+      "current_club": "1.FSV Mainz 05",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (01.01.2024)",
+          "start_year": 2023,
+          "end_period": "-"
+        },
+        {
+          "club": "Mainz 05 U17",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2017",
+          "role": "Trainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "23/24 (31.12.2023)",
+          "end_year": 2023
+        },
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2015",
+          "role": "Chefanalytiker",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "16/17 (22.05.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "16/17 (22.05.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "Mainz 05 Jgd.",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2014",
+          "role": "Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "14/15 (30.06.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "Mainz 05 U19",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2013",
+          "role": "Co-Trainer",
+          "start_period": "13/14 (01.07.2013)",
+          "start_year": 2013,
+          "end_period": "13/14 (30.06.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "Mainz 05 Jgd.",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2011",
+          "role": "Trainer",
+          "start_period": "11/12 (01.07.2011)",
+          "start_year": 2011,
+          "end_period": "12/13 (30.06.2013)",
+          "end_year": 2012
+        },
+        {
+          "club": "Mainz 05 U19",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2009",
+          "role": "Co-Trainer",
+          "start_period": "09/10 (14.09.2009)",
+          "start_year": 2009,
+          "end_period": "10/11 (30.06.2011)",
+          "end_year": 2010
+        },
+        {
+          "club": "Mainz 05 U19",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2009",
+          "role": "Interimstrainer",
+          "start_period": "09/10 (01.08.2009)",
+          "start_year": 2009,
+          "end_period": "09/10 (13.09.2009)",
+          "end_year": 2009
+        },
+        {
+          "club": "Mainz 05 U19",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2008",
+          "role": "Co-Trainer",
+          "start_period": "08/09 (01.01.2009)",
+          "start_year": 2008,
+          "end_period": "09/10 (31.07.2009)",
+          "end_year": 2009
+        },
+        {
+          "club": "Mainz 05 Jgd.",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2008",
+          "role": "Trainer",
+          "start_period": "08/09 (01.07.2008)",
+          "start_year": 2008,
+          "end_period": "08/09 (31.12.2008)",
+          "end_year": 2008
+        },
+        {
+          "club": "Darmstadt Jgd.",
+          "club_url": "https://www.transfermarkt.de/sv-darmstadt-98-jugend/startseite/verein/33469/saison_id/2006",
+          "role": "Trainer",
+          "start_period": "06/07 (01.07.2006)",
+          "start_year": 2006,
+          "end_period": "07/08 (30.06.2008)",
+          "end_year": 2007
+        }
+      ],
+      "total_stations": 12,
+      "expected_club": "1. FSV Mainz 05",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/michael-silberbauer/profil/trainer/49694",
+      "scraped_at": "2026-02-08T21:08:29.368348",
+      "name": "MichaelSilberbauer",
+      "current_club": "1.FSV Mainz 05",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (14.02.2024)",
+          "start_year": 2023,
+          "end_period": "vsl. 30.06.2026"
+        },
+        {
+          "club": "FC Utrecht",
+          "club_url": "https://www.transfermarkt.de/fc-utrecht/startseite/verein/200/saison_id/2022",
+          "role": "Trainer",
+          "start_period": "22/23 (28.12.2022)",
+          "start_year": 2022,
+          "end_period": "23/24 (29.08.2023)",
+          "end_year": 2023
+        },
+        {
+          "club": "FC Midtjylland",
+          "club_url": "https://www.transfermarkt.de/fc-midtjylland/startseite/verein/865/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (01.07.2022)",
+          "start_year": 2022,
+          "end_period": "22/23 (27.12.2022)",
+          "end_year": 2022
+        },
+        {
+          "club": "FC Utrecht",
+          "club_url": "https://www.transfermarkt.de/fc-utrecht/startseite/verein/200/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (24.03.2022)",
+          "start_year": 2021,
+          "end_period": "21/22 (30.06.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "FC Basel",
+          "club_url": "https://www.transfermarkt.de/fc-basel-1893/startseite/verein/26/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "21/22 (31.12.2021)",
+          "end_year": 2021
+        },
+        {
+          "club": "Midtjylland U19",
+          "club_url": "https://www.transfermarkt.de/fc-midtjylland-u19/startseite/verein/9054/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (17.08.2020)",
+          "start_year": 2020,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "Pacific FC",
+          "club_url": "https://www.transfermarkt.de/pacific-fc/startseite/verein/68221/saison_id/2018",
+          "role": "Trainer",
+          "start_period": "18/19 (01.01.2019)",
+          "start_year": 2018,
+          "end_period": "19/20 (18.10.2019)",
+          "end_year": 2019
+        },
+        {
+          "club": "FC Luzern",
+          "club_url": "https://www.transfermarkt.de/fc-luzern/startseite/verein/434/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (05.01.2018)",
+          "start_year": 2017,
+          "end_period": "18/19 (31.12.2018)",
+          "end_year": 2018
+        },
+        {
+          "club": "FC Luzern",
+          "club_url": "https://www.transfermarkt.de/fc-luzern/startseite/verein/434/saison_id/2015",
+          "role": "Videoanalyst",
+          "start_period": "15/16 (01.03.2016)",
+          "start_year": 2015,
+          "end_period": "17/18 (05.01.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "FC Biel-Bienne",
+          "club_url": "https://www.transfermarkt.de/fc-biel-bienne/startseite/verein/2155/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "15/16 (29.02.2016)",
+          "end_year": 2015
+        }
+      ],
+      "total_stations": 10,
+      "expected_club": "1. FSV Mainz 05",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/markus-hoffmann/profil/trainer/5792",
+      "scraped_at": "2026-02-08T21:08:33.007357",
+      "name": "MarkusHoffmann",
+      "current_club": "1.FSV Mainz 05",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (07.12.2025)",
+          "start_year": 2025,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2018",
+          "role": "Co-Trainer",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "23/24 (15.11.2023)",
+          "end_year": 2023
+        },
+        {
+          "club": "FC St. Gallen",
+          "club_url": "https://www.transfermarkt.de/fc-st-gallen-1879/startseite/verein/257/saison_id/2017",
+          "role": "Co-Trainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "17/18 (24.04.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "FC Basel",
+          "club_url": "https://www.transfermarkt.de/fc-basel-1893/startseite/verein/26/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "16/17 (30.06.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "Spartak Moskau",
+          "club_url": "https://www.transfermarkt.de/spartak-moskau/startseite/verein/232/saison_id/2014",
+          "role": "Chefanalytiker",
+          "start_period": "14/15 (23.06.2014)",
+          "start_year": 2014,
+          "end_period": "14/15 (31.05.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "FC Basel",
+          "club_url": "https://www.transfermarkt.de/fc-basel-1893/startseite/verein/26/saison_id/2011",
+          "role": "Co-Trainer",
+          "start_period": "11/12 (01.01.2012)",
+          "start_year": 2011,
+          "end_period": "13/14 (17.06.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "Seekirchen",
+          "club_url": "https://www.transfermarkt.de/sv-seekirchen/startseite/verein/4463/saison_id/2007",
+          "role": "Trainer",
+          "start_period": "07/08 (31.03.2008)",
+          "start_year": 2007,
+          "end_period": "11/12 (31.12.2011)",
+          "end_year": 2011
+        },
+        {
+          "club": "Seekirchen",
+          "club_url": "https://www.transfermarkt.de/sv-seekirchen/startseite/verein/4463/saison_id/2007",
+          "role": "Co-Trainer",
+          "start_period": "07/08 (01.01.2008)",
+          "start_year": 2007,
+          "end_period": "07/08 (31.03.2008)",
+          "end_year": 2007
+        }
+      ],
+      "total_stations": 8,
+      "expected_club": "1. FSV Mainz 05",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/sebastian-podsiadly/profil/trainer/92156",
+      "scraped_at": "2026-02-08T21:08:36.884267",
+      "name": "SebastianPodsiadly",
+      "current_club": "1.FSV Mainz 05",
+      "current_role": "Co-Trainer Analyse",
+      "career_history": [
+        {
+          "club": "1.FSV Mainz 05",
+          "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2025",
+          "role": "Co-Trainer Analyse",
+          "start_period": "25/26 (07.12.2025)",
+          "start_year": 2025,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "Al Ahly",
+          "club_url": "https://www.transfermarkt.de/el-ahly-kairo/startseite/verein/7/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (29.05.2025)",
+          "start_year": 2024,
+          "end_period": "25/26 (31.08.2025)",
+          "end_year": 2025
+        },
+        {
+          "club": "Sturm Graz",
+          "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2024",
+          "role": "Spielanalyst",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "24/25 (03.01.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "VfL Wolfsburg",
+          "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2023",
+          "role": "Gegneranalyst",
+          "start_period": "23/24 (01.02.2024)",
+          "start_year": 2023,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "VfL Wolfsburg",
+          "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2023",
+          "role": "Videoanalyst",
+          "start_period": "23/24 (01.02.2024)",
+          "start_year": 2023,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2020",
+          "role": "Spielanalyst",
+          "start_period": "20/21 (01.09.2020)",
+          "start_year": 2020,
+          "end_period": "23/24 (31.01.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2020",
+          "role": "Videoanalyst",
+          "start_period": "20/21 (01.09.2020)",
+          "start_year": 2020,
+          "end_period": "23/24 (31.01.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "SC West U17",
+          "club_url": "https://www.transfermarkt.de/sc-west-koln-u17/startseite/verein/91054/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (01.07.2020)",
+          "start_year": 2020,
+          "end_period": "20/21 (31.08.2020)",
+          "end_year": 2020
+        },
+        {
+          "club": "FC St. Pauli",
+          "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2019",
+          "role": "Scout",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "19/20 (30.06.2020)",
+          "end_year": 2019
+        },
+        {
+          "club": "FC St. Pauli",
+          "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2018",
+          "role": "Gegneranalyst",
+          "start_period": "18/19 (01.01.2019)",
+          "start_year": 2018,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "1.FC K'lautern",
+          "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2016",
+          "role": "Koordinator Nachwuchsscouting",
+          "start_period": "16/17 (01.07.2016)",
+          "start_year": 2016,
+          "end_period": "18/19 (31.10.2018)",
+          "end_year": 2018
+        },
+        {
+          "club": "Deutschland",
+          "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2015",
+          "role": "Gegneranalyst",
+          "start_period": "15/16 (01.08.2015)",
+          "start_year": 2015,
+          "end_period": "16/17 (31.08.2016)",
+          "end_year": 2016
+        },
+        {
+          "club": "Deutschland",
+          "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2015",
+          "role": "Spielanalyst",
+          "start_period": "15/16 (01.08.2015)",
+          "start_year": 2015,
+          "end_period": "16/17 (31.08.2016)",
+          "end_year": 2016
+        },
+        {
+          "club": "1.FC K'lautern",
+          "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2014",
+          "role": "Scout",
+          "start_period": "14/15 (01.10.2014)",
+          "start_year": 2014,
+          "end_period": "15/16 (30.06.2016)",
+          "end_year": 2015
+        },
+        {
+          "club": "Deutz 05 Jgd.",
+          "club_url": "https://www.transfermarkt.de/sportvereinigung-deutz-05-jugend/startseite/verein/86660/saison_id/2014",
+          "role": "Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "14/15 (31.12.2014)",
+          "end_year": 2014
+        },
+        {
+          "club": "Bedburg Jgd.",
+          "club_url": "https://www.transfermarkt.de/bedburger-bv-jugend/startseite/verein/100201/saison_id/2013",
+          "role": "Trainer",
+          "start_period": "13/14 (01.07.2013)",
+          "start_year": 2013,
+          "end_period": "13/14 (30.06.2014)",
+          "end_year": 2013
+        }
+      ],
+      "total_stations": 16,
+      "expected_club": "1. FSV Mainz 05",
+      "expected_role": "Co-Trainer Analyse"
+    },
+    {
+      "url": "https://www.transfermarkt.de/melanie-christian/profil/trainer/128345",
+      "scraped_at": "2026-02-08T21:08:40.276555",
+      "name": "MelanieChristian",
+      "current_club": "1.FSV Mainz 05",
+      "current_role": "Assistentin der Geschäftsführung",
+      "career_history": [],
+      "total_stations": 0,
+      "expected_club": "1. FSV Mainz 05",
+      "expected_role": "Assistentin der Geschäftsführung"
+    },
+    {
+      "url": "https://www.transfermarkt.de/alexander-frankenberger/profil/trainer/38841",
+      "scraped_at": "2026-02-08T21:08:47.828595",
+      "name": "AlexanderFrankenberger",
+      "current_club": "FC Augsburg",
+      "current_role": "Co-Trainerund weitere Tätigkeiten",
+      "career_history": [
+        {
+          "club": "FC Augsburg",
+          "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (02.12.2025)",
+          "start_year": 2025,
+          "end_period": "vsl. 30.06.2026"
+        },
+        {
+          "club": "FC Augsburg",
+          "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2024",
+          "role": "Koordinator Talentförderung",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "-"
+        },
+        {
+          "club": "FC Augsburg U19",
+          "club_url": "https://www.transfermarkt.de/fc-augsburg-u19/startseite/verein/4780/saison_id/2019",
+          "role": "Trainer",
+          "start_period": "19/20 (29.12.2019)",
+          "start_year": 2019,
+          "end_period": "22/23 (30.06.2023)",
+          "end_year": 2022
+        },
+        {
+          "club": "FC Augsburg II",
+          "club_url": "https://www.transfermarkt.de/fc-augsburg-ii/startseite/verein/5379/saison_id/2018",
+          "role": "Interimstrainer",
+          "start_period": "18/19 (17.10.2018)",
+          "start_year": 2018,
+          "end_period": "18/19 (06.01.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "FC Augsburg",
+          "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2017",
+          "role": "Nachwuchs-Cheftrainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "FC Augsburg",
+          "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2016",
+          "role": "Co-Trainer",
+          "start_period": "16/17 (14.12.2016)",
+          "start_year": 2016,
+          "end_period": "16/17 (30.06.2017)",
+          "end_year": 2016
+        },
+        {
+          "club": "FC Augsburg U19",
+          "club_url": "https://www.transfermarkt.de/fc-augsburg-u19/startseite/verein/4780/saison_id/2014",
+          "role": "Trainer",
+          "start_period": "14/15 (01.01.2015)",
+          "start_year": 2014,
+          "end_period": "16/17 (13.12.2016)",
+          "end_year": 2016
+        },
+        {
+          "club": "TSV 1860 Jgd.",
+          "club_url": "https://www.transfermarkt.de/tsv-1860-munchen-jugend/startseite/verein/18929/saison_id/2004",
+          "role": "Trainer",
+          "start_period": "04/05 (01.07.2004)",
+          "start_year": 2004,
+          "end_period": "12/13 (30.06.2013)",
+          "end_year": 2012
+        }
+      ],
+      "total_stations": 8,
+      "expected_club": "FC Augsburg",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/frank-frohling/profil/trainer/14724",
+      "scraped_at": "2026-02-08T21:08:51.951258",
+      "name": "FrankFröhling",
+      "current_club": "FC Augsburg",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "FC Augsburg",
+          "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (07.01.2026)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "TSG Hoffenheim",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (01.07.2022)",
+          "start_year": 2022,
+          "end_period": "24/25 (30.06.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "SC Paderborn",
+          "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "21/22 (30.06.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "FC Schalke 04",
+          "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "20/21 (27.09.2020)",
+          "end_year": 2020
+        },
+        {
+          "club": "Hamburger SV",
+          "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2016",
+          "role": "Co-Trainer",
+          "start_period": "16/17 (25.09.2016)",
+          "start_year": 2016,
+          "end_period": "17/18 (21.01.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "TSG Hoffenheim",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2013",
+          "role": "Co-Trainer",
+          "start_period": "13/14 (01.07.2013)",
+          "start_year": 2013,
+          "end_period": "15/16 (26.10.2015)",
+          "end_year": 2015
+        },
+        {
+          "club": "Hoffenheim II",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2012",
+          "role": "Co-Trainer",
+          "start_period": "12/13 (01.07.2012)",
+          "start_year": 2012,
+          "end_period": "12/13 (30.06.2013)",
+          "end_year": 2012
+        },
+        {
+          "club": "Hoffenheim Jgd.",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2009",
+          "role": "Trainer",
+          "start_period": "09/10 (01.07.2009)",
+          "start_year": 2009,
+          "end_period": "12/13 (30.06.2013)",
+          "end_year": 2012
+        },
+        {
+          "club": "Hoffenheim Jgd.",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2007",
+          "role": "Co-Trainer",
+          "start_period": "07/08 (01.07.2007)",
+          "start_year": 2007,
+          "end_period": "08/09 (30.06.2009)",
+          "end_year": 2008
+        }
+      ],
+      "total_stations": 9,
+      "expected_club": "FC Augsburg",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/julian-lauer/profil/trainer/146749",
+      "scraped_at": "2026-02-08T21:08:56.235108",
+      "name": "JulianLauer",
+      "current_club": "FC Augsburg",
+      "current_role": "Co-Trainer Analyse",
+      "career_history": [
+        {
+          "club": "FC Augsburg",
+          "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2025",
+          "role": "Co-Trainer Analyse",
+          "start_period": "25/26 (01.07.2025)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "Frauenfußball",
+          "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2021",
+          "role": "Spielanalyst",
+          "start_period": "21/22 (01.09.2021)",
+          "start_year": 2021,
+          "end_period": "24/25 (30.06.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "Buchbach Jgd.",
+          "club_url": "https://www.transfermarkt.de/tsv-buchbach-jugend/startseite/verein/18909/saison_id/2014",
+          "role": "Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "19/20 (01.04.2020)",
+          "end_year": 2019
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "FC Augsburg",
+      "expected_role": "Co-Trainer Analyse"
+    },
+    {
+      "url": "https://www.transfermarkt.de/bernhard-raab/profil/trainer/9802",
+      "scraped_at": "2026-02-08T21:09:04.270065",
+      "name": "BernhardRaab",
+      "current_club": "1.FC Heidenheim",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "1.FC Heidenheim",
+          "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2018",
+          "role": "Co-Trainer",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "vsl. 30.06.2027"
+        },
+        {
+          "club": "Heidenheim U19",
+          "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-u19/startseite/verein/14822/saison_id/2014",
+          "role": "Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "15/16 (30.06.2016)",
+          "end_year": 2015
+        },
+        {
+          "club": "1.FC Heidenheim",
+          "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2014",
+          "role": "Co-Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "14/15 (30.06.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "1.FC Heidenheim",
+          "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2013",
+          "role": "Leiter der Nachwuchsabteilung",
+          "start_period": "13/14 (01.04.2014)",
+          "start_year": 2013,
+          "end_period": "17/18 (30.06.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "Sumqayit",
+          "club_url": "https://www.transfermarkt.de/sumqayit-pfk/startseite/verein/36999/saison_id/2011",
+          "role": "Trainer",
+          "start_period": "11/12 (19.09.2011)",
+          "start_year": 2011,
+          "end_period": "12/13 (11.06.2013)",
+          "end_year": 2012
+        },
+        {
+          "club": "SV Wehen II",
+          "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden-ii/startseite/verein/1324/saison_id/2010",
+          "role": "Trainer",
+          "start_period": "10/11 (01.07.2010)",
+          "start_year": 2010,
+          "end_period": "10/11 (30.06.2011)",
+          "end_year": 2010
+        },
+        {
+          "club": "Wehen Wiesbaden",
+          "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden/startseite/verein/108/saison_id/2008",
+          "role": "Manager",
+          "start_period": "08/09 (15.04.2009)",
+          "start_year": 2008,
+          "end_period": "08/09 (30.06.2009)",
+          "end_year": 2008
+        },
+        {
+          "club": "Wehen Wiesbaden",
+          "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden/startseite/verein/108/saison_id/2008",
+          "role": "Nachwuchskoordinator",
+          "start_period": "08/09 (01.07.2008)",
+          "start_year": 2008,
+          "end_period": "10/11 (30.06.2011)",
+          "end_year": 2010
+        },
+        {
+          "club": "FV Biebrich 02",
+          "club_url": "https://www.transfermarkt.de/fv-biebrich-02/startseite/verein/1595/saison_id/2006",
+          "role": "Spielertrainer",
+          "start_period": "06/07 (01.07.2006)",
+          "start_year": 2006,
+          "end_period": "07/08 (30.06.2008)",
+          "end_year": 2007
+        }
+      ],
+      "total_stations": 9,
+      "expected_club": "1. FC Heidenheim",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/dieter-jarosch/profil/trainer/35391",
+      "scraped_at": "2026-02-08T21:09:08.301085",
+      "name": "DieterJarosch",
+      "current_club": "1.FC Heidenheim",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "1.FC Heidenheim",
+          "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2018",
+          "role": "Co-Trainer",
+          "start_period": "18/19 (01.07.2018)",
+          "start_year": 2018,
+          "end_period": "vsl. 30.06.2027"
+        },
+        {
+          "club": "1.FC Heidenheim",
+          "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2015",
+          "role": "Scout",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "17/18 (30.06.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "Heidenheim U19",
+          "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-u19/startseite/verein/14822/saison_id/2014",
+          "role": "Co-Trainer",
+          "start_period": "14/15 (01.07.2014)",
+          "start_year": 2014,
+          "end_period": "14/15 (30.06.2015)",
+          "end_year": 2014
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "1. FC Heidenheim",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/peter-nemeth/profil/trainer/6414",
+      "scraped_at": "2026-02-08T21:09:16.971192",
+      "name": "PeterNémeth",
+      "current_club": "FC St. Pauli",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "FC St. Pauli",
+          "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (27.12.2022)",
+          "start_year": 2022,
+          "end_period": "-"
+        },
+        {
+          "club": "Arm. Bielefeld",
+          "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2018",
+          "role": "Co-Trainer",
+          "start_period": "18/19 (10.12.2018)",
+          "start_year": 2018,
+          "end_period": "20/21 (01.03.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "Dynamo Dresden",
+          "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "18/19 (22.08.2018)",
+          "end_year": 2018
+        },
+        {
+          "club": "Dynamo Dresden",
+          "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2014",
+          "role": "Trainer",
+          "start_period": "14/15 (17.02.2015)",
+          "start_year": 2014,
+          "end_period": "14/15 (30.06.2015)",
+          "end_year": 2014
+        },
+        {
+          "club": "Dynamo Dresden",
+          "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2013",
+          "role": "Co-Trainer",
+          "start_period": "13/14 (16.09.2013)",
+          "start_year": 2013,
+          "end_period": "13/14 (30.06.2014)",
+          "end_year": 2013
+        },
+        {
+          "club": "Spfr. Siegen",
+          "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2009",
+          "role": "Trainer",
+          "start_period": "09/10 (29.03.2010)",
+          "start_year": 2009,
+          "end_period": "09/10 (12.04.2010)",
+          "end_year": 2009
+        },
+        {
+          "club": "Spfr. Siegen",
+          "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2009",
+          "role": "Co-Trainer",
+          "start_period": "09/10 (29.10.2009)",
+          "start_year": 2009,
+          "end_period": "09/10 (28.03.2010)",
+          "end_year": 2009
+        },
+        {
+          "club": "Spfr. Siegen",
+          "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2008",
+          "role": "Trainer",
+          "start_period": "08/09 (01.01.2009)",
+          "start_year": 2008,
+          "end_period": "08/09 (02.06.2009)",
+          "end_year": 2008
+        },
+        {
+          "club": "Spfr. Siegen",
+          "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2008",
+          "role": "Spielertrainer",
+          "start_period": "08/09 (04.07.2008)",
+          "start_year": 2008,
+          "end_period": "08/09 (31.12.2008)",
+          "end_year": 2008
+        },
+        {
+          "club": "Spfr. Siegen",
+          "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2007",
+          "role": "Trainer",
+          "start_period": "07/08 (17.05.2008)",
+          "start_year": 2007,
+          "end_period": "08/09 (03.07.2008)",
+          "end_year": 2008
+        },
+        {
+          "club": "Spfr. Siegen",
+          "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2007",
+          "role": "Spielertrainer",
+          "start_period": "07/08 (01.05.2008)",
+          "start_year": 2007,
+          "end_period": "07/08 (16.05.2008)",
+          "end_year": 2007
+        }
+      ],
+      "total_stations": 11,
+      "expected_club": "FC St. Pauli",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/carsten-rothenbach/profil/trainer/98444",
+      "scraped_at": "2026-02-08T21:09:20.515541",
+      "name": "CarstenRothenbach",
+      "current_club": "St. Pauli II",
+      "current_role": "Sportlicher Leiterund weitere Tätigkeiten",
+      "career_history": [
+        {
+          "club": "FC St. Pauli",
+          "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2022",
+          "role": "Assistent der Geschäftsführung",
+          "start_period": "22/23 (01.01.2023)",
+          "start_year": 2022,
+          "end_period": "-"
+        },
+        {
+          "club": "St. Pauli II",
+          "club_url": "https://www.transfermarkt.de/fc-st-pauli-ii/startseite/verein/225/saison_id/2021",
+          "role": "Sportlicher Leiter",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "-"
+        },
+        {
+          "club": "FC St. Pauli",
+          "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2015",
+          "role": "Leitender Assistent des Geschäftsführers Sport",
+          "start_period": "15/16 (01.07.2015)",
+          "start_year": 2015,
+          "end_period": "22/23 (31.12.2022)",
+          "end_year": 2022
+        }
+      ],
+      "total_stations": 3,
+      "expected_club": "FC St. Pauli",
+      "expected_role": "Assistent der Geschäftsführung"
+    },
+    {
+      "url": "https://www.transfermarkt.de/marc-andre-kruska/profil/trainer/71636",
+      "scraped_at": "2026-02-08T21:09:28.374893",
+      "name": "Marc-AndréKruska",
+      "current_club": "VfL Bochum",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "VfL Bochum",
+          "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (12.11.2024)",
+          "start_year": 2024,
+          "end_period": "-"
+        },
+        {
+          "club": "VfL Bochum II",
+          "club_url": "https://www.transfermarkt.de/vfl-bochum-ii/startseite/verein/446/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "24/25 (11.11.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "VfL Bochum",
+          "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (09.04.2024)",
+          "start_year": 2023,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "VfL Bochum U19",
+          "club_url": "https://www.transfermarkt.de/vfl-bochum-u19/startseite/verein/3862/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (01.07.2019)",
+          "start_year": 2019,
+          "end_period": "23/24 (08.04.2024)",
+          "end_year": 2023
+        }
+      ],
+      "total_stations": 4,
+      "expected_club": "VfL Bochum",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/anthony-losilla/profil/trainer/127094",
+      "scraped_at": "2026-02-08T21:09:31.897360",
+      "name": "AnthonyLosilla",
+      "current_club": "VfL Bochum",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "VfL Bochum",
+          "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (01.07.2025)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "VfL Bochum U19",
+          "club_url": "https://www.transfermarkt.de/vfl-bochum-u19/startseite/verein/3862/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (01.07.2023)",
+          "start_year": 2023,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        }
+      ],
+      "total_stations": 2,
+      "expected_club": "VfL Bochum",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/alessandro-riedle/profil/trainer/115658",
+      "scraped_at": "2026-02-08T21:09:35.571207",
+      "name": "AlessandroRiedle",
+      "current_club": "VfL Bochum",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "VfL Bochum",
+          "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (06.10.2025)",
+          "start_year": 2025,
+          "end_period": "-"
+        },
+        {
+          "club": "FC Zürich",
+          "club_url": "https://www.transfermarkt.de/fc-zurich/startseite/verein/260/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "24/25 (27.05.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "M'gladbach U19",
+          "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (01.07.2022)",
+          "start_year": 2022,
+          "end_period": "23/24 (30.06.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "FC Wangen 05",
+          "club_url": "https://www.transfermarkt.de/fc-wangen-05/startseite/verein/25011/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (01.07.2020)",
+          "start_year": 2020,
+          "end_period": "21/22 (30.06.2022)",
+          "end_year": 2021
+        }
+      ],
+      "total_stations": 4,
+      "expected_club": "VfL Bochum",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/hannes-dold/profil/trainer/62807",
+      "scraped_at": "2026-02-08T21:09:42.849941",
+      "name": "HannesDold",
+      "current_club": "1.FC Köln",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (01.07.2023)",
+          "start_year": 2023,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2014",
+          "role": "Chefanalytiker",
+          "start_period": "14/15 (01.09.2014)",
+          "start_year": 2014,
+          "end_period": "24/25 (30.06.2025)",
+          "end_year": 2024
+        }
+      ],
+      "total_stations": 2,
+      "expected_club": "1. FC Köln",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/frank-kaspari/profil/trainer/4864",
+      "scraped_at": "2026-02-08T21:09:46.733741",
+      "name": "FrankKaspari",
+      "current_club": "1.FC Köln",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (01.07.2025)",
+          "start_year": 2025,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "SC Paderborn",
+          "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2022",
+          "role": "Co-Trainer",
+          "start_period": "22/23 (01.07.2022)",
+          "start_year": 2022,
+          "end_period": "24/25 (30.06.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2021",
+          "role": "Betreuer der Leihspieler",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "21/22 (30.06.2022)",
+          "end_year": 2021
+        },
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (18.11.2019)",
+          "start_year": 2019,
+          "end_period": "20/21 (11.04.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "Hamburger SV",
+          "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2016",
+          "role": "Co-Trainer",
+          "start_period": "16/17 (25.09.2016)",
+          "start_year": 2016,
+          "end_period": "17/18 (21.01.2018)",
+          "end_year": 2017
+        },
+        {
+          "club": "TSG Hoffenheim",
+          "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2012",
+          "role": "Co-Trainer",
+          "start_period": "12/13 (02.04.2013)",
+          "start_year": 2012,
+          "end_period": "15/16 (26.10.2015)",
+          "end_year": 2015
+        },
+        {
+          "club": "SSV Ulm U19",
+          "club_url": "https://www.transfermarkt.de/ssv-ulm-1846-u19/startseite/verein/7750/saison_id/2012",
+          "role": "Trainer",
+          "start_period": "12/13 (19.09.2012)",
+          "start_year": 2012,
+          "end_period": "12/13 (01.04.2013)",
+          "end_year": 2012
+        },
+        {
+          "club": "SSV Ulm U19",
+          "club_url": "https://www.transfermarkt.de/ssv-ulm-1846-u19/startseite/verein/7750/saison_id/2008",
+          "role": "Trainer",
+          "start_period": "08/09 (01.07.2008)",
+          "start_year": 2008,
+          "end_period": "09/10 (22.09.2009)",
+          "end_year": 2009
+        },
+        {
+          "club": "Sonnenhof-Gr.",
+          "club_url": "https://www.transfermarkt.de/sg-sonnenhof-grossaspach/startseite/verein/2589/saison_id/2007",
+          "role": "Co-Trainer",
+          "start_period": "07/08 (01.07.2007)",
+          "start_year": 2007,
+          "end_period": "07/08 (19.11.2007)",
+          "end_year": 2007
+        }
+      ],
+      "total_stations": 9,
+      "expected_club": "1. FC Köln",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/rene-wagner/profil/trainer/73659",
+      "scraped_at": "2026-02-08T21:09:51.141528",
+      "name": "RenéWagner",
+      "current_club": "1.FC Köln",
+      "current_role": "Co-Trainer",
+      "career_history": [
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2025",
+          "role": "Co-Trainer",
+          "start_period": "25/26 (01.07.2025)",
+          "start_year": 2025,
+          "end_period": "vsl. 30.06.2028"
+        },
+        {
+          "club": "Union Berlin",
+          "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2024",
+          "role": "Co-Trainer",
+          "start_period": "24/25 (02.01.2025)",
+          "start_year": 2024,
+          "end_period": "24/25 (24.05.2025)",
+          "end_year": 2024
+        },
+        {
+          "club": "Hamburger SV",
+          "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2023",
+          "role": "Co-Trainer",
+          "start_period": "23/24 (20.02.2024)",
+          "start_year": 2023,
+          "end_period": "24/25 (24.11.2024)",
+          "end_year": 2024
+        },
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2021",
+          "role": "Co-Trainer",
+          "start_period": "21/22 (01.07.2021)",
+          "start_year": 2021,
+          "end_period": "23/24 (02.01.2024)",
+          "end_year": 2023
+        },
+        {
+          "club": "SC Paderborn",
+          "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2020",
+          "role": "Co-Trainer",
+          "start_period": "20/21 (05.08.2020)",
+          "start_year": 2020,
+          "end_period": "20/21 (30.06.2021)",
+          "end_year": 2020
+        },
+        {
+          "club": "Miami Academy",
+          "club_url": "https://www.transfermarkt.de/inter-miami-cf-academy/startseite/verein/77843/saison_id/2019",
+          "role": "Co-Trainer",
+          "start_period": "19/20 (01.08.2019)",
+          "start_year": 2019,
+          "end_period": "20/21 (04.08.2020)",
+          "end_year": 2020
+        },
+        {
+          "club": "Barry Bucs",
+          "club_url": "https://www.transfermarkt.de/barry-buccaneers-barry-university-/startseite/verein/36619/saison_id/2018",
+          "role": "Co-Trainer",
+          "start_period": "18/19 (01.04.2019)",
+          "start_year": 2018,
+          "end_period": "20/21 (04.08.2020)",
+          "end_year": 2020
+        },
+        {
+          "club": "Palm Beach Utd.",
+          "club_url": "https://www.transfermarkt.de/palm-beach-united/startseite/verein/66417/saison_id/2017",
+          "role": "Trainer",
+          "start_period": "17/18 (01.07.2017)",
+          "start_year": 2017,
+          "end_period": "18/19 (30.06.2019)",
+          "end_year": 2018
+        },
+        {
+          "club": "Pacific Sharks",
+          "club_url": "https://www.transfermarkt.de/hawaii-pacific-sharks-hawaii-pacific-university-/startseite/verein/18021/saison_id/2015",
+          "role": "Co-Trainer",
+          "start_period": "15/16 (01.08.2015)",
+          "start_year": 2015,
+          "end_period": "17/18 (31.05.2017)",
+          "end_year": 2017
+        }
+      ],
+      "total_stations": 9,
+      "expected_club": "1. FC Köln",
+      "expected_role": "Co-Trainer"
+    },
+    {
+      "url": "https://www.transfermarkt.de/soren-braun/profil/trainer/143113",
+      "scraped_at": "2026-02-08T21:09:54.709095",
+      "name": "SörenBraun",
+      "current_club": "1.FC Köln",
+      "current_role": "Assistent der Geschäftsführung",
+      "career_history": [
+        {
+          "club": "1.FC Köln",
+          "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2024",
+          "role": "Assistent der Geschäftsführung",
+          "start_period": "24/25 (01.07.2024)",
+          "start_year": 2024,
+          "end_period": "-"
+        }
+      ],
+      "total_stations": 1,
+      "expected_club": "1. FC Köln",
+      "expected_role": "Assistent der Geschäftsführung"
+    }
+  ]
+}

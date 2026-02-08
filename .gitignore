@@ -9,8 +9,11 @@ tmp/raw_html/
 tmp/*.log
 data/*.json
 
-# Keep preloaded data for deployment
+# Keep critical data files for deployment
 !tmp/preloaded/
+!data/sd_coach_overlaps.json
+!data/sporting_directors_bundesliga.json
+!data/assistant_coaches_bundesliga.json
 
 # Python
 __pycache__/
