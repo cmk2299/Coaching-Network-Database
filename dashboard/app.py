@@ -1273,7 +1273,7 @@ if st.session_state.coach_data:
         st.markdown("### 🏢 Sporting Director Relationships")
 
         # Load SD-Coach overlaps data
-        sd_overlaps_file = Path(__file__).parent.parent / "data" / "sd_coach_overlaps.json"
+        sd_overlaps_file = Path(__file__).resolve().parent.parent / "data" / "sd_coach_overlaps.json"
 
         if sd_overlaps_file.exists():
             with open(sd_overlaps_file, 'r', encoding='utf-8') as f:
