@@ -90,9 +90,171 @@
       "name": "1. FC Köln",
       "logo_url": "https://tmssl.akamaized.net/images/wappen/head/3.png",
       "transfermarkt_id": 3
+    },
+    {
+      "name": "Genua CFC",
+      "aliases": ["Genoa", "Genoa CFC", "Genova"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/252.png",
+      "transfermarkt_id": 252,
+      "league": "Serie A"
+    },
+    {
+      "name": "AC Mailand",
+      "aliases": ["AC Milan", "Milan", "Milano"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/5.png",
+      "transfermarkt_id": 5,
+      "league": "Serie A"
+    },
+    {
+      "name": "Inter Mailand",
+      "aliases": ["Inter Milan", "Inter", "Internazionale"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/46.png",
+      "transfermarkt_id": 46,
+      "league": "Serie A"
+    },
+    {
+      "name": "Juventus Turin",
+      "aliases": ["Juventus", "Juve"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/506.png",
+      "transfermarkt_id": 506,
+      "league": "Serie A"
+    },
+    {
+      "name": "SSC Neapel",
+      "aliases": ["Napoli", "SSC Napoli"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/6195.png",
+      "transfermarkt_id": 6195,
+      "league": "Serie A"
+    },
+    {
+      "name": "AS Rom",
+      "aliases": ["AS Roma", "Roma"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/12.png",
+      "transfermarkt_id": 12,
+      "league": "Serie A"
+    },
+    {
+      "name": "Lazio Rom",
+      "aliases": ["Lazio", "SS Lazio"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/398.png",
+      "transfermarkt_id": 398,
+      "league": "Serie A"
+    },
+    {
+      "name": "Atalanta Bergamo",
+      "aliases": ["Atalanta", "Atalanta BC"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/800.png",
+      "transfermarkt_id": 800,
+      "league": "Serie A"
+    },
+    {
+      "name": "Real Madrid",
+      "aliases": ["Real", "Madrid"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/418.png",
+      "transfermarkt_id": 418,
+      "league": "La Liga"
+    },
+    {
+      "name": "FC Barcelona",
+      "aliases": ["Barcelona", "Barça", "Barca"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/131.png",
+      "transfermarkt_id": 131,
+      "league": "La Liga"
+    },
+    {
+      "name": "Atlético Madrid",
+      "aliases": ["Atletico Madrid", "Atlético", "Atletico"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/13.png",
+      "transfermarkt_id": 13,
+      "league": "La Liga"
+    },
+    {
+      "name": "Sevilla FC",
+      "aliases": ["Sevilla"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/368.png",
+      "transfermarkt_id": 368,
+      "league": "La Liga"
+    },
+    {
+      "name": "Real Sociedad",
+      "aliases": ["Sociedad"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/681.png",
+      "transfermarkt_id": 681,
+      "league": "La Liga"
+    },
+    {
+      "name": "Paris Saint-Germain",
+      "aliases": ["PSG", "Paris SG"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/583.png",
+      "transfermarkt_id": 583,
+      "league": "Ligue 1"
+    },
+    {
+      "name": "Olympique Marseille",
+      "aliases": ["Marseille", "OM"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/244.png",
+      "transfermarkt_id": 244,
+      "league": "Ligue 1"
+    },
+    {
+      "name": "Olympique Lyon",
+      "aliases": ["Lyon", "OL"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/1041.png",
+      "transfermarkt_id": 1041,
+      "league": "Ligue 1"
+    },
+    {
+      "name": "AS Monaco",
+      "aliases": ["Monaco"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/162.png",
+      "transfermarkt_id": 162,
+      "league": "Ligue 1"
+    },
+    {
+      "name": "Manchester City",
+      "aliases": ["Man City", "City"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/281.png",
+      "transfermarkt_id": 281,
+      "league": "Premier League"
+    },
+    {
+      "name": "Manchester United",
+      "aliases": ["Man United", "United", "Man Utd"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/985.png",
+      "transfermarkt_id": 985,
+      "league": "Premier League"
+    },
+    {
+      "name": "Liverpool FC",
+      "aliases": ["Liverpool"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/31.png",
+      "transfermarkt_id": 31,
+      "league": "Premier League"
+    },
+    {
+      "name": "Arsenal FC",
+      "aliases": ["Arsenal"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/11.png",
+      "transfermarkt_id": 11,
+      "league": "Premier League"
+    },
+    {
+      "name": "Chelsea FC",
+      "aliases": ["Chelsea"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/631.png",
+      "transfermarkt_id": 631,
+      "league": "Premier League"
+    },
+    {
+      "name": "Tottenham Hotspur",
+      "aliases": ["Spurs", "Tottenham"],
+      "logo_url": "https://tmssl.akamaized.net/images/wappen/head/148.png",
+      "transfermarkt_id": 148,
+      "league": "Premier League"
     }
   ],
   "source": "Transfermarkt CDN",
   "pattern": "https://tmssl.akamaized.net/images/wappen/head/{CLUB_ID}.png",
-  "notes": "Logo URLs from Transfermarkt's Akamai CDN. Format: head = 150x150px. Can be changed to: tiny (25x25), small (40x40), medium (80x80), big (120x120), header (200x200)"
+  "notes": "Logo URLs from Transfermarkt's Akamai CDN. Format: head = 150x150px. Can be changed to: tiny (25x25), small (40x40), medium (80x80), big (120x120), header (200x200). Extended coverage: Bundesliga, Serie A, La Liga, Ligue 1, Premier League",
+  "leagues_covered": ["Bundesliga", "Serie A", "La Liga", "Ligue 1", "Premier League"]
 }

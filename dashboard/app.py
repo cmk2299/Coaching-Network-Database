@@ -1332,39 +1332,92 @@ if st.session_state.coach_data:
                         st.markdown("---")
                         st.markdown("**🏟️ Overlap Periods:**")
 
-                        # Show each overlap
+                        # Group overlaps by club for better readability
                         overlaps = rel.get("overlaps", [])
+                        clubs_dict = {}
                         for overlap in overlaps:
                             club = overlap.get("club", "Unknown")
-                            sd_period = overlap.get("sd_period", "")
-                            coach_period = overlap.get("coach_period", "")
-                            hiring = overlap.get("hiring_likelihood", "unknown")
-                            overlap_years = overlap.get("overlap_years", 0)
+                            if club not in clubs_dict:
+                                clubs_dict[club] = []
+                            clubs_dict[club].append(overlap)
 
-                            # Hiring likelihood badge
-                            if hiring == "high":
+                        # Display grouped by club
+                        for club, club_overlaps in clubs_dict.items():
+                            # Calculate totals for this club
+                            total_years_at_club = sum(o.get("overlap_years", 0) for o in club_overlaps)
+                            num_periods = len(club_overlaps)
+
+                            # Get min/max years to show range
+                            all_starts = [o.get("overlap_start", 9999) for o in club_overlaps]
+                            all_ends = [o.get("overlap_end", 0) for o in club_overlaps]
+                            year_range = f"{min(all_starts)}-{max(all_ends)}"
+
+                            # Determine highest hiring likelihood for this club
+                            hiring_levels = [o.get("hiring_likelihood", "unknown") for o in club_overlaps]
+                            if "high" in hiring_levels:
+                                hiring = "high"
                                 badge = "🔥 HIGH"
                                 badge_color = "background-color: #ff4444; color: white;"
-                            elif hiring == "medium":
+                            elif "medium" in hiring_levels:
+                                hiring = "medium"
                                 badge = "⚠️ MEDIUM"
                                 badge_color = "background-color: #ffa500; color: white;"
                             else:
+                                hiring = "low"
                                 badge = "ℹ️ LOW"
                                 badge_color = "background-color: #888; color: white;"
 
-                            st.markdown(f"""
-                            <div style="padding: 10px; margin: 5px 0; border-left: 3px solid #4CAF50; background-color: #f9f9f9;">
-                                <strong>{club}</strong><br>
-                                <small>
-                                    SD Period: {sd_period}<br>
-                                    Coach Period: {coach_period}<br>
-                                    Duration: {overlap_years} years<br>
-                                    <span style="{badge_color} padding: 2px 8px; border-radius: 3px; font-weight: bold;">
-                                        Hiring Likelihood: {badge}
-                                    </span>
-                                </small>
-                            </div>
-                            """, unsafe_allow_html=True)
+                            # Show grouped summary
+                            if num_periods > 1:
+                                # Multiple periods - show summary with expandable detail
+                                with st.expander(f"**{club}** ({year_range}): {total_years_at_club} years, {num_periods} periods"):
+                                    for overlap in club_overlaps:
+                                        sd_period = overlap.get("sd_period", "")
+                                        coach_period = overlap.get("coach_period", "")
+                                        overlap_years = overlap.get("overlap_years", 0)
+                                        o_hiring = overlap.get("hiring_likelihood", "unknown")
+
+                                        # Individual hiring badge
+                                        if o_hiring == "high":
+                                            o_badge = "🔥 HIGH"
+                                            o_badge_color = "background-color: #ff4444; color: white;"
+                                        elif o_hiring == "medium":
+                                            o_badge = "⚠️ MEDIUM"
+                                            o_badge_color = "background-color: #ffa500; color: white;"
+                                        else:
+                                            o_badge = "ℹ️ LOW"
+                                            o_badge_color = "background-color: #888; color: white;"
+
+                                        st.markdown(f"""
+                                        <div style="padding: 8px; margin: 3px 0; border-left: 2px solid #ddd; background-color: #f9f9f9;">
+                                            <small>
+                                                SD: {sd_period} | Coach: {coach_period} | {overlap_years} years
+                                                <span style="{o_badge_color} padding: 1px 6px; border-radius: 3px; font-size: 0.8em;">
+                                                    {o_badge}
+                                                </span>
+                                            </small>
+                                        </div>
+                                        """, unsafe_allow_html=True)
+                            else:
+                                # Single period - show directly
+                                overlap = club_overlaps[0]
+                                sd_period = overlap.get("sd_period", "")
+                                coach_period = overlap.get("coach_period", "")
+                                overlap_years = overlap.get("overlap_years", 0)
+
+                                st.markdown(f"""
+                                <div style="padding: 10px; margin: 5px 0; border-left: 3px solid #4CAF50; background-color: #f9f9f9;">
+                                    <strong>{club}</strong> ({year_range})<br>
+                                    <small>
+                                        SD Period: {sd_period}<br>
+                                        Coach Period: {coach_period}<br>
+                                        Duration: {overlap_years} years<br>
+                                        <span style="{badge_color} padding: 2px 8px; border-radius: 3px; font-weight: bold;">
+                                            Hiring Likelihood: {badge}
+                                        </span>
+                                    </small>
+                                </div>
+                                """, unsafe_allow_html=True)
 
                 # Summary insights
                 st.markdown("---")
