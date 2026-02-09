@@ -1,11 +1,11 @@
 {
-  "analysis_date": "2026-02-09T12:14:00.300472",
+  "analysis_date": "2026-02-09T13:38:13.754130",
   "league": "Bundesliga",
   "season": "2024/25",
-  "total_executives": 212,
+  "total_executives": 222,
   "total_coaches": 18,
-  "total_relationships": 12,
-  "total_overlap_periods": 27,
+  "total_relationships": 19,
+  "total_overlap_periods": 36,
   "relationships": [
     {
       "coach_name": "Alexander Blessin",
@@ -225,6 +225,70 @@
       "relationship_strength": 71
     },
     {
+      "coach_name": "Julian Schuster",
+      "coach_current_club": "SC Freiburg",
+      "exec_name": "Jochen Saier",
+      "exec_current_role": "Sportvorstand",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "SC Freiburg",
+          "coach_position": "Head Coach",
+          "coach_role": "SC FreiburgTrainer",
+          "coach_period": "2024-2026",
+          "exec_role": "Sportvorstand",
+          "exec_category": "Technical",
+          "overlap_start": 2024,
+          "overlap_end": 2026,
+          "overlap_years": 3
+        },
+        {
+          "club": "SC FreiburgCo-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "SC FreiburgCo-Trainer",
+          "coach_period": "2018-2020",
+          "exec_role": "Sportvorstand",
+          "exec_category": "Technical",
+          "overlap_start": 2018,
+          "overlap_end": 2020,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 69
+    },
+    {
+      "coach_name": "Julian Schuster",
+      "coach_current_club": "SC Freiburg",
+      "exec_name": "Klemens Hartenbach",
+      "exec_current_role": "Sportdirektor",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "SC Freiburg",
+          "coach_position": "Head Coach",
+          "coach_role": "SC FreiburgTrainer",
+          "coach_period": "2024-2026",
+          "exec_role": "Sportdirektor",
+          "exec_category": "Technical",
+          "overlap_start": 2024,
+          "overlap_end": 2026,
+          "overlap_years": 3
+        },
+        {
+          "club": "SC FreiburgCo-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "SC FreiburgCo-Trainer",
+          "coach_period": "2018-2020",
+          "exec_role": "Sportdirektor",
+          "exec_category": "Technical",
+          "overlap_start": 2018,
+          "overlap_end": 2020,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 69
+    },
+    {
       "coach_name": "Sebastian Hoeneß",
       "coach_current_club": "VfB Stuttgart",
       "exec_name": "Sebastian Kegel",
@@ -362,6 +426,69 @@
       "relationship_strength": 29
     },
     {
+      "coach_name": "Kasper Hjulmand",
+      "coach_current_club": "Bayer 04 Leverkusen",
+      "exec_name": "Volker Kersting",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "1.FSV Mainz 05",
+          "coach_position": "Head Coach",
+          "coach_role": "1.FSV Mainz 05Trainer",
+          "coach_period": "2014-2016",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2015,
+          "overlap_end": 2016,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Sebastian Hoeneß",
+      "coach_current_club": "VfB Stuttgart",
+      "exec_name": "Thomas Krücken",
+      "exec_current_role": "Direktor Sport NLZ",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "VfB Stuttgart",
+          "coach_position": "Head Coach",
+          "coach_role": "VfB StuttgartTrainer",
+          "coach_period": "2022-2024",
+          "exec_role": "Direktor Sport NLZ",
+          "exec_category": "Academy",
+          "overlap_start": 2022,
+          "overlap_end": 2023,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Urs Fischer",
+      "coach_current_club": "1. FSV Mainz 05",
+      "exec_name": "Volker Kersting",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "1.FSV Mainz 05",
+          "coach_position": "Head Coach",
+          "coach_role": "1.FSV Mainz 05Trainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
       "coach_name": "Vincent Kompany",
       "coach_current_club": "FC Bayern München",
       "exec_name": "Hermann Gerland",
@@ -404,6 +531,27 @@
       "relationship_strength": 26
     },
     {
+      "coach_name": "Kasper Hjulmand",
+      "coach_current_club": "Bayer 04 Leverkusen",
+      "exec_name": "Siegfried Marti",
+      "exec_current_role": "Chefscout",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "1.FSV Mainz 05",
+          "coach_position": "Head Coach",
+          "coach_role": "1.FSV Mainz 05Trainer",
+          "coach_period": "2014-2016",
+          "exec_role": "Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2016,
+          "overlap_end": 2016,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
       "coach_name": "Daniel Thioune",
       "coach_current_club": "Werder Bremen",
       "exec_name": "Johannes Spors",
@@ -423,6 +571,27 @@
         }
       ],
       "relationship_strength": 26
+    },
+    {
+      "coach_name": "Kasper Hjulmand",
+      "coach_current_club": "Bayer 04 Leverkusen",
+      "exec_name": "André Hechelmann",
+      "exec_current_role": "Scout / Administrative",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "1.FSV Mainz 05",
+          "coach_position": "Head Coach",
+          "coach_role": "1.FSV Mainz 05Trainer",
+          "coach_period": "2014-2016",
+          "exec_role": "Scout / Administrative",
+          "exec_category": "Scouting",
+          "overlap_start": 2014,
+          "overlap_end": 2016,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 24
     }
   ]
 }
