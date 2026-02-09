@@ -1,9 +1,9 @@
 {
   "created_date": "2026-02-09T11:40:00",
-  "updated_date": "2026-02-09T18:15:00",
+  "updated_date": "2026-02-09T15:40:35",
   "description": "Manually curated historical executives discovered via web research",
   "methodology": "Web search + article verification for key clubs during coach youth/assistant periods (2010+)",
-  "total_executives": 31,
+  "total_executives": 82,
   "executives": [
     {
       "name": "Johannes Spors",
@@ -1058,64 +1058,2283 @@
       "current_role": null,
       "profile_url": "https://www.transfermarkt.us/thomas-schaaf/profil/trainer/224",
       "notes": "Legendary figure at Werder Bremen. Head coach 1999-2013 (won double in 2004). Returned as Technical Director 2018-2021. Position not filled after his departure due to cost reductions."
+    },
+    {
+      "name": "Bruno Hübner",
+      "clubs": [
+        {
+          "club": "E. Frankfurt",
+          "role": "Sportdirektor",
+          "category": "Technical",
+          "start_date": "2011-05",
+          "end_date": "2021-06",
+          "start_year": 2011,
+          "end_year": 2021,
+          "sources": [
+            {
+              "title": "Nach zehn Jahren: Bruno Hübner verlässt Eintracht Frankfurt",
+              "url": "https://www.kicker.de/nach-zehn-jahren-bruno-huebner-verlaesst-eintracht-frankfurt-797599/artikel",
+              "type": "News Article",
+              "date": "2021"
+            },
+            {
+              "title": "Bruno Hübner - Eintracht Frankfurt Männer",
+              "url": "https://profis.eintracht.de/2020-2021/trainer-funktionsteam/bruno-hubner/",
+              "type": "Official Statement",
+              "date": "2021"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Served 10 years as Sporting Director. Oversaw promotion to Bundesliga in 2012, DFB-Pokal win in 2018, and 3 Europa League qualifications. Left at contract expiry June 30, 2021."
+        }
+      ],
+      "current_club": "None",
+      "current_role": "Retired",
+      "profile_url": "https://www.transfermarkt.us/bruno-hubner/profil/trainer/5918",
+      "notes": "Key decision-maker who would have worked with coaches during Frankfurt's resurgence from 2011-2021."
+    },
+    {
+      "name": "Fredi Bobic",
+      "clubs": [
+        {
+          "club": "E. Frankfurt",
+          "role": "Sportvorstand",
+          "category": "Technical",
+          "start_date": "2016-06",
+          "end_date": "2021-06",
+          "start_year": 2016,
+          "end_year": 2021,
+          "sources": [
+            {
+              "title": "Fredi Bobic - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Fredi_Bobic",
+              "type": "News Article",
+              "date": "2021-04"
+            },
+            {
+              "title": "Wie Fredi Bobic Frankfurt zu einem Topclub gemacht hat",
+              "url": "https://www.stuttgarter-zeitung.de/gallery.eintracht-frankfurts-sportvorstand-wie-fredi-bobic-frankfurt-zu-einem-topclub-gemacht-hat.b1f46d8a-d83f-472e-bf56-2b40aca41883.html",
+              "type": "News Article",
+              "date": "2021"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Board member for sports. Served 1819 days. DFB-Pokal winner 2018. Left for Hertha BSC July 1, 2021."
+        }
+      ],
+      "current_club": "1.FC Köln",
+      "current_role": "Geschäftsführer Sport",
+      "profile_url": "https://www.transfermarkt.us/fredi-bobic/profil/trainer/3969",
+      "notes": "Top-level executive who worked closely with head coaches and would have interacted with assistant coaches."
+    },
+    {
+      "name": "Markus Krösche",
+      "clubs": [
+        {
+          "club": "E. Frankfurt",
+          "role": "Sportvorstand",
+          "category": "Technical",
+          "start_date": "2021-04",
+          "end_date": "present",
+          "start_year": 2021,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Markus Krösche - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Markus_Kr%C3%B6sche",
+              "type": "News Article",
+              "date": "2021-04"
+            },
+            {
+              "title": "Markus Krösche - Eintracht Frankfurt Klub",
+              "url": "https://klub.eintracht.de/fussball-ag/vorstand/markus-kroesche/",
+              "type": "Official Statement",
+              "date": "2021"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Became Sporting Director in April 2021 as successor to Fredi Bobic. Previously at RB Leipzig."
+        }
+      ],
+      "current_club": "E. Frankfurt",
+      "current_role": "Sportvorstand",
+      "profile_url": "https://www.transfermarkt.us/markus-kroesche/profil/trainer/6720",
+      "notes": "Current top decision-maker for sports/coaching matters at Frankfurt."
+    },
+    {
+      "name": "Timmo Hardung",
+      "clubs": [
+        {
+          "club": "E. Frankfurt",
+          "role": "Head of First Team Football",
+          "category": "Technical",
+          "start_date": "2021-07",
+          "end_date": "2023-06",
+          "start_year": 2021,
+          "end_year": 2023,
+          "sources": [
+            {
+              "title": "Eintracht Frankfurt makes two new appointments",
+              "url": "https://en.eintracht.de/news/eintracht-frankfurt-besetzt-zwei-stellen-neu-133155/",
+              "type": "Official Statement",
+              "date": "2021"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Came from RB Leipzig. Promoted to Sporting Director July 1, 2023."
+        },
+        {
+          "club": "E. Frankfurt",
+          "role": "Sportdirektor",
+          "category": "Technical",
+          "start_date": "2023-07",
+          "end_date": "present",
+          "start_year": 2023,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Timmo Hardung wird zur neuen Saison Sportdirektor",
+              "url": "https://en.eintracht.de/news/timmo-hardung-wird-zur-neuen-saison-sportdirektor-150574/",
+              "type": "Official Statement",
+              "date": "2023"
+            },
+            {
+              "title": "Timmo Hardung - Manager profile | Transfermarkt",
+              "url": "https://www.transfermarkt.us/timmo-hardung/profil/trainer/50660",
+              "type": "News Article",
+              "date": "2023"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Promoted from Head of First Team Football to Sporting Director. Contract extended until 2028."
+        }
+      ],
+      "current_club": "E. Frankfurt",
+      "current_role": "Sportdirektor",
+      "profile_url": "https://www.transfermarkt.us/timmo-hardung/profil/trainer/50660",
+      "notes": "Current Sporting Director, key decision-maker for coaching appointments and squad planning."
+    },
+    {
+      "name": "Bernd Hölzenbein",
+      "clubs": [
+        {
+          "club": "E. Frankfurt",
+          "role": "Chefscout",
+          "category": "Scouting",
+          "start_date": "2004",
+          "end_date": "2014",
+          "start_year": 2004,
+          "end_year": 2014,
+          "sources": [
+            {
+              "title": "Eintracht Frankfurt erweitert seine Scouting-Abteilung",
+              "url": "https://profis.eintracht.de/news/eintracht-frankfurt-erweitert-seine-scouting-abteilung-47189/",
+              "type": "Official Statement",
+              "date": "2014"
+            },
+            {
+              "title": "Zum 75. Geburtstag von Bernd Hölzenbein",
+              "url": "https://profis.eintracht.de/news/eine-legende-wird-75-131360/",
+              "type": "News Article",
+              "date": "2021"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Club legend. Served as Chief Scout 2004-2014 (covers 2010-2014 target period). After 2014, remained as advisor and co-leader of scouting department with Legien. Passed away April 15, 2024."
+        }
+      ],
+      "current_club": "None",
+      "current_role": "Deceased (2024)",
+      "profile_url": null,
+      "notes": "Club legend with 10 years as Chief Scout who would have known all coaches and scouts during 2010-2014 period."
+    },
+    {
+      "name": "Bernd Legien",
+      "clubs": [
+        {
+          "club": "E. Frankfurt",
+          "role": "Chefscout",
+          "category": "Scouting",
+          "start_date": "2014-10",
+          "end_date": "2016",
+          "start_year": 2014,
+          "end_year": 2016,
+          "sources": [
+            {
+              "title": "Eintracht Frankfurt verpflichtet neuen Chef-Scout Bernd Legien",
+              "url": "https://www.sge4ever.de/eintracht-frankfurt-verpflichtet-neuen-chef-scout-bernd-legien/",
+              "type": "News Article",
+              "date": "2014-10"
+            },
+            {
+              "title": "Bernd Legien macht Platz für Ben Manga",
+              "url": "https://www.sge4ever.de/bernd-legien-macht-platz-fuer-ben-manga/",
+              "type": "News Article",
+              "date": "2016"
+            },
+            {
+              "title": "Scouting ist keine Zauberei - Bernd Legien reformiert die Spielersichtung",
+              "url": "https://www.kicker.de/625575/artikel",
+              "type": "News Article",
+              "date": "2015"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Hired from FC Ingolstadt to restructure scouting system. Contract through summer 2017 but replaced by Ben Manga in 2016. Only ~2 years tenure."
+        }
+      ],
+      "current_club": "1.FSV Mainz 05",
+      "current_role": "Chefscout",
+      "profile_url": "https://www.transfermarkt.us/bernd-legien/profil/trainer/1672",
+      "notes": "Short tenure (2 years) but reformed Frankfurt's scouting structure during critical period."
+    },
+    {
+      "name": "Ben Manga",
+      "clubs": [
+        {
+          "club": "E. Frankfurt",
+          "role": "Chefscout",
+          "category": "Scouting",
+          "start_date": "2016-07",
+          "end_date": "2021",
+          "start_year": 2016,
+          "end_year": 2021,
+          "sources": [
+            {
+              "title": "Ben Manga - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Ben_Manga",
+              "type": "News Article",
+              "date": "2022-11"
+            },
+            {
+              "title": "Ben Manga im Porträt - kicker-Serie, Teil 4: Eintracht Frankfurt",
+              "url": "https://www.kicker.de/ben_manga_im_portraet_weil_er_mehr_ist_als_nur_ein_scout_-772716/artikel",
+              "type": "News Article",
+              "date": "2019"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Initial role as Chief Scout under Fredi Bobic 2016-2021, responsible for building scouting department."
+        },
+        {
+          "club": "E. Frankfurt",
+          "role": "Director of Professional Football",
+          "category": "Technical",
+          "start_date": "2021",
+          "end_date": "2022-11",
+          "start_year": 2021,
+          "end_year": 2022,
+          "sources": [
+            {
+              "title": "Eintracht Frankfurt und Ben Manga gehen getrennte Wege",
+              "url": "https://profis.eintracht.de/news/eintracht-frankfurt-und-ben-manga-gehen-getrennte-wege-146542/",
+              "type": "Official Statement",
+              "date": "2022-11"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Promoted to Director of Professional Football in 2021 after Bobic/Hübner departures. Departed by mutual consent November 30, 2022. Joined Watford FC as Technical Director December 2022."
+        }
+      ],
+      "current_club": "Watford FC",
+      "current_role": "Technical Director",
+      "profile_url": "https://www.transfermarkt.us/ben-manga/profil/trainer/41668",
+      "notes": "Key figure in Frankfurt's successful transfer policy 2016-2022. Worked closely with coaching staff on squad planning."
+    },
+    {
+      "name": "Sebastian Frank",
+      "clubs": [
+        {
+          "club": "E. Frankfurt",
+          "role": "Head of Scouting",
+          "category": "Scouting",
+          "start_date": "2021-07",
+          "end_date": "present",
+          "start_year": 2021,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Sebastian Frank - LinkedIn",
+              "url": "https://de.linkedin.com/in/sebastian-frank-1a484429",
+              "type": "Official Statement",
+              "date": "2021"
+            },
+            {
+              "title": "Sebastian Frank - Manager profile | Transfermarkt",
+              "url": "https://www.transfermarkt.us/sebastian-frank/profil/trainer/61362",
+              "type": "News Article",
+              "date": "2021"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Current Head of Scouting since July 2021. Previously worked at Borussia Dortmund, Liverpool FC (with Jürgen Klopp), and Leicester City. Son of Wolfgang Frank."
+        }
+      ],
+      "current_club": "E. Frankfurt",
+      "current_role": "Head of Scouting",
+      "profile_url": "https://www.transfermarkt.us/sebastian-frank/profil/trainer/61362",
+      "notes": "Current scouting chief with extensive experience at top European clubs."
+    },
+    {
+      "name": "Armin Kraaz",
+      "clubs": [
+        {
+          "club": "E. Frankfurt",
+          "role": "Leiter Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2010-01",
+          "end_date": "2019-09",
+          "start_year": 2010,
+          "end_year": 2019,
+          "sources": [
+            {
+              "title": "Armin Kraaz - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Armin_Kraaz",
+              "type": "News Article",
+              "date": "2019"
+            },
+            {
+              "title": "Armin Kraaz übernimmt Aufbau internationaler Projekte",
+              "url": "https://profis.eintracht.de/news/armin-kraaz-uebernimmt-aufbau-internationaler-kooperationsprojekte-bei-eintracht-frankfurt-120484/",
+              "type": "Official Statement",
+              "date": "2019-10"
+            },
+            {
+              "title": "30-jähriges Dienstjubiläum für Armin Kraaz",
+              "url": "https://klub.eintracht.de/news/30-jahre-vereinstreue-174816/",
+              "type": "Official Statement",
+              "date": "2024"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Academy Director from January 1, 2010 to September 30, 2019. Nearly 10 years leading youth development. Previously Sporting Director 2003-2009. Now Vice President Sport (since July 2024)."
+        }
+      ],
+      "current_club": "E. Frankfurt",
+      "current_role": "Vizepräsident Sport",
+      "profile_url": null,
+      "notes": "Club legend and former player. Key figure who would have worked with all youth coaches 2010-2019. Over 30 years with the club in various roles."
+    },
+    {
+      "name": "Andreas Möller",
+      "clubs": [
+        {
+          "club": "E. Frankfurt",
+          "role": "Leiter Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2019-10",
+          "end_date": "2022-03",
+          "start_year": 2019,
+          "end_year": 2022,
+          "sources": [
+            {
+              "title": "Andreas Möller ist neuer Leiter des NLZ",
+              "url": "https://profis.eintracht.de/news/andreas-moeller-ist-neuer-leiter-des-nachwuchsleistungszentrums-von-eintracht-frankfurt-120706/",
+              "type": "Official Statement",
+              "date": "2019-10"
+            },
+            {
+              "title": "Vorzeitiger Führungswechsel im NLZ",
+              "url": "https://nachwuchs.eintracht.de/news/vorzeitiger-fuehrungswechsel-im-nlz-140383/",
+              "type": "Official Statement",
+              "date": "2022-02"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Academy Director October 2019 - March 31, 2022. Contract until June 2022 but resigned early for personal reasons in February 2022. World Cup winner, European champion, Champions League winner."
+        }
+      ],
+      "current_club": "None",
+      "current_role": "None",
+      "profile_url": "https://www.transfermarkt.us/andreas-moller/profil/trainer/6779",
+      "notes": "Only ~2.5 years tenure but brings significant coaching network from illustrious playing career."
+    },
+    {
+      "name": "Alexander Richter",
+      "clubs": [
+        {
+          "club": "E. Frankfurt",
+          "role": "Leiter Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2022-04",
+          "end_date": "present",
+          "start_year": 2022,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Alexander Richter wird NLZ-Leiter bei Eintracht Frankfurt",
+              "url": "https://www.kicker.de/richter-wird-neuer-nlz-leiter-bei-eintracht-frankfurt-891573/artikel",
+              "type": "News Article",
+              "date": "2022"
+            },
+            {
+              "title": "Richter wird neuer NLZ-Leiter",
+              "url": "https://nachwuchs.eintracht.de/news/richter-wird-neuer-nlz-leiter-139498/",
+              "type": "Official Statement",
+              "date": "2022"
+            },
+            {
+              "title": "Eintracht Frankfurt verlängert Vertrag mit NLZ-Leiter Alexander Richter",
+              "url": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/eintracht-frankfurt-verlaengert-vertrag-mit-nlz-leiter-alexander-richter-v1,eintracht-nlz-richter-102.html",
+              "type": "News Article",
+              "date": "2024"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Current Academy Director since April 1, 2022. Came from VfL Bochum where he was in same role for 14 years. Contract extended through 2024+."
+        }
+      ],
+      "current_club": "E. Frankfurt",
+      "current_role": "Leiter Nachwuchsleistungszentrum",
+      "profile_url": "https://www.transfermarkt.us/alexander-richter/profil/trainer/6989",
+      "notes": "Current academy leader with extensive experience from VfL Bochum. Key contact for youth/assistant coach networks."
+    },
+    {
+      "name": "Rudi Völler",
+      "clubs": [
+        {
+          "club": "B. Leverkusen",
+          "role": "Sportdirektor",
+          "category": "Technical",
+          "start_date": "2005",
+          "end_date": "2018-06",
+          "start_year": 2005,
+          "end_year": 2018,
+          "sources": [
+            {
+              "title": "Bayer Leverkusen: Rudi Völler und Fernando Carro neue Geschäftsführer",
+              "url": "https://www.sport1.de/news/fussball/bundesliga/2018/04/bayer-leverkusen-rudi-voeller-und-fernando-carro-neue-geschaeftsfuehrer",
+              "type": "News Article",
+              "date": "2018-04"
+            },
+            {
+              "title": "Rudi Völler: The man that did it all and revolutionised Bayer Leverkusen",
+              "url": "https://www.bundesliga.com/en/bundesliga/news/rudi-voller-the-man-that-did-it-all-and-revolutionised-bayer-leverkusen-20122",
+              "type": "News Article",
+              "date": null
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Returned to Leverkusen as Sportdirektor in 2005 after coaching AS Roma. Served in this role for 13+ years, building foundation for modern era. Contract extended until June 30, 2022 in 2016."
+        },
+        {
+          "club": "B. Leverkusen",
+          "role": "Geschäftsführer Sport / Managing Director Sports",
+          "category": "Technical",
+          "start_date": "2018-07-01",
+          "end_date": "2022-06-30",
+          "start_year": 2018,
+          "end_year": 2022,
+          "sources": [
+            {
+              "title": "Bayer Leverkusen baut personell um: Rudi Völler nun Geschäftsführer, Boldt Sportdirektor",
+              "url": "https://www.spox.com/de/sport/fussball/bundesliga/1804/News/bayer-leverkusen-baut-um-rudi-voeller-sportdirektor-fernando-carro-geschaeftsfuehrer.html",
+              "type": "News Article",
+              "date": "2018-04"
+            },
+            {
+              "title": "Rolfes named sporting managing director – Völler is member of shareholder committee and club ambassador",
+              "url": "https://www.bayer04.de/en-us/news/bayer04/rolfes-named-sporting-managing-director-voeller-is-member-of-shareholder-committee-and-club-ambassador",
+              "type": "Official Statement",
+              "date": "2022-06"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Promoted to newly created position of Geschäftsführer Sport on July 1, 2018. Received official farewell at final game of 2021/22 season vs SC Freiburg at BayArena in May 2022. Remained with club as member of shareholder committee and official ambassador from July 1, 2022."
+        }
+      ],
+      "current_club": "B. Leverkusen",
+      "current_role": "Club Ambassador / Shareholder Committee Member",
+      "profile_url": "https://en.wikipedia.org/wiki/Rudi_V%C3%B6ller",
+      "notes": "Club legend who revolutionized Bayer Leverkusen's sporting operations 2005-2022. Key figure in establishing modern scouting infrastructure and youth development philosophy. Mentored Jonas Boldt and Simon Rolfes into leadership roles. Oversaw Champions League qualification multiple times during tenure."
+    },
+    {
+      "name": "Jonas Boldt",
+      "clubs": [
+        {
+          "club": "B. Leverkusen",
+          "role": "Chefscout / Head of Scouting",
+          "category": "Scouting",
+          "start_date": "2009",
+          "end_date": "2014",
+          "start_year": 2009,
+          "end_year": 2014,
+          "sources": [
+            {
+              "title": "Leverkusens Scouting-Leiter Jonas Boldt im Interview",
+              "url": "http://m.spox.com/de/sport/fussball/em/u-21-em-2013/1306/Artikel/jonas-boldt-interview-bayer-leverkusen-leiter-scouting-abteilung-arturo-vidal-entdecker.html",
+              "type": "Interview",
+              "date": "2013-06"
+            },
+            {
+              "title": "Who is Jonas Boldt?",
+              "url": "https://thefootballweek.com/2025/06/16/who-is-jonas-boldt/",
+              "type": "News Article",
+              "date": "2025-06"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Took over as Chefscout in 2009, became assistant to sporting director Rudi Völler. Discovered key players including Arturo Vidal, Dani Carvajal, and Toni Kroos. Built data-informed scouting structure with strong reach across Europe and South America."
+        },
+        {
+          "club": "B. Leverkusen",
+          "role": "Sportmanager / Sports Manager",
+          "category": "Technical",
+          "start_date": "2014",
+          "end_date": "2018-06-30",
+          "start_year": 2014,
+          "end_year": 2018,
+          "sources": [
+            {
+              "title": "Who is Jonas Boldt?",
+              "url": "https://thefootballweek.com/2025/06/16/who-is-jonas-boldt/",
+              "type": "News Article",
+              "date": "2025-06"
+            },
+            {
+              "title": "Jonas Boldt - Wikipedia",
+              "url": "https://de.wikipedia.org/wiki/Jonas_Boldt",
+              "type": "Reference",
+              "date": null
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Promoted to Sportmanager for 2014/15 season under Völler after Michael Reschke left for Bayern Munich. Continued building recruitment capabilities while broadening role to squad management."
+        },
+        {
+          "club": "B. Leverkusen",
+          "role": "Sportdirektor / Sporting Director",
+          "category": "Technical",
+          "start_date": "2018-07-01",
+          "end_date": "2019-06-30",
+          "start_year": 2018,
+          "end_year": 2019,
+          "sources": [
+            {
+              "title": "Simon Rolfes new sporting director – Jonas Boldt leaves Bayer 04 in the summer",
+              "url": "https://www.bayer04.de/en-us/news/bayer04/simon-rolfes-new-sporting-director-jonas-boldt-leaves-bayer-04-in-the-summer",
+              "type": "Official Statement",
+              "date": "2018-11"
+            },
+            {
+              "title": "HSV present new head of sport Jonas Boldt",
+              "url": "https://www.hsv.de/en/news/hsv-present-new-head-of-sport-jonas-boldt",
+              "type": "Official Statement",
+              "date": "2019-05"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Moved to lead Sports Direction effective July 1, 2018 (position previously held by Völler). From December 1, 2018, handed position to Simon Rolfes and served as advisor until May 2019. Left for Hamburg SV in summer 2019."
+        }
+      ],
+      "current_club": "Hamburger SV",
+      "current_role": "Sportvorstand",
+      "profile_url": "https://www.transfermarkt.us/jonas-boldt/profil/trainer/19773",
+      "notes": "Long-serving Leverkusen executive (2007-2019) who progressed from scout to sporting director. Critical figure in establishing modern recruitment and development infrastructure 2009-2019. Worked with numerous youth and assistant coaches during scouting and management tenure. Helped qualify team for European competitions consistently."
+    },
+    {
+      "name": "Simon Rolfes",
+      "clubs": [
+        {
+          "club": "B. Leverkusen",
+          "role": "Sportdirektor / Sporting Director",
+          "category": "Technical",
+          "start_date": "2018-12-01",
+          "end_date": "2022-06-30",
+          "start_year": 2018,
+          "end_year": 2022,
+          "sources": [
+            {
+              "title": "Simon Rolfes new sporting director – Jonas Boldt leaves Bayer 04 in the summer",
+              "url": "https://www.bayer04.de/en-us/news/bayer04/simon-rolfes-new-sporting-director-jonas-boldt-leaves-bayer-04-in-the-summer",
+              "type": "Official Statement",
+              "date": "2018-11"
+            },
+            {
+              "title": "Simon Rolfes: Who is Bayer Leverkusen's behind-the-scenes mastermind?",
+              "url": "https://www.bundesliga.com/en/bundesliga/news/simon-rolfes-who-is-bayer-leverkusen-s-director-of-sport-xabi-alonso-26716",
+              "type": "News Article",
+              "date": null
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Took over from Jonas Boldt with effect from December 1, 2018. Contract initially to June 30, 2024. Prior to this, served as head of youth and development for five months. Former player (2005-2015, 377 appearances)."
+        },
+        {
+          "club": "B. Leverkusen",
+          "role": "Geschäftsführer Sport / Managing Director Sports",
+          "category": "Technical",
+          "start_date": "2022-07-01",
+          "end_date": "present",
+          "start_year": 2022,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Rolfes named sporting managing director – Völler is member of shareholder committee and club ambassador",
+              "url": "https://www.bayer04.de/en-us/news/bayer04/rolfes-named-sporting-managing-director-voeller-is-member-of-shareholder-committee-and-club-ambassador",
+              "type": "Official Statement",
+              "date": "2022-06"
+            },
+            {
+              "title": "Bayer 04 seal long-term deal with Simon Rolfes",
+              "url": "https://www.bayer04.de/en-us/news/bayer04/bayer-04-seal-long-term-deal-with-simon-rolfes",
+              "type": "Official Statement",
+              "date": null
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Succeeded Rudi Völler as Managing Director Sports on July 1, 2022. Key architect of unbeaten 2023/24 Bundesliga championship season. Recruited Florian Wirtz, Alejandro Grimaldo, and Xabi Alonso among others. Sealed long-term contract extension."
+        }
+      ],
+      "current_club": "B. Leverkusen",
+      "current_role": "Geschäftsführer Sport / Managing Director Sports",
+      "profile_url": "https://www.transfermarkt.us/simon-rolfes/profil/trainer/9465",
+      "notes": "Former Leverkusen midfielder (2005-2015, 26 Germany caps) who transitioned into management. Demonstrated exceptional talent identification and recruitment strategy. Works closely with youth development and coaching staff. Mastermind behind Leverkusen's modern revival and 2023/24 double-winning season."
+    },
+    {
+      "name": "Tim Steidten",
+      "clubs": [
+        {
+          "club": "B. Leverkusen",
+          "role": "Chefscout / Head of Scouting",
+          "category": "Scouting",
+          "start_date": "2019-07",
+          "end_date": "2023-03",
+          "start_year": 2019,
+          "end_year": 2023,
+          "sources": [
+            {
+              "title": "Bayer 04 sign squad planner Tim Steidten",
+              "url": "https://www.bayer04.de/en-us/news/bayer04/bayer-04-sign-squad-planner-tim-steidten",
+              "type": "Official Statement",
+              "date": "2019-06"
+            },
+            {
+              "title": "Bayer Leverkusen part ways with squad manager Tim Steidten",
+              "url": "https://onefootball.com/en/news/bayer-leverkusen-part-ways-with-squad-manager-tim-steidten-36974452",
+              "type": "News Article",
+              "date": "2023-03"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Joined from Werder Bremen in July 2019 as head of scouting. Later also served as sports coordinator. Working under Simon Rolfes, secured young talents including Edmond Tapsoba, Jeremie Frimpong, and Piero Hincapie. Left March 2023, later joined West Ham United as Technical Director."
+        }
+      ],
+      "current_club": "West Ham United",
+      "current_role": "Technical Director",
+      "profile_url": null,
+      "notes": "Head of scouting during critical transition period 2019-2023. Previously Head of Youth Scouting at Werder Bremen 2010-2012. Contributed to squad building that led to eventual Bundesliga title. Under 2 years minimum but meets 2+ years tenure requirement (3.75 years)."
+    },
+    {
+      "name": "Kim Falkenberg",
+      "clubs": [
+        {
+          "club": "B. Leverkusen",
+          "role": "Chefscout / Head Scout",
+          "category": "Scouting",
+          "start_date": "2019",
+          "end_date": "2023",
+          "start_year": 2019,
+          "end_year": 2023,
+          "sources": [
+            {
+              "title": "Kim Falkenberg – once Leverkusen, always Leverkusen",
+              "url": "https://www.bayer04.de/en-us/news/youth/kim-falkenberg-once-leverkusen-always-leverkusen",
+              "type": "Official Statement",
+              "date": null
+            },
+            {
+              "title": "Bundesliga: Das sind die Scouting-Abteilungen der 18 Klubs",
+              "url": "https://www.ran.de/sports/fussball/bundesliga/galerien/bundesliga-das-sind-die-scouting-abteilungen-der18-klubs-347834",
+              "type": "News Article",
+              "date": null
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Started working with scouting department in 2018 immediately after ending playing career at VfL Osnabrück. At age 31, became head scout for the Werkself in 2019. Former Leverkusen youth player and professional."
+        },
+        {
+          "club": "B. Leverkusen",
+          "role": "Leiter Scouting und Kaderplanung / Head of Recruitment",
+          "category": "Scouting",
+          "start_date": "2023",
+          "end_date": "2025-02-28",
+          "start_year": 2023,
+          "end_year": 2025,
+          "sources": [
+            {
+              "title": "Tactics Corner - Bayer Leverkusen 2.0: Squad planning, 2024 tactics and unsung heroes",
+              "url": "https://www.bundesliga.com/en/bundesliga/news/tactics-bayer-leverkusen-2-0-squad-planning-2024-unsung-heroes-26382",
+              "type": "News Article",
+              "date": "2024"
+            },
+            {
+              "title": "Bayer 04 appoint Kim Falkenberg as Director of Football",
+              "url": "https://www.bayer04.de/en-us/news/bayer04/bayer-04-appoint-kim-falkenberg-as-director-of-football",
+              "type": "Official Statement",
+              "date": "2025-01"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Promoted to head of recruitment in 2023. In cooperation with Xabi Alonso and Simon Rolfes, contributed significantly to squad building for 2023/24 championship season. Close cooperation with Rolfes based on mutual trust."
+        },
+        {
+          "club": "B. Leverkusen",
+          "role": "Director of Football",
+          "category": "Technical",
+          "start_date": "2025-03-01",
+          "end_date": "present",
+          "start_year": 2025,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Bayer 04 appoint Kim Falkenberg as Director of Football",
+              "url": "https://www.bayer04.de/en-us/news/bayer04/bayer-04-appoint-kim-falkenberg-as-director-of-football",
+              "type": "Official Statement",
+              "date": "2025-01"
+            },
+            {
+              "title": "Bayer Leverkusen befördert Kim Falkenberg vom Kaderplaner zum Director Football",
+              "url": "https://sport.sky.de/fussball/artikel/bayer-leverkusen-befoerdert-kim-falkenberg-vom-kaderplaner-zum-director-football/13318611/34240",
+              "type": "News Article",
+              "date": "2025-01"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Appointed Director of Football with effect from March 1, 2025. At the club since 2018, progression from youth section to head scout (2019) to head of recruitment (2023) to Director of Football. Represents new generation of club leadership."
+        }
+      ],
+      "current_club": "B. Leverkusen",
+      "current_role": "Director of Football",
+      "profile_url": "https://en.wikipedia.org/wiki/Kim_Falkenberg",
+      "notes": "Former Leverkusen youth product who returned post-playing career. Rapid progression through scouting ranks 2018-2025. Key figure in modern recruitment strategy and squad planning. Works closely with youth coaches and development staff. Critical to understanding coaching pathways at Leverkusen post-2018."
+    },
+    {
+      "name": "Thomas Eichin",
+      "clubs": [
+        {
+          "club": "B. Leverkusen",
+          "role": "Leiter Nachwuchsleistungszentrum / Academy Director",
+          "category": "Academy",
+          "start_date": "2020-07-01",
+          "end_date": "2023-06-30",
+          "start_year": 2020,
+          "end_year": 2023,
+          "sources": [
+            {
+              "title": "Thomas Eichin appointed academy head at Bayer 04",
+              "url": "https://www.bayer04.de/en-us/news/bayer04/thomas-eichin-appointed-academy-head-at-bayer-04",
+              "type": "Official Statement",
+              "date": "2020-06"
+            },
+            {
+              "title": "Thomas Eichin appointed Director Licensing at Bayer 04",
+              "url": "https://www.bayer04.de/en-us/news/bayer04/thomas-eichin-appointed-director-licensing-at-bayer-04",
+              "type": "Official Statement",
+              "date": "2023-06"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Took over as head of youth academy (Leiter Nachwuchs) on July 1, 2020, responsible for Nachwuchsleistungszentrum with all youth teams. Promoted to Director Licensing (newly created position) on July 1, 2023, responsible for internal processes in professional sections for men's and women's teams. Continued reporting to Simon Rolfes in new role."
+        }
+      ],
+      "current_club": "B. Leverkusen",
+      "current_role": "Director Licensing / Director Professional Teams",
+      "profile_url": null,
+      "notes": "Academy director during 3-year period when several youth talents emerged into first team consideration. Transition to Director Licensing represented promotion and organizational restructuring. Works with youth coaches and development pathways."
+    },
+    {
+      "name": "Jefta Bresser",
+      "clubs": [
+        {
+          "club": "B. Leverkusen",
+          "role": "Leiter Nachwuchsleistungszentrum / Academy Director",
+          "category": "Academy",
+          "start_date": "2023-10",
+          "end_date": "present",
+          "start_year": 2023,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Bayer 04 appoint Jefta Bresser as new academy head",
+              "url": "https://www.bayer04.de/en-us/news/bayer04/bayer-04-appoint-jefta-bresser-as-new-academy-head",
+              "type": "Official Statement",
+              "date": "2023-10"
+            },
+            {
+              "title": "Inside Bayer Leverkusen's academy: Bundesliga champions want to sustain their success and know youth is key",
+              "url": "https://www.skysports.com/football/news/11095/13209182/inside-bayer-leverkusens-academy-bundesliga-champions-want-to-sustain-their-success-and-know-youth-is-key",
+              "type": "News Article",
+              "date": "2024-09"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Trained academy director and football coach, age 52. Took over as head of Leverkusen's performance centre in October 2023. Previously enjoyed 5 years of success as head of youth academy at De Graafschap (2018-2023). Between 2005-2015, responsible for individual development of youth players at PSV Eindhoven, FC Fulham, and Zenit St. Petersburg. Implementing reforms to youth development system including player selection processes and coaching development initiatives. Still in position as of 2026."
+        }
+      ],
+      "current_club": "B. Leverkusen",
+      "current_role": "Leiter Nachwuchsleistungszentrum / Academy Director",
+      "profile_url": "https://www.transfermarkt.us/jefta-bresser/profil/trainer/21454",
+      "notes": "Current academy director tasked with delivering changes demanded by leadership. Brought extensive international experience in youth development. Works closely with coaching staff across all youth age groups. Key figure for understanding modern coaching pathways and youth development at Leverkusen post-2023. Does not yet meet 2+ year minimum but included as current officeholder."
+    },
+    {
+      "name": "Manfred Pomp",
+      "clubs": [
+        {
+          "club": "B. Leverkusen",
+          "role": "Head of NLZ-Scouting / Nachwuchs-Chefscout",
+          "category": "Scouting",
+          "start_date": "2010",
+          "end_date": "present",
+          "start_year": 2010,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Manfred Pomp - Head of NLZ-Scouting/Nachwuchs-Chefscout - Bayer 04 Leverkusen",
+              "url": "https://www.linkedin.com/in/manfred-pomp-25058611b/",
+              "type": "Professional Profile",
+              "date": null
+            },
+            {
+              "title": "Manfred Pomp Email & Phone Number - Bayer 04 Leverkusen Head of NLZ-Scouting",
+              "url": "https://rocketreach.co/manfred-pomp-email_100944823",
+              "type": "Professional Database",
+              "date": null
+            }
+          ],
+          "verified": true,
+          "confidence": "medium",
+          "notes": "Head of NLZ-Scouting and youth chief scout based in Aachen, NRW. Responsible for leading and developing NLZ-Scouting, overseeing all processes and quality management. Certified football teacher from Deutsche Sporthochschule Köln. Previous experience at Fussballverband Mittelrhein (FVM). Estimated start date ~2010 based on career timeline, exact start date not confirmed in available sources. Long-tenured figure in youth scouting operations."
+        }
+      ],
+      "current_club": "B. Leverkusen",
+      "current_role": "Head of NLZ-Scouting / Nachwuchs-Chefscout",
+      "profile_url": null,
+      "notes": "Specialized role focused exclusively on youth academy scouting rather than first-team scouting. Works closely with academy directors and youth coaching staff. Important figure for understanding youth talent identification and recruitment pathways throughout 2010-2024 period. Confidence level medium due to lack of official club announcements confirming exact dates, but multiple professional sources confirm long-term tenure in role."
+    },
+    {
+      "name": "Theo Grieß (Gries)",
+      "clubs": [
+        {
+          "club": "Union Berlin",
+          "role": "Leiter des Nachwuchsleistungszentrums",
+          "category": "Academy",
+          "start_date": "2008-04",
+          "end_date": "2011",
+          "start_year": 2008,
+          "end_year": 2011,
+          "sources": [
+            {
+              "title": "Theo Gries neuer Leiter des Nachwuchsleistungszentrums",
+              "url": "https://www.fc-union-berlin.de/de/union-live/news/profis/Theo-Gries-neuer-Leiter-des-Nachwuchsleistungszentrums-1097J/",
+              "type": "Official Statement",
+              "date": "2008-03"
+            },
+            {
+              "title": "Die Scouting-Abteilung des 1. FC Union Berlin",
+              "url": "https://www.fc-union-berlin.de/de/union-live/news/profis/Die-Scouting-Abteilung-des-1-FC-Union-Berlin-19855N/",
+              "type": "Official Statement",
+              "date": "2018-12"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Served as youth director from April 1, 2008. Transitioned to scouting department in 2011 after Hermann Andreev took over NLZ leadership. Previously scored 130 goals in 300 games as a player."
+        }
+      ],
+      "current_club": "Union Berlin",
+      "current_role": "Scout",
+      "profile_url": "https://www.transfermarkt.us/theo-gries/profil/trainer/2519",
+      "notes": "Experienced academy director who transitioned to scouting. Long tenure provides deep knowledge of youth development and player pathways."
+    },
+    {
+      "name": "Hermann Andreev",
+      "clubs": [
+        {
+          "club": "Union Berlin",
+          "role": "Sportlicher Leiter Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2010-08",
+          "end_date": "2017-10",
+          "start_year": 2010,
+          "end_year": 2017,
+          "sources": [
+            {
+              "title": "1. FC Union Berlin verpflichtet Hermann Andreev als sportlichen Leiter des Nachwuchsleistungszentrums",
+              "url": "https://www.fc-union-berlin.de/de/meldungen/1-fc-union-berlin-verpflichtet-hermann-andreev-als-sportlichen-leiter-des-nachwuchsleistungszentrums-BfjL9s",
+              "type": "Official Statement",
+              "date": "2010-08"
+            },
+            {
+              "title": "NLZ: Veränderung auf der Leitungsebene",
+              "url": "https://www.fc-union-berlin.de/de/union-live/news/amateure/NLZ-Veraenderung-auf-der-Leitungsebene-15544D/",
+              "type": "Official Statement",
+              "date": "2017-10"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Appointed August 17, 2010 as sporting director of NLZ alongside Lutz Munack (technical director). Stepped down from dual role as U17 trainer and NLZ sporting director in October 2017, choosing to focus solely on coaching. During his tenure, the NLZ achieved three-star certification (highest rating) in 2016."
+        }
+      ],
+      "current_club": "Union Berlin",
+      "current_role": "U19 Co-Trainer",
+      "profile_url": "https://www.transfermarkt.us/hermann-andreev/profil/trainer/429",
+      "notes": "Led Union Berlin's NLZ through critical growth period including promotion to Bundesliga. Previously coached VFC Plauen to Regionalliga (2008) and SV Babelsberg to 2. Bundesliga (2001). Over 7 years as academy director."
+    },
+    {
+      "name": "Janek Kampa",
+      "clubs": [
+        {
+          "club": "Union Berlin",
+          "role": "Leiter Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2017-10",
+          "end_date": "present",
+          "start_year": 2017,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "NLZ: Veränderung auf der Leitungsebene",
+              "url": "https://www.fc-union-berlin.de/de/union-live/news/amateure/NLZ-Veraenderung-auf-der-Leitungsebene-15544D/",
+              "type": "Official Statement",
+              "date": "2017-10"
+            },
+            {
+              "title": "Zertifizierung mit drei Sternen: Nachwuchsleistungszentrum des 1. FC Union Berlin erhält erstmals höchste Bewertung",
+              "url": "https://www.fc-union-berlin.de/de/meldungen/zertifizierung-mit-drei-sternen-nachwuchsleistungszentrum-des-1-fc-union-berlin-erhaelt-erstmals-hoechste-bewertung-HbVrE0",
+              "type": "Official Statement",
+              "date": "2016-07"
+            },
+            {
+              "title": "The Youth Academy - Union Berlin",
+              "url": "https://www.fc-union-berlin.de/en/football/youth-academy/youth-performance-center-vEmz",
+              "type": "Official Statement",
+              "date": "2026-01"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Served as Organisatorischer Leiter (Organizational Director) from at least 2016. Assumed full sporting leadership of NLZ in October 2017 when Hermann Andreev stepped down. Currently listed as Head of Youth Academy. Oversaw NLZ's continued three-star certification and development during Union's rise to Bundesliga and European competition."
+        }
+      ],
+      "current_club": "Union Berlin",
+      "current_role": "Head of Youth Academy",
+      "profile_url": null,
+      "notes": "Long-serving academy director who has overseen Union's youth development during the club's most successful period. Works closely with André Hofschneider (Head of Coaching) to manage transitions from youth to first team."
+    },
+    {
+      "name": "Oliver Ruhnert",
+      "clubs": [
+        {
+          "club": "Union Berlin",
+          "role": "Chefscout",
+          "category": "Scouting",
+          "start_date": "2017",
+          "end_date": "2018-05",
+          "start_year": 2017,
+          "end_year": 2018,
+          "sources": [
+            {
+              "title": "Oliver Ruhnert wird Geschäftsführer Profifußball",
+              "url": "https://www.fc-union-berlin.de/de/meldungen/oliver-ruhnert-wird-geschaeftsfuehrer-profifussball-ySrHLn",
+              "type": "Official Statement",
+              "date": "2018-05"
+            },
+            {
+              "title": "Union startet mit Horst Heldt und Oliver Ruhnert",
+              "url": "https://www.fc-union-berlin.de/de/meldungen/union-startet-mit-horst-heldt-und-oliver-ruhnert-DzPyL",
+              "type": "Official Statement",
+              "date": "2024-05"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Joined as Chefscout in summer 2017. Promoted to Geschäftsführer Profifußball on May 15, 2018, but continued to oversee scouting operations. Returned to Chefscout role July 1, 2024 after six years as managing director. Left Union Berlin entirely in November 2025."
+        }
+      ],
+      "current_club": null,
+      "current_role": null,
+      "profile_url": "https://www.transfermarkt.us/oliver-ruhnert/profil/trainer/3560",
+      "notes": "Architect of Union Berlin's rise from 2. Bundesliga to Champions League. Previously spent 10 years at Schalke 04 in academy roles. Known for data-driven scouting and squad building on limited budgets. Key figure in identifying and developing talent during Union's most successful era (2019-2024)."
+    },
+    {
+      "name": "Michael Parensen",
+      "clubs": [
+        {
+          "club": "Union Berlin",
+          "role": "Technischer Direktor",
+          "category": "Technical",
+          "start_date": "2022",
+          "end_date": "2024-04",
+          "start_year": 2022,
+          "end_year": 2024,
+          "sources": [
+            {
+              "title": "Michael Parensen wird Technischer Direktor",
+              "url": "https://www.fc-union-berlin.de/de/meldungen/michael-parensen-wird-technischer-direktor-bnZ5gI",
+              "type": "Official Statement",
+              "date": "2022-07"
+            },
+            {
+              "title": "Union und Michael Parensen beenden ihre Zusammenarbeit",
+              "url": "https://www.fc-union-berlin.de/de/union-live/news/profis/Union-und-Michael-Parensen-beenden-ihre-Zusammenarbeit-21034u/",
+              "type": "Official Statement",
+              "date": "2024-04"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Former Union Berlin player (249 games) who transitioned to front office after career ended in 2020. Completed DFB management course and served as assistant to Oliver Ruhnert before promotion to Technical Director in summer 2022. Departed April 7, 2024 after 15 total years with the club. Later sued Union Berlin over his dismissal."
+        }
+      ],
+      "current_club": null,
+      "current_role": null,
+      "profile_url": "https://www.transfermarkt.us/michael-parensen/profil/trainer/93480",
+      "notes": "Club legend who made successful transition from player to executive. Responsible for technical and administrative operations during Union's Champions League campaign (2023-24). Departure was controversial."
+    },
+    {
+      "name": "Stefan Studer",
+      "clubs": [
+        {
+          "club": "FC St. Pauli",
+          "role": "Chefscout",
+          "category": "Scouting",
+          "start_date": "2009",
+          "end_date": "2012",
+          "start_year": 2009,
+          "end_year": 2012,
+          "sources": [
+            {
+              "title": "Ex-Profi Stefan Studer kehrt als Chefscout zum FC St. Pauli zurück",
+              "url": "https://www.sport1.de/news/fussball/2-bundesliga/2015/10/ex-profi-stefan-studer-kehrt-als-chefscout-zum-fc-st-pauli-zurueck",
+              "type": "News Article",
+              "date": "2015-10"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "First tenure as Chefscout from 2009-2012, responsible for professional team and youth academy scouting"
+        },
+        {
+          "club": "FC St. Pauli",
+          "role": "Chefscout / Leiter Scouting",
+          "category": "Scouting",
+          "start_date": "2015-11",
+          "end_date": "2018-10",
+          "start_year": 2015,
+          "end_year": 2018,
+          "sources": [
+            {
+              "title": "Ex-Profi Stefan Studer kehrt als Chefscout zum FC St. Pauli zurück",
+              "url": "https://www.sport1.de/news/fussball/2-bundesliga/2015/10/ex-profi-stefan-studer-kehrt-als-chefscout-zum-fc-st-pauli-zurueck",
+              "type": "News Article",
+              "date": "2015-10"
+            },
+            {
+              "title": "Neue Struktur im Scoutingbereich des FC St. Pauli",
+              "url": "https://www.fcstpauli.com/news/neue-struktur-im-scoutingbereich-des-fc-st-pauli/",
+              "type": "Official Statement",
+              "date": "2018-10"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Second tenure as Chefscout, contract started November 1, 2015 and ended October 31, 2018. Responsible for professional team and youth academy scouting."
+        }
+      ],
+      "current_club": "Unknown",
+      "current_role": "Unknown",
+      "profile_url": "https://www.transfermarkt.us/stefan-studer/profil/trainer/4428",
+      "notes": "Former FC St. Pauli player who returned to the club in scouting capacity. Total of 6+ years in scouting role across two tenures during the target period."
+    },
+    {
+      "name": "Tobias Hentschel",
+      "clubs": [
+        {
+          "club": "FC St. Pauli",
+          "role": "Leiter Kaderplanung und Scouting",
+          "category": "Scouting",
+          "start_date": "2018-11",
+          "end_date": "2020-03",
+          "start_year": 2018,
+          "end_year": 2020,
+          "sources": [
+            {
+              "title": "Neue Struktur im Scoutingbereich des FC St. Pauli",
+              "url": "https://www.fcstpauli.com/news/neue-struktur-im-scoutingbereich-des-fc-st-pauli/",
+              "type": "Official Statement",
+              "date": "2018-10"
+            }
+          ],
+          "verified": true,
+          "confidence": "medium",
+          "notes": "Took over overall responsibility for both squad planning and scouting after Stefan Studer's departure. Previously responsible for squad planning before this combined role."
+        }
+      ],
+      "current_club": "Unknown",
+      "current_role": "Unknown",
+      "profile_url": null,
+      "notes": "Bridged the gap between Stefan Studer and Jan Sandmann in the scouting department. Combined squad planning with scouting responsibilities."
+    },
+    {
+      "name": "Jan Sandmann",
+      "clubs": [
+        {
+          "club": "FC St. Pauli",
+          "role": "Leiter des Scoutings sowie der Kaderplanung / Chefscout",
+          "category": "Scouting",
+          "start_date": "2020-03",
+          "end_date": "present",
+          "start_year": 2020,
+          "end_year": 2024,
+          "sources": [
+            {
+              "title": "Der FC St. Pauli verlängert mit Jan Sandmann",
+              "url": "https://www.fcstpauli.com/news/der-fc-st-pauli-verlangert-mit-jan-sandmann",
+              "type": "Official Statement",
+              "date": "2024-04"
+            },
+            {
+              "title": "Jan Sandmann - Manager profile | Transfermarkt",
+              "url": "https://www.transfermarkt.us/jan-sandmann/profil/trainer/12479",
+              "type": "Database Profile",
+              "date": "2024"
+            },
+            {
+              "title": "Weitere Weichenstellung im Hintergrund",
+              "url": "https://millernton.de/2024/04/11/weitere-weichenstellung-im-hintergrund-fc-st-pauli/",
+              "type": "News Article",
+              "date": "2024-04"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Appointed March 16, 2020 as Head of Scouting and Squad Planning. Previously scout at 1. FC Nürnberg and assistant coach at Holstein Kiel. Contract extended beyond 2023/24 season in April 2024."
+        }
+      ],
+      "current_club": "FC St. Pauli",
+      "current_role": "Leiter des Scoutings sowie der Kaderplanung",
+      "profile_url": "https://www.transfermarkt.us/jan-sandmann/profil/trainer/12479",
+      "notes": "Key figure in FC St. Pauli's current scouting and transfer strategy. Described by Andreas Bornemann as one of his most important colleagues with strong ability to identify players with development potential."
+    },
+    {
+      "name": "Roger Stilz",
+      "clubs": [
+        {
+          "club": "FC St. Pauli",
+          "role": "Sportlicher Leiter NLZ / NLZ-Leiter",
+          "category": "Academy",
+          "start_date": "2016-06",
+          "end_date": "2021-01",
+          "start_year": 2016,
+          "end_year": 2021,
+          "sources": [
+            {
+              "title": "Roger Stilz neuer Sportlicher Leiter des NLZ",
+              "url": "https://www.fcstpauli.com/news/archiv/roger-stilz-neuer-sportlicher-leiter-des-nlz/",
+              "type": "Official Statement",
+              "date": "2016-06"
+            },
+            {
+              "title": "NLZ-Leiter Roger Stilz verlässt den FC St. Pauli",
+              "url": "https://www.fcstpauli.com/news/nlz-leiter-roger-stilz-verlasst-den-fc-st-pauli",
+              "type": "Official Statement",
+              "date": "2021-01"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "NLZ-Leiter from June 2016 to early January 2021 (4.5+ years). Modernized academy across sports psychology, athletic training, video analysis, and goalkeeper instruction. Left to become sporting director at Waasland-Beveren (Belgium)."
+        }
+      ],
+      "current_club": "Unknown",
+      "current_role": "Unknown",
+      "profile_url": null,
+      "notes": "Significantly developed FC St. Pauli's youth academy infrastructure and improved pathways from academy to professional squad during his tenure."
+    },
+    {
+      "name": "Benjamin Liedtke",
+      "clubs": [
+        {
+          "club": "FC St. Pauli",
+          "role": "NLZ-Leiter / Leiter Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2021-01",
+          "end_date": "present",
+          "start_year": 2021,
+          "end_year": 2024,
+          "sources": [
+            {
+              "title": "NLZ-Leiter Roger Stilz verlässt den FC St. Pauli",
+              "url": "https://www.fcstpauli.com/news/nlz-leiter-roger-stilz-verlasst-den-fc-st-pauli",
+              "type": "Official Statement",
+              "date": "2021-01"
+            },
+            {
+              "title": "Benjamin Liedtke - Manager profile | Transfermarkt",
+              "url": "https://www.transfermarkt.us/benjamin-liedtke/profil/trainer/117177",
+              "type": "Database Profile",
+              "date": "2024"
+            },
+            {
+              "title": "FC St. Pauli befördert Liedtke: Leiter des Nachwuchszentrums",
+              "url": "https://www.t-online.de/region/hamburg/news/id_90458508/fc-st-pauli-befoerdert-liedtke-leiter-des-nachwuchszentrums.html",
+              "type": "News Article",
+              "date": "2021"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Initially took over NLZ leadership on interim basis in January 2021 when Roger Stilz left, then made permanent on January 15, 2021. Has worked at FC St. Pauli NLZ for 14+ years, starting as trainer. Since 2022, shares leadership with Fabian Seeger."
+        }
+      ],
+      "current_club": "FC St. Pauli",
+      "current_role": "NLZ-Leiter",
+      "profile_url": "https://www.transfermarkt.us/benjamin-liedtke/profil/trainer/117177",
+      "notes": "Long-time FC St. Pauli academy employee with deep institutional knowledge. Leads innovative 'Rebellution' youth development approach since 2024."
+    },
+    {
+      "name": "Fabian Seeger",
+      "clubs": [
+        {
+          "club": "FC St. Pauli",
+          "role": "Sportlicher Leiter NLZ",
+          "category": "Academy",
+          "start_date": "2022-01",
+          "end_date": "present",
+          "start_year": 2022,
+          "end_year": 2024,
+          "sources": [
+            {
+              "title": "Fabian Seeger wird Sportlicher Leiter des NLZ",
+              "url": "https://www.fcstpauli.com/news/fabian-seeger-wird-sportlicher-leiter-des-nlz/",
+              "type": "Official Statement",
+              "date": "2021-12"
+            },
+            {
+              "title": "Fabian Seeger - Manager profile | Transfermarkt",
+              "url": "https://www.transfermarkt.us/fabian-seeger/profil/trainer/13479",
+              "type": "Database Profile",
+              "date": "2024"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Appointed January 1, 2022 as Sportlicher Leiter (Sports Director) of NLZ, forming dual leadership with Benjamin Liedtke. Previously DFB support point coordinator for 10 years and sports director at Altona 93 (2012-2017)."
+        }
+      ],
+      "current_club": "FC St. Pauli",
+      "current_role": "Sportlicher Leiter NLZ",
+      "profile_url": "https://www.transfermarkt.us/fabian-seeger/profil/trainer/13479",
+      "notes": "Responsible for sporting direction of NLZ in close consultation with coaches. Holds Trainer A-License and brings extensive talent development experience."
+    },
+    {
+      "name": "Ewald Lienen",
+      "clubs": [
+        {
+          "club": "FC St. Pauli",
+          "role": "Technischer Direktor",
+          "category": "Technical",
+          "start_date": "2017-07",
+          "end_date": "2020-12",
+          "start_year": 2017,
+          "end_year": 2020,
+          "sources": [
+            {
+              "title": "Nach über sieben Jahren am Millerntor: Der FC St. Pauli verabschiedet Ewald Lienen",
+              "url": "https://www.fcstpauli.com/news/nach-siebeneinhalb-jahren-am-millerntor-der-fc-st-pauli-verabschiedet-ewald-lienen",
+              "type": "Official Statement",
+              "date": "2022-06"
+            },
+            {
+              "title": "Ewald Lienen - Manager profile | Transfermarkt",
+              "url": "https://www.transfermarkt.us/ewald-lienen/profil/trainer/140",
+              "type": "Database Profile",
+              "date": "2024"
+            },
+            {
+              "title": "FC St. Pauli: Ewald Lienen hört als Trainer auf und wird Technischer Direktor",
+              "url": "https://www.tagesspiegel.de/sport/ewald-lienen-hort-als-trainer-auf-und-wird-technischer-direktor-3834157.html",
+              "type": "News Article",
+              "date": "2017"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Technischer Direktor from July 1, 2017 to December 31, 2020 (3.5 years). Responsible for training development and coach development in the youth performance center. Previously served as FC St. Pauli head coach (December 2014 - June 2017). After Technical Director role, served as club representative/values ambassador (January 2021 - June 2022)."
+        }
+      ],
+      "current_club": "Unknown",
+      "current_role": "Retired",
+      "profile_url": "https://www.transfermarkt.us/ewald-lienen/profil/trainer/140",
+      "notes": "Total of 7.5+ years at FC St. Pauli in various capacities. As Technical Director, focused on coach development and served as advisor to decision-making bodies, management, and coaches."
+    },
+    {
+      "name": "Frank Schaefer",
+      "clubs": [
+        {
+          "club": "1.FC Köln",
+          "role": "Leiter Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2013-07",
+          "end_date": "2016-03",
+          "start_year": 2013,
+          "end_year": 2016,
+          "sources": [
+            {
+              "title": "Frank Schaefer verlässt den FC",
+              "url": "https://fc.de/de/fc-info/news/detailseite/details/frank-schaefer-verlaesst-den-fc/",
+              "type": "Official Statement",
+              "date": "2016-03"
+            },
+            {
+              "title": "NLZ entzweit Schaefer und Köln",
+              "url": "https://www.kicker.de/647388/artikel",
+              "type": "News Article",
+              "date": "2016-03"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Led NLZ from July 1, 2013 to March 31, 2016. Tenure: 2 years, 9 months. Previously worked in youth roles at FC since 2003."
+        }
+      ],
+      "current_club": "Unknown",
+      "current_role": "Unknown",
+      "profile_url": "",
+      "notes": "Experienced academy director who certified the Köln youth academy and worked with coaches developing into professional roles."
+    },
+    {
+      "name": "Daniel Meyer",
+      "clubs": [
+        {
+          "club": "1.FC Köln",
+          "role": "Leiter Nachwuchsleistungszentrum (Sport)",
+          "category": "Academy",
+          "start_date": "2016-07",
+          "end_date": "2018-06",
+          "start_year": 2016,
+          "end_year": 2018,
+          "sources": [
+            {
+              "title": "Neue Wege: FC rüstet im Nachwuchsbereich auf",
+              "url": "http://www.kicker.de/news/fussball/bundesliga/startseite/654358/artikel_neue-wege_fc-ruestet-im-nachwuchsbereich-auf.html",
+              "type": "News Article",
+              "date": "2016-06"
+            },
+            {
+              "title": "Cheftrainer in Aue: Daniel Meyer verlässt den 1. FC Köln",
+              "url": "https://effzeh.com/cheftrainer-in-aue-daniel-meyer-verlaesst-den-1-fc-koeln",
+              "type": "News Article",
+              "date": "2018-06"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Led NLZ (Sport) from July 1, 2016 to June 25, 2018 in dual leadership with Carsten Schiel. Tenure: 2 years. Responsible for sporting aspects. Left to become head coach at Erzgebirge Aue."
+        }
+      ],
+      "current_club": "Unknown",
+      "current_role": "Unknown",
+      "profile_url": "https://www.transfermarkt.us/daniel-meyer/profil/trainer/17618",
+      "notes": "Part of dual leadership structure. Worked with youth coaches before moving to senior coaching role."
+    },
+    {
+      "name": "Carsten Schiel",
+      "clubs": [
+        {
+          "club": "1.FC Köln",
+          "role": "Leiter Nachwuchsleistungszentrum (Entwicklung)",
+          "category": "Academy",
+          "start_date": "2016-07",
+          "end_date": "2022-11",
+          "start_year": 2016,
+          "end_year": 2022,
+          "sources": [
+            {
+              "title": "Schaefer-Nachfolge geregelt: Doppel-Spitze beim NLZ",
+              "url": "https://geissblog.koeln/2016/06/schaefer-nachfolge-geregelt-doppel-spitze-beim-nlz/",
+              "type": "News Article",
+              "date": "2016-06"
+            },
+            {
+              "title": "Berg in Doppelfunktion: 1. FC Köln strukturiert NLZ neu",
+              "url": "https://www.kicker.de/berg-in-doppelfunktion-1-fc-koeln-strukturiert-nlz-neu-926079/artikel",
+              "type": "News Article",
+              "date": "2022-11"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Led NLZ (Development) from July 1, 2016 to November 2022. Tenure: 6+ years. Responsible for pedagogical, psychological, and social aspects. Continued in dual leadership with Heidrich 2018-2022. Transitioned to Coordinator for Pedagogy & Psychology."
+        }
+      ],
+      "current_club": "1.FC Köln",
+      "current_role": "Coordinator for Pedagogy & Psychology",
+      "profile_url": "",
+      "notes": "Long-serving academy executive focused on holistic player development. Worked with multiple academy directors and youth coaches."
+    },
+    {
+      "name": "Matthias Heidrich",
+      "clubs": [
+        {
+          "club": "1.FC Köln",
+          "role": "Leiter Nachwuchsleistungszentrum (Sport)",
+          "category": "Academy",
+          "start_date": "2018-09",
+          "end_date": "2022-09",
+          "start_year": 2018,
+          "end_year": 2022,
+          "sources": [
+            {
+              "title": "1. FC Köln: Matthias Heidrich ist neuer Nachwuchs-Chef",
+              "url": "https://www.media-sportservice.de/2018/08/26/1-fc-koeln-matthias-heidrich-neuer-nachwuchschef/",
+              "type": "News Article",
+              "date": "2018-08"
+            },
+            {
+              "title": "1. FC Köln: Heidrich wechselt vom NLZ nach Aue",
+              "url": "https://geissblog.koeln/2022/09/heidrich-verlaesst-den-fc-nachwuchs-chef-wechselt-in-die-dritte-liga/",
+              "type": "News Article",
+              "date": "2022-09"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Led NLZ (Sport) from September 15, 2018 to September 28, 2022. Tenure: 4 years. Worked in dual leadership with Carsten Schiel. Left to become Sports Director at Erzgebirge Aue. Previously NLZ director at Energie Cottbus."
+        }
+      ],
+      "current_club": "Erzgebirge Aue",
+      "current_role": "Sports Director",
+      "profile_url": "",
+      "notes": "Experienced academy director who oversaw development of talents like Florian Wirtz. Connected to extensive network of youth coaches."
+    },
+    {
+      "name": "Lukas Berg",
+      "clubs": [
+        {
+          "club": "1.FC Köln",
+          "role": "Leiter Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2022-11",
+          "end_date": "2025-06",
+          "start_year": 2022,
+          "end_year": 2025,
+          "sources": [
+            {
+              "title": "Lukas Berg ist neuer Leiter des Nachwuchsleistungszentrums",
+              "url": "https://fc.de/de/fc-info/news/detailseite/details/lukas-berg-ist-neuer-leiter-des-nachwuchsleistungszentrums/",
+              "type": "Official Statement",
+              "date": "2022-11"
+            },
+            {
+              "title": "Lukas Berg wird Technischer Direktor beim 1. FC Köln",
+              "url": "https://fc.de/aktuelles/news/lukas-berg-wird-technischer-direktor-beim-1-fc-koeln",
+              "type": "Official Statement",
+              "date": "2025-06"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Led NLZ from November 2022 (combined role as head of academy and managing director of boarding school). Tenure: 2.5+ years within 2010-2024 period. Promoted to Technical Director in 2025. With FC since 2016."
+        },
+        {
+          "club": "1.FC Köln",
+          "role": "Technischer Direktor",
+          "category": "Technical",
+          "start_date": "2025-06",
+          "end_date": "present",
+          "start_year": 2025,
+          "end_year": 2025,
+          "sources": [
+            {
+              "title": "Lukas Berg wird Technischer Direktor beim 1. FC Köln",
+              "url": "https://fc.de/aktuelles/news/lukas-berg-wird-technischer-direktor-beim-1-fc-koeln",
+              "type": "Official Statement",
+              "date": "2025-06"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Newly created position. Forms leadership duo with Sports Director Thomas Kessler. Contract until 2028. Falls outside 2010-2024 target period."
+        }
+      ],
+      "current_club": "1.FC Köln",
+      "current_role": "Technischer Direktor",
+      "profile_url": "",
+      "notes": "Rising executive who worked his way up through FC system. Academy success included U19 DFB-Pokal 2023 and Championship. Now in senior leadership role."
+    },
+    {
+      "name": "Jörg Jakobs",
+      "clubs": [
+        {
+          "club": "1.FC Köln",
+          "role": "Chefscout / Leiter Kaderplanung",
+          "category": "Scouting",
+          "start_date": "2012-07",
+          "end_date": "2014-06",
+          "start_year": 2012,
+          "end_year": 2014,
+          "sources": [
+            {
+              "title": "Dr. Jörg Jakobs - Manager profile",
+              "url": "https://www.transfermarkt.us/dr-joerg-jakobs/profil/trainer/3589",
+              "type": "Profile",
+              "date": "2024"
+            },
+            {
+              "title": "1. FC Köln: Jörg Jakobs bleibt und wird befördert",
+              "url": "https://www.goal.com/de/news/968/transfernews/2014/06/23/4907416/1-fc-k%5C%5Cu00f6ln-j%5C%5Cu00f6rg-jakobs-bleibt-und-wird-bef%5C%5Cu00f6rdert",
+              "type": "News Article",
+              "date": "2014-06"
+            }
+          ],
+          "verified": true,
+          "confidence": "medium",
+          "notes": "Started 2012/13 season as head of squad planning and chief scout. Tenure: ~2 years before promotion to sporting director. Also took over academy director responsibilities in 2014."
+        }
+      ],
+      "current_club": "Unknown",
+      "current_role": "Unknown",
+      "profile_url": "https://www.transfermarkt.us/dr-joerg-jakobs/profil/trainer/3589",
+      "notes": "Key figure in FC restructuring 2012-2017. Promoted to Sporting Director in 2014 with expanded responsibilities including academy oversight."
+    },
+    {
+      "name": "Manfred Schmid",
+      "clubs": [
+        {
+          "club": "1.FC Köln",
+          "role": "Chefscout",
+          "category": "Scouting",
+          "start_date": "2019-02",
+          "end_date": "2019-05",
+          "start_year": 2019,
+          "end_year": 2019,
+          "sources": [
+            {
+              "title": "1. FC Köln: Manfred Schmid kehrt als Chefscout zurück",
+              "url": "https://www.sport1.de/news/fussball/2-bundesliga/2019/02/1-fc-koeln-manfred-schmid-kehrt-als-chefscout-zurueck",
+              "type": "News Article",
+              "date": "2019-02"
+            },
+            {
+              "title": "Schmid nicht mehr Co-Trainer: Lösung beim Abendessen?",
+              "url": "https://geissblog.koeln/2019/11/schmid-nicht-mehr-co-trainer-loesung-beim-abendessen/",
+              "type": "News Article",
+              "date": "2019-11"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Announced February 20, 2019. Transitioned to co-trainer April 27, 2019. Tenure as Chefscout: ~2-3 months. Does NOT meet 2+ year minimum tenure requirement. Previously co-trainer 2013-2017."
+        }
+      ],
+      "current_club": "Unknown",
+      "current_role": "Unknown",
+      "profile_url": "",
+      "notes": "Brief tenure as chief scout. Primarily known for coaching roles. Does not meet minimum tenure criteria."
+    },
+    {
+      "name": "Willi Kronhardt",
+      "clubs": [
+        {
+          "club": "1.FC Köln",
+          "role": "Chefscout",
+          "category": "Scouting",
+          "start_date": "2019-05",
+          "end_date": "2021-06",
+          "start_year": 2019,
+          "end_year": 2021,
+          "sources": [
+            {
+              "title": "1. FC Köln: Willi Kronhardt ist neuer Chefscout",
+              "url": "https://www.media-sportservice.de/2019/05/30/1-fc-koeln-willi-kronhardt-neuer-chefscout/",
+              "type": "News Article",
+              "date": "2019-05"
+            },
+            {
+              "title": "Heldt bestätigt: Nach Aehlig geht auch Chefscout Kronhardt",
+              "url": "https://geissblog.koeln/2020/12/heldt-bestaetigt-nach-aehlig-geht-auch-chefscout-kronhardt/",
+              "type": "News Article",
+              "date": "2020-12"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Appointed May 30, 2019 with 2-year contract. Left June 30, 2021. Tenure: 2 years exactly. Meets minimum tenure requirement. Succeeded Manfred Schmid."
+        }
+      ],
+      "current_club": "RB Leipzig",
+      "current_role": "Scouting",
+      "profile_url": "https://www.transfermarkt.us/willi-kronhardt/profil/trainer/2629",
+      "notes": "Experienced scout who met tenure requirements. Later moved to RB Leipzig scouting department."
+    },
+    {
+      "name": "Martin Schulz",
+      "clubs": [
+        {
+          "club": "1.FC Köln",
+          "role": "Chefscout",
+          "category": "Scouting",
+          "start_date": "2020-12",
+          "end_date": "2025-04",
+          "start_year": 2020,
+          "end_year": 2025,
+          "sources": [
+            {
+              "title": "Schulz wird Chefscout: Cerny kommt zusätzlich zum FC",
+              "url": "https://geissblog.koeln/2020/12/schulz-wird-chefscout-cerny-kommt-zusaetzlich-zum-fc/",
+              "type": "News Article",
+              "date": "2020-12"
+            },
+            {
+              "title": "Differenzen mit Keller: 1. FC Köln schmeißt Chefscout raus",
+              "url": "https://geissblog.koeln/2025/04/differenzen-mit-keller-fc-schmeisst-chefscout-raus/",
+              "type": "News Article",
+              "date": "2025-04"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Promoted December 2020 as successor to Kronhardt. Left April 2025. Tenure: ~4.5 years total, with 3+ years in 2010-2024 period. With FC since 2013 in various scouting roles. Replaced by Gabor Ruhr."
+        }
+      ],
+      "current_club": "Unknown",
+      "current_role": "Unknown",
+      "profile_url": "",
+      "notes": "Nearly 12 years with FC in total, 4.5 as Chefscout. Worked through multiple sporting directors. Extensive network from long tenure."
+    },
+    {
+      "name": "Stephan Schwarz",
+      "clubs": [
+        {
+          "club": "FC Augsburg",
+          "role": "Chefscout",
+          "category": "Scouting",
+          "start_date": "2013",
+          "end_date": "2016",
+          "start_year": 2013,
+          "end_year": 2016,
+          "sources": [
+            {
+              "title": "Schwarz wird Technischer Direktor in Augsburg",
+              "url": "http://www.kicker.de/news/fussball/bundesliga/startseite/668640/artikel_schwarz-wird-technischer-direktor-in-augsburg.html",
+              "type": "News Article",
+              "date": "2016"
+            },
+            {
+              "title": "Stephan Schwarz im AJ-Interview",
+              "url": "https://www.augsburg-journal.de/sport-auto/stephan-schwarz-im-aj-interview-einen-verein-den-man-selbst-gepraegt-hat-verfolgt-man-natuerlich/",
+              "type": "Interview",
+              "date": "2020"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Served as Chief Scout from 2013-2016, then promoted to Technical Director. Helped shape club's most successful period including UEFA Europa League qualification."
+        },
+        {
+          "club": "FC Augsburg",
+          "role": "Technischer Direktor",
+          "category": "Technical",
+          "start_date": "2016",
+          "end_date": "2019-04",
+          "start_year": 2016,
+          "end_year": 2019,
+          "sources": [
+            {
+              "title": "Schwarz wird Technischer Direktor in Augsburg",
+              "url": "http://www.kicker.de/news/fussball/bundesliga/startseite/668640/artikel_schwarz-wird-technischer-direktor-in-augsburg.html",
+              "type": "News Article",
+              "date": "2016"
+            },
+            {
+              "title": "FC Augsburg part ways with Manuel Baum, Jens Lehmann and Stephan Schwarz",
+              "url": "https://www.fcaugsburg.de/en/article/fc-augsburg-part-ways-with-manuel-baum-jens-lehmann-and-stephan-schwarz-8307",
+              "type": "Official Statement",
+              "date": "2019-04"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Extended contract until 2020 when promoted to Technical Director in 2016. Left club on April 9, 2019. Was over 6 years at club total."
+        }
+      ],
+      "current_club": "Grasshopper Club Zürich",
+      "current_role": "Sportchef",
+      "profile_url": "https://www.transfermarkt.us/stefan-schwarz/profil/trainer/1656",
+      "notes": "Key figure during Augsburg's most successful period, co-responsible for sporting direction. Left in 2019 and later joined GC Zürich."
+    },
+    {
+      "name": "Timon Pauls",
+      "clubs": [
+        {
+          "club": "FC Augsburg",
+          "role": "Chefscout und Kaderplaner",
+          "category": "Scouting",
+          "start_date": "2020-05-01",
+          "end_date": "2024",
+          "start_year": 2020,
+          "end_year": 2024,
+          "sources": [
+            {
+              "title": "Timon Pauls wird Chefscout und Kaderplaner beim FCA",
+              "url": "https://www.fcaugsburg.de/article/timon-pauls-wird-chefscout-und-kaderplaner-beim-fca-8517",
+              "type": "Official Statement",
+              "date": "2020-05"
+            },
+            {
+              "title": "FC Augsburg angelt sich Chefscout Timon Pauls vom FC Bayern",
+              "url": "https://www.sport.de/news/ne3602936/fc-augsburg-angelt-sich-chefscout-timon-pauls-vom-fc-bayern/",
+              "type": "News Article",
+              "date": "2020"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Joined from FC Bayern Munich where he was youth academy chief scout (2015-2020). Started May 1, 2020. Later moved to Hertha BSC."
+        }
+      ],
+      "current_club": "Hertha BSC",
+      "current_role": "Chief Scout",
+      "profile_url": "https://www.transfermarkt.us/timon-pauls/profil/trainer/52177",
+      "notes": "Previously worked at Bayern Munich youth academy for 10 years. Holds relevant scouting qualifications and experience."
+    },
+    {
+      "name": "Babacar Wane",
+      "clubs": [
+        {
+          "club": "FC Augsburg",
+          "role": "Chefscout Lizenzabteilung",
+          "category": "Scouting",
+          "start_date": "2024-03-15",
+          "end_date": "2025-07",
+          "start_year": 2024,
+          "end_year": 2025,
+          "sources": [
+            {
+              "title": "FCA treibt Strukturentwicklung im Sport voran",
+              "url": "https://www.fcaugsburg.de/article/fca-treibt-strukturentwicklung-im-sport-voran-19821",
+              "type": "Official Statement",
+              "date": "2024-03"
+            },
+            {
+              "title": "FC Augsburg: Janker steigt auf, Wane neuer Chefscout",
+              "url": "https://www.kicker.de/strukturveraenderung-beim-fca-janker-steigt-auf-wane-neuer-chefscout-1004142/artikel",
+              "type": "News Article",
+              "date": "2024-03"
+            },
+            {
+              "title": "FCA entspricht Wunsch von Babacar Wane",
+              "url": "https://www.fcaugsburg.de/article/fca-entspricht-wunsch-von-babacar-wane-22192",
+              "type": "Official Statement",
+              "date": "2025-07"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "59-year-old with previous experience at Hertha BSC, Eintracht Frankfurt, and SC Freiburg. France expert who helped sign players like Alexis Claude-Maurice and Chrislain Matsima. Left on own request in July 2025 to join VfL Bochum. Tenure too short for minimum criteria."
+        }
+      ],
+      "current_club": "VfL Bochum",
+      "current_role": "Chefscout",
+      "profile_url": "https://www.transfermarkt.us/babacar-wane/profil/trainer/14173",
+      "notes": "Brief tenure at Augsburg (March 2024 - July 2025), does not meet 2+ year minimum. Included for completeness."
+    },
+    {
+      "name": "Claus Schromm",
+      "clubs": [
+        {
+          "club": "FC Augsburg",
+          "role": "Cheftrainer Nachwuchs, Bereichsleiter U23 und U19",
+          "category": "Academy",
+          "start_date": "2021-08-12",
+          "end_date": "present",
+          "start_year": 2021,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Schromm: 'Der Mensch steht bei mir über allem'",
+              "url": "https://www.fcaugsburg.de/article/schromm-der-mensch-steht-bei-mir-ueber-allem-17090",
+              "type": "Interview",
+              "date": "2023-07"
+            },
+            {
+              "title": "Claus Schromm - Cheftrainer Nachwuchs, Bereichsleiter U23 und U19",
+              "url": "https://www.fcaugsburg.de/team/people/claus-schromm-300",
+              "type": "Official Profile",
+              "date": "2024"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Head Youth Coach and department leader for U23/U19. Started August 12, 2021. UEFA Pro License holder. First season teams won 4 championships including U19 league title. Previously at SpVgg Unterhaching and TSV 1860 Munich."
+        }
+      ],
+      "current_club": "FC Augsburg",
+      "current_role": "Cheftrainer Nachwuchs, Bereichsleiter U23 und U19",
+      "profile_url": "https://www.transfermarkt.us/claus-schromm/profil/trainer/3062",
+      "notes": "Key figure in youth development since 2021. Meets 2+ year minimum tenure. Developed players like Aaron Zehnter and Henri Koudossou."
+    },
+    {
+      "name": "Heinz Moser",
+      "clubs": [
+        {
+          "club": "FC Augsburg",
+          "role": "Leiter Entwicklung / Head of Development",
+          "category": "Academy",
+          "start_date": "2023-08-01",
+          "end_date": "2024",
+          "start_year": 2023,
+          "end_year": 2024,
+          "sources": [
+            {
+              "title": "Marinko Jurendic wird Sportdirektor beim FCA",
+              "url": "https://www.fcaugsburg.de/article/marinko-jurendic-wird-sportdirektor-beim-fca-18194",
+              "type": "Official Statement",
+              "date": "2023-08"
+            },
+            {
+              "title": "Heinz Moser nicht mehr beim FC Augsburg",
+              "url": "https://www.urnerwochenblatt.ch/artikel/heinz-moser-nicht-mehr-beim-fc-augsburg",
+              "type": "News Article",
+              "date": "2024"
+            },
+            {
+              "title": "Bundesliga, Augsburg: Heinz Mosers stiller Abgang",
+              "url": "https://www.blick.ch/sport/fussball/bundesligist-haelt-sich-bedeckt-augsburg-setzt-heimlich-schweizer-ausbildungschef-ab-id21032447.html",
+              "type": "News Article",
+              "date": "2024"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "55-year-old from Switzerland, previously at FC Zürich in same role. Contract was until June 30, 2026 but left quietly in 2024. Tenure too short for minimum criteria. Replaced by Manuel Baum."
+        }
+      ],
+      "current_club": "Unknown",
+      "current_role": "Unknown",
+      "profile_url": "https://www.transfermarkt.us/heinz-moser/profil/trainer/20906",
+      "notes": "Brief tenure (August 2023 - 2024), does not meet 2+ year minimum. 15 years experience with Swiss national youth teams. Included for completeness."
+    },
+    {
+      "name": "Manuel Baum",
+      "clubs": [
+        {
+          "club": "FC Augsburg",
+          "role": "Leiter Entwicklung und Fußballinnovation",
+          "category": "Academy",
+          "start_date": "2025-07-01",
+          "end_date": "present",
+          "start_year": 2025,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Augsburg interim coach Manuel Baum to stay in charge until end of 2025/26",
+              "url": "https://www.bundesliga.com/en/bundesliga/news/augsburg-interim-coach-michael-baum-to-stay-in-charge-until-end-of-2025-26-season-35326",
+              "type": "News Article",
+              "date": "2025"
+            },
+            {
+              "title": "Official | Manuel Baum to return as Augsburg interim head coach",
+              "url": "https://www.getfootballnewsgermany.com/2025/official-manuel-baum-to-return-as-augsburg-interim-head-coach-for-next-three-games/",
+              "type": "News Article",
+              "date": "2025"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Started as Head of Development and Football Innovation July 1, 2025. Replaced Heinz Moser. Later became interim head coach December 2025. Previously FCA head coach 2016-2019. Tenure too short to meet minimum criteria."
+        }
+      ],
+      "current_club": "FC Augsburg",
+      "current_role": "Head Coach (interim until end of 2025/26 season)",
+      "profile_url": "https://www.transfermarkt.us/manuel-baum/profil/trainer/10070",
+      "notes": "Recent appointment (July 2025), does not meet 2+ year minimum yet. Former FCA coach who developed Marco Richter, Raphael Framberger, Kevin Danso. Included for completeness."
+    },
+    {
+      "name": "Alexander Frankenberger",
+      "clubs": [
+        {
+          "club": "FC Augsburg",
+          "role": "Talentmanager und Koordinator Spielerentwicklung",
+          "category": "Academy",
+          "start_date": "2024",
+          "end_date": "present",
+          "start_year": 2024,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Personelle Veränderungen im NLZ für die Saison 2024/25",
+              "url": "https://www.fcaugsburg.de/article/personelle-veraenderungen-im-nlz-fuer-die-saison-2024-25-20307",
+              "type": "Official Statement",
+              "date": "2024"
+            },
+            {
+              "title": "Alexander Frankenberger - Cheftrainer Nachwuchs",
+              "url": "https://www.fcaugsburg.de/de/team/people/alexander-frankenberger-68",
+              "type": "Official Profile",
+              "date": "2024"
+            }
+          ],
+          "verified": true,
+          "confidence": "medium",
+          "notes": "Talent Manager and Coordinator for Player Development starting 2024/25 season. Previously U19 coach. Tenure too short for minimum criteria. Included for completeness."
+        }
+      ],
+      "current_club": "FC Augsburg",
+      "current_role": "Talentmanager und Koordinator Spielerentwicklung",
+      "profile_url": "https://www.transfermarkt.us/alexander-frankenberger/profil/trainer/26384",
+      "notes": "Recent appointment (2024), does not meet 2+ year minimum yet. Included for completeness."
+    },
+    {
+      "name": "Günter Hausmann",
+      "clubs": [
+        {
+          "club": "FC Augsburg",
+          "role": "Jugendleiter",
+          "category": "Academy",
+          "start_date": "1959",
+          "end_date": "2011",
+          "start_year": 1959,
+          "end_year": 2011,
+          "sources": [
+            {
+              "title": "FCA Nachwuchsleitungszentrum zertifiziert und Lizenziert",
+              "url": "https://www.sport-in-augsburg.de/zertifiziert-und-lizenziert/7104/",
+              "type": "Interview",
+              "date": "2011"
+            }
+          ],
+          "verified": true,
+          "confidence": "medium",
+          "notes": "Youth director with 52 years at FC Augsburg (previously BCA). Long-serving youth coach. Likely retired around 2011 based on interview timing. Covered part of 2010-2024 period."
+        }
+      ],
+      "current_club": "FC Augsburg (retired)",
+      "current_role": "Retired",
+      "profile_url": null,
+      "notes": "Long-serving youth director who would have been in role during early part of target period (2010-2011). Limited detailed information available on exact end date."
+    },
+    {
+      "name": "Roger Prinzen",
+      "clubs": [
+        {
+          "club": "1. FC Heidenheim",
+          "role": "Sportlicher Leiter Nachwuchsleistungszentrum / Academy Sports Director",
+          "category": "Academy",
+          "start_date": "2018-07-02",
+          "end_date": "present",
+          "start_year": 2018,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Roger Prinzen - Manager profile | Transfermarkt",
+              "url": "https://www.transfermarkt.us/prinzen-roger/profil/trainer/11410",
+              "type": "Profile",
+              "date": "2026-02"
+            },
+            {
+              "title": "Das HARTMANN NLZ | 1. FC Heidenheim 1846 e. V.",
+              "url": "https://www.fc-heidenheim.de/ueber-uns/das-hartmann-nlz",
+              "type": "Official Website",
+              "date": null
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Former player (born 1969) who transitioned to academy management. Appointed as Academy Manager on July 2, 2018, serving as Sportlicher Leiter (Sports Director) of the HARTMANN NachwuchsLeistungsZentrum. Still in position as of 2026."
+        }
+      ],
+      "current_club": "1. FC Heidenheim",
+      "current_role": "Sportlicher Leiter Nachwuchsleistungszentrum",
+      "profile_url": "https://www.transfermarkt.us/prinzen-roger/profil/trainer/11410",
+      "notes": "Key figure in youth development for 1. FC Heidenheim since their NLZ was established. Would work with academy coaches throughout the system."
+    },
+    {
+      "name": "Nils Weng",
+      "clubs": [
+        {
+          "club": "1. FC Heidenheim",
+          "role": "Organisatorischer Leiter Nachwuchsleistungszentrum / Academy Organizational Director",
+          "category": "Academy",
+          "start_date": "2019-07-01",
+          "end_date": "present",
+          "start_year": 2019,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Nils Weng - Manager profile | Transfermarkt",
+              "url": "https://www.transfermarkt.us/nils-weng/profil/trainer/72447",
+              "type": "Profile",
+              "date": "2026-02"
+            },
+            {
+              "title": "Nils Weng: Vom Dualen Studenten zum NLZ-Leiter – 10 Jahre FCH Mitarbeiter | 1. FC Heidenheim 1846 e. V.",
+              "url": "https://www.fc-heidenheim.de/news/detail/nils-weng-vom-dualen-studenten-zum-nlz-leiter-10-jahre-fch-mitarbeiter?cHash=351f04934b617c6af67cdf2e8ffe0a63",
+              "type": "Official Statement",
+              "date": "2024-02"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Joined FCH in 2014 as dual study student. After completing bachelor's degree, served as Coordinator of Talent Management (2017-01 to 2019-06), then promoted to Academy Manager role on July 1, 2019. Oversees organizational aspects of the HARTMANN NLZ."
+        },
+        {
+          "club": "1. FC Heidenheim",
+          "role": "Koordinator Talentmanagement / Coordinator of Talent Management",
+          "category": "Academy",
+          "start_date": "2017-01",
+          "end_date": "2019-06",
+          "start_year": 2017,
+          "end_year": 2019,
+          "sources": [
+            {
+              "title": "Nils Weng - Manager profile | Transfermarkt",
+              "url": "https://www.transfermarkt.us/nils-weng/profil/trainer/72447",
+              "type": "Profile",
+              "date": "2026-02"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Intermediate role before promotion to Academy Manager. Focused on talent identification and development coordination."
+        }
+      ],
+      "current_club": "1. FC Heidenheim",
+      "current_role": "Organisatorischer Leiter Nachwuchsleistungszentrum",
+      "profile_url": "https://www.transfermarkt.us/nils-weng/profil/trainer/72447",
+      "notes": "Internal promotion from within FCH system. Recognized for 10 years of service in February 2024. Key administrative contact for academy coaches and youth development initiatives."
+    },
+    {
+      "name": "Robert Strauß",
+      "clubs": [
+        {
+          "club": "1. FC Heidenheim",
+          "role": "Bereichsleiter Sport / Head of Sport",
+          "category": "Technical",
+          "start_date": "2022-07-01",
+          "end_date": "2024-06-30",
+          "start_year": 2022,
+          "end_year": 2024,
+          "sources": [
+            {
+              "title": "Warum Sportdirektor Robert Strauß den 1. FC Heidenheim zum Saisonende verlässt - Heidenheimer Zeitung",
+              "url": "https://www.hz.de/sport/1-fc-heidenheim/warum-sportdirektor-robert-strauss-den-1-fc-heidenheim-zum-saisonende-verlaesst",
+              "type": "News Article",
+              "date": "2024"
+            },
+            {
+              "title": "2. Bundesliga: Ex-Profi Robert Strauß wird Bereichsleiter Sport beim 1. FC Heidenheim",
+              "url": "https://www.sport1.de/news/fussball/2-bundesliga/2022/05/ex-profi-strauss-wird-bereichsleiter-sport-beim-fch",
+              "type": "News Article",
+              "date": "2022-05"
+            },
+            {
+              "title": "Robert Strauß beendet seine Tätigkeit zum 30. Juni auf eigenen Wunsch hin | 1. FC Heidenheim 1846 e. V.",
+              "url": "https://www.fc-heidenheim.de/news/detail/robert-strau-beendet-seine-tatigkeit-zum-30-juni-auf-eigenen-wunsch-hin?cHash=ce19f0d36b6127a7306329c83ea4bfbe",
+              "type": "Official Statement",
+              "date": "2024"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Former professional player at FCH who transitioned to executive role. Responsible for sporting matters around the professional team and the youth performance center. Left on own request after 2 years in role for family reasons."
+        }
+      ],
+      "current_club": null,
+      "current_role": null,
+      "profile_url": null,
+      "notes": "Former FCH player (2012-2020) who became Vorstandsassistent (board assistant) from 2020-2022 before promotion to Head of Sport. Over 12+ years with the club. Would have worked with coaches across first team and academy during tenure."
     }
   ],
   "coverage": {
     "clubs": {
       "RB Leipzig": {
         "executives": 2,
-        "years_covered": "2012-2023",
-        "categories": ["Scouting", "Academy"]
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting"
+        ]
+      },
+      "Hamburger SV": {
+        "executives": 1,
+        "years_covered": "",
+        "categories": [
+          "Scouting"
+        ]
       },
       "Bayern München": {
         "executives": 4,
-        "years_covered": "1995-2024",
-        "categories": ["Scouting", "Academy"]
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting"
+        ]
       },
       "Borussia Dortmund": {
-        "executives": 2,
-        "years_covered": "2008-2024",
-        "categories": ["Scouting", "Academy"]
+        "executives": 3,
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting"
+        ]
       },
       "Hoffenheim": {
-        "executives": 1,
-        "years_covered": "2010-2023",
-        "categories": ["Academy", "Technical"]
+        "executives": 2,
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Technical"
+        ]
       },
       "VfB Stuttgart": {
         "executives": 3,
-        "years_covered": "2010-2023",
-        "categories": ["Scouting", "Academy", "Technical"]
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting",
+          "Technical"
+        ]
       },
       "SC Freiburg": {
-        "executives": 2,
-        "years_covered": "2003-2026",
-        "categories": ["Scouting", "Academy", "Technical"]
+        "executives": 4,
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting",
+          "Technical"
+        ]
       },
       "1.FSV Mainz 05": {
         "executives": 3,
-        "years_covered": "2011-2026",
-        "categories": ["Scouting", "Academy"]
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting"
+        ]
       },
       "Bor. M'gladbach": {
-        "executives": 4,
-        "years_covered": "2008-2026",
-        "categories": ["Scouting", "Academy", "Technical"]
+        "executives": 5,
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting",
+          "Technical"
+        ]
       },
       "VfL Wolfsburg": {
-        "executives": 7,
-        "years_covered": "2011-2026",
-        "categories": ["Scouting", "Academy", "Technical"]
+        "executives": 6,
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting",
+          "Technical"
+        ]
       },
       "Werder Bremen": {
+        "executives": 7,
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting",
+          "Technical"
+        ]
+      },
+      "E. Frankfurt": {
+        "executives": 13,
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting",
+          "Technical"
+        ]
+      },
+      "B. Leverkusen": {
+        "executives": 14,
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting",
+          "Technical"
+        ]
+      },
+      "Union Berlin": {
         "executives": 5,
-        "years_covered": "2010-2024",
-        "categories": ["Scouting", "Academy", "Technical"]
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting",
+          "Technical"
+        ]
+      },
+      "FC St. Pauli": {
+        "executives": 8,
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting",
+          "Technical"
+        ]
+      },
+      "1.FC Köln": {
+        "executives": 10,
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting",
+          "Technical"
+        ]
+      },
+      "FC Augsburg": {
+        "executives": 9,
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Scouting",
+          "Technical"
+        ]
+      },
+      "1. FC Heidenheim": {
+        "executives": 4,
+        "years_covered": "",
+        "categories": [
+          "Academy",
+          "Technical"
+        ]
       }
     },
-    "total_clubs": 10,
+    "total_clubs": 18,
     "total_club_years": "1995-2026 (31 years coverage)",
-    "total_positions": 43
+    "total_positions": 103
   },
   "next_steps": [
     "Run analyze_youth_executive_overlaps.py to match coaches with these executives",

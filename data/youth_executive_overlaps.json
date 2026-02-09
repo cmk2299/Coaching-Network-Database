@@ -1,11 +1,11 @@
 {
-  "analysis_date": "2026-02-09T14:34:29.967672",
+  "analysis_date": "2026-02-09T15:40:39.755027",
   "league": "Bundesliga",
   "season": "2024/25",
-  "total_executives": 240,
+  "total_executives": 303,
   "total_coaches": 18,
-  "total_relationships": 35,
-  "total_overlap_periods": 65,
+  "total_relationships": 61,
+  "total_overlap_periods": 91,
   "relationships": [
     {
       "coach_name": "Alexander Blessin",
@@ -653,6 +653,48 @@
       "relationship_strength": 32
     },
     {
+      "coach_name": "Niko Kovac",
+      "coach_current_club": "Borussia Dortmund",
+      "exec_name": "Bruno Hübner",
+      "exec_current_role": "Sportdirektor",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "E. Frankfurt",
+          "coach_position": "Head Coach",
+          "coach_role": "E. FrankfurtTrainer",
+          "coach_period": "2015-2017",
+          "exec_role": "Sportdirektor",
+          "exec_category": "Technical",
+          "overlap_start": 2015,
+          "overlap_end": 2017,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
+      "coach_name": "Niko Kovac",
+      "coach_current_club": "Borussia Dortmund",
+      "exec_name": "Armin Kraaz",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "E. Frankfurt",
+          "coach_position": "Head Coach",
+          "coach_role": "E. FrankfurtTrainer",
+          "coach_period": "2015-2017",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2015,
+          "overlap_end": 2017,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
       "coach_name": "Ole Werner",
       "coach_current_club": "RB Leipzig",
       "exec_name": "Clemens Fritz",
@@ -731,6 +773,90 @@
           "exec_category": "Technical",
           "overlap_start": 2020,
           "overlap_end": 2022,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
+      "coach_name": "Steffen Baumgart",
+      "coach_current_club": "1. FC Union Berlin",
+      "exec_name": "Janek Kampa",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "Union Berlin",
+          "coach_position": "Head Coach",
+          "coach_role": "Union BerlinTrainer",
+          "coach_period": "2024-2026",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2024,
+          "overlap_end": 2026,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
+      "coach_name": "Steffen Baumgart",
+      "coach_current_club": "1. FC Union Berlin",
+      "exec_name": "Martin Schulz",
+      "exec_current_role": "Chefscout",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "1.FC Köln",
+          "coach_position": "Head Coach",
+          "coach_role": "1.FC KölnTrainer",
+          "coach_period": "2021-2023",
+          "exec_role": "Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2021,
+          "overlap_end": 2023,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
+      "coach_name": "Urs Fischer",
+      "coach_current_club": "1. FSV Mainz 05",
+      "exec_name": "Janek Kampa",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "Union Berlin",
+          "coach_position": "Head Coach",
+          "coach_role": "Union BerlinTrainer",
+          "coach_period": "2018-2020",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2018,
+          "overlap_end": 2020,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
+      "coach_name": "Manuel Baum",
+      "coach_current_club": "FC Augsburg",
+      "exec_name": "Stephan Schwarz",
+      "exec_current_role": "Technischer Direktor",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "FC Augsburg",
+          "coach_position": "Head Coach",
+          "coach_role": "FC AugsburgTrainer",
+          "coach_period": "2016-2018",
+          "exec_role": "Technischer Direktor",
+          "exec_category": "Technical",
+          "overlap_start": 2016,
+          "overlap_end": 2018,
           "overlap_years": 3
         }
       ],
@@ -821,6 +947,132 @@
       "relationship_strength": 29
     },
     {
+      "coach_name": "Niko Kovac",
+      "coach_current_club": "Borussia Dortmund",
+      "exec_name": "Fredi Bobic",
+      "exec_current_role": "Sportvorstand",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "E. Frankfurt",
+          "coach_position": "Head Coach",
+          "coach_role": "E. FrankfurtTrainer",
+          "coach_period": "2015-2017",
+          "exec_role": "Sportvorstand",
+          "exec_category": "Technical",
+          "overlap_start": 2016,
+          "overlap_end": 2017,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Niko Kovac",
+      "coach_current_club": "Borussia Dortmund",
+      "exec_name": "Bernd Legien",
+      "exec_current_role": "Chefscout",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "E. Frankfurt",
+          "coach_position": "Head Coach",
+          "coach_role": "E. FrankfurtTrainer",
+          "coach_period": "2015-2017",
+          "exec_role": "Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2015,
+          "overlap_end": 2016,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Kasper Hjulmand",
+      "coach_current_club": "Bayer 04 Leverkusen",
+      "exec_name": "Simon Rolfes",
+      "exec_current_role": "Geschäftsführer Sport / Managing Director Sports",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "B. Leverkusen",
+          "coach_position": "Head Coach",
+          "coach_role": "B. LeverkusenTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Geschäftsführer Sport / Managing Director Sports",
+          "exec_category": "Technical",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Kasper Hjulmand",
+      "coach_current_club": "Bayer 04 Leverkusen",
+      "exec_name": "Kim Falkenberg",
+      "exec_current_role": "Director of Football",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "B. Leverkusen",
+          "coach_position": "Head Coach",
+          "coach_role": "B. LeverkusenTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Director of Football",
+          "exec_category": "Technical",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Kasper Hjulmand",
+      "coach_current_club": "Bayer 04 Leverkusen",
+      "exec_name": "Jefta Bresser",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum / Academy Director",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "B. Leverkusen",
+          "coach_position": "Head Coach",
+          "coach_role": "B. LeverkusenTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Leiter Nachwuchsleistungszentrum / Academy Director",
+          "exec_category": "Academy",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Kasper Hjulmand",
+      "coach_current_club": "Bayer 04 Leverkusen",
+      "exec_name": "Manfred Pomp",
+      "exec_current_role": "Head of NLZ-Scouting / Nachwuchs-Chefscout",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "B. Leverkusen",
+          "coach_position": "Head Coach",
+          "coach_role": "B. LeverkusenTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Head of NLZ-Scouting / Nachwuchs-Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
       "coach_name": "Kasper Hjulmand",
       "coach_current_club": "Bayer 04 Leverkusen",
       "exec_name": "Volker Kersting",
@@ -857,6 +1109,132 @@
           "exec_category": "Academy",
           "overlap_start": 2022,
           "overlap_end": 2023,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Albert Riera",
+      "coach_current_club": "Eintracht Frankfurt",
+      "exec_name": "Markus Krösche",
+      "exec_current_role": "Sportvorstand",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "E. Frankfurt",
+          "coach_position": "Head Coach",
+          "coach_role": "E. FrankfurtTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Sportvorstand",
+          "exec_category": "Technical",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Albert Riera",
+      "coach_current_club": "Eintracht Frankfurt",
+      "exec_name": "Timmo Hardung",
+      "exec_current_role": "Sportdirektor",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "E. Frankfurt",
+          "coach_position": "Head Coach",
+          "coach_role": "E. FrankfurtTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Sportdirektor",
+          "exec_category": "Technical",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Albert Riera",
+      "coach_current_club": "Eintracht Frankfurt",
+      "exec_name": "Sebastian Frank",
+      "exec_current_role": "Head of Scouting",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "E. Frankfurt",
+          "coach_position": "Head Coach",
+          "coach_role": "E. FrankfurtTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Head of Scouting",
+          "exec_category": "Scouting",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Albert Riera",
+      "coach_current_club": "Eintracht Frankfurt",
+      "exec_name": "Alexander Richter",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "E. Frankfurt",
+          "coach_position": "Head Coach",
+          "coach_role": "E. FrankfurtTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Steffen Baumgart",
+      "coach_current_club": "1. FC Union Berlin",
+      "exec_name": "Carsten Schiel",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum (Entwicklung)",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "1.FC Köln",
+          "coach_position": "Head Coach",
+          "coach_role": "1.FC KölnTrainer",
+          "coach_period": "2021-2023",
+          "exec_role": "Leiter Nachwuchsleistungszentrum (Entwicklung)",
+          "exec_category": "Academy",
+          "overlap_start": 2021,
+          "overlap_end": 2022,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Steffen Baumgart",
+      "coach_current_club": "1. FC Union Berlin",
+      "exec_name": "Matthias Heidrich",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum (Sport)",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "1.FC Köln",
+          "coach_position": "Head Coach",
+          "coach_role": "1.FC KölnTrainer",
+          "coach_period": "2021-2023",
+          "exec_role": "Leiter Nachwuchsleistungszentrum (Sport)",
+          "exec_category": "Academy",
+          "overlap_start": 2021,
+          "overlap_end": 2022,
           "overlap_years": 2
         }
       ],
@@ -1010,6 +1388,48 @@
       "relationship_strength": 26
     },
     {
+      "coach_name": "Steffen Baumgart",
+      "coach_current_club": "1. FC Union Berlin",
+      "exec_name": "Michael Parensen",
+      "exec_current_role": "Technischer Direktor",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "Union Berlin",
+          "coach_position": "Head Coach",
+          "coach_role": "Union BerlinTrainer",
+          "coach_period": "2024-2026",
+          "exec_role": "Technischer Direktor",
+          "exec_category": "Technical",
+          "overlap_start": 2024,
+          "overlap_end": 2024,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
+      "coach_name": "Steffen Baumgart",
+      "coach_current_club": "1. FC Union Berlin",
+      "exec_name": "Willi Kronhardt",
+      "exec_current_role": "Chefscout",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "1.FC Köln",
+          "coach_position": "Head Coach",
+          "coach_role": "1.FC KölnTrainer",
+          "coach_period": "2021-2023",
+          "exec_role": "Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2021,
+          "overlap_end": 2021,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
       "coach_name": "Daniel Thioune",
       "coach_current_club": "Werder Bremen",
       "exec_name": "Johannes Spors",
@@ -1044,6 +1464,132 @@
           "coach_period": "2025-2027",
           "exec_role": "Sportdirektor / Geschäftsführer Sport",
           "exec_category": "Technical",
+          "overlap_start": 2025,
+          "overlap_end": 2025,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
+      "coach_name": "Urs Fischer",
+      "coach_current_club": "1. FSV Mainz 05",
+      "exec_name": "Oliver Ruhnert",
+      "exec_current_role": "Chefscout",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "Union Berlin",
+          "coach_position": "Head Coach",
+          "coach_role": "Union BerlinTrainer",
+          "coach_period": "2018-2020",
+          "exec_role": "Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2018,
+          "overlap_end": 2018,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
+      "coach_name": "Alexander Blessin",
+      "coach_current_club": "FC St. Pauli",
+      "exec_name": "Jan Sandmann",
+      "exec_current_role": "Leiter des Scoutings sowie der Kaderplanung / Chefscout",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "FC St. Pauli",
+          "coach_position": "Head Coach",
+          "coach_role": "FC St. PauliTrainer",
+          "coach_period": "2024-2026",
+          "exec_role": "Leiter des Scoutings sowie der Kaderplanung / Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2024,
+          "overlap_end": 2024,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
+      "coach_name": "Alexander Blessin",
+      "coach_current_club": "FC St. Pauli",
+      "exec_name": "Benjamin Liedtke",
+      "exec_current_role": "NLZ-Leiter / Leiter Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "FC St. Pauli",
+          "coach_position": "Head Coach",
+          "coach_role": "FC St. PauliTrainer",
+          "coach_period": "2024-2026",
+          "exec_role": "NLZ-Leiter / Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2024,
+          "overlap_end": 2024,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
+      "coach_name": "Alexander Blessin",
+      "coach_current_club": "FC St. Pauli",
+      "exec_name": "Fabian Seeger",
+      "exec_current_role": "Sportlicher Leiter NLZ",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "FC St. Pauli",
+          "coach_position": "Head Coach",
+          "coach_role": "FC St. PauliTrainer",
+          "coach_period": "2024-2026",
+          "exec_role": "Sportlicher Leiter NLZ",
+          "exec_category": "Academy",
+          "overlap_start": 2024,
+          "overlap_end": 2024,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
+      "coach_name": "Lukas Kwasniok",
+      "coach_current_club": "1. FC Köln",
+      "exec_name": "Lukas Berg",
+      "exec_current_role": "Technischer Direktor",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "1.FC Köln",
+          "coach_position": "Head Coach",
+          "coach_role": "1.FC KölnTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Technischer Direktor",
+          "exec_category": "Technical",
+          "overlap_start": 2025,
+          "overlap_end": 2025,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
+      "coach_name": "Lukas Kwasniok",
+      "coach_current_club": "1. FC Köln",
+      "exec_name": "Martin Schulz",
+      "exec_current_role": "Chefscout",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "1.FC Köln",
+          "coach_position": "Head Coach",
+          "coach_role": "1.FC KölnTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Chefscout",
+          "exec_category": "Scouting",
           "overlap_start": 2025,
           "overlap_end": 2025,
           "overlap_years": 1
