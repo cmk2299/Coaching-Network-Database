@@ -2810,20 +2810,36 @@ Dashboard file location: {Path(__file__).resolve()}
             # Section 3: All Management Contacts from Career
             st.markdown("#### 🏢 Club Leadership & Board")
             st.caption("CEOs, Board Members, and Directors who overlapped with coach's tenure")
-            st.info("💡 **Note:** Sports Directors and key executives may be incomplete here. Check the 'Decision Makers' and 'Sporting Directors' tabs for more complete hiring intelligence.")
 
-            all_management = companions_data.get("all_management", [])
+            # Merge management from companions AND sports directors from decision_makers
+            all_management = companions_data.get("all_management", []).copy()
+
+            # Add Sports Directors from decision_makers (hiring managers) to fill gaps
+            decision_makers_data = data.get("decision_makers", {})
+            if decision_makers_data:
+                for sd in decision_makers_data.get("sports_directors", []):
+                    # Convert to management format
+                    all_management.append({
+                        "name": sd.get("name", ""),
+                        "role": sd.get("role", "Sporting Director"),
+                        "club_name": sd.get("club_name", ""),
+                        "url": sd.get("url", ""),
+                        "start_date": "",
+                        "overlap_months": ""
+                    })
             if all_management:
                 # Group by club, then by role type
                 clubs = {}
                 for mgmt in all_management:
                     club = mgmt.get("club_name", "Unknown")
                     if club not in clubs:
-                        clubs[club] = {"CEO": [], "Board": [], "Other": []}
+                        clubs[club] = {"CEO": [], "Sports Director": [], "Board": [], "Other": []}
 
                     role = mgmt.get("role", "")
                     if "CEO" in role or "Geschäftsführer" in role or "Vorsitzend" in role:
                         clubs[club]["CEO"].append(mgmt)
+                    elif "Sport" in role and "direktor" in role.lower():  # Sportdirektor, Sporting Director
+                        clubs[club]["Sports Director"].append(mgmt)
                     elif "Vorstand" in role or "Präsident" in role or "Aufsichtsrat" in role:
                         clubs[club]["Board"].append(mgmt)
                     else:
@@ -2835,7 +2851,7 @@ Dashboard file location: {Path(__file__).resolve()}
                             if not managers:
                                 continue
 
-                            role_emoji = "👔" if role_type == "CEO" else "🏛️" if role_type == "Board" else "📋"
+                            role_emoji = "👔" if role_type == "CEO" else "⚽" if role_type == "Sports Director" else "🏛️" if role_type == "Board" else "📋"
                             st.markdown(f"**{role_emoji} {role_type}**")
 
                             mgmt_cols = st.columns(min(len(managers), 2))
