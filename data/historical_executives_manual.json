@@ -1,0 +1,336 @@
+{
+  "created_date": "2026-02-09T11:40:00",
+  "updated_date": "2026-02-09T12:00:00",
+  "description": "Manually curated historical executives discovered via web research",
+  "methodology": "Web search + article verification for key clubs during coach youth/assistant periods (2010+)",
+  "total_executives": 8,
+  "executives": [
+    {
+      "name": "Johannes Spors",
+      "clubs": [
+        {
+          "club": "RB Leipzig",
+          "role": "Head of Scouting / Chefscout",
+          "category": "Scouting",
+          "start_date": "2015-12",
+          "end_date": "2018-02-01",
+          "start_year": 2015,
+          "end_year": 2018,
+          "sources": [
+            {
+              "title": "HSV holt Scouting-Leiter Johannes Spors von RB Leipzig",
+              "url": "https://www.kicker.de/713943/artikel",
+              "type": "News Article",
+              "date": "2018-02"
+            }
+          ],
+          "verified": true,
+          "confidence": "high"
+        },
+        {
+          "club": "Hamburger SV",
+          "role": "Scouting-Leiter",
+          "category": "Scouting",
+          "start_date": "2018-02-01",
+          "end_date": "2020",
+          "start_year": 2018,
+          "end_year": 2020,
+          "sources": [
+            {
+              "title": "HSV verpflichtet Johannes Spors als Scouting-Leiter",
+              "url": "https://www.hsv.de/news/hsv-verpflichtet-johannes-spors-als-scouting-leiter-und-kaderplaner",
+              "type": "Official Club Statement"
+            }
+          ],
+          "verified": true,
+          "confidence": "high"
+        }
+      ],
+      "current_club": "Genoa CFC",
+      "current_role": "Sporting Director",
+      "profile_url": "https://www.transfermarkt.de/johannes-spors/profil/trainer/35446",
+      "notes": "Key contact for coaches at RB Leipzig 2015-2018. Later became SD."
+    },
+    {
+      "name": "Sebastian Kegel",
+      "clubs": [
+        {
+          "club": "RB Leipzig",
+          "role": "Leiter Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2012",
+          "end_date": "2023",
+          "start_year": 2012,
+          "end_year": 2023,
+          "sources": [
+            {
+              "title": "Sebastian Kegel übernimmt Leitung des Nachwuchsleistungszentrums",
+              "url": "https://rblive.de/news/sebastian-kegel-uebernimmt-leitung-des-nachwuchsleistungszentrums-3301311",
+              "type": "News Article"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "U15 Trainer seit 2011, Director of NLZ from 2012"
+        }
+      ],
+      "current_club": "RB Leipzig",
+      "current_role": "Former Leiter NLZ",
+      "profile_url": null,
+      "notes": "Critical contact for ALL youth coaches at RB Leipzig NLZ 2012-2023"
+    },
+    {
+      "name": "Wolfgang Dremmler",
+      "clubs": [
+        {
+          "club": "Bayern München",
+          "role": "Leiter Scouting",
+          "category": "Scouting",
+          "start_date": "1995",
+          "end_date": "2012",
+          "start_year": 1995,
+          "end_year": 2012,
+          "sources": [
+            {
+              "title": "Dremmler neuer Leiter des FCB-Nachwuchsbereichs",
+              "url": "https://fcbayern.com/de/news/2012/08/dremmler-neuer-leiter-des-fcb-nachwuchsbereichs",
+              "type": "Official Club News",
+              "date": "2012-08"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "17 years as Chefscout/Abteilungsleiter Spiele-/Spielerbeobachtung"
+        },
+        {
+          "club": "Bayern München",
+          "role": "Leiter Nachwuchsbereich",
+          "category": "Academy",
+          "start_date": "2012-08",
+          "end_date": "2017",
+          "start_year": 2012,
+          "end_year": 2017,
+          "sources": [
+            {
+              "title": "Dremmler folgt auf Butt",
+              "url": "https://www.kicker.de/573130/artikel",
+              "type": "News Article"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Transitioned from Scouting to Youth Leadership"
+        }
+      ],
+      "current_club": "Retired",
+      "current_role": "Former Bayern Executive",
+      "profile_url": null,
+      "notes": "Key figure for Bayern youth/scouting 1995-2017"
+    },
+    {
+      "name": "Hermann Gerland",
+      "clubs": [
+        {
+          "club": "Bayern München",
+          "role": "Sportliche Leitung NLZ",
+          "category": "Academy",
+          "start_date": "2017",
+          "end_date": "2024",
+          "start_year": 2017,
+          "end_year": 2024,
+          "sources": [
+            {
+              "title": "Hermann Gerland und Jochen Sauer übernehmen Leitung des NLZ",
+              "url": "https://fcbayern.com/de/news/2017/02/presseerklarung-gerland-und-sauer-ubernehmen-leitung-des-neuen-nachwuchsleistungszentrums",
+              "type": "Official Press Release"
+            }
+          ],
+          "verified": true,
+          "confidence": "high"
+        }
+      ],
+      "current_club": "Bayern München",
+      "current_role": "Former Sportliche Leitung NLZ",
+      "profile_url": null,
+      "notes": "Led Bayern Campus youth development 2017-2024"
+    },
+    {
+      "name": "Jochen Sauer",
+      "clubs": [
+        {
+          "club": "Bayern München",
+          "role": "Direktor Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2017",
+          "end_date": "2025",
+          "start_year": 2017,
+          "end_year": 2025,
+          "sources": [
+            {
+              "title": "Hermann Gerland und Jochen Sauer übernehmen Leitung des NLZ",
+              "url": "https://fcbayern.com/de/news/2017/02/presseerklarung-gerland-und-sauer-ubernehmen-leitung-des-neuen-nachwuchsleistungszentrums",
+              "type": "Official Press Release"
+            }
+          ],
+          "verified": true,
+          "confidence": "high"
+        }
+      ],
+      "current_club": "Bayern München",
+      "current_role": "Direktor NLZ",
+      "profile_url": null,
+      "notes": "Bayern Campus director since 2017"
+    },
+    {
+      "name": "Sven Mislintat",
+      "clubs": [
+        {
+          "club": "Borussia Dortmund",
+          "role": "Chefscout",
+          "category": "Scouting",
+          "start_date": "2009",
+          "end_date": "2017",
+          "start_year": 2009,
+          "end_year": 2017,
+          "sources": [
+            {
+              "title": "Sven Mislintat - Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Sven_Mislintat",
+              "type": "Wikipedia"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Legendary BVB scout, signed Lewandowski, Aubameyang. Became Director of Professional Football 2017."
+        }
+      ],
+      "current_club": "Ajax Amsterdam",
+      "current_role": "Technical Director",
+      "profile_url": "https://www.transfermarkt.de/sven-mislintat/profil/trainer/13852",
+      "notes": "One of Germany's most successful scouts. Critical contact for BVB youth coaches 2009-2017."
+    },
+    {
+      "name": "Lars Ricken",
+      "clubs": [
+        {
+          "club": "Borussia Dortmund",
+          "role": "Nachwuchskoordinator",
+          "category": "Academy",
+          "start_date": "2008",
+          "end_date": "2020",
+          "start_year": 2008,
+          "end_year": 2020,
+          "sources": [
+            {
+              "title": "Lars Ricken neuer Nachwuchskoordinator",
+              "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/News/Uebersicht/Lars-Ricken-neuer-Nachwuchskoordinator-Michael-Zorc-Er-kann-ein-Vorbild-sein.html",
+              "type": "Official Club News"
+            }
+          ],
+          "verified": true,
+          "confidence": "high"
+        },
+        {
+          "club": "Borussia Dortmund",
+          "role": "Direktor Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2021",
+          "end_date": "2024",
+          "start_year": 2021,
+          "end_year": 2024,
+          "sources": [
+            {
+              "title": "Lars Ricken wird Direktor Nachwuchsleistungszentrum",
+              "url": "https://www.bvb.de/News/Uebersicht/Lars-Ricken-wird-Direktor-Nachwuchsleistungszentrum",
+              "type": "Official Club News"
+            }
+          ],
+          "verified": true,
+          "confidence": "high"
+        }
+      ],
+      "current_club": "Borussia Dortmund",
+      "current_role": "Geschäftsführer Sport",
+      "profile_url": "https://www.transfermarkt.de/lars-ricken/profil/trainer/13733",
+      "notes": "BVB legend. Key figure for ALL youth coaches at Dortmund 2008-2024. Now Managing Director."
+    },
+    {
+      "name": "Alexander Rosen",
+      "clubs": [
+        {
+          "club": "Hoffenheim",
+          "role": "Leiter Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2010-11",
+          "end_date": "2013-04",
+          "start_year": 2010,
+          "end_year": 2013,
+          "sources": [
+            {
+              "title": "Alexander Rosen im Interview",
+              "url": "https://www.spox.com/de/sport/fussball/bundesliga/1310/Artikel/alexander-rosen-interview-tsg-1899-hoffenheim-leiter-profifussball-nachwuchs-lutz-pfannenstiel,seite=2.html",
+              "type": "Interview"
+            }
+          ],
+          "verified": true,
+          "confidence": "high"
+        },
+        {
+          "club": "Hoffenheim",
+          "role": "Sportdirektor",
+          "category": "Technical",
+          "start_date": "2013-04",
+          "end_date": "2023",
+          "start_year": 2013,
+          "end_year": 2023,
+          "sources": [
+            {
+              "title": "Alexander Rosen verlässt TSG Hoffenheim",
+              "url": "https://www.bundesliga.com/de/bundesliga/news/alexander-rosen-tsg-hoffenheim-neuausrichtung-28323",
+              "type": "Official News"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Built Hoffenheim's academy and scouting from 2010. Now at Gladbach."
+        }
+      ],
+      "current_club": "Borussia Mönchengladbach",
+      "current_role": "Sportvorstand",
+      "profile_url": "https://www.transfermarkt.de/alexander-rosen/profil/trainer/17038",
+      "notes": "Key architect of Hoffenheim's success. Critical for Hoffenheim youth coaches 2010-2023."
+    }
+  ],
+  "coverage": {
+    "clubs": {
+      "RB Leipzig": {
+        "executives": 2,
+        "years_covered": "2012-2023",
+        "categories": ["Scouting", "Academy"]
+      },
+      "Bayern München": {
+        "executives": 4,
+        "years_covered": "1995-2024",
+        "categories": ["Scouting", "Academy"]
+      },
+      "Borussia Dortmund": {
+        "executives": 2,
+        "years_covered": "2008-2024",
+        "categories": ["Scouting", "Academy"]
+      },
+      "Hoffenheim": {
+        "executives": 1,
+        "years_covered": "2010-2023",
+        "categories": ["Academy", "Technical"]
+      }
+    },
+    "total_clubs": 4,
+    "total_club_years": "1995-2024 (30 years coverage)",
+    "total_positions": 11
+  },
+  "next_steps": [
+    "Run analyze_youth_executive_overlaps.py to match coaches with these executives",
+    "Expand to more clubs as needed (Mainz, Stuttgart, etc.)",
+    "Integrate into Complete Network dashboard tab"
+  ]
+}
