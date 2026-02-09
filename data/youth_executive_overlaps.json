@@ -1,11 +1,11 @@
 {
-  "analysis_date": "2026-02-09T13:38:13.754130",
+  "analysis_date": "2026-02-09T14:34:29.967672",
   "league": "Bundesliga",
   "season": "2024/25",
-  "total_executives": 222,
+  "total_executives": 240,
   "total_coaches": 18,
-  "total_relationships": 19,
-  "total_overlap_periods": 36,
+  "total_relationships": 35,
+  "total_overlap_periods": 65,
   "relationships": [
     {
       "coach_name": "Alexander Blessin",
@@ -193,6 +193,211 @@
       "relationship_strength": 235
     },
     {
+      "coach_name": "Daniel Bauer",
+      "coach_current_club": "VfL Wolfsburg",
+      "exec_name": "Jörg Schmadtke",
+      "exec_current_role": "Geschäftsführer Sport / Managing Director Sport",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "Wolfsburg U19",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U19Trainer",
+          "coach_period": "2021-2023",
+          "exec_role": "Geschäftsführer Sport / Managing Director Sport",
+          "exec_category": "Technical",
+          "overlap_start": 2021,
+          "overlap_end": 2023,
+          "overlap_years": 3
+        },
+        {
+          "club": "Wolfsburg U17",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U17Trainer",
+          "coach_period": "2020-2022",
+          "exec_role": "Geschäftsführer Sport / Managing Director Sport",
+          "exec_category": "Technical",
+          "overlap_start": 2020,
+          "overlap_end": 2022,
+          "overlap_years": 3
+        },
+        {
+          "club": "Wolfsburg IICo-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg IICo-Trainer",
+          "coach_period": "2017-2019",
+          "exec_role": "Geschäftsführer Sport / Managing Director Sport",
+          "exec_category": "Technical",
+          "overlap_start": 2018,
+          "overlap_end": 2019,
+          "overlap_years": 2
+        },
+        {
+          "club": "Wolfsburg U19Co-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U19Co-Trainer",
+          "coach_period": "2016-2018",
+          "exec_role": "Geschäftsführer Sport / Managing Director Sport",
+          "exec_category": "Technical",
+          "overlap_start": 2018,
+          "overlap_end": 2018,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 139
+    },
+    {
+      "coach_name": "Daniel Bauer",
+      "coach_current_club": "VfL Wolfsburg",
+      "exec_name": "Pablo Thiam",
+      "exec_current_role": "Akademiedirektor / Academy Director",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "Wolfsburg U19",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U19Trainer",
+          "coach_period": "2021-2023",
+          "exec_role": "Akademiedirektor / Academy Director",
+          "exec_category": "Academy",
+          "overlap_start": 2021,
+          "overlap_end": 2021,
+          "overlap_years": 1
+        },
+        {
+          "club": "Wolfsburg U17",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U17Trainer",
+          "coach_period": "2020-2022",
+          "exec_role": "Akademiedirektor / Academy Director",
+          "exec_category": "Academy",
+          "overlap_start": 2020,
+          "overlap_end": 2021,
+          "overlap_years": 2
+        },
+        {
+          "club": "Wolfsburg IICo-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg IICo-Trainer",
+          "coach_period": "2017-2019",
+          "exec_role": "Akademiedirektor / Academy Director",
+          "exec_category": "Academy",
+          "overlap_start": 2018,
+          "overlap_end": 2019,
+          "overlap_years": 2
+        },
+        {
+          "club": "Wolfsburg U19Co-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U19Co-Trainer",
+          "coach_period": "2016-2018",
+          "exec_role": "Akademiedirektor / Academy Director",
+          "exec_category": "Academy",
+          "overlap_start": 2018,
+          "overlap_end": 2018,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 130
+    },
+    {
+      "coach_name": "Daniel Bauer",
+      "coach_current_club": "VfL Wolfsburg",
+      "exec_name": "Michael Gentner",
+      "exec_current_role": "Akademiedirektor / Academy Director",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "VfL Wolfsburg",
+          "coach_position": "Head Coach",
+          "coach_role": "VfL WolfsburgTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Akademiedirektor / Academy Director",
+          "exec_category": "Academy",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 2
+        },
+        {
+          "club": "Wolfsburg U19",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U19Trainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Akademiedirektor / Academy Director",
+          "exec_category": "Academy",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 2
+        },
+        {
+          "club": "Wolfsburg U19",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U19Trainer",
+          "coach_period": "2021-2023",
+          "exec_role": "Akademiedirektor / Academy Director",
+          "exec_category": "Academy",
+          "overlap_start": 2022,
+          "overlap_end": 2023,
+          "overlap_years": 2
+        },
+        {
+          "club": "Wolfsburg U17",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U17Trainer",
+          "coach_period": "2020-2022",
+          "exec_role": "Akademiedirektor / Academy Director",
+          "exec_category": "Academy",
+          "overlap_start": 2022,
+          "overlap_end": 2022,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 113
+    },
+    {
+      "coach_name": "Daniel Bauer",
+      "coach_current_club": "VfL Wolfsburg",
+      "exec_name": "Sebastian Schindzielorz",
+      "exec_current_role": "Sportdirektor / Sports Director",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "VfL Wolfsburg",
+          "coach_position": "Head Coach",
+          "coach_role": "VfL WolfsburgTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Sportdirektor / Sports Director",
+          "exec_category": "Technical",
+          "overlap_start": 2025,
+          "overlap_end": 2025,
+          "overlap_years": 1
+        },
+        {
+          "club": "Wolfsburg U19",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U19Trainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Sportdirektor / Sports Director",
+          "exec_category": "Technical",
+          "overlap_start": 2025,
+          "overlap_end": 2025,
+          "overlap_years": 1
+        },
+        {
+          "club": "Wolfsburg U19",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U19Trainer",
+          "coach_period": "2021-2023",
+          "exec_role": "Sportdirektor / Sports Director",
+          "exec_category": "Technical",
+          "overlap_start": 2023,
+          "overlap_end": 2023,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 73
+    },
+    {
       "coach_name": "Sebastian Hoeneß",
       "coach_current_club": "VfB Stuttgart",
       "exec_name": "Johannes Spors",
@@ -220,6 +425,70 @@
           "overlap_start": 2015,
           "overlap_end": 2016,
           "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 71
+    },
+    {
+      "coach_name": "Daniel Bauer",
+      "coach_current_club": "VfL Wolfsburg",
+      "exec_name": "Pierre Littbarski",
+      "exec_current_role": "Chefscout / Head of Scouting",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "Wolfsburg IICo-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg IICo-Trainer",
+          "coach_period": "2017-2019",
+          "exec_role": "Chefscout / Head of Scouting",
+          "exec_category": "Scouting",
+          "overlap_start": 2017,
+          "overlap_end": 2018,
+          "overlap_years": 2
+        },
+        {
+          "club": "Wolfsburg U19Co-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U19Co-Trainer",
+          "coach_period": "2016-2018",
+          "exec_role": "Chefscout / Head of Scouting",
+          "exec_category": "Scouting",
+          "overlap_start": 2016,
+          "overlap_end": 2018,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 71
+    },
+    {
+      "coach_name": "Daniel Bauer",
+      "coach_current_club": "VfL Wolfsburg",
+      "exec_name": "Fabian Wohlgemuth",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum / Academy Director",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "Wolfsburg IICo-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg IICo-Trainer",
+          "coach_period": "2017-2019",
+          "exec_role": "Leiter Nachwuchsleistungszentrum / Academy Director",
+          "exec_category": "Academy",
+          "overlap_start": 2017,
+          "overlap_end": 2018,
+          "overlap_years": 2
+        },
+        {
+          "club": "Wolfsburg U19Co-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "Wolfsburg U19Co-Trainer",
+          "coach_period": "2016-2018",
+          "exec_role": "Leiter Nachwuchsleistungszentrum / Academy Director",
+          "exec_category": "Academy",
+          "overlap_start": 2016,
+          "overlap_end": 2018,
+          "overlap_years": 3
         }
       ],
       "relationship_strength": 71
@@ -323,6 +592,27 @@
     {
       "coach_name": "Niko Kovac",
       "coach_current_club": "Borussia Dortmund",
+      "exec_name": "Michael Gentner",
+      "exec_current_role": "Akademiedirektor / Academy Director",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "VfL Wolfsburg",
+          "coach_position": "Head Coach",
+          "coach_role": "VfL WolfsburgTrainer",
+          "coach_period": "2022-2024",
+          "exec_role": "Akademiedirektor / Academy Director",
+          "exec_category": "Academy",
+          "overlap_start": 2022,
+          "overlap_end": 2024,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
+      "coach_name": "Niko Kovac",
+      "coach_current_club": "Borussia Dortmund",
       "exec_name": "Hermann Gerland",
       "exec_current_role": "Sportliche Leitung NLZ",
       "exec_category": "Academy",
@@ -357,6 +647,69 @@
           "exec_category": "Academy",
           "overlap_start": 2018,
           "overlap_end": 2020,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
+      "coach_name": "Ole Werner",
+      "coach_current_club": "RB Leipzig",
+      "exec_name": "Clemens Fritz",
+      "exec_current_role": "Head of Scouting and Professional Football",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "Werder Bremen",
+          "coach_position": "Head Coach",
+          "coach_role": "Werder BremenTrainer",
+          "coach_period": "2021-2023",
+          "exec_role": "Head of Scouting and Professional Football",
+          "exec_category": "Scouting",
+          "overlap_start": 2021,
+          "overlap_end": 2023,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
+      "coach_name": "Ole Werner",
+      "coach_current_club": "RB Leipzig",
+      "exec_name": "Björn Schierenbeck",
+      "exec_current_role": "Director of Nachwuchsleistungszentrum (Academy Director)",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "Werder Bremen",
+          "coach_position": "Head Coach",
+          "coach_role": "Werder BremenTrainer",
+          "coach_period": "2021-2023",
+          "exec_role": "Director of Nachwuchsleistungszentrum (Academy Director)",
+          "exec_category": "Academy",
+          "overlap_start": 2021,
+          "overlap_end": 2023,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
+      "coach_name": "Ole Werner",
+      "coach_current_club": "RB Leipzig",
+      "exec_name": "Thomas Wolter",
+      "exec_current_role": "Sportlicher Leiter (Sporting Director - Youth Academy)",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "Werder Bremen",
+          "coach_position": "Head Coach",
+          "coach_role": "Werder BremenTrainer",
+          "coach_period": "2021-2023",
+          "exec_role": "Sportlicher Leiter (Sporting Director - Youth Academy)",
+          "exec_category": "Academy",
+          "overlap_start": 2021,
+          "overlap_end": 2023,
           "overlap_years": 3
         }
       ],
@@ -426,6 +779,48 @@
       "relationship_strength": 29
     },
     {
+      "coach_name": "Niko Kovac",
+      "coach_current_club": "Borussia Dortmund",
+      "exec_name": "Jörg Schmadtke",
+      "exec_current_role": "Geschäftsführer Sport / Managing Director Sport",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "VfL Wolfsburg",
+          "coach_position": "Head Coach",
+          "coach_role": "VfL WolfsburgTrainer",
+          "coach_period": "2022-2024",
+          "exec_role": "Geschäftsführer Sport / Managing Director Sport",
+          "exec_category": "Technical",
+          "overlap_start": 2022,
+          "overlap_end": 2023,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Niko Kovac",
+      "coach_current_club": "Borussia Dortmund",
+      "exec_name": "Sebastian Schindzielorz",
+      "exec_current_role": "Sportdirektor / Sports Director",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "VfL Wolfsburg",
+          "coach_position": "Head Coach",
+          "coach_role": "VfL WolfsburgTrainer",
+          "coach_period": "2022-2024",
+          "exec_role": "Sportdirektor / Sports Director",
+          "exec_category": "Technical",
+          "overlap_start": 2023,
+          "overlap_end": 2024,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
       "coach_name": "Kasper Hjulmand",
       "coach_current_club": "Bayer 04 Leverkusen",
       "exec_name": "Volker Kersting",
@@ -462,6 +857,48 @@
           "exec_category": "Academy",
           "overlap_start": 2022,
           "overlap_end": 2023,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Eugen Polanski",
+      "coach_current_club": "Borussia Mönchengladbach",
+      "exec_name": "Mirko Sandmöller",
+      "exec_current_role": "Direktor Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "Bor. M'gladbach",
+          "coach_position": "Head Coach",
+          "coach_role": "Bor. M'gladbachTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Direktor Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Eugen Polanski",
+      "coach_current_club": "Borussia Mönchengladbach",
+      "exec_name": "Steffen Korell",
+      "exec_current_role": "Direktor Scouting und Kaderplanung",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "Bor. M'gladbach",
+          "coach_position": "Head Coach",
+          "coach_role": "Bor. M'gladbachTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Direktor Scouting und Kaderplanung",
+          "exec_category": "Scouting",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
           "overlap_years": 2
         }
       ],
@@ -531,6 +968,27 @@
       "relationship_strength": 26
     },
     {
+      "coach_name": "Ole Werner",
+      "coach_current_club": "RB Leipzig",
+      "exec_name": "Thomas Schaaf",
+      "exec_current_role": "Technischer Direktor (Technical Director)",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "Werder Bremen",
+          "coach_position": "Head Coach",
+          "coach_role": "Werder BremenTrainer",
+          "coach_period": "2021-2023",
+          "exec_role": "Technischer Direktor (Technical Director)",
+          "exec_category": "Technical",
+          "overlap_start": 2021,
+          "overlap_end": 2021,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
       "coach_name": "Kasper Hjulmand",
       "coach_current_club": "Bayer 04 Leverkusen",
       "exec_name": "Siegfried Marti",
@@ -567,6 +1025,27 @@
           "exec_category": "Scouting",
           "overlap_start": 2020,
           "overlap_end": 2020,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
+      "coach_name": "Eugen Polanski",
+      "coach_current_club": "Borussia Mönchengladbach",
+      "exec_name": "Roland Virkus",
+      "exec_current_role": "Sportdirektor / Geschäftsführer Sport",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "Bor. M'gladbach",
+          "coach_position": "Head Coach",
+          "coach_role": "Bor. M'gladbachTrainer",
+          "coach_period": "2025-2027",
+          "exec_role": "Sportdirektor / Geschäftsführer Sport",
+          "exec_category": "Technical",
+          "overlap_start": 2025,
+          "overlap_end": 2025,
           "overlap_years": 1
         }
       ],
