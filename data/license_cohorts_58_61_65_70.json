@@ -1,0 +1,169 @@
+{
+  "description": "DFB Fußball-Lehrer / Pro-Lizenz Lehrgänge 58-61 and 65-70",
+  "source": "Web research February 2026",
+  "methodology": "Official DFB announcements, Transfermarkt profiles, news articles",
+  "cohorts": {
+    "58": {
+      "year": "2011/2012",
+      "name": "58. Fußball-Lehrer-Lehrgang",
+      "location": "Hennes-Weisweiler-Akademie, Hennef",
+      "notes": "First cohort at new Hennef location",
+      "graduates": [
+        {"name": "Alexander Zorniger", "note": "Zuletzt VfB Stuttgart", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/alexander-zorniger/profil/trainer/1145"},
+        {"name": "Stefan Effenberg", "note": "Former Bayern star", "current_job": "Pundit", "tm_url": ""},
+        {"name": "Christian Wörns", "note": "Former German international", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Mehmet Scholl", "note": "Former Bayern midfielder", "current_job": "Pundit", "tm_url": ""},
+        {"name": "Jörg Heinrich", "note": "Former Dortmund defender", "current_job": "Trainer", "tm_url": ""}
+      ]
+    },
+    "59": {
+      "year": "2012/2013",
+      "name": "59. Fußball-Lehrer-Lehrgang",
+      "location": "Hennes-Weisweiler-Akademie, Hennef",
+      "notes": "25 graduates, Frank Kramer was best",
+      "graduates": [
+        {"name": "Otto Addo", "note": "Borussia Dortmund Co-Trainer", "current_job": "Co-Trainer", "tm_url": "https://www.transfermarkt.us/otto-addo/profil/trainer/38293"},
+        {"name": "Markus Anfang", "note": "Zuletzt SV Darmstadt 98", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/markus-anfang/profil/trainer/8251"},
+        {"name": "André Breitenreiter", "note": "Zuletzt Hannover 96", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/andre-breitenreiter/profil/trainer/17465"},
+        {"name": "Frank Kramer", "note": "TSG Hoffenheim Sportdirektor", "current_job": "Sportdirektor", "tm_url": "https://www.transfermarkt.us/frank-kramer/profil/trainer/6088"},
+        {"name": "Sandro Schwarz", "note": "Zuletzt NY Red Bulls", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/sandro-schwarz/profil/trainer/9570"},
+        {"name": "Jan Siewert", "note": "", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Daniel Stendel", "note": "", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Maik Walpurgis", "note": "", "current_job": "Trainer", "tm_url": ""}
+      ]
+    },
+    "60": {
+      "year": "2013/2014",
+      "name": "60. Fußball-Lehrer-Lehrgang",
+      "location": "Hennes-Weisweiler-Akademie, Hennef",
+      "notes": "24 graduates, Achim Beierlorzer was best",
+      "graduates": [
+        {"name": "Manuel Baum", "note": "Zuletzt FC Augsburg", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/manuel-baum/profil/trainer/8252"},
+        {"name": "Achim Beierlorzer", "note": "Zuletzt SSV Jahn Regensburg", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/achim-beierlorzer/profil/trainer/15487"},
+        {"name": "Daniel Farke", "note": "Leeds United", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/daniel-farke/profil/trainer/6645"},
+        {"name": "Sebastian Hoeneß", "note": "VfB Stuttgart", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/sebastian-hoeness/profil/trainer/20940"},
+        {"name": "Valérien Ismaël", "note": "Zuletzt Blackburn Rovers", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/valerien-ismael/profil/trainer/12871"},
+        {"name": "Sabine Loderer", "note": "Only woman in cohort", "current_job": "Trainerin", "tm_url": ""},
+        {"name": "Christian Preußer", "note": "Zuletzt Fortuna Düsseldorf", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/christian-preusser/profil/trainer/15166"},
+        {"name": "Markus Feldhoff", "note": "Zuletzt VfL Osnabrück", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/markus-feldhoff/profil/trainer/17128"}
+      ]
+    },
+    "61": {
+      "year": "2014/2015",
+      "name": "61. Fußball-Lehrer-Lehrgang",
+      "location": "Hennes-Weisweiler-Akademie, Hennef",
+      "notes": "24 graduates, Florian Kohfeldt was best",
+      "graduates": [
+        {"name": "Steffen Baumgart", "note": "Union Berlin", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/steffen-baumgart/profil/trainer/9622"},
+        {"name": "Torsten Frings", "note": "Former German international", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/torsten-frings/profil/trainer/1991"},
+        {"name": "Sascha Hildmann", "note": "Zuletzt VfB Lübeck", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/sascha-hildmann/profil/trainer/13736"},
+        {"name": "Florian Kohfeldt", "note": "Darmstadt 98", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/florian-kohfeldt/profil/trainer/7896"},
+        {"name": "Jana Menzel", "note": "Only woman in cohort", "current_job": "Trainerin", "tm_url": ""},
+        {"name": "Rüdiger Rehm", "note": "FC Bayern München II", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/rudiger-rehm/profil/trainer/3236"},
+        {"name": "Thomas Reis", "note": "Samsunspor (Turkey)", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/thomas-reis/profil/trainer/19735"},
+        {"name": "Marco Rose", "note": "RB Leipzig", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/marco-rose/profil/trainer/24197"}
+      ]
+    },
+    "65": {
+      "year": "2018/2019",
+      "name": "65. Fußball-Lehrer-Lehrgang",
+      "location": "Hennes-Weisweiler-Akademie, Hennef",
+      "notes": "24 graduates, Robert Klauß was best. DFB discontinued naming best graduate after this cohort.",
+      "graduates": [
+        {"name": "Robert Klauß", "note": "Zuletzt FK Rapid Wien", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/robert-klauss/profil/trainer/29940"},
+        {"name": "Daniel Bierofka", "note": "BFV coaching team", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/daniel-bierofka/profil/trainer/38870"},
+        {"name": "Patrick Helmes", "note": "1. FC Köln U21", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/patrick-helmes/profil/trainer/38297"},
+        {"name": "Andreas Hinkel", "note": "Former German international", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Theresa Merk", "note": "Only woman in cohort", "current_job": "Trainerin", "tm_url": ""}
+      ]
+    },
+    "66": {
+      "year": "2019/2020",
+      "name": "66. Fußball-Lehrer-Lehrgang",
+      "location": "Hennes-Weisweiler-Akademie, Hennef",
+      "notes": "24 graduates",
+      "graduates": [
+        {"name": "Sebastian Bönig", "note": "Union Berlin staff", "current_job": "Co-Trainer", "tm_url": ""},
+        {"name": "Tim Borowski", "note": "Werder Bremen", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Heiko Butscher", "note": "VfL Bochum", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Steven Cherundolo", "note": "VfB Stuttgart", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Christian Eichner", "note": "Karlsruher SC", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/christian-eichner/profil/trainer/49834"},
+        {"name": "Matthias Jaissle", "note": "Bröndby IF", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Enrico Maaßen", "note": "FC St. Gallen", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/enrico-maassen/profil/trainer/16913"},
+        {"name": "Christoph Metzelder", "note": "Former German international", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Dino Toppmöller", "note": "Zuletzt Eintracht Frankfurt", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Ole Werner", "note": "RB Leipzig", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/ole-werner/profil/trainer/37996"},
+        {"name": "Thomas Wörle", "note": "FC Bayern women's team", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Imke Wübbenhorst", "note": "BV Cloppenburg", "current_job": "Trainerin", "tm_url": ""}
+      ]
+    },
+    "67": {
+      "year": "2020/2021",
+      "name": "67. Fußball-Lehrer-Lehrgang",
+      "location": "Hennes-Weisweiler-Akademie, Hennef",
+      "notes": "25 graduates. Digital Campus due to COVID-19",
+      "graduates": [
+        {"name": "Hanno Balitsch", "note": "", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Danny Galm", "note": "", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Miroslav Klose", "note": "1. FC Nürnberg", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/miroslav-klose/profil/trainer/49850"},
+        {"name": "Kim Kulig", "note": "European champion", "current_job": "Trainerin", "tm_url": ""},
+        {"name": "Daniel Scherning", "note": "Arminia Bielefeld", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.de/daniel-scherning/profil/trainer/17127"},
+        {"name": "Tobias Schweinsteiger", "note": "DAZN pundit", "current_job": "Pundit", "tm_url": ""},
+        {"name": "Michael Wimmer", "note": "", "current_job": "Trainer", "tm_url": ""}
+      ]
+    },
+    "68": {
+      "year": "2022/2023",
+      "name": "68. Pro-Lizenz-Lehrgang",
+      "location": "DFB-Akademie, Frankfurt",
+      "notes": "16 graduates. First cohort with 'Pro Lizenz' designation (reformed successor to Fußball-Lehrer)",
+      "graduates": [
+        {"name": "Benjamin Duda", "note": "Chemnitzer FC", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Marie-Louise Eta", "note": "", "current_job": "Trainerin", "tm_url": ""},
+        {"name": "Fabian Hürzeler", "note": "Brighton & Hove Albion", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.co.uk/fabian-hurzeler/profil/trainer/48076"},
+        {"name": "Danny Röhl", "note": "Zuletzt Sheffield Wednesday", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.co.uk/danny-rohl/profil/trainer/31917"},
+        {"name": "Tobias Strobl", "note": "", "current_job": "Trainer", "tm_url": ""}
+      ]
+    },
+    "69": {
+      "year": "2023/2024",
+      "name": "69. Pro-Lizenz-Lehrgang",
+      "location": "DFB-Campus, Frankfurt",
+      "notes": "16 graduates. Julian Schuster = Kicker Coach of the Year 2024/25",
+      "graduates": [
+        {"name": "Christian Gmünder", "note": "Linkes Mittelfeld", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Leonhard Haas", "note": "", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Oliver Kirch", "note": "", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Eugen Polanski", "note": "Bor. M'gladbach U23", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Julian Schuster", "note": "SC Freiburg", "current_job": "Trainer", "tm_url": "https://www.transfermarkt.us/julian-schuster/profil/trainer/61575"},
+        {"name": "Tommy Stroot", "note": "VfL Wolfsburg women", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Moritz Volz", "note": "", "current_job": "Trainer", "tm_url": ""}
+      ]
+    },
+    "70": {
+      "year": "2023/2024",
+      "name": "70. Pro-Lizenz-Lehrgang",
+      "location": "DFB-Campus, Frankfurt",
+      "notes": "17 graduates",
+      "graduates": [
+        {"name": "Heiner Backhaus", "note": "Eintracht Braunschweig", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Daniel Brinkmann", "note": "Hansa Rostock", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Andreas Patz", "note": "Jahn Regensburg", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Merlin Polzin", "note": "Hamburger SV", "current_job": "Trainer", "tm_url": ""},
+        {"name": "Marc Unterberger", "note": "3. Liga", "current_job": "Trainer", "tm_url": ""}
+      ]
+    }
+  },
+  "summary": {
+    "total_cohorts": 10,
+    "years_covered": "2011-2024",
+    "total_graduates_listed": 87,
+    "currently_active_bundesliga": [
+      {"name": "Sebastian Hoeneß", "club": "VfB Stuttgart", "cohort": 60},
+      {"name": "Steffen Baumgart", "club": "Union Berlin", "cohort": 61},
+      {"name": "Marco Rose", "club": "RB Leipzig", "cohort": 61},
+      {"name": "Ole Werner", "club": "RB Leipzig", "cohort": 66},
+      {"name": "Julian Schuster", "club": "SC Freiburg", "cohort": 69}
+    ]
+  }
+}
