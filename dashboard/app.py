@@ -1972,23 +1972,95 @@ Dashboard file location: {Path(__file__).resolve()}
 
     # ===== TAB 4: CAREER OVERVIEW =====
     with tab_career:
-        st.subheader("📋 Career Overview & Achievements")
-        st.caption("Complete career history: playing career, coaching stations, titles won")
+        st.subheader("📋 Career Overview")
 
         # Get coach name for session state keys
         coach_name = profile.get("name", "unknown")
 
-        # Career Timeline removed - full details shown in Coaching Stations table below
+        # TOP ROW: Coaching Statistics + Titles
+        top_col1, top_col2 = st.columns([1.5, 1])
 
-        col_career, col_titles = st.columns(2)
+        with top_col1:
+            st.markdown("### 📊 Coaching Career Statistics")
+            if players_used and players_used.get("stations"):
+                stats_row = st.columns(4)
+                stations = players_used["stations"]
+                total_wins = sum(s.get("wins", 0) for s in stations)
+                total_draws = sum(s.get("draws", 0) for s in stations)
+                total_losses = sum(s.get("losses", 0) for s in stations)
+                total_games = total_wins + total_draws + total_losses
+                win_rate = (total_wins / total_games * 100) if total_games > 0 else 0
+
+                with stats_row[0]:
+                    st.metric("Total Wins", total_wins)
+                with stats_row[1]:
+                    st.metric("Win Rate", f"{win_rate:.1f}%")
+                with stats_row[2]:
+                    best_ppg = max((s.get("ppg", 0) for s in stations), default=0)
+                    st.metric("Best PPG", f"{best_ppg:.2f}")
+                with stats_row[3]:
+                    st.metric("Clubs Coached", len(stations))
+            else:
+                st.info("Statistics not available")
+
+        with top_col2:
+            st.markdown("### 🏆 Titles & Achievements")
+            # Load titles button
+            titles_key = f"titles_{coach_name}"
+            coach_url = profile.get("url", "")
+            coach_id = profile.get("coach_id")
+
+            if titles_key not in st.session_state:
+                st.session_state[titles_key] = None
+
+            if st.session_state[titles_key] is None:
+                if st.button("🏆 Load Titles from Transfermarkt", key="load_titles"):
+                    if coach_url and coach_id:
+                        with st.spinner("Fetching titles..."):
+                            achievements = scrape_coach_achievements(coach_url, str(coach_id))
+                            st.session_state[titles_key] = achievements
+                            st.rerun()
+            else:
+                titles_data = st.session_state.get(titles_key)
+                if titles_data and titles_data.get("titles"):
+                    titles = titles_data["titles"]
+                    total = titles.get("total_titles", 0)
+
+                    if titles.get("titles"):
+                        st.success(f"**{total} Title{'s' if total != 1 else ''} Found**")
+                        # Sort chronologically
+                        titles_list = titles.get("titles", [])
+                        def extract_year(title):
+                            years = title.get("years", "")
+                            if years:
+                                import re
+                                match = re.search(r"(\d{4})", years)
+                                return int(match.group(1)) if match else 9999
+                            return 9999
+                        sorted_titles = sorted(titles_list, key=extract_year)
+
+                        for title in sorted_titles:
+                            count = title.get("count", 1)
+                            name = title.get("name", "")
+                            years = title.get("years", "")
+                            emoji = "🥇" if "Meister" in name else "🏆" if "Pokal" in name or "Cup" in name else "🎖️"
+                            st.markdown(f"{emoji} **{name}** x{count}")
+                            if years:
+                                st.caption(f"   {years}")
+                    else:
+                        st.info("No titles found")
+
+        st.divider()
+
+        # BOTTOM ROW: Playing Career + Key Teammates
+        col_career, col_teammates = st.columns(2)
 
         with col_career:
-            st.markdown("#### ⚽ Playing Career")
-
-            # Check if coach had a playing career (from teammates data)
+            st.markdown("### ⚽ Playing Career")
             has_playing_career = teammates and teammates.get("player_id")
 
             if has_playing_career:
+                st.success("**Former Professional Player**")
                 player_id = teammates.get("player_id")
                 total_teammates = teammates.get("total_teammates", 0)
 
@@ -2255,8 +2327,8 @@ Dashboard file location: {Path(__file__).resolve()}
 
     # ===== TAB 5: PERFORMANCE =====
     with tab_performance:
-        st.subheader("⚽ Performance & Network")
-        st.caption("Players coached, teammates from playing career, and coaching companions")
+        st.subheader("⚽ Players & Teammates")
+        st.caption("Key players coached successfully and former playing career teammates")
 
         # Section 1: Players Coached (Requirement: 20+ games, 70+ mins)
         st.markdown("### ⚽ Players Coached Successfully")
