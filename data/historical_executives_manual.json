@@ -1,9 +1,9 @@
 {
   "created_date": "2026-02-09T11:40:00",
-  "updated_date": "2026-02-09T12:00:00",
+  "updated_date": "2026-02-09T16:30:00",
   "description": "Manually curated historical executives discovered via web research",
   "methodology": "Web search + article verification for key clubs during coach youth/assistant periods (2010+)",
-  "total_executives": 8,
+  "total_executives": 16,
   "executives": [
     {
       "name": "Johannes Spors",
@@ -299,6 +299,272 @@
       "current_role": "Sportvorstand",
       "profile_url": "https://www.transfermarkt.de/alexander-rosen/profil/trainer/17038",
       "notes": "Key architect of Hoffenheim's success. Critical for Hoffenheim youth coaches 2010-2023."
+    },
+    {
+      "name": "Ralf Becker",
+      "clubs": [
+        {
+          "club": "VfB Stuttgart",
+          "role": "Chefscout",
+          "category": "Scouting",
+          "start_date": "2011",
+          "end_date": "2016-02",
+          "start_year": 2011,
+          "end_year": 2016,
+          "sources": [
+            {
+              "title": "VfB Stuttgart trennt sich von Chefscout Becker",
+              "url": "https://www.goal.com/de/news/827/bundesliga/2016/02/08/20135472/vfb-stuttgart-trennt-sich-von-chefscout-becker",
+              "type": "News Article",
+              "date": "2016-02"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Also headed youth department from 2012. Brought by Fredi Bobic."
+        }
+      ],
+      "current_club": "Unknown",
+      "current_role": "Former VfB Stuttgart Executive",
+      "profile_url": null,
+      "notes": "Led scouting and youth operations 2011-2016. Key contact for youth coaches."
+    },
+    {
+      "name": "Thomas Krücken",
+      "clubs": [
+        {
+          "club": "VfB Stuttgart",
+          "role": "Direktor Sport NLZ",
+          "category": "Academy",
+          "start_date": "2019-08",
+          "end_date": "2023",
+          "start_year": 2019,
+          "end_year": 2023,
+          "sources": [
+            {
+              "title": "Neuer Direktor NLZ",
+              "url": "https://www.vfb.de/de/vfb/aktuell/neues/junge-wilde/2019/neuer-direktor-nlz/",
+              "type": "Official Club News",
+              "date": "2019-08"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Previously at Mainz 05. Left for Manchester City 2023."
+        }
+      ],
+      "current_club": "Manchester City",
+      "current_role": "Academy Director",
+      "profile_url": null,
+      "notes": "Led VfB Stuttgart academy 2019-2023. Key for youth coach development."
+    },
+    {
+      "name": "Fredi Bobic",
+      "clubs": [
+        {
+          "club": "VfB Stuttgart",
+          "role": "Sportdirektor",
+          "category": "Technical",
+          "start_date": "2010",
+          "end_date": "2014-09-24",
+          "start_year": 2010,
+          "end_year": 2014,
+          "sources": [
+            {
+              "title": "Die Sportdirektoren des VfB Stuttgart",
+              "url": "https://www.stuttgarter-zeitung.de/gallery.ende-der-aera-sven-mislintat-die-sportdirektoren-des-vfb-stuttgart-und-ihre-bilanz.d197626a-775d-45ce-b494-3b0e2bc6b5e3.html",
+              "type": "Article",
+              "date": "2014"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Europa League qualification 2012, DFB-Pokal final 2013."
+        }
+      ],
+      "current_club": "Hertha BSC",
+      "current_role": "Former Geschäftsführer Sport",
+      "profile_url": "https://www.transfermarkt.de/fredi-bobic/profil/trainer/298",
+      "notes": "Key decision maker at Stuttgart 2010-2014. Hired Ralf Becker."
+    },
+    {
+      "name": "Jochen Saier",
+      "clubs": [
+        {
+          "club": "SC Freiburg",
+          "role": "Leiter Freiburger Fußballschule",
+          "category": "Academy",
+          "start_date": "2003",
+          "end_date": "2013",
+          "start_year": 2003,
+          "end_year": 2013,
+          "sources": [
+            {
+              "title": "Jochen Saier - Wikipedia",
+              "url": "https://de.wikipedia.org/wiki/Jochen_Saier",
+              "type": "Wikipedia"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Led youth academy directly managing youth coaches 2003-2013."
+        },
+        {
+          "club": "SC Freiburg",
+          "role": "Sportvorstand",
+          "category": "Technical",
+          "start_date": "2014-10",
+          "end_date": "present",
+          "start_year": 2014,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "SC Freiburg Board of Directors",
+              "url": "https://www.scfreiburg.com/en/club/committees/board-of-directors",
+              "type": "Official Club Info"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Transitioned to board-level oversight of youth development."
+        }
+      ],
+      "current_club": "SC Freiburg",
+      "current_role": "Sportvorstand",
+      "profile_url": null,
+      "notes": "Primary contact for Freiburg youth coaches 2010-2024. Freiburg's youth architect."
+    },
+    {
+      "name": "Klemens Hartenbach",
+      "clubs": [
+        {
+          "club": "SC Freiburg",
+          "role": "Leiter Scouting",
+          "category": "Scouting",
+          "start_date": "2006",
+          "end_date": "2013",
+          "start_year": 2006,
+          "end_year": 2013,
+          "sources": [
+            {
+              "title": "Klemens Hartenbach - Wikipedia",
+              "url": "https://de.wikipedia.org/wiki/Klemens_Hartenbach",
+              "type": "Wikipedia"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Professionalized scouting from 2008."
+        },
+        {
+          "club": "SC Freiburg",
+          "role": "Sportdirektor",
+          "category": "Technical",
+          "start_date": "2014-10",
+          "end_date": "present",
+          "start_year": 2014,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Klemens Hartenbach Transfermarkt",
+              "url": "https://www.transfermarkt.us/klemens-hartenbach/profil/trainer/2987",
+              "type": "Profile"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Known as Freiburg's 'eye' for talent."
+        }
+      ],
+      "current_club": "SC Freiburg",
+      "current_role": "Sportdirektor",
+      "profile_url": "https://www.transfermarkt.de/klemens-hartenbach/profil/trainer/2987",
+      "notes": "Led scouting 2006-2013, SD since 2014. Key contact for technical staff."
+    },
+    {
+      "name": "Volker Kersting",
+      "clubs": [
+        {
+          "club": "1.FSV Mainz 05",
+          "role": "Leiter Nachwuchsleistungszentrum",
+          "category": "Academy",
+          "start_date": "2015",
+          "end_date": "present",
+          "start_year": 2015,
+          "end_year": 2026,
+          "sources": [
+            {
+              "title": "Mainz 05 Academy page",
+              "url": "https://www.mainz05.de/en/academy",
+              "type": "Official Club Info"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Manages 200+ youth players across 11+ teams."
+        }
+      ],
+      "current_club": "1.FSV Mainz 05",
+      "current_role": "Leiter NLZ",
+      "profile_url": null,
+      "notes": "Academy director since at least 2015. Key contact for all Mainz youth coaches."
+    },
+    {
+      "name": "André Hechelmann",
+      "clubs": [
+        {
+          "club": "1.FSV Mainz 05",
+          "role": "Scout / Administrative",
+          "category": "Scouting",
+          "start_date": "2011",
+          "end_date": "2019",
+          "start_year": 2011,
+          "end_year": 2019,
+          "sources": [
+            {
+              "title": "Schalke holt Mainzer Chefscout André Hechelmann",
+              "url": "https://www.90min.de/posts/schalke-holt-den-mainzer-chefscout-andre-hechelmann",
+              "type": "News Article",
+              "date": "2019"
+            }
+          ],
+          "verified": true,
+          "confidence": "high",
+          "notes": "Started admin 2011, progressed to U23 manager and scouting. Later Bayern scout."
+        }
+      ],
+      "current_club": "Bayern München",
+      "current_role": "Scout",
+      "profile_url": "https://www.transfermarkt.us/andre-hechelmann/profil/trainer/47441",
+      "notes": "Long-tenured Mainz staff member 2011-2019. Now at Bayern."
+    },
+    {
+      "name": "Siegfried Marti",
+      "clubs": [
+        {
+          "club": "1.FSV Mainz 05",
+          "role": "Chefscout",
+          "category": "Scouting",
+          "start_date": "2016",
+          "end_date": "2019",
+          "start_year": 2016,
+          "end_year": 2019,
+          "sources": [
+            {
+              "title": "Siggi Marti profile on RocketReach",
+              "url": "https://rocketreach.co/siggi-marti-email_112482909",
+              "type": "Profile"
+            }
+          ],
+          "verified": true,
+          "confidence": "medium",
+          "notes": "Previously at Werder Bremen as Chefscout. Left Mainz for KAS Eupen."
+        }
+      ],
+      "current_club": "Unknown",
+      "current_role": "Former Chefscout",
+      "profile_url": null,
+      "notes": "Led Mainz scouting 2016-2019."
     }
   ],
   "coverage": {
@@ -322,11 +588,26 @@
         "executives": 1,
         "years_covered": "2010-2023",
         "categories": ["Academy", "Technical"]
+      },
+      "VfB Stuttgart": {
+        "executives": 3,
+        "years_covered": "2010-2023",
+        "categories": ["Scouting", "Academy", "Technical"]
+      },
+      "SC Freiburg": {
+        "executives": 2,
+        "years_covered": "2003-2026",
+        "categories": ["Scouting", "Academy", "Technical"]
+      },
+      "1.FSV Mainz 05": {
+        "executives": 3,
+        "years_covered": "2011-2026",
+        "categories": ["Scouting", "Academy"]
       }
     },
-    "total_clubs": 4,
-    "total_club_years": "1995-2024 (30 years coverage)",
-    "total_positions": 11
+    "total_clubs": 7,
+    "total_club_years": "1995-2026 (31 years coverage)",
+    "total_positions": 22
   },
   "next_steps": [
     "Run analyze_youth_executive_overlaps.py to match coaches with these executives",
