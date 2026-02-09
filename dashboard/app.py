@@ -1152,13 +1152,12 @@ if st.session_state.coach_data:
             executives = decision_makers_data.get("executives", [])
             presidents = decision_makers_data.get("presidents", [])
 
-            # TIMELINE VIEW (removed summary cards - info is clear from timeline)
+            # TIMELINE VIEW (only show stations where we have hiring manager info)
             if hiring_managers:
                 st.markdown("### 📅 Hiring Timeline")
                 st.caption("Chronological view of who hired this coach at each club")
 
-                # Build timeline from hiring_managers data directly
-                # (career_history may have scraping issues with empty clubs)
+                # Build timeline from hiring_managers
                 timeline_events = []
                 for hm in hiring_managers:
                     club = hm.get("club_name", "Unknown Club")
@@ -1167,14 +1166,13 @@ if st.session_state.coach_data:
                     timeline_events.append({
                         "period": period,
                         "club": club,
-                        "position": "Trainer",  # Default, could be enhanced
+                        "position": "Trainer",
                         "hired_by": hm.get("name", "Unknown"),
                         "hired_by_role": hm.get("role", ""),
                         "notes": hm.get("notes", "")
                     })
 
                 # Sort by period (most recent first)
-                # Handle different period formats: "2024-present" vs "2022"
                 def sort_key(event):
                     p = event["period"]
                     if not p or p == "Unknown":
