@@ -30,17 +30,49 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 
 def load_club_executives():
-    """Load all Bundesliga club executives from JSON."""
+    """Load all Bundesliga club executives from JSON (current + historical)."""
+    executives = []
+
+    # Load current executives
     exec_file = Path(__file__).parent.parent / "data" / "club_executives_bundesliga.json"
+    if exec_file.exists():
+        with open(exec_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        executives.extend(data.get("executives", []))
+        print(f"  ✓ Loaded {len(data.get('executives', []))} current executives")
+    else:
+        print(f"  ⚠️  Warning: {exec_file} not found")
 
-    if not exec_file.exists():
-        print(f"⚠️  Warning: {exec_file} not found")
-        return []
+    # Load historical executives (manually curated)
+    hist_file = Path(__file__).parent.parent / "data" / "historical_executives_manual.json"
+    if hist_file.exists():
+        with open(hist_file, 'r', encoding='utf-8') as f:
+            hist_data = json.load(f)
 
-    with open(exec_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+        # Convert historical format to match current format
+        for hist_exec in hist_data.get("executives", []):
+            # For each club this executive worked at
+            for club_station in hist_exec.get("clubs", []):
+                executives.append({
+                    "name": hist_exec["name"],
+                    "current_club": hist_exec.get("current_club", ""),
+                    "current_role": hist_exec.get("current_role", ""),
+                    "role": club_station.get("role", ""),
+                    "category": club_station.get("category", ""),
+                    "profile_url": hist_exec.get("profile_url", ""),
+                    "career_history": [{
+                        "club": club_station.get("club", ""),
+                        "role": club_station.get("role", ""),
+                        "start_year": club_station.get("start_year"),
+                        "end_year": club_station.get("end_year"),
+                        "category": club_station.get("category", "")
+                    }]
+                })
+        print(f"  ✓ Loaded {len(hist_data.get('executives', []))} historical executives")
+    else:
+        print(f"  ⚠️  Warning: {hist_file} not found")
 
-    return data.get("executives", [])
+    return executives
 
 
 def load_coaches():

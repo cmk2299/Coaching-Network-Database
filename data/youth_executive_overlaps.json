@@ -1,0 +1,428 @@
+{
+  "analysis_date": "2026-02-09T12:14:00.300472",
+  "league": "Bundesliga",
+  "season": "2024/25",
+  "total_executives": 212,
+  "total_coaches": 18,
+  "total_relationships": 12,
+  "total_overlap_periods": 27,
+  "relationships": [
+    {
+      "coach_name": "Alexander Blessin",
+      "coach_current_club": "FC St. Pauli",
+      "exec_name": "Sebastian Kegel",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "RB Leipzig U19",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig U19Trainer",
+          "coach_period": "2018-2020",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2018,
+          "overlap_end": 2020,
+          "overlap_years": 3
+        },
+        {
+          "club": "RB Leipzig YL",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig YLTrainer",
+          "coach_period": "2018-2020",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2018,
+          "overlap_end": 2020,
+          "overlap_years": 3
+        },
+        {
+          "club": "RB Leipzig U17",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig U17Trainer",
+          "coach_period": "2017-2019",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2017,
+          "overlap_end": 2019,
+          "overlap_years": 3
+        },
+        {
+          "club": "RB Leipzig IICo-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig IICo-Trainer",
+          "coach_period": "2016-2018",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2016,
+          "overlap_end": 2018,
+          "overlap_years": 3
+        },
+        {
+          "club": "RB Leipzig U19Co-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig U19Co-Trainer",
+          "coach_period": "2015-2017",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2015,
+          "overlap_end": 2017,
+          "overlap_years": 3
+        },
+        {
+          "club": "RB Leipzig U17Co-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig U17Co-Trainer",
+          "coach_period": "2014-2016",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2014,
+          "overlap_end": 2016,
+          "overlap_years": 3
+        },
+        {
+          "club": "RB Leipzig Jgd.",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig Jgd.Trainer",
+          "coach_period": "2013-2015",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2013,
+          "overlap_end": 2015,
+          "overlap_years": 3
+        },
+        {
+          "club": "RB Leipzig U17Co-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig U17Co-Trainer",
+          "coach_period": "2012-2014",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2012,
+          "overlap_end": 2014,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 257
+    },
+    {
+      "coach_name": "Alexander Blessin",
+      "coach_current_club": "FC St. Pauli",
+      "exec_name": "Johannes Spors",
+      "exec_current_role": "Head of Scouting / Chefscout",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "RB Leipzig U19",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig U19Trainer",
+          "coach_period": "2018-2020",
+          "exec_role": "Head of Scouting / Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2018,
+          "overlap_end": 2018,
+          "overlap_years": 1
+        },
+        {
+          "club": "RB Leipzig YL",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig YLTrainer",
+          "coach_period": "2018-2020",
+          "exec_role": "Head of Scouting / Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2018,
+          "overlap_end": 2018,
+          "overlap_years": 1
+        },
+        {
+          "club": "RB Leipzig U17",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig U17Trainer",
+          "coach_period": "2017-2019",
+          "exec_role": "Head of Scouting / Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2017,
+          "overlap_end": 2018,
+          "overlap_years": 2
+        },
+        {
+          "club": "RB Leipzig IICo-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig IICo-Trainer",
+          "coach_period": "2016-2018",
+          "exec_role": "Head of Scouting / Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2016,
+          "overlap_end": 2018,
+          "overlap_years": 3
+        },
+        {
+          "club": "RB Leipzig U19Co-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig U19Co-Trainer",
+          "coach_period": "2015-2017",
+          "exec_role": "Head of Scouting / Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2015,
+          "overlap_end": 2017,
+          "overlap_years": 3
+        },
+        {
+          "club": "RB Leipzig U17Co-",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig U17Co-Trainer",
+          "coach_period": "2014-2016",
+          "exec_role": "Head of Scouting / Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2015,
+          "overlap_end": 2016,
+          "overlap_years": 2
+        },
+        {
+          "club": "RB Leipzig Jgd.",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig Jgd.Trainer",
+          "coach_period": "2013-2015",
+          "exec_role": "Head of Scouting / Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2015,
+          "overlap_end": 2015,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 235
+    },
+    {
+      "coach_name": "Sebastian Hoeneß",
+      "coach_current_club": "VfB Stuttgart",
+      "exec_name": "Johannes Spors",
+      "exec_current_role": "Head of Scouting / Chefscout",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "RB Leipzig U17",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig U17Trainer",
+          "coach_period": "2016-2018",
+          "exec_role": "Head of Scouting / Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2016,
+          "overlap_end": 2018,
+          "overlap_years": 3
+        },
+        {
+          "club": "RB Leipzig Jgd.",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig Jgd.Trainer",
+          "coach_period": "2014-2016",
+          "exec_role": "Head of Scouting / Chefscout",
+          "exec_category": "Scouting",
+          "overlap_start": 2015,
+          "overlap_end": 2016,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 71
+    },
+    {
+      "coach_name": "Sebastian Hoeneß",
+      "coach_current_club": "VfB Stuttgart",
+      "exec_name": "Sebastian Kegel",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "RB Leipzig U17",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig U17Trainer",
+          "coach_period": "2016-2018",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2016,
+          "overlap_end": 2018,
+          "overlap_years": 3
+        },
+        {
+          "club": "RB Leipzig Jgd.",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig Jgd.Trainer",
+          "coach_period": "2014-2016",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2014,
+          "overlap_end": 2016,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 66
+    },
+    {
+      "coach_name": "Niko Kovac",
+      "coach_current_club": "Borussia Dortmund",
+      "exec_name": "Hermann Gerland",
+      "exec_current_role": "Sportliche Leitung NLZ",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "Bayern München",
+          "coach_position": "Head Coach",
+          "coach_role": "Bayern MünchenTrainer",
+          "coach_period": "2018-2020",
+          "exec_role": "Sportliche Leitung NLZ",
+          "exec_category": "Academy",
+          "overlap_start": 2018,
+          "overlap_end": 2020,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
+      "coach_name": "Niko Kovac",
+      "coach_current_club": "Borussia Dortmund",
+      "exec_name": "Jochen Sauer",
+      "exec_current_role": "Direktor Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "Bayern München",
+          "coach_position": "Head Coach",
+          "coach_role": "Bayern MünchenTrainer",
+          "coach_period": "2018-2020",
+          "exec_role": "Direktor Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2018,
+          "overlap_end": 2020,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
+      "coach_name": "Sebastian Hoeneß",
+      "coach_current_club": "VfB Stuttgart",
+      "exec_name": "Alexander Rosen",
+      "exec_current_role": "Sportdirektor",
+      "exec_category": "Technical",
+      "overlaps": [
+        {
+          "club": "TSG Hoffenheim",
+          "coach_position": "Head Coach",
+          "coach_role": "TSG HoffenheimTrainer",
+          "coach_period": "2020-2022",
+          "exec_role": "Sportdirektor",
+          "exec_category": "Technical",
+          "overlap_start": 2020,
+          "overlap_end": 2022,
+          "overlap_years": 3
+        }
+      ],
+      "relationship_strength": 32
+    },
+    {
+      "coach_name": "Manuel Baum",
+      "coach_current_club": "FC Augsburg",
+      "exec_name": "Sebastian Kegel",
+      "exec_current_role": "Leiter Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "RB Leipzig YL",
+          "coach_position": "Youth/Assistant",
+          "coach_role": "RB Leipzig YLTrainer",
+          "coach_period": "2023-2025",
+          "exec_role": "Leiter Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2023,
+          "overlap_end": 2023,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 31
+    },
+    {
+      "coach_name": "Vincent Kompany",
+      "coach_current_club": "FC Bayern München",
+      "exec_name": "Jochen Sauer",
+      "exec_current_role": "Direktor Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "Bayern München",
+          "coach_position": "Head Coach",
+          "coach_role": "Bayern MünchenTrainer",
+          "coach_period": "2024-2026",
+          "exec_role": "Direktor Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2024,
+          "overlap_end": 2025,
+          "overlap_years": 2
+        }
+      ],
+      "relationship_strength": 29
+    },
+    {
+      "coach_name": "Vincent Kompany",
+      "coach_current_club": "FC Bayern München",
+      "exec_name": "Hermann Gerland",
+      "exec_current_role": "Sportliche Leitung NLZ",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "Bayern München",
+          "coach_position": "Head Coach",
+          "coach_role": "Bayern MünchenTrainer",
+          "coach_period": "2024-2026",
+          "exec_role": "Sportliche Leitung NLZ",
+          "exec_category": "Academy",
+          "overlap_start": 2024,
+          "overlap_end": 2024,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
+      "coach_name": "Niko Kovac",
+      "coach_current_club": "Borussia Dortmund",
+      "exec_name": "Lars Ricken",
+      "exec_current_role": "Direktor Nachwuchsleistungszentrum",
+      "exec_category": "Academy",
+      "overlaps": [
+        {
+          "club": "Bor. Dortmund",
+          "coach_position": "Head Coach",
+          "coach_role": "Bor. DortmundTrainer",
+          "coach_period": "2024-2026",
+          "exec_role": "Direktor Nachwuchsleistungszentrum",
+          "exec_category": "Academy",
+          "overlap_start": 2024,
+          "overlap_end": 2024,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    },
+    {
+      "coach_name": "Daniel Thioune",
+      "coach_current_club": "Werder Bremen",
+      "exec_name": "Johannes Spors",
+      "exec_current_role": "Scouting-Leiter",
+      "exec_category": "Scouting",
+      "overlaps": [
+        {
+          "club": "Hamburger SV",
+          "coach_position": "Head Coach",
+          "coach_role": "Hamburger SVTrainer",
+          "coach_period": "2020-2022",
+          "exec_role": "Scouting-Leiter",
+          "exec_category": "Scouting",
+          "overlap_start": 2020,
+          "overlap_end": 2020,
+          "overlap_years": 1
+        }
+      ],
+      "relationship_strength": 26
+    }
+  ]
+}
