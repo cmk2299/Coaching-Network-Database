@@ -77,6 +77,17 @@ def load_coaches():
                         # Extract club from role field (format: "ClubNameRole")
                         club = station.get("club", "")
                         role = station.get("role", "")
+
+                        # CRITICAL FIX: Only include HEAD COACH positions
+                        # Exclude: U19, U17, U21, II, Co-Trainer, Jgd., Youth, Assistant
+                        is_youth_or_assistant = any(marker in role for marker in [
+                            "U19", "U17", "U21", "U23", " II", "Co-Trainer",
+                            "Jgd.", "Youth", "Assistant", "YL"
+                        ])
+
+                        if is_youth_or_assistant:
+                            continue  # Skip youth and assistant positions
+
                         if not club and role:
                             # Role contains both club and role, e.g., "FC St. PauliTrainer"
                             if "Trainer" in role:

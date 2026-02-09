@@ -2840,7 +2840,7 @@ Dashboard file location: {Path(__file__).resolve()}
                 for i, mate in enumerate(cohort_mates):
                     with mate_cols[i % 4]:
                         # Build display components
-                        name = mate['name']
+                        name = mate.get('name', 'Unknown')  # Use .get() for safety
                         current_job = mate.get('current_job', '')
                         note = mate.get('note', '')
                         tm_url = mate.get('tm_url', '')
@@ -2851,8 +2851,11 @@ Dashboard file location: {Path(__file__).resolve()}
                         # Club/Note info
                         club_info = f"<br><span style='color: #a89060; font-size: 0.85em;'>{note}</span>" if note else ""
 
-                        # TM link
-                        tm_link = f"<br><a href='{tm_url}' target='_blank' style='color: #6fa8dc; font-size: 0.8em; text-decoration: none;'>🔗 TM Profile</a>" if tm_url else ""
+                        # TM link (ensure URL is not empty and valid)
+                        if tm_url and tm_url.startswith('http'):
+                            tm_link = f"<br><a href='{tm_url}' target='_blank' style='color: #6fa8dc; font-size: 0.8em; text-decoration: none;'>🔗 TM Profile</a>"
+                        else:
+                            tm_link = ""
 
                         st.markdown(f"""
                         <div style="background: #2d2a1c; padding: 10px; border-radius: 6px; margin-bottom: 6px; border-left: 3px solid #c9a227;">

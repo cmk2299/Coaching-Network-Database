@@ -1,182 +1,12 @@
 {
-  "analysis_date": "2026-02-08T21:42:41.307002",
+  "analysis_date": "2026-02-09T09:21:27.219990",
   "league": "Bundesliga",
   "season": "2024/25",
   "total_sds_analyzed": 18,
   "total_coaches_analyzed": 18,
-  "total_relationships": 43,
-  "total_overlap_periods": 97,
+  "total_relationships": 33,
+  "total_overlap_periods": 47,
   "relationships": [
-    {
-      "sd_name": "PeterChristiansen",
-      "sd_current_club": "VfL Wolfsburg",
-      "sd_current_role": "Geschäftsführer Sport",
-      "coach_name": "Daniel Bauer",
-      "coach_current_club": "VfL Wolfsburg",
-      "overlaps": [
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "24/25 (01.07.2024)",
-          "coach_period": "0,67",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2025,
-          "overlap_end": 2026,
-          "overlap_years": 1,
-          "hiring_likelihood": "high"
-        },
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "24/25 (01.07.2024)",
-          "coach_period": "3,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2025,
-          "overlap_end": 2026,
-          "overlap_years": 1,
-          "hiring_likelihood": "high"
-        },
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "24/25 (01.07.2024)",
-          "coach_period": "1,87",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "24/25 (01.07.2024)",
-          "coach_period": "1,75",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "24/25 (01.07.2024)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "24/25 (01.07.2024)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        }
-      ],
-      "total_overlaps": 6,
-      "total_clubs": 1,
-      "total_years_together": 10,
-      "relationship_strength": 90,
-      "most_recent_club": "VfL Wolfsburg",
-      "most_recent_year": 2025
-    },
-    {
-      "sd_name": "MarcelSchäfer",
-      "sd_current_club": "RB Leipzig",
-      "sd_current_role": "Geschäftsführer Sport",
-      "coach_name": "Alexander Blessin",
-      "coach_current_club": "FC St. Pauli",
-      "overlaps": [
-        {
-          "club": "RB Leipzig",
-          "sd_period": "24/25 (01.08.2024)",
-          "coach_period": "1,98",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "24/25 (01.08.2024)",
-          "coach_period": "0,67",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "24/25 (01.08.2024)",
-          "coach_period": "2,32",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "24/25 (01.08.2024)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "24/25 (01.08.2024)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "24/25 (01.08.2024)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "24/25 (01.08.2024)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "24/25 (01.08.2024)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        }
-      ],
-      "total_overlaps": 8,
-      "total_clubs": 1,
-      "total_years_together": 16,
-      "relationship_strength": 82,
-      "most_recent_club": "RB Leipzig",
-      "most_recent_year": 2024
-    },
     {
       "sd_name": "AndreasSchicker",
       "sd_current_club": "TSG Hoffenheim",
@@ -203,354 +33,14 @@
           "overlap_end": 2024,
           "overlap_years": 4,
           "hiring_likelihood": "high"
-        },
-        {
-          "club": "Wiener Neustadt",
-          "sd_period": "17/18 (01.06.2017)",
-          "coach_period": "0,00",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2017,
-          "overlap_end": 2018,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "Wiener Neustadt",
-          "sd_period": "15/16 (10.06.2015)",
-          "coach_period": "0,00",
-          "sd_role": "Co-Trainer",
-          "overlap_start": 2015,
-          "overlap_end": 2016,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        }
-      ],
-      "total_overlaps": 4,
-      "total_clubs": 3,
-      "total_years_together": 8,
-      "relationship_strength": 81,
-      "most_recent_club": "TSG Hoffenheim",
-      "most_recent_year": 2024
-    },
-    {
-      "sd_name": "MarcelSchäfer",
-      "sd_current_club": "RB Leipzig",
-      "sd_current_role": "Geschäftsführer Sport",
-      "coach_name": "Daniel Bauer",
-      "coach_current_club": "VfL Wolfsburg",
-      "overlaps": [
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "22/23 (01.02.2023)",
-          "coach_period": "1,87",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "22/23 (01.02.2023)",
-          "coach_period": "1,75",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "22/23 (01.02.2023)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "22/23 (01.02.2023)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "18/19 (01.07.2018)",
-          "coach_period": "1,87",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2021,
-          "overlap_end": 2022,
-          "overlap_years": 1,
-          "hiring_likelihood": "medium"
-        },
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "18/19 (01.07.2018)",
-          "coach_period": "1,75",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2020,
-          "overlap_end": 2022,
-          "overlap_years": 2,
-          "hiring_likelihood": "medium"
-        },
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "18/19 (01.07.2018)",
-          "coach_period": "0,00",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2018,
-          "overlap_end": 2022,
-          "overlap_years": 4,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "VfL Wolfsburg",
-          "sd_period": "18/19 (01.07.2018)",
-          "coach_period": "0,00",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2018,
-          "overlap_end": 2022,
-          "overlap_years": 4,
-          "hiring_likelihood": "low"
-        }
-      ],
-      "total_overlaps": 8,
-      "total_clubs": 1,
-      "total_years_together": 15,
-      "relationship_strength": 80,
-      "most_recent_club": "VfL Wolfsburg",
-      "most_recent_year": 2022
-    },
-    {
-      "sd_name": "MaxEberl",
-      "sd_current_club": "FC Bayern München",
-      "sd_current_role": "Sportvorstand",
-      "coach_name": "Alexander Blessin",
-      "coach_current_club": "FC St. Pauli",
-      "overlaps": [
-        {
-          "club": "RB Leipzig",
-          "sd_period": "22/23 (01.12.2022)",
-          "coach_period": "1,98",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "22/23 (01.12.2022)",
-          "coach_period": "0,67",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "22/23 (01.12.2022)",
-          "coach_period": "2,32",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "22/23 (01.12.2022)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "22/23 (01.12.2022)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "22/23 (01.12.2022)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "22/23 (01.12.2022)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "22/23 (01.12.2022)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        }
-      ],
-      "total_overlaps": 8,
-      "total_clubs": 1,
-      "total_years_together": 8,
-      "relationship_strength": 66,
-      "most_recent_club": "RB Leipzig",
-      "most_recent_year": 2022
-    },
-    {
-      "sd_name": "MarkusKrösche",
-      "sd_current_club": "Eintracht Frankfurt",
-      "sd_current_role": "Sportvorstand",
-      "coach_name": "Alexander Blessin",
-      "coach_current_club": "FC St. Pauli",
-      "overlaps": [
-        {
-          "club": "RB Leipzig",
-          "sd_period": "19/20 (01.07.2019)",
-          "coach_period": "1,98",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2019,
-          "overlap_end": 2020,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "19/20 (01.07.2019)",
-          "coach_period": "0,67",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2019,
-          "overlap_end": 2020,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "19/20 (01.07.2019)",
-          "coach_period": "2,32",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2019,
-          "overlap_end": 2020,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "19/20 (01.07.2019)",
-          "coach_period": "0,00",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2019,
-          "overlap_end": 2020,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "19/20 (01.07.2019)",
-          "coach_period": "0,00",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2019,
-          "overlap_end": 2020,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "19/20 (01.07.2019)",
-          "coach_period": "0,00",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2019,
-          "overlap_end": 2020,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "19/20 (01.07.2019)",
-          "coach_period": "0,00",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2019,
-          "overlap_end": 2020,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "19/20 (01.07.2019)",
-          "coach_period": "0,00",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2019,
-          "overlap_end": 2020,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        }
-      ],
-      "total_overlaps": 8,
-      "total_clubs": 1,
-      "total_years_together": 8,
-      "relationship_strength": 66,
-      "most_recent_club": "RB Leipzig",
-      "most_recent_year": 2019
-    },
-    {
-      "sd_name": "HolgerSanwald",
-      "sd_current_club": "1. FC Heidenheim",
-      "sd_current_role": "Vorstandsvorsitzender",
-      "coach_name": "Frank Schmidt",
-      "coach_current_club": "1. FC Heidenheim",
-      "overlaps": [
-        {
-          "club": "1.FC Heidenheim",
-          "sd_period": "16/17 (12.12.2016)",
-          "coach_period": "1,61",
-          "sd_role": "Vorstandsvorsitzender",
-          "overlap_start": 2016,
-          "overlap_end": 2026,
-          "overlap_years": 10,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "1.FC Heidenheim",
-          "sd_period": "16/17 (12.12.2016)",
-          "coach_period": "0,00",
-          "sd_role": "Vorstandsvorsitzender",
-          "overlap_start": 2016,
-          "overlap_end": 2026,
-          "overlap_years": 10,
-          "hiring_likelihood": "low"
         }
       ],
       "total_overlaps": 2,
-      "total_clubs": 1,
-      "total_years_together": 20,
-      "relationship_strength": 60,
-      "most_recent_club": "1.FC Heidenheim",
-      "most_recent_year": 2016
+      "total_clubs": 2,
+      "total_years_together": 6,
+      "relationship_strength": 57,
+      "most_recent_club": "TSG Hoffenheim",
+      "most_recent_year": 2024
     },
     {
       "sd_name": "ClemensFritz",
@@ -663,41 +153,6 @@
       "most_recent_year": 2024
     },
     {
-      "sd_name": "JochenSaier",
-      "sd_current_club": "SC Freiburg",
-      "sd_current_role": "Sportvorstand",
-      "coach_name": "Julian Schuster",
-      "coach_current_club": "SC Freiburg",
-      "overlaps": [
-        {
-          "club": "SC Freiburg",
-          "sd_period": "14/15 (01.10.2014)",
-          "coach_period": "1,68",
-          "sd_role": "Sportvorstand",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "medium"
-        },
-        {
-          "club": "SC Freiburg",
-          "sd_period": "14/15 (01.10.2014)",
-          "coach_period": "0,00",
-          "sd_role": "Sportvorstand",
-          "overlap_start": 2018,
-          "overlap_end": 2026,
-          "overlap_years": 8,
-          "hiring_likelihood": "medium"
-        }
-      ],
-      "total_overlaps": 2,
-      "total_clubs": 1,
-      "total_years_together": 10,
-      "relationship_strength": 40,
-      "most_recent_club": "SC Freiburg",
-      "most_recent_year": 2024
-    },
-    {
       "sd_name": "ThomasKessler",
       "sd_current_club": "1. FC Köln",
       "sd_current_role": "Geschäftsführer Sport",
@@ -731,6 +186,31 @@
       "relationship_strength": 37,
       "most_recent_club": "1.FC Köln",
       "most_recent_year": 2025
+    },
+    {
+      "sd_name": "HolgerSanwald",
+      "sd_current_club": "1. FC Heidenheim",
+      "sd_current_role": "Vorstandsvorsitzender",
+      "coach_name": "Frank Schmidt",
+      "coach_current_club": "1. FC Heidenheim",
+      "overlaps": [
+        {
+          "club": "1.FC Heidenheim",
+          "sd_period": "16/17 (12.12.2016)",
+          "coach_period": "1,61",
+          "sd_role": "Vorstandsvorsitzender",
+          "overlap_start": 2016,
+          "overlap_end": 2026,
+          "overlap_years": 10,
+          "hiring_likelihood": "low"
+        }
+      ],
+      "total_overlaps": 1,
+      "total_clubs": 1,
+      "total_years_together": 10,
+      "relationship_strength": 35,
+      "most_recent_club": "1.FC Heidenheim",
+      "most_recent_year": 2016
     },
     {
       "sd_name": "ThomasKessler",
@@ -888,6 +368,31 @@
       "most_recent_year": 2025
     },
     {
+      "sd_name": "PeterChristiansen",
+      "sd_current_club": "VfL Wolfsburg",
+      "sd_current_role": "Geschäftsführer Sport",
+      "coach_name": "Daniel Bauer",
+      "coach_current_club": "VfL Wolfsburg",
+      "overlaps": [
+        {
+          "club": "VfL Wolfsburg",
+          "sd_period": "24/25 (01.07.2024)",
+          "coach_period": "0,67",
+          "sd_role": "Geschäftsführer Sport",
+          "overlap_start": 2025,
+          "overlap_end": 2026,
+          "overlap_years": 1,
+          "hiring_likelihood": "high"
+        }
+      ],
+      "total_overlaps": 1,
+      "total_clubs": 1,
+      "total_years_together": 1,
+      "relationship_strength": 32,
+      "most_recent_club": "VfL Wolfsburg",
+      "most_recent_year": 2025
+    },
+    {
       "sd_name": "ClemensFritz",
       "sd_current_club": "Werder Bremen",
       "sd_current_role": "Geschäftsführer Profifußball",
@@ -936,66 +441,6 @@
       "relationship_strength": 32,
       "most_recent_club": "1.FSV Mainz 05",
       "most_recent_year": 2025
-    },
-    {
-      "sd_name": "MaxEberl",
-      "sd_current_club": "FC Bayern München",
-      "sd_current_role": "Sportvorstand",
-      "coach_name": "Manuel Baum",
-      "coach_current_club": "FC Augsburg",
-      "overlaps": [
-        {
-          "club": "RB Leipzig",
-          "sd_period": "22/23 (01.12.2022)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2023,
-          "overlap_end": 2023,
-          "overlap_years": 0,
-          "hiring_likelihood": "high"
-        }
-      ],
-      "total_overlaps": 1,
-      "total_clubs": 1,
-      "total_years_together": 0,
-      "relationship_strength": 30,
-      "most_recent_club": "RB Leipzig",
-      "most_recent_year": 2023
-    },
-    {
-      "sd_name": "MarcelSchäfer",
-      "sd_current_club": "RB Leipzig",
-      "sd_current_role": "Geschäftsführer Sport",
-      "coach_name": "Sebastian Hoeneß",
-      "coach_current_club": "VfB Stuttgart",
-      "overlaps": [
-        {
-          "club": "RB Leipzig",
-          "sd_period": "24/25 (01.08.2024)",
-          "coach_period": "2,27",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "24/25 (01.08.2024)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        }
-      ],
-      "total_overlaps": 2,
-      "total_clubs": 1,
-      "total_years_together": 4,
-      "relationship_strength": 28,
-      "most_recent_club": "RB Leipzig",
-      "most_recent_year": 2024
     },
     {
       "sd_name": "ChristianGentner",
@@ -1058,76 +503,6 @@
       "most_recent_year": 2020
     },
     {
-      "sd_name": "MaxEberl",
-      "sd_current_club": "FC Bayern München",
-      "sd_current_role": "Sportvorstand",
-      "coach_name": "Sebastian Hoeneß",
-      "coach_current_club": "VfB Stuttgart",
-      "overlaps": [
-        {
-          "club": "RB Leipzig",
-          "sd_period": "22/23 (01.12.2022)",
-          "coach_period": "2,27",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "22/23 (01.12.2022)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2022,
-          "overlap_end": 2023,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        }
-      ],
-      "total_overlaps": 2,
-      "total_clubs": 1,
-      "total_years_together": 2,
-      "relationship_strength": 24,
-      "most_recent_club": "RB Leipzig",
-      "most_recent_year": 2022
-    },
-    {
-      "sd_name": "MarkusKrösche",
-      "sd_current_club": "Eintracht Frankfurt",
-      "sd_current_role": "Sportvorstand",
-      "coach_name": "Sebastian Hoeneß",
-      "coach_current_club": "VfB Stuttgart",
-      "overlaps": [
-        {
-          "club": "RB Leipzig",
-          "sd_period": "19/20 (01.07.2019)",
-          "coach_period": "2,27",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2019,
-          "overlap_end": 2020,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        },
-        {
-          "club": "RB Leipzig",
-          "sd_period": "19/20 (01.07.2019)",
-          "coach_period": "0,00",
-          "sd_role": "Sportdirektor",
-          "overlap_start": 2019,
-          "overlap_end": 2020,
-          "overlap_years": 1,
-          "hiring_likelihood": "low"
-        }
-      ],
-      "total_overlaps": 2,
-      "total_clubs": 1,
-      "total_years_together": 2,
-      "relationship_strength": 24,
-      "most_recent_club": "RB Leipzig",
-      "most_recent_year": 2019
-    },
-    {
       "sd_name": "MarcelSchäfer",
       "sd_current_club": "RB Leipzig",
       "sd_current_role": "Geschäftsführer Sport",
@@ -1188,31 +563,6 @@
       "most_recent_year": 2023
     },
     {
-      "sd_name": "MarcelSchäfer",
-      "sd_current_club": "RB Leipzig",
-      "sd_current_role": "Geschäftsführer Sport",
-      "coach_name": "Manuel Baum",
-      "coach_current_club": "FC Augsburg",
-      "overlaps": [
-        {
-          "club": "RB Leipzig",
-          "sd_period": "24/25 (01.08.2024)",
-          "coach_period": "0,00",
-          "sd_role": "Geschäftsführer Sport",
-          "overlap_start": 2024,
-          "overlap_end": 2026,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        }
-      ],
-      "total_overlaps": 1,
-      "total_clubs": 1,
-      "total_years_together": 2,
-      "relationship_strength": 19,
-      "most_recent_club": "RB Leipzig",
-      "most_recent_year": 2024
-    },
-    {
       "sd_name": "MarkusKrösche",
       "sd_current_club": "Eintracht Frankfurt",
       "sd_current_role": "Sportvorstand",
@@ -1263,6 +613,31 @@
       "most_recent_year": 2024
     },
     {
+      "sd_name": "JochenSaier",
+      "sd_current_club": "SC Freiburg",
+      "sd_current_role": "Sportvorstand",
+      "coach_name": "Julian Schuster",
+      "coach_current_club": "SC Freiburg",
+      "overlaps": [
+        {
+          "club": "SC Freiburg",
+          "sd_period": "14/15 (01.10.2014)",
+          "coach_period": "1,68",
+          "sd_role": "Sportvorstand",
+          "overlap_start": 2024,
+          "overlap_end": 2026,
+          "overlap_years": 2,
+          "hiring_likelihood": "medium"
+        }
+      ],
+      "total_overlaps": 1,
+      "total_clubs": 1,
+      "total_years_together": 2,
+      "relationship_strength": 19,
+      "most_recent_club": "SC Freiburg",
+      "most_recent_year": 2024
+    },
+    {
       "sd_name": "AndreasSchicker",
       "sd_current_club": "TSG Hoffenheim",
       "sd_current_role": "Geschäftsführer Sport",
@@ -1286,31 +661,6 @@
       "relationship_strength": 19,
       "most_recent_club": "TSG Hoffenheim",
       "most_recent_year": 2024
-    },
-    {
-      "sd_name": "HorstHeldt",
-      "sd_current_club": "1. FC Union Berlin",
-      "sd_current_role": "Geschäftsführer Profifußball",
-      "coach_name": "Daniel Bauer",
-      "coach_current_club": "VfL Wolfsburg",
-      "overlaps": [
-        {
-          "club": "Hannover 96",
-          "sd_period": "16/17 (05.03.2017)",
-          "coach_period": "0,00",
-          "sd_role": "Manager",
-          "overlap_start": 2016,
-          "overlap_end": 2018,
-          "overlap_years": 2,
-          "hiring_likelihood": "low"
-        }
-      ],
-      "total_overlaps": 1,
-      "total_clubs": 1,
-      "total_years_together": 2,
-      "relationship_strength": 19,
-      "most_recent_club": "Hannover 96",
-      "most_recent_year": 2016
     },
     {
       "sd_name": "HorstHeldt",
@@ -1626,176 +976,6 @@
   "insights": {
     "top_partnerships": [
       {
-        "sd_name": "PeterChristiansen",
-        "sd_current_club": "VfL Wolfsburg",
-        "sd_current_role": "Geschäftsführer Sport",
-        "coach_name": "Daniel Bauer",
-        "coach_current_club": "VfL Wolfsburg",
-        "overlaps": [
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "24/25 (01.07.2024)",
-            "coach_period": "0,67",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2025,
-            "overlap_end": 2026,
-            "overlap_years": 1,
-            "hiring_likelihood": "high"
-          },
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "24/25 (01.07.2024)",
-            "coach_period": "3,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2025,
-            "overlap_end": 2026,
-            "overlap_years": 1,
-            "hiring_likelihood": "high"
-          },
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "24/25 (01.07.2024)",
-            "coach_period": "1,87",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2024,
-            "overlap_end": 2026,
-            "overlap_years": 2,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "24/25 (01.07.2024)",
-            "coach_period": "1,75",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2024,
-            "overlap_end": 2026,
-            "overlap_years": 2,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "24/25 (01.07.2024)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2024,
-            "overlap_end": 2026,
-            "overlap_years": 2,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "24/25 (01.07.2024)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2024,
-            "overlap_end": 2026,
-            "overlap_years": 2,
-            "hiring_likelihood": "low"
-          }
-        ],
-        "total_overlaps": 6,
-        "total_clubs": 1,
-        "total_years_together": 10,
-        "relationship_strength": 90,
-        "most_recent_club": "VfL Wolfsburg",
-        "most_recent_year": 2025
-      },
-      {
-        "sd_name": "MarcelSchäfer",
-        "sd_current_club": "RB Leipzig",
-        "sd_current_role": "Geschäftsführer Sport",
-        "coach_name": "Alexander Blessin",
-        "coach_current_club": "FC St. Pauli",
-        "overlaps": [
-          {
-            "club": "RB Leipzig",
-            "sd_period": "24/25 (01.08.2024)",
-            "coach_period": "1,98",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2024,
-            "overlap_end": 2026,
-            "overlap_years": 2,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "24/25 (01.08.2024)",
-            "coach_period": "0,67",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2024,
-            "overlap_end": 2026,
-            "overlap_years": 2,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "24/25 (01.08.2024)",
-            "coach_period": "2,32",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2024,
-            "overlap_end": 2026,
-            "overlap_years": 2,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "24/25 (01.08.2024)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2024,
-            "overlap_end": 2026,
-            "overlap_years": 2,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "24/25 (01.08.2024)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2024,
-            "overlap_end": 2026,
-            "overlap_years": 2,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "24/25 (01.08.2024)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2024,
-            "overlap_end": 2026,
-            "overlap_years": 2,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "24/25 (01.08.2024)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2024,
-            "overlap_end": 2026,
-            "overlap_years": 2,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "24/25 (01.08.2024)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2024,
-            "overlap_end": 2026,
-            "overlap_years": 2,
-            "hiring_likelihood": "low"
-          }
-        ],
-        "total_overlaps": 8,
-        "total_clubs": 1,
-        "total_years_together": 16,
-        "relationship_strength": 82,
-        "most_recent_club": "RB Leipzig",
-        "most_recent_year": 2024
-      },
-      {
         "sd_name": "AndreasSchicker",
         "sd_current_club": "TSG Hoffenheim",
         "sd_current_role": "Geschäftsführer Sport",
@@ -1821,354 +1001,14 @@
             "overlap_end": 2024,
             "overlap_years": 4,
             "hiring_likelihood": "high"
-          },
-          {
-            "club": "Wiener Neustadt",
-            "sd_period": "17/18 (01.06.2017)",
-            "coach_period": "0,00",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2017,
-            "overlap_end": 2018,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "Wiener Neustadt",
-            "sd_period": "15/16 (10.06.2015)",
-            "coach_period": "0,00",
-            "sd_role": "Co-Trainer",
-            "overlap_start": 2015,
-            "overlap_end": 2016,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          }
-        ],
-        "total_overlaps": 4,
-        "total_clubs": 3,
-        "total_years_together": 8,
-        "relationship_strength": 81,
-        "most_recent_club": "TSG Hoffenheim",
-        "most_recent_year": 2024
-      },
-      {
-        "sd_name": "MarcelSchäfer",
-        "sd_current_club": "RB Leipzig",
-        "sd_current_role": "Geschäftsführer Sport",
-        "coach_name": "Daniel Bauer",
-        "coach_current_club": "VfL Wolfsburg",
-        "overlaps": [
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "22/23 (01.02.2023)",
-            "coach_period": "1,87",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2022,
-            "overlap_end": 2023,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "22/23 (01.02.2023)",
-            "coach_period": "1,75",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2022,
-            "overlap_end": 2023,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "22/23 (01.02.2023)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2022,
-            "overlap_end": 2023,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "22/23 (01.02.2023)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2022,
-            "overlap_end": 2023,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "18/19 (01.07.2018)",
-            "coach_period": "1,87",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2021,
-            "overlap_end": 2022,
-            "overlap_years": 1,
-            "hiring_likelihood": "medium"
-          },
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "18/19 (01.07.2018)",
-            "coach_period": "1,75",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2020,
-            "overlap_end": 2022,
-            "overlap_years": 2,
-            "hiring_likelihood": "medium"
-          },
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "18/19 (01.07.2018)",
-            "coach_period": "0,00",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2018,
-            "overlap_end": 2022,
-            "overlap_years": 4,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "VfL Wolfsburg",
-            "sd_period": "18/19 (01.07.2018)",
-            "coach_period": "0,00",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2018,
-            "overlap_end": 2022,
-            "overlap_years": 4,
-            "hiring_likelihood": "low"
-          }
-        ],
-        "total_overlaps": 8,
-        "total_clubs": 1,
-        "total_years_together": 15,
-        "relationship_strength": 80,
-        "most_recent_club": "VfL Wolfsburg",
-        "most_recent_year": 2022
-      },
-      {
-        "sd_name": "MaxEberl",
-        "sd_current_club": "FC Bayern München",
-        "sd_current_role": "Sportvorstand",
-        "coach_name": "Alexander Blessin",
-        "coach_current_club": "FC St. Pauli",
-        "overlaps": [
-          {
-            "club": "RB Leipzig",
-            "sd_period": "22/23 (01.12.2022)",
-            "coach_period": "1,98",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2022,
-            "overlap_end": 2023,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "22/23 (01.12.2022)",
-            "coach_period": "0,67",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2022,
-            "overlap_end": 2023,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "22/23 (01.12.2022)",
-            "coach_period": "2,32",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2022,
-            "overlap_end": 2023,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "22/23 (01.12.2022)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2022,
-            "overlap_end": 2023,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "22/23 (01.12.2022)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2022,
-            "overlap_end": 2023,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "22/23 (01.12.2022)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2022,
-            "overlap_end": 2023,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "22/23 (01.12.2022)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2022,
-            "overlap_end": 2023,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "22/23 (01.12.2022)",
-            "coach_period": "0,00",
-            "sd_role": "Geschäftsführer Sport",
-            "overlap_start": 2022,
-            "overlap_end": 2023,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          }
-        ],
-        "total_overlaps": 8,
-        "total_clubs": 1,
-        "total_years_together": 8,
-        "relationship_strength": 66,
-        "most_recent_club": "RB Leipzig",
-        "most_recent_year": 2022
-      },
-      {
-        "sd_name": "MarkusKrösche",
-        "sd_current_club": "Eintracht Frankfurt",
-        "sd_current_role": "Sportvorstand",
-        "coach_name": "Alexander Blessin",
-        "coach_current_club": "FC St. Pauli",
-        "overlaps": [
-          {
-            "club": "RB Leipzig",
-            "sd_period": "19/20 (01.07.2019)",
-            "coach_period": "1,98",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2019,
-            "overlap_end": 2020,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "19/20 (01.07.2019)",
-            "coach_period": "0,67",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2019,
-            "overlap_end": 2020,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "19/20 (01.07.2019)",
-            "coach_period": "2,32",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2019,
-            "overlap_end": 2020,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "19/20 (01.07.2019)",
-            "coach_period": "0,00",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2019,
-            "overlap_end": 2020,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "19/20 (01.07.2019)",
-            "coach_period": "0,00",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2019,
-            "overlap_end": 2020,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "19/20 (01.07.2019)",
-            "coach_period": "0,00",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2019,
-            "overlap_end": 2020,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "19/20 (01.07.2019)",
-            "coach_period": "0,00",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2019,
-            "overlap_end": 2020,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "RB Leipzig",
-            "sd_period": "19/20 (01.07.2019)",
-            "coach_period": "0,00",
-            "sd_role": "Sportdirektor",
-            "overlap_start": 2019,
-            "overlap_end": 2020,
-            "overlap_years": 1,
-            "hiring_likelihood": "low"
-          }
-        ],
-        "total_overlaps": 8,
-        "total_clubs": 1,
-        "total_years_together": 8,
-        "relationship_strength": 66,
-        "most_recent_club": "RB Leipzig",
-        "most_recent_year": 2019
-      },
-      {
-        "sd_name": "HolgerSanwald",
-        "sd_current_club": "1. FC Heidenheim",
-        "sd_current_role": "Vorstandsvorsitzender",
-        "coach_name": "Frank Schmidt",
-        "coach_current_club": "1. FC Heidenheim",
-        "overlaps": [
-          {
-            "club": "1.FC Heidenheim",
-            "sd_period": "16/17 (12.12.2016)",
-            "coach_period": "1,61",
-            "sd_role": "Vorstandsvorsitzender",
-            "overlap_start": 2016,
-            "overlap_end": 2026,
-            "overlap_years": 10,
-            "hiring_likelihood": "low"
-          },
-          {
-            "club": "1.FC Heidenheim",
-            "sd_period": "16/17 (12.12.2016)",
-            "coach_period": "0,00",
-            "sd_role": "Vorstandsvorsitzender",
-            "overlap_start": 2016,
-            "overlap_end": 2026,
-            "overlap_years": 10,
-            "hiring_likelihood": "low"
           }
         ],
         "total_overlaps": 2,
-        "total_clubs": 1,
-        "total_years_together": 20,
-        "relationship_strength": 60,
-        "most_recent_club": "1.FC Heidenheim",
-        "most_recent_year": 2016
+        "total_clubs": 2,
+        "total_years_together": 6,
+        "relationship_strength": 57,
+        "most_recent_club": "TSG Hoffenheim",
+        "most_recent_year": 2024
       },
       {
         "sd_name": "ClemensFritz",
@@ -2281,39 +1121,219 @@
         "most_recent_year": 2024
       },
       {
-        "sd_name": "JochenSaier",
-        "sd_current_club": "SC Freiburg",
-        "sd_current_role": "Sportvorstand",
-        "coach_name": "Julian Schuster",
-        "coach_current_club": "SC Freiburg",
+        "sd_name": "ThomasKessler",
+        "sd_current_club": "1. FC Köln",
+        "sd_current_role": "Geschäftsführer Sport",
+        "coach_name": "Lukas Kwasniok",
+        "coach_current_club": "1. FC Köln",
         "overlaps": [
           {
-            "club": "SC Freiburg",
-            "sd_period": "14/15 (01.10.2014)",
-            "coach_period": "1,68",
+            "club": "1.FC Köln",
+            "sd_period": "25/26 (22.01.2026)",
+            "coach_period": "1,18",
+            "sd_role": "Geschäftsführer Sport",
+            "overlap_start": 2025,
+            "overlap_end": 2026,
+            "overlap_years": 1,
+            "hiring_likelihood": "medium"
+          },
+          {
+            "club": "1.FC Köln",
+            "sd_period": "24/25 (05.05.2025)",
+            "coach_period": "1,18",
+            "sd_role": "Sportdirektor",
+            "overlap_start": 2025,
+            "overlap_end": 2025,
+            "overlap_years": 0,
+            "hiring_likelihood": "high"
+          }
+        ],
+        "total_overlaps": 2,
+        "total_clubs": 1,
+        "total_years_together": 1,
+        "relationship_strength": 37,
+        "most_recent_club": "1.FC Köln",
+        "most_recent_year": 2025
+      },
+      {
+        "sd_name": "HolgerSanwald",
+        "sd_current_club": "1. FC Heidenheim",
+        "sd_current_role": "Vorstandsvorsitzender",
+        "coach_name": "Frank Schmidt",
+        "coach_current_club": "1. FC Heidenheim",
+        "overlaps": [
+          {
+            "club": "1.FC Heidenheim",
+            "sd_period": "16/17 (12.12.2016)",
+            "coach_period": "1,61",
+            "sd_role": "Vorstandsvorsitzender",
+            "overlap_start": 2016,
+            "overlap_end": 2026,
+            "overlap_years": 10,
+            "hiring_likelihood": "low"
+          }
+        ],
+        "total_overlaps": 1,
+        "total_clubs": 1,
+        "total_years_together": 10,
+        "relationship_strength": 35,
+        "most_recent_club": "1.FC Heidenheim",
+        "most_recent_year": 2016
+      },
+      {
+        "sd_name": "ThomasKessler",
+        "sd_current_club": "1. FC Köln",
+        "sd_current_role": "Geschäftsführer Sport",
+        "coach_name": "Steffen Baumgart",
+        "coach_current_club": "1. FC Union Berlin",
+        "overlaps": [
+          {
+            "club": "1.FC Köln",
+            "sd_period": "25/26 (22.01.2026)",
+            "coach_period": "1,27",
+            "sd_role": "Geschäftsführer Sport",
+            "overlap_start": 2025,
+            "overlap_end": 2026,
+            "overlap_years": 1,
+            "hiring_likelihood": "low"
+          },
+          {
+            "club": "1.FC Köln",
+            "sd_period": "24/25 (05.05.2025)",
+            "coach_period": "1,27",
+            "sd_role": "Sportdirektor",
+            "overlap_start": 2024,
+            "overlap_end": 2025,
+            "overlap_years": 1,
+            "hiring_likelihood": "low"
+          },
+          {
+            "club": "1.FC Köln",
+            "sd_period": "21/22 (01.07.2021)",
+            "coach_period": "1,27",
+            "sd_role": "Leiter Lizenzbereich",
+            "overlap_start": 2021,
+            "overlap_end": 2024,
+            "overlap_years": 3,
+            "hiring_likelihood": "medium"
+          }
+        ],
+        "total_overlaps": 3,
+        "total_clubs": 1,
+        "total_years_together": 5,
+        "relationship_strength": 35,
+        "most_recent_club": "1.FC Köln",
+        "most_recent_year": 2025
+      },
+      {
+        "sd_name": "MaxEberl",
+        "sd_current_club": "FC Bayern München",
+        "sd_current_role": "Sportvorstand",
+        "coach_name": "Vincent Kompany",
+        "coach_current_club": "FC Bayern München",
+        "overlaps": [
+          {
+            "club": "Bayern München",
+            "sd_period": "23/24 (01.03.2024)",
+            "coach_period": "2,35",
             "sd_role": "Sportvorstand",
             "overlap_start": 2024,
             "overlap_end": 2026,
             "overlap_years": 2,
+            "hiring_likelihood": "high"
+          }
+        ],
+        "total_overlaps": 1,
+        "total_clubs": 1,
+        "total_years_together": 2,
+        "relationship_strength": 34,
+        "most_recent_club": "Bayern München",
+        "most_recent_year": 2024
+      },
+      {
+        "sd_name": "LarsRicken",
+        "sd_current_club": "Borussia Dortmund",
+        "sd_current_role": "Geschäftsführer Sport",
+        "coach_name": "Niko Kovac",
+        "coach_current_club": "Borussia Dortmund",
+        "overlaps": [
+          {
+            "club": "Bor. Dortmund",
+            "sd_period": "23/24 (01.05.2024)",
+            "coach_period": "1,98",
+            "sd_role": "Geschäftsführer Sport",
+            "overlap_start": 2024,
+            "overlap_end": 2026,
+            "overlap_years": 2,
+            "hiring_likelihood": "high"
+          }
+        ],
+        "total_overlaps": 1,
+        "total_clubs": 1,
+        "total_years_together": 2,
+        "relationship_strength": 34,
+        "most_recent_club": "Bor. Dortmund",
+        "most_recent_year": 2024
+      },
+      {
+        "sd_name": "HolgerSanwald",
+        "sd_current_club": "1. FC Heidenheim",
+        "sd_current_role": "Vorstandsvorsitzender",
+        "coach_name": "Manuel Baum",
+        "coach_current_club": "FC Augsburg",
+        "overlaps": [
+          {
+            "club": "Deutschland",
+            "sd_period": "17/18 (01.12.2017)",
+            "coach_period": "0,50",
+            "sd_role": "Vorstandsmitglied",
+            "overlap_start": 2020,
+            "overlap_end": 2023,
+            "overlap_years": 3,
             "hiring_likelihood": "medium"
           },
           {
-            "club": "SC Freiburg",
-            "sd_period": "14/15 (01.10.2014)",
-            "coach_period": "0,00",
-            "sd_role": "Sportvorstand",
-            "overlap_start": 2018,
-            "overlap_end": 2026,
-            "overlap_years": 8,
+            "club": "Deutschland",
+            "sd_period": "17/18 (01.12.2017)",
+            "coach_period": "2,40",
+            "sd_role": "Vorstandsmitglied",
+            "overlap_start": 2019,
+            "overlap_end": 2023,
+            "overlap_years": 4,
             "hiring_likelihood": "medium"
           }
         ],
         "total_overlaps": 2,
         "total_clubs": 1,
-        "total_years_together": 10,
-        "relationship_strength": 40,
-        "most_recent_club": "SC Freiburg",
-        "most_recent_year": 2024
+        "total_years_together": 7,
+        "relationship_strength": 34,
+        "most_recent_club": "Deutschland",
+        "most_recent_year": 2020
+      },
+      {
+        "sd_name": "MarcelSchäfer",
+        "sd_current_club": "RB Leipzig",
+        "sd_current_role": "Geschäftsführer Sport",
+        "coach_name": "Ole Werner",
+        "coach_current_club": "RB Leipzig",
+        "overlaps": [
+          {
+            "club": "RB Leipzig",
+            "sd_period": "24/25 (01.08.2024)",
+            "coach_period": "1,96",
+            "sd_role": "Geschäftsführer Sport",
+            "overlap_start": 2025,
+            "overlap_end": 2026,
+            "overlap_years": 1,
+            "hiring_likelihood": "high"
+          }
+        ],
+        "total_overlaps": 1,
+        "total_clubs": 1,
+        "total_years_together": 1,
+        "relationship_strength": 32,
+        "most_recent_club": "RB Leipzig",
+        "most_recent_year": 2025
       }
     ],
     "current_bundesliga_connections": [],
@@ -2321,39 +1341,27 @@
     "sd_stats": {
       "most_connected": [
         {
-          "sd": "MarcelSchäfer",
-          "relationships": 6
-        },
-        {
-          "sd": "MaxEberl",
-          "relationships": 5
-        },
-        {
-          "sd": "MarkusKrösche",
-          "relationships": 5
-        },
-        {
           "sd": "BenjaminWeber",
           "relationships": 4
         },
         {
-          "sd": "HorstHeldt",
+          "sd": "MarkusKrösche",
           "relationships": 3
+        },
+        {
+          "sd": "AndreasSchicker",
+          "relationships": 2
+        },
+        {
+          "sd": "ClemensFritz",
+          "relationships": 2
+        },
+        {
+          "sd": "NikoBungert",
+          "relationships": 2
         }
       ],
       "most_hirings": {
-        "PeterChristiansen": [
-          {
-            "coach": "Daniel Bauer",
-            "club": "VfL Wolfsburg",
-            "year": 2025
-          },
-          {
-            "coach": "Daniel Bauer",
-            "club": "VfL Wolfsburg",
-            "year": 2025
-          }
-        ],
         "ClemensFritz": [
           {
             "coach": "Ole Werner",
@@ -2364,18 +1372,6 @@
             "coach": "Daniel Thioune",
             "club": "Werder Bremen",
             "year": 2025
-          }
-        ],
-        "MaxEberl": [
-          {
-            "coach": "Vincent Kompany",
-            "club": "Bayern München",
-            "year": 2024
-          },
-          {
-            "coach": "Manuel Baum",
-            "club": "RB Leipzig",
-            "year": 2023
           }
         ],
         "AndreasSchicker": [
@@ -2391,6 +1387,20 @@
             "club": "1.FC Köln",
             "year": 2025
           }
+        ],
+        "MaxEberl": [
+          {
+            "coach": "Vincent Kompany",
+            "club": "Bayern München",
+            "year": 2024
+          }
+        ],
+        "LarsRicken": [
+          {
+            "coach": "Niko Kovac",
+            "club": "Bor. Dortmund",
+            "year": 2024
+          }
         ]
       }
     },
@@ -2401,20 +1411,20 @@
           "relationships": 5
         },
         {
-          "coach": "Sebastian Hoeneß",
-          "relationships": 5
-        },
-        {
-          "coach": "Alexander Blessin",
-          "relationships": 4
-        },
-        {
           "coach": "Steffen Baumgart",
           "relationships": 4
         },
         {
-          "coach": "Manuel Baum",
-          "relationships": 4
+          "coach": "Ole Werner",
+          "relationships": 3
+        },
+        {
+          "coach": "Kasper Hjulmand",
+          "relationships": 3
+        },
+        {
+          "coach": "Lukas Kwasniok",
+          "relationships": 2
         }
       ]
     }
