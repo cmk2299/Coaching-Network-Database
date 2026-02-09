@@ -1611,7 +1611,48 @@ Dashboard file location: {Path(__file__).resolve()}
                         "strength": 40,
                     })
 
-        # 3. License cohort mates
+        # 3. Youth Development Network (Academy/Scouting executives)
+        youth_exec_file = Path(__file__).parent / "youth_executive_overlaps.json"
+        if not youth_exec_file.exists():
+            youth_exec_file = Path(__file__).parent.parent / "data" / "youth_executive_overlaps.json"
+
+        if youth_exec_file.exists():
+            try:
+                with open(youth_exec_file, 'r', encoding='utf-8') as f:
+                    youth_exec_data = json.load(f)
+
+                coach_name = profile.get("name", "")
+                for rel in youth_exec_data.get("relationships", []):
+                    if rel.get("coach_name") == coach_name:
+                        exec_name = rel.get("exec_name", "")
+                        exec_category = rel.get("exec_category", "Unknown")
+
+                        # Get most significant overlap for connection text
+                        overlaps = rel.get("overlaps", [])
+                        if overlaps:
+                            # Sort by overlap years to get most significant
+                            top_overlap = max(overlaps, key=lambda x: x.get("overlap_years", 0))
+                            club = top_overlap.get("club", "Unknown")
+                            years = top_overlap.get("overlap_years", 0)
+                            period = f"{top_overlap.get('overlap_start', '?')}-{top_overlap.get('overlap_end', '?')}"
+                            connection = f"{club} ({period}, {years} years)"
+                        else:
+                            connection = "Youth Development"
+
+                        network_contacts.append({
+                            "name": exec_name,
+                            "role": rel.get("exec_current_role", exec_category),
+                            "current_club": rel.get("exec_current_club", ""),
+                            "connection": connection,
+                            "url": "",  # Could be enriched from executive data
+                            "category": f"Academy/Scouting ({exec_category})",
+                            "category_order": 3,  # Between Directors (2) and Bosses (4)
+                            "strength": rel.get("relationship_strength", 50),
+                        })
+            except Exception as e:
+                pass  # Silently fail if data not available
+
+        # 4. License cohort mates
         coach_name_for_cohort = profile.get("name", "")
         cohort_num = find_cohort_for_coach(coach_name_for_cohort)
         if cohort_num:
@@ -1668,6 +1709,9 @@ Dashboard file location: {Path(__file__).resolve()}
                 "Assistant Coaches": "#2ecc71", # Green
                 "Management": "#f39c12",        # Orange
                 "License Cohort": "#1abc9c",    # Teal
+                "Academy/Scouting (Scouting)": "#ff6b35",  # Orange-Red (Scouting)
+                "Academy/Scouting (Academy)": "#00b4d8",   # Cyan (Academy)
+                "Academy/Scouting (Technical)": "#8338ec", # Purple (Technical)
             }
 
             # View toggle
