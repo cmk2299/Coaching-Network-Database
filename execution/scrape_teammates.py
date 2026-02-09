@@ -437,9 +437,15 @@ def clean_role_text(text: str) -> str:
     for original, placeholder in protected:
         text = text.replace(original, placeholder)
 
-    # Simple approach: Add space before any capital letter that follows a lowercase letter
+    # Add space before any capital letter that follows a lowercase letter
     # This will split "TorwarttrainerVfB" -> "Torwarttrainer VfB"
     text = re.sub(r'([a-zäöü])([A-ZÄÖÜ])', r'\1 \2', text)
+
+    # Add space before numbers that follow letters (e.g., "Sportdirektor1" -> "Sportdirektor 1")
+    text = re.sub(r'([a-zäöüA-ZÄÖÜ])(\d)', r'\1 \2', text)
+
+    # Add space after numbers before capital letters (e.g., "1Cf" -> "1 Cf")
+    text = re.sub(r'(\d)([A-ZÄÖÜ])', r'\1 \2', text)
 
     # Restore protected abbreviations
     for original, placeholder in protected:

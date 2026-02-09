@@ -1641,7 +1641,7 @@ Dashboard file location: {Path(__file__).resolve()}
             st.subheader("Professional Football Network")
 
             # P2.1: Network Summary Stats
-            summary_cols = st.columns(4)
+            summary_cols = st.columns(3)
             with summary_cols[0]:
                 total_contacts = len(network_contacts)
                 st.metric("🌐 Total Contacts", total_contacts)
@@ -1649,9 +1649,6 @@ Dashboard file location: {Path(__file__).resolve()}
                 coaches_count = sum(1 for c in network_contacts if "Coach" in c.get("role", ""))
                 st.metric("🎯 Coaches", coaches_count)
             with summary_cols[2]:
-                directors_count = sum(1 for c in network_contacts if "Director" in c.get("role", ""))
-                st.metric("📋 Directors", directors_count)
-            with summary_cols[3]:
                 unique_clubs = len(set(c.get("current_club", "") for c in network_contacts if c.get("current_club")))
                 st.metric("🏟️ Clubs", unique_clubs)
 
