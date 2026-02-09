@@ -2532,9 +2532,12 @@ Dashboard file location: {Path(__file__).resolve()}
         else:
             st.info("No teammate data available (coach may not have had a professional playing career)")
 
-        # Section removed - Players Coached now at top of Performance tab
+        st.divider()
 
-        # OLD TAB5 CODE BELOW - TO BE REMOVED OR INTEGRATED
+        # Player Details Section
+        st.markdown("### 📊 All Players Coached")
+        st.caption("Complete roster with detailed statistics, market values, and agent information")
+
         players_detail = data.get("players_detail", {})
 
         if players_detail and players_detail.get("players"):
