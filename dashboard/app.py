@@ -2810,6 +2810,7 @@ Dashboard file location: {Path(__file__).resolve()}
             # Section 3: All Management Contacts from Career
             st.markdown("#### 🏢 Club Leadership & Board")
             st.caption("CEOs, Board Members, and Directors who overlapped with coach's tenure")
+            st.info("💡 **Note:** Sports Directors and key executives may be incomplete here. Check the 'Decision Makers' and 'Sporting Directors' tabs for more complete hiring intelligence.")
 
             all_management = companions_data.get("all_management", [])
             if all_management:
@@ -2865,6 +2866,7 @@ Dashboard file location: {Path(__file__).resolve()}
             # Section 4: Current Co-Trainers (Enhanced)
             st.markdown("#### 👥 Current Coaching Staff")
             st.caption("Assistant coaches, goalkeeping coaches, and other staff at current club")
+            st.info("💡 **Note:** This data comes from automated scraping and may be incomplete. Check the club's official website for the complete staff roster.")
 
             co_trainers = companions_data.get("current_co_trainers", [])
             if co_trainers:
