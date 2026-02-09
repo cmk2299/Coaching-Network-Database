@@ -1232,39 +1232,6 @@ if st.session_state.coach_data:
                 else:
                     st.info("No repeat hiring patterns detected. Each hiring manager hired this coach once.")
 
-            st.divider()
-
-            # BY ROLE: Expandable cards
-            st.markdown("### 💼 Decision Makers by Role")
-
-            # Helper function to render decision maker cards (DRY principle)
-            def render_dm_cards(dm_list, default_role="Unknown"):
-                """Render decision maker cards efficiently"""
-                for dm in dm_list:
-                    st.markdown(f"**{dm.get('name', 'Unknown')}** - {dm.get('role', default_role)}")
-                    st.caption(f"📍 {dm.get('club_name', '')}")
-                    if dm.get('notes'):
-                        st.caption(f"ℹ️ {dm['notes']}")
-                    if dm.get('url'):
-                        st.caption(f"[Transfermarkt Profile]({dm['url']})")
-                    st.markdown("---")
-
-            # Hiring Managers
-            if hiring_managers:
-                with st.expander(f"🎯 Hiring Managers ({len(hiring_managers)})", expanded=True):
-                    render_dm_cards(hiring_managers, "Hiring Manager")
-
-            # Sports Directors
-            if sports_directors:
-                with st.expander(f"📋 Sports Directors ({len(sports_directors)})", expanded=False):
-                    render_dm_cards(sports_directors, "Sports Director")
-
-            # Executives & Presidents
-            all_executives = executives + presidents
-            if all_executives:
-                with st.expander(f"💼 Executives & Presidents ({len(all_executives)})", expanded=False):
-                    render_dm_cards(all_executives, "Executive")
-
     # ===== TAB 2: SPORTING DIRECTORS =====
     with tab_sd:
         st.markdown("### 🏢 Sporting Director Relationships")
