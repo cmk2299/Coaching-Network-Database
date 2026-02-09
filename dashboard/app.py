@@ -1209,8 +1209,7 @@ if st.session_state.coach_data:
                             if event['notes']:
                                 st.caption(event['notes'])
 
-                        if idx < len(timeline_events) - 1:
-                            st.markdown("↓")
+                        # Removed arrow for cleaner timeline display
 
             # PATTERN RECOGNITION (only show if we have hiring managers)
             if hiring_managers:
@@ -1407,15 +1406,10 @@ if st.session_state.coach_data:
 
                                 st.markdown(f"""
                                 <div style="padding: 10px; margin: 5px 0; border-left: 3px solid #4CAF50; background-color: #f9f9f9;">
-                                    <strong>{club}</strong> ({year_range})<br>
-                                    <small>
-                                        SD Period: {sd_period}<br>
-                                        Coach Period: {coach_period}<br>
-                                        Duration: {overlap_years} years<br>
-                                        <span style="{badge_color} padding: 2px 8px; border-radius: 3px; font-weight: bold;">
-                                            Hiring Likelihood: {badge}
-                                        </span>
-                                    </small>
+                                    <strong>{club}</strong> ({year_range}) - {overlap_years} years<br>
+                                    <span style="{badge_color} padding: 2px 8px; border-radius: 3px; font-weight: bold;">
+                                        Hiring Likelihood: {badge}
+                                    </span>
                                 </div>
                                 """, unsafe_allow_html=True)
 
@@ -1526,14 +1520,19 @@ Dashboard file location: {Path(__file__).resolve()}
                         role_type = "Coach"
 
                     tm_url = tm.get("trainer_url") or tm.get("url", "")
+
+                    # Categorize: Directors/Executives vs Former Teammates
+                    category = "Executives" if role_type == "Director" else "Former Teammates"
+                    category_order = 2 if role_type == "Director" else 3
+
                     network_contacts.append({
                         "name": tm.get("name", ""),
                         "role": current_role if current_role else role_type,  # Use actual current_role if available
                         "current_club": tm.get("current_club", ""),
                         "connection": f"{tm.get('shared_matches', 0)} games",
                         "url": tm_url,
-                        "category": "Former Teammates",
-                        "category_order": 3,
+                        "category": category,
+                        "category_order": category_order,
                         "strength": tm.get("shared_matches", 0),
                     })
 
@@ -2118,7 +2117,21 @@ Dashboard file location: {Path(__file__).resolve()}
 
                 if titles.get("titles"):
                     st.success(f"**{total} Title{'s' if total != 1 else ''} Found**")
-                    for title in titles.get("titles", []):
+
+                    # Sort titles chronologically by year
+                    titles_list = titles.get("titles", [])
+                    def extract_year(title):
+                        years = title.get("years", "")
+                        if years:
+                            # Extract first 4-digit year from strings like "2014/15" or "2013/14"
+                            import re
+                            match = re.search(r"(\d{4})", years)
+                            return int(match.group(1)) if match else 9999
+                        return 9999  # Put titles without years at the end
+
+                    sorted_titles = sorted(titles_list, key=extract_year)
+
+                    for title in sorted_titles:
                         count = title.get("count", 1)
                         name = title.get("name", "")
                         years = title.get("years", "")
