@@ -119,7 +119,7 @@ def main():
                 time.sleep(DELAY_BETWEEN_COACHES)
 
                 try:
-                    profile = scrape_coach(staff['url'])
+                    profile = scrape_coach(url=staff['url'])
                     if profile:
                         # Save to preload
                         save_preloaded(staff['name'], profile)
