@@ -29,7 +29,13 @@ from scrape_playing_career import scrape_coach_achievements
 from get_club_logo import get_club_logo, get_logo_by_id
 import re
 from streamlit_agraph import agraph, Node, Edge, Config
-from network_component import render_ego_network
+
+# Try to import network component (may not be available on Streamlit Cloud)
+try:
+    from network_component import render_ego_network
+    NETWORK_AVAILABLE = True
+except ImportError:
+    NETWORK_AVAILABLE = False
 
 # Page config
 st.set_page_config(
