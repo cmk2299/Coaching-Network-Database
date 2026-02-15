@@ -15,14 +15,53 @@ Benefits:
 """
 
 import sqlite3
+import re
 from pathlib import Path
 from datetime import datetime, timedelta
-from typing import Optional, Dict, List
+from typing import Optional, Dict, List, Tuple
 import json
 
 # Database path
 BASE_DIR = Path(__file__).parent.parent
 DB_PATH = BASE_DIR / "data" / "coaches.db"
+
+def parse_german_date(date_str: str) -> Optional[str]:
+    """
+    Parse German date format 'DD.MM.YYYY' to ISO 'YYYY-MM-DD'.
+    Handles formats like '15.06.1983 (42)' or '01.07.2024' or 'vsl. 30.06.2028'.
+    Returns None if no valid date found.
+    """
+    if not date_str:
+        return None
+    match = re.search(r'(\d{2})\.(\d{2})\.(\d{4})', str(date_str))
+    if match:
+        return f"{match.group(3)}-{match.group(2)}-{match.group(1)}"
+    return None
+
+
+def parse_career_period(period_str: str) -> Tuple[Optional[str], Optional[str]]:
+    """
+    Parse career period string into (start_date, end_date) in ISO format.
+
+    Handles formats like:
+    - '24/25 (01.07.2024) - vsl. 30.06.2029'
+    - '22/23 (01.12.2022) - 23/24 (30.06.2024)'
+    - '24/25 (01.07.2024) - -'
+    - '05/06 (01.07.2005) - 16/17 (30.06.2016)'
+
+    Returns (start_date_iso, end_date_iso) — either can be None.
+    """
+    if not period_str:
+        return None, None
+
+    # Find all DD.MM.YYYY patterns in the string
+    dates = re.findall(r'(\d{2}\.\d{2}\.\d{4})', period_str)
+
+    start_date = parse_german_date(dates[0]) if len(dates) >= 1 else None
+    end_date = parse_german_date(dates[1]) if len(dates) >= 2 else None
+
+    return start_date, end_date
+
 
 class CoachDB:
     def __init__(self, db_path: str = None):
@@ -99,12 +138,23 @@ class CoachDB:
         """
         Save coach profile (static data).
         This should only be called once per coach unless data changes.
+
+        Handles JSON profiles from tmp/preloaded/ with:
+        - German date format DOB ('15.06.1983 (42)')
+        - Career period strings ('24/25 (01.07.2024) - vsl. 30.06.2029')
+        - birthplace, contract_until, agent_url fields
         """
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
 
         # Get or create coach
         coach_id = self.get_or_create_coach(tm_id, profile_data.get("name", "Unknown"))
+
+        # Parse DOB from German format
+        dob_iso = parse_german_date(profile_data.get("dob"))
+
+        # Parse contract_until from German format
+        contract_until_iso = parse_german_date(profile_data.get("contract_until"))
 
         # Update coach record
         cursor.execute("""
@@ -116,22 +166,34 @@ class CoachDB:
                 agent_name = ?,
                 agent_agency = ?,
                 image_url = ?,
+                birthplace = ?,
+                contract_until = ?,
                 last_updated_at = ?
             WHERE id = ?
         """, (
             profile_data.get("name"),
-            profile_data.get("dob"),
+            dob_iso,
             profile_data.get("nationality"),
             profile_data.get("license"),
             profile_data.get("agent"),
             profile_data.get("agent_url"),  # Store agency URL
             profile_data.get("image_url"),
+            profile_data.get("birthplace"),
+            contract_until_iso,
             datetime.now(),
             coach_id
         ))
 
         # Save career stations (static)
+        # JSON has 'period' string — parse into start_date / end_date
         for station in profile_data.get("career_history", []):
+            # Try explicit start_date/end_date first, fall back to period parsing
+            start_date = station.get("start_date")
+            end_date = station.get("end_date")
+
+            if not start_date and station.get("period"):
+                start_date, end_date = parse_career_period(station["period"])
+
             cursor.execute("""
                 INSERT OR IGNORE INTO career_stations
                 (coach_id, club_name, role, start_date, end_date, games, wins, draws, losses, ppg)
@@ -140,8 +202,8 @@ class CoachDB:
                 coach_id,
                 station.get("club"),
                 station.get("role"),
-                station.get("start_date"),
-                station.get("end_date"),
+                start_date,
+                end_date,
                 station.get("games"),
                 station.get("wins"),
                 station.get("draws"),

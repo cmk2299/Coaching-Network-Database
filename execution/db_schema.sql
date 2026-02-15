@@ -12,6 +12,8 @@ CREATE TABLE IF NOT EXISTS coaches (
     agent_name TEXT,
     agent_agency TEXT,
     image_url TEXT,
+    birthplace TEXT,
+    contract_until DATE,
 
     -- Metadata
     first_scraped_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
