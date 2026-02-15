@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/alfred-ekeocha/profil/trainer/138847",
+  "scraped_at": "2026-02-12T17:54:55.916449",
+  "name": "Alfred Ekeocha",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "26.02.1987 (38)",
+  "age": 38,
+  "birthplace": "Brussel",
+  "nationality": "Belgien",
+  "current_role": "Scout",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 (01.10.2025) - -"
+    },
+    {
+      "club": "Standard Jgd.",
+      "club_url": "https://www.transfermarkt.de/standard-luttich-jugend/startseite/verein/10459/saison_id/2023",
+      "role": "Nachwuchsscout",
+      "period": "23/24 (01.09.2023) - 25/26 (30.09.2025)"
+    }
+  ],
+  "coach_id": "138847",
+  "_cached_at": "2026-02-12T17:54:55.926583",
+  "_preloaded_at": "2026-02-12T17:54:55.927110",
+  "_coach_name": "Alfred Ekeocha"
+}

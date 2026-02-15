@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/werner-blank/profil/trainer/126304",
+  "scraped_at": "2026-02-13T00:44:57.667571",
+  "name": "Werner Blank",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "05.01.1949 (77)",
+  "age": 77,
+  "nationality": "Deutschland",
+  "contract_until": "30.09.2026",
+  "license": "A-Lizenz",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2014",
+      "role": "Aufsichtsratsmitglied",
+      "period": "14/15 (01.10.2014) - vsl. 30.09.2026"
+    },
+    {
+      "club": "VfR Pfaffenweiler",
+      "club_url": "https://www.transfermarkt.de/vfr-pfaffenweiler/startseite/verein/31282/saison_id/1988",
+      "role": "Trainer",
+      "period": "88/89 (01.07.1988) - 91/92 (30.06.1992)"
+    },
+    {
+      "club": "VfR Pfaffenweiler",
+      "club_url": "https://www.transfermarkt.de/vfr-pfaffenweiler/startseite/verein/31282/saison_id/1978",
+      "role": "Spielertrainer",
+      "period": "78/79 (01.07.1978) - 79/80 (30.06.1980)"
+    }
+  ],
+  "coach_id": "126304",
+  "_cached_at": "2026-02-13T00:44:57.687437",
+  "_preloaded_at": "2026-02-13T00:44:57.688351",
+  "_coach_name": "Werner Blank"
+}

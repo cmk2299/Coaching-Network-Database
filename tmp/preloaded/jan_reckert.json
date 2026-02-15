@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/jan-reckert/profil/trainer/104836",
+  "scraped_at": "2026-02-12T18:45:46.136620",
+  "name": "Jan Reckert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/104836-1713464367.jpg?lm=1",
+  "dob": "06.02.1997 (29)",
+  "age": 29,
+  "birthplace": "Dortmund",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Torwarttrainerund weitere Tätigkeiten",
+  "current_club": "Dortmund Jgd.",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2023",
+      "role": "Torwarttrainer",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Dortmund Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896/saison_id/2022",
+      "role": "Torwarttrainer",
+      "period": "22/23 (01.07.2022) - -"
+    }
+  ],
+  "coach_id": "104836",
+  "_cached_at": "2026-02-12T18:45:46.147783",
+  "_preloaded_at": "2026-02-12T18:45:46.148370",
+  "_coach_name": "Jan Reckert"
+}

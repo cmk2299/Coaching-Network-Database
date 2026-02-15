@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/helmut-erhard/profil/trainer/41756",
+  "scraped_at": "2026-02-12T18:42:03.328614",
+  "name": "Helmut Erhard",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "07.02.1972 (54)",
+  "age": 54,
+  "nationality": "Deutschland",
+  "current_role": "Medizinischer Leiter Physiotherapie",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2017",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "17/18 (03.09.2017) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2013",
+      "role": "Physiotherapeut",
+      "period": "13/14 (01.07.2013) - 17/18 (02.09.2017)"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2012",
+      "role": "Physiotherapeut",
+      "period": "12/13 (01.07.2012) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "W. Burghausen",
+      "club_url": "https://www.transfermarkt.de/sv-wacker-burghausen/startseite/verein/110/saison_id/2002",
+      "role": "Physiotherapeut",
+      "period": "02/03 (01.07.2002) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "41756",
+  "_cached_at": "2026-02-12T18:42:03.339330",
+  "_preloaded_at": "2026-02-12T18:42:03.339823",
+  "_coach_name": "Helmut Erhard"
+}

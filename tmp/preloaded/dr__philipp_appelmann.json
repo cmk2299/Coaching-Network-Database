@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/dr-philipp-appelmann/profil/trainer/26356",
+  "scraped_at": "2026-02-12T18:25:26.413376",
+  "name": "Dr. Philipp Appelmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_26356_851_2012_1.jpg?lm=1",
+  "dob": "24.12.1982 (43)",
+  "age": 43,
+  "birthplace": "Worms",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2016",
+      "role": "Vereinsarzt",
+      "period": "16/17 (01.11.2016) - -"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "26356",
+  "_cached_at": "2026-02-12T18:25:26.423599",
+  "_preloaded_at": "2026-02-12T18:25:26.424164",
+  "_coach_name": "Dr. Philipp Appelmann"
+}

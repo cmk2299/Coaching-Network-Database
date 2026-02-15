@@ -1,0 +1,44 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-horneff/profil/trainer/20298",
+  "scraped_at": "2026-02-12T17:55:58.015293",
+  "name": "Andreas Horneff",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.11.1982 (43)",
+  "age": 43,
+  "birthplace": "Weinheim",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Mitarbeiter des Nachwuchsleistungszentrums",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2020",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "FSV Frankfurt",
+      "club_url": "https://www.transfermarkt.de/fsv-frankfurt/startseite/verein/293/saison_id/2011",
+      "role": "Nachwuchskoordinator",
+      "period": "11/12 (01.07.2011) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "FSV Frankfurt",
+      "club_url": "https://www.transfermarkt.de/fsv-frankfurt/startseite/verein/293/saison_id/2008",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "08/09 (01.01.2009) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "FSV Frankf. U17",
+      "club_url": "https://www.transfermarkt.de/fsv-frankfurt-u17/startseite/verein/33697/saison_id/2007",
+      "role": "Trainer",
+      "period": "07/08 (04.02.2008) - 09/10 (30.06.2010)"
+    }
+  ],
+  "coach_id": "20298",
+  "_cached_at": "2026-02-12T17:55:58.026457",
+  "_preloaded_at": "2026-02-12T17:55:58.027038",
+  "_coach_name": "Andreas Horneff"
+}

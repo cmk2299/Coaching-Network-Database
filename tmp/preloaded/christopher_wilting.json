@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/christopher-wilting/profil/trainer/96568",
+  "scraped_at": "2026-02-12T18:10:14.886028",
+  "name": "Christopher Wilting",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "02.07.1989 (36)",
+  "age": 36,
+  "birthplace": "Bocholt",
+  "nationality": "Deutschland",
+  "current_role": "Entwicklungscoachund weitere Tätigkeiten",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2025",
+      "role": "Entwicklungscoach",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "M'gladbach Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-jugend/startseite/verein/11845/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (01.07.2021) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "M'gladbach Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-jugend/startseite/verein/11845/saison_id/2018",
+      "role": "Entwicklungscoach",
+      "period": "18/19 (01.07.2018) - -"
+    }
+  ],
+  "coach_id": "96568",
+  "_cached_at": "2026-02-12T18:10:14.896713",
+  "_preloaded_at": "2026-02-12T18:10:14.897283",
+  "_coach_name": "Christopher Wilting"
+}

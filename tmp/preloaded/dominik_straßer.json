@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/dominik-strasser/profil/trainer/98539",
+  "scraped_at": "2026-02-12T18:19:47.845152",
+  "name": "Dominik Straßer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.05.1998 (27)",
+  "age": 27,
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Spielanalyst",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+      "role": "Spielanalyst",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2022",
+      "role": "Spielanalyst",
+      "period": "22/23 (01.07.2022) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "B. München U17",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u17/startseite/verein/21058/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (01.07.2020) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2018",
+      "role": "Spielanalyst",
+      "period": "18/19 (01.08.2018) - 20/21 (30.06.2020)"
+    },
+    {
+      "club": "SV Mammendorf",
+      "club_url": "https://www.transfermarkt.de/sv-mammendorf/startseite/verein/38699/saison_id/2018",
+      "role": "Jugendtrainer",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "98539",
+  "_cached_at": "2026-02-12T18:19:47.855951",
+  "_preloaded_at": "2026-02-12T18:19:47.857045",
+  "_coach_name": "Dominik Straßer"
+}

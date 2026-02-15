@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/manfred-ringer/profil/trainer/95287",
+  "scraped_at": "2026-02-12T19:03:04.578085",
+  "name": "Manfred Ringer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "20.02.1960 (65)",
+  "age": 65,
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2019",
+      "role": "Aufsichtsratsmitglied",
+      "period": "19/20 (17.09.2019) - -"
+    }
+  ],
+  "coach_id": "95287",
+  "_cached_at": "2026-02-12T19:03:04.587698",
+  "_preloaded_at": "2026-02-12T19:03:04.588201",
+  "_coach_name": "Manfred Ringer"
+}

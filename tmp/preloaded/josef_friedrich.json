@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/josef-friedrich/profil/trainer/85891",
+  "scraped_at": "2026-02-12T18:51:05.842595",
+  "name": "Josef Friedrich",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/85891-1604870777.jpg?lm=1",
+  "dob": "10.07.1962 (63)",
+  "age": 63,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2023",
+      "role": "Zeugwart",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "SC Freiburg II",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-ii/startseite/verein/245/saison_id/2020",
+      "role": "Zeugwart",
+      "period": "20/21 (01.07.2020) - 22/23 (30.06.2023)"
+    }
+  ],
+  "coach_id": "85891",
+  "_cached_at": "2026-02-12T18:51:05.853413",
+  "_preloaded_at": "2026-02-12T18:51:05.854208",
+  "_coach_name": "Josef Friedrich"
+}

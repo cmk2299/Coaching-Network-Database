@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/julian-lauer/profil/trainer/146749",
+  "scraped_at": "2026-02-12T18:51:58.712665",
+  "name": "Julian Lauer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/146749-1755203798.jpg?lm=1",
+  "dob": "04.07.1992 (33)",
+  "age": 33,
+  "nationality": "Deutschland",
+  "license": "B-Lizenz",
+  "current_role": "Co-Trainer Analyse",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2025",
+      "role": "Co-Trainer Analyse",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2021",
+      "role": "Spielanalyst",
+      "period": "21/22 (01.09.2021) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Buchbach Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsv-buchbach-jugend/startseite/verein/18909/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 19/20 (01.04.2020)"
+    }
+  ],
+  "coach_id": "146749",
+  "_cached_at": "2026-02-12T18:51:58.723497",
+  "_preloaded_at": "2026-02-12T18:51:58.724019",
+  "_coach_name": "Julian Lauer"
+}

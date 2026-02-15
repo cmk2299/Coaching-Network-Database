@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/nico-holzel/profil/trainer/50536",
+  "scraped_at": "2026-02-12T19:23:10.314723",
+  "name": "Nico Hölzel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "10.06.1989 (36)",
+  "age": 36,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2017",
+      "role": "Physiotherapeut",
+      "period": "17/18 (01.07.2017) - -"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2016",
+      "role": "Physiotherapeut",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "50536",
+  "_cached_at": "2026-02-12T19:23:10.324986",
+  "_preloaded_at": "2026-02-12T19:23:10.325678",
+  "_coach_name": "Nico Hölzel"
+}

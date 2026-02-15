@@ -1,0 +1,72 @@
+{
+  "url": "https://www.transfermarkt.de/luca-schuster/profil/trainer/93547",
+  "scraped_at": "2026-02-12T19:00:37.363049",
+  "name": "Luca Schuster",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "14.11.1994 (31)",
+  "age": 31,
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2025",
+      "role": "Athletiktrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (01.07.2021) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "B. München U17",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u17/startseite/verein/21058/saison_id/2020",
+      "role": "Athletiktrainer",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "B. München U19",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2017",
+      "role": "Athletiktrainer",
+      "period": "17/18 (01.11.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Ingolstadt U17",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04-u17/startseite/verein/38224/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 17/18 (31.10.2017)"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2015",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "15/16 (01.01.2016) - 15/16 (31.03.2016)"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2015",
+      "role": "Scout",
+      "period": "15/16 (01.01.2016) - 15/16 (31.03.2016)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2015",
+      "role": "Technische/r Mitarbeiter/in",
+      "period": "15/16 (01.09.2015) - 15/16 (30.11.2015)"
+    }
+  ],
+  "coach_id": "93547",
+  "_cached_at": "2026-02-12T19:00:37.375088",
+  "_preloaded_at": "2026-02-12T19:00:37.376220",
+  "_coach_name": "Luca Schuster"
+}

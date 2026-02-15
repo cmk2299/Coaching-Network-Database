@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/rene-andresen/profil/trainer/118732",
+  "scraped_at": "2026-02-12T23:17:32.579249",
+  "name": "René Andresen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.03.1993 (32)",
+  "age": 32,
+  "birthplace": "Hamburg",
+  "nationality": "Deutschland",
+  "current_role": "Leitender Assistent des Geschäftsführers Sport",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2023",
+      "role": "Leitender Assistent des Geschäftsführers Sport",
+      "period": "23/24 (17.07.2023) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "18/19 (01.08.2018) - 18/19 (31.01.2019)"
+    }
+  ],
+  "coach_id": "118732",
+  "_cached_at": "2026-02-12T23:17:32.589729",
+  "_preloaded_at": "2026-02-12T23:17:32.590306",
+  "_coach_name": "René Andresen"
+}

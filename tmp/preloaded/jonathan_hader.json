@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/jonathan-hader/profil/trainer/145300",
+  "scraped_at": "2026-02-12T18:50:58.479268",
+  "name": "Jonathan Hader",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.10.1997 (28)",
+  "age": 28,
+  "nationality": "Deutschland",
+  "license": "B-Lizenz",
+  "current_role": "Kaderplanerund weitere Tätigkeiten",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025",
+      "role": "Leiter Nachwuchsscouting",
+      "period": "25/26 - -"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2025",
+      "role": "Kaderplaner",
+      "period": "25/26 - -"
+    },
+    {
+      "club": "Hoffenheim U19",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u19/startseite/verein/8925/saison_id/2021",
+      "role": "Kaderplaner",
+      "period": "21/22 (01.02.2022) - -"
+    },
+    {
+      "club": "Hoffenheim U17",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u17/startseite/verein/21082/saison_id/2021",
+      "role": "Kaderplaner",
+      "period": "21/22 (01.02.2022) - -"
+    },
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2021",
+      "role": "Kaderplaner",
+      "period": "21/22 (01.02.2022) - -"
+    }
+  ],
+  "coach_id": "145300",
+  "_cached_at": "2026-02-12T18:50:58.490947",
+  "_preloaded_at": "2026-02-12T18:50:58.491637",
+  "_coach_name": "Jonathan Hader"
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/judith-dommermuth/profil/trainer/110459",
+  "scraped_at": "2026-02-12T18:51:20.896572",
+  "name": "Judith Dommermuth",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "1976 (~ 50)",
+  "birthplace": "Aachen",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2020",
+      "role": "Aufsichtsratsmitglied",
+      "period": "20/21 (19.11.2020) - -"
+    }
+  ],
+  "coach_id": "110459",
+  "_cached_at": "2026-02-12T18:51:20.906606",
+  "_preloaded_at": "2026-02-12T18:51:20.907196",
+  "_coach_name": "Judith Dommermuth"
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/bernhard-peters/profil/trainer/3409",
+  "scraped_at": "2026-02-12T18:04:00.414594",
+  "name": "Bernhard Peters",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1372164113.jpg?lm=1",
+  "dob": "05.04.1960 (65)",
+  "age": 65,
+  "birthplace": "Rheine",
+  "nationality": "Deutschland",
+  "current_role": "Berater",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2022",
+      "role": "Berater",
+      "period": "22/23 (01.01.2023) - -"
+    },
+    {
+      "club": "St. Louis CITY",
+      "club_url": "https://www.transfermarkt.de/st-louis-city-sc/startseite/verein/82686/saison_id/2020",
+      "role": "Berater",
+      "period": "20/21 (31.08.2020) - 25/26 (25.08.2025)"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2014",
+      "role": "Sportdirektor",
+      "period": "14/15 (01.08.2014) - 18/19 (15.10.2018)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2014",
+      "role": "Berater",
+      "period": "14/15 (01.08.2014) - 14/15 (31.12.2014)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2006",
+      "role": "Nachwuchskoordinator",
+      "period": "06/07 (15.10.2006) - 14/15 (31.07.2014)"
+    }
+  ],
+  "coach_id": "3409",
+  "_cached_at": "2026-02-12T18:04:00.426636",
+  "_preloaded_at": "2026-02-12T18:04:00.427381",
+  "_coach_name": "Bernhard Peters"
+}

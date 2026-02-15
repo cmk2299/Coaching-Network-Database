@@ -1,0 +1,51 @@
+{
+  "url": "https://www.transfermarkt.de/angelo-daut/profil/trainer/4047",
+  "scraped_at": "2026-02-12T17:58:15.071149",
+  "name": "Angelo Daut",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/4047-1770471034.jpg?lm=1",
+  "dob": "19.02.1981 (44)",
+  "age": 44,
+  "birthplace": "Beckum",
+  "nationality": "Deutschland",
+  "license": "B+-Lizenz",
+  "agent": "ohne Berater",
+  "current_role": "Nachwuchs-Chefscout",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2022",
+      "role": "Nachwuchs-Chefscout",
+      "period": "22/23 (01.10.2022) - -"
+    },
+    {
+      "club": "Rot Weiss Ahlen",
+      "club_url": "https://www.transfermarkt.de/rot-weiss-ahlen/startseite/verein/50/saison_id/2018",
+      "role": "Fußballabteilungsleiter",
+      "period": "18/19 (05.07.2018) - 18/19 (31.03.2019)"
+    },
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2013",
+      "role": "Chefscout",
+      "period": "13/14 (01.07.2013) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "VfL Bochum U19",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u19/startseite/verein/3862/saison_id/2012",
+      "role": "Co-Trainer",
+      "period": "12/13 (01.07.2012) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Bielefeld Jgd.",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-jugend/startseite/verein/11954/saison_id/2007",
+      "role": "Trainer",
+      "period": "07/08 (01.02.2008) - 09/10 (30.06.2010)"
+    }
+  ],
+  "coach_id": "4047",
+  "_cached_at": "2026-02-12T17:58:15.082889",
+  "_preloaded_at": "2026-02-12T17:58:15.083452",
+  "_coach_name": "Angelo Daut"
+}

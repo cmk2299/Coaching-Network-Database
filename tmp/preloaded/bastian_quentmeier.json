@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/bastian-quentmeier/profil/trainer/110672",
+  "scraped_at": "2026-02-12T18:01:34.414472",
+  "name": "Bastian Quentmeier",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "05.01.1985 (41)",
+  "age": 41,
+  "nationality": "Deutschland",
+  "current_role": "Leiter der Scouting-Abteilung",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "21/22 (01.08.2021) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2015",
+      "role": "Scout",
+      "period": "15/16 (01.03.2016) - 21/22 (31.07.2021)"
+    }
+  ],
+  "coach_id": "110672",
+  "_cached_at": "2026-02-12T18:01:34.424716",
+  "_preloaded_at": "2026-02-12T18:01:34.425328",
+  "_coach_name": "Bastian Quentmeier"
+}

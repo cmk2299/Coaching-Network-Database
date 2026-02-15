@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/ruwen-faller/profil/trainer/18363",
+  "scraped_at": "2026-02-12T23:21:06.648962",
+  "name": "Ruwen Faller",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/18363-1406655442.jpg?lm=1",
+  "dob": "22.07.1980 (45)",
+  "age": 45,
+  "birthplace": "Rheinfelden",
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (01.12.2018) - -"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2010",
+      "role": "Athletiktrainer",
+      "period": "10/11 (21.03.2011) - 18/19 (30.11.2018)"
+    },
+    {
+      "club": "Sonnenhof-Gr.",
+      "club_url": "https://www.transfermarkt.de/sg-sonnenhof-grossaspach/startseite/verein/2589/saison_id/2009",
+      "role": "Athletiktrainer",
+      "period": "09/10 (01.11.2009) - 10/11 (20.03.2011)"
+    }
+  ],
+  "coach_id": "18363",
+  "_cached_at": "2026-02-12T23:21:06.678614",
+  "_preloaded_at": "2026-02-12T23:21:06.681285",
+  "_coach_name": "Ruwen Faller"
+}

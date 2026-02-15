@@ -1,0 +1,27 @@
+{
+  "url": "https://www.transfermarkt.de/sebastian-rudy/profil/trainer/131474",
+  "scraped_at": "2026-02-12T23:25:35.013695",
+  "name": "Sebastian Rudy",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "28.02.1990 (35)",
+  "age": 35,
+  "birthplace": "Villingen-Schwenningen",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "license": "B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2024",
+      "role": "Scout",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2026"
+    }
+  ],
+  "coach_id": "131474",
+  "_cached_at": "2026-02-12T23:25:35.024202",
+  "_preloaded_at": "2026-02-12T23:25:35.024645",
+  "_coach_name": "Sebastian Rudy"
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/sven-mahn/profil/trainer/148118",
+  "scraped_at": "2026-02-13T00:01:36.468550",
+  "name": "Sven Mahn",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Busfahrer",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2025",
+      "role": "Busfahrer",
+      "period": "25/26 (01.07.2025) - -"
+    }
+  ],
+  "coach_id": "148118",
+  "_cached_at": "2026-02-13T00:01:36.499585",
+  "_preloaded_at": "2026-02-13T00:01:36.500944",
+  "_coach_name": "Sven Mahn"
+}

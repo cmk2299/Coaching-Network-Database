@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/markus-hausweiler/profil/trainer/8224",
+  "scraped_at": "2026-02-12T19:09:05.052151",
+  "name": "Markus Hausweiler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.04.1976 (49)",
+  "age": 49,
+  "birthplace": "Neuss",
+  "nationality": "Deutschland",
+  "current_role": "Koordinator Nachwuchsscouting",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2016",
+      "role": "Koordinator Nachwuchsscouting",
+      "period": "16/17 (01.07.2016) - -"
+    }
+  ],
+  "coach_id": "8224",
+  "_cached_at": "2026-02-12T19:09:05.062420",
+  "_preloaded_at": "2026-02-12T19:09:05.063025",
+  "_coach_name": "Markus Hausweiler"
+}

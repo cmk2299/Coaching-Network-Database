@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/alexander-schur/profil/trainer/4806",
+  "scraped_at": "2026-02-12T17:54:17.666809",
+  "name": "Alexander Schur",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1387713841.jpg?lm=1",
+  "dob": "23.07.1971 (54)",
+  "age": 54,
+  "birthplace": "Frankfurt am Main",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Marketingmitarbeiter",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2018",
+      "role": "Marketingmitarbeiter",
+      "period": "18/19 (01.08.2018) - -"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 17/18 (12.02.2018)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2015",
+      "role": "Nachwuchs-Cheftrainer",
+      "period": "15/16 (01.07.2015) - 17/18 (12.02.2018)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 - 15/16"
+    },
+    {
+      "club": "E. Frankfurt II",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-ii/startseite/verein/177/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2010",
+      "role": "Trainer",
+      "period": "10/11 (02.01.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2009",
+      "role": "Trainer",
+      "period": "09/10 (01.07.2009) - 10/11 (01.01.2011)"
+    },
+    {
+      "club": "E. Frankfurt II",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-ii/startseite/verein/177/saison_id/2007",
+      "role": "Co-Trainer",
+      "period": "07/08 (13.12.2007) - 08/09 (30.06.2009)"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2007",
+      "role": "Co-Trainer",
+      "period": "07/08 (01.07.2007) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "4806",
+  "_cached_at": "2026-02-12T17:54:17.679695",
+  "_preloaded_at": "2026-02-12T17:54:17.680306",
+  "_coach_name": "Alexander Schur"
+}

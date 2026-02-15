@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/gerhard-hoffmann/profil/trainer/25324",
+  "scraped_at": "2026-02-12T18:37:36.539877",
+  "name": "Gerhard Hoffmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_25324_27_2012_1.jpg?lm=1",
+  "dob": "19.04.1961 (64)",
+  "age": 64,
+  "birthplace": "Ottobeuren",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/1999",
+      "role": "Physiotherapeut",
+      "period": "99/00 (01.07.1999) - -"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/1992",
+      "role": "Physiotherapeut",
+      "period": "92/93 (01.07.1992) - 98/99 (30.06.1999)"
+    }
+  ],
+  "coach_id": "25324",
+  "_cached_at": "2026-02-12T18:37:36.550563",
+  "_preloaded_at": "2026-02-12T18:37:36.551056",
+  "_coach_name": "Gerhard Hoffmann"
+}

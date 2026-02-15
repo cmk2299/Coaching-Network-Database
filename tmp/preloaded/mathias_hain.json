@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/mathias-hain/profil/trainer/19273",
+  "scraped_at": "2026-02-12T19:12:46.775029",
+  "name": "Mathias Hain",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/19273-1438091470.jpg?lm=1",
+  "dob": "31.12.1972 (53)",
+  "age": 53,
+  "birthplace": "Goslar",
+  "nationality": "Deutschland",
+  "current_role": "Scout Torwartbereich",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2023",
+      "role": "Scout Torwartbereich",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2011",
+      "role": "Torwarttrainer",
+      "period": "11/12 (01.07.2011) - 21/22 (30.06.2022)"
+    }
+  ],
+  "coach_id": "19273",
+  "_cached_at": "2026-02-12T19:12:46.786496",
+  "_preloaded_at": "2026-02-12T19:12:46.787123",
+  "_coach_name": "Mathias Hain"
+}

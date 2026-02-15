@@ -1,0 +1,26 @@
+{
+  "url": "https://www.transfermarkt.de/roman-weidenfeller/profil/trainer/62550",
+  "scraped_at": "2026-02-12T23:19:56.781128",
+  "name": "Roman Weidenfeller",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "06.08.1980 (45)",
+  "age": 45,
+  "birthplace": "Diez",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2028",
+  "current_role": "Klubrepräsentant",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2018",
+      "role": "Klubrepräsentant",
+      "period": "18/19 (01.07.2018) - vsl. 30.06.2028"
+    }
+  ],
+  "coach_id": "62550",
+  "_cached_at": "2026-02-12T23:19:56.791514",
+  "_preloaded_at": "2026-02-12T23:19:56.791939",
+  "_coach_name": "Roman Weidenfeller"
+}

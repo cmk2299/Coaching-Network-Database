@@ -1,0 +1,34 @@
+{
+  "url": "https://www.transfermarkt.de/david-zibung/profil/trainer/114600",
+  "scraped_at": "2026-02-12T18:15:43.569801",
+  "name": "David Zibung",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/114600-1720090337.jpg?lm=1",
+  "dob": "10.01.1984 (42)",
+  "age": 42,
+  "birthplace": "Hergiswil",
+  "nationality": "Schweiz",
+  "contract_until": "30.06.2026",
+  "agent": "Signature - ISCM AG",
+  "agent_url": "https://www.transfermarkt.de/signature-iscm-ag/beraterfirma/berater/2377",
+  "current_role": "Sportkoordinator",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2024",
+      "role": "Sportkoordinator",
+      "period": "24/25 (04.07.2024) - vsl. 30.06.2026"
+    },
+    {
+      "club": "FC Luzern",
+      "club_url": "https://www.transfermarkt.de/fc-luzern/startseite/verein/434/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.01.2022) - 24/25 (03.07.2024)"
+    }
+  ],
+  "coach_id": "114600",
+  "_cached_at": "2026-02-12T18:15:43.580804",
+  "_preloaded_at": "2026-02-12T18:15:43.581378",
+  "_coach_name": "David Zibung"
+}

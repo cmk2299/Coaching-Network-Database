@@ -1,0 +1,60 @@
+{
+  "url": "https://www.transfermarkt.de/patrick-kux/profil/trainer/84967",
+  "scraped_at": "2026-02-12T19:29:08.739611",
+  "name": "Patrick Kux",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "03.04.1986 (39)",
+  "age": 39,
+  "nationality": "Deutschland",
+  "current_role": "Medizinischer Leiter Physiotherapie",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2023",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2017",
+      "role": "Physiotherapeut",
+      "period": "17/18 (16.12.2017) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2017",
+      "role": "Osteopath",
+      "period": "17/18 (16.12.2017) - -"
+    },
+    {
+      "club": "M'gladbach II",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-ii/startseite/verein/1006/saison_id/2012",
+      "role": "Physiotherapeut",
+      "period": "12/13 (01.07.2012) - 17/18 (15.12.2017)"
+    },
+    {
+      "club": "M'gladbach U19",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/2012",
+      "role": "Physiotherapeut",
+      "period": "12/13 (01.07.2012) - 17/18 (15.12.2017)"
+    },
+    {
+      "club": "M'gladbach U17",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u17/startseite/verein/21056/saison_id/2012",
+      "role": "Physiotherapeut",
+      "period": "12/13 (01.07.2012) - 17/18 (15.12.2017)"
+    },
+    {
+      "club": "M'gladbach Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-jugend/startseite/verein/11845/saison_id/2012",
+      "role": "Physiotherapeut",
+      "period": "12/13 (01.07.2012) - 17/18 (15.12.2017)"
+    }
+  ],
+  "coach_id": "84967",
+  "_cached_at": "2026-02-12T19:29:08.750737",
+  "_preloaded_at": "2026-02-12T19:29:08.751379",
+  "_coach_name": "Patrick Kux"
+}

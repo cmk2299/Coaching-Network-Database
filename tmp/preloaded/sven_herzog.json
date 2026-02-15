@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/sven-herzog/profil/trainer/100777",
+  "scraped_at": "2026-02-13T00:00:57.757053",
+  "name": "Sven Herzog",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "11.12.1976 (49)",
+  "age": 49,
+  "nationality": "Deutschland",
+  "current_role": "Performance Manager",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2019",
+      "role": "Performance Manager",
+      "period": "19/20 (01.07.2019) - -"
+    }
+  ],
+  "coach_id": "100777",
+  "_cached_at": "2026-02-13T00:00:57.789258",
+  "_preloaded_at": "2026-02-13T00:00:57.790459",
+  "_coach_name": "Sven Herzog"
+}

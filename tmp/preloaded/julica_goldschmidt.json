@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/julica-goldschmidt/profil/trainer/119862",
+  "scraped_at": "2026-02-12T18:52:21.747541",
+  "name": "Julica Goldschmidt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "20.07.1981 (44)",
+  "age": 44,
+  "birthplace": "Freiburg im Breisgau",
+  "nationality": "Deutschland",
+  "current_role": "Stadionsprecherin",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2023",
+      "role": "Stadionsprecherin",
+      "period": "23/24 (06.08.2023) - -"
+    }
+  ],
+  "coach_id": "119862",
+  "_cached_at": "2026-02-12T18:52:21.757617",
+  "_preloaded_at": "2026-02-12T18:52:21.759042",
+  "_coach_name": "Julica Goldschmidt"
+}

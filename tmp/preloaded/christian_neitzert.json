@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/christian-neitzert/profil/trainer/14720",
+  "scraped_at": "2026-02-12T18:07:34.628372",
+  "name": "Christian Neitzert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/14720-1665084884.jpg?lm=1",
+  "dob": "13.08.1984 (41)",
+  "age": 41,
+  "birthplace": "Wittlich",
+  "nationality": "Deutschland",
+  "current_role": "Rehatrainer",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2014",
+      "role": "Rehatrainer",
+      "period": "14/15 (01.07.2014) - -"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2010",
+      "role": "Physiotherapeut",
+      "period": "10/11 (01.08.2010) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2010",
+      "role": "Physiotherapeut",
+      "period": "10/11 (01.08.2010) - 13/14 (30.06.2014)"
+    }
+  ],
+  "coach_id": "14720",
+  "_cached_at": "2026-02-12T18:07:34.639092",
+  "_preloaded_at": "2026-02-12T18:07:34.639724",
+  "_coach_name": "Christian Neitzert"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/paulo-sergio/profil/trainer/142510",
+  "scraped_at": "2026-02-12T19:30:09.761394",
+  "name": "Paulo Sérgio",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "02.06.1969 (56)",
+  "age": 56,
+  "birthplace": "São Paulo",
+  "nationality": "Brasilien",
+  "current_role": "Klubrepräsentantund weitere Tätigkeiten",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2023",
+      "role": "Klubrepräsentant",
+      "period": "23/24 (14.02.2024) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2019",
+      "role": "Klubrepräsentant",
+      "period": "19/20 (01.07.2019) - -"
+    }
+  ],
+  "coach_id": "142510",
+  "_cached_at": "2026-02-12T19:30:09.772002",
+  "_preloaded_at": "2026-02-12T19:30:09.772666",
+  "_coach_name": "Paulo Sérgio"
+}

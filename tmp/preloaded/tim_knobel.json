@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/tim-knobel/profil/trainer/143457",
+  "scraped_at": "2026-02-13T00:07:22.047204",
+  "name": "Tim Knobel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "30.07.1992 (33)",
+  "age": 33,
+  "nationality": "Deutschland",
+  "current_role": "Spielanalyst",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025",
+      "role": "Spielanalyst",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2023",
+      "role": "Spielanalyst",
+      "period": "23/24 (01.09.2023) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Karlsruhe Jgd.",
+      "club_url": "https://www.transfermarkt.de/karlsruher-sc-jugend/startseite/verein/18065/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (01.07.2020) - 21/22 (30.06.2022)"
+    }
+  ],
+  "coach_id": "143457",
+  "_cached_at": "2026-02-13T00:07:22.063277",
+  "_preloaded_at": "2026-02-13T00:07:22.063956",
+  "_coach_name": "Tim Knobel"
+}

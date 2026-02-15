@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/leon-forcher/profil/trainer/145303",
+  "scraped_at": "2026-02-12T18:59:43.610492",
+  "name": "Leon Forcher",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "18.08.1996 (29)",
+  "age": 29,
+  "nationality": "Deutschland",
+  "current_role": "Sportwissenschaftler",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2019",
+      "role": "Sportwissenschaftler",
+      "period": "19/20 (01.07.2019) - -"
+    }
+  ],
+  "coach_id": "145303",
+  "_cached_at": "2026-02-12T18:59:43.620778",
+  "_preloaded_at": "2026-02-12T18:59:43.621387",
+  "_coach_name": "Leon Forcher"
+}

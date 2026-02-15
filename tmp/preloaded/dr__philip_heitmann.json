@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/dr-philip-heitmann/profil/trainer/6978",
+  "scraped_at": "2026-02-12T18:25:18.921332",
+  "name": "Dr. Philip Heitmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6978-1638054260.jpg?lm=1",
+  "dob": "30.12.1969 (56)",
+  "age": 56,
+  "nationality": "Deutschland",
+  "license": "Fachübungsleiter",
+  "current_role": "Vereinsarzt",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2025",
+      "role": "Vereinsarzt",
+      "period": "25/26 (05.07.2025) - -"
+    },
+    {
+      "club": "SVA Delmenhorst",
+      "club_url": "https://www.transfermarkt.de/sv-atlas-delmenhorst/startseite/verein/29988/saison_id/2020",
+      "role": "Vereinsarzt",
+      "period": "20/21 (20.08.2020) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2014",
+      "role": "Vereinsarzt",
+      "period": "14/15 (01.07.2014) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "6978",
+  "_cached_at": "2026-02-12T18:25:18.932099",
+  "_preloaded_at": "2026-02-12T18:25:18.932717",
+  "_coach_name": "Dr. Philip Heitmann"
+}

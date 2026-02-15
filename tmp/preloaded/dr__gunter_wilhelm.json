@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dr-gunter-wilhelm/profil/trainer/58362",
+  "scraped_at": "2026-02-12T18:22:10.444009",
+  "name": "Dr. Gunter Wilhelm",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/58362-1515621840.JPG?lm=1",
+  "dob": "09.02.1965 (61)",
+  "age": 61,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.07.2012) - -"
+    }
+  ],
+  "coach_id": "58362",
+  "_cached_at": "2026-02-12T18:22:10.453867",
+  "_preloaded_at": "2026-02-12T18:22:10.454486",
+  "_coach_name": "Dr. Gunter Wilhelm"
+}

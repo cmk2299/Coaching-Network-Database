@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/rafael-francisco/profil/trainer/5146",
+  "scraped_at": "2026-02-12T23:15:59.577391",
+  "name": "Rafael Francisco",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "05.07.1974 (51)",
+  "age": 51,
+  "birthplace": "Hanau",
+  "nationality": "Spanien",
+  "current_role": "Integrationsbeauftragter",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Integrationsbeauftragter",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2012",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "12/13 (01.07.2012) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "E. Frankfurt II",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-ii/startseite/verein/177/saison_id/2009",
+      "role": "Betreuer",
+      "period": "09/10 (01.07.2009) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "5146",
+  "_cached_at": "2026-02-12T23:15:59.588389",
+  "_preloaded_at": "2026-02-12T23:15:59.588940",
+  "_coach_name": "Rafael Francisco"
+}

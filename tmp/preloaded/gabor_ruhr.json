@@ -1,0 +1,56 @@
+{
+  "url": "https://www.transfermarkt.de/gabor-ruhr/profil/trainer/40979",
+  "scraped_at": "2026-02-12T18:37:21.387111",
+  "name": "Gabor Ruhr",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "27.10.1988 (37)",
+  "age": 37,
+  "birthplace": "Lübeck",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Chefscout",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2024",
+      "role": "Chefscout",
+      "period": "24/25 (09.04.2025) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2023",
+      "role": "Scout",
+      "period": "23/24 (01.02.2024) - 24/25 (08.04.2025)"
+    },
+    {
+      "club": "Hertha BSC",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc/startseite/verein/44/saison_id/2021",
+      "role": "Chefanalytiker",
+      "period": "21/22 (01.07.2021) - 23/24 (31.01.2024)"
+    },
+    {
+      "club": "Hertha BSC",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc/startseite/verein/44/saison_id/2021",
+      "role": "Koordinator Sport-Technologien",
+      "period": "21/22 (01.07.2021) - 23/24 (31.01.2024)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2018",
+      "role": "Spielanalyst",
+      "period": "18/19 (01.01.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2015",
+      "role": "Spielanalyst",
+      "period": "15/16 (01.07.2015) - 18/19 (31.12.2018)"
+    }
+  ],
+  "coach_id": "40979",
+  "_cached_at": "2026-02-12T18:37:21.398728",
+  "_preloaded_at": "2026-02-12T18:37:21.399307",
+  "_coach_name": "Gabor Ruhr"
+}

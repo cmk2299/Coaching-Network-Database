@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/bernd-geske/profil/trainer/110460",
+  "scraped_at": "2026-02-12T18:03:22.783160",
+  "name": "Bernd Geske",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "1965 (~ 61)",
+  "birthplace": "Brühl",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2005",
+      "role": "Aufsichtsratsmitglied",
+      "period": "05/06 (22.11.2005) - -"
+    }
+  ],
+  "coach_id": "110460",
+  "_cached_at": "2026-02-12T18:03:22.793290",
+  "_preloaded_at": "2026-02-12T18:03:22.793928",
+  "_coach_name": "Bernd Geske"
+}

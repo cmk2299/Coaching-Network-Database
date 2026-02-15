@@ -1,0 +1,60 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-henning/profil/trainer/98790",
+  "scraped_at": "2026-02-13T00:04:19.390060",
+  "name": "Thomas Henning",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.04.1985 (40)",
+  "age": 40,
+  "nationality": "Deutschland",
+  "current_role": "Leiter der Scouting-Abteilung",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2023",
+      "role": "Scout",
+      "period": "23/24 (01.07.2023) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "SC Paderborn",
+      "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2020",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "20/21 (01.07.2020) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2014",
+      "role": "Spielanalyst",
+      "period": "14/15 (01.09.2014) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2014",
+      "role": "Videoanalyst",
+      "period": "14/15 (01.09.2014) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2013",
+      "role": "Scout",
+      "period": "13/14 (01.10.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2013",
+      "role": "Videoanalyst",
+      "period": "13/14 (01.10.2013) - 13/14 (30.06.2014)"
+    }
+  ],
+  "coach_id": "98790",
+  "_cached_at": "2026-02-13T00:04:19.411282",
+  "_preloaded_at": "2026-02-13T00:04:19.412186",
+  "_coach_name": "Thomas Henning"
+}

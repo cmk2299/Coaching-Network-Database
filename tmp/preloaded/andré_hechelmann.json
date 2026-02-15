@@ -1,0 +1,79 @@
+{
+  "url": "https://www.transfermarkt.de/andre-hechelmann/profil/trainer/47441",
+  "scraped_at": "2026-02-12T17:57:29.542594",
+  "name": "André Hechelmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/47441-1695040932.jpg?lm=1",
+  "dob": "27.08.1984 (41)",
+  "age": 41,
+  "birthplace": "Würzburg",
+  "nationality": "Deutschland",
+  "current_role": "Chefscout",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2025",
+      "role": "Kaderplaner",
+      "period": "25/26 (01.03.2026) - -"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2025",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "25/26 (01.03.2026) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+      "role": "Chefscout",
+      "period": "24/25 (01.12.2024) - 25/26 (28.02.2026)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2023",
+      "role": "Technischer Direktor",
+      "period": "23/24 (04.01.2024) - 23/24 (05.03.2024)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2022",
+      "role": "Sportdirektor",
+      "period": "22/23 (02.06.2023) - 23/24 (03.01.2024)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2021",
+      "role": "Chefscout",
+      "period": "21/22 (01.07.2021) - 22/23 (01.06.2023)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2019",
+      "role": "Chefscout",
+      "period": "19/20 (01.09.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2017",
+      "role": "Assistent der Geschäftsführung",
+      "period": "17/18 (01.01.2018) - 20/21 (31.12.2020)"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2016",
+      "role": "Teammanager",
+      "period": "16/17 (01.07.2016) - 17/18 (31.12.2017)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2010",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "10/11 (01.01.2011) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "47441",
+  "_cached_at": "2026-02-12T17:57:29.556730",
+  "_preloaded_at": "2026-02-12T17:57:29.557537",
+  "_coach_name": "André Hechelmann"
+}

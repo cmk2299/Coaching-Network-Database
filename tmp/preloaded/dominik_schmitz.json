@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/dominik-schmitz/profil/trainer/21892",
+  "scraped_at": "2026-02-12T18:19:39.920306",
+  "name": "Dominik Schmitz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "14.11.1978 (47)",
+  "age": 47,
+  "nationality": "Deutschland",
+  "current_role": "Direktor Medien und Kommunikation",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2023",
+      "role": "Direktor Medien und Kommunikation",
+      "period": "23/24 (01.01.2024) - -"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2007",
+      "role": "Pressesprecher",
+      "period": "07/08 (01.08.2007) - 23/24 (31.12.2023)"
+    }
+  ],
+  "coach_id": "21892",
+  "_cached_at": "2026-02-12T18:19:39.930176",
+  "_preloaded_at": "2026-02-12T18:19:39.930680",
+  "_coach_name": "Dominik Schmitz"
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/martin-seiler/profil/trainer/96598",
+  "scraped_at": "2026-02-12T19:11:30.402816",
+  "name": "Martin Seiler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/96598-1665086065.jpg?lm=1",
+  "dob": "03.04.1989 (36)",
+  "age": 36,
+  "birthplace": "Heidelberg",
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (01.11.2021) - -"
+    },
+    {
+      "club": "Hoffenheim U19",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u19/startseite/verein/8925/saison_id/2020",
+      "role": "Athletiktrainer",
+      "period": "20/21 (01.07.2020) - 21/22 (31.12.2021)"
+    },
+    {
+      "club": "Hoffenheim U17",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u17/startseite/verein/21082/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2013",
+      "role": "Athletiktrainer",
+      "period": "13/14 (01.07.2013) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "96598",
+  "_cached_at": "2026-02-12T19:11:30.413882",
+  "_preloaded_at": "2026-02-12T19:11:30.414485",
+  "_coach_name": "Martin Seiler"
+}

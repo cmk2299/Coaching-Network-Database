@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/ralf-eckert/profil/trainer/13704",
+  "scraped_at": "2026-02-12T23:16:38.464345",
+  "name": "Ralf Eckert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "06.05.1973 (52)",
+  "age": 52,
+  "nationality": "Deutschland",
+  "current_role": "Mitarbeiter des Nachwuchsleistungszentrums",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2021",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Freiburger FC",
+      "club_url": "https://www.transfermarkt.de/freiburger-fc/startseite/verein/745/saison_id/2009",
+      "role": "Trainer",
+      "period": "09/10 (01.07.2009) - 19/20 (28.09.2019)"
+    }
+  ],
+  "coach_id": "13704",
+  "_cached_at": "2026-02-12T23:16:38.474825",
+  "_preloaded_at": "2026-02-12T23:16:38.475383",
+  "_coach_name": "Ralf Eckert"
+}

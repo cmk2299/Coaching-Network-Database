@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/dr-kathrin-stelzer/profil/trainer/50537",
+  "scraped_at": "2026-02-12T18:23:49.250184",
+  "name": "Dr. Kathrin Stelzer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsärztin",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2016",
+      "role": "Vereinsärztin",
+      "period": "16/17 (01.07.2016) - -"
+    }
+  ],
+  "coach_id": "50537",
+  "_cached_at": "2026-02-12T18:23:49.261641",
+  "_preloaded_at": "2026-02-12T18:23:49.262254",
+  "_coach_name": "Dr. Kathrin Stelzer"
+}

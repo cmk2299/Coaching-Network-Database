@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/christian-heidel/profil/trainer/6055",
+  "scraped_at": "2026-02-12T18:07:10.680394",
+  "name": "Christian Heidel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6055-1476695391.jpg?lm=1",
+  "dob": "02.06.1963 (62)",
+  "age": 62,
+  "birthplace": "Mainz",
+  "nationality": "Deutschland",
+  "current_role": "Vorstand Sport",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2020",
+      "role": "Vorstand Sport",
+      "period": "20/21 (28.12.2020) - -"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2015",
+      "role": "Vorstand Sport",
+      "period": "15/16 (15.05.2016) - 18/19 (04.03.2019)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/1991",
+      "role": "Vorstand Sport",
+      "period": "91/92 (01.04.1992) - 15/16 (14.05.2016)"
+    }
+  ],
+  "coach_id": "6055",
+  "_cached_at": "2026-02-12T18:07:10.692280",
+  "_preloaded_at": "2026-02-12T18:07:10.692899",
+  "_coach_name": "Christian Heidel"
+}

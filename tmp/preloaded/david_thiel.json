@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/david-thiel/profil/trainer/11332",
+  "scraped_at": "2026-02-12T18:15:28.031403",
+  "name": "David Thiel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/11332-1611093172.png?lm=1",
+  "dob": "28.07.1984 (41)",
+  "age": 41,
+  "birthplace": "Leverkusen",
+  "nationality": "Deutschland",
+  "license": "Torwarttrainer-Lizenz",
+  "current_role": "Torwarttrainer",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2012",
+      "role": "Torwarttrainer",
+      "period": "12/13 (01.07.2012) - -"
+    },
+    {
+      "club": "Leverkusen U19",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u19/startseite/verein/4713/saison_id/2010",
+      "role": "Torwarttrainer",
+      "period": "10/11 (01.07.2010) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2010",
+      "role": "Scout",
+      "period": "10/11 (01.07.2010) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "11332",
+  "_cached_at": "2026-02-12T18:15:28.043501",
+  "_preloaded_at": "2026-02-12T18:15:28.044113",
+  "_coach_name": "David Thiel"
+}

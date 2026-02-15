@@ -1,0 +1,54 @@
+{
+  "url": "https://www.transfermarkt.de/sebastian-stein/profil/trainer/125051",
+  "scraped_at": "2026-02-12T23:25:57.970028",
+  "name": "Sebastian Stein",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.03.1983 (42)",
+  "age": 42,
+  "nationality": "Deutschland",
+  "current_role": "Leiter der Scouting-Abteilung",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2022",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "22/23 (01.01.2023) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Koordinator Nachwuchsscouting",
+      "period": "21/22 (01.07.2021) - 22/23 (31.12.2022)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2017",
+      "role": "Koordinator Nachwuchsscouting",
+      "period": "17/18 (01.01.2018) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.10.2016) - 17/18 (31.12.2017)"
+    },
+    {
+      "club": "Dortmund Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896/saison_id/2013",
+      "role": "Videoanalyst",
+      "period": "13/14 (01.07.2013) - 16/17 (30.09.2016)"
+    },
+    {
+      "club": "Dortmund Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896/saison_id/2013",
+      "role": "Scout",
+      "period": "13/14 (01.07.2013) - 16/17 (30.09.2016)"
+    }
+  ],
+  "coach_id": "125051",
+  "_cached_at": "2026-02-12T23:25:57.981431",
+  "_preloaded_at": "2026-02-12T23:25:57.981948",
+  "_coach_name": "Sebastian Stein"
+}

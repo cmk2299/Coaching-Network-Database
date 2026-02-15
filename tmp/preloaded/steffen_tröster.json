@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/steffen-troster/profil/trainer/25270",
+  "scraped_at": "2026-02-12T23:30:47.731157",
+  "name": "Steffen Tröster",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/25270-1406742547.jpg?lm=1",
+  "dob": "14.12.1982 (43)",
+  "age": 43,
+  "birthplace": "Wertheim",
+  "nationality": "Deutschland",
+  "current_role": "Medizinischer Leiter Physiotherapie",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2025",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2012",
+      "role": "Physiotherapeut",
+      "period": "12/13 (01.07.2012) - 24/25 (11.06.2025)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2012",
+      "role": "Osteopath",
+      "period": "12/13 (01.07.2012) - 24/25 (11.06.2025)"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2010",
+      "role": "Physiotherapeut",
+      "period": "10/11 (01.07.2010) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "25270",
+  "_cached_at": "2026-02-12T23:30:47.766856",
+  "_preloaded_at": "2026-02-12T23:30:47.768206",
+  "_coach_name": "Steffen Tröster"
+}

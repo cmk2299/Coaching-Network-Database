@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/johannes-mosmang/profil/trainer/68202",
+  "scraped_at": "2026-02-12T18:48:56.712956",
+  "name": "Johannes Mösmang",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "11.05.1991 (34)",
+  "age": 34,
+  "nationality": "Deutschland",
+  "current_role": "Integrationsbeauftragter",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2016",
+      "role": "Integrationsbeauftragter",
+      "period": "16/17 (01.07.2016) - -"
+    }
+  ],
+  "coach_id": "68202",
+  "_cached_at": "2026-02-12T18:48:56.722674",
+  "_preloaded_at": "2026-02-12T18:48:56.723933",
+  "_coach_name": "Johannes Mösmang"
+}

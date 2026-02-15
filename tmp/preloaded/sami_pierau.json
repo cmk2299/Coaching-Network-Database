@@ -1,0 +1,90 @@
+{
+  "url": "https://www.transfermarkt.de/sami-pierau/profil/trainer/88727",
+  "scraped_at": "2026-02-12T23:21:59.750760",
+  "name": "Sami Pierau",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/88727-1755065800.jpg?lm=1",
+  "dob": "14.08.1995 (30)",
+  "age": 30,
+  "nationality": "Deutschland",
+  "current_role": "Videoanalyst",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2022",
+      "role": "Videoanalyst",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2022",
+      "role": "Spielanalyst",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2019",
+      "role": "Videoanalyst",
+      "period": "19/20 (01.01.2020) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2019",
+      "role": "Spielanalyst",
+      "period": "19/20 (01.01.2020) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2019",
+      "role": "Spielanalyst",
+      "period": "19/20 (01.09.2019) - 19/20 (31.01.2020)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2019",
+      "role": "Videoanalyst",
+      "period": "19/20 (01.09.2019) - 19/20 (31.01.2020)"
+    },
+    {
+      "club": "BW Königsdorf",
+      "club_url": "https://www.transfermarkt.de/tus-bw-konigsdorf/startseite/verein/40330/saison_id/2019",
+      "role": "Spielanalyst",
+      "period": "19/20 (01.08.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "BW Königsdorf",
+      "club_url": "https://www.transfermarkt.de/tus-bw-konigsdorf/startseite/verein/40330/saison_id/2019",
+      "role": "Videoanalyst",
+      "period": "19/20 (01.08.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Königsdorf U19",
+      "club_url": "https://www.transfermarkt.de/tus-bw-konigsdorf-u19/startseite/verein/45171/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.08.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "BW Königsdorf",
+      "club_url": "https://www.transfermarkt.de/tus-bw-konigsdorf/startseite/verein/40330/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (01.02.2019) - 19/20 (31.07.2019)"
+    },
+    {
+      "club": "Königsdorf U19",
+      "club_url": "https://www.transfermarkt.de/tus-bw-konigsdorf-u19/startseite/verein/45171/saison_id/2018",
+      "role": "Spielanalyst",
+      "period": "18/19 (01.02.2019) - 19/20 (31.07.2019)"
+    },
+    {
+      "club": "Königsdorf U19",
+      "club_url": "https://www.transfermarkt.de/tus-bw-konigsdorf-u19/startseite/verein/45171/saison_id/2018",
+      "role": "Videoanalyst",
+      "period": "18/19 (01.02.2019) - 19/20 (31.07.2019)"
+    }
+  ],
+  "coach_id": "88727",
+  "_cached_at": "2026-02-12T23:21:59.785575",
+  "_preloaded_at": "2026-02-12T23:21:59.787358",
+  "_coach_name": "Sami Pierau"
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/maximilian-welzmuller/profil/trainer/113514",
+  "scraped_at": "2026-02-12T19:16:59.313463",
+  "name": "Maximilian Welzmüller",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "10.01.1990 (36)",
+  "age": 36,
+  "birthplace": "München",
+  "nationality": "Deutschland",
+  "current_role": "Co-Trainerund weitere Tätigkeiten",
+  "current_club": "B. München Jgd.",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936",
+  "career_history": [
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (01.01.2025) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "24/25 (01.08.2024) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2022",
+      "role": "Nachwuchsscout",
+      "period": "22/23 (01.07.2022) - 24/25 (31.07.2024)"
+    }
+  ],
+  "coach_id": "113514",
+  "_cached_at": "2026-02-12T19:16:59.324183",
+  "_preloaded_at": "2026-02-12T19:16:59.324736",
+  "_coach_name": "Maximilian Welzmüller"
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-rossl/profil/trainer/129528",
+  "scraped_at": "2026-02-12T17:56:51.035643",
+  "name": "Andreas Rössl",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "20.02.1988 (37)",
+  "age": 37,
+  "birthplace": "München",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Torwarttrainer",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+      "role": "Torwarttrainer",
+      "period": "24/25 (23.07.2024) - -"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2016",
+      "role": "Torwarttrainer",
+      "period": "16/17 (01.07.2016) - 24/25 (22.07.2024)"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2016",
+      "role": "Scout Torwartbereich",
+      "period": "16/17 (01.07.2016) - 24/25 (22.07.2024)"
+    }
+  ],
+  "coach_id": "129528",
+  "_cached_at": "2026-02-12T17:56:51.046470",
+  "_preloaded_at": "2026-02-12T17:56:51.047008",
+  "_coach_name": "Andreas Rössl"
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/maximilian-englert/profil/trainer/82274",
+  "scraped_at": "2026-02-12T19:15:58.794489",
+  "name": "Maximilian Englert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "05.08.1988 (37)",
+  "age": 37,
+  "birthplace": "Heidelberg",
+  "nationality": "Deutschland",
+  "current_role": "Chefscout",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2025",
+      "role": "Chefscout",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2017",
+      "role": "Scout",
+      "period": "17/18 (01.01.2018) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "FCA Walldorf",
+      "club_url": "https://www.transfermarkt.de/fc-astoria-walldorf/startseite/verein/1348/saison_id/2015",
+      "role": "Spielanalyst",
+      "period": "15/16 (01.08.2015) - 16/17 (31.07.2016)"
+    }
+  ],
+  "coach_id": "82274",
+  "_cached_at": "2026-02-12T19:15:58.804995",
+  "_preloaded_at": "2026-02-12T19:15:58.805555",
+  "_coach_name": "Maximilian Englert"
+}

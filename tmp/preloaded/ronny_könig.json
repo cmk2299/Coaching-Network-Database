@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/ronny-konig/profil/trainer/141532",
+  "scraped_at": "2026-02-12T23:20:19.757971",
+  "name": "Ronny König",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "02.06.1983 (42)",
+  "age": 42,
+  "birthplace": "Lichtenstein (Sachsen)",
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+      "role": "Nachwuchsscout",
+      "period": "24/25 (01.04.2025) - -"
+    }
+  ],
+  "coach_id": "141532",
+  "_cached_at": "2026-02-12T23:20:19.768652",
+  "_preloaded_at": "2026-02-12T23:20:19.769198",
+  "_coach_name": "Ronny König"
+}

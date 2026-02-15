@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/sven-westerschulze/profil/trainer/118596",
+  "scraped_at": "2026-02-13T00:01:59.461727",
+  "name": "Sven Westerschulze",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Pressesprecher",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2023",
+      "role": "Pressesprecher",
+      "period": "23/24 (01.07.2023) - -"
+    }
+  ],
+  "coach_id": "118596",
+  "_cached_at": "2026-02-13T00:01:59.479465",
+  "_preloaded_at": "2026-02-13T00:01:59.480337",
+  "_coach_name": "Sven Westerschulze"
+}

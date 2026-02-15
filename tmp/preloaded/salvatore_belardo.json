@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/salvatore-belardo/profil/trainer/6699",
+  "scraped_at": "2026-02-12T23:21:36.948055",
+  "name": "Salvatore Belardo",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6699-1723535625.jpg?lm=1",
+  "dob": "17.01.1958 (68)",
+  "age": 68,
+  "nationality": "Italien",
+  "current_role": "Zeugwart",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/1994",
+      "role": "Zeugwart",
+      "period": "94/95 (01.07.1994) - -"
+    }
+  ],
+  "coach_id": "6699",
+  "_cached_at": "2026-02-12T23:21:36.965085",
+  "_preloaded_at": "2026-02-12T23:21:36.966821",
+  "_coach_name": "Salvatore Belardo"
+}

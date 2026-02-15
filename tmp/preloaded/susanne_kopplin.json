@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/susanne-kopplin/profil/trainer/9184",
+  "scraped_at": "2026-02-13T00:00:34.504674",
+  "name": "Susanne Kopplin",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1378654187.jpg?lm=1",
+  "dob": "24.01.1963 (63)",
+  "age": 63,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "current_role": "Mannschaftsleiterin",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2016",
+      "role": "Mannschaftsleiterin",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "U. Berlin Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-jugend/startseite/verein/36841/saison_id/2015",
+      "role": "Betreuerin",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Union Berlin II",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-ii/startseite/verein/5303/saison_id/1995",
+      "role": "Betreuerin",
+      "period": "95/96 (01.07.1995) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "9184",
+  "_cached_at": "2026-02-13T00:00:34.540201",
+  "_preloaded_at": "2026-02-13T00:00:34.541752",
+  "_coach_name": "Susanne Kopplin"
+}

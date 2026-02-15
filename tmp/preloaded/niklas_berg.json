@@ -1,0 +1,46 @@
+{
+  "url": "https://www.transfermarkt.de/niklas-berg/profil/trainer/102163",
+  "scraped_at": "2026-02-12T19:23:40.597695",
+  "name": "Niklas Berg",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainerund weitere Tätigkeiten",
+  "current_club": "SC Freiburg U17",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg-u17/startseite/verein/21075",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2024",
+      "role": "Ernährungsberater",
+      "period": "24/25 (01.08.2024) - -"
+    },
+    {
+      "club": "SC Freiburg U17",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u17/startseite/verein/21075/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Freiburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-jugend/startseite/verein/18042/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Freiburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-jugend/startseite/verein/18042/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "SC Freiburg U19",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "102163",
+  "_cached_at": "2026-02-12T19:23:40.609599",
+  "_preloaded_at": "2026-02-12T19:23:40.610238",
+  "_coach_name": "Niklas Berg"
+}

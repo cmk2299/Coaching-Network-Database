@@ -1,0 +1,54 @@
+{
+  "url": "https://www.transfermarkt.de/mark-palmer/profil/trainer/18722",
+  "scraped_at": "2026-02-12T19:07:57.304942",
+  "name": "Mark Palmer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "20.10.1979 (46)",
+  "age": 46,
+  "nationality": "Neuseeland",
+  "current_role": "Rehatrainerund weitere Tätigkeiten",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2016",
+      "role": "Rehatrainer",
+      "period": "16/17 (01.01.2017) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2016",
+      "role": "Präventivtrainer",
+      "period": "16/17 (01.01.2017) - -"
+    },
+    {
+      "club": "Neuseeland",
+      "club_url": "https://www.transfermarkt.de/neuseeland/startseite/verein/9171/saison_id/2013",
+      "role": "Physiotherapeut",
+      "period": "13/14 (01.01.2014) - -"
+    },
+    {
+      "club": "Blackburn",
+      "club_url": "https://www.transfermarkt.de/blackburn-rovers/startseite/verein/164/saison_id/2010",
+      "role": "Physiotherapeut",
+      "period": "10/11 (01.08.2010) - 13/14 (31.08.2013)"
+    },
+    {
+      "club": "Sheffield Wed.",
+      "club_url": "https://www.transfermarkt.de/sheffield-wednesday/startseite/verein/1035/saison_id/2004",
+      "role": "Physiotherapeut",
+      "period": "04/05 (15.05.2005) - 10/11 (31.07.2010)"
+    },
+    {
+      "club": "Nottingham Jgd.",
+      "club_url": "https://www.transfermarkt.de/nottingham-forest-jugend/startseite/verein/53108/saison_id/2004",
+      "role": "Physiotherapeut",
+      "period": "04/05 (01.08.2004) - 04/05 (14.05.2005)"
+    }
+  ],
+  "coach_id": "18722",
+  "_cached_at": "2026-02-12T19:07:57.316134",
+  "_preloaded_at": "2026-02-12T19:07:57.316788",
+  "_coach_name": "Mark Palmer"
+}

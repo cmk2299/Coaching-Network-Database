@@ -1,0 +1,34 @@
+{
+  "url": "https://www.transfermarkt.de/lutz-munack/profil/trainer/70942",
+  "scraped_at": "2026-02-12T19:01:46.664429",
+  "name": "Lutz Munack",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Präsidiumsmitglied",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2017",
+      "role": "Geschäftsführer",
+      "period": "17/18 (15.05.2018) - -"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2017",
+      "role": "Präsidiumsmitglied",
+      "period": "17/18 (01.07.2017) - -"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2016",
+      "role": "Geschäftsführer Sport",
+      "period": "16/17 (01.07.2016) - 17/18 (14.05.2018)"
+    }
+  ],
+  "coach_id": "70942",
+  "_cached_at": "2026-02-12T19:01:46.674528",
+  "_preloaded_at": "2026-02-12T19:01:46.675196",
+  "_coach_name": "Lutz Munack"
+}

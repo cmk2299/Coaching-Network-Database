@@ -1,0 +1,73 @@
+{
+  "url": "https://www.transfermarkt.de/dr-heinrich-breit/profil/trainer/37872",
+  "scraped_at": "2026-02-12T18:22:25.805682",
+  "name": "Dr. Heinrich Breit",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/37872-1608630791.jpg?lm=1",
+  "dob": "16.10.1948 (77)",
+  "age": 77,
+  "birthplace": "Piesport",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsvorsitzenderund weitere Tätigkeiten",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2014",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "14/15 (27.10.2014) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2010",
+      "role": "stellv. Vorstandsvorsitzender",
+      "period": "10/11 (01.10.2010) - 14/15 (26.10.2014)"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2007",
+      "role": "Aufsichtsratsmitglied",
+      "period": "07/08 (07.08.2007) - 16/17 (24.08.2016)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2007",
+      "role": "Vorstandsmitglied",
+      "period": "07/08 (07.08.2007) - 16/17 (24.08.2016)"
+    },
+    {
+      "club": "FFS",
+      "club_url": "https://www.transfermarkt.de/freiburger-fussballschule/startseite/verein/47068/saison_id/2003",
+      "role": "stellv. Vorstandsvorsitzender",
+      "period": "03/04 (26.04.2004) - -"
+    },
+    {
+      "club": "FFS",
+      "club_url": "https://www.transfermarkt.de/freiburger-fussballschule/startseite/verein/47068/saison_id/2003",
+      "role": "Schatzmeister",
+      "period": "03/04 (26.04.2004) - -"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2003",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "03/04 (01.07.2003) - 07/08 (06.08.2007)"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/1998",
+      "role": "Schatzmeister",
+      "period": "98/99 (01.07.1998) - 14/15 (26.10.2014)"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/1998",
+      "role": "Vorstandsmitglied",
+      "period": "98/99 (01.07.1998) - 14/15 (26.10.2014)"
+    }
+  ],
+  "coach_id": "37872",
+  "_cached_at": "2026-02-12T18:22:25.817931",
+  "_preloaded_at": "2026-02-12T18:22:25.818606",
+  "_coach_name": "Dr. Heinrich Breit"
+}

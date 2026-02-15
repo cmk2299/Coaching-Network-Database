@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/mohamed-kabouchi/profil/trainer/138980",
+  "scraped_at": "2026-02-12T19:22:08.568767",
+  "name": "Mohamed Kabouchi",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "29.09.1993 (32)",
+  "age": 32,
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Trainer-Auszubildender",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2019",
+      "role": "Trainer-Auszubildender",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "Darmstadt Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-darmstadt-98-jugend/startseite/verein/33469/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (01.07.2018) - 18/19 (31.12.2018)"
+    },
+    {
+      "club": "Blau-Gelb Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-blau-gelb-frankfurt-jugend/startseite/verein/83803/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Concordia Jgd.",
+      "club_url": "https://www.transfermarkt.de/sg-concordia-eschersheim-jugend/startseite/verein/127630/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.06.2014)"
+    }
+  ],
+  "coach_id": "138980",
+  "_cached_at": "2026-02-12T19:22:08.579637",
+  "_preloaded_at": "2026-02-12T19:22:08.580264",
+  "_coach_name": "Mohamed Kabouchi"
+}

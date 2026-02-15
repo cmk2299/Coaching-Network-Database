@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/fadi-khader/profil/trainer/122237",
+  "scraped_at": "2026-02-12T18:31:16.663905",
+  "name": "Fadi Khader",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "license": "C-Lizenz",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2021",
+      "role": "Nachwuchsscout",
+      "period": "21/22 (01.08.2021) - -"
+    },
+    {
+      "club": "BAK 07 Jugend",
+      "club_url": "https://www.transfermarkt.de/berliner-ak-07-jugend/startseite/verein/32433/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (01.06.2019) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "122237",
+  "_cached_at": "2026-02-12T18:31:16.673814",
+  "_preloaded_at": "2026-02-12T18:31:16.674378",
+  "_coach_name": "Fadi Khader"
+}

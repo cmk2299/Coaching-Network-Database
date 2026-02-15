@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/sebastian-buttkus/profil/trainer/16819",
+  "scraped_at": "2026-02-12T23:23:48.372362",
+  "name": "Sebastian Buttkus",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/16819-1758543082.jpeg?lm=1",
+  "dob": "30.09.1985 (40)",
+  "age": 40,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2012",
+      "role": "Scout",
+      "period": "12/13 (01.03.2013) - -"
+    },
+    {
+      "club": "Hansa Rostock",
+      "club_url": "https://www.transfermarkt.de/fc-hansa-rostock/startseite/verein/30/saison_id/2011",
+      "role": "Nachwuchsscout",
+      "period": "11/12 (01.07.2011) - 12/13 (28.02.2013)"
+    },
+    {
+      "club": "Hertha BSC Jgd.",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc-jugend/startseite/verein/11844/saison_id/2009",
+      "role": "Nachwuchsscout",
+      "period": "09/10 (01.11.2009) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "Berliner SC U19",
+      "club_url": "https://www.transfermarkt.de/berliner-sc-u19/startseite/verein/32610/saison_id/2009",
+      "role": "Trainer",
+      "period": "09/10 (01.07.2009) - 09/10 (31.10.2009)"
+    },
+    {
+      "club": "Hertha BSC U19",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc-u19/startseite/verein/2827/saison_id/2007",
+      "role": "Co-Trainer",
+      "period": "07/08 (01.07.2007) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "16819",
+  "_cached_at": "2026-02-12T23:23:48.384185",
+  "_preloaded_at": "2026-02-12T23:23:48.384778",
+  "_coach_name": "Sebastian Buttkus"
+}

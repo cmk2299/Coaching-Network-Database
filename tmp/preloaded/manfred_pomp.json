@@ -1,0 +1,134 @@
+{
+  "url": "https://www.transfermarkt.de/manfred-pomp/profil/trainer/53179",
+  "scraped_at": "2026-02-12T19:02:57.239547",
+  "name": "Manfred Pomp",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "26.10.1964 (61)",
+  "age": 61,
+  "birthplace": "Aachen",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Leiter Nachwuchsscouting",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2023",
+      "role": "Leiter Nachwuchsscouting",
+      "period": "23/24 (01.08.2023) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.09.2019) - 23/24 (31.07.2023)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Nachwuchsscout",
+      "period": "18/19 (01.02.2019) - 19/20 (31.08.2019)"
+    },
+    {
+      "club": "A. Aachen Jgd.",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen-jugend/startseite/verein/11965/saison_id/2018",
+      "role": "Koordinator Talentförderung",
+      "period": "18/19 (01.07.2018) - 20/21 (26.04.2021)"
+    },
+    {
+      "club": "FC Inde Hahn",
+      "club_url": "https://www.transfermarkt.de/fc-inde-hahn/startseite/verein/12157/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (18.11.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "FC Inde Hahn",
+      "club_url": "https://www.transfermarkt.de/fc-inde-hahn/startseite/verein/12157/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (12.10.2016) - 16/17 (17.11.2016)"
+    },
+    {
+      "club": "FC Inde Hahn",
+      "club_url": "https://www.transfermarkt.de/fc-inde-hahn/startseite/verein/12157/saison_id/2014",
+      "role": "Nachwuchskoordinator",
+      "period": "14/15 (01.01.2015) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "VfL Vichttal II",
+      "club_url": "https://www.transfermarkt.de/vfl-vichttal-ii/startseite/verein/56007/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Vichttal Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-vichttal-jugend/startseite/verein/85504/saison_id/2011",
+      "role": "Sportlicher Leiter",
+      "period": "11/12 (01.12.2011) - 14/15 (31.12.2014)"
+    },
+    {
+      "club": "Raspo Brand",
+      "club_url": "https://www.transfermarkt.de/djk-rasensport-brand-04/startseite/verein/7296/saison_id/2009",
+      "role": "Jugendtrainer",
+      "period": "09/10 (01.07.2009) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "A. Aachen Jgd.",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen-jugend/startseite/verein/11965/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 (01.07.2008) - 08/09 (30.06.2009)"
+    },
+    {
+      "club": "Alem. Aachen",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen/startseite/verein/8/saison_id/2008",
+      "role": "Koordinator Talentförderung",
+      "period": "08/09 (01.07.2008) - 08/09 (30.06.2009)"
+    },
+    {
+      "club": "FVM",
+      "club_url": "https://www.transfermarkt.de/fussball-verband-mittelrhein/startseite/verein/35053/saison_id/2004",
+      "role": "Trainer-Auszubildender",
+      "period": "04/05 (01.09.2004) - 20/21 (31.12.2020)"
+    },
+    {
+      "club": "Raspo Brand",
+      "club_url": "https://www.transfermarkt.de/djk-rasensport-brand-04/startseite/verein/7296/saison_id/2003",
+      "role": "Jugendtrainer",
+      "period": "03/04 (01.07.2003) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "Westwacht U19",
+      "club_url": "https://www.transfermarkt.de/djk-westwacht-aachen-u19/startseite/verein/45526/saison_id/1998",
+      "role": "Trainer",
+      "period": "98/99 (01.07.1998) - 98/99 (30.06.1999)"
+    },
+    {
+      "club": "SG Düren 99",
+      "club_url": "https://www.transfermarkt.de/sg-duren-99-aufgel-/startseite/verein/31104/saison_id/1993",
+      "role": "Trainer",
+      "period": "93/94 (01.07.1993) - 94/95 (30.06.1995)"
+    },
+    {
+      "club": "B. Gladbach 09",
+      "club_url": "https://www.transfermarkt.de/sv-bergisch-gladbach-09/startseite/verein/2442/saison_id/1990",
+      "role": "Spielertrainer",
+      "period": "90/91 (01.07.1990) - 91/92 (30.06.1992)"
+    },
+    {
+      "club": "B. Gladbach U19",
+      "club_url": "https://www.transfermarkt.de/sv-bergisch-gladbach-09-u19/startseite/verein/9889/saison_id/1988",
+      "role": "Trainer",
+      "period": "88/89 (01.07.1988) - 89/90 (30.06.1990)"
+    },
+    {
+      "club": "Höhenhaus Jgd.",
+      "club_url": "https://www.transfermarkt.de/tus-hohenhaus-jugend/startseite/verein/42477/saison_id/1987",
+      "role": "Trainer",
+      "period": "87/88 (01.07.1987) - 87/88 (30.06.1988)"
+    }
+  ],
+  "coach_id": "53179",
+  "_cached_at": "2026-02-12T19:02:57.255147",
+  "_preloaded_at": "2026-02-12T19:02:57.256026",
+  "_coach_name": "Manfred Pomp"
+}

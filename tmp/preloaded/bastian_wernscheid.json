@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/bastian-wernscheid/profil/trainer/94737",
+  "scraped_at": "2026-02-12T18:01:50.469491",
+  "name": "Bastian Wernscheid",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "02.02.1990 (36)",
+  "age": 36,
+  "nationality": "Deutschland",
+  "current_role": "Assistent der Geschäftsführung",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2023",
+      "role": "Assistent der Geschäftsführung",
+      "period": "23/24 (01.01.2024) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2020",
+      "role": "Teammanager",
+      "period": "20/21 (01.04.2021) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2016",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "16/17 (01.04.2017) - 20/21 (01.04.2021)"
+    }
+  ],
+  "coach_id": "94737",
+  "_cached_at": "2026-02-12T18:01:50.480169",
+  "_preloaded_at": "2026-02-12T18:01:50.480789",
+  "_coach_name": "Bastian Wernscheid"
+}

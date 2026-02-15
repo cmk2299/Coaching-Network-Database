@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/markus-zidek/profil/trainer/7053",
+  "scraped_at": "2026-02-12T19:10:21.345144",
+  "name": "Markus Zidek",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/7053-1610214866.png?lm=1",
+  "dob": "24.04.1976 (49)",
+  "age": 49,
+  "birthplace": "München",
+  "nationality": "Deutschland",
+  "current_role": "Rehatrainer",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025",
+      "role": "Rehatrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2023",
+      "role": "Athletiktrainer",
+      "period": "23/24 (01.07.2023) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Hoffenheim U19",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u19/startseite/verein/8925/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (08.01.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2015",
+      "role": "Athletiktrainer",
+      "period": "15/16 (01.07.2015) - 21/22 (07.01.2022)"
+    },
+    {
+      "club": "1.FC Nürnberg",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg/startseite/verein/4/saison_id/2012",
+      "role": "Athletiktrainer",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Karlsruher SC",
+      "club_url": "https://www.transfermarkt.de/karlsruher-sc/startseite/verein/48/saison_id/2008",
+      "role": "Athletiktrainer",
+      "period": "08/09 (01.07.2008) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "7053",
+  "_cached_at": "2026-02-12T19:10:21.356403",
+  "_preloaded_at": "2026-02-12T19:10:21.357064",
+  "_coach_name": "Markus Zidek"
+}

@@ -1,0 +1,54 @@
+{
+  "url": "https://www.transfermarkt.de/maximilian-schuppe/profil/trainer/79715",
+  "scraped_at": "2026-02-12T19:16:36.678300",
+  "name": "Maximilian Schuppe",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.10.1996 (29)",
+  "age": 29,
+  "nationality": "Deutschland",
+  "current_role": "Trainerund weitere Tätigkeiten",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2024",
+      "role": "Koordinator Talentförderung",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2020",
+      "role": "Scout",
+      "period": "20/21 (15.02.2021) - -"
+    },
+    {
+      "club": "Werder Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-jugend/startseite/verein/12012/saison_id/2020",
+      "role": "Trainer",
+      "period": "20/21 (15.02.2021) - -"
+    },
+    {
+      "club": "Düsseldorf Jgd.",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf-jugend/startseite/verein/11955/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 20/21 (12.02.2021)"
+    },
+    {
+      "club": "Fort. Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-fortuna-koln-jugend/startseite/verein/33446/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Rotenburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/rotenburger-sv-jugend/startseite/verein/45798/saison_id/2012",
+      "role": "Trainer",
+      "period": "12/13 (01.07.2012) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "79715",
+  "_cached_at": "2026-02-12T19:16:36.689543",
+  "_preloaded_at": "2026-02-12T19:16:36.690165",
+  "_coach_name": "Maximilian Schuppe"
+}

@@ -1,0 +1,68 @@
+{
+  "url": "https://www.transfermarkt.de/patrik-grolimund/profil/trainer/30453",
+  "scraped_at": "2026-02-12T19:29:39.282438",
+  "name": "Patrik Grolimund",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/30453-1723190237.jpg?lm=1",
+  "dob": "19.08.1980 (45)",
+  "age": 45,
+  "birthplace": "Basel",
+  "nationality": "Schweiz",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2020",
+      "role": "Entwicklungscoach",
+      "period": "20/21 (01.01.2021) - 22/23 (30.09.2022)"
+    },
+    {
+      "club": "Fußball-Lehrer-Ausbildung des DFB",
+      "club_url": "https://www.transfermarkt.de/fussball-lehrer-ausbildung-des-dfb/startseite/verein/13256/saison_id/2019",
+      "role": "Trainer-Auszubildender",
+      "period": "19/20 (01.07.2019) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.08.2017) - 20/21 (31.12.2020)"
+    },
+    {
+      "club": "Schweiz",
+      "club_url": "https://www.transfermarkt.de/schweiz/startseite/verein/3384/saison_id/2013",
+      "role": "Jugendtrainer",
+      "period": "13/14 (01.08.2014) - 16/17 (01.12.2016)"
+    },
+    {
+      "club": "FC Solothurn",
+      "club_url": "https://www.transfermarkt.de/fc-solothurn/startseite/verein/1287/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (20.03.2014)"
+    },
+    {
+      "club": "Solothurn Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-solothurn-jugend/startseite/verein/14396/saison_id/2011",
+      "role": "Trainer",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "FC Breitenrain",
+      "club_url": "https://www.transfermarkt.de/fc-breitenrain/startseite/verein/17574/saison_id/2006",
+      "role": "Trainer",
+      "period": "06/07 (01.04.2007) - 07/08 (30.06.2008)"
+    }
+  ],
+  "coach_id": "30453",
+  "_cached_at": "2026-02-12T19:29:39.295110",
+  "_preloaded_at": "2026-02-12T19:29:39.295773",
+  "_coach_name": "Patrik Grolimund"
+}

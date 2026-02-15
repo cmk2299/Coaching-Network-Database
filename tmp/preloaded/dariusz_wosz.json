@@ -1,0 +1,81 @@
+{
+  "url": "https://www.transfermarkt.de/dariusz-wosz/profil/trainer/7488",
+  "scraped_at": "2026-02-12T18:14:50.135154",
+  "name": "Dariusz Wosz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1391559635.jpg?lm=1",
+  "dob": "08.06.1969 (56)",
+  "age": 56,
+  "birthplace": "Piekary Slaskie",
+  "nationality": "DeutschlandPolen",
+  "agent": "sportmanufaktur ...",
+  "agent_url": "https://www.transfermarkt.de/sportmanufaktur-gmbh-amp-co-kg/beraterfirma/berater/1667",
+  "current_role": "Klubrepräsentant",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2019",
+      "role": "Leiter der Fußballschule",
+      "period": "19/20 (01.01.2020) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2018",
+      "role": "Klubrepräsentant",
+      "period": "18/19 (10.05.2019) - -"
+    },
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2015",
+      "role": "Techniktrainer",
+      "period": "15/16 (01.07.2015) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "VfL Bochum U19",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u19/startseite/verein/3862/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (27.01.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "VfL Bochum II",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-ii/startseite/verein/446/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (26.01.2014)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2012",
+      "role": "Co-Trainer",
+      "period": "12/13 (08.04.2013) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2009",
+      "role": "Interimstrainer",
+      "period": "09/10 (29.04.2010) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2009",
+      "role": "Co-Trainer",
+      "period": "09/10 (20.09.2009) - 09/10 (29.04.2010)"
+    },
+    {
+      "club": "VfL Bochum U19",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u19/startseite/verein/3862/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 (01.07.2008) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "VfL Bochum U19",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u19/startseite/verein/3862/saison_id/2007",
+      "role": "Co-Trainer",
+      "period": "07/08 (01.07.2007) - 07/08 (30.06.2008)"
+    }
+  ],
+  "coach_id": "7488",
+  "_cached_at": "2026-02-12T18:14:50.149247",
+  "_preloaded_at": "2026-02-12T18:14:50.149929",
+  "_coach_name": "Dariusz Wosz"
+}

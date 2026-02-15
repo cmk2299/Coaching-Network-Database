@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/oliver-mintzlaff/profil/trainer/36854",
+  "scraped_at": "2026-02-12T19:27:22.741409",
+  "name": "Oliver Mintzlaff",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/36854-1646053360.png?lm=1",
+  "dob": "19.08.1975 (50)",
+  "age": 50,
+  "birthplace": "Bonn",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsvorsitzender",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2022",
+      "role": "Berater des Managements",
+      "period": "22/23 (13.12.2022) - 23/24 (17.09.2023)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2022",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "22/23 (16.11.2022) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2015",
+      "role": "Geschäftsführer",
+      "period": "15/16 (01.01.2016) - 22/23 (15.11.2022)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2013",
+      "role": "Vorstandsvorsitzender",
+      "period": "13/14 (12.06.2014) - 22/23 (15.11.2022)"
+    }
+  ],
+  "coach_id": "36854",
+  "_cached_at": "2026-02-12T19:27:22.752994",
+  "_preloaded_at": "2026-02-12T19:27:22.753614",
+  "_coach_name": "Oliver Mintzlaff"
+}

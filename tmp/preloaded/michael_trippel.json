@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/michael-trippel/profil/trainer/9217",
+  "scraped_at": "2026-02-12T19:20:50.948275",
+  "name": "Michael Trippel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.07.1954 (71)",
+  "age": 71,
+  "birthplace": "Recklinghausen",
+  "nationality": "Deutschland",
+  "current_role": "Wirtschaftsratund weitere Tätigkeiten",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2013",
+      "role": "Wirtschaftsrat",
+      "period": "13/14 (18.11.2013) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2011",
+      "role": "Verwaltungsratmitglied",
+      "period": "11/12 (13.11.2011) - 13/14 (17.11.2013)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/1999",
+      "role": "Stadionsprecher",
+      "period": "99/00 (01.07.1999) - -"
+    },
+    {
+      "club": "1.FC Köln II",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-ii/startseite/verein/438/saison_id/1992",
+      "role": "Stadionsprecher",
+      "period": "92/93 (01.07.1992) - 98/99 (30.06.1999)"
+    }
+  ],
+  "coach_id": "9217",
+  "_cached_at": "2026-02-12T19:20:50.958960",
+  "_preloaded_at": "2026-02-12T19:20:50.959497",
+  "_coach_name": "Michael Trippel"
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/leon-kramer/profil/trainer/98575",
+  "scraped_at": "2026-02-12T18:59:51.165543",
+  "name": "Leon Krämer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.05.1986 (39)",
+  "age": 39,
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Videoanalystund weitere Tätigkeiten",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2024",
+      "role": "Koordinator Sport-Technologien",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2024",
+      "role": "Videoanalyst",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (15.10.2020) - 23/24 (30.06.2024)"
+    }
+  ],
+  "coach_id": "98575",
+  "_cached_at": "2026-02-12T18:59:51.176264",
+  "_preloaded_at": "2026-02-12T18:59:51.176907",
+  "_coach_name": "Leon Krämer"
+}

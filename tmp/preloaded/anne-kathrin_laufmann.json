@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/anne-kathrin-laufmann/profil/trainer/38938",
+  "scraped_at": "2026-02-12T17:58:46.050276",
+  "name": "Anne-Kathrin Laufmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "30.11.1979 (46)",
+  "age": 46,
+  "nationality": "Deutschland",
+  "current_role": "Geschäftsführerin",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2022",
+      "role": "Geschäftsführerin",
+      "period": "22/23 (01.09.2022) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2011",
+      "role": "Strategische Beraterin",
+      "period": "11/12 (01.04.2012) - 22/23 (31.08.2022)"
+    }
+  ],
+  "coach_id": "38938",
+  "_cached_at": "2026-02-12T17:58:46.060342",
+  "_preloaded_at": "2026-02-12T17:58:46.060964",
+  "_coach_name": "Anne-Kathrin Laufmann"
+}

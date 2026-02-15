@@ -1,0 +1,82 @@
+{
+  "url": "https://www.transfermarkt.de/sven-hoffmeister/profil/trainer/24177",
+  "scraped_at": "2026-02-13T00:01:20.754176",
+  "name": "Sven Hoffmeister",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/24177-1663964263.jpg?lm=1",
+  "dob": "13.10.1970 (55)",
+  "age": 55,
+  "birthplace": "Hannover",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "agent": "neblung ...",
+  "agent_url": "https://www.transfermarkt.de/neblung-sportsnetwork/beraterfirma/berater/175",
+  "current_role": "Torwarttrainerund weitere Tätigkeiten",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2023",
+      "role": "Torwarttrainer",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2014",
+      "role": "Torwarttrainer",
+      "period": "14/15 (17.02.2015) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (17.02.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2014",
+      "role": "Torwarttrainer",
+      "period": "14/15 (01.07.2014) - 15/16 (17.02.2016)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2014",
+      "role": "Torwartkoordinator NLZ",
+      "period": "14/15 (01.07.2014) - -"
+    },
+    {
+      "club": "Hessen Kassel",
+      "club_url": "https://www.transfermarkt.de/ksv-hessen-kassel/startseite/verein/373/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (19.01.2014) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Hessen Kassel",
+      "club_url": "https://www.transfermarkt.de/ksv-hessen-kassel/startseite/verein/373/saison_id/2013",
+      "role": "Interimstrainer",
+      "period": "13/14 (12.11.2013) - 13/14 (18.01.2014)"
+    },
+    {
+      "club": "Hes. Kassel II",
+      "club_url": "https://www.transfermarkt.de/ksv-hessen-kassel-ii/startseite/verein/8048/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Hessen Kassel",
+      "club_url": "https://www.transfermarkt.de/ksv-hessen-kassel/startseite/verein/373/saison_id/2012",
+      "role": "Torwarttrainer",
+      "period": "12/13 (01.07.2012) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Hessen Kassel",
+      "club_url": "https://www.transfermarkt.de/ksv-hessen-kassel/startseite/verein/373/saison_id/2012",
+      "role": "Co-Trainer",
+      "period": "12/13 (01.07.2012) - 13/14 (11.11.2013)"
+    }
+  ],
+  "coach_id": "24177",
+  "_cached_at": "2026-02-13T00:01:20.800304",
+  "_preloaded_at": "2026-02-13T00:01:20.802173",
+  "_coach_name": "Sven Hoffmeister"
+}

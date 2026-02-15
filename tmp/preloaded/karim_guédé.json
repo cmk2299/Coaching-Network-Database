@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/karim-guede/profil/trainer/70841",
+  "scraped_at": "2026-02-12T18:53:38.838674",
+  "name": "Karim Guédé",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/70841-1619599348.jpg?lm=1",
+  "dob": "07.01.1985 (41)",
+  "age": 41,
+  "birthplace": "Hamburg",
+  "nationality": "Slowakei",
+  "current_role": "Scout",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (07.07.2019) - -"
+    }
+  ],
+  "coach_id": "70841",
+  "_cached_at": "2026-02-12T18:53:38.849867",
+  "_preloaded_at": "2026-02-12T18:53:38.850471",
+  "_coach_name": "Karim Guédé"
+}

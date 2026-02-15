@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/dr-christian-hockenjos/profil/trainer/123367",
+  "scraped_at": "2026-02-12T18:20:32.965931",
+  "name": "Dr. Christian Hockenjos",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.05.1963 (62)",
+  "age": 62,
+  "birthplace": "Lahr/Schwarzwald",
+  "nationality": "Deutschland",
+  "current_role": "Leiter Organisation und Infrastruktur",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/1996",
+      "role": "Leiter Organisation und Infrastruktur",
+      "period": "96/97 (01.07.1996) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/1995",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "95/96 (01.11.1995) - 95/96 (30.06.1996)"
+    }
+  ],
+  "coach_id": "123367",
+  "_cached_at": "2026-02-12T18:20:32.976988",
+  "_preloaded_at": "2026-02-12T18:20:32.977567",
+  "_coach_name": "Dr. Christian Hockenjos"
+}

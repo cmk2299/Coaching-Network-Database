@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/daniel-uthmann/profil/trainer/137264",
+  "scraped_at": "2026-02-12T18:13:48.985864",
+  "name": "Daniel Uthmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.07.1990 (35)",
+  "age": 35,
+  "birthplace": "Remscheid",
+  "nationality": "Deutschland",
+  "current_role": "Teammanager",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2024",
+      "role": "Teammanager",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2016",
+      "role": "Marketing/Management",
+      "period": "16/17 (01.02.2017) - 23/24 (30.06.2024)"
+    }
+  ],
+  "coach_id": "137264",
+  "_cached_at": "2026-02-12T18:13:48.996732",
+  "_preloaded_at": "2026-02-12T18:13:48.997407",
+  "_coach_name": "Daniel Uthmann"
+}

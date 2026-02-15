@@ -1,0 +1,62 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-gerg/profil/trainer/106988",
+  "scraped_at": "2026-02-12T17:55:35.306874",
+  "name": "Andreas Gerg",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "03.09.1989 (36)",
+  "age": 36,
+  "birthplace": "München",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Athletiktrainerund weitere Tätigkeiten",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2025",
+      "role": "Athletiktrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2025",
+      "role": "Rehatrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Deutschland U16",
+      "club_url": "https://www.transfermarkt.de/deutschland-u16/startseite/verein/17368/saison_id/2024",
+      "role": "Fitnesstrainer",
+      "period": "24/25 (01.07.2024) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "WSG Tirol",
+      "club_url": "https://www.transfermarkt.de/wsg-tirol/startseite/verein/2446/saison_id/2022",
+      "role": "Athletiktrainer",
+      "period": "22/23 (01.08.2022) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "WSG Tirol",
+      "club_url": "https://www.transfermarkt.de/wsg-tirol/startseite/verein/2446/saison_id/2022",
+      "role": "Rehatrainer",
+      "period": "22/23 (01.08.2022) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Salzburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg-jugend/startseite/verein/20161/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Salzburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg-jugend/startseite/verein/20161/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "106988",
+  "_cached_at": "2026-02-12T17:55:35.318653",
+  "_preloaded_at": "2026-02-12T17:55:35.336701",
+  "_coach_name": "Andreas Gerg"
+}

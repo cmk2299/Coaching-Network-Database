@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/simon-bauer/profil/trainer/92344",
+  "scraped_at": "2026-02-12T23:27:21.380348",
+  "name": "Simon Bauer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/92344-1620672516.jpg?lm=1",
+  "dob": "05.09.1991 (34)",
+  "age": 34,
+  "birthplace": "Nürtingen",
+  "nationality": "Deutschland",
+  "license": "B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.02.2020) - -"
+    },
+    {
+      "club": "Stuttgart Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-jugend/startseite/verein/19210/saison_id/2017",
+      "role": "Spielanalyst",
+      "period": "17/18 (01.09.2017) - 19/20 (01.02.2020)"
+    }
+  ],
+  "coach_id": "92344",
+  "_cached_at": "2026-02-12T23:27:21.391193",
+  "_preloaded_at": "2026-02-12T23:27:21.391754",
+  "_coach_name": "Simon Bauer"
+}

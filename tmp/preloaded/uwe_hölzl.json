@@ -1,0 +1,92 @@
+{
+  "url": "https://www.transfermarkt.de/uwe-holzl/profil/trainer/29461",
+  "scraped_at": "2026-02-13T00:42:40.437415",
+  "name": "Uwe Hölzl",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/29461-1736776841.jpg?lm=1",
+  "dob": "27.09.1969 (56)",
+  "age": 56,
+  "birthplace": "Fohnsdorf",
+  "nationality": "Österreich",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (15.11.2024) - -"
+    },
+    {
+      "club": "Sturm Graz",
+      "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (17.07.2020) - 24/25 (15.11.2024)"
+    },
+    {
+      "club": "Austria Wien",
+      "club_url": "https://www.transfermarkt.de/fk-austria-wien/startseite/verein/14/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 19/20 (16.07.2020)"
+    },
+    {
+      "club": "Wolfsberger AC",
+      "club_url": "https://www.transfermarkt.de/wolfsberger-ac/startseite/verein/4441/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.06.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "TSV Hartberg",
+      "club_url": "https://www.transfermarkt.de/tsv-hartberg/startseite/verein/4467/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 17/18 (31.05.2018)"
+    },
+    {
+      "club": "TSV Hartberg",
+      "club_url": "https://www.transfermarkt.de/tsv-hartberg/startseite/verein/4467/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (12.12.2015) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "TSV Hartberg",
+      "club_url": "https://www.transfermarkt.de/tsv-hartberg/startseite/verein/4467/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 15/16 (11.12.2015)"
+    },
+    {
+      "club": "SC Weiz",
+      "club_url": "https://www.transfermarkt.de/sc-weiz/startseite/verein/7141/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "SC Weiz",
+      "club_url": "https://www.transfermarkt.de/sc-weiz/startseite/verein/7141/saison_id/2012",
+      "role": "Co-Trainer",
+      "period": "12/13 (01.07.2012) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "SC Weiz II",
+      "club_url": "https://www.transfermarkt.de/sc-weiz-ii/startseite/verein/20710/saison_id/2010",
+      "role": "Trainer",
+      "period": "10/11 (01.07.2010) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "SC Weiz II",
+      "club_url": "https://www.transfermarkt.de/sc-weiz-ii/startseite/verein/20710/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 (09.03.2009) - 09/10 (04.09.2009)"
+    },
+    {
+      "club": "SV Anger Jgd",
+      "club_url": "https://www.transfermarkt.de/sv-anger-jugend/startseite/verein/43267/saison_id/2004",
+      "role": "Trainer",
+      "period": "04/05 (01.07.2004) - 06/07 (30.06.2007)"
+    }
+  ],
+  "coach_id": "29461",
+  "_cached_at": "2026-02-13T00:42:40.486588",
+  "_preloaded_at": "2026-02-13T00:42:40.488669",
+  "_coach_name": "Uwe Hölzl"
+}

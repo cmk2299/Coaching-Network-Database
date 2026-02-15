@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dr-heribert-ditzel/profil/trainer/15187",
+  "scraped_at": "2026-02-12T18:22:41.265672",
+  "name": "Dr. Heribert Ditzel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/15187-1406670478.jpg?lm=1",
+  "dob": "24.02.1952 (73)",
+  "age": 73,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/1993",
+      "role": "Vereinsarzt",
+      "period": "93/94 (01.07.1993) - -"
+    }
+  ],
+  "coach_id": "15187",
+  "_cached_at": "2026-02-12T18:22:41.275733",
+  "_preloaded_at": "2026-02-12T18:22:41.276279",
+  "_coach_name": "Dr. Heribert Ditzel"
+}

@@ -1,0 +1,69 @@
+{
+  "url": "https://www.transfermarkt.de/markus-brunnschneider/profil/trainer/126277",
+  "scraped_at": "2026-02-12T19:08:42.530959",
+  "name": "Markus Brunnschneider",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/126277-1761646318.png?lm=1",
+  "dob": "13.06.1990 (35)",
+  "age": 35,
+  "birthplace": "Moosburg",
+  "nationality": "Deutschland",
+  "agent": "not_only_football",
+  "agent_url": "https://www.transfermarkt.de/not_only_football/beraterfirma/berater/11564",
+  "current_role": "Direktor Profifußball und Scout",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Direktor Profifußball und Scout",
+      "period": "25/26 (01.11.2025) - -"
+    },
+    {
+      "club": "Holstein Kiel",
+      "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2024",
+      "role": "Koordinator Sport-Technologien",
+      "period": "24/25 (01.07.2024) - 25/26 (31.10.2025)"
+    },
+    {
+      "club": "Darmstadt 98",
+      "club_url": "https://www.transfermarkt.de/sv-darmstadt-98/startseite/verein/105/saison_id/2019",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "19/20 (01.07.2019) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Holstein Kiel",
+      "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.07.2016) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "TSV 1860 U17",
+      "club_url": "https://www.transfermarkt.de/tsv-1860-munchen-u17/startseite/verein/21083/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.09.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2013",
+      "role": "Spielanalyst",
+      "period": "13/14 (01.09.2013) - 14/15 (28.02.2015)"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2013",
+      "role": "Spielanalyst",
+      "period": "13/14 (01.09.2013) - 14/15 (28.02.2015)"
+    },
+    {
+      "club": "B. München U17",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u17/startseite/verein/21058/saison_id/2011",
+      "role": "Spielanalyst",
+      "period": "11/12 (01.08.2011) - 13/14 (31.08.2013)"
+    }
+  ],
+  "coach_id": "126277",
+  "_cached_at": "2026-02-12T19:08:42.543300",
+  "_preloaded_at": "2026-02-12T19:08:42.544022",
+  "_coach_name": "Markus Brunnschneider"
+}

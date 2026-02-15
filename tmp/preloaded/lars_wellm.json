@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/lars-wellm/profil/trainer/97031",
+  "scraped_at": "2026-02-12T18:58:34.285804",
+  "name": "Lars Wellm",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2017",
+      "role": "Scout",
+      "period": "17/18 (01.07.2017) - -"
+    }
+  ],
+  "coach_id": "97031",
+  "_cached_at": "2026-02-12T18:58:34.295242",
+  "_preloaded_at": "2026-02-12T18:58:34.295808",
+  "_coach_name": "Lars Wellm"
+}

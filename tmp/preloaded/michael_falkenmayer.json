@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/michael-falkenmayer/profil/trainer/44593",
+  "scraped_at": "2026-02-12T19:18:00.127700",
+  "name": "Michael Falkenmayer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/44593-1600675347.jpg?lm=1",
+  "dob": "26.11.1982 (43)",
+  "age": 43,
+  "birthplace": "Boppard",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 20/21 (04.01.2021)"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "44593",
+  "_cached_at": "2026-02-12T19:18:00.138599",
+  "_preloaded_at": "2026-02-12T19:18:00.139195",
+  "_coach_name": "Michael Falkenmayer"
+}

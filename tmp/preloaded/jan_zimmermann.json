@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/jan-zimmermann/profil/trainer/76474",
+  "scraped_at": "2026-02-12T18:46:47.339433",
+  "name": "Jan Zimmermann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/76474-1580286122.jpg?lm=1",
+  "dob": "19.04.1985 (40)",
+  "age": 40,
+  "birthplace": "Offenbach am Main",
+  "nationality": "Deutschland",
+  "current_role": "Torwarttrainer",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2019",
+      "role": "Torwarttrainer",
+      "period": "19/20 (25.01.2020) - -"
+    }
+  ],
+  "coach_id": "76474",
+  "_cached_at": "2026-02-12T18:46:47.350722",
+  "_preloaded_at": "2026-02-12T18:46:47.351556",
+  "_coach_name": "Jan Zimmermann"
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/kathrin-deumelandt/profil/trainer/143859",
+  "scraped_at": "2026-02-12T18:54:42.220903",
+  "name": "Kathrin Deumelandt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsvorsitzende",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2024",
+      "role": "Aufsichtsratsvorsitzende",
+      "period": "24/25 (16.11.2024) - -"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2022",
+      "role": "Aufsichtsratsmitglied",
+      "period": "22/23 (17.12.2022) - 24/25 (15.11.2024)"
+    }
+  ],
+  "coach_id": "143859",
+  "_cached_at": "2026-02-12T18:54:42.230956",
+  "_preloaded_at": "2026-02-12T18:54:42.231625",
+  "_coach_name": "Kathrin Deumelandt"
+}

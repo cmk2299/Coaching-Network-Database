@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/hans-pflugler/profil/trainer/6977",
+  "scraped_at": "2026-02-12T18:40:54.311757",
+  "name": "Hans Pflügler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "27.03.1960 (65)",
+  "age": 65,
+  "birthplace": "Freising",
+  "nationality": "Deutschland",
+  "current_role": "Klubrepräsentant",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2017",
+      "role": "Klubrepräsentant",
+      "period": "17/18 (01.07.2017) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/1992",
+      "role": "Marketingleiter",
+      "period": "92/93 (01.07.1992) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "6977",
+  "_cached_at": "2026-02-12T18:40:54.322206",
+  "_preloaded_at": "2026-02-12T18:40:54.322697",
+  "_coach_name": "Hans Pflügler"
+}

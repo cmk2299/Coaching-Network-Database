@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/thorben-voeste/profil/trainer/11129",
+  "scraped_at": "2026-02-13T00:06:21.603266",
+  "name": "Thorben Voeste",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/11129-1408095734.jpg?lm=1",
+  "dob": "10.06.1981 (44)",
+  "age": 44,
+  "birthplace": "Göttingen",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2009",
+      "role": "Physiotherapeut",
+      "period": "09/10 (01.07.2009) - -"
+    },
+    {
+      "club": "VfL Bochum II",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-ii/startseite/verein/446/saison_id/2005",
+      "role": "Physiotherapeut",
+      "period": "05/06 (01.07.2005) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "11129",
+  "_cached_at": "2026-02-13T00:06:21.618638",
+  "_preloaded_at": "2026-02-13T00:06:21.619307",
+  "_coach_name": "Thorben Voeste"
+}

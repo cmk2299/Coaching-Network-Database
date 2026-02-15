@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/dustin-haloschan/profil/trainer/107333",
+  "scraped_at": "2026-02-12T18:28:19.934046",
+  "name": "Dustin Haloschan",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/107333-1681477530.jpg?lm=1",
+  "dob": "02.07.1991 (34)",
+  "age": 34,
+  "birthplace": "Oberhausen",
+  "nationality": "Deutschland",
+  "current_role": "Teammanager",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2017",
+      "role": "Teammanager",
+      "period": "17/18 (01.07.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2017",
+      "role": "Teammanager",
+      "period": "17/18 (01.07.2017) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2016",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "16/17 (01.03.2017) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2015",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "15/16 (01.04.2016) - 16/17 (31.08.2016)"
+    }
+  ],
+  "coach_id": "107333",
+  "_cached_at": "2026-02-12T18:28:19.945295",
+  "_preloaded_at": "2026-02-12T18:28:19.945972",
+  "_coach_name": "Dustin Haloschan"
+}

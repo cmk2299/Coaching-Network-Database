@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/savas-erinc/profil/trainer/51635",
+  "scraped_at": "2026-02-12T23:23:24.981389",
+  "name": "Savas Erinc",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/51635-1763633638.jpg?lm=1",
+  "dob": "20.07.1987 (38)",
+  "age": 38,
+  "birthplace": "Frankfurt am Main",
+  "nationality": "DeutschlandTürkei",
+  "current_role": "Betreuer der Leihspieler",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2023",
+      "role": "Betreuer der Leihspieler",
+      "period": "23/24 (01.01.2024) - -"
+    },
+    {
+      "club": "Hanauer SC 1960",
+      "club_url": "https://www.transfermarkt.de/hanauer-sc-1960/startseite/verein/33308/saison_id/2019",
+      "role": "Trainer",
+      "period": "19/20 (01.07.2019) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.07.2019) - 23/24 (31.12.2024)"
+    },
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Hanauer SC 1960",
+      "club_url": "https://www.transfermarkt.de/hanauer-sc-1960/startseite/verein/33308/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (01.01.2017) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/fsv-frankfurt-jugend/startseite/verein/32142/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/fsv-frankfurt-jugend/startseite/verein/32142/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "51635",
+  "_cached_at": "2026-02-12T23:23:24.994085",
+  "_preloaded_at": "2026-02-12T23:23:24.994687",
+  "_coach_name": "Savas Erinc"
+}

@@ -1,0 +1,56 @@
+{
+  "url": "https://www.transfermarkt.de/christof-babatz/profil/trainer/85128",
+  "scraped_at": "2026-02-12T18:08:43.119127",
+  "name": "Christof Babatz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/85128-1765041061.jpg?lm=1",
+  "dob": "03.09.1974 (51)",
+  "age": 51,
+  "birthplace": "Hannover",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Co-Trainerund weitere Tätigkeiten",
+  "current_club": "FSV Mainz 05 II",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (03.12.2025) - 25/26 (06.12.2025)"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (22.02.2024) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2023",
+      "role": "Interimstrainer",
+      "period": "23/24 (16.01.2024) - 23/24 (21.02.2024)"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (16.01.2020) - 23/24 (15.01.2024)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2011",
+      "role": "Leiter der Fußballschule",
+      "period": "11/12 (01.07.2011) - -"
+    }
+  ],
+  "coach_id": "85128",
+  "_cached_at": "2026-02-12T18:08:43.133494",
+  "_preloaded_at": "2026-02-12T18:08:43.134189",
+  "_coach_name": "Christof Babatz"
+}

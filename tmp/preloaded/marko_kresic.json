@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/marko-kresic/profil/trainer/15737",
+  "scraped_at": "2026-02-12T19:08:19.719376",
+  "name": "Marko Kresic",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "02.11.1976 (49)",
+  "age": 49,
+  "birthplace": "Hannover",
+  "nationality": "DeutschlandKroatien",
+  "license": "B-Lizenz",
+  "current_role": "Leiter der Fußballschule",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2019",
+      "role": "Leiter der Fußballschule",
+      "period": "19/20 (01.08.2019) - -"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2015",
+      "role": "Leiter der Fußballschule",
+      "period": "15/16 (01.07.2015) - 19/20 (31.07.2019)"
+    },
+    {
+      "club": "Arm. Hannover",
+      "club_url": "https://www.transfermarkt.de/arminia-hannover/startseite/verein/526/saison_id/2010",
+      "role": "Co-Trainer",
+      "period": "10/11 (01.08.2010) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "15737",
+  "_cached_at": "2026-02-12T19:08:19.730514",
+  "_preloaded_at": "2026-02-12T19:08:19.731132",
+  "_coach_name": "Marko Kresic"
+}

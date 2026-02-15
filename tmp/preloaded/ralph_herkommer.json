@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/ralph-herkommer/profil/trainer/15172",
+  "scraped_at": "2026-02-12T23:16:54.022176",
+  "name": "Ralph Herkommer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/15172-1406750137.jpg?lm=1",
+  "dob": "23.02.1967 (58)",
+  "age": 58,
+  "birthplace": "Mutlangen",
+  "nationality": "Deutschland",
+  "current_role": "Team-Organisator",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2008",
+      "role": "Teammanager",
+      "period": "08/09 (01.07.2008) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2000",
+      "role": "Team-Organisator",
+      "period": "00/01 (01.07.2000) - -"
+    }
+  ],
+  "coach_id": "15172",
+  "_cached_at": "2026-02-12T23:16:54.033651",
+  "_preloaded_at": "2026-02-12T23:16:54.034313",
+  "_coach_name": "Ralph Herkommer"
+}

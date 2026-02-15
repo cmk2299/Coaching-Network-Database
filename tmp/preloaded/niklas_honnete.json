@@ -1,0 +1,26 @@
+{
+  "url": "https://www.transfermarkt.de/niklas-honnete/profil/trainer/103419",
+  "scraped_at": "2026-02-12T19:23:55.943924",
+  "name": "Niklas Honnete",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "14.11.1989 (36)",
+  "age": 36,
+  "nationality": "Deutschland",
+  "agent": "CS MANAGEMENT",
+  "agent_url": "https://www.transfermarkt.de/cs-management/beraterfirma/berater/7539",
+  "current_role": "Videoanalyst",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2014",
+      "role": "Videoanalyst",
+      "period": "14/15 (01.07.2014) - -"
+    }
+  ],
+  "coach_id": "103419",
+  "_cached_at": "2026-02-12T19:23:55.954330",
+  "_preloaded_at": "2026-02-12T19:23:55.954932",
+  "_coach_name": "Niklas Honnete"
+}

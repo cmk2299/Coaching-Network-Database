@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/jurgen-urban/profil/trainer/134751",
+  "scraped_at": "2026-02-12T18:53:23.823604",
+  "name": "Jürgen Urban",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Präsidiumsmitglied",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2024",
+      "role": "Präsidiumsmitglied",
+      "period": "24/25 (16.09.2024) - -"
+    }
+  ],
+  "coach_id": "134751",
+  "_cached_at": "2026-02-12T18:53:23.833018",
+  "_preloaded_at": "2026-02-12T18:53:23.833537",
+  "_coach_name": "Jürgen Urban"
+}

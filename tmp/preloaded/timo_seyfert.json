@@ -1,0 +1,27 @@
+{
+  "url": "https://www.transfermarkt.com/timo-seyfert/profil/trainer/108962",
+  "scraped_at": "2026-02-10T20:55:38.399211",
+  "name": "Timo Seyfert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/108962-1665084394.jpeg?lm=1",
+  "current_role": "Team official",
+  "current_club": "Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2018",
+      "role": "Team official",
+      "period": "18/19 (01/10/2018) - -"
+    },
+    {
+      "club": "Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2018",
+      "role": "Kit Manager",
+      "period": "18/19 (01/10/2018) - -"
+    }
+  ],
+  "coach_id": "108962",
+  "_cached_at": "2026-02-10T20:55:38.410058",
+  "_preloaded_at": "2026-02-10T20:55:38.411062",
+  "_coach_name": "Timo Seyfert"
+}

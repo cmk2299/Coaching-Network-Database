@@ -1,0 +1,26 @@
+{
+  "url": "https://www.transfermarkt.de/dominik-kaiser/profil/trainer/122549",
+  "scraped_at": "2026-02-12T18:19:16.907057",
+  "name": "Dominik Kaiser",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/122549-1706703485.jpg?lm=1",
+  "dob": "16.09.1988 (37)",
+  "age": 37,
+  "birthplace": "Mutlangen",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "current_role": "Betreuer der Leihspieler",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2023",
+      "role": "Betreuer der Leihspieler",
+      "period": "23/24 (01.07.2023) - vsl. 30.06.2027"
+    }
+  ],
+  "coach_id": "122549",
+  "_cached_at": "2026-02-12T18:19:16.917953",
+  "_preloaded_at": "2026-02-12T18:19:16.918632",
+  "_coach_name": "Dominik Kaiser"
+}

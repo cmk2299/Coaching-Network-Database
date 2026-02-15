@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/cacau/profil/trainer/108150",
+  "scraped_at": "2026-02-12T18:05:01.503311",
+  "name": "Cacau",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/108150-1736781134.jpg?lm=1",
+  "dob": "27.03.1981 (44)",
+  "age": 44,
+  "birthplace": "Santo André",
+  "nationality": "Deutschland",
+  "current_role": "Klubrepräsentant",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2022",
+      "role": "Klubrepräsentant",
+      "period": "22/23 (11.09.2022) - -"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2016",
+      "role": "Integrationsbeauftragter",
+      "period": "16/17 (01.09.2016) - 20/21 (20.01.2021)"
+    }
+  ],
+  "coach_id": "108150",
+  "_cached_at": "2026-02-12T18:05:01.516013",
+  "_preloaded_at": "2026-02-12T18:05:01.516685",
+  "_coach_name": "Cacau"
+}

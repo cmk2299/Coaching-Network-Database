@@ -1,0 +1,110 @@
+{
+  "url": "https://www.transfermarkt.de/nils-drube/profil/trainer/8454",
+  "scraped_at": "2026-02-12T19:25:12.842819",
+  "name": "Nils Drube",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/8454-1629186979.jpg?lm=1",
+  "dob": "26.02.1978 (47)",
+  "age": 47,
+  "birthplace": "Münster",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Scout",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.04.2022) - -"
+    },
+    {
+      "club": "SV Rödinghausen",
+      "club_url": "https://www.transfermarkt.de/sv-rodinghausen/startseite/verein/26957/saison_id/2020",
+      "role": "Trainer",
+      "period": "20/21 (01.07.2020) - 21/22 (27.08.2021)"
+    },
+    {
+      "club": "SF Lotte",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-lotte/startseite/verein/668/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (30.08.2018) - 18/19 (09.04.2019)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2014",
+      "role": "Scout",
+      "period": "14/15 (01.02.2015) - 16/17 (31.12.2016)"
+    },
+    {
+      "club": "Leverkusen U19",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u19/startseite/verein/4713/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (01.07.2014) - 14/15 (31.01.2015)"
+    },
+    {
+      "club": "Leverkusen YL",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-uefa-u19/startseite/verein/41569/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Leverkusen U19",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u19/startseite/verein/4713/saison_id/2012",
+      "role": "Trainer",
+      "period": "12/13 (01.07.2012) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Pr. Münster",
+      "club_url": "https://www.transfermarkt.de/preussen-munster/startseite/verein/91/saison_id/2011",
+      "role": "Co-Trainer",
+      "period": "11/12 (24.01.2012) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "Pr. Münster U19",
+      "club_url": "https://www.transfermarkt.de/preussen-munster-u19/startseite/verein/10029/saison_id/2011",
+      "role": "Trainer",
+      "period": "11/12 (01.07.2011) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "Pr. Münster U17",
+      "club_url": "https://www.transfermarkt.de/preussen-munster-u17/startseite/verein/21071/saison_id/2007",
+      "role": "Trainer",
+      "period": "07/08 (17.09.2007) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Pr. Münster U17",
+      "club_url": "https://www.transfermarkt.de/preussen-munster-u17/startseite/verein/21071/saison_id/2007",
+      "role": "Co-Trainer",
+      "period": "07/08 (01.07.2007) - 07/08 (16.09.2007)"
+    },
+    {
+      "club": "P. Münster Jgd.",
+      "club_url": "https://www.transfermarkt.de/preussen-munster-jugend/startseite/verein/11921/saison_id/2006",
+      "role": "Trainer",
+      "period": "06/07 (01.07.2006) - 06/07 (30.06.2007)"
+    },
+    {
+      "club": "W. Kinderhaus",
+      "club_url": "https://www.transfermarkt.de/westfalia-kinderhaus/startseite/verein/2211/saison_id/2005",
+      "role": "Trainer",
+      "period": "05/06 (01.07.2005) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "Kinderhaus U19",
+      "club_url": "https://www.transfermarkt.de/westfalia-kinderhaus-u19/startseite/verein/72464/saison_id/2004",
+      "role": "Trainer",
+      "period": "04/05 (01.07.2004) - 04/05 (30.06.2005)"
+    },
+    {
+      "club": "Kinderhaus U17",
+      "club_url": "https://www.transfermarkt.de/westfalia-kinderhaus-u17/startseite/verein/72465/saison_id/1998",
+      "role": "Trainer",
+      "period": "98/99 (01.07.1998) - 03/04 (30.06.2004)"
+    }
+  ],
+  "coach_id": "8454",
+  "_cached_at": "2026-02-12T19:25:12.857746",
+  "_preloaded_at": "2026-02-12T19:25:12.858517",
+  "_coach_name": "Nils Drube"
+}

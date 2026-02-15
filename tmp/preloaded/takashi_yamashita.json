@@ -1,0 +1,79 @@
+{
+  "url": "https://www.transfermarkt.de/takashi-yamashita/profil/trainer/50670",
+  "scraped_at": "2026-02-13T00:03:01.028147",
+  "name": "Takashi Yamashita",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.12.1984 (41)",
+  "age": 41,
+  "nationality": "Japan",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Trainerund weitere Tätigkeiten",
+  "current_club": "Basara Mainz",
+  "current_club_url": "https://www.transfermarkt.de/fc-basara-mainz/startseite/verein/46739",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2024",
+      "role": "Übersetzer",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2023",
+      "role": "Trainer",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Basara Mainz",
+      "club_url": "https://www.transfermarkt.de/fc-basara-mainz/startseite/verein/46739/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2022",
+      "role": "Trainer",
+      "period": "22/23 (01.10.2022) - 23/24 (30.06.2023)"
+    },
+    {
+      "club": "Basara Mainz",
+      "club_url": "https://www.transfermarkt.de/fc-basara-mainz/startseite/verein/46739/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (01.07.2018) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Basara Mainz",
+      "club_url": "https://www.transfermarkt.de/fc-basara-mainz/startseite/verein/46739/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Basara Mainz",
+      "club_url": "https://www.transfermarkt.de/fc-basara-mainz/startseite/verein/46739/saison_id/2014",
+      "role": "Spielertrainer",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Basara Mainz",
+      "club_url": "https://www.transfermarkt.de/fc-basara-mainz/startseite/verein/46739/saison_id/2013",
+      "role": "Besitzer",
+      "period": "13/14 (01.06.2014) - -"
+    },
+    {
+      "club": "Basara Mainz",
+      "club_url": "https://www.transfermarkt.de/fc-basara-mainz/startseite/verein/46739/saison_id/2013",
+      "role": "Vorstandsvorsitzender",
+      "period": "13/14 (01.06.2014) - -"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2011",
+      "role": "Co-Trainer",
+      "period": "11/12 (01.07.2011) - 14/15 (01.12.2014)"
+    }
+  ],
+  "coach_id": "50670",
+  "_cached_at": "2026-02-13T00:03:01.054013",
+  "_preloaded_at": "2026-02-13T00:03:01.054973",
+  "_coach_name": "Takashi Yamashita"
+}

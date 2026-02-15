@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/torge-schwarz/profil/trainer/10261",
+  "scraped_at": "2026-02-13T00:24:00.127665",
+  "name": "Torge Schwarz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/10261-1422208728.jpg?lm=1",
+  "dob": "29.10.1969 (56)",
+  "age": 56,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/1999",
+      "role": "Physiotherapeut",
+      "period": "99/00 (01.06.2000) - -"
+    }
+  ],
+  "coach_id": "10261",
+  "_cached_at": "2026-02-13T00:24:00.146333",
+  "_preloaded_at": "2026-02-13T00:24:00.147199",
+  "_coach_name": "Torge Schwarz"
+}

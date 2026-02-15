@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/dr-yannic-bangert/profil/trainer/99525",
+  "scraped_at": "2026-02-12T18:28:04.959901",
+  "name": "Dr. Yannic Bangert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/99525-1730190954.jpg?lm=1",
+  "dob": "28.05.1980 (45)",
+  "age": 45,
+  "birthplace": "Ludwigsburg",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025",
+      "role": "Vereinsarzt",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2015",
+      "role": "Vereinsarzt",
+      "period": "15/16 (01.07.2015) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2011",
+      "role": "Vereinsarzt",
+      "period": "11/12 (01.05.2012) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "99525",
+  "_cached_at": "2026-02-12T18:28:04.970967",
+  "_preloaded_at": "2026-02-12T18:28:04.971625",
+  "_coach_name": "Dr. Yannic Bangert"
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/harald-endres/profil/trainer/46635",
+  "scraped_at": "2026-02-12T18:41:01.888030",
+  "name": "Harald Endres",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2016",
+      "role": "Aufsichtsratsmitglied",
+      "period": "16/17 (12.12.2016) - -"
+    }
+  ],
+  "coach_id": "46635",
+  "_cached_at": "2026-02-12T18:41:01.897375",
+  "_preloaded_at": "2026-02-12T18:41:01.897879",
+  "_coach_name": "Harald Endres"
+}

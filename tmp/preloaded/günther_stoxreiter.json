@@ -1,0 +1,64 @@
+{
+  "url": "https://www.transfermarkt.de/gunther-stoxreiter/profil/trainer/30701",
+  "scraped_at": "2026-02-12T18:38:59.899833",
+  "name": "Günther Stoxreiter",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/30701-1471554307.jpg?lm=1",
+  "dob": "30.11.1980 (45)",
+  "age": 45,
+  "birthplace": "Klagenfurt",
+  "nationality": "Österreich",
+  "license": "UEFA-A-Lizenz",
+  "agent": "MLG Sports ...",
+  "agent_url": "https://www.transfermarkt.de/mlg-sports-consulting/beraterfirma/berater/4991",
+  "current_role": "Athletiktrainer",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2016",
+      "role": "Athletiktrainer",
+      "period": "16/17 (07.07.2016) - -"
+    },
+    {
+      "club": "FAL U16",
+      "club_url": "https://www.transfermarkt.de/aka-lask-juniors-oo-u16/startseite/verein/42838/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (01.07.2015) - 16/17 (07.07.2016)"
+    },
+    {
+      "club": "AKA WAC U15",
+      "club_url": "https://www.transfermarkt.de/aka-wolfsberger-ac-u15/startseite/verein/42821/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "AKA WAC U18",
+      "club_url": "https://www.transfermarkt.de/aka-wolfsberger-ac-u18/startseite/verein/4386/saison_id/2014",
+      "role": "Sportlicher Leiter",
+      "period": "14/15 (01.07.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "AKA Kärnten U18",
+      "club_url": "https://www.transfermarkt.de/aka-wolfsberger-ac-u18/startseite/verein/4386/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "SV Feldkirchen",
+      "club_url": "https://www.transfermarkt.de/sv-feldkirchen/startseite/verein/6753/saison_id/2010",
+      "role": "Co-Trainer",
+      "period": "10/11 (01.09.2010) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "AKA Kärnten U15",
+      "club_url": "https://www.transfermarkt.de/aka-wolfsberger-ac-u15/startseite/verein/42821/saison_id/2009",
+      "role": "Co-Trainer",
+      "period": "09/10 (01.07.2009) - 09/10 (30.06.2010)"
+    }
+  ],
+  "coach_id": "30701",
+  "_cached_at": "2026-02-12T18:38:59.912317",
+  "_preloaded_at": "2026-02-12T18:38:59.912884",
+  "_coach_name": "Günther Stoxreiter"
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.transfermarkt.de/quirin-loppert/profil/trainer/51283",
+  "scraped_at": "2026-02-12T23:15:51.726152",
+  "name": "Quirin Löppert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/51283-1755203558.jpg?lm=1",
+  "dob": "01.05.1987 (38)",
+  "age": 38,
+  "birthplace": "München",
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainerund weitere Tätigkeiten",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2025",
+      "role": "Athletiktrainer",
+      "period": "25/26 (01.01.2026) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2025",
+      "role": "Rehatrainer",
+      "period": "25/26 (01.01.2026) - -"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2023",
+      "role": "Athletiktrainer",
+      "period": "23/24 (06.07.2023) - 25/26 (31.12.2025)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (01.07.2021) - 23/24 (05.07.2023)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2021",
+      "role": "Sportwissenschaftler",
+      "period": "21/22 (01.07.2021) - 23/24 (05.07.2023)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2020",
+      "role": "Athletiktrainer",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "B. München U17",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u17/startseite/verein/21058/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.07.2014) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "51283",
+  "_cached_at": "2026-02-12T23:15:51.739024",
+  "_preloaded_at": "2026-02-12T23:15:51.739875",
+  "_coach_name": "Quirin Löppert"
+}

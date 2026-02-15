@@ -1,0 +1,44 @@
+{
+  "url": "https://www.transfermarkt.de/vito-leccese/profil/trainer/68212",
+  "scraped_at": "2026-02-13T00:43:56.929149",
+  "name": "Vito Leccese",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "08.12.1988 (37)",
+  "age": 37,
+  "birthplace": "Köln",
+  "nationality": "DeutschlandItalien",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Koordinator Nachwuchsscouting",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2021",
+      "role": "Koordinator Nachwuchsscouting",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Chelsea",
+      "club_url": "https://www.transfermarkt.de/fc-chelsea/startseite/verein/631/saison_id/2016",
+      "role": "Nachwuchs-Chefscout",
+      "period": "16/17 (01.04.2017) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Viktoria Köln",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln/startseite/verein/1622/saison_id/2015",
+      "role": "Koordinator Nachwuchsscouting",
+      "period": "15/16 (01.07.2015) - 16/17 (31.03.2017)"
+    },
+    {
+      "club": "Viktoria Köln",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln/startseite/verein/1622/saison_id/2013",
+      "role": "Teammanager",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "68212",
+  "_cached_at": "2026-02-13T00:43:56.951832",
+  "_preloaded_at": "2026-02-13T00:43:56.952959",
+  "_coach_name": "Vito Leccese"
+}

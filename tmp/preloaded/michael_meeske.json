@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/michael-meeske/profil/trainer/40475",
+  "scraped_at": "2026-02-12T19:19:10.800898",
+  "name": "Michael Meeske",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/40475-1442855307.jpg?lm=1",
+  "dob": "27.10.1971 (54)",
+  "age": 54,
+  "birthplace": "Oldenburg",
+  "nationality": "Deutschland",
+  "current_role": "Geschäftsführer",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+      "role": "Geschäftsführer",
+      "period": "18/19 (01.11.2018) - -"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2016",
+      "role": "Vorstandsmitglied",
+      "period": "16/17 (01.09.2016) - 18/19 (12.10.2018)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2016",
+      "role": "Vorstandsmitglied",
+      "period": "16/17 (01.09.2016) - 18/19 (12.10.2018)"
+    },
+    {
+      "club": "1.FC Nürnberg",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg/startseite/verein/4/saison_id/2015",
+      "role": "Vorstand Finanzen",
+      "period": "15/16 (01.09.2015) - 18/19 (31.10.2018)"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2004",
+      "role": "Geschäftsführer kaufmännisch",
+      "period": "04/05 (01.12.2004) - 15/16 (31.08.2015)"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2001",
+      "role": "Direktor Marketing und Vertrieb",
+      "period": "01/02 (01.05.2002) - 04/05 (30.11.2004)"
+    }
+  ],
+  "coach_id": "40475",
+  "_cached_at": "2026-02-12T19:19:10.812733",
+  "_preloaded_at": "2026-02-12T19:19:10.813498",
+  "_coach_name": "Michael Meeske"
+}

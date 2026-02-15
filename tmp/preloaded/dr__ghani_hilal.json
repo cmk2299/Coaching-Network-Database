@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/dr-ghani-hilal/profil/trainer/60562",
+  "scraped_at": "2026-02-12T18:22:02.674870",
+  "name": "Dr. Ghani Hilal",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "16.03.1989 (36)",
+  "age": 36,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2022",
+      "role": "Vereinsarzt",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2020",
+      "role": "Vereinsarzt",
+      "period": "20/21 (01.07.2020) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Dortmund Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896/saison_id/2017",
+      "role": "Vereinsarzt",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Brünninghausen",
+      "club_url": "https://www.transfermarkt.de/fc-brunninghausen/startseite/verein/28949/saison_id/2016",
+      "role": "Vereinsarzt",
+      "period": "16/17 (01.11.2016) - 18/19 (31.07.2018)"
+    }
+  ],
+  "coach_id": "60562",
+  "_cached_at": "2026-02-12T18:22:02.691806",
+  "_preloaded_at": "2026-02-12T18:22:02.692527",
+  "_coach_name": "Dr. Ghani Hilal"
+}

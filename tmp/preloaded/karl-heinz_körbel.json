@@ -1,0 +1,91 @@
+{
+  "url": "https://www.transfermarkt.de/karl-heinz-korbel/profil/trainer/874",
+  "scraped_at": "2026-02-12T18:53:54.511019",
+  "name": "Karl-Heinz Körbel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1348221764.jpg?lm=1",
+  "dob": "01.12.1954 (71)",
+  "age": 71,
+  "birthplace": "Dossenheim",
+  "nationality": "Deutschland",
+  "current_role": "Klubrepräsentantund weitere Tätigkeiten",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2017",
+      "role": "Klubrepräsentant",
+      "period": "17/18 (04.11.2017) - -"
+    },
+    {
+      "club": "Hessen Dreieich",
+      "club_url": "https://www.transfermarkt.de/sc-hessen-dreieich/startseite/verein/42005/saison_id/2015",
+      "role": "Vize-Präsident",
+      "period": "15/16 (28.06.2016) - 18/19 (31.03.2019)"
+    },
+    {
+      "club": "Hessen Dreieich",
+      "club_url": "https://www.transfermarkt.de/sc-hessen-dreieich/startseite/verein/42005/saison_id/2015",
+      "role": "Sportdirektor",
+      "period": "15/16 (01.01.2016) - 18/19 (31.03.2019)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2010",
+      "role": "Leiter der Fußballschule",
+      "period": "10/11 (01.07.2010) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2002",
+      "role": "Scout",
+      "period": "02/03 (01.07.2003) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "FSV Zwickau",
+      "club_url": "https://www.transfermarkt.de/fsv-zwickau/startseite/verein/275/saison_id/1997",
+      "role": "Trainer",
+      "period": "97/98 (14.10.1997) - 97/98 (07.04.1998)"
+    },
+    {
+      "club": "VfB Lübeck",
+      "club_url": "https://www.transfermarkt.de/vfb-lubeck/startseite/verein/78/saison_id/1996",
+      "role": "Trainer",
+      "period": "96/97 (30.10.1996) - 97/98 (13.10.1997)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/1994",
+      "role": "Trainer",
+      "period": "94/95 (03.04.1995) - 95/96 (30.03.1996)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/1994",
+      "role": "Co-Trainer",
+      "period": "94/95 (01.07.1994) - 94/95 (02.04.1995)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/1993",
+      "role": "Trainer",
+      "period": "93/94 (03.04.1994) - 93/94 (30.06.1994)"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/1991",
+      "role": "Trainer",
+      "period": "91/92 (01.07.1991) - 93/94 (02.04.1994)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/1991",
+      "role": "Co-Trainer",
+      "period": "91/92 (01.07.1991) - 03/04 (02.04.1994)"
+    }
+  ],
+  "coach_id": "874",
+  "_cached_at": "2026-02-12T18:53:54.525438",
+  "_preloaded_at": "2026-02-12T18:53:54.526278",
+  "_coach_name": "Karl-Heinz Körbel"
+}

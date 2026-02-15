@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/jan-pfannschmidt/profil/trainer/127254",
+  "scraped_at": "2026-02-12T18:45:38.786391",
+  "name": "Jan Pfannschmidt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "24.11.1971 (54)",
+  "age": 54,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2021",
+      "role": "Zeugwart",
+      "period": "21/22 (01.07.2021) - -"
+    }
+  ],
+  "coach_id": "127254",
+  "_cached_at": "2026-02-12T18:45:38.796156",
+  "_preloaded_at": "2026-02-12T18:45:38.796707",
+  "_coach_name": "Jan Pfannschmidt"
+}

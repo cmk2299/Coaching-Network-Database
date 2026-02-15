@@ -1,0 +1,62 @@
+{
+  "url": "https://www.transfermarkt.de/bastian-schulz/profil/trainer/90215",
+  "scraped_at": "2026-02-12T18:01:42.174460",
+  "name": "Bastian Schulz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "10.07.1985 (40)",
+  "age": 40,
+  "birthplace": "Hannover",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Leiter der Scouting-Abteilung",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2024",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "24/25 (01.11.2024) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2020",
+      "role": "Scout",
+      "period": "20/21 (01.01.2021) - 24/25 (31.10.2024)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2017",
+      "role": "Scout",
+      "period": "17/18 (01.07.2017) - 20/21 (31.12.2020)"
+    },
+    {
+      "club": "VfL Osnabrück",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck/startseite/verein/81/saison_id/2016",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "16/17 (01.02.2017) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2014",
+      "role": "Pressemitarbeiter",
+      "period": "14/15 (01.09.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "RB Leipzig U17",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u17/startseite/verein/32942/saison_id/2011",
+      "role": "Betreuer",
+      "period": "11/12 (01.08.2011) - 13/14 (31.12.2013)"
+    }
+  ],
+  "coach_id": "90215",
+  "_cached_at": "2026-02-12T18:01:42.186407",
+  "_preloaded_at": "2026-02-12T18:01:42.187007",
+  "_coach_name": "Bastian Schulz"
+}

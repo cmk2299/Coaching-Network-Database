@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/ariane-weber/profil/trainer/145298",
+  "scraped_at": "2026-02-12T17:59:23.888560",
+  "name": "Ariane Weber",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "26.04.1968 (57)",
+  "age": 57,
+  "nationality": "Deutschland",
+  "current_role": "Betreuerin",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2004",
+      "role": "Betreuerin",
+      "period": "04/05 (01.07.2004) - -"
+    }
+  ],
+  "coach_id": "145298",
+  "_cached_at": "2026-02-12T17:59:23.901184",
+  "_preloaded_at": "2026-02-12T17:59:23.901861",
+  "_coach_name": "Ariane Weber"
+}

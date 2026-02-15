@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/max-breitner/profil/trainer/40194",
+  "scraped_at": "2026-02-12T19:15:20.483480",
+  "name": "Max Breitner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Marketingleiter",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2006",
+      "role": "Marketingleiter",
+      "period": "06/07 (01.04.2007) - -"
+    }
+  ],
+  "coach_id": "40194",
+  "_cached_at": "2026-02-12T19:15:20.492972",
+  "_preloaded_at": "2026-02-12T19:15:20.493535",
+  "_coach_name": "Max Breitner"
+}

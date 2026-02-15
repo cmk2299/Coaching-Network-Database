@@ -1,0 +1,92 @@
+{
+  "url": "https://www.transfermarkt.de/carlo-curcio/profil/trainer/63951",
+  "scraped_at": "2026-02-12T18:05:16.584131",
+  "name": "Carlo Curcio",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "14.02.1973 (52)",
+  "age": 52,
+  "birthplace": "Düren",
+  "nationality": "ItalienDeutschland",
+  "license": "A-Lizenz",
+  "current_role": "Scout",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 (01.10.2025) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2014",
+      "role": "Scout",
+      "period": "14/15 (01.12.2014) - 24/25 (31.08.2024)"
+    },
+    {
+      "club": "Rot-Weiß Erfurt",
+      "club_url": "https://www.transfermarkt.de/rot-weiss-erfurt/startseite/verein/111/saison_id/2011",
+      "role": "Scout",
+      "period": "11/12 (01.07.2011) - 15/16 (31.12.2015)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2009",
+      "role": "Spielanalyst",
+      "period": "09/10 (01.01.2010) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2008",
+      "role": "Scout",
+      "period": "08/09 (01.07.2008) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "A. Aachen Jgd.",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen-jugend/startseite/verein/11965/saison_id/2006",
+      "role": "Trainer",
+      "period": "06/07 (01.06.2007) - 08/09 (31.07.2008)"
+    },
+    {
+      "club": "F. Düsseldorf",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/2005",
+      "role": "Spielanalyst",
+      "period": "05/06 (01.07.2005) - 07/08 (31.12.2007)"
+    },
+    {
+      "club": "Frankon. Broich",
+      "club_url": "https://www.transfermarkt.de/frankonia-broich/startseite/verein/37862/saison_id/2004",
+      "role": "Trainer",
+      "period": "04/05 (01.01.2005) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "GFC Düren 09",
+      "club_url": "https://www.transfermarkt.de/gfc-duren-09-2011-/startseite/verein/96417/saison_id/2004",
+      "role": "Spielanalyst",
+      "period": "04/05 (01.08.2004) - 04/05 (31.10.2004)"
+    },
+    {
+      "club": "DFB-Stützpunkt",
+      "club_url": "https://www.transfermarkt.de/dfb-stutzpunkt/startseite/verein/36796/saison_id/2000",
+      "role": "Trainer",
+      "period": "00/01 (01.01.2001) - 06/07 (30.06.2007)"
+    },
+    {
+      "club": "Arnoldsweiler",
+      "club_url": "https://www.transfermarkt.de/viktoria-arnoldsweiler/startseite/verein/25201/saison_id/2000",
+      "role": "Co-Trainer",
+      "period": "00/01 (01.08.2000) - 02/03 (31.08.2002)"
+    },
+    {
+      "club": "Arnoldsweiler",
+      "club_url": "https://www.transfermarkt.de/viktoria-arnoldsweiler/startseite/verein/25201/saison_id/2000",
+      "role": "Torwarttrainer",
+      "period": "00/01 (01.08.2000) - 02/03 (31.08.2002)"
+    }
+  ],
+  "coach_id": "63951",
+  "_cached_at": "2026-02-12T18:05:16.597970",
+  "_preloaded_at": "2026-02-12T18:05:16.599681",
+  "_coach_name": "Carlo Curcio"
+}

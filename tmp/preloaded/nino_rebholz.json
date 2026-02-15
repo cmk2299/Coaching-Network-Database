@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/nino-rebholz/profil/trainer/148848",
+  "scraped_at": "2026-02-12T19:25:51.324752",
+  "name": "Nino Rebholz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 (01.07.2025) - -"
+    }
+  ],
+  "coach_id": "148848",
+  "_cached_at": "2026-02-12T19:25:51.334359",
+  "_preloaded_at": "2026-02-12T19:25:51.334929",
+  "_coach_name": "Nino Rebholz"
+}

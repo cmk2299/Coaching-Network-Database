@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/julian-baumgartlinger/profil/trainer/144252",
+  "scraped_at": "2026-02-12T18:51:36.162930",
+  "name": "Julian Baumgartlinger",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/144252-1751016189.jpg?lm=1",
+  "dob": "02.01.1988 (38)",
+  "age": 38,
+  "birthplace": "Salzburg",
+  "nationality": "Österreich",
+  "current_role": "Koordinator Lizenzbereich",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2025",
+      "role": "Koordinator Lizenzbereich",
+      "period": "25/26 (01.07.2025) - -"
+    }
+  ],
+  "coach_id": "144252",
+  "_cached_at": "2026-02-12T18:51:36.173403",
+  "_preloaded_at": "2026-02-12T18:51:36.173968",
+  "_coach_name": "Julian Baumgartlinger"
+}

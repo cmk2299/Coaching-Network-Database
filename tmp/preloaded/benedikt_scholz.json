@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/benedikt-scholz/profil/trainer/39282",
+  "scraped_at": "2026-02-12T18:02:13.286291",
+  "name": "Benedikt Scholz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Sponsoring/Marketing",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2021",
+      "role": "Direktor Sponsoring/Marketing",
+      "period": "21/22 (01.01.2022) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2010",
+      "role": "Marketingleiter",
+      "period": "10/11 (01.10.2010) - 21/22 (31.12.2021)"
+    }
+  ],
+  "coach_id": "39282",
+  "_cached_at": "2026-02-12T18:02:13.298418",
+  "_preloaded_at": "2026-02-12T18:02:13.299094",
+  "_coach_name": "Benedikt Scholz"
+}

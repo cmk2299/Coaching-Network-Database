@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/perry-brautigam/profil/trainer/699",
+  "scraped_at": "2026-02-12T19:30:25.320360",
+  "name": "Perry Bräutigam",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/699-1407491435.jpg?lm=1",
+  "dob": "28.03.1963 (62)",
+  "age": 62,
+  "birthplace": "Altenburg",
+  "nationality": "Deutschland",
+  "current_role": "Klubrepräsentant",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2015",
+      "role": "Klubrepräsentant",
+      "period": "15/16 (01.07.2015) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2015",
+      "role": "Scout Torwartbereich",
+      "period": "15/16 (01.07.2015) - 15/16"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2009",
+      "role": "Torwarttrainer",
+      "period": "09/10 (01.07.2009) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Hansa Rostock",
+      "club_url": "https://www.transfermarkt.de/fc-hansa-rostock/startseite/verein/30/saison_id/2002",
+      "role": "Torwarttrainer",
+      "period": "02/03 (01.07.2002) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "699",
+  "_cached_at": "2026-02-12T19:30:25.331923",
+  "_preloaded_at": "2026-02-12T19:30:25.332581",
+  "_coach_name": "Perry Bräutigam"
+}

@@ -1,0 +1,48 @@
+{
+  "url": "https://www.transfermarkt.de/tim-kraks/profil/trainer/115913",
+  "scraped_at": "2026-02-13T00:07:29.674064",
+  "name": "Tim Kraks",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "20.06.1988 (37)",
+  "age": 37,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2025",
+      "role": "Physiotherapeut",
+      "period": "25/26 (01.08.2025) - -"
+    },
+    {
+      "club": "M'gladbach II",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-ii/startseite/verein/1006/saison_id/2024",
+      "role": "Physiotherapeut",
+      "period": "24/25 (01.02.2025) - -"
+    },
+    {
+      "club": "M'gladbach II",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-ii/startseite/verein/1006/saison_id/2022",
+      "role": "Physiotherapeut",
+      "period": "22/23 (01.07.2022) - 24/25 (01.08.2024)"
+    },
+    {
+      "club": "B. Dortmund U19",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-u19/startseite/verein/1464/saison_id/2017",
+      "role": "Physiotherapeut",
+      "period": "17/18 (01.10.2017) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "F. Düsseldorf",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/2011",
+      "role": "Physiotherapeut",
+      "period": "11/12 (01.03.2012) - 16/17 (31.08.2016)"
+    }
+  ],
+  "coach_id": "115913",
+  "_cached_at": "2026-02-13T00:07:29.690324",
+  "_preloaded_at": "2026-02-13T00:07:29.691094",
+  "_coach_name": "Tim Kraks"
+}

@@ -1,0 +1,62 @@
+{
+  "url": "https://www.transfermarkt.de/felix-roth/profil/trainer/102281",
+  "scraped_at": "2026-02-12T18:32:04.859995",
+  "name": "Felix Roth",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.11.1987 (38)",
+  "age": 38,
+  "birthplace": "Offenburg",
+  "nationality": "Deutschland",
+  "license": "B-Lizenz",
+  "current_role": "Individualtrainerund weitere Tätigkeiten",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2025",
+      "role": "Individualtrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2025",
+      "role": "Videoanalyst",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2024",
+      "role": "Verbindungstrainer",
+      "period": "24/25 (01.07.2024) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "FFS",
+      "club_url": "https://www.transfermarkt.de/freiburger-fussballschule/startseite/verein/47068/saison_id/2022",
+      "role": "Koordinator Talentförderung",
+      "period": "22/23 (01.04.2023) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "SC Freiburg II",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-ii/startseite/verein/245/saison_id/2022",
+      "role": "Verbindungstrainer",
+      "period": "22/23 (01.04.2023) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "SC Freiburg U19",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2022",
+      "role": "Verbindungstrainer",
+      "period": "22/23 (01.04.2023) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "SC Freiburg II",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-ii/startseite/verein/245/saison_id/2021",
+      "role": "Co-Trainer Analyse",
+      "period": "21/22 (01.07.2021) - 22/23 (31.03.2023)"
+    }
+  ],
+  "coach_id": "102281",
+  "_cached_at": "2026-02-12T18:32:04.874845",
+  "_preloaded_at": "2026-02-12T18:32:04.875865",
+  "_coach_name": "Felix Roth"
+}

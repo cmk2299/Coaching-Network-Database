@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dr-klaus-behrenbeck/profil/trainer/26046",
+  "scraped_at": "2026-02-12T18:23:56.884528",
+  "name": "Dr. Klaus Behrenbeck",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.02.1967 (59)",
+  "age": 59,
+  "nationality": "Deutschland",
+  "current_role": "Wirtschaftsrat",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2019",
+      "role": "Wirtschaftsrat",
+      "period": "19/20 (01.10.2019) - -"
+    }
+  ],
+  "coach_id": "26046",
+  "_cached_at": "2026-02-12T18:23:56.894373",
+  "_preloaded_at": "2026-02-12T18:23:56.894917",
+  "_coach_name": "Dr. Klaus Behrenbeck"
+}

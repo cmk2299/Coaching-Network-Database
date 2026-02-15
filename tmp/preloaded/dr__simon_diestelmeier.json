@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/dr-simon-diestelmeier/profil/trainer/107387",
+  "scraped_at": "2026-02-12T18:26:42.504908",
+  "name": "Dr. Simon Diestelmeier",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "16.12.1982 (43)",
+  "age": 43,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2023",
+      "role": "Vereinsarzt",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2020",
+      "role": "Vereinsarzt",
+      "period": "20/21 (01.07.2020) - 22/23 (30.06.2023)"
+    }
+  ],
+  "coach_id": "107387",
+  "_cached_at": "2026-02-12T18:26:42.516172",
+  "_preloaded_at": "2026-02-12T18:26:42.516859",
+  "_coach_name": "Dr. Simon Diestelmeier"
+}

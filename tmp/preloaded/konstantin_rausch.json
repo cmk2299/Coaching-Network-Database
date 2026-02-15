@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/konstantin-rausch/profil/trainer/137160",
+  "scraped_at": "2026-02-12T18:57:33.436718",
+  "name": "Konstantin Rausch",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.03.1990 (35)",
+  "age": 35,
+  "birthplace": "Kozhevnikovo, Tomsk Oblast",
+  "nationality": "RusslandDeutschland",
+  "current_role": "Scout",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2024",
+      "role": "Scout",
+      "period": "24/25 (01.01.2025) - -"
+    },
+    {
+      "club": "1.FC Nürnberg",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg/startseite/verein/4/saison_id/2023",
+      "role": "Scout",
+      "period": "23/24 (01.07.2023) - 24/25 (31.12.2024)"
+    }
+  ],
+  "coach_id": "137160",
+  "_cached_at": "2026-02-12T18:57:33.447224",
+  "_preloaded_at": "2026-02-12T18:57:33.447824",
+  "_coach_name": "Konstantin Rausch"
+}

@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/manuel-roth/profil/trainer/25352",
+  "scraped_at": "2026-02-12T19:03:42.735269",
+  "name": "Manuel Roth",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/25352-1406750362.jpg?lm=1",
+  "dob": "01.12.1977 (48)",
+  "age": 48,
+  "birthplace": "Bad Cannstatt",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2006",
+      "role": "Physiotherapeut",
+      "period": "06/07 (01.10.2006) - -"
+    }
+  ],
+  "coach_id": "25352",
+  "_cached_at": "2026-02-12T19:03:42.745335",
+  "_preloaded_at": "2026-02-12T19:03:42.745943",
+  "_coach_name": "Manuel Roth"
+}

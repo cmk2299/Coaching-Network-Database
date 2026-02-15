@@ -1,0 +1,54 @@
+{
+  "url": "https://www.transfermarkt.de/lorenz-baumann/profil/trainer/113443",
+  "scraped_at": "2026-02-12T19:00:13.939099",
+  "name": "Lorenz Baumann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "06.03.1986 (39)",
+  "age": 39,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Myanmar",
+      "club_url": "https://www.transfermarkt.de/myanmar/startseite/verein/16423/saison_id/2022",
+      "role": "Co-Trainer Analyse",
+      "period": "22/23 (01.03.2023) - 24/25 (13.08.2024)"
+    },
+    {
+      "club": "Myanmar U23",
+      "club_url": "https://www.transfermarkt.de/myanmar-u23/startseite/verein/49474/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (01.03.2023) - 24/25 (13.08.2024)"
+    },
+    {
+      "club": "Myanmar U22",
+      "club_url": "https://www.transfermarkt.de/myanmar-u22/startseite/verein/98617/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (01.03.2023) - 24/25 (13.08.2024)"
+    },
+    {
+      "club": "Selangor FC",
+      "club_url": "https://www.transfermarkt.de/selangor-fc/startseite/verein/15831/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (01.12.2021) - 22/23 (29.09.2022)"
+    },
+    {
+      "club": "Selangor",
+      "club_url": "https://www.transfermarkt.de/selangor-fc/startseite/verein/15831/saison_id/2019",
+      "role": "Technischer Direktor",
+      "period": "19/20 (01.01.2020) - 21/22 (30.11.2021)"
+    }
+  ],
+  "coach_id": "113443",
+  "_cached_at": "2026-02-12T19:00:13.950903",
+  "_preloaded_at": "2026-02-12T19:00:13.951577",
+  "_coach_name": "Lorenz Baumann"
+}

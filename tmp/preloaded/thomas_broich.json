@@ -1,0 +1,44 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-broich/profil/trainer/55355",
+  "scraped_at": "2026-02-13T00:04:04.297493",
+  "name": "Thomas Broich",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/55355-1585575779.jpg?lm=1",
+  "dob": "29.01.1981 (45)",
+  "age": 45,
+  "birthplace": "München",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "current_role": "Leiter der Nachwuchsabteilung",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2024",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2027"
+    },
+    {
+      "club": "Hertha BSC Jgd.",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc-jugend/startseite/verein/11844/saison_id/2021",
+      "role": "Leiter Methodik",
+      "period": "21/22 (01.01.2022) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/2020",
+      "role": "Trainer",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Brisbane City",
+      "club_url": "https://www.transfermarkt.de/brisbane-city-fc/startseite/verein/18004/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (03.07.2017) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "55355",
+  "_cached_at": "2026-02-13T00:04:04.319582",
+  "_preloaded_at": "2026-02-13T00:04:04.320451",
+  "_coach_name": "Thomas Broich"
+}

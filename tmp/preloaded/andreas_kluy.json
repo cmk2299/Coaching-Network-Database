@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-kluy/profil/trainer/47466",
+  "scraped_at": "2026-02-12T17:56:13.327097",
+  "name": "Andreas Kluy",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/47466-1471377551.JPG?lm=1",
+  "dob": "21.12.1982 (43)",
+  "age": 43,
+  "birthplace": "Hattingen",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Marketing und Vertrieb",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Direktor Marketing und Vertrieb",
+      "period": "24/25 (01.12.2024) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2018",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "18/19 (01.08.2018) - 24/25 (01.12.2024)"
+    },
+    {
+      "club": "Brünninghausen",
+      "club_url": "https://www.transfermarkt.de/fc-brunninghausen/startseite/verein/28949/saison_id/2017",
+      "role": "Sportlicher Leiter",
+      "period": "17/18 (01.07.2017) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Brünninghausen",
+      "club_url": "https://www.transfermarkt.de/fc-brunninghausen/startseite/verein/28949/saison_id/2015",
+      "role": "Interimstrainer",
+      "period": "15/16 (20.04.2016) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Brünninghausen",
+      "club_url": "https://www.transfermarkt.de/fc-brunninghausen/startseite/verein/28949/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "47466",
+  "_cached_at": "2026-02-12T17:56:13.338627",
+  "_preloaded_at": "2026-02-12T17:56:13.339206",
+  "_coach_name": "Andreas Kluy"
+}

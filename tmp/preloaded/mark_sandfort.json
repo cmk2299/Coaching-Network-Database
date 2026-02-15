@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/mark-sandfort/profil/trainer/145689",
+  "scraped_at": "2026-02-12T19:08:04.822814",
+  "name": "Mark Sandfort",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "20.02.1984 (41)",
+  "age": 41,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Vereinsarzt",
+      "period": "24/25 (01.07.2024) - -"
+    }
+  ],
+  "coach_id": "145689",
+  "_cached_at": "2026-02-12T19:08:04.832678",
+  "_preloaded_at": "2026-02-12T19:08:04.833245",
+  "_coach_name": "Mark Sandfort"
+}

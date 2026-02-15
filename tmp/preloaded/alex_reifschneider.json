@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/alex-reifschneider/profil/trainer/71209",
+  "scraped_at": "2026-02-12T17:52:52.792394",
+  "name": "Alex Reifschneider",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "09.11.1988 (37)",
+  "age": 37,
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Letzter Posten:InterimstrainerEintracht Frankfurt U19Amtsende:30.06.2025",
+  "current_club": "Vereinslos",
+  "current_club_url": "https://www.transfermarkt.de/trainer/verfuegbaretrainer/statistik",
+  "career_history": [
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2024",
+      "role": "Interimstrainer",
+      "period": "24/25 (01.01.2025) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2023",
+      "role": "Ausbildungsleiter",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Ingolstadt II",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04-ii/startseite/verein/7681/saison_id/2019",
+      "role": "Trainer",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "DFB-Jugend",
+      "club_url": "https://www.transfermarkt.de/dfb-jugend/startseite/verein/50422/saison_id/2017",
+      "role": "Koordinator Talentförderung",
+      "period": "17/18 - 18/19"
+    },
+    {
+      "club": "Ingolstadt U17",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04-u17/startseite/verein/38224/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 - 16/17"
+    },
+    {
+      "club": "Ingolstadt Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04-jugend/startseite/verein/38223/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 - 15/16"
+    }
+  ],
+  "coach_id": "71209",
+  "_cached_at": "2026-02-12T17:52:52.806803",
+  "_preloaded_at": "2026-02-12T17:52:52.807486",
+  "_coach_name": "Alex Reifschneider"
+}

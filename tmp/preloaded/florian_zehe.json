@@ -1,0 +1,62 @@
+{
+  "url": "https://www.transfermarkt.de/florian-zehe/profil/trainer/20900",
+  "scraped_at": "2026-02-12T18:34:00.481714",
+  "name": "Florian Zehe",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.03.1980 (45)",
+  "age": 45,
+  "birthplace": "Schweinfurt",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (01.01.2023) - -"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2021",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "21/22 (27.09.2021) - 22/23 (31.12.2022)"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2018",
+      "role": "Technischer Direktor",
+      "period": "18/19 (05.06.2019) - 21/22 (26.09.2021)"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2011",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "11/12 (01.08.2011) - 18/19 (04.06.2019)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2010",
+      "role": "Scout",
+      "period": "10/11 (01.10.2010) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "RB Salzburg",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg/startseite/verein/409/saison_id/2010",
+      "role": "Scout",
+      "period": "10/11 (01.10.2010) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2005",
+      "role": "Scout",
+      "period": "05/06 (01.04.2006) - 09/10 (30.08.2009)"
+    }
+  ],
+  "coach_id": "20900",
+  "_cached_at": "2026-02-12T18:34:00.493563",
+  "_preloaded_at": "2026-02-12T18:34:00.494174",
+  "_coach_name": "Florian Zehe"
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/philipp-schmidt/profil/trainer/120348",
+  "scraped_at": "2026-02-12T23:14:13.504865",
+  "name": "Philipp Schmidt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.01.1991 (35)",
+  "age": 35,
+  "nationality": "Deutschland",
+  "current_role": "Rehatrainer",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2023",
+      "role": "Rehatrainer",
+      "period": "23/24 (01.07.2023) - -"
+    }
+  ],
+  "coach_id": "120348",
+  "_cached_at": "2026-02-12T23:14:13.529602",
+  "_preloaded_at": "2026-02-12T23:14:13.530649",
+  "_coach_name": "Philipp Schmidt"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/darius-salbert/profil/trainer/11358",
+  "scraped_at": "2026-02-12T18:14:42.334225",
+  "name": "Darius Salbert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_11358_851_2012_1.jpg?lm=1",
+  "dob": "24.02.1982 (43)",
+  "age": 43,
+  "birthplace": "Mainz",
+  "nationality": "Deutschland",
+  "current_role": "Teammanager",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2015",
+      "role": "Teammanager",
+      "period": "15/16 (15.05.2016) - -"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2003",
+      "role": "Teammanager",
+      "period": "03/04 (01.07.2003) - 15/16 (14.05.2016)"
+    }
+  ],
+  "coach_id": "11358",
+  "_cached_at": "2026-02-12T18:14:42.345483",
+  "_preloaded_at": "2026-02-12T18:14:42.346064",
+  "_coach_name": "Darius Salbert"
+}

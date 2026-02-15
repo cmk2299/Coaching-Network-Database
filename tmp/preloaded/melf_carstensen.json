@@ -1,0 +1,60 @@
+{
+  "url": "https://www.transfermarkt.de/melf-carstensen/profil/trainer/93729",
+  "scraped_at": "2026-02-12T19:17:30.038919",
+  "name": "Melf Carstensen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "30.05.1989 (36)",
+  "age": 36,
+  "nationality": "Deutschland",
+  "current_role": "Ernährungsberater",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2025",
+      "role": "Ernährungsberater",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2021",
+      "role": "Ernährungsberater",
+      "period": "21/22 (01.07.2021) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2016",
+      "role": "Ernährungsberater",
+      "period": "16/17 (01.07.2016) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "M'gladbach U19",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/2012",
+      "role": "Ernährungsberater",
+      "period": "12/13 (01.02.2013) - 20/21 (30.09.2020)"
+    },
+    {
+      "club": "M'gladbach U17",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u17/startseite/verein/21056/saison_id/2012",
+      "role": "Ernährungsberater",
+      "period": "12/13 (01.02.2013) - 20/21 (30.09.2020)"
+    },
+    {
+      "club": "M'gladbach Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-jugend/startseite/verein/11845/saison_id/2012",
+      "role": "Ernährungsberater",
+      "period": "12/13 (01.02.2013) - 20/21 (30.09.2020)"
+    },
+    {
+      "club": "M'gladbach II",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-ii/startseite/verein/1006/saison_id/2012",
+      "role": "Ernährungsberater",
+      "period": "12/13 (01.09.2012) - 12/13 (28.02.2013)"
+    }
+  ],
+  "coach_id": "93729",
+  "_cached_at": "2026-02-12T19:17:30.050446",
+  "_preloaded_at": "2026-02-12T19:17:30.051102",
+  "_coach_name": "Melf Carstensen"
+}

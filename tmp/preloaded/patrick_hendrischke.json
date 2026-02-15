@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/patrick-hendrischke/profil/trainer/136296",
+  "scraped_at": "2026-02-12T19:28:31.140457",
+  "name": "Patrick Hendrischke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "01.02.1988 (38)",
+  "age": 38,
+  "birthplace": "Görlitz",
+  "nationality": "Deutschland",
+  "current_role": "Pressemitarbeiter",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2022",
+      "role": "Pressemitarbeiter",
+      "period": "22/23 (01.02.2023) - -"
+    }
+  ],
+  "coach_id": "136296",
+  "_cached_at": "2026-02-12T19:28:31.150170",
+  "_preloaded_at": "2026-02-12T19:28:31.150711",
+  "_coach_name": "Patrick Hendrischke"
+}

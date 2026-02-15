@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/uwe-leifeld/profil/trainer/4673",
+  "scraped_at": "2026-02-13T00:42:55.623636",
+  "name": "Uwe Leifeld",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "24.07.1966 (59)",
+  "age": 59,
+  "birthplace": "Münster",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2007",
+      "role": "Scout",
+      "period": "07/08 (01.11.2007) - -"
+    },
+    {
+      "club": "TuS Laer 08",
+      "club_url": "https://www.transfermarkt.de/tus-laer-08/startseite/verein/51133/saison_id/2001",
+      "role": "Trainer",
+      "period": "01/02 - 03/04"
+    }
+  ],
+  "coach_id": "4673",
+  "_cached_at": "2026-02-13T00:42:55.658754",
+  "_preloaded_at": "2026-02-13T00:42:55.660305",
+  "_coach_name": "Uwe Leifeld"
+}

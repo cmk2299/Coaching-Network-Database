@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/klaus-filbry/profil/trainer/10579",
+  "scraped_at": "2026-02-12T18:56:16.542182",
+  "name": "Klaus Filbry",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/10579-1661419674.jpg?lm=1",
+  "dob": "09.01.1967 (59)",
+  "age": 59,
+  "birthplace": "Münster",
+  "nationality": "Deutschland",
+  "current_role": "Vorsitzender Geschäftsführungund weitere Tätigkeiten",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2015",
+      "role": "Aufsichtsratsmitglied",
+      "period": "15/16 (01.07.2015) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2012",
+      "role": "Vorsitzender Geschäftsführung",
+      "period": "12/13 (23.11.2012) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2009",
+      "role": "Geschäftsführer kaufmännisch",
+      "period": "09/10 (01.01.2010) - 12/13 (22.11.2012)"
+    }
+  ],
+  "coach_id": "10579",
+  "_cached_at": "2026-02-12T18:56:16.554173",
+  "_preloaded_at": "2026-02-12T18:56:16.554826",
+  "_coach_name": "Klaus Filbry"
+}

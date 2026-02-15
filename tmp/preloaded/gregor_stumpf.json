@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/gregor-stumpf/profil/trainer/92704",
+  "scraped_at": "2026-02-12T18:38:37.092308",
+  "name": "Gregor Stumpf",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.02.1979 (46)",
+  "age": 46,
+  "birthplace": "Bonn",
+  "nationality": "Deutschland",
+  "current_role": "Rehatrainer",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2015",
+      "role": "Rehatrainer",
+      "period": "15/16 (01.07.2015) - -"
+    }
+  ],
+  "coach_id": "92704",
+  "_cached_at": "2026-02-12T18:38:37.102000",
+  "_preloaded_at": "2026-02-12T18:38:37.102520",
+  "_coach_name": "Gregor Stumpf"
+}

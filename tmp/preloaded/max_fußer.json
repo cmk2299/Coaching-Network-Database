@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/max-fusser/profil/trainer/143283",
+  "scraped_at": "2026-02-12T19:15:35.371006",
+  "name": "Max Fußer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.01.2020) - -"
+    }
+  ],
+  "coach_id": "143283",
+  "_cached_at": "2026-02-12T19:15:35.380731",
+  "_preloaded_at": "2026-02-12T19:15:35.381351",
+  "_coach_name": "Max Fußer"
+}

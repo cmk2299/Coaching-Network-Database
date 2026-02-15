@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/martin-franz/profil/trainer/19174",
+  "scraped_at": "2026-02-12T19:11:00.157846",
+  "name": "Martin Franz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.03.1982 (43)",
+  "age": 43,
+  "birthplace": "Ilmenau",
+  "nationality": "Deutschland",
+  "current_role": "Präventivtrainer",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2020",
+      "role": "Präventivtrainer",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2019",
+      "role": "Performance Manager",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Stuttgart U19",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-u19/startseite/verein/2517/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "TuS Metzingen",
+      "club_url": "https://www.transfermarkt.de/tus-metzingen/startseite/verein/5274/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.07.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Deutschland U21",
+      "club_url": "https://www.transfermarkt.de/deutschland-u21/startseite/verein/3817/saison_id/2010",
+      "role": "Athletiktrainer",
+      "period": "10/11 (01.07.2010) - 15/16 (28.02.2016)"
+    },
+    {
+      "club": "Deutschland U19",
+      "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2010",
+      "role": "Athletiktrainer",
+      "period": "10/11 (01.07.2010) - 15/16 (28.02.2016)"
+    }
+  ],
+  "coach_id": "19174",
+  "_cached_at": "2026-02-12T19:11:00.169932",
+  "_preloaded_at": "2026-02-12T19:11:00.170638",
+  "_coach_name": "Martin Franz"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/daniel-jouvin/profil/trainer/50551",
+  "scraped_at": "2026-02-12T18:13:10.766912",
+  "name": "Daniel Jouvin",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/50551-1611093246.png?lm=1",
+  "dob": "16.06.1978 (47)",
+  "age": 47,
+  "birthplace": "Rio de Janeiro",
+  "nationality": "BrasilienDeutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2010",
+      "role": "Athletiktrainer",
+      "period": "10/11 (03.01.2011) - -"
+    },
+    {
+      "club": "Flamengo",
+      "club_url": "https://www.transfermarkt.de/flamengo-rio-de-janeiro/startseite/verein/614/saison_id/1999",
+      "role": "Athletiktrainer",
+      "period": "99/00 (01.01.2000) - 10/11 (02.01.2011)"
+    }
+  ],
+  "coach_id": "50551",
+  "_cached_at": "2026-02-12T18:13:10.778122",
+  "_preloaded_at": "2026-02-12T18:13:10.778681",
+  "_coach_name": "Daniel Jouvin"
+}

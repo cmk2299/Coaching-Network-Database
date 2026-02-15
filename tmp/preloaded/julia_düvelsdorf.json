@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/julia-duvelsdorf/profil/trainer/38939",
+  "scraped_at": "2026-02-12T18:51:28.584077",
+  "name": "Julia Düvelsdorf",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/38939-1571821600.jpg?lm=1",
+  "dob": "30.11.1977 (48)",
+  "age": 48,
+  "birthplace": "Bremen",
+  "nationality": "Deutschland",
+  "current_role": "Fanbeauftragte",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2010",
+      "role": "Fanbeauftragte",
+      "period": "10/11 (01.08.2010) - -"
+    }
+  ],
+  "coach_id": "38939",
+  "_cached_at": "2026-02-12T18:51:28.594237",
+  "_preloaded_at": "2026-02-12T18:51:28.594855",
+  "_coach_name": "Julia Düvelsdorf"
+}

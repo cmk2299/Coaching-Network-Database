@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/hans-peter-lehnhoff/profil/trainer/8320",
+  "scraped_at": "2026-02-12T18:40:31.374049",
+  "name": "Hans-Peter Lehnhoff",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_8320_15_2010_1.jpg?lm=1",
+  "dob": "12.07.1963 (62)",
+  "age": 62,
+  "birthplace": "Mariadorf",
+  "nationality": "Deutschland",
+  "current_role": "Teammanager",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2000",
+      "role": "Teammanager",
+      "period": "00/01 (01.07.2000) - -"
+    }
+  ],
+  "coach_id": "8320",
+  "_cached_at": "2026-02-12T18:40:31.384209",
+  "_preloaded_at": "2026-02-12T18:40:31.385177",
+  "_coach_name": "Hans-Peter Lehnhoff"
+}

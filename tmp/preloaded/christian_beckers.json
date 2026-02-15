@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/christian-beckers/profil/trainer/82403",
+  "scraped_at": "2026-02-12T18:06:09.965995",
+  "name": "Christian Beckers",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.07.1985 (40)",
+  "age": 40,
+  "birthplace": "Düsseldorf",
+  "nationality": "Deutschland",
+  "current_role": "Betreuerund weitere Tätigkeiten",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2016",
+      "role": "Zeugwart",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2016",
+      "role": "Betreuer",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2006",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "06/07 (01.07.2006) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "82403",
+  "_cached_at": "2026-02-12T18:06:09.976792",
+  "_preloaded_at": "2026-02-12T18:06:09.977416",
+  "_coach_name": "Christian Beckers"
+}

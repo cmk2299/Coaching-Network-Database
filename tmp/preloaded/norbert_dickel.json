@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/norbert-dickel/profil/trainer/9597",
+  "scraped_at": "2026-02-12T19:26:06.378496",
+  "name": "Norbert Dickel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/9597-1430202830.jpg?lm=1",
+  "dob": "27.11.1961 (64)",
+  "age": 64,
+  "birthplace": "Berghausen",
+  "nationality": "Deutschland",
+  "current_role": "Stadionsprecher",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/1992",
+      "role": "Stadionsprecher",
+      "period": "92/93 (01.07.1992) - -"
+    }
+  ],
+  "coach_id": "9597",
+  "_cached_at": "2026-02-12T19:26:06.389484",
+  "_preloaded_at": "2026-02-12T19:26:06.390091",
+  "_coach_name": "Norbert Dickel"
+}

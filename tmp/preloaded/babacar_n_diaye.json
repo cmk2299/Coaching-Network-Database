@@ -1,0 +1,40 @@
+{
+  "url": "https://www.transfermarkt.de/babacar-ndiaye/profil/trainer/27586",
+  "scraped_at": "2026-02-12T18:00:55.081686",
+  "name": "Babacar N'Diaye",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/27586-1406616260.jpg?lm=1",
+  "dob": "12.12.1973 (52)",
+  "age": 52,
+  "birthplace": "Thiès",
+  "nationality": "SenegalDeutschland",
+  "license": "UEFA-A-Lizenz",
+  "agent": "MMR Professionals",
+  "agent_url": "https://www.transfermarkt.de/mmr-professionals/beraterfirma/berater/13560",
+  "current_role": "Teammanager",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2017",
+      "role": "Teammanager",
+      "period": "17/18 (01.07.2017) - -"
+    },
+    {
+      "club": "SC Teutonia",
+      "club_url": "https://www.transfermarkt.de/fc-giessen/startseite/verein/66883/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (07.09.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Pr. Münster",
+      "club_url": "https://www.transfermarkt.de/preussen-munster/startseite/verein/91/saison_id/2012",
+      "role": "Co-Trainer",
+      "period": "12/13 (01.07.2012) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "27586",
+  "_cached_at": "2026-02-12T18:00:55.099321",
+  "_preloaded_at": "2026-02-12T18:00:55.100110",
+  "_coach_name": "Babacar N'Diaye"
+}

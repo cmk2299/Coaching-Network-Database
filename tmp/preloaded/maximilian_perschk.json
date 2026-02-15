@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/maximilian-perschk/profil/trainer/36400",
+  "scraped_at": "2026-02-12T19:16:21.519906",
+  "name": "Maximilian Perschk",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "25.04.1990 (35)",
+  "age": 35,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "current_role": "Medizinischer Leiter Physiotherapie",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2018",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2016",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "U. Berlin U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2015",
+      "role": "Physiotherapeut",
+      "period": "15/16 (01.07.2015) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2014",
+      "role": "Leitender Physiotherapeut Akademie",
+      "period": "14/15 (01.07.2014) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Union Berlin II",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-ii/startseite/verein/5303/saison_id/2013",
+      "role": "Physiotherapeut",
+      "period": "13/14 (01.01.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "U. Berlin U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u17/startseite/verein/21099/saison_id/2013",
+      "role": "Physiotherapeut",
+      "period": "13/14 (01.10.2013) - 13/14 (31.12.2013)"
+    }
+  ],
+  "coach_id": "36400",
+  "_cached_at": "2026-02-12T19:16:21.531026",
+  "_preloaded_at": "2026-02-12T19:16:21.531644",
+  "_coach_name": "Maximilian Perschk"
+}

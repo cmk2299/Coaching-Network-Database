@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/jochen-rottgermann/profil/trainer/55494",
+  "scraped_at": "2026-02-12T18:47:47.705625",
+  "name": "Jochen Röttgermann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.12.1966 (59)",
+  "age": 59,
+  "birthplace": "Lindenberg",
+  "nationality": "Deutschland",
+  "current_role": "Vorstand Marketing",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2023",
+      "role": "Vorstand Marketing",
+      "period": "23/24 (01.06.2023) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2015",
+      "role": "Vorstand Marketing",
+      "period": "15/16 (01.07.2015) - 20/21 (13.02.2021)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2006",
+      "role": "Geschäftsführer Sport & Kommunikation",
+      "period": "06/07 (01.08.2006) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "55494",
+  "_cached_at": "2026-02-12T18:47:47.716353",
+  "_preloaded_at": "2026-02-12T18:47:47.716982",
+  "_coach_name": "Jochen Röttgermann"
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://www.transfermarkt.de/daniel-fradley/profil/trainer/132676",
+  "scraped_at": "2026-02-12T18:12:40.774080",
+  "name": "Daniel Fradley",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.10.1990 (35)",
+  "age": 35,
+  "birthplace": "Manchester",
+  "nationality": "England",
+  "license": "UEFA-B-Lizenz",
+  "agent": "Refuel Performance ...",
+  "agent_url": "https://www.transfermarkt.de/refuel-performance-management/beraterfirma/berater/9029",
+  "current_role": "Co-Trainer",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (02.01.2026) - -"
+    },
+    {
+      "club": "Man City",
+      "club_url": "https://www.transfermarkt.de/manchester-city/startseite/verein/281/saison_id/2023",
+      "role": "Chefanalytiker",
+      "period": "23/24 (01.11.2023) - 25/26 (01.01.2026)"
+    },
+    {
+      "club": "New York City",
+      "club_url": "https://www.transfermarkt.de/new-york-city-fc/startseite/verein/40058/saison_id/2016",
+      "role": "Techniktrainer",
+      "period": "16/17 (01.01.2017) - 23/24 (31.10.2023)"
+    },
+    {
+      "club": "New York City",
+      "club_url": "https://www.transfermarkt.de/new-york-city-fc/startseite/verein/40058/saison_id/2015",
+      "role": "Chefanalytiker",
+      "period": "15/16 (01.08.2015) - 16/17 (31.12.2016)"
+    },
+    {
+      "club": "AFC Rochdale",
+      "club_url": "https://www.transfermarkt.de/afc-rochdale/startseite/verein/1088/saison_id/2012",
+      "role": "Chefanalytiker",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Rochdale U21",
+      "club_url": "https://www.transfermarkt.de/afc-rochdale-u21/startseite/verein/89136/saison_id/2010",
+      "role": "Chefanalytiker",
+      "period": "10/11 (01.09.2010) - 12/13 (31.07.2012)"
+    },
+    {
+      "club": "Rochdale U18",
+      "club_url": "https://www.transfermarkt.de/afc-rochdale-u18/startseite/verein/15009/saison_id/2010",
+      "role": "Chefanalytiker",
+      "period": "10/11 (01.09.2010) - 12/13 (31.07.2012)"
+    },
+    {
+      "club": "Rochdale Jgd.",
+      "club_url": "https://www.transfermarkt.de/rochdale-afc-youth/startseite/verein/120959/saison_id/2010",
+      "role": "Chefanalytiker",
+      "period": "10/11 (01.09.2010) - 12/13 (31.07.2012)"
+    }
+  ],
+  "coach_id": "132676",
+  "_cached_at": "2026-02-12T18:12:40.786816",
+  "_preloaded_at": "2026-02-12T18:12:40.787477",
+  "_coach_name": "Daniel Fradley"
+}

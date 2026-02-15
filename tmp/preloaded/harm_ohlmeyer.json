@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/harm-ohlmeyer/profil/trainer/95983",
+  "scraped_at": "2026-02-12T18:41:16.939043",
+  "name": "Harm Ohlmeyer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/95983-1681477003.jpg?lm=1",
+  "dob": "06.03.1968 (57)",
+  "age": 57,
+  "birthplace": "Hoya",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2021",
+      "role": "Aufsichtsratsmitglied",
+      "period": "21/22 (04.09.2021) - -"
+    }
+  ],
+  "coach_id": "95983",
+  "_cached_at": "2026-02-12T18:41:16.949125",
+  "_preloaded_at": "2026-02-12T18:41:16.949618",
+  "_coach_name": "Harm Ohlmeyer"
+}

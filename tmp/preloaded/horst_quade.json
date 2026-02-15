@@ -1,0 +1,91 @@
+{
+  "url": "https://www.transfermarkt.de/horst-quade/profil/trainer/16690",
+  "scraped_at": "2026-02-12T18:43:13.877398",
+  "name": "Horst Quade",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "14.07.1950 (75)",
+  "age": 75,
+  "birthplace": "Kiel",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (01.02.2023) - -"
+    },
+    {
+      "club": "Viktoria Köln",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln/startseite/verein/1622/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.07.2021) - 22/23 (31.01.2023)"
+    },
+    {
+      "club": "Darmstadt 98",
+      "club_url": "https://www.transfermarkt.de/sv-darmstadt-98/startseite/verein/105/saison_id/2018",
+      "role": "Scout",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2017",
+      "role": "Gegneranalyst",
+      "period": "17/18 (01.07.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2007",
+      "role": "Chefscout",
+      "period": "07/08 (01.07.2007) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "RW Essen",
+      "club_url": "https://www.transfermarkt.de/rot-weiss-essen/startseite/verein/56/saison_id/2005",
+      "role": "Chefscout",
+      "period": "05/06 (01.07.2005) - 06/07 (30.06.2007)"
+    },
+    {
+      "club": "SV Hohenlimburg",
+      "club_url": "https://www.transfermarkt.de/sv-hohenlimburg-10/startseite/verein/4240/saison_id/2002",
+      "role": "Trainer",
+      "period": "02/03 (01.01.2003) - 04/05 (31.12.2004)"
+    },
+    {
+      "club": "Sprockhövel",
+      "club_url": "https://www.transfermarkt.de/tsg-sprockhovel/startseite/verein/1000/saison_id/2002",
+      "role": "Trainer",
+      "period": "02/03 (01.07.2002) - 02/03 (01.11.2002)"
+    },
+    {
+      "club": "SF Oestrich-I.",
+      "club_url": "https://www.transfermarkt.de/sf-oestrich-iserlohn/startseite/verein/2909/saison_id/1991",
+      "role": "Trainer",
+      "period": "91/92 (01.07.1991) - 01/02 (30.06.2002)"
+    },
+    {
+      "club": "TuS Iserlohn",
+      "club_url": "https://www.transfermarkt.de/tus-iserlohn/startseite/verein/5229/saison_id/1989",
+      "role": "Trainer",
+      "period": "89/90 (01.07.1989) - 90/91 (30.06.1991)"
+    },
+    {
+      "club": "Westf. Wickede",
+      "club_url": "https://www.transfermarkt.de/westfalia-wickede/startseite/verein/1666/saison_id/1987",
+      "role": "Trainer",
+      "period": "87/88 (01.07.1987) - 88/89 (30.06.1989)"
+    },
+    {
+      "club": "SG Grüne",
+      "club_url": "https://www.transfermarkt.de/sg-grune/startseite/verein/41874/saison_id/1984",
+      "role": "Trainer",
+      "period": "84/85 (01.01.1985) - 86/87 (30.06.1987)"
+    }
+  ],
+  "coach_id": "16690",
+  "_cached_at": "2026-02-12T18:43:13.890616",
+  "_preloaded_at": "2026-02-12T18:43:13.891352",
+  "_coach_name": "Horst Quade"
+}

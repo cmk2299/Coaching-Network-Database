@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/michael-liebetrut/profil/trainer/8547",
+  "scraped_at": "2026-02-12T19:19:03.087216",
+  "name": "Michael Liebetrut",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_8547_3_2009_1.jpg?lm=1",
+  "dob": "12.10.1964 (61)",
+  "age": 61,
+  "nationality": "Deutschland",
+  "current_role": "Busfahrer",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2001",
+      "role": "Busfahrer",
+      "period": "01/02 (01.12.2001) - -"
+    }
+  ],
+  "coach_id": "8547",
+  "_cached_at": "2026-02-12T19:19:03.097020",
+  "_preloaded_at": "2026-02-12T19:19:03.097555",
+  "_coach_name": "Michael Liebetrut"
+}

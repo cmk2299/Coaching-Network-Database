@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/said-lakhal/profil/trainer/46637",
+  "scraped_at": "2026-02-12T23:21:29.516010",
+  "name": "Said Lakhal",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/46637-1690186524.jpg?lm=1",
+  "dob": "16.04.1970 (55)",
+  "age": 55,
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2016",
+      "role": "Athletiktrainer",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2014",
+      "role": "Physiotherapeut",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "46637",
+  "_cached_at": "2026-02-12T23:21:29.541738",
+  "_preloaded_at": "2026-02-12T23:21:29.543612",
+  "_coach_name": "Said Lakhal"
+}

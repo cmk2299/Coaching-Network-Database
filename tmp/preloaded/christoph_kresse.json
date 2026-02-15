@@ -1,0 +1,68 @@
+{
+  "url": "https://www.transfermarkt.de/christoph-kresse/profil/trainer/69049",
+  "scraped_at": "2026-02-12T18:09:13.480055",
+  "name": "Christoph Kresse",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.12.1991 (34)",
+  "age": 34,
+  "birthplace": "Köln",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Scout",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+      "role": "Scout",
+      "period": "24/25 (01.12.2024) - -"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2023",
+      "role": "Chefscout",
+      "period": "23/24 (01.11.2023) - 23/24 (09.05.2024)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2020",
+      "role": "Scout",
+      "period": "20/21 (01.11.2020) - 23/24 (31.10.2023)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2017",
+      "role": "Scout",
+      "period": "17/18 (01.07.2017) - 20/21 (31.10.2020)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2016",
+      "role": "Spielanalyst",
+      "period": "16/17 (01.10.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "A. Aachen Jgd.",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen-jugend/startseite/verein/11965/saison_id/2015",
+      "role": "Spielanalyst",
+      "period": "15/16 (01.02.2016) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Bielefeld Jgd.",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-jugend/startseite/verein/11954/saison_id/2014",
+      "role": "Spielanalyst",
+      "period": "14/15 (01.05.2015) - 15/16 (30.09.2015)"
+    },
+    {
+      "club": "DFB-Stützpunkt",
+      "club_url": "https://www.transfermarkt.de/dfb-stutzpunkt/startseite/verein/36796/saison_id/2014",
+      "role": "Spielanalyst",
+      "period": "14/15 (01.01.2015) - 16/17 (31.01.2017)"
+    }
+  ],
+  "coach_id": "69049",
+  "_cached_at": "2026-02-12T18:09:13.494250",
+  "_preloaded_at": "2026-02-12T18:09:13.494948",
+  "_coach_name": "Christoph Kresse"
+}

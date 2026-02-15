@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/danny-fuchs/profil/trainer/36509",
+  "scraped_at": "2026-02-12T18:14:34.864990",
+  "name": "Danny Fuchs",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "25.02.1976 (49)",
+  "age": 49,
+  "birthplace": "Dessau",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2011",
+      "role": "Scout",
+      "period": "11/12 (01.07.2011) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "36509",
+  "_cached_at": "2026-02-12T18:14:34.876726",
+  "_preloaded_at": "2026-02-12T18:14:34.877432",
+  "_coach_name": "Danny Fuchs"
+}

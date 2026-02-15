@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-grupp/profil/trainer/133703",
+  "scraped_at": "2026-02-12T17:55:42.859110",
+  "name": "Andreas Grupp",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "25.11.1983 (42)",
+  "age": 42,
+  "birthplace": "Albstadt-Ebingen",
+  "nationality": "Deutschland",
+  "current_role": "Vize-Präsidentund weitere Tätigkeiten",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2024",
+      "role": "Präsidiumsmitglied",
+      "period": "24/25 (28.07.2024) - 24/25 (21.03.2025)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2024",
+      "role": "Aufsichtsratsmitglied",
+      "period": "24/25 - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2023",
+      "role": "Vize-Präsident",
+      "period": "23/24 (22.03.2025) - -"
+    }
+  ],
+  "coach_id": "133703",
+  "_cached_at": "2026-02-12T17:55:42.869328",
+  "_preloaded_at": "2026-02-12T17:55:42.869875",
+  "_coach_name": "Andreas Grupp"
+}

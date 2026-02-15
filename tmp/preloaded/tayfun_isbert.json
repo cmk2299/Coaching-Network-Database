@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/tayfun-isbert/profil/trainer/128252",
+  "scraped_at": "2026-02-13T00:03:32.004365",
+  "name": "Tayfun Isbert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/128252-1713264323.jpeg?lm=1",
+  "dob": "31.01.1994 (32)",
+  "age": 32,
+  "birthplace": "Wipperfürth",
+  "nationality": "Deutschland",
+  "current_role": "Spielanalyst",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2023",
+      "role": "Spielanalyst",
+      "period": "23/24 (01.08.2023) - -"
+    },
+    {
+      "club": "Leverkusen U19",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u19/startseite/verein/4713/saison_id/2022",
+      "role": "Spielanalyst",
+      "period": "22/23 (01.07.2022) - 23/24 (31.07.2023)"
+    },
+    {
+      "club": "Leverkusen Jgd.",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-jugend/startseite/verein/11874/saison_id/2021",
+      "role": "Spielanalyst",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    }
+  ],
+  "coach_id": "128252",
+  "_cached_at": "2026-02-13T00:03:32.039305",
+  "_preloaded_at": "2026-02-13T00:03:32.040767",
+  "_coach_name": "Tayfun Isbert"
+}

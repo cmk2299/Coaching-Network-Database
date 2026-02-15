@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/clemens-fritz/profil/trainer/74148",
+  "scraped_at": "2026-02-12T18:11:00.853824",
+  "name": "Clemens Fritz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/74148-1669902572.jpg?lm=1",
+  "dob": "07.12.1980 (45)",
+  "age": 45,
+  "birthplace": "Erfurt",
+  "nationality": "Deutschland",
+  "current_role": "Geschäftsführer Profifußball",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2024",
+      "role": "Geschäftsführer Profifußball",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2020",
+      "role": "Leiter Lizenzbereich",
+      "period": "20/21 (03.08.2020) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2019",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "19/20 (25.11.2019) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2019",
+      "role": "Betreuer der Leihspieler",
+      "period": "19/20 (01.07.2019) - 19/20 (24.11.2019)"
+    }
+  ],
+  "coach_id": "74148",
+  "_cached_at": "2026-02-12T18:11:00.865504",
+  "_preloaded_at": "2026-02-12T18:11:00.866126",
+  "_coach_name": "Clemens Fritz"
+}

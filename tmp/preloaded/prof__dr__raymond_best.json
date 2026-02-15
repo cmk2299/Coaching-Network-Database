@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/prof-dr-raymond-best/profil/trainer/17535",
+  "scraped_at": "2026-02-12T23:15:29.021065",
+  "name": "Prof. Dr. Raymond Best",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_17535_79_2010_1.jpg?lm=1",
+  "dob": "10.06.1967 (58)",
+  "age": 58,
+  "birthplace": "Heidelberg",
+  "nationality": "DeutschlandBarbados",
+  "current_role": "Vereinsarzt",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2006",
+      "role": "Vereinsarzt",
+      "period": "06/07 (01.07.2006) - -"
+    }
+  ],
+  "coach_id": "17535",
+  "_cached_at": "2026-02-12T23:15:29.031607",
+  "_preloaded_at": "2026-02-12T23:15:29.032190",
+  "_coach_name": "Prof. Dr. Raymond Best"
+}

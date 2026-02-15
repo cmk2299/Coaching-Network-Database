@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/peter-reichert/profil/trainer/120309",
+  "scraped_at": "2026-02-12T19:31:34.644346",
+  "name": "Peter Reichert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.08.1961 (64)",
+  "age": 64,
+  "birthplace": "Bretten",
+  "nationality": "Deutschland",
+  "current_role": "Betreuer",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2018",
+      "role": "Betreuer",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2004",
+      "role": "Fanbeauftragter",
+      "period": "04/05 (01.10.2004) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "120309",
+  "_cached_at": "2026-02-12T19:31:34.655575",
+  "_preloaded_at": "2026-02-12T19:31:34.656259",
+  "_coach_name": "Peter Reichert"
+}

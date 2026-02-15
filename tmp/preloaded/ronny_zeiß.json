@@ -1,0 +1,92 @@
+{
+  "url": "https://www.transfermarkt.de/ronny-zeiss/profil/trainer/12710",
+  "scraped_at": "2026-02-12T23:20:27.634775",
+  "name": "Ronny Zeiß",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/12710-1645368002.jpg?lm=1",
+  "dob": "19.10.1971 (54)",
+  "age": 54,
+  "birthplace": "Riesa",
+  "nationality": "Deutschland",
+  "license": "Torwarttrainer-Lizenz",
+  "current_role": "Torwartkoordinator NLZ",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2022",
+      "role": "Torwartkoordinator NLZ",
+      "period": "22/23 (01.11.2022) - -"
+    },
+    {
+      "club": "J. Regensburg",
+      "club_url": "https://www.transfermarkt.de/ssv-jahn-regensburg/startseite/verein/109/saison_id/2020",
+      "role": "Torwarttrainer",
+      "period": "20/21 (01.08.2020) - 22/23 (08.09.2022)"
+    },
+    {
+      "club": "RB Leipzig U17",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u17/startseite/verein/32942/saison_id/2019",
+      "role": "Torwarttrainer",
+      "period": "19/20 (01.07.2019) - 20/21 (31.07.2020)"
+    },
+    {
+      "club": "RB Leipzig U19",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u19/startseite/verein/26621/saison_id/2017",
+      "role": "Torwarttrainer",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "RB Leipzig Jgd.",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-jugend/startseite/verein/39962/saison_id/2014",
+      "role": "Torwarttrainer",
+      "period": "14/15 (01.07.2014) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Energie Cottbus",
+      "club_url": "https://www.transfermarkt.de/fc-energie-cottbus/startseite/verein/25/saison_id/2009",
+      "role": "Torwarttrainer",
+      "period": "09/10 (01.01.2010) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "E. Cottbus U19",
+      "club_url": "https://www.transfermarkt.de/fc-energie-cottbus-u19/startseite/verein/2492/saison_id/2007",
+      "role": "Trainer",
+      "period": "07/08 (01.07.2007) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "E. Cottbus U17",
+      "club_url": "https://www.transfermarkt.de/fc-energie-cottbus-u17/startseite/verein/21059/saison_id/2006",
+      "role": "Co-Trainer",
+      "period": "06/07 (01.07.2006) - 06/07 (30.06.2007)"
+    },
+    {
+      "club": "BSV Guben-Nord",
+      "club_url": "https://www.transfermarkt.de/breesener-sv-guben-nord/startseite/verein/18465/saison_id/2005",
+      "role": "Spielertrainer",
+      "period": "05/06 (01.07.2005) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "E. Cottbus U17",
+      "club_url": "https://www.transfermarkt.de/fc-energie-cottbus-u17/startseite/verein/21059/saison_id/2001",
+      "role": "Torwarttrainer",
+      "period": "01/02 (01.07.2001) - 09/10 (31.12.2009)"
+    },
+    {
+      "club": "E. Cottbus U19",
+      "club_url": "https://www.transfermarkt.de/fc-energie-cottbus-u19/startseite/verein/2492/saison_id/2001",
+      "role": "Torwarttrainer",
+      "period": "01/02 (01.07.2001) - 09/10 (31.12.2009)"
+    },
+    {
+      "club": "E. Cottbus Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-energie-cottbus-jugend/startseite/verein/17958/saison_id/2001",
+      "role": "Torwarttrainer",
+      "period": "01/02 (01.07.2001) - 09/10 (31.12.2009)"
+    }
+  ],
+  "coach_id": "12710",
+  "_cached_at": "2026-02-12T23:20:27.662696",
+  "_preloaded_at": "2026-02-12T23:20:27.663378",
+  "_coach_name": "Ronny Zeiß"
+}

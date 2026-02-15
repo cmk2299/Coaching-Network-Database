@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/klaus-schmitz/profil/trainer/153287",
+  "scraped_at": "2026-02-12T18:56:32.150229",
+  "name": "Klaus Schmitz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Medizinchef",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2025",
+      "role": "Medizinchef",
+      "period": "25/26 (01.02.2026) - -"
+    }
+  ],
+  "coach_id": "153287",
+  "_cached_at": "2026-02-12T18:56:32.160038",
+  "_preloaded_at": "2026-02-12T18:56:32.160673",
+  "_coach_name": "Klaus Schmitz"
+}

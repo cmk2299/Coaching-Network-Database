@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/markus-losch/profil/trainer/9246",
+  "scraped_at": "2026-02-12T19:09:43.149761",
+  "name": "Markus Lösch",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/9246-1529072918.jpg?lm=1",
+  "dob": "26.09.1971 (54)",
+  "age": 54,
+  "birthplace": "Stuttgart",
+  "nationality": "Deutschland",
+  "license": "DFB-Elite-Jugend-Lizenz",
+  "current_role": "Betreuer der Leihspielerund weitere Tätigkeiten",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Betreuer der Leihspieler",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2017",
+      "role": "Chefscout",
+      "period": "17/18 (01.07.2017) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2011",
+      "role": "Scout",
+      "period": "11/12 (01.07.2011) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "SSV Ulm 1846",
+      "club_url": "https://www.transfermarkt.de/ssv-ulm-1846/startseite/verein/69/saison_id/2008",
+      "role": "Geschäftsführer",
+      "period": "08/09 - 10/11"
+    }
+  ],
+  "coach_id": "9246",
+  "_cached_at": "2026-02-12T19:09:43.161299",
+  "_preloaded_at": "2026-02-12T19:09:43.161943",
+  "_coach_name": "Markus Lösch"
+}

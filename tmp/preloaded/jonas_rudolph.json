@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/jonas-rudolph/profil/trainer/116371",
+  "scraped_at": "2026-02-12T18:50:28.031131",
+  "name": "Jonas Rudolph",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Spielanalyst",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2025",
+      "role": "Spielanalyst",
+      "period": "25/26 (01.01.2026) - -"
+    },
+    {
+      "club": "SV Eidelstedt",
+      "club_url": "https://www.transfermarkt.de/sv-eidelstedt/startseite/verein/7376/saison_id/2023",
+      "role": "Videoanalyst",
+      "period": "23/24 (01.07.2023) - -"
+    }
+  ],
+  "coach_id": "116371",
+  "_cached_at": "2026-02-12T18:50:28.051741",
+  "_preloaded_at": "2026-02-12T18:50:28.052653",
+  "_coach_name": "Jonas Rudolph"
+}

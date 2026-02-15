@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/johannes-von-holwede/profil/trainer/121408",
+  "scraped_at": "2026-02-12T18:49:34.800930",
+  "name": "Johannes von Holwede",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "19.01.1994 (32)",
+  "age": 32,
+  "birthplace": "Erfurt",
+  "nationality": "Deutschland",
+  "current_role": "Spielanalystund weitere Tätigkeiten",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2021",
+      "role": "Gegneranalyst",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (01.08.2020) - -"
+    },
+    {
+      "club": "RB Leipzig Jgd.",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-jugend/startseite/verein/39962/saison_id/2019",
+      "role": "Chefanalytiker",
+      "period": "19/20 (01.01.2020) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "RB Leipzig Jgd.",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-jugend/startseite/verein/39962/saison_id/2015",
+      "role": "Co-Trainer Analyse",
+      "period": "15/16 (01.08.2015) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "121408",
+  "_cached_at": "2026-02-12T18:49:34.811755",
+  "_preloaded_at": "2026-02-12T18:49:34.812345",
+  "_coach_name": "Johannes von Holwede"
+}

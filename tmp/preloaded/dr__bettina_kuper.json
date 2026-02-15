@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/dr-bettina-kuper/profil/trainer/93872",
+  "scraped_at": "2026-02-12T18:20:17.887380",
+  "name": "Dr. Bettina Kuper",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "01.10.1975 (50)",
+  "age": 50,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsärztin",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln II",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-ii/startseite/verein/438/saison_id/2023",
+      "role": "Vereinsärztin",
+      "period": "23/24 (01.07.2023) - 24/25"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2021",
+      "role": "Vereinsärztin",
+      "period": "21/22 (01.07.2021) - -"
+    }
+  ],
+  "coach_id": "93872",
+  "_cached_at": "2026-02-12T18:20:17.897434",
+  "_preloaded_at": "2026-02-12T18:20:17.898084",
+  "_coach_name": "Dr. Bettina Kuper"
+}

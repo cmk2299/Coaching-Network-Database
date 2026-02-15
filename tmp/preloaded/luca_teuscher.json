@@ -1,0 +1,59 @@
+{
+  "url": "https://www.transfermarkt.de/luca-teuscher/profil/trainer/133350",
+  "scraped_at": "2026-02-12T19:00:45.830298",
+  "name": "Luca Teuscher",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "license": "C-Lizenz",
+  "current_role": "Videoanalystund weitere Tätigkeiten",
+  "current_club": "Mainz 05 U17",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051",
+  "career_history": [
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2023",
+      "role": "Videoanalyst",
+      "period": "23/24 (01.04.2024) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2023",
+      "role": "Nachwuchsscout",
+      "period": "23/24 (01.04.2024) - -"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2022",
+      "role": "Sportwissenschaftler",
+      "period": "22/23 (01.04.2023) - 23/24 (01.04.2024)"
+    },
+    {
+      "club": "Mutschelbach",
+      "club_url": "https://www.transfermarkt.de/atsv-mutschelbach/startseite/verein/45091/saison_id/2022",
+      "role": "Gegneranalyst",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Mutschelbach",
+      "club_url": "https://www.transfermarkt.de/atsv-mutschelbach/startseite/verein/45091/saison_id/2022",
+      "role": "Videoanalyst",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Karlsruhe Jgd.",
+      "club_url": "https://www.transfermarkt.de/karlsruher-sc-jugend/startseite/verein/18065/saison_id/2020",
+      "role": "Gegneranalyst",
+      "period": "20/21 (01.06.2021) - 21/22 (31.05.2022)"
+    },
+    {
+      "club": "Karlsruhe Jgd.",
+      "club_url": "https://www.transfermarkt.de/karlsruher-sc-jugend/startseite/verein/18065/saison_id/2020",
+      "role": "Videoanalyst",
+      "period": "20/21 (01.06.2021) - 21/22 (31.05.2022)"
+    }
+  ],
+  "coach_id": "133350",
+  "_cached_at": "2026-02-12T19:00:45.842178",
+  "_preloaded_at": "2026-02-12T19:00:45.842860",
+  "_coach_name": "Luca Teuscher"
+}

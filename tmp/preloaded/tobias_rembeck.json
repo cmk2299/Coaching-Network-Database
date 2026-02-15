@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/tobias-rembeck/profil/trainer/121364",
+  "scraped_at": "2026-02-13T00:22:14.997313",
+  "name": "Tobias Rembeck",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "16.12.1996 (29)",
+  "age": 29,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2020",
+      "role": "Scout",
+      "period": "20/21 (01.11.2020) - -"
+    },
+    {
+      "club": "FC Deisenhofen",
+      "club_url": "https://www.transfermarkt.de/fc-deisenhofen/startseite/verein/11586/saison_id/2015",
+      "role": "Jugendtrainer",
+      "period": "15/16 (01.08.2015) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "121364",
+  "_cached_at": "2026-02-13T00:22:15.030081",
+  "_preloaded_at": "2026-02-13T00:22:15.031474",
+  "_coach_name": "Tobias Rembeck"
+}

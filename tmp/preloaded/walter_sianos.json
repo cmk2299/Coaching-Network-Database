@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/walter-sianos/profil/trainer/21884",
+  "scraped_at": "2026-02-13T00:44:42.559958",
+  "name": "Walter Sianos",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "03.05.1962 (63)",
+  "age": 63,
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2000",
+      "role": "Aufsichtsratsmitglied",
+      "period": "00/01 (01.01.2001) - -"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2000",
+      "role": "Fanbeauftragter",
+      "period": "00/01 (01.01.2001) - 09/10 (30.06.2010)"
+    }
+  ],
+  "coach_id": "21884",
+  "_cached_at": "2026-02-13T00:44:42.578735",
+  "_preloaded_at": "2026-02-13T00:44:42.579786",
+  "_coach_name": "Walter Sianos"
+}

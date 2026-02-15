@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/christian-schmid/profil/trainer/152826",
+  "scraped_at": "2026-02-12T18:07:57.422160",
+  "name": "Christian Schmid",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "11.02.1971 (55)",
+  "age": 55,
+  "birthplace": "Dortmund",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2024",
+      "role": "Aufsichtsratsmitglied",
+      "period": "24/25 (25.11.2024) - -"
+    }
+  ],
+  "coach_id": "152826",
+  "_cached_at": "2026-02-12T18:07:57.432148",
+  "_preloaded_at": "2026-02-12T18:07:57.432773",
+  "_coach_name": "Christian Schmid"
+}

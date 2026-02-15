@@ -1,0 +1,69 @@
+{
+  "url": "https://www.transfermarkt.de/jan-fiesser/profil/trainer/59126",
+  "scraped_at": "2026-02-12T18:45:07.862410",
+  "name": "Jan Fießer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/59126-1730490909.png?lm=1",
+  "dob": "02.01.1987 (39)",
+  "age": 39,
+  "birthplace": "Heidelberg",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (09.07.2024) - vsl. 30.06.2026"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (22.09.2022) - 23/24 (08.04.2024)"
+    },
+    {
+      "club": "Vitesse Arnheim",
+      "club_url": "https://www.transfermarkt.de/vitesse-arnheim/startseite/verein/499/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (01.07.2020) - 22/23 (21.09.2022)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2019",
+      "role": "Trainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2018",
+      "role": "Interimstrainer",
+      "period": "18/19 (29.03.2019) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (01.07.2018) - 18/19 (28.03.2019)"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (13.02.2018) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 17/18 (12.02.2018)"
+    }
+  ],
+  "coach_id": "59126",
+  "_cached_at": "2026-02-12T18:45:07.876126",
+  "_preloaded_at": "2026-02-12T18:45:07.876829",
+  "_coach_name": "Jan Fießer"
+}

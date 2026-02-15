@@ -1,0 +1,91 @@
+{
+  "url": "https://www.transfermarkt.de/sigfried-held/profil/trainer/88",
+  "scraped_at": "2026-02-12T23:26:43.909980",
+  "name": "Sigfried Held",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/88-1541069499.jpg?lm=1",
+  "dob": "07.08.1942 (83)",
+  "age": 83,
+  "birthplace": "Freudenthal",
+  "nationality": "Deutschland",
+  "current_role": "Fanbeauftragter",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2006",
+      "role": "Fanbeauftragter",
+      "period": "06/07 (01.01.2007) - -"
+    },
+    {
+      "club": "Thailand",
+      "club_url": "https://www.transfermarkt.de/thailand/startseite/verein/5676/saison_id/2004",
+      "role": "Trainer",
+      "period": "04/05 (20.09.2004) - 04/05 (28.02.2005)"
+    },
+    {
+      "club": "Malta",
+      "club_url": "https://www.transfermarkt.de/malta/startseite/verein/3587/saison_id/2001",
+      "role": "Trainer",
+      "period": "01/02 (08.07.2001) - 03/04 (26.08.2003)"
+    },
+    {
+      "club": "VfB Leipzig",
+      "club_url": "https://www.transfermarkt.de/1-fc-lokomotive-leipzig/startseite/verein/497/saison_id/1996",
+      "role": "Trainer",
+      "period": "96/97 (01.07.1996) - 97/98 (06.10.1997)"
+    },
+    {
+      "club": "Gamba Osaka",
+      "club_url": "https://www.transfermarkt.de/gamba-osaka/startseite/verein/596/saison_id/1994",
+      "role": "Trainer",
+      "period": "94/95 (01.02.1995) - 95/96 (29.11.1995)"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/1993",
+      "role": "Trainer",
+      "period": "93/94 (01.07.1993) - 94/95 (18.11.1994)"
+    },
+    {
+      "club": "Admira/Wacker",
+      "club_url": "https://www.transfermarkt.de/fc-admira-wacker-modling/startseite/verein/503/saison_id/1990",
+      "role": "Trainer",
+      "period": "90/91 (11.05.1991) - 92/93 (30.06.1993)"
+    },
+    {
+      "club": "Galatasaray",
+      "club_url": "https://www.transfermarkt.de/galatasaray-istanbul/startseite/verein/141/saison_id/1989",
+      "role": "Trainer",
+      "period": "89/90 (01.07.1989) - 89/90 (30.06.1990)"
+    },
+    {
+      "club": "Galatasaray",
+      "club_url": "https://www.transfermarkt.de/galatasaray-istanbul/startseite/verein/141/saison_id/1989",
+      "role": "Technischer Direktor",
+      "period": "89/90 (01.07.1989) - 89/90 (30.06.1990)"
+    },
+    {
+      "club": "Island",
+      "club_url": "https://www.transfermarkt.de/island/startseite/verein/3574/saison_id/1985",
+      "role": "Trainer",
+      "period": "85/86 (13.02.1986) - 89/90 (06.09.1989)"
+    },
+    {
+      "club": "Lüttringhausen",
+      "club_url": "https://www.transfermarkt.de/bv-08-luttringhausen/startseite/verein/32858/saison_id/1983",
+      "role": "Trainer",
+      "period": "83/84 (01.02.1984) - 83/84 (30.06.1984)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/1981",
+      "role": "Trainer",
+      "period": "81/82 (01.07.1981) - 82/83 (20.01.1983)"
+    }
+  ],
+  "coach_id": "88",
+  "_cached_at": "2026-02-12T23:26:43.923505",
+  "_preloaded_at": "2026-02-12T23:26:43.924072",
+  "_coach_name": "Sigfried Held"
+}

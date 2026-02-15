@@ -1,0 +1,44 @@
+{
+  "url": "https://www.transfermarkt.de/paul-pajduch/profil/trainer/74235",
+  "scraped_at": "2026-02-12T19:29:54.744964",
+  "name": "Paul Pajduch",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/74235-1694035783.jpg?lm=1",
+  "dob": "07.11.1993 (32)",
+  "age": 32,
+  "birthplace": "Leoben",
+  "nationality": "Österreich",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Technischer Direktor",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2024",
+      "role": "Technischer Direktor",
+      "period": "24/25 (17.10.2024) - -"
+    },
+    {
+      "club": "Sturm Graz",
+      "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2024",
+      "role": "Technischer Direktor",
+      "period": "24/25 (01.07.2024) - 24/25 (16.10.2024)"
+    },
+    {
+      "club": "Sturm Graz",
+      "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2022",
+      "role": "Chefscout",
+      "period": "22/23 (01.07.2022) - 24/25 (16.10.2024)"
+    },
+    {
+      "club": "Sturm Graz",
+      "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2018",
+      "role": "Spielanalyst",
+      "period": "18/19 (01.07.2018) - 21/22 (30.06.2022)"
+    }
+  ],
+  "coach_id": "74235",
+  "_cached_at": "2026-02-12T19:29:54.756836",
+  "_preloaded_at": "2026-02-12T19:29:54.757410",
+  "_coach_name": "Paul Pajduch"
+}

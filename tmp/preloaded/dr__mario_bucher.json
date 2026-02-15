@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/dr-mario-bucher/profil/trainer/119091",
+  "scraped_at": "2026-02-12T18:24:34.755961",
+  "name": "Dr. Mario Bucher",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.01.1980 (46)",
+  "age": 46,
+  "birthplace": "Rottweil",
+  "nationality": "Deutschland",
+  "current_role": "Medizinchefund weitere Tätigkeiten",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "Stuttgart U19",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-u19/startseite/verein/2517/saison_id/2018",
+      "role": "Medizinchef",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "Stuttgart U17",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-u17/startseite/verein/21084/saison_id/2018",
+      "role": "Medizinchef",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "Stuttgart Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-jugend/startseite/verein/19210/saison_id/2018",
+      "role": "Medizinchef",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2016",
+      "role": "Vereinsarzt",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "Stuttgart II",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-ii/startseite/verein/102/saison_id/2014",
+      "role": "Vereinsarzt",
+      "period": "14/15 (01.01.2015) - 23/24 (30.06.2024)"
+    }
+  ],
+  "coach_id": "119091",
+  "_cached_at": "2026-02-12T18:24:34.767778",
+  "_preloaded_at": "2026-02-12T18:24:34.768455",
+  "_coach_name": "Dr. Mario Bucher"
+}

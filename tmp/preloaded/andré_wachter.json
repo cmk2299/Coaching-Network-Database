@@ -1,0 +1,57 @@
+{
+  "url": "https://www.transfermarkt.de/andre-wachter/profil/trainer/36217",
+  "scraped_at": "2026-02-12T17:57:52.192704",
+  "name": "André Wachter",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/36217-1722945861.jpg?lm=1",
+  "dob": "21.06.1989 (36)",
+  "age": 36,
+  "birthplace": "Gunzenhausen",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "license": "Torwarttrainer-Lizenz",
+  "current_role": "Torwarttrainer",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2024",
+      "role": "Torwarttrainer",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2026"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2018",
+      "role": "Torwartkoordinator NLZ",
+      "period": "18/19 (01.07.2018) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Stuttgart U19",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-u19/startseite/verein/2517/saison_id/2016",
+      "role": "Torwarttrainer",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Nürnberg Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg-jugend/startseite/verein/20462/saison_id/2014",
+      "role": "Torwarttrainer",
+      "period": "14/15 (18.08.2014) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Nürnberg U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg-u19/startseite/verein/2613/saison_id/2014",
+      "role": "Torwarttrainer",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Nürnberg U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg-u17/startseite/verein/21049/saison_id/2014",
+      "role": "Torwarttrainer",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "36217",
+  "_cached_at": "2026-02-12T17:57:52.205257",
+  "_preloaded_at": "2026-02-12T17:57:52.205850",
+  "_coach_name": "André Wachter"
+}

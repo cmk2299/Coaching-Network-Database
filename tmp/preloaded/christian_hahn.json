@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/christian-hahn/profil/trainer/98803",
+  "scraped_at": "2026-02-12T18:06:55.586995",
+  "name": "Christian Hahn",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/98803-1755203530.jpg?lm=1",
+  "dob": "06.11.1990 (35)",
+  "age": 35,
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Athletiktrainer",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2020",
+      "role": "Athletiktrainer",
+      "period": "20/21 (01.11.2020) - -"
+    },
+    {
+      "club": "FC Augsburg U19",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-u19/startseite/verein/4780/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (01.07.2018) - 20/21 (31.10.2020)"
+    },
+    {
+      "club": "FC Augsburg U17",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-u17/startseite/verein/29176/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (01.07.2018) - 20/21 (31.10.2020)"
+    },
+    {
+      "club": "Augsburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-jugend/startseite/verein/28103/saison_id/2017",
+      "role": "Athletiktrainer",
+      "period": "17/18 (01.07.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "SD Luneng SC",
+      "club_url": "https://www.transfermarkt.de/shandong-luneng-taishan-football-school/startseite/verein/85492/saison_id/2015",
+      "role": "Sportwissenschaftler",
+      "period": "15/16 (01.07.2015) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2015",
+      "role": "Sportwissenschaftler",
+      "period": "15/16 (01.07.2015) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "98803",
+  "_cached_at": "2026-02-12T18:06:55.599068",
+  "_preloaded_at": "2026-02-12T18:06:55.599829",
+  "_coach_name": "Christian Hahn"
+}

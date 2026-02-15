@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/wolfgang-steubing/profil/trainer/43711",
+  "scraped_at": "2026-02-13T00:45:35.423870",
+  "name": "Wolfgang Steubing",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/43711-1571201877.jpg?lm=1",
+  "dob": "24.10.1949 (76)",
+  "age": 76,
+  "birthplace": "Frankfurt (Main)",
+  "nationality": "Deutschland",
+  "current_role": "Gesellschafterund weitere Tätigkeiten",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2022",
+      "role": "Verwaltungsratmitglied",
+      "period": "22/23 (26.09.2022) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2014",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "14/15 (08.06.2015) - 20/21 (28.07.2020)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2012",
+      "role": "Aufsichtsratsmitglied",
+      "period": "12/13 (01.07.2012) - 14/15 (07.06.2015)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2009",
+      "role": "Gesellschafter",
+      "period": "09/10 (29.06.2010) - -"
+    },
+    {
+      "club": "RW Frankfurt",
+      "club_url": "https://www.transfermarkt.de/sg-rot-weiss-frankfurt/startseite/verein/4514/saison_id/1984",
+      "role": "Präsident",
+      "period": "84/85 (01.07.1984) - 93/94 (30.06.1994)"
+    }
+  ],
+  "coach_id": "43711",
+  "_cached_at": "2026-02-13T00:45:35.443721",
+  "_preloaded_at": "2026-02-13T00:45:35.444673",
+  "_coach_name": "Wolfgang Steubing"
+}

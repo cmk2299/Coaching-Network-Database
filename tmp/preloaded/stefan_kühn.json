@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/stefan-kuhn/profil/trainer/98148",
+  "scraped_at": "2026-02-12T23:28:59.045015",
+  "name": "Stefan Kühn",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "28.04.1978 (47)",
+  "age": 47,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2017",
+      "role": "Scout",
+      "period": "17/18 (01.01.2018) - -"
+    }
+  ],
+  "coach_id": "98148",
+  "_cached_at": "2026-02-12T23:28:59.054633",
+  "_preloaded_at": "2026-02-12T23:28:59.055087",
+  "_coach_name": "Stefan Kühn"
+}

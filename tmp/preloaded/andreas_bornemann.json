@@ -1,0 +1,62 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-bornemann/profil/trainer/3223",
+  "scraped_at": "2026-02-12T17:55:19.535280",
+  "name": "Andreas Bornemann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/3223-1693222919.png?lm=1",
+  "dob": "15.09.1971 (54)",
+  "age": 54,
+  "birthplace": "Neuenburg am Rhein",
+  "nationality": "Deutschland",
+  "license": "Fachübungsleiter",
+  "current_role": "Geschäftsführer Sport",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2019",
+      "role": "Geschäftsführer Sport",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "1.FC Nürnberg",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg/startseite/verein/4/saison_id/2015",
+      "role": "Vorstand Sport",
+      "period": "15/16 (24.09.2015) - 18/19 (11.02.2019)"
+    },
+    {
+      "club": "Holstein Kiel",
+      "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2009",
+      "role": "Sportlicher Leiter",
+      "period": "09/10 (03.02.2010) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Holstein Kiel",
+      "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2009",
+      "role": "Vize-Präsident",
+      "period": "09/10 (03.02.2010) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Alem. Aachen",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen/startseite/verein/8/saison_id/2008",
+      "role": "Sportdirektor",
+      "period": "08/09 (03.01.2009) - 09/10 (29.11.2009)"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2001",
+      "role": "Manager",
+      "period": "01/02 (01.05.2002) - 06/07 (24.05.2007)"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2000",
+      "role": "Leiter der Fußballschule",
+      "period": "00/01 (01.07.2000) - 01/02 (30.04.2002)"
+    }
+  ],
+  "coach_id": "3223",
+  "_cached_at": "2026-02-12T17:55:19.547671",
+  "_preloaded_at": "2026-02-12T17:55:19.548288",
+  "_coach_name": "Andreas Bornemann"
+}

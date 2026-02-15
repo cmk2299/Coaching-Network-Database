@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/andre-juchum/profil/trainer/30887",
+  "scraped_at": "2026-02-12T17:57:44.635546",
+  "name": "André Juchum",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.07.1981 (44)",
+  "age": 44,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2018",
+      "role": "Scout",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "FC Iserlohn",
+      "club_url": "https://www.transfermarkt.de/fc-iserlohn-46-49/startseite/verein/36519/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (01.07.2013) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2008",
+      "role": "Scout",
+      "period": "08/09 (01.05.2009) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "30887",
+  "_cached_at": "2026-02-12T17:57:44.645956",
+  "_preloaded_at": "2026-02-12T17:57:44.646540",
+  "_coach_name": "André Juchum"
+}

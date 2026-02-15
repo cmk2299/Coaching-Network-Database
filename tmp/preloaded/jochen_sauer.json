@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/jochen-sauer/profil/trainer/6889",
+  "scraped_at": "2026-02-12T18:48:02.973018",
+  "name": "Jochen Sauer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6889-1434637836.jpg?lm=1",
+  "dob": "04.08.1972 (53)",
+  "age": 53,
+  "birthplace": "Reutlingen",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Entwicklung",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2023",
+      "role": "Direktor Entwicklung",
+      "period": "23/24 (05.07.2023) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2017",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "17/18 (01.07.2017) - 23/24 (04.07.2023)"
+    },
+    {
+      "club": "RB Salzburg",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg/startseite/verein/409/saison_id/2012",
+      "role": "Geschäftsführer",
+      "period": "12/13 (01.09.2012) - 16/17 (31.01.2017)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2009",
+      "role": "Sportlicher Leiter",
+      "period": "09/10 (01.03.2010) - 12/13 (31.08.2012)"
+    },
+    {
+      "club": "Hertha BSC",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc/startseite/verein/44/saison_id/2001",
+      "role": "Assistent der Geschäftsführung",
+      "period": "01/02 (01.11.2001) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "6889",
+  "_cached_at": "2026-02-12T18:48:02.985115",
+  "_preloaded_at": "2026-02-12T18:48:02.985696",
+  "_coach_name": "Jochen Sauer"
+}

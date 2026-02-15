@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/armin-kriz/profil/trainer/74706",
+  "scraped_at": "2026-02-12T17:59:39.258515",
+  "name": "Armin Kriz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Busfahrer",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2012",
+      "role": "Busfahrer",
+      "period": "12/13 (01.07.2012) - -"
+    }
+  ],
+  "coach_id": "74706",
+  "_cached_at": "2026-02-12T17:59:39.268387",
+  "_preloaded_at": "2026-02-12T17:59:39.269121",
+  "_coach_name": "Armin Kriz"
+}

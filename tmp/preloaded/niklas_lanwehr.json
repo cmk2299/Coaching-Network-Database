@@ -1,0 +1,79 @@
+{
+  "url": "https://www.transfermarkt.de/niklas-lanwehr/profil/trainer/93738",
+  "scraped_at": "2026-02-12T19:24:03.892239",
+  "name": "Niklas Lanwehr",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "09.06.1991 (34)",
+  "age": 34,
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Spielanalyst",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2025",
+      "role": "Spielanalyst",
+      "period": "25/26 (17.10.2025) - -"
+    },
+    {
+      "club": "Sheffield Wed.",
+      "club_url": "https://www.transfermarkt.de/sheffield-wednesday/startseite/verein/1035/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (01.07.2024) - 24/25 (24.09.2024)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Gegneranalyst",
+      "period": "21/22 (01.07.2021) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2016",
+      "role": "Gegneranalyst",
+      "period": "16/17 (01.07.2016) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2016",
+      "role": "Spielanalyst",
+      "period": "16/17 (01.07.2016) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2015",
+      "role": "Scout",
+      "period": "15/16 (01.07.2016) - 18/19 (30.06.2021)"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2015",
+      "role": "Spielanalyst",
+      "period": "15/16 (05.10.2015) - 15/16 (31.12.2015)"
+    },
+    {
+      "club": "Bielefeld U19",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-u19/startseite/verein/4556/saison_id/2015",
+      "role": "Spielanalyst",
+      "period": "15/16 (05.08.2015) - 15/16 (04.10.2015)"
+    },
+    {
+      "club": "Bielefeld U17",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-u17/startseite/verein/21053/saison_id/2015",
+      "role": "Spielanalyst",
+      "period": "15/16 (05.08.2015) - 15/16 (04.10.2015)"
+    },
+    {
+      "club": "Bielefeld Jgd.",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-jugend/startseite/verein/11954/saison_id/2015",
+      "role": "Spielanalyst",
+      "period": "15/16 (05.08.2015) - 15/16 (04.10.2015)"
+    }
+  ],
+  "coach_id": "93738",
+  "_cached_at": "2026-02-12T19:24:03.904648",
+  "_preloaded_at": "2026-02-12T19:24:03.905369",
+  "_coach_name": "Niklas Lanwehr"
+}

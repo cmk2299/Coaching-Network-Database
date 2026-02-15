@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/johannes-rupprechter/profil/trainer/74159",
+  "scraped_at": "2026-02-12T18:49:19.455962",
+  "name": "Johannes Rupprechter",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "16.08.1982 (43)",
+  "age": 43,
+  "birthplace": "Hohenems",
+  "nationality": "Österreich",
+  "current_role": "Scout",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.10.2019) - -"
+    },
+    {
+      "club": "SV Sandhausen",
+      "club_url": "https://www.transfermarkt.de/sv-sandhausen/startseite/verein/254/saison_id/2016",
+      "role": "Chefscout",
+      "period": "16/17 (01.01.2017) - 19/20 (31.10.2019)"
+    },
+    {
+      "club": "Greuther Fürth",
+      "club_url": "https://www.transfermarkt.de/spvgg-greuther-furth/startseite/verein/65/saison_id/2012",
+      "role": "Scout",
+      "period": "12/13 (01.09.2012) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "74159",
+  "_cached_at": "2026-02-12T18:49:19.466739",
+  "_preloaded_at": "2026-02-12T18:49:19.467366",
+  "_coach_name": "Johannes Rupprechter"
+}

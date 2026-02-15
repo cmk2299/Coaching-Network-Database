@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-muller/profil/trainer/21888",
+  "scraped_at": "2026-02-13T00:05:05.386366",
+  "name": "Thomas Müller",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "24.11.1966 (59)",
+  "age": 59,
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsvorsitzender",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2018",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "18/19 (05.12.2018) - -"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2006",
+      "role": "Aufsichtsratsmitglied",
+      "period": "06/07 (01.07.2006) - -"
+    }
+  ],
+  "coach_id": "21888",
+  "_cached_at": "2026-02-13T00:05:05.404858",
+  "_preloaded_at": "2026-02-13T00:05:05.405711",
+  "_coach_name": "Thomas Müller"
+}

@@ -1,0 +1,89 @@
+{
+  "url": "https://www.transfermarkt.de/uwe-rosler/profil/trainer/1766",
+  "scraped_at": "2026-02-13T00:43:11.746963",
+  "name": "Uwe Rösler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/1766-1761053776.jpg?lm=1",
+  "dob": "15.11.1968 (57)",
+  "age": 57,
+  "birthplace": "Altenburg",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "Solbakken / Player ...",
+  "agent_url": "https://www.transfermarkt.de/jim-solbakken-player-solution/beraterfirma/berater/1292",
+  "current_role": "Trainer",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Trainer",
+      "period": "25/26 (06.10.2025) - vsl. 30.06.2027"
+    },
+    {
+      "club": "Aarhus GF",
+      "club_url": "https://www.transfermarkt.de/aarhus-gf/startseite/verein/678/saison_id/2022",
+      "role": "Trainer",
+      "period": "22/23 (01.07.2022) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "F. Düsseldorf",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/2019",
+      "role": "Trainer",
+      "period": "19/20 (29.01.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Malmö FF",
+      "club_url": "https://www.transfermarkt.de/malmo-ff/startseite/verein/496/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (12.06.2018) - 19/20 (13.12.2019)"
+    },
+    {
+      "club": "Fleetwood Town",
+      "club_url": "https://www.transfermarkt.de/fleetwood-town/startseite/verein/11177/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (30.07.2016) - 17/18 (17.02.2018)"
+    },
+    {
+      "club": "Leeds United",
+      "club_url": "https://www.transfermarkt.de/leeds-united/startseite/verein/399/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (20.05.2015) - 15/16 (19.10.2015)"
+    },
+    {
+      "club": "Wigan Athletic",
+      "club_url": "https://www.transfermarkt.de/wigan-athletic/startseite/verein/1071/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (08.12.2013) - 14/15 (13.11.2014)"
+    },
+    {
+      "club": "FC Brentford",
+      "club_url": "https://www.transfermarkt.de/fc-brentford/startseite/verein/1148/saison_id/2010",
+      "role": "Trainer",
+      "period": "10/11 (10.06.2011) - 13/14 (07.12.2013)"
+    },
+    {
+      "club": "Molde FK",
+      "club_url": "https://www.transfermarkt.de/molde-fk/startseite/verein/687/saison_id/2010",
+      "role": "Trainer",
+      "period": "10/11 (30.08.2010) - 10/11 (09.11.2010)"
+    },
+    {
+      "club": "Viking",
+      "club_url": "https://www.transfermarkt.de/viking-stavanger/startseite/verein/239/saison_id/2006",
+      "role": "Trainer",
+      "period": "06/07 (01.01.2007) - 09/10 (18.11.2009)"
+    },
+    {
+      "club": "Lillestrøm",
+      "club_url": "https://www.transfermarkt.de/lillestrom-sk/startseite/verein/353/saison_id/2004",
+      "role": "Trainer",
+      "period": "04/05 (01.01.2005) - 06/07 (13.11.2006)"
+    }
+  ],
+  "coach_id": "1766",
+  "_cached_at": "2026-02-13T00:43:11.799112",
+  "_preloaded_at": "2026-02-13T00:43:11.801125",
+  "_coach_name": "Uwe Rösler"
+}

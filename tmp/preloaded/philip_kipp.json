@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/philip-kipp/profil/trainer/136332",
+  "scraped_at": "2026-02-12T23:13:04.246979",
+  "name": "Philip Kipp",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/136332-1731618215.png?lm=1",
+  "dob": "11.01.1984 (42)",
+  "age": 42,
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "current_role": "Individualtrainer",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Individualtrainer",
+      "period": "25/26 (14.10.2025) - vsl. 30.06.2026"
+    },
+    {
+      "club": "RW Essen",
+      "club_url": "https://www.transfermarkt.de/rot-weiss-essen/startseite/verein/56/saison_id/2024",
+      "role": "Individualtrainer",
+      "period": "24/25 (01.07.2024) - 24/25 (31.12.2024)"
+    },
+    {
+      "club": "1.FC Köln U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u19/startseite/verein/1461/saison_id/2024",
+      "role": "Individualtrainer",
+      "period": "24/25 (01.07.2024) - 25/26 (13.10.2025)"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2024",
+      "role": "Individualtrainer",
+      "period": "24/25 (01.07.2024) - 25/26 (13.10.2025)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2024",
+      "role": "Individualtrainer",
+      "period": "24/25 (01.07.2024) - 24/25 (13.10.2025)"
+    },
+    {
+      "club": "SK Rapid",
+      "club_url": "https://www.transfermarkt.de/sk-rapid-wien/startseite/verein/170/saison_id/2024",
+      "role": "Individualtrainer",
+      "period": "24/25 (01.07.2024) - 24/25 (31.07.2024)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2023",
+      "role": "Individualtrainer",
+      "period": "23/24 (01.12.2023) - 23/24 (31.12.2023)"
+    }
+  ],
+  "coach_id": "136332",
+  "_cached_at": "2026-02-12T23:13:04.277546",
+  "_preloaded_at": "2026-02-12T23:13:04.278607",
+  "_coach_name": "Philip Kipp"
+}

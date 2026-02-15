@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/dr-stefan-stegemann/profil/trainer/127644",
+  "scraped_at": "2026-02-12T18:27:12.677486",
+  "name": "Dr. Stefan Stegemann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/127644-1759340261.jpg?lm=1",
+  "dob": "02.12.1963 (62)",
+  "age": 62,
+  "nationality": "Deutschland",
+  "current_role": "Geschäftsführer",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2024",
+      "role": "Geschäftsführer",
+      "period": "24/25 (01.01.2025) - -"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2021",
+      "role": "Vize-Präsident",
+      "period": "21/22 (10.05.2022) - 24/25 (20.03.2025)"
+    }
+  ],
+  "coach_id": "127644",
+  "_cached_at": "2026-02-12T18:27:12.689375",
+  "_preloaded_at": "2026-02-12T18:27:12.689976",
+  "_coach_name": "Dr. Stefan Stegemann"
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/silvio-thieme/profil/trainer/121368",
+  "scraped_at": "2026-02-12T23:27:06.426567",
+  "name": "Silvio Thieme",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "07.08.1973 (52)",
+  "age": 52,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2022",
+      "role": "Physiotherapeut",
+      "period": "22/23 (01.07.2022) - -"
+    }
+  ],
+  "coach_id": "121368",
+  "_cached_at": "2026-02-12T23:27:06.436466",
+  "_preloaded_at": "2026-02-12T23:27:06.436983",
+  "_coach_name": "Silvio Thieme"
+}

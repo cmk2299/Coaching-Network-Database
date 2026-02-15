@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/timo-gross/profil/trainer/71115",
+  "scraped_at": "2026-02-13T00:08:00.085185",
+  "name": "Timo Gross",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/71115-1665086654.jpg?lm=1",
+  "dob": "27.08.1990 (35)",
+  "age": 35,
+  "birthplace": "Karlsruhe",
+  "nationality": "Deutschland",
+  "current_role": "Chefanalytiker",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2019",
+      "role": "Chefanalytiker",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2017",
+      "role": "Spielanalyst",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2014",
+      "role": "Spielanalyst",
+      "period": "14/15 (01.07.2014) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "71115",
+  "_cached_at": "2026-02-13T00:08:00.102151",
+  "_preloaded_at": "2026-02-13T00:08:00.102902",
+  "_coach_name": "Timo Gross"
+}

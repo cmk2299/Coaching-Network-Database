@@ -1,0 +1,79 @@
+{
+  "url": "https://www.transfermarkt.de/christian-huhn/profil/trainer/14184",
+  "scraped_at": "2026-02-12T18:07:18.744216",
+  "name": "Christian Huhn",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "27.03.1976 (49)",
+  "age": 49,
+  "birthplace": "Landshut",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2017",
+      "role": "Physiotherapeut",
+      "period": "17/18 (04.09.2017) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2015",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "15/16 (01.07.2015) - 17/18 (03.09.2017)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2008",
+      "role": "Physiotherapeut",
+      "period": "08/09 (01.07.2008) - 18/19 (03.08.2018)"
+    },
+    {
+      "club": "Deutschland U21",
+      "club_url": "https://www.transfermarkt.de/deutschland-u21/startseite/verein/3817/saison_id/2007",
+      "role": "Physiotherapeut",
+      "period": "07/08 (01.07.2007) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "Deutschland U20",
+      "club_url": "https://www.transfermarkt.de/deutschland-u20/startseite/verein/5709/saison_id/2007",
+      "role": "Physiotherapeut",
+      "period": "07/08 (01.07.2007) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "Deutschland U19",
+      "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2007",
+      "role": "Physiotherapeut",
+      "period": "07/08 (01.07.2007) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "Deutschland U18",
+      "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/2007",
+      "role": "Physiotherapeut",
+      "period": "07/08 (01.07.2007) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "Deutschland U17",
+      "club_url": "https://www.transfermarkt.de/deutschland-u17/startseite/verein/17662/saison_id/2007",
+      "role": "Physiotherapeut",
+      "period": "07/08 (01.07.2007) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "Deutschland U15",
+      "club_url": "https://www.transfermarkt.de/deutschland-u15/startseite/verein/27300/saison_id/2007",
+      "role": "Physiotherapeut",
+      "period": "07/08 (01.07.2007) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "J. Regensburg",
+      "club_url": "https://www.transfermarkt.de/ssv-jahn-regensburg/startseite/verein/109",
+      "role": "Physiotherapeut",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "14184",
+  "_cached_at": "2026-02-12T18:07:18.759644",
+  "_preloaded_at": "2026-02-12T18:07:18.760595",
+  "_coach_name": "Christian Huhn"
+}

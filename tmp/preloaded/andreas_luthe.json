@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-luthe/profil/trainer/144111",
+  "scraped_at": "2026-02-12T17:56:36.092653",
+  "name": "Andreas Luthe",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/144111-1750768731.jpg?lm=1",
+  "dob": "10.03.1987 (38)",
+  "age": 38,
+  "birthplace": "Velbert",
+  "nationality": "Deutschland",
+  "current_role": "Vorstandsvorsitzenderund weitere Tätigkeiten",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Vorstandsvorsitzender",
+      "period": "24/25 (24.06.2025) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "stellv. Aufsichtsratsvorsitzender",
+      "period": "24/25 (24.06.2025) - -"
+    }
+  ],
+  "coach_id": "144111",
+  "_cached_at": "2026-02-12T17:56:36.103653",
+  "_preloaded_at": "2026-02-12T17:56:36.104307",
+  "_coach_name": "Andreas Luthe"
+}

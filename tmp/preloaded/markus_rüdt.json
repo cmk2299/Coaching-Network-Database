@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/markus-rudt/profil/trainer/45771",
+  "scraped_at": "2026-02-12T19:10:06.154426",
+  "name": "Markus Rüdt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Sportkoordinator",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2019",
+      "role": "Sportkoordinator",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2007",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "07/08 - 18/19"
+    }
+  ],
+  "coach_id": "45771",
+  "_cached_at": "2026-02-12T19:10:06.164520",
+  "_preloaded_at": "2026-02-12T19:10:06.165083",
+  "_coach_name": "Markus Rüdt"
+}

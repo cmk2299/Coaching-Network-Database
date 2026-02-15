@@ -1,0 +1,54 @@
+{
+  "url": "https://www.transfermarkt.de/jonas-schmitt/profil/trainer/101308",
+  "scraped_at": "2026-02-12T18:50:43.121469",
+  "name": "Jonas Schmitt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.08.1989 (36)",
+  "age": 36,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2023",
+      "role": "Physiotherapeut",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Leverkusen Jgd.",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-jugend/startseite/verein/11874/saison_id/2022",
+      "role": "Leitender Physiotherapeut Akademie",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Leverkusen Jgd.",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-jugend/startseite/verein/11874/saison_id/2020",
+      "role": "Physiotherapeut",
+      "period": "20/21 (01.08.2020) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Vikt. Köln U19",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln-u19/startseite/verein/10075/saison_id/2019",
+      "role": "Physiotherapeut",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Vikt. Köln U17",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln-u17/startseite/verein/34088/saison_id/2019",
+      "role": "Physiotherapeut",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Vikt. Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln-jugend/startseite/verein/42376/saison_id/2019",
+      "role": "Physiotherapeut",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "101308",
+  "_cached_at": "2026-02-12T18:50:43.133546",
+  "_preloaded_at": "2026-02-12T18:50:43.134227",
+  "_coach_name": "Jonas Schmitt"
+}

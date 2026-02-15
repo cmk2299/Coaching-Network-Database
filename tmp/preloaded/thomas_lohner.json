@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-lohner/profil/trainer/89726",
+  "scraped_at": "2026-02-13T00:04:57.750838",
+  "name": "Thomas Lohner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.05.1991 (34)",
+  "age": 34,
+  "birthplace": "Schleswig",
+  "nationality": "Deutschland",
+  "license": "B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+      "role": "Scout",
+      "period": "24/25 (16.03.2025) - -"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2017",
+      "role": "Scout",
+      "period": "17/18 (01.04.2018) - 24/25 (15.03.2025)"
+    }
+  ],
+  "coach_id": "89726",
+  "_cached_at": "2026-02-13T00:04:57.770806",
+  "_preloaded_at": "2026-02-13T00:04:57.771657",
+  "_coach_name": "Thomas Lohner"
+}

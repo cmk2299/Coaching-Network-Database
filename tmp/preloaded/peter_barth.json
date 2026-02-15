@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/peter-barth/profil/trainer/22860",
+  "scraped_at": "2026-02-12T19:30:33.000335",
+  "name": "Peter Barth",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.04.1965 (60)",
+  "age": 60,
+  "birthplace": "Heidenheim an der Brenz",
+  "nationality": "Deutschland",
+  "current_role": "Stadionsprecher",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "Heidenheimer SB",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2003",
+      "role": "Stadionsprecher",
+      "period": "03/04 (01.07.2003) - -"
+    }
+  ],
+  "coach_id": "22860",
+  "_cached_at": "2026-02-12T19:30:33.010156",
+  "_preloaded_at": "2026-02-12T19:30:33.010769",
+  "_coach_name": "Peter Barth"
+}

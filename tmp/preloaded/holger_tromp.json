@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/holger-tromp/profil/trainer/82406",
+  "scraped_at": "2026-02-12T18:42:58.308039",
+  "name": "Holger Tromp",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "26.06.1972 (53)",
+  "age": 53,
+  "birthplace": "Kleve",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Medien und Kommunikation",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Direktor Medien und Kommunikation",
+      "period": "18/19 (01.03.2019) - -"
+    }
+  ],
+  "coach_id": "82406",
+  "_cached_at": "2026-02-12T18:42:58.317806",
+  "_preloaded_at": "2026-02-12T18:42:58.319015",
+  "_coach_name": "Holger Tromp"
+}

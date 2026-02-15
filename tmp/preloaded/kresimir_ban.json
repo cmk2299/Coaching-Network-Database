@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/kresimir-ban/profil/trainer/4617",
+  "scraped_at": "2026-02-12T18:57:40.812884",
+  "name": "Kresimir Ban",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/4617-1406673060.jpg?lm=1",
+  "dob": "30.10.1957 (68)",
+  "age": 68,
+  "birthplace": "Rijeka",
+  "nationality": "Kroatien",
+  "current_role": "Zeugwart",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2006",
+      "role": "Zeugwart",
+      "period": "06/07 (01.01.2007) - -"
+    },
+    {
+      "club": "Eintracht Trier",
+      "club_url": "https://www.transfermarkt.de/sv-eintracht-trier-05/startseite/verein/104/saison_id/2005",
+      "role": "Zeugwart",
+      "period": "05/06 (01.07.2005) - 06/07 (31.12.2006)"
+    },
+    {
+      "club": "Stuttg. Kickers",
+      "club_url": "https://www.transfermarkt.de/stuttgarter-kickers/startseite/verein/71/saison_id/1987",
+      "role": "Zeugwart",
+      "period": "87/88 (01.07.1987) - 04/05 (30.06.2005)"
+    }
+  ],
+  "coach_id": "4617",
+  "_cached_at": "2026-02-12T18:57:40.823746",
+  "_preloaded_at": "2026-02-12T18:57:40.824490",
+  "_coach_name": "Kresimir Ban"
+}

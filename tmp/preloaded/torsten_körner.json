@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/torsten-korner/profil/trainer/114907",
+  "scraped_at": "2026-02-13T00:24:15.247378",
+  "name": "Torsten Körner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.04.1975 (50)",
+  "age": 50,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2019",
+      "role": "Zeugwart",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2016",
+      "role": "Zeugwart",
+      "period": "16/17 (01.07.2016) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2015",
+      "role": "Zeugwart",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2006",
+      "role": "Zeugwart",
+      "period": "06/07 (01.07.2006) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "114907",
+  "_cached_at": "2026-02-13T00:24:15.278195",
+  "_preloaded_at": "2026-02-13T00:24:15.279112",
+  "_coach_name": "Torsten Körner"
+}

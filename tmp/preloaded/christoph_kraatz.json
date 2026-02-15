@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/christoph-kraatz/profil/trainer/108961",
+  "scraped_at": "2026-02-12T18:09:06.073654",
+  "name": "Christoph Kraatz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/108961-1752674373.JPEG?lm=1",
+  "dob": "29.01.1984 (42)",
+  "age": 42,
+  "birthplace": "Mannheim",
+  "nationality": "Deutschland",
+  "current_role": "Teammanager",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2017",
+      "role": "Teammanager",
+      "period": "17/18 (15.08.2017) - -"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2010",
+      "role": "Medienmitarbeiter",
+      "period": "10/11 (01.09.2010) - 17/18 (14.08.2017)"
+    }
+  ],
+  "coach_id": "108961",
+  "_cached_at": "2026-02-12T18:09:06.084421",
+  "_preloaded_at": "2026-02-12T18:09:06.085065",
+  "_coach_name": "Christoph Kraatz"
+}

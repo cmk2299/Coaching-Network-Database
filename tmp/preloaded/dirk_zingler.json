@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/dirk-zingler/profil/trainer/16652",
+  "scraped_at": "2026-02-12T18:18:30.866588",
+  "name": "Dirk Zingler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/16652-1432292539.jpg?lm=1",
+  "dob": "23.08.1964 (61)",
+  "age": 61,
+  "birthplace": "Königs Wusterhausen",
+  "nationality": "Deutschland",
+  "current_role": "Präsident",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2004",
+      "role": "Präsident",
+      "period": "04/05 (01.07.2004) - -"
+    }
+  ],
+  "coach_id": "16652",
+  "_cached_at": "2026-02-12T18:18:30.877177",
+  "_preloaded_at": "2026-02-12T18:18:30.877734",
+  "_coach_name": "Dirk Zingler"
+}

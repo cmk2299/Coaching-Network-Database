@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/jan-moravek/profil/trainer/144906",
+  "scraped_at": "2026-02-12T18:45:23.773790",
+  "name": "Jan Moravek",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "01.11.1989 (36)",
+  "age": 36,
+  "birthplace": "Praha",
+  "nationality": "Tschechien",
+  "current_role": "Scout",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 (10.07.2025) - -"
+    }
+  ],
+  "coach_id": "144906",
+  "_cached_at": "2026-02-12T18:45:23.784057",
+  "_preloaded_at": "2026-02-12T18:45:23.784667",
+  "_coach_name": "Jan Moravek"
+}

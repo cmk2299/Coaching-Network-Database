@@ -1,0 +1,69 @@
+{
+  "url": "https://www.transfermarkt.de/alexander-frankenberger/profil/trainer/38841",
+  "scraped_at": "2026-02-12T17:53:23.445974",
+  "name": "Alexander Frankenberger",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/38841-1658602072.jpg?lm=1",
+  "dob": "30.01.1987 (39)",
+  "age": 39,
+  "birthplace": "München",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainerund weitere Tätigkeiten",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (02.12.2025) - vsl. 30.06.2026"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2024",
+      "role": "Koordinator Talentförderung",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "FC Augsburg U19",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-u19/startseite/verein/4780/saison_id/2019",
+      "role": "Trainer",
+      "period": "19/20 (29.12.2019) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "FC Augsburg II",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-ii/startseite/verein/5379/saison_id/2018",
+      "role": "Interimstrainer",
+      "period": "18/19 (17.10.2018) - 18/19 (06.01.2019)"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2017",
+      "role": "Nachwuchs-Cheftrainer",
+      "period": "17/18 (01.07.2017) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (14.12.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "FC Augsburg U19",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-u19/startseite/verein/4780/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.01.2015) - 16/17 (13.12.2016)"
+    },
+    {
+      "club": "TSV 1860 Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsv-1860-munchen-jugend/startseite/verein/18929/saison_id/2004",
+      "role": "Trainer",
+      "period": "04/05 (01.07.2004) - 12/13 (30.06.2013)"
+    }
+  ],
+  "coach_id": "38841",
+  "_cached_at": "2026-02-12T17:53:23.458558",
+  "_preloaded_at": "2026-02-12T17:53:23.459203",
+  "_coach_name": "Alexander Frankenberger"
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://www.transfermarkt.de/florian-mohr/profil/trainer/139696",
+  "scraped_at": "2026-02-12T18:33:44.700169",
+  "name": "Florian Mohr",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/139696-1753308388.jpg?lm=1",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2028",
+  "current_role": "Performance Manager",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2024",
+      "role": "Performance Manager",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2028"
+    }
+  ],
+  "coach_id": "139696",
+  "_cached_at": "2026-02-12T18:33:44.710189",
+  "_preloaded_at": "2026-02-12T18:33:44.710762",
+  "_coach_name": "Florian Mohr"
+}

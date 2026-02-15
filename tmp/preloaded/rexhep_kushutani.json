@@ -1,0 +1,70 @@
+{
+  "url": "https://www.transfermarkt.de/rexhep-kushutani/profil/trainer/93574",
+  "scraped_at": "2026-02-12T23:18:11.065370",
+  "name": "Rexhep Kushutani",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "08.04.1983 (42)",
+  "age": 42,
+  "birthplace": "Mitrovicë",
+  "nationality": "KosovoDeutschland",
+  "license": "UEFA-A-Lizenz",
+  "agent": "Football Academy ...",
+  "agent_url": "https://www.transfermarkt.de/football-academy-germany-ohg/beraterfirma/berater/10623",
+  "current_role": "Chefanalytiker",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2015",
+      "role": "Chefanalytiker",
+      "period": "15/16 (01.07.2015) - -"
+    },
+    {
+      "club": "VfL Bochum U17",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u17/startseite/verein/21085/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2013",
+      "role": "Sportlicher Leiter",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "VfL Bochum U19",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u19/startseite/verein/3862/saison_id/2013",
+      "role": "Chefanalytiker",
+      "period": "13/14 (01.07.2013) - 15/16 (31.07.2015)"
+    },
+    {
+      "club": "VfL Bochum U17",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u17/startseite/verein/21085/saison_id/2013",
+      "role": "Chefanalytiker",
+      "period": "13/14 (01.07.2013) - 15/16 (31.07.2015)"
+    },
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2013",
+      "role": "Leiter Nachwuchsscouting",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2011",
+      "role": "Trainer",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2010",
+      "role": "Co-Trainer",
+      "period": "10/11 (01.07.2010) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "93574",
+  "_cached_at": "2026-02-12T23:18:11.078485",
+  "_preloaded_at": "2026-02-12T23:18:11.078995",
+  "_coach_name": "Rexhep Kushutani"
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/prisca-volmary/profil/trainer/101311",
+  "scraped_at": "2026-02-12T23:14:43.916993",
+  "name": "Prisca Volmary",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "29.11.1992 (33)",
+  "age": 33,
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Sportwissenschaftlerin",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2021",
+      "role": "Sportwissenschaftlerin",
+      "period": "21/22 (01.01.2022) - -"
+    },
+    {
+      "club": "Leverkusen U19",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u19/startseite/verein/4713/saison_id/2019",
+      "role": "Sportwissenschaftlerin",
+      "period": "19/20 (01.02.2020) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Leverkusen YL",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-uefa-u19/startseite/verein/41569/saison_id/2019",
+      "role": "Sportwissenschaftlerin",
+      "period": "19/20 (01.02.2020) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Leverkusen U17",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u17/startseite/verein/21054/saison_id/2019",
+      "role": "Sportwissenschaftlerin",
+      "period": "19/20 (01.02.2020) - 21/22 (31.12.2021)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2016",
+      "role": "Mitarbeiterin des Nachwuchsleistungszentrums",
+      "period": "16/17 (01.05.2017) - 19/20 (31.01.2020)"
+    },
+    {
+      "club": "FVM",
+      "club_url": "https://www.transfermarkt.de/fussball-verband-mittelrhein/startseite/verein/35053/saison_id/2016",
+      "role": "Co-Trainerin",
+      "period": "16/17 (01.07.2016) - 21/22 (30.06.2022)"
+    }
+  ],
+  "coach_id": "101311",
+  "_cached_at": "2026-02-12T23:14:43.929395",
+  "_preloaded_at": "2026-02-12T23:14:43.930120",
+  "_coach_name": "Prisca Volmary"
+}

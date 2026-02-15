@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/sebastian-walleit/profil/trainer/41216",
+  "scraped_at": "2026-02-12T23:26:13.319468",
+  "name": "Sebastian Walleit",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "30.11.1980 (45)",
+  "age": 45,
+  "nationality": "Deutschland",
+  "current_role": "Fanbeauftragter",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2007",
+      "role": "Fanbeauftragter",
+      "period": "07/08 (01.01.2008) - -"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2005",
+      "role": "Pädagogischer Mitarbeiter",
+      "period": "05/06 (01.07.2005) - 07/08 (31.12.2007)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2004",
+      "role": "Pädagogischer Mitarbeiter",
+      "period": "04/05 (01.07.2004) - 04/05 (30.06.2005)"
+    }
+  ],
+  "coach_id": "41216",
+  "_cached_at": "2026-02-12T23:26:13.329649",
+  "_preloaded_at": "2026-02-12T23:26:13.330327",
+  "_coach_name": "Sebastian Walleit"
+}

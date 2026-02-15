@@ -1,0 +1,72 @@
+{
+  "url": "https://www.transfermarkt.de/heiko-ossner/profil/trainer/88388",
+  "scraped_at": "2026-02-12T18:41:25.034991",
+  "name": "Heiko Ossner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/88388-1629054603.jpg?lm=1",
+  "dob": "06.09.1980 (45)",
+  "age": 45,
+  "nationality": "Deutschland",
+  "current_role": "Mitarbeiter des Nachwuchsleistungszentrumsund weitere Tätigkeiten",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "TSV Harthausen",
+      "club_url": "https://www.transfermarkt.de/tsv-harthausen/startseite/verein/78965/saison_id/2024",
+      "role": "Torwarttrainer",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Oberensingen",
+      "club_url": "https://www.transfermarkt.de/tsv-oberensingen/startseite/verein/30055/saison_id/2023",
+      "role": "Torspielertrainer",
+      "period": "23/24 (01.07.2023) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "TSV Weilheim",
+      "club_url": "https://www.transfermarkt.de/tsv-weilheim-teck/startseite/verein/48936/saison_id/2023",
+      "role": "Torwarttrainer",
+      "period": "23/24 (01.07.2023) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Sonnenhof-Gr.",
+      "club_url": "https://www.transfermarkt.de/sg-sonnenhof-grossaspach/startseite/verein/2589/saison_id/2020",
+      "role": "Torwarttrainer",
+      "period": "20/21 (01.07.2020) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "VfL Kirchheim",
+      "club_url": "https://www.transfermarkt.de/vfl-kirchheim/startseite/verein/280/saison_id/2020",
+      "role": "Torwarttrainer",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "FV 1911 Ploch.",
+      "club_url": "https://www.transfermarkt.de/fv-1911-plochingen/startseite/verein/55713/saison_id/2018",
+      "role": "Torwarttrainer",
+      "period": "18/19 (01.07.2018) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "1.FC Heiningen",
+      "club_url": "https://www.transfermarkt.de/1-fc-heiningen/startseite/verein/28517/saison_id/2015",
+      "role": "Torspielertrainer",
+      "period": "15/16 (01.07.2015) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Dettingen/Teck",
+      "club_url": "https://www.transfermarkt.de/sf-dettingen-teck/startseite/verein/101481/saison_id/2015",
+      "role": "Torwarttrainer",
+      "period": "15/16 (01.07.2015) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "88388",
+  "_cached_at": "2026-02-12T18:41:25.047700",
+  "_preloaded_at": "2026-02-12T18:41:25.048276",
+  "_coach_name": "Heiko Ossner"
+}

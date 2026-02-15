@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/ari-mohammad/profil/trainer/10877",
+  "scraped_at": "2026-02-12T17:59:16.372855",
+  "name": "Ari Mohammad",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_10877_82_2010_1.jpg?lm=1",
+  "dob": "28.09.1973 (52)",
+  "age": 52,
+  "birthplace": "Sulaimaniya",
+  "nationality": "DeutschlandIrak",
+  "current_role": "Zeugwart",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2024",
+      "role": "Zeugwart",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2022",
+      "role": "Betreuer",
+      "period": "22/23 (01.07.2022) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2002",
+      "role": "Betreuer",
+      "period": "02/03 (01.07.2002) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "10877",
+  "_cached_at": "2026-02-12T17:59:16.386622",
+  "_preloaded_at": "2026-02-12T17:59:16.387422",
+  "_coach_name": "Ari Mohammad"
+}

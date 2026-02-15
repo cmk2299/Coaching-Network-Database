@@ -1,0 +1,46 @@
+{
+  "url": "https://www.transfermarkt.de/anna-lena-van-der-felden/profil/trainer/93733",
+  "scraped_at": "2026-02-12T17:58:30.643235",
+  "name": "Anna Lena van der Felden",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Ernährungsberaterin",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2025",
+      "role": "Ernährungsberaterin",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "DFB-Jugend",
+      "club_url": "https://www.transfermarkt.de/dfb-jugend/startseite/verein/50422/saison_id/2021",
+      "role": "Ernährungsberaterin",
+      "period": "21/22 (01.04.2022) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Ernährungsberaterin",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2016",
+      "role": "Ernährungsberaterin",
+      "period": "16/17 (01.03.2017) - 18/19 (01.02.2019)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2016",
+      "role": "Köchin",
+      "period": "16/17 (01.03.2017) - 18/19 (01.02.2019)"
+    }
+  ],
+  "coach_id": "93733",
+  "_cached_at": "2026-02-12T17:58:30.654072",
+  "_preloaded_at": "2026-02-12T17:58:30.654714",
+  "_coach_name": "Anna Lena van der Felden"
+}

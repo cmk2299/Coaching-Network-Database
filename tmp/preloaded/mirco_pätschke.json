@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/mirco-patschke/profil/trainer/123997",
+  "scraped_at": "2026-02-12T19:21:45.232004",
+  "name": "Mirco Pätschke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.03.1997 (28)",
+  "age": 28,
+  "birthplace": "Worms",
+  "nationality": "Deutschland",
+  "license": "DFB-Elite-Jugend-Lizenz",
+  "current_role": "Nachwuchsscout",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "Fort. Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-fortuna-koln-jugend/startseite/verein/33446/saison_id/2020",
+      "role": "Trainer",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "1.FC Düren Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-duren-jugend/startseite/verein/82544/saison_id/2019",
+      "role": "Trainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Nachwuchsscout",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "Leverkusen U17",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u17/startseite/verein/21054/saison_id/2018",
+      "role": "Team-Organisator",
+      "period": "18/19 (01.07.2018) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Leverkusen U19",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u19/startseite/verein/4713/saison_id/2018",
+      "role": "Team-Organisator",
+      "period": "18/19 (01.07.2018) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "123997",
+  "_cached_at": "2026-02-12T19:21:45.243416",
+  "_preloaded_at": "2026-02-12T19:21:45.244053",
+  "_coach_name": "Mirco Pätschke"
+}

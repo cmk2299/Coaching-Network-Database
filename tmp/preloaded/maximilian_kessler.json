@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/maximilian-kessler/profil/trainer/61733",
+  "scraped_at": "2026-02-12T19:16:13.796453",
+  "name": "Maximilian Kessler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/61733-1610140055.jpg?lm=1",
+  "dob": "06.04.1989 (36)",
+  "age": 36,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2022",
+      "role": "Athletiktrainer",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "TeBe Berlin",
+      "club_url": "https://www.transfermarkt.de/tennis-borussia-berlin/startseite/verein/101/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Berliner AK",
+      "club_url": "https://www.transfermarkt.de/berliner-ak-07/startseite/verein/584/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "TeBe Berlin",
+      "club_url": "https://www.transfermarkt.de/tennis-borussia-berlin/startseite/verein/101/saison_id/2017",
+      "role": "Athletiktrainer",
+      "period": "17/18 (08.01.2018) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "61733",
+  "_cached_at": "2026-02-12T19:16:13.808914",
+  "_preloaded_at": "2026-02-12T19:16:13.809578",
+  "_coach_name": "Maximilian Kessler"
+}

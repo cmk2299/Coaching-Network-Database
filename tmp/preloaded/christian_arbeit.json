@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/christian-arbeit/profil/trainer/25871",
+  "scraped_at": "2026-02-12T18:06:02.534825",
+  "name": "Christian Arbeit",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "28.02.1974 (51)",
+  "age": 51,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "current_role": "Geschäftsführer Sport & Kommunikationund weitere Tätigkeiten",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2018",
+      "role": "Geschäftsführer Sport & Kommunikation",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2008",
+      "role": "Pressesprecher",
+      "period": "08/09 (01.01.2009) - -"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2004",
+      "role": "Stadionsprecher",
+      "period": "04/05 (01.01.2005) - -"
+    }
+  ],
+  "coach_id": "25871",
+  "_cached_at": "2026-02-12T18:06:02.545274",
+  "_preloaded_at": "2026-02-12T18:06:02.545881",
+  "_coach_name": "Christian Arbeit"
+}

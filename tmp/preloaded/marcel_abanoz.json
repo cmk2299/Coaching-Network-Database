@@ -1,0 +1,68 @@
+{
+  "url": "https://www.transfermarkt.de/marcel-abanoz/profil/trainer/29984",
+  "scraped_at": "2026-02-12T19:04:36.561610",
+  "name": "Marcel Abanoz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/29984-1406672936.jpg?lm=1",
+  "dob": "07.04.1983 (42)",
+  "age": 42,
+  "birthplace": "Köln",
+  "nationality": "DeutschlandTürkei",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Rehatrainer",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2025",
+      "role": "Rehatrainer",
+      "period": "25/26 (01.01.2026) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2019",
+      "role": "Rehatrainer",
+      "period": "19/20 (01.07.2019) - 25/26 (31.12.2025)"
+    },
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Werder Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-jugend/startseite/verein/12012/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2013",
+      "role": "Rehatrainer",
+      "period": "13/14 (01.07.2013) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2013",
+      "role": "Konditionstrainer",
+      "period": "13/14 (01.07.2013) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Bonner SC",
+      "club_url": "https://www.transfermarkt.de/bonner-sc/startseite/verein/215/saison_id/2009",
+      "role": "Athletiktrainer",
+      "period": "09/10 (01.07.2009) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Bonner SC",
+      "club_url": "https://www.transfermarkt.de/bonner-sc/startseite/verein/215/saison_id/2009",
+      "role": "Co-Trainer",
+      "period": "09/10 (01.07.2009) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "29984",
+  "_cached_at": "2026-02-12T19:04:36.573801",
+  "_preloaded_at": "2026-02-12T19:04:36.574463",
+  "_coach_name": "Marcel Abanoz"
+}

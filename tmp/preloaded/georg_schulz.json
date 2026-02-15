@@ -1,0 +1,29 @@
+{
+  "url": "https://www.transfermarkt.de/georg-schulz/profil/trainer/114817",
+  "scraped_at": "2026-02-12T18:37:28.856897",
+  "name": "Georg Schulz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Österreich",
+  "contract_until": "30.06.2026",
+  "current_role": "Athletiktrainer",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2025",
+      "role": "Athletiktrainer",
+      "period": "25/26 (01.07.2025) - vsl. 30.06.2026"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2022",
+      "role": "Athletiktrainer",
+      "period": "22/23 (15.08.2022) - 24/25 (30.06.2025)"
+    }
+  ],
+  "coach_id": "114817",
+  "_cached_at": "2026-02-12T18:37:28.866724",
+  "_preloaded_at": "2026-02-12T18:37:28.867214",
+  "_coach_name": "Georg Schulz"
+}

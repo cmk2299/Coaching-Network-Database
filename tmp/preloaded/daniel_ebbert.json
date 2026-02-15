@@ -1,0 +1,104 @@
+{
+  "url": "https://www.transfermarkt.de/daniel-ebbert/profil/trainer/59242",
+  "scraped_at": "2026-02-12T18:12:33.198874",
+  "name": "Daniel Ebbert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "24.11.1988 (37)",
+  "age": 37,
+  "birthplace": "Köln",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Kaderplaner",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Kaderplaner",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2023",
+      "role": "Scout",
+      "period": "23/24 (01.04.2024) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Vitesse Arnheim",
+      "club_url": "https://www.transfermarkt.de/vitesse-arnheim/startseite/verein/499/saison_id/2020",
+      "role": "Chefscout",
+      "period": "20/21 (01.04.2021) - 23/24 (31.03.2024)"
+    },
+    {
+      "club": "Wehen Wiesbaden",
+      "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden/startseite/verein/108/saison_id/2019",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "19/20 (22.11.2019) - 20/21 (31.03.2021)"
+    },
+    {
+      "club": "Wehen Wiesbaden",
+      "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden/startseite/verein/108/saison_id/2019",
+      "role": "Chefanalytiker",
+      "period": "19/20 (22.11.2019) - 20/21 (31.03.2021)"
+    },
+    {
+      "club": "Hansa Rostock",
+      "club_url": "https://www.transfermarkt.de/fc-hansa-rostock/startseite/verein/30/saison_id/2017",
+      "role": "Chefscout",
+      "period": "17/18 (01.02.2018) - 19/20 (07.10.2019)"
+    },
+    {
+      "club": "Hansa Rostock",
+      "club_url": "https://www.transfermarkt.de/fc-hansa-rostock/startseite/verein/30/saison_id/2017",
+      "role": "Chefanalytiker",
+      "period": "17/18 (01.02.2018) - 19/20 (07.10.2019)"
+    },
+    {
+      "club": "MSV Duisburg",
+      "club_url": "https://www.transfermarkt.de/msv-duisburg/startseite/verein/52/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.09.2016) - 17/18 (31.01.2018)"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2015",
+      "role": "Scout",
+      "period": "15/16 (01.08.2015) - 16/17 (31.07.2016)"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2015",
+      "role": "Spielanalyst",
+      "period": "15/16 (01.08.2015) - 16/17 (31.07.2016)"
+    },
+    {
+      "club": "VfR Aalen",
+      "club_url": "https://www.transfermarkt.de/vfr-aalen/startseite/verein/83/saison_id/2014",
+      "role": "Chefanalytiker",
+      "period": "14/15 (01.09.2014) - 15/16 (31.07.2015)"
+    },
+    {
+      "club": "1.FC Köln U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u19/startseite/verein/1461/saison_id/2009",
+      "role": "Chefanalytiker",
+      "period": "09/10 (01.06.2010) - 14/15 (01.09.2014)"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2009",
+      "role": "Chefanalytiker",
+      "period": "09/10 (01.06.2010) - 14/15 (01.09.2014)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2009",
+      "role": "Chefanalytiker",
+      "period": "09/10 (01.06.2010) - 14/15 (01.09.2014)"
+    }
+  ],
+  "coach_id": "59242",
+  "_cached_at": "2026-02-12T18:12:33.214893",
+  "_preloaded_at": "2026-02-12T18:12:33.215599",
+  "_coach_name": "Daniel Ebbert"
+}

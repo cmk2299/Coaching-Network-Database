@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/dr-jochen-hahne/profil/trainer/74594",
+  "scraped_at": "2026-02-12T18:23:26.448957",
+  "name": "Dr. Jochen Hahne",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/74594-1699440574.jpg?lm=1",
+  "dob": "16.09.1978 (47)",
+  "age": 47,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarztund weitere Tätigkeiten",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2017",
+      "role": "Vereinsarzt",
+      "period": "17/18 (13.11.2017) - -"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2015",
+      "role": "Vereinsarzt",
+      "period": "15/16 (01.07.2015) - -"
+    }
+  ],
+  "coach_id": "74594",
+  "_cached_at": "2026-02-12T18:23:26.460156",
+  "_preloaded_at": "2026-02-12T18:23:26.460740",
+  "_coach_name": "Dr. Jochen Hahne"
+}

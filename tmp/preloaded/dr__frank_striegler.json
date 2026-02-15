@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dr-frank-striegler/profil/trainer/123183",
+  "scraped_at": "2026-02-12T18:21:47.101968",
+  "name": "Dr. Frank Striegler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "09.11.1959 (66)",
+  "age": 66,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.07.2012) - -"
+    }
+  ],
+  "coach_id": "123183",
+  "_cached_at": "2026-02-12T18:21:47.112325",
+  "_preloaded_at": "2026-02-12T18:21:47.112952",
+  "_coach_name": "Dr. Frank Striegler"
+}

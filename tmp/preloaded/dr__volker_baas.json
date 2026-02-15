@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/dr-volker-baas/profil/trainer/54248",
+  "scraped_at": "2026-02-12T18:27:42.296672",
+  "name": "Dr. Volker Baas",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsvorsitzender",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2020",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "20/21 (10.02.2021) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2016",
+      "role": "Aufsichtsratsmitglied",
+      "period": "16/17 (25.06.2017) - 20/21 (09.02.2021)"
+    }
+  ],
+  "coach_id": "54248",
+  "_cached_at": "2026-02-12T18:27:42.308518",
+  "_preloaded_at": "2026-02-12T18:27:42.309171",
+  "_coach_name": "Dr. Volker Baas"
+}

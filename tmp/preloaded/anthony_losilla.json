@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/anthony-losilla/profil/trainer/127094",
+  "scraped_at": "2026-02-12T17:59:01.331135",
+  "name": "Anthony Losilla",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/127094-1753306590.jpg?lm=1",
+  "dob": "10.03.1986 (39)",
+  "age": 39,
+  "birthplace": "Firminy",
+  "nationality": "Frankreich",
+  "current_role": "Co-Trainer",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "VfL Bochum U19",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u19/startseite/verein/3862/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (01.07.2023) - 23/24 (30.06.2024)"
+    }
+  ],
+  "coach_id": "127094",
+  "_cached_at": "2026-02-12T17:59:01.342006",
+  "_preloaded_at": "2026-02-12T17:59:01.342583",
+  "_coach_name": "Anthony Losilla"
+}

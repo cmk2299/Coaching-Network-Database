@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/marcus-fregin/profil/trainer/58375",
+  "scraped_at": "2026-02-12T19:06:47.632343",
+  "name": "Marcus Fregin",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.03.1986 (39)",
+  "age": 39,
+  "birthplace": "Bad Cannstatt",
+  "nationality": "Deutschland",
+  "current_role": "Chefanalytiker",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2016",
+      "role": "Chefanalytiker",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2014",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "58375",
+  "_cached_at": "2026-02-12T19:06:47.645139",
+  "_preloaded_at": "2026-02-12T19:06:47.646990",
+  "_coach_name": "Marcus Fregin"
+}

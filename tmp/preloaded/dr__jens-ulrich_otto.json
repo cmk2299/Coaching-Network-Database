@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dr-jens-ulrich-otto/profil/trainer/95280",
+  "scraped_at": "2026-02-12T18:23:11.732779",
+  "name": "Dr. Jens-Ulrich Otto",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/95280-1723535082.jpg?lm=1",
+  "dob": "11.01.1967 (59)",
+  "age": 59,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2021",
+      "role": "Vereinsarzt",
+      "period": "21/22 (01.07.2021) - -"
+    }
+  ],
+  "coach_id": "95280",
+  "_cached_at": "2026-02-12T18:23:11.742792",
+  "_preloaded_at": "2026-02-12T18:23:11.743347",
+  "_coach_name": "Dr. Jens-Ulrich Otto"
+}

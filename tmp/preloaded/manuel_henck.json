@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/manuel-henck/profil/trainer/46636",
+  "scraped_at": "2026-02-12T19:03:27.556038",
+  "name": "Manuel Henck",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "31.10.1986 (39)",
+  "age": 39,
+  "nationality": "Deutschland",
+  "current_role": "Betreuerund weitere Tätigkeiten",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2016",
+      "role": "Zeugwart",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2016",
+      "role": "Betreuer",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2013",
+      "role": "Fanbeauftragter",
+      "period": "13/14 (01.07.2013) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "46636",
+  "_cached_at": "2026-02-12T19:03:27.566535",
+  "_preloaded_at": "2026-02-12T19:03:27.567367",
+  "_coach_name": "Manuel Henck"
+}

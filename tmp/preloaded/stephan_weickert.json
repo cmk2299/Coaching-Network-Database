@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/stephan-weickert/profil/trainer/25328",
+  "scraped_at": "2026-02-13T00:00:11.048812",
+  "name": "Stephan Weickert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_25328_27_2012_1.jpg?lm=1",
+  "dob": "03.07.1971 (54)",
+  "age": 54,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2007",
+      "role": "Physiotherapeut",
+      "period": "07/08 (01.07.2007) - -"
+    },
+    {
+      "club": "B. München U19",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462",
+      "role": "Physiotherapeut",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "25328",
+  "_cached_at": "2026-02-13T00:00:11.086522",
+  "_preloaded_at": "2026-02-13T00:00:11.087950",
+  "_coach_name": "Stephan Weickert"
+}

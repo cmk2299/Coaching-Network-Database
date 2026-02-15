@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/steffen-korell/profil/trainer/6338",
+  "scraped_at": "2026-02-12T23:30:24.310875",
+  "name": "Steffen Korell",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6338-1643384159.jpg?lm=1",
+  "dob": "27.10.1971 (54)",
+  "age": 54,
+  "birthplace": "Zweibrücken",
+  "nationality": "Deutschland",
+  "current_role": "Berater des Managements",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2025",
+      "role": "Berater des Managements",
+      "period": "25/26 (03.02.2026) - -"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2017",
+      "role": "Direktor Profifußball und Scout",
+      "period": "17/18 (01.01.2018) - 25/26 (02.02.2026)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2017",
+      "role": "Kaderplaner",
+      "period": "17/18 (01.01.2018) - 25/26 (02.02.2026)"
+    },
+    {
+      "club": "M'gladbach U19",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/2010",
+      "role": "Chefscout",
+      "period": "10/11 (16.02.2011) - 17/18 (31.12.2017)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2007",
+      "role": "Teamkoordinator",
+      "period": "07/08 (01.07.2007) - 17/18 (31.12.2017)"
+    }
+  ],
+  "coach_id": "6338",
+  "_cached_at": "2026-02-12T23:30:24.348775",
+  "_preloaded_at": "2026-02-12T23:30:24.350401",
+  "_coach_name": "Steffen Korell"
+}

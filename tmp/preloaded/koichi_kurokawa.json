@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/koichi-kurokawa/profil/trainer/89196",
+  "scraped_at": "2026-02-12T18:57:11.316135",
+  "name": "Koichi Kurokawa",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.08.1982 (43)",
+  "age": 43,
+  "birthplace": "---, Nara",
+  "nationality": "Japan",
+  "current_role": "Medizinische Abteilung",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2014",
+      "role": "Medizinische Abteilung",
+      "period": "14/15 (01.07.2014) - -"
+    }
+  ],
+  "coach_id": "89196",
+  "_cached_at": "2026-02-12T18:57:11.326167",
+  "_preloaded_at": "2026-02-12T18:57:11.326828",
+  "_coach_name": "Koichi Kurokawa"
+}

@@ -1,0 +1,77 @@
+{
+  "url": "https://www.transfermarkt.de/rene-wagner/profil/trainer/73659",
+  "scraped_at": "2026-02-12T23:18:03.337138",
+  "name": "René Wagner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/73659-1691268896.jpg?lm=1",
+  "dob": "17.07.1988 (37)",
+  "age": 37,
+  "birthplace": "Dresden",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2028",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "projectFIVE GmbH",
+  "agent_url": "https://www.transfermarkt.de/projectfive-gmbh/beraterfirma/berater/12245",
+  "current_role": "Co-Trainer",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (01.07.2025) - vsl. 30.06.2028"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (02.01.2025) - 24/25 (24.05.2025)"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (20.02.2024) - 24/25 (24.11.2024)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (01.07.2021) - 23/24 (02.01.2024)"
+    },
+    {
+      "club": "SC Paderborn",
+      "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (05.08.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Miami Academy",
+      "club_url": "https://www.transfermarkt.de/inter-miami-cf-academy/startseite/verein/77843/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.08.2019) - 20/21 (04.08.2020)"
+    },
+    {
+      "club": "Barry Bucs",
+      "club_url": "https://www.transfermarkt.de/barry-buccaneers-barry-university-/startseite/verein/36619/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (01.04.2019) - 20/21 (04.08.2020)"
+    },
+    {
+      "club": "Palm Beach Utd.",
+      "club_url": "https://www.transfermarkt.de/palm-beach-united/startseite/verein/66417/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Pacific Sharks",
+      "club_url": "https://www.transfermarkt.de/hawaii-pacific-sharks-hawaii-pacific-university-/startseite/verein/18021/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.08.2015) - 17/18 (31.05.2017)"
+    }
+  ],
+  "coach_id": "73659",
+  "_cached_at": "2026-02-12T23:18:03.350808",
+  "_preloaded_at": "2026-02-12T23:18:03.351472",
+  "_coach_name": "René Wagner"
+}

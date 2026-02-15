@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/maureen-rodrigues/profil/trainer/36947",
+  "scraped_at": "2026-02-12T19:15:05.388559",
+  "name": "Maureen Rodrigues",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "02.04.1978 (47)",
+  "age": 47,
+  "nationality": "Deutschland",
+  "current_role": "Assistentin der Geschäftsführung",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+      "role": "Assistentin der Geschäftsführung",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "36947",
+  "_cached_at": "2026-02-12T19:15:05.399479",
+  "_preloaded_at": "2026-02-12T19:15:05.400260",
+  "_coach_name": "Maureen Rodrigues"
+}

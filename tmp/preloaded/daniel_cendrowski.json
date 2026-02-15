@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/daniel-cendrowski/profil/trainer/61086",
+  "scraped_at": "2026-02-12T18:12:25.551558",
+  "name": "Daniel Cendrowski",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "DeutschlandPolen",
+  "current_role": "Marketingleiter",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2018",
+      "role": "Marketingleiter",
+      "period": "18/19 (01.09.2018) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2016",
+      "role": "stellv. Pressesprecher",
+      "period": "16/17 (01.07.2016) - 18/19 (31.08.2018)"
+    }
+  ],
+  "coach_id": "61086",
+  "_cached_at": "2026-02-12T18:12:25.561806",
+  "_preloaded_at": "2026-02-12T18:12:25.562415",
+  "_coach_name": "Daniel Cendrowski"
+}

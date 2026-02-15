@@ -1,0 +1,54 @@
+{
+  "url": "https://www.transfermarkt.de/carlos-navarro-krauss/profil/trainer/88214",
+  "scraped_at": "2026-02-12T18:05:24.389063",
+  "name": "Carlos Navarro-Krauß",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "11.09.1985 (40)",
+  "age": 40,
+  "nationality": "DeutschlandSpanien",
+  "current_role": "Leitender Physiotherapeut Akademie",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2023",
+      "role": "Leitender Physiotherapeut Akademie",
+      "period": "23/24 (01.10.2023) - -"
+    },
+    {
+      "club": "E. Frankfurt II",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-ii/startseite/verein/177/saison_id/2022",
+      "role": "Physiotherapeut",
+      "period": "22/23 (01.07.2022) - 23/24 (30.09.2023)"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2020",
+      "role": "Physiotherapeut",
+      "period": "20/21 (01.01.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2020",
+      "role": "Physiotherapeut",
+      "period": "20/21 (01.07.2020) - 20/21 (31.12.2020)"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/2013",
+      "role": "Physiotherapeut",
+      "period": "13/14 (01.01.2014) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "UD Levante",
+      "club_url": "https://www.transfermarkt.de/ud-levante/startseite/verein/3368/saison_id/2008",
+      "role": "Physiotherapeut",
+      "period": "08/09 (01.03.2009) - 13/14 (31.10.2013)"
+    }
+  ],
+  "coach_id": "88214",
+  "_cached_at": "2026-02-12T18:05:24.399935",
+  "_preloaded_at": "2026-02-12T18:05:24.400801",
+  "_coach_name": "Carlos Navarro-Krauß"
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/frederik-gossling/profil/trainer/19417",
+  "scraped_at": "2026-02-12T18:36:50.315563",
+  "name": "Frederik Gößling",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/19417-1438170433.jpg?lm=1",
+  "dob": "22.09.1977 (48)",
+  "age": 48,
+  "birthplace": "Bielefeld",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "current_role": "Torwarttrainer",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2015",
+      "role": "Torwarttrainer",
+      "period": "15/16 (01.07.2015) - vsl. 30.06.2026"
+    },
+    {
+      "club": "Greuther Fürth",
+      "club_url": "https://www.transfermarkt.de/spvgg-greuther-furth/startseite/verein/65/saison_id/2013",
+      "role": "Torwarttrainer",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "SC Paderborn",
+      "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2011",
+      "role": "Torwarttrainer",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "St. Pauli U17",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli-u17/startseite/verein/21062/saison_id/2010",
+      "role": "Torwarttrainer",
+      "period": "10/11 (01.07.2010) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "St. Pauli U19",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli-u19/startseite/verein/2486/saison_id/2010",
+      "role": "Torwarttrainer",
+      "period": "10/11 (01.07.2010) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "19417",
+  "_cached_at": "2026-02-12T18:36:50.327841",
+  "_preloaded_at": "2026-02-12T18:36:50.328454",
+  "_coach_name": "Frederik Gößling"
+}

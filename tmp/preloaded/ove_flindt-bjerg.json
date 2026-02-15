@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/ove-flindt-bjerg/profil/trainer/13037",
+  "scraped_at": "2026-02-12T19:27:53.151503",
+  "name": "Ove Flindt-Bjerg",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "21.07.1948 (77)",
+  "age": 77,
+  "birthplace": "Aalborg",
+  "nationality": "Dänemark",
+  "current_role": "Scout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2009",
+      "role": "Scout",
+      "period": "09/10 (01.07.2009) - -"
+    },
+    {
+      "club": "Odd Grenland",
+      "club_url": "https://www.transfermarkt.de/odds-bk/startseite/verein/1058/saison_id/2007",
+      "role": "Trainer",
+      "period": "07/08 (29.09.2007) - 07/08 (31.12.2007)"
+    },
+    {
+      "club": "KÍ Klaksvík",
+      "club_url": "https://www.transfermarkt.de/ki-klaksvik/startseite/verein/6170/saison_id/2003",
+      "role": "Trainer",
+      "period": "03/04 (01.01.2004) - 04/05 (08.05.2005)"
+    },
+    {
+      "club": "SV Wörgl",
+      "club_url": "https://www.transfermarkt.de/sv-worgl/startseite/verein/548/saison_id/2001",
+      "role": "Trainer",
+      "period": "01/02 (05.04.2002) - 02/03 (31.12.2002)"
+    },
+    {
+      "club": "SW Bregenz",
+      "club_url": "https://www.transfermarkt.de/schwarz-weiss-bregenz/startseite/verein/936/saison_id/2000",
+      "role": "Sportlicher Leiter",
+      "period": "00/01 (01.07.2000) - 01/02 (15.01.2002)"
+    },
+    {
+      "club": "FC Tirol",
+      "club_url": "https://www.transfermarkt.de/fc-wacker-innsbruck/startseite/verein/2444/saison_id/1998",
+      "role": "Sportlicher Leiter",
+      "period": "98/99 (01.07.1998) - 98/99 (12.09.1998)"
+    },
+    {
+      "club": "Urawa Reds",
+      "club_url": "https://www.transfermarkt.de/urawa-red-diamonds/startseite/verein/828/saison_id/1995",
+      "role": "Co-Trainer",
+      "period": "95/96 (01.01.1996) - 96/97 (31.12.1996)"
+    }
+  ],
+  "coach_id": "13037",
+  "_cached_at": "2026-02-12T19:27:53.163410",
+  "_preloaded_at": "2026-02-12T19:27:53.164048",
+  "_coach_name": "Ove Flindt-Bjerg"
+}

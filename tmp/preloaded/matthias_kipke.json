@@ -1,0 +1,80 @@
+{
+  "url": "https://www.transfermarkt.de/matthias-kipke/profil/trainer/94575",
+  "scraped_at": "2026-02-12T19:14:11.263350",
+  "name": "Matthias Kipke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "21.07.1987 (38)",
+  "age": 38,
+  "birthplace": "Sigmaringen",
+  "nationality": "DeutschlandChile",
+  "license": "B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.02.2017) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Sonnenhof-Gr.",
+      "club_url": "https://www.transfermarkt.de/sg-sonnenhof-grossaspach/startseite/verein/2589/saison_id/2015",
+      "role": "Videoanalyst",
+      "period": "15/16 (01.05.2016) - 16/17 (31.12.2016)"
+    },
+    {
+      "club": "Sonnenhof-Gr.",
+      "club_url": "https://www.transfermarkt.de/sg-sonnenhof-grossaspach/startseite/verein/2589/saison_id/2015",
+      "role": "Nachwuchskoordinator",
+      "period": "15/16 (01.05.2016) - 16/17 (31.12.2016)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2012",
+      "role": "Videoanalyst",
+      "period": "12/13 (01.09.2012) - 12/13 (31.03.2013)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2012",
+      "role": "Scout",
+      "period": "12/13 (01.09.2012) - 12/13 (31.03.2013)"
+    },
+    {
+      "club": "Colo-Colo",
+      "club_url": "https://www.transfermarkt.de/csd-colo-colo/startseite/verein/2433/saison_id/2009",
+      "role": "Marketingmitarbeiter",
+      "period": "09/10 (01.03.2010) - 09/10 (31.05.2010)"
+    },
+    {
+      "club": "Colo-Colo",
+      "club_url": "https://www.transfermarkt.de/csd-colo-colo/startseite/verein/2433/saison_id/2009",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "09/10 (01.03.2010) - 09/10 (31.05.2010)"
+    },
+    {
+      "club": "Colo-Colo",
+      "club_url": "https://www.transfermarkt.de/csd-colo-colo/startseite/verein/2433/saison_id/2008",
+      "role": "Marketingmitarbeiter",
+      "period": "08/09 (01.12.2008) - 08/09 (31.05.2009)"
+    },
+    {
+      "club": "Colo-Colo",
+      "club_url": "https://www.transfermarkt.de/csd-colo-colo/startseite/verein/2433/saison_id/2008",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "08/09 (01.12.2008) - 08/09 (31.05.2009)"
+    }
+  ],
+  "coach_id": "94575",
+  "_cached_at": "2026-02-12T19:14:11.276205",
+  "_preloaded_at": "2026-02-12T19:14:11.276902",
+  "_coach_name": "Matthias Kipke"
+}

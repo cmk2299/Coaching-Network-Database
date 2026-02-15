@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/dr-kyung-yiub-lee/profil/trainer/50018",
+  "scraped_at": "2026-02-12T18:24:04.637256",
+  "name": "Dr. Kyung-yiub Lee",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "07.09.1975 (50)",
+  "age": 50,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "current_role": "Mitarbeiter/-in d. Geschäftsstelle",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2019",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "19/20 (02.12.2019) - -"
+    },
+    {
+      "club": "Deutschland U19",
+      "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2011",
+      "role": "Spielbetrieb",
+      "period": "11/12 (01.04.2012) - 16/17 (24.07.2016)"
+    },
+    {
+      "club": "Deutschland U21",
+      "club_url": "https://www.transfermarkt.de/deutschland-u21/startseite/verein/3817/saison_id/2007",
+      "role": "Teammanager",
+      "period": "07/08 (01.07.2007) - 19/20 (01.12.2019)"
+    },
+    {
+      "club": "Hertha BSC",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc/startseite/verein/44/saison_id/2002",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "02/03 (01.07.2002) - 06/07 (30.06.2007)"
+    }
+  ],
+  "coach_id": "50018",
+  "_cached_at": "2026-02-12T18:24:04.648545",
+  "_preloaded_at": "2026-02-12T18:24:04.649158",
+  "_coach_name": "Dr. Kyung-yiub Lee"
+}

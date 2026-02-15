@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/sascha-bigalke/profil/trainer/92408",
+  "scraped_at": "2026-02-12T23:22:46.265748",
+  "name": "Sascha Bigalke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "08.01.1990 (36)",
+  "age": 36,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Verbindungstrainer",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2024",
+      "role": "Verbindungstrainer",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "U'haching Jgd.",
+      "club_url": "https://www.transfermarkt.de/spvgg-unterhaching-jugend/startseite/verein/36747/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.07.2017) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "92408",
+  "_cached_at": "2026-02-12T23:22:46.277167",
+  "_preloaded_at": "2026-02-12T23:22:46.277780",
+  "_coach_name": "Sascha Bigalke"
+}

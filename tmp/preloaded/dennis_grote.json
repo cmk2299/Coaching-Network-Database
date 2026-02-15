@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/dennis-grote/profil/trainer/129854",
+  "scraped_at": "2026-02-12T18:16:14.162223",
+  "name": "Dennis Grote",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "09.08.1986 (39)",
+  "age": 39,
+  "birthplace": "Kaiserslautern",
+  "nationality": "Deutschland",
+  "current_role": "Scoutund weitere Tätigkeiten",
+  "current_club": "VfL Bochum II",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum-ii/startseite/verein/446",
+  "career_history": [
+    {
+      "club": "VfL Bochum II",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-ii/startseite/verein/446/saison_id/2024",
+      "role": "Scout",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Nachwuchsscout",
+      "period": "24/25 (01.07.2024) - -"
+    }
+  ],
+  "coach_id": "129854",
+  "_cached_at": "2026-02-12T18:16:14.172529",
+  "_preloaded_at": "2026-02-12T18:16:14.173047",
+  "_coach_name": "Dennis Grote"
+}

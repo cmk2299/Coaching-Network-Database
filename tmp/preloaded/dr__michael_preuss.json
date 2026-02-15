@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/dr-michael-preuss/profil/trainer/82704",
+  "scraped_at": "2026-02-12T18:24:56.879138",
+  "name": "Dr. Michael Preuss",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "17.07.1973 (52)",
+  "age": 52,
+  "birthplace": "Neuss",
+  "nationality": "Deutschland",
+  "current_role": "Mitglied Gesellschafter-Ausschuss",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2013",
+      "role": "Mitglied Gesellschafter-Ausschuss",
+      "period": "13/14 (01.09.2013) - -"
+    }
+  ],
+  "coach_id": "82704",
+  "_cached_at": "2026-02-12T18:24:56.890101",
+  "_preloaded_at": "2026-02-12T18:24:56.890735",
+  "_coach_name": "Dr. Michael Preuss"
+}

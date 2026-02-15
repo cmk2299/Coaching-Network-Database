@@ -1,0 +1,56 @@
+{
+  "url": "https://www.transfermarkt.de/andre-hofschneider/profil/trainer/4645",
+  "scraped_at": "2026-02-12T17:57:37.343647",
+  "name": "André Hofschneider",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/4645-1438079163.jpg?lm=1",
+  "dob": "10.06.1970 (55)",
+  "age": 55,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Nachwuchs-Cheftrainer",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2018",
+      "role": "Nachwuchs-Cheftrainer",
+      "period": "18/19 (01.10.2018) - -"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (05.12.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "U. Berlin U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.07.2017) - 17/18 (04.12.2017)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (04.03.2016) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2015",
+      "role": "Interimstrainer",
+      "period": "15/16 (23.02.2016) - 15/16 (03.03.2016)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2007",
+      "role": "Co-Trainer",
+      "period": "07/08 (01.07.2007) - 15/16 (22.02.2016)"
+    }
+  ],
+  "coach_id": "4645",
+  "_cached_at": "2026-02-12T17:57:37.355815",
+  "_preloaded_at": "2026-02-12T17:57:37.356468",
+  "_coach_name": "André Hofschneider"
+}

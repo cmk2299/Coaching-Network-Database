@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/lutz-meschke/profil/trainer/144404",
+  "scraped_at": "2026-02-12T19:01:39.011684",
+  "name": "Lutz Meschke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "02.04.1966 (59)",
+  "age": 59,
+  "birthplace": "Hilden",
+  "nationality": "Deutschland",
+  "current_role": "stellv. Aufsichtsratsvorsitzender",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2024",
+      "role": "stellv. Aufsichtsratsvorsitzender",
+      "period": "24/25 (27.09.2024) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2023",
+      "role": "Aufsichtsratsmitglied",
+      "period": "23/24 (29.02.2024) - 24/25 (26.09.2024)"
+    }
+  ],
+  "coach_id": "144404",
+  "_cached_at": "2026-02-12T19:01:39.027753",
+  "_preloaded_at": "2026-02-12T19:01:39.029091",
+  "_coach_name": "Lutz Meschke"
+}

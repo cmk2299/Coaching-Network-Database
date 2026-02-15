@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/rolf-riemhofer/profil/trainer/76900",
+  "scraped_at": "2026-02-12T23:19:49.318943",
+  "name": "Rolf Riemhofer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Finanzen",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/1994",
+      "role": "Direktor Finanzen",
+      "period": "94/95 (01.09.1994) - -"
+    }
+  ],
+  "coach_id": "76900",
+  "_cached_at": "2026-02-12T23:19:49.328471",
+  "_preloaded_at": "2026-02-12T23:19:49.329592",
+  "_coach_name": "Rolf Riemhofer"
+}

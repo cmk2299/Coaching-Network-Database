@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/jonas-blatter/profil/trainer/125856",
+  "scraped_at": "2026-02-12T18:49:42.290306",
+  "name": "Jonas Blatter",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "14.03.1984 (41)",
+  "age": 41,
+  "nationality": "Deutschland",
+  "current_role": "Scoutund weitere Tätigkeiten",
+  "current_club": "Stuttgart II",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart-ii/startseite/verein/102",
+  "career_history": [
+    {
+      "club": "Stuttgart II",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-ii/startseite/verein/102/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "Stuttgart Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-jugend/startseite/verein/19210/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2008",
+      "role": "Scout",
+      "period": "08/09 (01.07.2008) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "125856",
+  "_cached_at": "2026-02-12T18:49:42.300730",
+  "_preloaded_at": "2026-02-12T18:49:42.301347",
+  "_coach_name": "Jonas Blatter"
+}

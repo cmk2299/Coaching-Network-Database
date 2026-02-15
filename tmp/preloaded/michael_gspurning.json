@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/michael-gspurning/profil/trainer/57992",
+  "scraped_at": "2026-02-12T19:18:24.204662",
+  "name": "Michael Gspurning",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/57992-1641379082.jpg?lm=1",
+  "dob": "02.05.1981 (44)",
+  "age": 44,
+  "birthplace": "Graz",
+  "nationality": "Österreich",
+  "license": "Torwarttrainer-Lizenz",
+  "current_role": "Torwarttrainerund weitere Tätigkeiten",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Österreich",
+      "club_url": "https://www.transfermarkt.de/osterreich/startseite/verein/3383/saison_id/2022",
+      "role": "Torwarttrainer",
+      "period": "22/23 (27.04.2023) - -"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2017",
+      "role": "Torwarttrainer",
+      "period": "17/18 (18.12.2017) - -"
+    }
+  ],
+  "coach_id": "57992",
+  "_cached_at": "2026-02-12T19:18:24.216389",
+  "_preloaded_at": "2026-02-12T19:18:24.217016",
+  "_coach_name": "Michael Gspurning"
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/stefan-spohn/profil/trainer/11279",
+  "scraped_at": "2026-02-12T23:29:22.447929",
+  "name": "Stefan Spohn",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/11279-1678788836.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Busfahrerund weitere Tätigkeiten",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2001",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "01/02 (01.07.2001) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/1994",
+      "role": "Busfahrer",
+      "period": "94/95 (01.07.1994) - -"
+    }
+  ],
+  "coach_id": "11279",
+  "_cached_at": "2026-02-12T23:29:22.462633",
+  "_preloaded_at": "2026-02-12T23:29:22.463154",
+  "_coach_name": "Stefan Spohn"
+}

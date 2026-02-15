@@ -1,0 +1,44 @@
+{
+  "url": "https://www.transfermarkt.de/raoul-voss/profil/trainer/58995",
+  "scraped_at": "2026-02-12T23:17:01.641464",
+  "name": "Raoul Voss",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/58995-1524316241.JPG?lm=1",
+  "dob": "26.05.1983 (42)",
+  "age": 42,
+  "birthplace": "Frankfurt (Main)",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Scout",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2020",
+      "role": "Scout",
+      "period": "20/21 - -"
+    },
+    {
+      "club": "Penn FC",
+      "club_url": "https://www.transfermarkt.de/penn-fc/startseite/verein/16885/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (07.02.2018) - 18/19 (30.11.2018)"
+    },
+    {
+      "club": "TB Rowdies",
+      "club_url": "https://www.transfermarkt.de/tampa-bay-rowdies/startseite/verein/23565/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (16.12.2015) - 17/18 (06.02.2018)"
+    },
+    {
+      "club": "Fort Lauderdale",
+      "club_url": "https://www.transfermarkt.de/fort-lauderdale-strikers/startseite/verein/9713/saison_id/2011",
+      "role": "Co-Trainer",
+      "period": "11/12 (01.06.2012) - 15/16 (16.11.2015)"
+    }
+  ],
+  "coach_id": "58995",
+  "_cached_at": "2026-02-12T23:17:01.658468",
+  "_preloaded_at": "2026-02-12T23:17:01.659139",
+  "_coach_name": "Raoul Voss"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/holger-ballwanz/profil/trainer/7691",
+  "scraped_at": "2026-02-12T18:42:34.547193",
+  "name": "Holger Ballwanz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "07.09.1967 (58)",
+  "age": 58,
+  "birthplace": "Mölln",
+  "nationality": "Deutschland",
+  "current_role": "Fanbeauftragter",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "SSV Vorsfelde",
+      "club_url": "https://www.transfermarkt.de/ssv-vorsfelde/startseite/verein/2541/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 (17.09.2008) - 11/12 (12.09.2011)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2001",
+      "role": "Fanbeauftragter",
+      "period": "01/02 (01.08.2001) - -"
+    }
+  ],
+  "coach_id": "7691",
+  "_cached_at": "2026-02-12T18:42:34.558050",
+  "_preloaded_at": "2026-02-12T18:42:34.558690",
+  "_coach_name": "Holger Ballwanz"
+}

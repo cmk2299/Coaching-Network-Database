@@ -1,0 +1,26 @@
+{
+  "url": "https://www.transfermarkt.de/tony-jantschke/profil/trainer/128757",
+  "scraped_at": "2026-02-13T00:23:51.906175",
+  "name": "Tony Jantschke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/128757-1722945806.jpg?lm=1",
+  "dob": "07.04.1990 (35)",
+  "age": 35,
+  "birthplace": "Hoyerswerda",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "current_role": "Verbindungstrainer",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2024",
+      "role": "Verbindungstrainer",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2026"
+    }
+  ],
+  "coach_id": "128757",
+  "_cached_at": "2026-02-13T00:23:51.925361",
+  "_preloaded_at": "2026-02-13T00:23:51.926152",
+  "_coach_name": "Tony Jantschke"
+}

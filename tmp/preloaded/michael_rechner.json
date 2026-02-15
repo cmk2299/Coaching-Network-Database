@@ -1,0 +1,63 @@
+{
+  "url": "https://www.transfermarkt.de/michael-rechner/profil/trainer/29646",
+  "scraped_at": "2026-02-12T19:19:57.174217",
+  "name": "Michael Rechner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/29646-1674731093.jpg?lm=1",
+  "dob": "27.05.1980 (45)",
+  "age": 45,
+  "birthplace": "Mosbach",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2029",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Torwarttrainer",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2022",
+      "role": "Torwarttrainer",
+      "period": "22/23 (08.02.2023) - vsl. 30.06.2029"
+    },
+    {
+      "club": "Türkei",
+      "club_url": "https://www.transfermarkt.de/turkei/startseite/verein/3381/saison_id/2021",
+      "role": "Torwarttrainer",
+      "period": "21/22 (02.10.2021) - 22/23 (07.02.2023)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2014",
+      "role": "Torwarttrainer",
+      "period": "14/15 (01.01.2015) - 22/23 (07.02.2023)"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2013",
+      "role": "Torwarttrainer",
+      "period": "13/14 (01.07.2013) - 14/15 (31.12.2014)"
+    },
+    {
+      "club": "BFV",
+      "club_url": "https://www.transfermarkt.de/badischer-fussballverband/startseite/verein/68573/saison_id/2009",
+      "role": "Ausbildungsleiter",
+      "period": "09/10 (01.07.2009) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Hoffenheim U19",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u19/startseite/verein/8925/saison_id/2008",
+      "role": "Torwarttrainer",
+      "period": "08/09 (01.07.2008) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2008",
+      "role": "Koordinator Torwartbereich",
+      "period": "08/09 (01.07.2008) - 22/23 (07.02.2023)"
+    }
+  ],
+  "coach_id": "29646",
+  "_cached_at": "2026-02-12T19:19:57.188242",
+  "_preloaded_at": "2026-02-12T19:19:57.188940",
+  "_coach_name": "Michael Rechner"
+}

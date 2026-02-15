@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/daniel-schutz/profil/trainer/93873",
+  "scraped_at": "2026-02-12T18:13:33.318121",
+  "name": "Daniel Schütz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2019",
+      "role": "Physiotherapeut",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "1.FC Köln II",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-ii/startseite/verein/438/saison_id/2016",
+      "role": "Physiotherapeut",
+      "period": "16/17 (01.07.2016) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "93873",
+  "_cached_at": "2026-02-12T18:13:33.327966",
+  "_preloaded_at": "2026-02-12T18:13:33.331732",
+  "_coach_name": "Daniel Schütz"
+}

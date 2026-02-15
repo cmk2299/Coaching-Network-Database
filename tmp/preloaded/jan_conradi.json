@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/jan-conradi/profil/trainer/43103",
+  "scraped_at": "2026-02-12T18:45:00.280969",
+  "name": "Jan Conradi",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "08.12.1988 (37)",
+  "age": 37,
+  "birthplace": "Köln",
+  "nationality": "Deutschland",
+  "license": "Torwarttrainer-Lizenz",
+  "current_role": "Torwartkoordinator NLZ",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2021",
+      "role": "Torwartkoordinator NLZ",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Leverkusen U19",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u19/startseite/verein/4713/saison_id/2016",
+      "role": "Torwarttrainer",
+      "period": "16/17 (01.07.2016) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Leverkusen Jgd.",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-jugend/startseite/verein/11874/saison_id/2015",
+      "role": "Torwarttrainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "43103",
+  "_cached_at": "2026-02-12T18:45:00.292727",
+  "_preloaded_at": "2026-02-12T18:45:00.293334",
+  "_coach_name": "Jan Conradi"
+}

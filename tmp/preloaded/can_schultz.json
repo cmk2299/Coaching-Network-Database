@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/can-schultz/profil/trainer/129169",
+  "scraped_at": "2026-02-12T18:05:09.013433",
+  "name": "Can Schultz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/129169-1756911022.jpg?lm=1",
+  "dob": "09.08.1995 (30)",
+  "age": 30,
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "current_role": "Trainerund weitere Tätigkeiten",
+  "current_club": "Eimsbütteler TV",
+  "current_club_url": "https://www.transfermarkt.de/eimsbutteler-tv/startseite/verein/803",
+  "career_history": [
+    {
+      "club": "Eimsbütteler TV",
+      "club_url": "https://www.transfermarkt.de/eimsbutteler-tv/startseite/verein/803/saison_id/2024",
+      "role": "Trainer",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2026"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2023",
+      "role": "Scout",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Eimsbüttel U17",
+      "club_url": "https://www.transfermarkt.de/eimsbutteler-tv-u17/startseite/verein/39873/saison_id/2022",
+      "role": "Trainer",
+      "period": "22/23 (01.07.2022) - 23/24 (30.06.2024)"
+    }
+  ],
+  "coach_id": "129169",
+  "_cached_at": "2026-02-12T18:05:09.026080",
+  "_preloaded_at": "2026-02-12T18:05:09.026761",
+  "_coach_name": "Can Schultz"
+}

@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/rudolf-wojtowicz/profil/trainer/1115",
+  "scraped_at": "2026-02-12T23:20:58.416573",
+  "name": "Rudolf Wojtowicz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "09.06.1956 (69)",
+  "age": 69,
+  "birthplace": "Bytom",
+  "nationality": "PolenDeutschland",
+  "current_role": "Scout",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2010",
+      "role": "Scout",
+      "period": "10/11 (01.04.2010) - -"
+    },
+    {
+      "club": "Hertha BSC",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc/startseite/verein/44/saison_id/2004",
+      "role": "Chefscout",
+      "period": "04/05 (01.07.2004) - 09/10 (09.02.2010)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2003",
+      "role": "Scout",
+      "period": "03/04 (01.07.2003) - 03/04 (30.06.2004)"
+    },
+    {
+      "club": "Hertha BSC",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc/startseite/verein/44/saison_id/1998",
+      "role": "Chefscout",
+      "period": "98/99 (01.03.1999) - 02/03 (30.06.2003)"
+    },
+    {
+      "club": "F. Düsseldorf",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/1996",
+      "role": "Trainer",
+      "period": "96/97 (24.11.1996) - 97/98 (15.09.1997)"
+    },
+    {
+      "club": "F. Düsseldorf",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/1992",
+      "role": "Interimstrainer",
+      "period": "92/93 (11.08.1992) - 92/93 (16.08.1992)"
+    },
+    {
+      "club": "F. Düsseldorf",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/1992",
+      "role": "Co-Trainer",
+      "period": "92/93 (01.07.1992) - 96/97 (23.11.1996)"
+    }
+  ],
+  "coach_id": "1115",
+  "_cached_at": "2026-02-12T23:20:58.437219",
+  "_preloaded_at": "2026-02-12T23:20:58.438128",
+  "_coach_name": "Rudolf Wojtowicz"
+}

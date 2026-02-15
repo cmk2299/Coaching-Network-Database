@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/ines-buerke/profil/trainer/121358",
+  "scraped_at": "2026-02-12T18:43:51.563781",
+  "name": "Ines Buerke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Betreuerin",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2019",
+      "role": "Betreuerin",
+      "period": "19/20 (01.02.2020) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2012",
+      "role": "Mitarbeiterin der Geschäftsstelle",
+      "period": "12/13 (01.11.2012) - 19/20 (31.01.2020)"
+    }
+  ],
+  "coach_id": "121358",
+  "_cached_at": "2026-02-12T18:43:51.574051",
+  "_preloaded_at": "2026-02-12T18:43:51.574758",
+  "_coach_name": "Ines Buerke"
+}

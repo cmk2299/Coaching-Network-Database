@@ -1,0 +1,79 @@
+{
+  "url": "https://www.transfermarkt.de/norman-wittekopf/profil/trainer/21954",
+  "scraped_at": "2026-02-12T19:26:21.314799",
+  "name": "Norman Wittekopf",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "06.11.1986 (39)",
+  "age": 39,
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Leiter der Nachwuchsabteilung",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2021",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "21/22 (15.04.2022) - -"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2018",
+      "role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+      "period": "18/19 (01.09.2018) - 21/22 (14.04.2022)"
+    },
+    {
+      "club": "M'gladbach Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-jugend/startseite/verein/11845/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (01.07.2016) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2015",
+      "role": "Leiter der Fußballschule",
+      "period": "15/16 (01.01.2016) - 21/22 (14.04.2022)"
+    },
+    {
+      "club": "M'gladbach U17",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u17/startseite/verein/21056/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2014",
+      "role": "Marketingmitarbeiter",
+      "period": "14/15 (01.05.2015) - 15/16 (31.12.2015)"
+    },
+    {
+      "club": "M'gladbach Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-jugend/startseite/verein/11845/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (01.07.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2009",
+      "role": "Scout",
+      "period": "09/10 (01.02.2010) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "M'gladbach Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-jugend/startseite/verein/11845/saison_id/2009",
+      "role": "Trainer",
+      "period": "09/10 (01.07.2009) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2007",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "07/08 (01.08.2007) - 09/10 (31.01.2010)"
+    }
+  ],
+  "coach_id": "21954",
+  "_cached_at": "2026-02-12T19:26:21.327578",
+  "_preloaded_at": "2026-02-12T19:26:21.328300",
+  "_coach_name": "Norman Wittekopf"
+}

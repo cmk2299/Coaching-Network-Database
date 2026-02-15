@@ -1,0 +1,56 @@
+{
+  "url": "https://www.transfermarkt.de/cemil-duyak/profil/trainer/138725",
+  "scraped_at": "2026-02-12T18:05:55.099568",
+  "name": "Cemil Duyak",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "06.08.1980 (45)",
+  "age": 45,
+  "birthplace": "Frankfurt am Main",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Nachwuchsscout",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2024",
+      "role": "Nachwuchsscout",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Oberrad Jgd.",
+      "club_url": "https://www.transfermarkt.de/spvgg-oberrad-05-jugend/startseite/verein/80086/saison_id/2023",
+      "role": "Trainer",
+      "period": "23/24 (01.07.2023) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2020",
+      "role": "Scout",
+      "period": "20/21 (01.02.2021) - 23/24 (31.07.2023)"
+    },
+    {
+      "club": "RW Frankf. U17",
+      "club_url": "https://www.transfermarkt.de/sg-rot-weiss-frankfurt-u17/startseite/verein/47698/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (01.02.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "RW Frankf. Jgd.",
+      "club_url": "https://www.transfermarkt.de/sg-rot-weiss-frankfurt-jugend/startseite/verein/36707/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (01.07.2018) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Oberrad Jgd.",
+      "club_url": "https://www.transfermarkt.de/spvgg-oberrad-05-jugend/startseite/verein/80086/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "138725",
+  "_cached_at": "2026-02-12T18:05:55.111318",
+  "_preloaded_at": "2026-02-12T18:05:55.111933",
+  "_coach_name": "Cemil Duyak"
+}

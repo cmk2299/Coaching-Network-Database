@@ -1,0 +1,46 @@
+{
+  "url": "https://www.transfermarkt.de/christopher-fischer/profil/trainer/142309",
+  "scraped_at": "2026-02-12T18:09:59.732140",
+  "name": "Christopher Fischer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchsscout",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2022",
+      "role": "Nachwuchsscout",
+      "period": "22/23 (01.10.2022) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2020",
+      "role": "Leiter Nachwuchsscouting",
+      "period": "20/21 (01.01.2021) - 22/23 (30.09.2022)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2017",
+      "role": "Koordinator Nachwuchsscouting",
+      "period": "17/18 (01.07.2017) - 20/21 (31.12.2020)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2016",
+      "role": "Nachwuchsscout",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "142309",
+  "_cached_at": "2026-02-12T18:09:59.742994",
+  "_preloaded_at": "2026-02-12T18:09:59.743595",
+  "_coach_name": "Christopher Fischer"
+}

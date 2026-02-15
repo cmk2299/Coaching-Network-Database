@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/stefan-mennerich/profil/trainer/47803",
+  "scraped_at": "2026-02-12T23:29:07.001028",
+  "name": "Stefan Mennerich",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "06.03.1968 (57)",
+  "age": 57,
+  "birthplace": "München",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Medien und Kommunikation",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2016",
+      "role": "Direktor Medien und Kommunikation",
+      "period": "16/17 (07.07.2016) - -"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2013",
+      "role": "Medienmitarbeiter",
+      "period": "13/14 (01.07.2013) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "UEFA",
+      "club_url": "https://www.transfermarkt.de/uefa-exekutivkomitee/startseite/verein/30827/saison_id/2013",
+      "role": "Medienmitarbeiter",
+      "period": "13/14 (01.07.2013) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2012",
+      "role": "Direktor Neue Medien",
+      "period": "12/13 (01.07.2012) - 16/17 (06.07.2016)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/1997",
+      "role": "Medienmitarbeiter",
+      "period": "97/98 (01.07.1997) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "47803",
+  "_cached_at": "2026-02-12T23:29:07.012333",
+  "_preloaded_at": "2026-02-12T23:29:07.012905",
+  "_coach_name": "Stefan Mennerich"
+}

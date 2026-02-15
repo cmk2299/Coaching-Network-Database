@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/thorge-duwer/profil/trainer/109466",
+  "scraped_at": "2026-02-13T00:06:28.850855",
+  "name": "Thorge Düwer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/109466-1755066476.jpg?lm=1",
+  "dob": "29.10.1986 (39)",
+  "age": 39,
+  "birthplace": "Buxtehude",
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2019",
+      "role": "Zeugwart",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "St. Pauli II",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli-ii/startseite/verein/225/saison_id/2016",
+      "role": "Zeugwart",
+      "period": "16/17 (01.07.2016) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "VfL Horneburg",
+      "club_url": "https://www.transfermarkt.de/vfl-horneburg/startseite/verein/21709/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "109466",
+  "_cached_at": "2026-02-13T00:06:28.866993",
+  "_preloaded_at": "2026-02-13T00:06:28.867708",
+  "_coach_name": "Thorge Düwer"
+}

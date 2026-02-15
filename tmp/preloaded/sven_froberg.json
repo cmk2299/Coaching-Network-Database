@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/sven-froberg/profil/trainer/146194",
+  "scraped_at": "2026-02-13T00:00:49.705936",
+  "name": "Sven Froberg",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Marketingleiter",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+      "role": "Marketingleiter",
+      "period": "18/19 (29.05.2019) - -"
+    }
+  ],
+  "coach_id": "146194",
+  "_cached_at": "2026-02-13T00:00:49.737873",
+  "_preloaded_at": "2026-02-13T00:00:49.739205",
+  "_coach_name": "Sven Froberg"
+}

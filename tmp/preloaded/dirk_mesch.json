@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/dirk-mesch/profil/trainer/25427",
+  "scraped_at": "2026-02-12T18:17:52.503472",
+  "name": "Dirk Mesch",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Pressesprecher",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2008",
+      "role": "Pressesprecher",
+      "period": "08/09 (30.11.2008) - -"
+    }
+  ],
+  "coach_id": "25427",
+  "_cached_at": "2026-02-12T18:17:52.512900",
+  "_preloaded_at": "2026-02-12T18:17:52.513434",
+  "_coach_name": "Dirk Mesch"
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://www.transfermarkt.de/pascal-formann/profil/trainer/11317",
+  "scraped_at": "2026-02-12T19:28:15.848947",
+  "name": "Pascal Formann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/11317-1515619826.JPG?lm=1",
+  "dob": "16.11.1982 (43)",
+  "age": 43,
+  "birthplace": "Werne",
+  "nationality": "Deutschland",
+  "license": "Torwarttrainer-Lizenz",
+  "agent": "Players Factory",
+  "agent_url": "https://www.transfermarkt.de/players-factory/beraterfirma/berater/2326",
+  "current_role": "Torwarttrainer",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2017",
+      "role": "Torwarttrainer",
+      "period": "17/18 (01.07.2017) - -"
+    },
+    {
+      "club": "Wolfsburg U19",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-u19/startseite/verein/5343/saison_id/2013",
+      "role": "Torwarttrainer",
+      "period": "13/14 (01.07.2013) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Wolfsburg U17",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-u17/startseite/verein/21087/saison_id/2013",
+      "role": "Torwarttrainer",
+      "period": "13/14 (01.07.2013) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2013",
+      "role": "Torwartkoordinator NLZ",
+      "period": "13/14 (01.07.2013) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Wolfsburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-jugend/startseite/verein/12821/saison_id/2013",
+      "role": "Torwarttrainer",
+      "period": "13/14 (01.07.2013) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Charlton Jgd.",
+      "club_url": "https://www.transfermarkt.de/charlton-athletic-jugend/startseite/verein/37567/saison_id/2012",
+      "role": "Torwarttrainer",
+      "period": "12/13 (01.09.2012) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Charlton Athl.",
+      "club_url": "https://www.transfermarkt.de/charlton-athletic/startseite/verein/358/saison_id/2012",
+      "role": "Koordinator Torwartbereich",
+      "period": "12/13 (01.09.2012) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Hessen Kassel",
+      "club_url": "https://www.transfermarkt.de/ksv-hessen-kassel/startseite/verein/373/saison_id/2009",
+      "role": "Torwarttrainer",
+      "period": "09/10 (01.07.2009) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "11317",
+  "_cached_at": "2026-02-12T19:28:15.862230",
+  "_preloaded_at": "2026-02-12T19:28:15.862842",
+  "_coach_name": "Pascal Formann"
+}

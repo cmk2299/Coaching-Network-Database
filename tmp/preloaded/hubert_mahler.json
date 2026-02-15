@@ -1,0 +1,109 @@
+{
+  "url": "https://www.transfermarkt.de/hubert-mahler/profil/trainer/119536",
+  "scraped_at": "2026-02-12T18:43:21.482675",
+  "name": "Hubert Mahler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "30.12.1985 (40)",
+  "age": 40,
+  "birthplace": "Krumbach",
+  "nationality": "Deutschland",
+  "current_role": "Medizinischer Leiter NLZund weitere Tätigkeiten",
+  "current_club": "SC Freiburg II",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg-ii/startseite/verein/245",
+  "career_history": [
+    {
+      "club": "SC Freiburg II",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-ii/startseite/verein/245/saison_id/2022",
+      "role": "Pädagogischer Leiter",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "SC Freiburg U17",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u17/startseite/verein/21075/saison_id/2022",
+      "role": "Pädagogischer Leiter",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "SC Freiburg U19",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2022",
+      "role": "Pädagogischer Leiter",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "Freiburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-jugend/startseite/verein/18042/saison_id/2022",
+      "role": "Pädagogischer Leiter",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2022",
+      "role": "Medizinischer Leiter NLZ",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "SC Freiburg II",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-ii/startseite/verein/245/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "SC Freiburg U19",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "SC Freiburg U17",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u17/startseite/verein/21075/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Freiburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-jugend/startseite/verein/18042/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Freiburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-jugend/startseite/verein/18042/saison_id/2019",
+      "role": "Performance Manager",
+      "period": "19/20 (01.07.2019) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "SC Freiburg U19",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2019",
+      "role": "Performance Manager",
+      "period": "19/20 (01.07.2019) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "SC Freiburg U17",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u17/startseite/verein/21075/saison_id/2019",
+      "role": "Performance Manager",
+      "period": "19/20 (01.07.2019) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.05.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2015",
+      "role": "Athletiktrainer",
+      "period": "15/16 (01.05.2016) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2015",
+      "role": "Sportwissenschaftler",
+      "period": "15/16 (01.05.2016) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "119536",
+  "_cached_at": "2026-02-12T18:43:21.499290",
+  "_preloaded_at": "2026-02-12T18:43:21.500073",
+  "_coach_name": "Hubert Mahler"
+}

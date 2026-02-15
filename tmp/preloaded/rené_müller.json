@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/rene-muller/profil/trainer/470",
+  "scraped_at": "2026-02-12T23:17:55.651677",
+  "name": "René Müller",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_470_473_2010_1.jpg?lm=1",
+  "dob": "11.02.1959 (67)",
+  "age": 67,
+  "birthplace": "Leipzig",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Scout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2012",
+      "role": "Scout",
+      "period": "12/13 (01.07.2012) - -"
+    },
+    {
+      "club": "Nürnberg II",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg-ii/startseite/verein/473/saison_id/2006",
+      "role": "Trainer",
+      "period": "06/07 (01.01.2007) - 10/11 (11.04.2011)"
+    },
+    {
+      "club": "Hallescher FC",
+      "club_url": "https://www.transfermarkt.de/hallescher-fc/startseite/verein/440/saison_id/2005",
+      "role": "Trainer",
+      "period": "05/06 (01.07.2005) - 06/07 (06.11.2006)"
+    },
+    {
+      "club": "Rot-Weiß Erfurt",
+      "club_url": "https://www.transfermarkt.de/rot-weiss-erfurt/startseite/verein/111/saison_id/2003",
+      "role": "Trainer",
+      "period": "03/04 (01.07.2003) - 04/05 (20.02.2005)"
+    },
+    {
+      "club": "VFC Plauen",
+      "club_url": "https://www.transfermarkt.de/vfc-plauen/startseite/verein/391/saison_id/2000",
+      "role": "Trainer",
+      "period": "00/01 (01.07.2000) - 02/03 (19.05.2003)"
+    },
+    {
+      "club": "E. Frankfurt II",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-ii/startseite/verein/177/saison_id/1999",
+      "role": "Trainer",
+      "period": "99/00 (28.01.2000) - 99/00 (12.04.2000)"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/1999",
+      "role": "Torwarttrainer",
+      "period": "99/00 (01.07.1999) - 99/00 (30.06.2000)"
+    },
+    {
+      "club": "VfB Leipzig",
+      "club_url": "https://www.transfermarkt.de/1-fc-lokomotive-leipzig/startseite/verein/497/saison_id/1998",
+      "role": "Co-Trainer",
+      "period": "98/99 (01.07.1998) - 98/99 (30.06.1999)"
+    },
+    {
+      "club": "VfB Leipzig",
+      "club_url": "https://www.transfermarkt.de/1-fc-lokomotive-leipzig/startseite/verein/497/saison_id/1996",
+      "role": "Torwarttrainer",
+      "period": "96/97 (01.07.1996) - 97/98 (30.06.1998)"
+    }
+  ],
+  "coach_id": "470",
+  "_cached_at": "2026-02-12T23:17:55.665956",
+  "_preloaded_at": "2026-02-12T23:17:55.666485",
+  "_coach_name": "René Müller"
+}

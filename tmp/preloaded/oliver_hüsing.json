@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/oliver-husing/profil/trainer/131841",
+  "scraped_at": "2026-02-12T19:27:06.419737",
+  "name": "Oliver Hüsing",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/131841-1733736469.jpg?lm=1",
+  "dob": "17.02.1993 (32)",
+  "age": 32,
+  "birthplace": "Bühren",
+  "nationality": "Deutschland",
+  "current_role": "Leiter der Nachwuchsabteilung",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2024",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "24/25 (01.01.2025) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2024",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "24/25 (01.08.2024) - 24/25 (31.12.2024)"
+    }
+  ],
+  "coach_id": "131841",
+  "_cached_at": "2026-02-12T19:27:06.430252",
+  "_preloaded_at": "2026-02-12T19:27:06.430769",
+  "_coach_name": "Oliver Hüsing"
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/gerhard-wiedemann/profil/trainer/21885",
+  "scraped_at": "2026-02-12T18:37:44.106948",
+  "name": "Gerhard Wiedemann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "30.09.1946 (79)",
+  "age": 79,
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2010",
+      "role": "stellv. Aufsichtsratsvorsitzender",
+      "period": "10/11 (21.04.2011) - -"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2010",
+      "role": "Aufsichtsratsmitglied",
+      "period": "10/11 (01.09.2010) - -"
+    }
+  ],
+  "coach_id": "21885",
+  "_cached_at": "2026-02-12T18:37:44.116808",
+  "_preloaded_at": "2026-02-12T18:37:44.117328",
+  "_coach_name": "Gerhard Wiedemann"
+}

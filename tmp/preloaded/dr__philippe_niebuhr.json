@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/dr-philippe-niebuhr/profil/trainer/143860",
+  "scraped_at": "2026-02-12T18:25:57.507064",
+  "name": "Dr. Philippe Niebuhr",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "stellv. Aufsichtsratsvorsitzender",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2022",
+      "role": "stellv. Aufsichtsratsvorsitzender",
+      "period": "22/23 (17.12.2022) - -"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2018",
+      "role": "Aufsichtsratsmitglied",
+      "period": "18/19 (06.12.2018) - 22/23 (16.12.2022)"
+    }
+  ],
+  "coach_id": "143860",
+  "_cached_at": "2026-02-12T18:25:57.517200",
+  "_preloaded_at": "2026-02-12T18:25:57.517790",
+  "_coach_name": "Dr. Philippe Niebuhr"
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/benjamin-sommer/profil/trainer/11253",
+  "scraped_at": "2026-02-12T18:02:59.078528",
+  "name": "Benjamin Sommer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1373447759.jpg?lm=1",
+  "dob": "23.10.1981 (44)",
+  "age": 44,
+  "birthplace": "Aichach",
+  "nationality": "Deutschland",
+  "current_role": "Rehatrainer",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2025",
+      "role": "Rehatrainer",
+      "period": "25/26 (01.08.2025) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2019",
+      "role": "Rehatrainer",
+      "period": "19/20 (01.07.2019) - 25/26 (31.07.2025)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2019",
+      "role": "Osteopath",
+      "period": "19/20 (01.07.2019) - 25/26 (31.07.2025)"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2008",
+      "role": "Physiotherapeut",
+      "period": "08/09 (01.07.2008) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Ingolstadt II",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04-ii/startseite/verein/7681",
+      "role": "Physiotherapeut",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "11253",
+  "_cached_at": "2026-02-12T18:02:59.089729",
+  "_preloaded_at": "2026-02-12T18:02:59.090307",
+  "_coach_name": "Benjamin Sommer"
+}

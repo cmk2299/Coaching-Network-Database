@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/daniela-mockel/profil/trainer/142385",
+  "scraped_at": "2026-02-12T18:14:19.933302",
+  "name": "Daniela Möckel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Medienbeauftragte",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2024",
+      "role": "Medienbeauftragte",
+      "period": "24/25 (01.03.2025) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2022",
+      "role": "Medienmitarbeiterin",
+      "period": "22/23 (01.01.2023) - 24/25 (28.02.2025)"
+    }
+  ],
+  "coach_id": "142385",
+  "_cached_at": "2026-02-12T18:14:19.943222",
+  "_preloaded_at": "2026-02-12T18:14:19.943876",
+  "_coach_name": "Daniela Möckel"
+}

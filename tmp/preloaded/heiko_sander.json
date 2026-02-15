@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/heiko-sander/profil/trainer/25330",
+  "scraped_at": "2026-02-12T18:41:32.710401",
+  "name": "Heiko Sander",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_25330_42_2012_1.jpg?lm=1",
+  "dob": "25.05.1973 (52)",
+  "age": 52,
+  "birthplace": "Fulda",
+  "nationality": "Deutschland",
+  "current_role": "Spielanalyst",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2018",
+      "role": "Spielanalyst",
+      "period": "18/19 (01.08.2018) - -"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2012",
+      "role": "Athletiktrainer",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2012",
+      "role": "Performance Manager",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "25330",
+  "_cached_at": "2026-02-12T18:41:32.720915",
+  "_preloaded_at": "2026-02-12T18:41:32.721455",
+  "_coach_name": "Heiko Sander"
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/sven-hesselink/profil/trainer/150743",
+  "scraped_at": "2026-02-13T00:01:05.186984",
+  "name": "Sven Hesselink",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "06.12.1990 (35)",
+  "age": 35,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwartund weitere Tätigkeiten",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2024",
+      "role": "Busfahrer",
+      "period": "24/25 (01.12.2024) - -"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2023",
+      "role": "Zeugwart",
+      "period": "23/24 (01.10.2023) - -"
+    }
+  ],
+  "coach_id": "150743",
+  "_cached_at": "2026-02-13T00:01:05.220200",
+  "_preloaded_at": "2026-02-13T00:01:05.221507",
+  "_coach_name": "Sven Hesselink"
+}

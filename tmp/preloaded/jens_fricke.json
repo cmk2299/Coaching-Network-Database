@@ -1,0 +1,34 @@
+{
+  "url": "https://www.transfermarkt.de/jens-fricke/profil/trainer/37054",
+  "scraped_at": "2026-02-12T18:47:24.970125",
+  "name": "Jens Fricke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Leiter Medien & Kommunikationund weitere Tätigkeiten",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2014",
+      "role": "Leiter Medien & Kommunikation",
+      "period": "14/15 (01.07.2014) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2014",
+      "role": "Pressesprecher",
+      "period": "14/15 (01.07.2014) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2006",
+      "role": "Pressemitarbeiter",
+      "period": "06/07 (01.07.2006) - 13/14 (30.06.2014)"
+    }
+  ],
+  "coach_id": "37054",
+  "_cached_at": "2026-02-12T18:47:24.980747",
+  "_preloaded_at": "2026-02-12T18:47:24.981427",
+  "_coach_name": "Jens Fricke"
+}

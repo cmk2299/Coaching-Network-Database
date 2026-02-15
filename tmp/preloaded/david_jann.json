@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/david-jann/profil/trainer/121178",
+  "scraped_at": "2026-02-12T18:14:57.824653",
+  "name": "David Jann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2022",
+      "role": "Physiotherapeut",
+      "period": "22/23 (01.07.2022) - -"
+    }
+  ],
+  "coach_id": "121178",
+  "_cached_at": "2026-02-12T18:14:57.834612",
+  "_preloaded_at": "2026-02-12T18:14:57.835194",
+  "_coach_name": "David Jann"
+}

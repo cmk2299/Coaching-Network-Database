@@ -1,0 +1,60 @@
+{
+  "url": "https://www.transfermarkt.de/laurent-busser/profil/trainer/58606",
+  "scraped_at": "2026-02-12T18:58:49.218066",
+  "name": "Laurent Busser",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "20.05.1970 (55)",
+  "age": 55,
+  "nationality": "Frankreich",
+  "current_role": "Chefscout",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2022",
+      "role": "Chefscout",
+      "period": "22/23 (21.09.2022) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (03.06.2022) - 22/23 (20.09.2022)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.07.2021) - 21/22 (02.06.2022)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2017",
+      "role": "Chefscout",
+      "period": "17/18 (18.01.2018) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2013",
+      "role": "Chefscout",
+      "period": "13/14 (01.07.2013) - 17/18 (17.01.2018)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2011",
+      "role": "Scout",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2008",
+      "role": "Head of International Relations and Scouting",
+      "period": "08/09 (01.07.2008) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "58606",
+  "_cached_at": "2026-02-12T18:58:49.229447",
+  "_preloaded_at": "2026-02-12T18:58:49.230142",
+  "_coach_name": "Laurent Busser"
+}

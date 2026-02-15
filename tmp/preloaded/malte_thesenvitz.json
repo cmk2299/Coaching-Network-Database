@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/malte-thesenvitz/profil/trainer/131255",
+  "scraped_at": "2026-02-12T19:02:40.406999",
+  "name": "Malte Thesenvitz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "30.01.1997 (29)",
+  "age": 29,
+  "birthplace": "Rostock",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Auckland City",
+      "club_url": "https://www.transfermarkt.de/auckland-city-fc/startseite/verein/11391/saison_id/2024",
+      "role": "Videoanalyst",
+      "period": "24/25 (01.06.2025) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Hansa Rostock",
+      "club_url": "https://www.transfermarkt.de/fc-hansa-rostock/startseite/verein/30/saison_id/2023",
+      "role": "Spielanalyst",
+      "period": "23/24 (01.11.2023) - 24/25 (31.05.2025)"
+    }
+  ],
+  "coach_id": "131255",
+  "_cached_at": "2026-02-12T19:02:40.418731",
+  "_preloaded_at": "2026-02-12T19:02:40.419368",
+  "_coach_name": "Malte Thesenvitz"
+}

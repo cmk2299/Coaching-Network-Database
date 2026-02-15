@@ -1,0 +1,40 @@
+{
+  "url": "https://www.transfermarkt.de/lena-hoffmann/profil/trainer/121357",
+  "scraped_at": "2026-02-12T18:59:19.947645",
+  "name": "Lena Hoffmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Betreuerin",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2022",
+      "role": "Betreuerin",
+      "period": "22/23 (01.03.2023) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2019",
+      "role": "Mitarbeiterin der Geschäftsstelle",
+      "period": "19/20 (01.02.2020) - 22/23 (31.03.2023)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+      "role": "Mitarbeiterin der Geschäftsstelle",
+      "period": "18/19 (01.01.2019) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2015",
+      "role": "Mitarbeiterin der Geschäftsstelle",
+      "period": "15/16 (01.08.2015) - 18/19 (30.11.2018)"
+    }
+  ],
+  "coach_id": "121357",
+  "_cached_at": "2026-02-12T18:59:19.958131",
+  "_preloaded_at": "2026-02-12T18:59:19.958846",
+  "_coach_name": "Lena Hoffmann"
+}

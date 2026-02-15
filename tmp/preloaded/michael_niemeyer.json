@@ -1,0 +1,60 @@
+{
+  "url": "https://www.transfermarkt.de/michael-niemeyer/profil/trainer/74615",
+  "scraped_at": "2026-02-12T19:19:41.525749",
+  "name": "Michael Niemeyer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "06.04.1971 (54)",
+  "age": 54,
+  "nationality": "Deutschland",
+  "current_role": "Chefanalytikerund weitere Tätigkeiten",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "B. München U19",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/2018",
+      "role": "Chefanalytiker",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "B. München U17",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u17/startseite/verein/21058/saison_id/2018",
+      "role": "Chefanalytiker",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2018",
+      "role": "Chefanalytiker",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2018",
+      "role": "Chefanalytiker",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2010",
+      "role": "Chefanalytiker",
+      "period": "10/11 (01.05.2011) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2009",
+      "role": "Chefscout",
+      "period": "09/10 (01.07.2009) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2008",
+      "role": "Spielanalyst",
+      "period": "08/09 (01.07.2008) - 10/11 (30.04.2011)"
+    }
+  ],
+  "coach_id": "74615",
+  "_cached_at": "2026-02-12T19:19:41.538307",
+  "_preloaded_at": "2026-02-12T19:19:41.538902",
+  "_coach_name": "Michael Niemeyer"
+}

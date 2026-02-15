@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/christian-osebold/profil/trainer/8382",
+  "scraped_at": "2026-02-12T18:07:42.231729",
+  "name": "Christian Osebold",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/8382-1406215354.jpg?lm=1",
+  "dob": "24.05.1983 (42)",
+  "age": 42,
+  "nationality": "Deutschland",
+  "current_role": "Medizinischer Leiter Physiotherapie",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2020",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "20/21 (01.08.2020) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2019",
+      "role": "Physiotherapeut",
+      "period": "19/20 (01.07.2019) - 20/21 (31.07.2020)"
+    },
+    {
+      "club": "Fortuna Köln",
+      "club_url": "https://www.transfermarkt.de/sc-fortuna-koln/startseite/verein/92/saison_id/2004",
+      "role": "Physiotherapeut",
+      "period": "04/05 (17.08.2004) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Fortuna Köln",
+      "club_url": "https://www.transfermarkt.de/sc-fortuna-koln/startseite/verein/92/saison_id/2004",
+      "role": "Medizinchef",
+      "period": "04/05 (17.08.2004) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "8382",
+  "_cached_at": "2026-02-12T18:07:42.246946",
+  "_preloaded_at": "2026-02-12T18:07:42.247820",
+  "_coach_name": "Christian Osebold"
+}

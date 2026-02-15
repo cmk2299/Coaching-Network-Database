@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/bjorn-schierenbeck/profil/trainer/9794",
+  "scraped_at": "2026-02-12T18:04:37.969151",
+  "name": "Björn Schierenbeck",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/9794-1415386533.jpg?lm=1",
+  "dob": "12.07.1974 (51)",
+  "age": 51,
+  "birthplace": "Bremen",
+  "nationality": "Deutschland",
+  "current_role": "Betreuer der Leihspielerund weitere Tätigkeiten",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2024",
+      "role": "Verbindungstrainer",
+      "period": "24/25 (22.07.2024) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2024",
+      "role": "Betreuer der Leihspieler",
+      "period": "24/25 (22.07.2024) - -"
+    },
+    {
+      "club": "Werder Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-jugend/startseite/verein/12012/saison_id/2016",
+      "role": "Sportlicher Leiter",
+      "period": "16/17 (01.04.2017) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2015",
+      "role": "Sportlicher Leiter",
+      "period": "15/16 (21.06.2016) - 24/25 (30.09.2024)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2013",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "13/14 (01.07.2013) - 24/25 (30.09.2024)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2010",
+      "role": "Nachwuchskoordinator",
+      "period": "10/11 (01.07.2010) - 12/13 (30.06.2013)"
+    }
+  ],
+  "coach_id": "9794",
+  "_cached_at": "2026-02-12T18:04:37.980939",
+  "_preloaded_at": "2026-02-12T18:04:37.981579",
+  "_coach_name": "Björn Schierenbeck"
+}

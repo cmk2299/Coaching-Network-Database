@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/peter-kuhnt/profil/trainer/6894",
+  "scraped_at": "2026-02-12T19:31:11.198209",
+  "name": "Peter Kuhnt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6894-1408095703.jpg?lm=1",
+  "dob": "20.01.1962 (64)",
+  "age": 64,
+  "birthplace": "Forchheim",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2022",
+      "role": "Physiotherapeut",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "Hoffenheim U19",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u19/startseite/verein/8925/saison_id/2020",
+      "role": "Physiotherapeut",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Hoffenheim U17",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u17/startseite/verein/21082/saison_id/2020",
+      "role": "Physiotherapeut",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2018",
+      "role": "Physiotherapeut",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/1994",
+      "role": "Physiotherapeut",
+      "period": "94/95 (01.07.1994) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "1.FC Nürnberg",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg/startseite/verein/4/saison_id/1990",
+      "role": "Physiotherapeut",
+      "period": "90/91 (01.07.1990) - 93/94 (30.06.1994)"
+    },
+    {
+      "club": "SpVgg Fürth",
+      "club_url": "https://www.transfermarkt.de/spvgg-greuther-furth/startseite/verein/65/saison_id/1986",
+      "role": "Physiotherapeut",
+      "period": "86/87 (01.07.1986) - 89/90 (30.06.1990)"
+    }
+  ],
+  "coach_id": "6894",
+  "_cached_at": "2026-02-12T19:31:11.210366",
+  "_preloaded_at": "2026-02-12T19:31:11.211031",
+  "_coach_name": "Peter Kuhnt"
+}

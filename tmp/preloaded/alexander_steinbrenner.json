@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/alexander-steinbrenner/profil/trainer/58363",
+  "scraped_at": "2026-02-12T17:54:25.070276",
+  "name": "Alexander Steinbrenner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/58363-1515621427.JPG?lm=1",
+  "dob": "23.02.1977 (48)",
+  "age": 48,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.07.2012) - -"
+    }
+  ],
+  "coach_id": "58363",
+  "_cached_at": "2026-02-12T17:54:25.080316",
+  "_preloaded_at": "2026-02-12T17:54:25.080958",
+  "_coach_name": "Alexander Steinbrenner"
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/dr-reinhold-lunow/profil/trainer/1615",
+  "scraped_at": "2026-02-12T18:26:20.303409",
+  "name": "Dr. Reinhold Lunow",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/1615-1669019308.jpg?lm=1",
+  "dob": "13.08.1953 (72)",
+  "age": 72,
+  "birthplace": "Hemer",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2022",
+      "role": "Präsident",
+      "period": "22/23 (20.11.2022) - 25/26 (23.11.2025)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2021",
+      "role": "Vize-Präsident",
+      "period": "21/22 (21.11.2021) - 22/23 (19.11.2022)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2014",
+      "role": "Aufsichtsratsmitglied",
+      "period": "14/15 (27.11.2014) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2005",
+      "role": "Schatzmeister",
+      "period": "05/06 (25.11.2005) - 21/22 (20.11.2021)"
+    }
+  ],
+  "coach_id": "1615",
+  "_cached_at": "2026-02-12T18:26:20.314280",
+  "_preloaded_at": "2026-02-12T18:26:20.314914",
+  "_coach_name": "Dr. Reinhold Lunow"
+}

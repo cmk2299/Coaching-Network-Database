@@ -1,0 +1,98 @@
+{
+  "url": "https://www.transfermarkt.de/daniel-wolf/profil/trainer/27069",
+  "scraped_at": "2026-02-12T18:14:11.934443",
+  "name": "Daniel Wolf",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/27069-1530127769.png?lm=1",
+  "dob": "07.07.1980 (45)",
+  "age": 45,
+  "birthplace": "Rheinfelden",
+  "nationality": "Schweiz",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Athletiktrainer",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2017",
+      "role": "Athletiktrainer",
+      "period": "17/18 (01.01.2018) - -"
+    },
+    {
+      "club": "Deutschland U21",
+      "club_url": "https://www.transfermarkt.de/deutschland-u21/startseite/verein/3817/saison_id/2016",
+      "role": "Fitnesstrainer",
+      "period": "16/17 (01.08.2016) - 17/18 (31.12.2017)"
+    },
+    {
+      "club": "Deutschland U20",
+      "club_url": "https://www.transfermarkt.de/deutschland-u20/startseite/verein/5709/saison_id/2016",
+      "role": "Fitnesstrainer",
+      "period": "16/17 (01.08.2016) - 17/18 (31.12.2017)"
+    },
+    {
+      "club": "Deutschland U19",
+      "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2016",
+      "role": "Fitnesstrainer",
+      "period": "16/17 (01.08.2016) - 17/18 (31.12.2017)"
+    },
+    {
+      "club": "Deutschland U18",
+      "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/2016",
+      "role": "Fitnesstrainer",
+      "period": "16/17 (01.08.2016) - 17/18 (31.12.2017)"
+    },
+    {
+      "club": "Deutschland U17",
+      "club_url": "https://www.transfermarkt.de/deutschland-u17/startseite/verein/17662/saison_id/2016",
+      "role": "Fitnesstrainer",
+      "period": "16/17 (01.08.2016) - 17/18 (31.12.2017)"
+    },
+    {
+      "club": "Deutschland U15",
+      "club_url": "https://www.transfermarkt.de/deutschland-u15/startseite/verein/27300/saison_id/2016",
+      "role": "Fitnesstrainer",
+      "period": "16/17 (01.08.2016) - 17/18 (31.12.2017)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2012",
+      "role": "Athletiktrainer",
+      "period": "12/13 (01.07.2012) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2012",
+      "role": "Rehatrainer",
+      "period": "12/13 (01.07.2012) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Gr. Fürth Jgd.",
+      "club_url": "https://www.transfermarkt.de/spvgg-greuther-furth-jugend/startseite/verein/20465/saison_id/2007",
+      "role": "Athletiktrainer",
+      "period": "07/08 (01.10.2007) - 08/09 (31.01.2009)"
+    },
+    {
+      "club": "Gr. Fürth Jgd.",
+      "club_url": "https://www.transfermarkt.de/spvgg-greuther-furth-jugend/startseite/verein/20465/saison_id/2007",
+      "role": "Fitnesstrainer",
+      "period": "07/08 (01.10.2007) - 08/09 (31.01.2009)"
+    },
+    {
+      "club": "CS U Craiova",
+      "club_url": "https://www.transfermarkt.de/universitatea-craiova/startseite/verein/40812/saison_id/2007",
+      "role": "Fitnesstrainer",
+      "period": "07/08 (01.08.2007) - 07/08 (30.09.2007)"
+    },
+    {
+      "club": "CS U Craiova",
+      "club_url": "https://www.transfermarkt.de/universitatea-craiova/startseite/verein/40812/saison_id/2007",
+      "role": "Athletiktrainer",
+      "period": "07/08 (01.08.2007) - 07/08 (30.09.2007)"
+    }
+  ],
+  "coach_id": "27069",
+  "_cached_at": "2026-02-12T18:14:11.949362",
+  "_preloaded_at": "2026-02-12T18:14:11.950126",
+  "_coach_name": "Daniel Wolf"
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/lars-lammert/profil/trainer/148068",
+  "scraped_at": "2026-02-12T18:58:11.015935",
+  "name": "Lars Lammert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Aufsichtsratsmitglied",
+      "period": "25/26 (03.09.2025) - -"
+    }
+  ],
+  "coach_id": "148068",
+  "_cached_at": "2026-02-12T18:58:11.025651",
+  "_preloaded_at": "2026-02-12T18:58:11.026287",
+  "_coach_name": "Lars Lammert"
+}

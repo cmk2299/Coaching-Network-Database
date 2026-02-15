@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/florian-kroder/profil/trainer/101730",
+  "scraped_at": "2026-02-12T18:33:14.420516",
+  "name": "Florian Kroder",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.04.1987 (38)",
+  "age": 38,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2021",
+      "role": "Physiotherapeut",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Leverkusen Jgd.",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-jugend/startseite/verein/11874/saison_id/2018",
+      "role": "Physiotherapeut",
+      "period": "18/19 (01.10.2018) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "101730",
+  "_cached_at": "2026-02-12T18:33:14.430536",
+  "_preloaded_at": "2026-02-12T18:33:14.431167",
+  "_coach_name": "Florian Kroder"
+}

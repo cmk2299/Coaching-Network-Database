@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/sascha-glunk/profil/trainer/98809",
+  "scraped_at": "2026-02-12T23:22:54.050854",
+  "name": "Sascha Glunk",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Leiter Medien & Kommunikationund weitere Tätigkeiten",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2021",
+      "role": "Leiter Medien & Kommunikation",
+      "period": "21/22 (01.09.2021) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2011",
+      "role": "Pressesprecher",
+      "period": "11/12 (01.09.2011) - -"
+    }
+  ],
+  "coach_id": "98809",
+  "_cached_at": "2026-02-12T23:22:54.060815",
+  "_preloaded_at": "2026-02-12T23:22:54.061385",
+  "_coach_name": "Sascha Glunk"
+}

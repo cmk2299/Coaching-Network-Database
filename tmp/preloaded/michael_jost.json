@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/michael-jost/profil/trainer/36730",
+  "scraped_at": "2026-02-12T19:18:39.464492",
+  "name": "Michael Jost",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "26.10.1981 (44)",
+  "age": 44,
+  "birthplace": "Bochum",
+  "nationality": "Deutschland",
+  "current_role": "Marketingleiter",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2019",
+      "role": "Marketingleiter",
+      "period": "19/20 (01.09.2019) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2015",
+      "role": "Vermarktungs-Management Admin.",
+      "period": "15/16 (01.09.2015) - 17/18 (30.09.2017)"
+    },
+    {
+      "club": "SV Höntrop",
+      "club_url": "https://www.transfermarkt.de/sv-hontrop/startseite/verein/1632/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (01.07.2014) - 15/16 (31.12.2015)"
+    },
+    {
+      "club": "SW Wattenscheid",
+      "club_url": "https://www.transfermarkt.de/sw-wattenscheid-08/startseite/verein/20558/saison_id/2013",
+      "role": "Spielertrainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2009",
+      "role": "Marketingmitarbeiter",
+      "period": "09/10 (01.05.2010) - 15/16 (30.09.2015)"
+    }
+  ],
+  "coach_id": "36730",
+  "_cached_at": "2026-02-12T19:18:39.477019",
+  "_preloaded_at": "2026-02-12T19:18:39.477692",
+  "_coach_name": "Michael Jost"
+}

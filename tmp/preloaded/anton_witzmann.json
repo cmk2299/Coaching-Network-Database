@@ -1,0 +1,29 @@
+{
+  "url": "https://www.transfermarkt.de/anton-witzmann/profil/trainer/145182",
+  "scraped_at": "2026-02-12T17:59:08.639652",
+  "name": "Anton Witzmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "license": "B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.05.2022) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.10.2019) - 20/21 (01.10.2020)"
+    }
+  ],
+  "coach_id": "145182",
+  "_cached_at": "2026-02-12T17:59:08.649664",
+  "_preloaded_at": "2026-02-12T17:59:08.650240",
+  "_coach_name": "Anton Witzmann"
+}

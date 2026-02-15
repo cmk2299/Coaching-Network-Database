@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/frank-frohling/profil/trainer/14724",
+  "scraped_at": "2026-02-12T18:34:38.476819",
+  "name": "Frank Fröhling",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/14724-1438070110.jpg?lm=1",
+  "dob": "15.02.1978 (47)",
+  "age": 47,
+  "birthplace": "Karlsruhe",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (07.01.2026) - -"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (01.07.2022) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "SC Paderborn",
+      "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 20/21 (27.09.2020)"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (25.09.2016) - 17/18 (21.01.2018)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (01.07.2013) - 15/16 (26.10.2015)"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2012",
+      "role": "Co-Trainer",
+      "period": "12/13 (01.07.2012) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2009",
+      "role": "Trainer",
+      "period": "09/10 (01.07.2009) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2007",
+      "role": "Co-Trainer",
+      "period": "07/08 (01.07.2007) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "14724",
+  "_cached_at": "2026-02-12T18:34:38.489956",
+  "_preloaded_at": "2026-02-12T18:34:38.490619",
+  "_coach_name": "Frank Fröhling"
+}

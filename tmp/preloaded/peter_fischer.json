@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/peter-fischer/profil/trainer/19827",
+  "scraped_at": "2026-02-12T19:30:48.460107",
+  "name": "Peter Fischer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/19827-1422252738.jpg?lm=1",
+  "dob": "14.03.1956 (69)",
+  "age": 69,
+  "birthplace": "Lich",
+  "nationality": "Deutschland",
+  "current_role": "Ehrenpräsident",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2023",
+      "role": "Ehrenpräsident",
+      "period": "23/24 (05.02.2024) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2005",
+      "role": "stellv. Aufsichtsratsvorsitzender",
+      "period": "05/06 (01.07.2005) - 23/24 (05.02.2024)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2000",
+      "role": "Präsident",
+      "period": "00/01 (01.08.2000) - 23/24 (05.02.2024)"
+    }
+  ],
+  "coach_id": "19827",
+  "_cached_at": "2026-02-12T19:30:48.471568",
+  "_preloaded_at": "2026-02-12T19:30:48.472180",
+  "_coach_name": "Peter Fischer"
+}

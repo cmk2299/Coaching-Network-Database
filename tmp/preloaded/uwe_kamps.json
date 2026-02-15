@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/uwe-kamps/profil/trainer/1670",
+  "scraped_at": "2026-02-13T00:42:48.104577",
+  "name": "Uwe Kamps",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/1670-1437477106.jpg?lm=1",
+  "dob": "12.06.1964 (61)",
+  "age": 61,
+  "birthplace": "Düsseldorf",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Präsidiumsmitgliedund weitere Tätigkeiten",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2024",
+      "role": "Präsidiumsmitglied",
+      "period": "24/25 (20.03.2025) - -"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2021",
+      "role": "Torwartkoordinator NLZ",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2004",
+      "role": "Torwarttrainer",
+      "period": "04/05 (01.07.2004) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "1670",
+  "_cached_at": "2026-02-13T00:42:48.142050",
+  "_preloaded_at": "2026-02-13T00:42:48.143659",
+  "_coach_name": "Uwe Kamps"
+}

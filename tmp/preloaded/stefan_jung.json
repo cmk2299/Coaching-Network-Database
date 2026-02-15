@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/stefan-jung/profil/trainer/144400",
+  "scraped_at": "2026-02-12T23:28:36.696713",
+  "name": "Stefan Jung",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.02.1980 (45)",
+  "age": 45,
+  "birthplace": "Albstadt-Ebingen",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Aufsichtsratsmitglied",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2024",
+      "role": "Präsidiumsmitglied",
+      "period": "24/25 (22.03.2025) - 24/25 (30.06.2025)"
+    }
+  ],
+  "coach_id": "144400",
+  "_cached_at": "2026-02-12T23:28:36.708044",
+  "_preloaded_at": "2026-02-12T23:28:36.708620",
+  "_coach_name": "Stefan Jung"
+}

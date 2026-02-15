@@ -1,0 +1,27 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-steiert/profil/trainer/98808",
+  "scraped_at": "2026-02-12T17:57:14.232731",
+  "name": "Andreas Steiert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "current_role": "Leiter der Fußballschuleund weitere Tätigkeiten",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2012",
+      "role": "Leiter der Fußballschule",
+      "period": "12/13 (01.04.2013) - -"
+    },
+    {
+      "club": "FFS",
+      "club_url": "https://www.transfermarkt.de/freiburger-fussballschule/startseite/verein/47068/saison_id/2012",
+      "role": "Leiter der Fußballschule",
+      "period": "12/13 (01.04.2013) - -"
+    }
+  ],
+  "coach_id": "98808",
+  "_cached_at": "2026-02-12T17:57:14.242627",
+  "_preloaded_at": "2026-02-12T17:57:14.243259",
+  "_coach_name": "Andreas Steiert"
+}

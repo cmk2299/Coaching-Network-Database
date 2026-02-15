@@ -1,0 +1,44 @@
+{
+  "url": "https://www.transfermarkt.de/jan-sandmann/profil/trainer/12479",
+  "scraped_at": "2026-02-12T18:46:01.734864",
+  "name": "Jan Sandmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/12479-1438263831.jpg?lm=1",
+  "dob": "03.05.1978 (47)",
+  "age": 47,
+  "birthplace": "Burg bei Magdeburg",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Leiter der Scouting-Abteilung",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2019",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "19/20 (16.03.2020) - -"
+    },
+    {
+      "club": "1.FC Nürnberg",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg/startseite/verein/4/saison_id/2017",
+      "role": "Scout",
+      "period": "17/18 (01.07.2017) - 19/20 (15.03.2020)"
+    },
+    {
+      "club": "Holstein Kiel",
+      "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2010",
+      "role": "Co-Trainer",
+      "period": "10/11 (01.07.2010) - 16/17 (16.08.2016)"
+    },
+    {
+      "club": "Holst. Kiel U17",
+      "club_url": "https://www.transfermarkt.de/holstein-kiel-u17/startseite/verein/21067/saison_id/2009",
+      "role": "Co-Trainer",
+      "period": "09/10 (01.07.2009) - 09/10 (30.06.2010)"
+    }
+  ],
+  "coach_id": "12479",
+  "_cached_at": "2026-02-12T18:46:01.746376",
+  "_preloaded_at": "2026-02-12T18:46:01.747001",
+  "_coach_name": "Jan Sandmann"
+}

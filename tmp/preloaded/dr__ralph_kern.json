@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/dr-ralph-kern/profil/trainer/96843",
+  "scraped_at": "2026-02-12T18:26:04.892709",
+  "name": "Dr. Ralph Kern",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/96843-1665085629.jpg?lm=1",
+  "dob": "24.02.1967 (58)",
+  "age": 58,
+  "birthplace": "Heilbronn",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2015",
+      "role": "Vereinsarzt",
+      "period": "15/16 (01.07.2015) - -"
+    }
+  ],
+  "coach_id": "96843",
+  "_cached_at": "2026-02-12T18:26:04.902985",
+  "_preloaded_at": "2026-02-12T18:26:04.903571",
+  "_coach_name": "Dr. Ralph Kern"
+}

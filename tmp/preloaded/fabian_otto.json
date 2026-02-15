@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/fabian-otto/profil/trainer/82409",
+  "scraped_at": "2026-02-12T18:30:38.013899",
+  "name": "Fabian Otto",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.07.1973 (52)",
+  "age": 52,
+  "nationality": "Deutschland",
+  "current_role": "Leiter Finanzen und Personal",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2009",
+      "role": "Leiter Finanzen und Personal",
+      "period": "09/10 (01.10.2009) - -"
+    }
+  ],
+  "coach_id": "82409",
+  "_cached_at": "2026-02-12T18:30:38.023755",
+  "_preloaded_at": "2026-02-12T18:30:38.024405",
+  "_coach_name": "Fabian Otto"
+}

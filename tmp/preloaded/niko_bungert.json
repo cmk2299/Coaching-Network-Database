@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/niko-bungert/profil/trainer/74511",
+  "scraped_at": "2026-02-12T19:24:19.132984",
+  "name": "Niko Bungert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/74511-1637158544.jpg?lm=1",
+  "dob": "24.10.1986 (39)",
+  "age": 39,
+  "birthplace": "Bochum",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Sportdirektor",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2024",
+      "role": "Sportdirektor",
+      "period": "24/25 (30.07.2024) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (01.01.2024) - 24/25 (29.07.2024)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2021",
+      "role": "Klubrepräsentant",
+      "period": "21/22 (17.11.2021) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (12.08.2021) - 21/22 (18.08.2021)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (18.11.2019) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "74511",
+  "_cached_at": "2026-02-12T19:24:19.145881",
+  "_preloaded_at": "2026-02-12T19:24:19.146541",
+  "_coach_name": "Niko Bungert"
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/walter-notter/profil/trainer/8218",
+  "scraped_at": "2026-02-13T00:44:35.129883",
+  "name": "Walter Notter",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/8218-1406742515.jpg?lm=1",
+  "dob": "30.01.1961 (65)",
+  "age": 65,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/1989",
+      "role": "Zeugwart",
+      "period": "89/90 (01.07.1989) - -"
+    }
+  ],
+  "coach_id": "8218",
+  "_cached_at": "2026-02-13T00:44:35.148737",
+  "_preloaded_at": "2026-02-13T00:44:35.149698",
+  "_coach_name": "Walter Notter"
+}

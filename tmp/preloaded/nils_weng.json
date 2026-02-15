@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/nils-weng/profil/trainer/72447",
+  "scraped_at": "2026-02-12T19:25:43.904553",
+  "name": "Nils Weng",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "11.06.1994 (31)",
+  "age": 31,
+  "birthplace": "Heidenheim an der Brenz",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Leiter der Nachwuchsabteilung",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2019",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2016",
+      "role": "Koordinator Talentförderung",
+      "period": "16/17 (01.01.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2012",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "12/13 (01.06.2013) - 16/17 (31.12.2016)"
+    }
+  ],
+  "coach_id": "72447",
+  "_cached_at": "2026-02-12T19:25:43.915427",
+  "_preloaded_at": "2026-02-12T19:25:43.916003",
+  "_coach_name": "Nils Weng"
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/michael-cuper/profil/trainer/74614",
+  "scraped_at": "2026-02-12T19:17:52.766256",
+  "name": "Michael Cuper",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "08.01.1985 (41)",
+  "age": 41,
+  "nationality": "Deutschland",
+  "current_role": "Spielanalyst",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2015",
+      "role": "Spielanalyst",
+      "period": "15/16 (01.10.2015) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2014",
+      "role": "Gegneranalyst",
+      "period": "14/15 (01.07.2014) - 15/16 (30.09.2015)"
+    }
+  ],
+  "coach_id": "74614",
+  "_cached_at": "2026-02-12T19:17:52.776827",
+  "_preloaded_at": "2026-02-12T19:17:52.777393",
+  "_coach_name": "Michael Cuper"
+}

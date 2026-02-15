@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/eva-maria-federhenn/profil/trainer/54247",
+  "scraped_at": "2026-02-12T18:29:36.543766",
+  "name": "Eva-Maria Federhenn",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "stellv. Aufsichtsratsvorsitzende",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2016",
+      "role": "stellv. Aufsichtsratsvorsitzende",
+      "period": "16/17 (25.06.2017) - -"
+    }
+  ],
+  "coach_id": "54247",
+  "_cached_at": "2026-02-12T18:29:36.553823",
+  "_preloaded_at": "2026-02-12T18:29:36.554457",
+  "_coach_name": "Eva-Maria Federhenn"
+}

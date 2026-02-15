@@ -1,0 +1,73 @@
+{
+  "url": "https://www.transfermarkt.de/oliver-leki/profil/trainer/38414",
+  "scraped_at": "2026-02-12T19:27:15.081097",
+  "name": "Oliver Leki",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/38414-1678788950.jpg?lm=1",
+  "dob": "21.01.1973 (53)",
+  "age": 53,
+  "birthplace": "Worms",
+  "nationality": "Deutschland",
+  "current_role": "Vize-Präsidentund weitere Tätigkeiten",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2025",
+      "role": "Vize-Präsident",
+      "period": "25/26 (28.11.2025) - -"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2022",
+      "role": "Geschäftsführer",
+      "period": "22/23 (08.12.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2019",
+      "role": "Präsidiumsmitglied",
+      "period": "19/20 (01.08.2019) - 23/24 (31.08.2023)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2019",
+      "role": "Vize-Präsident",
+      "period": "19/20 (01.08.2019) - 23/24 (31.08.2023)"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2019",
+      "role": "stellv. Aufsichtsratsvorsitzender",
+      "period": "19/20 (01.08.2019) - 23/24 (31.08.2023)"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2014",
+      "role": "Vorstand",
+      "period": "14/15 (01.10.2014) - vsl. 30.06.2027"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2013",
+      "role": "Geschäftsführer Finanzen",
+      "period": "13/14 (16.09.2013) - 14/15 (30.09.2014)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2006",
+      "role": "Geschäftsführer Finanzen",
+      "period": "06/07 (01.07.2006) - 12/13 (15.01.2013)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2003",
+      "role": "Kaufmännischer Leiter",
+      "period": "03/04 (01.07.2003) - 05/06 (30.06.2006)"
+    }
+  ],
+  "coach_id": "38414",
+  "_cached_at": "2026-02-12T19:27:15.100283",
+  "_preloaded_at": "2026-02-12T19:27:15.101094",
+  "_coach_name": "Oliver Leki"
+}

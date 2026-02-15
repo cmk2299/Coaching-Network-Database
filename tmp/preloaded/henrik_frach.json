@@ -1,0 +1,73 @@
+{
+  "url": "https://www.transfermarkt.de/henrik-frach/profil/trainer/42094",
+  "scraped_at": "2026-02-12T18:42:11.425713",
+  "name": "Henrik Frach",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/42094-1682600080.jpg?lm=1",
+  "dob": "17.02.1988 (37)",
+  "age": 37,
+  "birthplace": "Ostercappeln",
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2020",
+      "role": "Athletiktrainer",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Werder U19",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-u19/startseite/verein/2491/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Werder U17",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-u17/startseite/verein/21079/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Werder Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-jugend/startseite/verein/12012/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2017",
+      "role": "Athletiktrainer",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Deutschland U18",
+      "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/2015",
+      "role": "Athletiktrainer",
+      "period": "15/16 (01.06.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "VfL Osnabrück",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck/startseite/verein/81/saison_id/2013",
+      "role": "Athletiktrainer",
+      "period": "13/14 (01.05.2014) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Wynrs N Zealand",
+      "club_url": "https://www.transfermarkt.de/wynrs-new-zealand/startseite/verein/89505/saison_id/2008",
+      "role": "Athletiktrainer",
+      "period": "08/09 (01.08.2008) - 08/09 (31.03.2009)"
+    }
+  ],
+  "coach_id": "42094",
+  "_cached_at": "2026-02-12T18:42:11.450020",
+  "_preloaded_at": "2026-02-12T18:42:11.451268",
+  "_coach_name": "Henrik Frach"
+}

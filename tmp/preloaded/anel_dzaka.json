@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/anel-dzaka/profil/trainer/56324",
+  "scraped_at": "2026-02-12T17:57:59.742409",
+  "name": "Anel Dzaka",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/56324-1631976783.jpg?lm=1",
+  "dob": "19.09.1980 (45)",
+  "age": 45,
+  "birthplace": "Sarajevo",
+  "nationality": "DeutschlandBosnien-Herzegowina",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Nachwuchsscout",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2022",
+      "role": "Nachwuchsscout",
+      "period": "22/23 (01.08.2022) - -"
+    },
+    {
+      "club": "TuS Koblenz",
+      "club_url": "https://www.transfermarkt.de/tus-koblenz/startseite/verein/996/saison_id/2018",
+      "role": "Sportlicher Leiter",
+      "period": "18/19 (01.07.2018) - 19/20 (31.12.2019)"
+    },
+    {
+      "club": "TuS Koblenz",
+      "club_url": "https://www.transfermarkt.de/tus-koblenz/startseite/verein/996/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (11.02.2018) - 21/22 (18.11.2021)"
+    },
+    {
+      "club": "TuS Koblenz U17",
+      "club_url": "https://www.transfermarkt.de/tus-koblenz-u17/startseite/verein/20003/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.07.2017) - 17/18 (10.02.2018)"
+    },
+    {
+      "club": "Koblenz Jgd.",
+      "club_url": "https://www.transfermarkt.de/tus-koblenz-jugend/startseite/verein/21127/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "56324",
+  "_cached_at": "2026-02-12T17:57:59.754330",
+  "_preloaded_at": "2026-02-12T17:57:59.754938",
+  "_coach_name": "Anel Dzaka"
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://www.transfermarkt.de/stefan-effenberg/profil/trainer/23419",
+  "scraped_at": "2026-02-12T23:28:22.050914",
+  "name": "Stefan Effenberg",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/23419-1444713389.jpg?lm=1",
+  "dob": "02.08.1968 (57)",
+  "age": 57,
+  "birthplace": "Hamburg",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "Acorado Sports GmbH",
+  "agent_url": "https://www.transfermarkt.de/acorado-sports-gmbh/beraterfirma/berater/4232",
+  "current_role": "Klubrepräsentant",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2022",
+      "role": "Klubrepräsentant",
+      "period": "22/23 (16.09.2022) - -"
+    },
+    {
+      "club": "KFC Uerdingen",
+      "club_url": "https://www.transfermarkt.de/kfc-uerdingen-05/startseite/verein/95/saison_id/2019",
+      "role": "Manager",
+      "period": "19/20 (05.10.2019) - 19/20 (19.05.2020)"
+    },
+    {
+      "club": "SC Paderborn",
+      "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (13.10.2015) - 15/16 (02.03.2016)"
+    }
+  ],
+  "coach_id": "23419",
+  "_cached_at": "2026-02-12T23:28:22.063332",
+  "_preloaded_at": "2026-02-12T23:28:22.063852",
+  "_coach_name": "Stefan Effenberg"
+}

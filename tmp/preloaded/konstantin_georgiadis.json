@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/konstantin-georgiadis/profil/trainer/98872",
+  "scraped_at": "2026-02-12T18:57:25.991660",
+  "name": "Konstantin Georgiadis",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "19.12.1989 (36)",
+  "age": 36,
+  "birthplace": "Mönchengladbach",
+  "nationality": "DeutschlandGriechenland",
+  "current_role": "Scout",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 (01.11.2025) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+      "role": "Scout",
+      "period": "18/19 (01.07.2018) - 25/26 (31.10.2025)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2013",
+      "role": "Scout",
+      "period": "13/14 (01.07.2013) - 18/19 (30.06.2018)"
+    }
+  ],
+  "coach_id": "98872",
+  "_cached_at": "2026-02-12T18:57:26.002461",
+  "_preloaded_at": "2026-02-12T18:57:26.003117",
+  "_coach_name": "Konstantin Georgiadis"
+}

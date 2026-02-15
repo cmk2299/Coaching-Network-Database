@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/max-wicht/profil/trainer/37684",
+  "scraped_at": "2026-02-12T19:15:43.026252",
+  "name": "Max Wicht",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "20.02.1986 (39)",
+  "age": 39,
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2023",
+      "role": "Nachwuchsscout",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Wuppertal U19",
+      "club_url": "https://www.transfermarkt.de/wuppertaler-sv-u19/startseite/verein/9723/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (01.07.2015) - 15/16 (04.08.2015)"
+    },
+    {
+      "club": "M'gladbach U17",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u17/startseite/verein/21056/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "M'gladbach Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-jugend/startseite/verein/11845/saison_id/2012",
+      "role": "Trainer",
+      "period": "12/13 (01.07.2012) - 12/13 (30.06.2013)"
+    }
+  ],
+  "coach_id": "37684",
+  "_cached_at": "2026-02-12T19:15:43.036866",
+  "_preloaded_at": "2026-02-12T19:15:43.037495",
+  "_coach_name": "Max Wicht"
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/sascha-koch/profil/trainer/2111",
+  "scraped_at": "2026-02-12T23:23:01.553001",
+  "name": "Sascha Koch",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/2111-1415192827.PNG?lm=1",
+  "dob": "15.03.1978 (47)",
+  "age": 47,
+  "birthplace": "Ludwigshafen",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Scout",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.02.2017) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.07.2016) - 16/17 (31.01.2017)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (20.09.2013)"
+    },
+    {
+      "club": "Wormatia Worms",
+      "club_url": "https://www.transfermarkt.de/vfr-wormatia-worms/startseite/verein/158/saison_id/2009",
+      "role": "Trainer",
+      "period": "09/10 (01.07.2009) - 09/10 (19.11.2009)"
+    },
+    {
+      "club": "L. Oggersheim",
+      "club_url": "https://www.transfermarkt.de/fsv-ludwigshafen-oggersheim/startseite/verein/1526/saison_id/2003",
+      "role": "Trainer",
+      "period": "03/04 (01.07.2003) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "2111",
+  "_cached_at": "2026-02-12T23:23:01.565198",
+  "_preloaded_at": "2026-02-12T23:23:01.565832",
+  "_coach_name": "Sascha Koch"
+}

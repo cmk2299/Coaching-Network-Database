@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/ill-han-yu/profil/trainer/82702",
+  "scraped_at": "2026-02-12T18:43:43.875189",
+  "name": "Ill-Han Yu",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "09.05.1987 (38)",
+  "age": 38,
+  "birthplace": "Kamp-Lintfort",
+  "nationality": "DeutschlandSüdkorea",
+  "current_role": "Physiotherapeut",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Physiotherapeut",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "M'gladbach U19",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/2016",
+      "role": "Physiotherapeut",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "M'gladbach U17",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u17/startseite/verein/21056/saison_id/2015",
+      "role": "Physiotherapeut",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "M'gladbach Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-jugend/startseite/verein/11845/saison_id/2012",
+      "role": "Physiotherapeut",
+      "period": "12/13 (01.01.2013) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "82702",
+  "_cached_at": "2026-02-12T18:43:43.886377",
+  "_preloaded_at": "2026-02-12T18:43:43.887059",
+  "_coach_name": "Ill-Han Yu"
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://www.transfermarkt.de/knut-keymer/profil/trainer/145168",
+  "scraped_at": "2026-02-12T18:56:47.561576",
+  "name": "Knut Keymer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Leiter Organisation und Infrastruktur",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2018",
+      "role": "Leiter Organisation und Infrastruktur",
+      "period": "18/19 (01.01.2019) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2009",
+      "role": "Marketingleiter",
+      "period": "09/10 (01.03.2010) - 18/19 (31.12.2018)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2008",
+      "role": "Manager Marketing/Sponsoring",
+      "period": "08/09 (01.09.2008) - 09/10 (01.03.2010)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2004",
+      "role": "Marketingmitarbeiter",
+      "period": "04/05 (01.03.2005) - 08/09 (01.09.2008)"
+    }
+  ],
+  "coach_id": "145168",
+  "_cached_at": "2026-02-12T18:56:47.573050",
+  "_preloaded_at": "2026-02-12T18:56:47.573701",
+  "_coach_name": "Knut Keymer"
+}

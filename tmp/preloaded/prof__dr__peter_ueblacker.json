@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/prof-dr-peter-ueblacker/profil/trainer/74595",
+  "scraped_at": "2026-02-12T23:15:21.405921",
+  "name": "Prof. Dr. Peter Ueblacker",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "29.10.1977 (48)",
+  "age": 48,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2017",
+      "role": "Vereinsarzt",
+      "period": "17/18 (13.11.2017) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2009",
+      "role": "Vereinsarzt",
+      "period": "09/10 (01.07.2009) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "74595",
+  "_cached_at": "2026-02-12T23:15:21.416851",
+  "_preloaded_at": "2026-02-12T23:15:21.417611",
+  "_coach_name": "Prof. Dr. Peter Ueblacker"
+}

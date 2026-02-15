@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/kathleen-kruger/profil/trainer/66034",
+  "scraped_at": "2026-02-12T18:54:34.341239",
+  "name": "Kathleen Krüger",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/66034-1596528528.jpg?lm=1",
+  "dob": "17.05.1985 (40)",
+  "age": 40,
+  "birthplace": "Eching",
+  "nationality": "Deutschland",
+  "current_role": "Leiter Organisation und Infrastruktur",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+      "role": "Leiter Organisation und Infrastruktur",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2012",
+      "role": "Teammanagerin",
+      "period": "12/13 (01.07.2012) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2010",
+      "role": "Mitarbeiterin der Geschäftsstelle",
+      "period": "10/11 (01.07.2010) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "66034",
+  "_cached_at": "2026-02-12T18:54:34.352867",
+  "_preloaded_at": "2026-02-12T18:54:34.353546",
+  "_coach_name": "Kathleen Krüger"
+}

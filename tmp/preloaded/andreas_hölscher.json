@@ -1,0 +1,56 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-holscher/profil/trainer/106462",
+  "scraped_at": "2026-02-12T17:56:05.694437",
+  "name": "Andreas Hölscher",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "01.05.1978 (47)",
+  "age": 47,
+  "birthplace": "Neuenbürg",
+  "nationality": "Deutschland",
+  "license": "A+-Lizenz",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2025",
+      "role": "Nachwuchsscout",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "SV Elversberg",
+      "club_url": "https://www.transfermarkt.de/sv-07-elversberg/startseite/verein/64/saison_id/2022",
+      "role": "Nachwuchskoordinator",
+      "period": "22/23 (01.07.2022) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Deutschland U17",
+      "club_url": "https://www.transfermarkt.de/deutschland-u17/startseite/verein/17662/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Deutschland U16",
+      "club_url": "https://www.transfermarkt.de/deutschland-u16/startseite/verein/17368/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Deutschland U15",
+      "club_url": "https://www.transfermarkt.de/deutschland-u15/startseite/verein/27300/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "DFB-Stützpunkt",
+      "club_url": "https://www.transfermarkt.de/dfb-stutzpunkt/startseite/verein/36796/saison_id/2010",
+      "role": "Stützpunktkoordinator",
+      "period": "10/11 (01.02.2011) - 21/22 (30.06.2022)"
+    }
+  ],
+  "coach_id": "106462",
+  "_cached_at": "2026-02-12T17:56:05.705909",
+  "_preloaded_at": "2026-02-12T17:56:05.706475",
+  "_coach_name": "Andreas Hölscher"
+}

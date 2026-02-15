@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/horst-heldt/profil/trainer/3201",
+  "scraped_at": "2026-02-12T18:43:06.192407",
+  "name": "Horst Heldt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/3201-1406655507.jpg?lm=1",
+  "dob": "09.12.1969 (56)",
+  "age": 56,
+  "birthplace": "Königswinter",
+  "nationality": "Deutschland",
+  "current_role": "Geschäftsführer Profifußball",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2024",
+      "role": "Geschäftsführer Profifußball",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2019",
+      "role": "Geschäftsführer Sport",
+      "period": "19/20 (18.11.2019) - 20/21 (30.05.2021)"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2016",
+      "role": "Manager",
+      "period": "16/17 (05.03.2017) - 18/19 (09.04.2019)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2010",
+      "role": "Vorstand Sport",
+      "period": "10/11 (16.03.2011) - 15/16 (14.05.2016)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2010",
+      "role": "Vorstandsmitglied",
+      "period": "10/11 (01.07.2010) - 10/11 (15.03.2011)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2009",
+      "role": "Sportvorstand",
+      "period": "09/10 (01.07.2009) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2005",
+      "role": "Sportdirektor",
+      "period": "05/06 (03.01.2006) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "3201",
+  "_cached_at": "2026-02-12T18:43:06.205841",
+  "_preloaded_at": "2026-02-12T18:43:06.206679",
+  "_coach_name": "Horst Heldt"
+}

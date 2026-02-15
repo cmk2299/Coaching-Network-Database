@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-ludwig/profil/trainer/145302",
+  "scraped_at": "2026-02-12T17:56:28.422622",
+  "name": "Andreas Ludwig",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "11.09.1990 (35)",
+  "age": 35,
+  "birthplace": "Ulm",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 (01.07.2025) - -"
+    }
+  ],
+  "coach_id": "145302",
+  "_cached_at": "2026-02-12T17:56:28.432488",
+  "_preloaded_at": "2026-02-12T17:56:28.432988",
+  "_coach_name": "Andreas Ludwig"
+}

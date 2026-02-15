@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/sebastian-knosp/profil/trainer/80960",
+  "scraped_at": "2026-02-12T23:24:49.676440",
+  "name": "Sebastian Knosp",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "05.07.1987 (38)",
+  "age": 38,
+  "birthplace": "Titisee-Neustadt",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (01.10.2022) - -"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2019",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "19/20 (01.07.2019) - 22/23 (30.09.2022)"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2014",
+      "role": "Leiter Nachwuchsscouting",
+      "period": "14/15 (01.07.2014) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2011",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "11/12 (01.08.2011) - 11/12 (31.03.2012)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2010",
+      "role": "Scout",
+      "period": "10/11 (01.08.2010) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "80960",
+  "_cached_at": "2026-02-12T23:24:49.688828",
+  "_preloaded_at": "2026-02-12T23:24:49.689447",
+  "_coach_name": "Sebastian Knosp"
+}

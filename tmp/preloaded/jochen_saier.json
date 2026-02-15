@@ -1,0 +1,44 @@
+{
+  "url": "https://www.transfermarkt.de/jochen-saier/profil/trainer/8568",
+  "scraped_at": "2026-02-12T18:47:55.419051",
+  "name": "Jochen Saier",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/8568-1678789337.jpg?lm=1",
+  "dob": "20.04.1978 (47)",
+  "age": 47,
+  "birthplace": "Lahr",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "current_role": "Sportvorstandund weitere Tätigkeiten",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2014",
+      "role": "Sportvorstand",
+      "period": "14/15 (01.10.2014) - vsl. 30.06.2027"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2012",
+      "role": "Sportdirektor",
+      "period": "12/13 (01.04.2013) - 14/15 (30.09.2014)"
+    },
+    {
+      "club": "FFS",
+      "club_url": "https://www.transfermarkt.de/freiburger-fussballschule/startseite/verein/47068/saison_id/2003",
+      "role": "Vorstandsmitglied",
+      "period": "03/04 (26.04.2004) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2003",
+      "role": "Leiter der Fußballschule",
+      "period": "03/04 (01.07.2003) - 13/14 (31.03.2013)"
+    }
+  ],
+  "coach_id": "8568",
+  "_cached_at": "2026-02-12T18:47:55.431774",
+  "_preloaded_at": "2026-02-12T18:47:55.432413",
+  "_coach_name": "Jochen Saier"
+}

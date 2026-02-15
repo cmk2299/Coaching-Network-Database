@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/hannah-stormanns/profil/trainer/153451",
+  "scraped_at": "2026-02-12T18:39:30.186343",
+  "name": "Hannah Stormanns",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Ernährungsberaterin",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2024",
+      "role": "Ernährungsberaterin",
+      "period": "24/25 (01.09.2024) - -"
+    },
+    {
+      "club": "M'gladbach Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-jugend/startseite/verein/11845/saison_id/2021",
+      "role": "Ernährungsberaterin",
+      "period": "21/22 (01.03.2022) - 24/25 (31.08.2024)"
+    }
+  ],
+  "coach_id": "153451",
+  "_cached_at": "2026-02-12T18:39:30.196277",
+  "_preloaded_at": "2026-02-12T18:39:30.196851",
+  "_coach_name": "Hannah Stormanns"
+}

@@ -1,0 +1,58 @@
+{
+  "url": "https://www.transfermarkt.de/christoph-wetzel-veilandics/profil/trainer/98807",
+  "scraped_at": "2026-02-12T18:09:44.422782",
+  "name": "Christoph Wetzel-Veilandics",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Leiter Nachwuchsscoutingund weitere Tätigkeiten",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "FFS",
+      "club_url": "https://www.transfermarkt.de/freiburger-fussballschule/startseite/verein/47068/saison_id/2019",
+      "role": "Leiter Nachwuchsscouting",
+      "period": "19/20 (01.01.2020) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2019",
+      "role": "Leiter Nachwuchsscouting",
+      "period": "19/20 (01.01.2020) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2013",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "13/14 (01.07.2013) - 19/20 (31.12.2019)"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2013",
+      "role": "Nachwuchs-Chefscout",
+      "period": "13/14 (01.07.2013) - 19/20 (31.01.2019)"
+    },
+    {
+      "club": "Offenburger FV",
+      "club_url": "https://www.transfermarkt.de/offenburger-fv/startseite/verein/5280/saison_id/2006",
+      "role": "Co-Trainer",
+      "period": "06/07 (01.07.2006) - 06/07"
+    },
+    {
+      "club": "Offenburger FV",
+      "club_url": "https://www.transfermarkt.de/offenburger-fv/startseite/verein/5280/saison_id/2006",
+      "role": "Jugendleiter",
+      "period": "06/07 (01.07.2006) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "SV Zunsweier",
+      "club_url": "https://www.transfermarkt.de/sv-zunsweier/startseite/verein/10336/saison_id/2005",
+      "role": "Trainer",
+      "period": "05/06 - 05/06 (30.06.2006)"
+    }
+  ],
+  "coach_id": "98807",
+  "_cached_at": "2026-02-12T18:09:44.437451",
+  "_preloaded_at": "2026-02-12T18:09:44.438106",
+  "_coach_name": "Christoph Wetzel-Veilandics"
+}

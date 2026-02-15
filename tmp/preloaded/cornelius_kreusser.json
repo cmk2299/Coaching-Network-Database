@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/cornelius-kreusser/profil/trainer/121360",
+  "scraped_at": "2026-02-12T18:11:23.904050",
+  "name": "Cornelius Kreusser",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "08.10.1983 (42)",
+  "age": 42,
+  "nationality": "Deutschland",
+  "current_role": "Videoanalystund weitere Tätigkeiten",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Videoanalyst",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "M. Tel Aviv",
+      "club_url": "https://www.transfermarkt.de/maccabi-tel-aviv/startseite/verein/119/saison_id/2019",
+      "role": "Spielanalyst",
+      "period": "19/20 - 19/20"
+    }
+  ],
+  "coach_id": "121360",
+  "_cached_at": "2026-02-12T18:11:23.914538",
+  "_preloaded_at": "2026-02-12T18:11:23.915109",
+  "_coach_name": "Cornelius Kreusser"
+}

@@ -1,0 +1,92 @@
+{
+  "url": "https://www.transfermarkt.de/soren-hartung/profil/trainer/9891",
+  "scraped_at": "2026-02-13T00:02:38.238769",
+  "name": "Sören Hartung",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/9891-1722886989.jpg?lm=1",
+  "dob": "22.11.1983 (42)",
+  "age": 42,
+  "birthplace": "Alfeld",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (01.01.2024) - -"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.07.2017) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2015",
+      "role": "Chefanalytiker",
+      "period": "15/16 (01.07.2015) - 16/17 (22.05.2017)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 16/17 (22.05.2017)"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2011",
+      "role": "Trainer",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2009",
+      "role": "Co-Trainer",
+      "period": "09/10 (14.09.2009) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2009",
+      "role": "Interimstrainer",
+      "period": "09/10 (01.08.2009) - 09/10 (13.09.2009)"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2008",
+      "role": "Co-Trainer",
+      "period": "08/09 (01.01.2009) - 09/10 (31.07.2009)"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 (01.07.2008) - 08/09 (31.12.2008)"
+    },
+    {
+      "club": "Darmstadt Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-darmstadt-98-jugend/startseite/verein/33469/saison_id/2006",
+      "role": "Trainer",
+      "period": "06/07 (01.07.2006) - 07/08 (30.06.2008)"
+    }
+  ],
+  "coach_id": "9891",
+  "_cached_at": "2026-02-13T00:02:38.266364",
+  "_preloaded_at": "2026-02-13T00:02:38.267520",
+  "_coach_name": "Sören Hartung"
+}

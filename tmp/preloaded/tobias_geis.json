@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/tobias-geis/profil/trainer/104430",
+  "scraped_at": "2026-02-13T00:21:36.467361",
+  "name": "Tobias Geis",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.09.1991 (34)",
+  "age": 34,
+  "birthplace": "Bad Kissingen",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2015",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "15/16 (01.08.2015) - 16/17 (31.07.2016)"
+    }
+  ],
+  "coach_id": "104430",
+  "_cached_at": "2026-02-13T00:21:36.502002",
+  "_preloaded_at": "2026-02-13T00:21:36.503422",
+  "_coach_name": "Tobias Geis"
+}

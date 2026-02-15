@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/leandro-kramer/profil/trainer/122288",
+  "scraped_at": "2026-02-12T18:59:04.577063",
+  "name": "Leandro Krämer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "05.06.2000 (25)",
+  "age": 25,
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2023",
+      "role": "Nachwuchsscout",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Nordost Berlin",
+      "club_url": "https://www.transfermarkt.de/fc-nordost-berlin/startseite/verein/949/saison_id/2021",
+      "role": "Sportdirektor",
+      "period": "21/22 (15.10.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Nordost Berlin",
+      "club_url": "https://www.transfermarkt.de/fc-nordost-berlin/startseite/verein/949/saison_id/2021",
+      "role": "Nachwuchskoordinator",
+      "period": "21/22 (01.07.2021) - 21/22 (14.10.2021)"
+    }
+  ],
+  "coach_id": "122288",
+  "_cached_at": "2026-02-12T18:59:04.587875",
+  "_preloaded_at": "2026-02-12T18:59:04.588525",
+  "_coach_name": "Leandro Krämer"
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/emerson-thome/profil/trainer/105536",
+  "scraped_at": "2026-02-13T00:46:19.704174",
+  "name": "Émerson Thome",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "30.03.1972 (53)",
+  "age": 53,
+  "birthplace": "Porto Alegre",
+  "nationality": "BrasilienPortugal",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2018",
+      "role": "Scout",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "West Ham Utd.",
+      "club_url": "https://www.transfermarkt.de/west-ham-united/startseite/verein/379/saison_id/2015",
+      "role": "Scout",
+      "period": "15/16 (01.08.2015) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "FC Everton",
+      "club_url": "https://www.transfermarkt.de/fc-everton/startseite/verein/29/saison_id/2008",
+      "role": "Scout",
+      "period": "08/09 (01.08.2008) - 15/16 (31.07.2015)"
+    }
+  ],
+  "coach_id": "105536",
+  "_cached_at": "2026-02-13T00:46:19.720781",
+  "_preloaded_at": "2026-02-13T00:46:19.721663",
+  "_coach_name": "Émerson Thome"
+}

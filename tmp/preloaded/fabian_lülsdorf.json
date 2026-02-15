@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/fabian-lulsdorf/profil/trainer/82278",
+  "scraped_at": "2026-02-12T18:30:30.400484",
+  "name": "Fabian Lülsdorf",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2021",
+      "role": "Nachwuchsscout",
+      "period": "21/22 (01.07.2021) - -"
+    }
+  ],
+  "coach_id": "82278",
+  "_cached_at": "2026-02-12T18:30:30.410478",
+  "_preloaded_at": "2026-02-12T18:30:30.411891",
+  "_coach_name": "Fabian Lülsdorf"
+}

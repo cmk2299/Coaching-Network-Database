@@ -1,0 +1,44 @@
+{
+  "url": "https://www.transfermarkt.de/assimiou-toure/profil/trainer/100591",
+  "scraped_at": "2026-02-12T18:00:17.439779",
+  "name": "Assimiou Touré",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "01.01.1988 (38)",
+  "age": 38,
+  "birthplace": "Sokodé",
+  "nationality": "TogoDeutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Co-Trainerund weitere Tätigkeiten",
+  "current_club": "FC Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/fc-leverkusen/startseite/verein/40008",
+  "career_history": [
+    {
+      "club": "FC Leverkusen",
+      "club_url": "https://www.transfermarkt.de/fc-leverkusen/startseite/verein/40008/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (01.10.2022) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2022",
+      "role": "Integrationsbeauftragter",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Nachwuchsscout",
+      "period": "18/19 (01.03.2019) - 22/23 (31.08.2022)"
+    },
+    {
+      "club": "Vikt. Köln U19",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln-u19/startseite/verein/10075/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.06.2016) - 16/17 (31.03.2017)"
+    }
+  ],
+  "coach_id": "100591",
+  "_cached_at": "2026-02-12T18:00:17.451005",
+  "_preloaded_at": "2026-02-12T18:00:17.451649",
+  "_coach_name": "Assimiou Touré"
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/ronald-bauer/profil/trainer/145700",
+  "scraped_at": "2026-02-12T23:20:12.210089",
+  "name": "Ronald Bauer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Finanzen",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2013",
+      "role": "Direktor Finanzen",
+      "period": "13/14 (01.07.2013) - -"
+    }
+  ],
+  "coach_id": "145700",
+  "_cached_at": "2026-02-12T23:20:12.219713",
+  "_preloaded_at": "2026-02-12T23:20:12.220161",
+  "_coach_name": "Ronald Bauer"
+}

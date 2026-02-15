@@ -1,0 +1,103 @@
+{
+  "url": "https://www.transfermarkt.de/tobias-droessler/profil/trainer/144254",
+  "scraped_at": "2026-02-13T00:21:28.865821",
+  "name": "Tobias Droessler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "31.10.1993 (32)",
+  "age": 32,
+  "nationality": "Österreich",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Spielanalyst",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2024",
+      "role": "Spielanalyst",
+      "period": "24/25 (15.08.2024) - -"
+    },
+    {
+      "club": "U. Berlin U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2023",
+      "role": "Chefanalytiker",
+      "period": "23/24 (15.07.2023) - 24/25 (14.08.2024)"
+    },
+    {
+      "club": "U. Berlin U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u17/startseite/verein/21099/saison_id/2023",
+      "role": "Chefanalytiker",
+      "period": "23/24 (15.07.2023) - 24/25 (14.08.2024)"
+    },
+    {
+      "club": "U. Berlin Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-jugend/startseite/verein/36841/saison_id/2023",
+      "role": "Chefanalytiker",
+      "period": "23/24 (15.07.2023) - 24/25 (14.08.2024)"
+    },
+    {
+      "club": "Viktoria Berlin",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-1889-berlin/startseite/verein/40373/saison_id/2022",
+      "role": "Entwicklungscoach",
+      "period": "22/23 (01.07.2022) - 23/24 (14.07.2023)"
+    },
+    {
+      "club": "Viktoria Berlin",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-1889-berlin/startseite/verein/40373/saison_id/2022",
+      "role": "Sportpsychologe",
+      "period": "22/23 (01.07.2022) - 23/24 (14.07.2023)"
+    },
+    {
+      "club": "Viktoria Berlin",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-1889-berlin/startseite/verein/40373/saison_id/2021",
+      "role": "Spielanalyst",
+      "period": "21/22 (03.03.2022) - 22/23 (31.07.2022)"
+    },
+    {
+      "club": "Vik. Berlin U19",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-1889-berlin-u19/startseite/verein/40719/saison_id/2021",
+      "role": "Spielanalyst",
+      "period": "21/22 (15.07.2021) - 21/22 (02.03.2022)"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2017",
+      "role": "Spielanalyst",
+      "period": "17/18 (01.07.2017) - 21/22 (14.07.2021)"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2017",
+      "role": "Chefanalytiker",
+      "period": "17/18 (01.07.2017) - 21/22 (14.07.2021)"
+    },
+    {
+      "club": "Mainz 05 YL",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-uefa-u19/startseite/verein/108452/saison_id/2017",
+      "role": "Chefanalytiker",
+      "period": "17/18 (01.07.2017) - 21/22 (14.07.2021)"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2017",
+      "role": "Chefanalytiker",
+      "period": "17/18 (01.07.2017) - 21/22 (14.07.2021)"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2017",
+      "role": "Chefanalytiker",
+      "period": "17/18 (01.07.2017) - 21/22 (14.07.2021)"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2015",
+      "role": "Spielanalyst",
+      "period": "15/16 (01.04.2016) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "144254",
+  "_cached_at": "2026-02-13T00:21:28.912073",
+  "_preloaded_at": "2026-02-13T00:21:28.914024",
+  "_coach_name": "Tobias Droessler"
+}

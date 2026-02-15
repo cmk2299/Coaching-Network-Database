@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/marvin-kreuzwieser/profil/trainer/88715",
+  "scraped_at": "2026-02-12T19:12:08.552597",
+  "name": "Marvin Kreuzwieser",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "21.06.1991 (34)",
+  "age": 34,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2021",
+      "role": "Physiotherapeut",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "1.FC Köln II",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-ii/startseite/verein/438/saison_id/2017",
+      "role": "Physiotherapeut",
+      "period": "17/18 (01.07.2017) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Heidenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-jugend/startseite/verein/41740/saison_id/2016",
+      "role": "Physiotherapeut",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "88715",
+  "_cached_at": "2026-02-12T19:12:08.563070",
+  "_preloaded_at": "2026-02-12T19:12:08.563724",
+  "_coach_name": "Marvin Kreuzwieser"
+}

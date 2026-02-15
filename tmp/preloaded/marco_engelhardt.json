@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/marco-engelhardt/profil/trainer/71453",
+  "scraped_at": "2026-02-12T19:05:53.422147",
+  "name": "Marco Engelhardt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "02.12.1980 (45)",
+  "age": 45,
+  "birthplace": "Bad Langensalza",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.07.2019) - -"
+    }
+  ],
+  "coach_id": "71453",
+  "_cached_at": "2026-02-12T19:05:53.433615",
+  "_preloaded_at": "2026-02-12T19:05:53.434223",
+  "_coach_name": "Marco Engelhardt"
+}

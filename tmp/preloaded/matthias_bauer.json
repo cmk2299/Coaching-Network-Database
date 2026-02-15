@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/matthias-bauer/profil/trainer/14727",
+  "scraped_at": "2026-02-12T19:13:17.571546",
+  "name": "Matthias Bauer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_14727_533_2012_2.jpg?lm=1",
+  "dob": "15.09.1959 (66)",
+  "age": 66,
+  "birthplace": "Offenbach am Main",
+  "nationality": "Deutschland",
+  "current_role": "Betreuerund weitere Tätigkeiten",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2003",
+      "role": "Busfahrer",
+      "period": "03/04 (01.07.2003) - -"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2003",
+      "role": "Betreuer",
+      "period": "03/04 (01.07.2003) - -"
+    }
+  ],
+  "coach_id": "14727",
+  "_cached_at": "2026-02-12T19:13:17.582619",
+  "_preloaded_at": "2026-02-12T19:13:17.583260",
+  "_coach_name": "Matthias Bauer"
+}

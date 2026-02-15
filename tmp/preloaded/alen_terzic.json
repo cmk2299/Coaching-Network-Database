@@ -1,0 +1,68 @@
+{
+  "url": "https://www.transfermarkt.de/alen-terzic/profil/trainer/17298",
+  "scraped_at": "2026-02-12T17:52:45.320902",
+  "name": "Alen Terzic",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/17298-1558623370.jpg?lm=1",
+  "dob": "18.05.1980 (45)",
+  "age": 45,
+  "birthplace": "Menden",
+  "nationality": "DeutschlandKroatien",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Scout",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "B. Dortmund II",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-ii/startseite/verein/17/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (21.01.2019) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2018",
+      "role": "Scout",
+      "period": "18/19 (01.07.2018) - 18/19 (21.01.2019)"
+    },
+    {
+      "club": "Brünninghausen",
+      "club_url": "https://www.transfermarkt.de/fc-brunninghausen/startseite/verein/28949/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 18/19 (21.01.2019)"
+    },
+    {
+      "club": "B. Dortmund U19",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-u19/startseite/verein/1464/saison_id/2015",
+      "role": "Gegneranalyst",
+      "period": "15/16 - 15/16"
+    },
+    {
+      "club": "Dortmund Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896/saison_id/2015",
+      "role": "Nachwuchsscout",
+      "period": "15/16 - 15/16"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2013",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "13/14 (24.01.2014) - 13/14 (30.04.2014)"
+    },
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2011",
+      "role": "Nachwuchsscout",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    }
+  ],
+  "coach_id": "17298",
+  "_cached_at": "2026-02-12T17:52:45.334080",
+  "_preloaded_at": "2026-02-12T17:52:45.334761",
+  "_coach_name": "Alen Terzic"
+}

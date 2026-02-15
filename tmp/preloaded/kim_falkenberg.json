@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/kim-falkenberg/profil/trainer/88022",
+  "scraped_at": "2026-02-12T18:55:45.097194",
+  "name": "Kim Falkenberg",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/88022-1740747189.png?lm=1",
+  "dob": "10.04.1988 (37)",
+  "age": 37,
+  "birthplace": "Engelskirchen",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Profifußball",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2024",
+      "role": "Direktor Profifußball",
+      "period": "24/25 (01.03.2025) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2022",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "22/23 (01.07.2022) - 24/25 (28.02.2025)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2022",
+      "role": "Kaderplaner",
+      "period": "22/23 (01.07.2022) - 24/25 (28.02.2025)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2019",
+      "role": "Chefscout",
+      "period": "19/20 (01.08.2019) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Leverkusen Jgd.",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-jugend/startseite/verein/11874/saison_id/2018",
+      "role": "Chefscout",
+      "period": "18/19 (01.07.2018) - 19/20 (31.07.2019)"
+    },
+    {
+      "club": "Leverkusen U17",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u17/startseite/verein/21054/saison_id/2018",
+      "role": "Chefscout",
+      "period": "18/19 (01.07.2018) - 19/20 (31.07.2019)"
+    },
+    {
+      "club": "Leverkusen U19",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u19/startseite/verein/4713/saison_id/2018",
+      "role": "Chefscout",
+      "period": "18/19 (01.07.2018) - 19/20 (31.07.2019)"
+    }
+  ],
+  "coach_id": "88022",
+  "_cached_at": "2026-02-12T18:55:45.109722",
+  "_preloaded_at": "2026-02-12T18:55:45.110430",
+  "_coach_name": "Kim Falkenberg"
+}

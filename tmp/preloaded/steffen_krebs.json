@@ -1,0 +1,69 @@
+{
+  "url": "https://www.transfermarkt.de/steffen-krebs/profil/trainer/21754",
+  "scraped_at": "2026-02-12T23:30:32.500751",
+  "name": "Steffen Krebs",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/21754-1753308340.jpg?lm=1",
+  "dob": "09.05.1983 (42)",
+  "age": 42,
+  "birthplace": "Stuttgart",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "license": "Torwarttrainer-Lizenz",
+  "current_role": "Torwarttrainer",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "Türkei",
+      "club_url": "https://www.transfermarkt.de/turkei/startseite/verein/3381/saison_id/2022",
+      "role": "Torwarttrainer",
+      "period": "22/23 (01.05.2023) - 23/24 (20.09.2023)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2021",
+      "role": "Torwarttrainer",
+      "period": "21/22 (01.07.2021) - vsl. 30.06.2027"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2018",
+      "role": "Torwarttrainer",
+      "period": "18/19 (01.07.2018) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2015",
+      "role": "Torwarttrainer",
+      "period": "15/16 (01.07.2015) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Hoffenheim U19",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u19/startseite/verein/8925/saison_id/2015",
+      "role": "Torwarttrainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Stuttgart U19",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-u19/startseite/verein/2517/saison_id/2013",
+      "role": "Torwarttrainer",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Stuttgart U17",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-u17/startseite/verein/21084/saison_id/2011",
+      "role": "Torwarttrainer",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Stuttgart Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-jugend/startseite/verein/19210/saison_id/2008",
+      "role": "Torwarttrainer",
+      "period": "08/09 (01.07.2008) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "21754",
+  "_cached_at": "2026-02-12T23:30:32.543387",
+  "_preloaded_at": "2026-02-12T23:30:32.544928",
+  "_coach_name": "Steffen Krebs"
+}

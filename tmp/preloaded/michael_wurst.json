@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/michael-wurst/profil/trainer/41149",
+  "scraped_at": "2026-02-12T19:20:58.939434",
+  "name": "Michael Wurst",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "07.01.1975 (51)",
+  "age": 51,
+  "birthplace": "Bochum",
+  "nationality": "Deutschland",
+  "current_role": "Stadionsprecher",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "Obersprockh.",
+      "club_url": "https://www.transfermarkt.de/sc-obersprockhovel/startseite/verein/26225/saison_id/2024",
+      "role": "Trainer",
+      "period": "24/25 (17.03.2025) - 25/26 (01.12.2025)"
+    },
+    {
+      "club": "SV Sodingen",
+      "club_url": "https://www.transfermarkt.de/sv-sodingen/startseite/verein/4242/saison_id/2023",
+      "role": "Trainer",
+      "period": "23/24 (12.09.2023) - 24/25 (23.10.2024)"
+    },
+    {
+      "club": "FC Castrop-Rau.",
+      "club_url": "https://www.transfermarkt.de/fc-castrop-rauxel/startseite/verein/51057/saison_id/2021",
+      "role": "Trainer",
+      "period": "21/22 (01.07.2021) - 22/23 (14.03.2023)"
+    },
+    {
+      "club": "FC Frohlinde",
+      "club_url": "https://www.transfermarkt.de/fc-frohlinde/startseite/verein/36332/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (01.07.2018) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "FC Frohlinde",
+      "club_url": "https://www.transfermarkt.de/fc-frohlinde/startseite/verein/36332/saison_id/2015",
+      "role": "Spielertrainer",
+      "period": "15/16 (01.07.2015) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2007",
+      "role": "Stadionsprecher",
+      "period": "07/08 (01.07.2007) - -"
+    }
+  ],
+  "coach_id": "41149",
+  "_cached_at": "2026-02-12T19:20:58.952573",
+  "_preloaded_at": "2026-02-12T19:20:58.953248",
+  "_coach_name": "Michael Wurst"
+}

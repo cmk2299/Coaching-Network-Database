@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/soner-mansuroglu/profil/trainer/74616",
+  "scraped_at": "2026-02-12T23:28:07.202034",
+  "name": "Soner Mansuroglu",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.08.1993 (32)",
+  "age": 32,
+  "birthplace": "Köln",
+  "nationality": "DeutschlandTürkei",
+  "current_role": "Videoanalystund weitere Tätigkeiten",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2019",
+      "role": "Sportwissenschaftler",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2019",
+      "role": "Videoanalyst",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "West Brom",
+      "club_url": "https://www.transfermarkt.de/west-bromwich-albion/startseite/verein/984/saison_id/2015",
+      "role": "Sportwissenschaftler",
+      "period": "15/16 (01.07.2015) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Coventry City",
+      "club_url": "https://www.transfermarkt.de/coventry-city/startseite/verein/990/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.07.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Coventry City",
+      "club_url": "https://www.transfermarkt.de/coventry-city/startseite/verein/990/saison_id/2014",
+      "role": "Sportwissenschaftler",
+      "period": "14/15 (01.07.2014) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "74616",
+  "_cached_at": "2026-02-12T23:28:07.213872",
+  "_preloaded_at": "2026-02-12T23:28:07.214421",
+  "_coach_name": "Soner Mansuroglu"
+}

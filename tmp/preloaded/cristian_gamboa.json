@@ -1,0 +1,26 @@
+{
+  "url": "https://www.transfermarkt.de/cristian-gamboa/profil/trainer/144471",
+  "scraped_at": "2026-02-12T18:11:31.242485",
+  "name": "Cristian Gamboa",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "24.10.1989 (36)",
+  "age": 36,
+  "birthplace": "Liberia",
+  "nationality": "Costa Rica",
+  "contract_until": "30.06.2027",
+  "current_role": "Scout",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 (01.07.2025) - vsl. 30.06.2027"
+    }
+  ],
+  "coach_id": "144471",
+  "_cached_at": "2026-02-12T18:11:31.253120",
+  "_preloaded_at": "2026-02-12T18:11:31.253720",
+  "_coach_name": "Cristian Gamboa"
+}

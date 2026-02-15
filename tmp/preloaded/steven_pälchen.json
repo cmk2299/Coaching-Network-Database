@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/steven-palchen/profil/trainer/106967",
+  "scraped_at": "2026-02-13T00:00:26.631227",
+  "name": "Steven Pälchen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "20.10.1991 (34)",
+  "age": 34,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2017",
+      "role": "Scout",
+      "period": "17/18 (15.02.2018) - -"
+    },
+    {
+      "club": "U. Berlin Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-jugend/startseite/verein/36841/saison_id/2016",
+      "role": "Videoanalyst",
+      "period": "16/17 (01.08.2016) - 17/18 (14.02.2018)"
+    }
+  ],
+  "coach_id": "106967",
+  "_cached_at": "2026-02-13T00:00:26.664681",
+  "_preloaded_at": "2026-02-13T00:00:26.666166",
+  "_coach_name": "Steven Pälchen"
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/marcel-schoder/profil/trainer/146753",
+  "scraped_at": "2026-02-12T19:05:15.233900",
+  "name": "Marcel Schoder",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/146753-1755208494.jpg?lm=1",
+  "dob": "09.10.1997 (28)",
+  "age": 28,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2025",
+      "role": "Physiotherapeut",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "TSV Neusäß",
+      "club_url": "https://www.transfermarkt.de/tsv-neusass/startseite/verein/4802/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (01.07.2023) - 23/24 (30.06.2024)"
+    }
+  ],
+  "coach_id": "146753",
+  "_cached_at": "2026-02-12T19:05:15.244282",
+  "_preloaded_at": "2026-02-12T19:05:15.244886",
+  "_coach_name": "Marcel Schoder"
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/friedemann-wehnhardt/profil/trainer/151764",
+  "scraped_at": "2026-02-12T18:36:58.046488",
+  "name": "Friedemann Wehnhardt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "21.04.2002 (23)",
+  "age": 23,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2024",
+      "role": "Scout",
+      "period": "24/25 (01.10.2024) - -"
+    }
+  ],
+  "coach_id": "151764",
+  "_cached_at": "2026-02-12T18:36:58.056063",
+  "_preloaded_at": "2026-02-12T18:36:58.056572",
+  "_coach_name": "Friedemann Wehnhardt"
+}

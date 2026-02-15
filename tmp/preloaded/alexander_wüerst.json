@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/alexander-wuerst/profil/trainer/26057",
+  "scraped_at": "2026-02-12T17:54:48.587345",
+  "name": "Alexander Wüerst",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Wirtschaftsrat",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2013",
+      "role": "Wirtschaftsrat",
+      "period": "13/14 (18.11.2013) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2011",
+      "role": "Verwaltungsratmitglied",
+      "period": "11/12 (13.11.2011) - 13/14 (17.11.2013)"
+    }
+  ],
+  "coach_id": "26057",
+  "_cached_at": "2026-02-12T17:54:48.597230",
+  "_preloaded_at": "2026-02-12T17:54:48.597818",
+  "_coach_name": "Alexander Wüerst"
+}

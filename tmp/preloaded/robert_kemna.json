@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/robert-kemna/profil/trainer/44414",
+  "scraped_at": "2026-02-12T23:18:33.655249",
+  "name": "Robert Kemna",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "10.05.1992 (33)",
+  "age": 33,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2020",
+      "role": "Physiotherapeut",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "U. Berlin U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2018",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "U. Berlin U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u17/startseite/verein/21099/saison_id/2018",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "U. Berlin Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-jugend/startseite/verein/36841/saison_id/2018",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "44414",
+  "_cached_at": "2026-02-12T23:18:33.666325",
+  "_preloaded_at": "2026-02-12T23:18:33.666843",
+  "_coach_name": "Robert Kemna"
+}

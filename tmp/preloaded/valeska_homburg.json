@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/valeska-homburg/profil/trainer/101518",
+  "scraped_at": "2026-02-13T00:43:26.756409",
+  "name": "Valeska Homburg",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "03.01.1976 (50)",
+  "age": 50,
+  "birthplace": "Wolfsburg",
+  "nationality": "Deutschland",
+  "current_role": "Leiterin Medien & Kommunikation",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2022",
+      "role": "Leiterin Medien & Kommunikation",
+      "period": "22/23 (01.07.2022) - -"
+    }
+  ],
+  "coach_id": "101518",
+  "_cached_at": "2026-02-13T00:43:26.775495",
+  "_preloaded_at": "2026-02-13T00:43:26.776545",
+  "_coach_name": "Valeska Homburg"
+}

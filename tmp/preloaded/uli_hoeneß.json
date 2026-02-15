@@ -1,0 +1,79 @@
+{
+  "url": "https://www.transfermarkt.de/uli-hoeness/profil/trainer/5249",
+  "scraped_at": "2026-02-13T00:24:30.872040",
+  "name": "Uli Hoeneß",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/5249-1537165347.jpg?lm=1",
+  "dob": "05.01.1952 (74)",
+  "age": 74,
+  "birthplace": "Ulm",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitgliedund weitere Tätigkeiten",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2019",
+      "role": "Aufsichtsratsmitglied",
+      "period": "19/20 (10.12.2019) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2019",
+      "role": "Ehrenpräsident",
+      "period": "19/20 (15.11.2019) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2016",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "16/17 (06.02.2017) - 19/20 (09.12.2019)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2016",
+      "role": "Präsident",
+      "period": "16/17 (26.11.2016) - 19/20 (15.11.2019)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2014",
+      "role": "Nachwuchskoordinator",
+      "period": "14/15 (05.01.2015) - 15/16 (29.02.2016)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2009",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "09/10 (04.03.2010) - 13/14 (14.03.2014)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2009",
+      "role": "Präsident",
+      "period": "09/10 (27.12.2009) - 13/14 (14.03.2014)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2001",
+      "role": "Sportvorstand",
+      "period": "01/02 (14.02.2002) - 09/10 (30.11.2009)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2001",
+      "role": "stellv. Vorstandsvorsitzender",
+      "period": "01/02 (14.02.2002) - 09/10 (30.11.2009)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/1979",
+      "role": "Manager",
+      "period": "79/80 (01.07.1979) - 09/10 (30.11.2009)"
+    }
+  ],
+  "coach_id": "5249",
+  "_cached_at": "2026-02-13T00:24:30.898589",
+  "_preloaded_at": "2026-02-13T00:24:30.900083",
+  "_coach_name": "Uli Hoeneß"
+}

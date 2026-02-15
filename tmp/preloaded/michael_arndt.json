@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/michael-arndt/profil/trainer/121449",
+  "scraped_at": "2026-02-12T19:17:37.546575",
+  "name": "Michael Arndt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Osteopath",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2017",
+      "role": "Osteopath",
+      "period": "17/18 (01.07.2017) - -"
+    }
+  ],
+  "coach_id": "121449",
+  "_cached_at": "2026-02-12T19:17:37.556018",
+  "_preloaded_at": "2026-02-12T19:17:37.556653",
+  "_coach_name": "Michael Arndt"
+}

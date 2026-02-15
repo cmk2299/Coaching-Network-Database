@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/adam-szordykowski/profil/trainer/7522",
+  "scraped_at": "2026-02-12T17:51:51.232462",
+  "name": "Adam Szordykowski",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/7522-1406670638.jpg?lm=1",
+  "dob": "28.12.1974 (51)",
+  "age": 51,
+  "nationality": "PolenDeutschland",
+  "current_role": "Masseur",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2009",
+      "role": "Masseur",
+      "period": "09/10 (01.07.2009) - -"
+    }
+  ],
+  "coach_id": "7522",
+  "_cached_at": "2026-02-12T17:51:51.243176",
+  "_preloaded_at": "2026-02-12T17:51:51.243824",
+  "_coach_name": "Adam Szordykowski"
+}

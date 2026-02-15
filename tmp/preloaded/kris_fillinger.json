@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/kris-fillinger/profil/trainer/104236",
+  "scraped_at": "2026-02-12T18:57:48.204358",
+  "name": "Kris Fillinger",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.03.1993 (32)",
+  "age": 32,
+  "birthplace": "Nordhorn",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.05.2022) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.12.2021) - 21/22 (30.04.2022)"
+    }
+  ],
+  "coach_id": "104236",
+  "_cached_at": "2026-02-12T18:57:48.215217",
+  "_preloaded_at": "2026-02-12T18:57:48.216183",
+  "_coach_name": "Kris Fillinger"
+}

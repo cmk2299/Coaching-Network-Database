@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-kessler/profil/trainer/94274",
+  "scraped_at": "2026-02-13T00:04:27.014815",
+  "name": "Thomas Kessler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/94274-1746438074.jpg?lm=1",
+  "dob": "20.01.1986 (40)",
+  "age": 40,
+  "birthplace": "Köln",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2028",
+  "current_role": "Geschäftsführer Sport",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2025",
+      "role": "Geschäftsführer Sport",
+      "period": "25/26 (22.01.2026) - vsl. 30.06.2028"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2024",
+      "role": "Sportdirektor",
+      "period": "24/25 (05.05.2025) - 25/26 (21.01.2026)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2021",
+      "role": "Leiter Lizenzbereich",
+      "period": "21/22 (01.07.2021) - 24/25 (22.05.2025)"
+    }
+  ],
+  "coach_id": "94274",
+  "_cached_at": "2026-02-13T00:04:27.037255",
+  "_preloaded_at": "2026-02-13T00:04:27.038114",
+  "_coach_name": "Thomas Kessler"
+}

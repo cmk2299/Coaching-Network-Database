@@ -1,0 +1,73 @@
+{
+  "url": "https://www.transfermarkt.de/armin-kraaz/profil/trainer/871",
+  "scraped_at": "2026-02-12T17:59:31.525599",
+  "name": "Armin Kraaz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/871-1596708920.jpg?lm=1",
+  "dob": "03.02.1965 (61)",
+  "age": 61,
+  "birthplace": "Frankfurt am Main",
+  "nationality": "Deutschland",
+  "current_role": "Vize-Präsidentund weitere Tätigkeiten",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2024",
+      "role": "Vize-Präsident",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2019",
+      "role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+      "period": "19/20 (01.10.2019) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2009",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "09/10 (01.01.2010) - 19/20 (30.09.2019)"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 (09.10.2008) - 08/09 (30.06.2009)"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2006",
+      "role": "Sportlicher Leiter",
+      "period": "06/07 (01.07.2006) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "E. Frankfurt II",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-ii/startseite/verein/177/saison_id/2005",
+      "role": "Trainer",
+      "period": "05/06 (12.11.2005) - 05/06 (31.12.2005)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2001",
+      "role": "Interimstrainer",
+      "period": "01/02 (08.03.2002) - 01/02 (28.05.2002)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2000",
+      "role": "Co-Trainer",
+      "period": "00/01 (29.01.2001) - 01/02 (08.03.2002)"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/1996",
+      "role": "Trainer",
+      "period": "96/97 (30.11.1995) - 00/01 (31.01.2001)"
+    }
+  ],
+  "coach_id": "871",
+  "_cached_at": "2026-02-12T17:59:31.538312",
+  "_preloaded_at": "2026-02-12T17:59:31.539008",
+  "_coach_name": "Armin Kraaz"
+}

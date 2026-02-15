@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/marco-fenske/profil/trainer/142384",
+  "scraped_at": "2026-02-12T19:06:00.933514",
+  "name": "Marco Fenske",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "01.03.1984 (41)",
+  "age": 41,
+  "nationality": "Deutschland",
+  "current_role": "Direktor Medien und Kommunikation",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2024",
+      "role": "Direktor Medien und Kommunikation",
+      "period": "24/25 (01.01.2025) - -"
+    }
+  ],
+  "coach_id": "142384",
+  "_cached_at": "2026-02-12T19:06:00.943168",
+  "_preloaded_at": "2026-02-12T19:06:00.943750",
+  "_coach_name": "Marco Fenske"
+}

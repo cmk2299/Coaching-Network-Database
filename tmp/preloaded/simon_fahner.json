@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/simon-fahner/profil/trainer/4664",
+  "scraped_at": "2026-02-12T23:27:28.740000",
+  "name": "Simon Fahner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "21.04.1978 (47)",
+  "age": 47,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2006",
+      "role": "Scout",
+      "period": "06/07 (01.07.2006) - -"
+    }
+  ],
+  "coach_id": "4664",
+  "_cached_at": "2026-02-12T23:27:28.749882",
+  "_preloaded_at": "2026-02-12T23:27:28.750319",
+  "_coach_name": "Simon Fahner"
+}

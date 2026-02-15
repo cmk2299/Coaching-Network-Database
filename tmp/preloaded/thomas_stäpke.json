@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-stapke/profil/trainer/70961",
+  "scraped_at": "2026-02-13T00:05:58.747646",
+  "name": "Thomas Stäpke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Geschäftsführer Finanzen",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2017",
+      "role": "Geschäftsführer Finanzen",
+      "period": "17/18 (01.02.2018) - -"
+    }
+  ],
+  "coach_id": "70961",
+  "_cached_at": "2026-02-13T00:05:58.762283",
+  "_preloaded_at": "2026-02-13T00:05:58.762960",
+  "_coach_name": "Thomas Stäpke"
+}

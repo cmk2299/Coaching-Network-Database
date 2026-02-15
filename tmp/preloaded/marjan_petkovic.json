@@ -1,0 +1,40 @@
+{
+  "url": "https://www.transfermarkt.de/marjan-petkovic/profil/trainer/46471",
+  "scraped_at": "2026-02-12T19:07:49.603096",
+  "name": "Marjan Petkovic",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/46471-1690132140.jpg?lm=1",
+  "dob": "22.05.1979 (46)",
+  "age": 46,
+  "birthplace": "Brackenheim",
+  "nationality": "Deutschland",
+  "license": "Torwarttrainer-Lizenz",
+  "agent": "Players Factory",
+  "agent_url": "https://www.transfermarkt.de/players-factory/beraterfirma/berater/2326",
+  "current_role": "Torwarttrainer",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025",
+      "role": "Torwarttrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Wehen Wiesbaden",
+      "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden/startseite/verein/108/saison_id/2019",
+      "role": "Torwarttrainer",
+      "period": "19/20 (01.07.2019) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2016",
+      "role": "Torwarttrainer",
+      "period": "16/17 (01.07.2016) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "46471",
+  "_cached_at": "2026-02-12T19:07:49.614637",
+  "_preloaded_at": "2026-02-12T19:07:49.615249",
+  "_coach_name": "Marjan Petkovic"
+}

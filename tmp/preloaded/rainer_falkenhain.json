@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/rainer-falkenhain/profil/trainer/4740",
+  "scraped_at": "2026-02-12T23:16:23.067678",
+  "name": "Rainer Falkenhain",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1373970899.jpg?lm=1",
+  "dob": "03.02.1962 (64)",
+  "age": 64,
+  "birthplace": "Frankfurt am Main",
+  "nationality": "Deutschland",
+  "current_role": "Assistent der Geschäftsführung",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2018",
+      "role": "Assistent der Geschäftsführung",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/1985",
+      "role": "Leiter Lizenzbereich",
+      "period": "85/86 (01.07.1985) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "4740",
+  "_cached_at": "2026-02-12T23:16:23.078354",
+  "_preloaded_at": "2026-02-12T23:16:23.078916",
+  "_coach_name": "Rainer Falkenhain"
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-klemm/profil/trainer/118093",
+  "scraped_at": "2026-02-13T00:04:34.637068",
+  "name": "Thomas Klemm",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2023",
+      "role": "Nachwuchsscout",
+      "period": "23/24 (01.07.2023) - -"
+    }
+  ],
+  "coach_id": "118093",
+  "_cached_at": "2026-02-13T00:04:34.655036",
+  "_preloaded_at": "2026-02-13T00:04:34.655857",
+  "_coach_name": "Thomas Klemm"
+}

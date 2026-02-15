@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/florian-mack/profil/trainer/98569",
+  "scraped_at": "2026-02-12T18:33:37.120332",
+  "name": "Florian Mack",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.07.1983 (42)",
+  "age": 42,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2008",
+      "role": "Physiotherapeut",
+      "period": "08/09 (01.07.2008) - -"
+    }
+  ],
+  "coach_id": "98569",
+  "_cached_at": "2026-02-12T18:33:37.133941",
+  "_preloaded_at": "2026-02-12T18:33:37.134579",
+  "_coach_name": "Florian Mack"
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/christoph-pieper/profil/trainer/134859",
+  "scraped_at": "2026-02-12T18:09:21.143213",
+  "name": "Christoph Pieper",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.11.1972 (53)",
+  "age": 53,
+  "nationality": "Deutschland",
+  "current_role": "Leiter Medien & Kommunikation",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2019",
+      "role": "Leiter Medien & Kommunikation",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2013",
+      "role": "Leiter Medien & Kommunikation",
+      "period": "13/14 (01.07.2013) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2011",
+      "role": "Medienmitarbeiter",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2003",
+      "role": "Medienmitarbeiter",
+      "period": "03/04 (01.01.2004) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "134859",
+  "_cached_at": "2026-02-12T18:09:21.154192",
+  "_preloaded_at": "2026-02-12T18:09:21.154832",
+  "_coach_name": "Christoph Pieper"
+}

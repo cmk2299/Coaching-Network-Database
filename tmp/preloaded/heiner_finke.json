@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/heiner-finke/profil/trainer/21736",
+  "scraped_at": "2026-02-12T18:41:47.976581",
+  "name": "Heiner Finke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.06.1963 (62)",
+  "age": 62,
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchs-Chefscout",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2009",
+      "role": "Nachwuchs-Chefscout",
+      "period": "09/10 (01.07.2009) - -"
+    }
+  ],
+  "coach_id": "21736",
+  "_cached_at": "2026-02-12T18:41:47.986843",
+  "_preloaded_at": "2026-02-12T18:41:47.987554",
+  "_coach_name": "Heiner Finke"
+}

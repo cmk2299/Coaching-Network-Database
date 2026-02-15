@@ -1,0 +1,82 @@
+{
+  "url": "https://www.transfermarkt.de/halil-altintop/profil/trainer/64676",
+  "scraped_at": "2026-02-12T18:39:22.573317",
+  "name": "Halil Altıntop",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/64676-1541518851.jpg?lm=1",
+  "dob": "08.12.1982 (43)",
+  "age": 43,
+  "birthplace": "Gelsenkirchen",
+  "nationality": "Türkei",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "ISM Int. Soccer ...",
+  "agent_url": "https://www.transfermarkt.de/ism-international-soccer-management-holding-gmbh-amp-co-kg/beraterfirma/berater/79",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2024",
+      "role": "Aufsichtsratsmitglied",
+      "period": "24/25 (14.03.2025) - -"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2022",
+      "role": "Sportlicher Leiter",
+      "period": "22/23 (10.03.2023) - 24/25 (31.08.2024)"
+    },
+    {
+      "club": "B. München U19",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/2022",
+      "role": "Sportlicher Leiter",
+      "period": "22/23 (10.03.2023) - 24/25 (31.08.2024)"
+    },
+    {
+      "club": "B. München U17",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u17/startseite/verein/21058/saison_id/2022",
+      "role": "Sportlicher Leiter",
+      "period": "22/23 (10.03.2023) - 24/25 (31.08.2024)"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2022",
+      "role": "Sportlicher Leiter",
+      "period": "22/23 (10.03.2023) - 24/25 (31.08.2024)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2022",
+      "role": "Verbindungstrainer",
+      "period": "22/23 (01.07.2022) - 22/23 (09.03.2023)"
+    },
+    {
+      "club": "B. München U17",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u17/startseite/verein/21058/saison_id/2021",
+      "role": "Trainer",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Schwaben Augsb.",
+      "club_url": "https://www.transfermarkt.de/schwaben-augsburg/startseite/verein/1615/saison_id/2019",
+      "role": "Trainer",
+      "period": "19/20 (17.09.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2018",
+      "role": "Individualtrainer",
+      "period": "18/19 (06.11.2018) - 18/19 (20.04.2019)"
+    }
+  ],
+  "coach_id": "64676",
+  "_cached_at": "2026-02-12T18:39:22.587092",
+  "_preloaded_at": "2026-02-12T18:39:22.587728",
+  "_coach_name": "Halil Altıntop"
+}

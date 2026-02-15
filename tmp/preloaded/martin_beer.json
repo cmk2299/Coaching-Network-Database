@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/martin-beer/profil/trainer/66993",
+  "scraped_at": "2026-02-12T19:10:28.854436",
+  "name": "Martin Beer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/66993-1665474217.jpg?lm=1",
+  "dob": "14.03.1991 (34)",
+  "age": 34,
+  "birthplace": "Schwäbisch Hall",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025",
+      "role": "Physiotherapeut",
+      "period": "25/26 (11.07.2025) - -"
+    },
+    {
+      "club": "Hoffenheim U19",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u19/startseite/verein/8925/saison_id/2020",
+      "role": "Physiotherapeut",
+      "period": "20/21 (01.07.2020) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2020",
+      "role": "Leitender Physiotherapeut Akademie",
+      "period": "20/21 (01.07.2020) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Hoffenheim U17",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u17/startseite/verein/21082/saison_id/2018",
+      "role": "Physiotherapeut",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "SF Schw. Hall",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-schwabisch-hall/startseite/verein/5415/saison_id/2017",
+      "role": "Physiotherapeut",
+      "period": "17/18 - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "66993",
+  "_cached_at": "2026-02-12T19:10:28.865808",
+  "_preloaded_at": "2026-02-12T19:10:28.866459",
+  "_coach_name": "Martin Beer"
+}

@@ -1,0 +1,72 @@
+{
+  "url": "https://www.transfermarkt.de/dr-philipp-ehrenstein/profil/trainer/36382",
+  "scraped_at": "2026-02-12T18:25:34.066483",
+  "name": "Dr. Philipp Ehrenstein",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.07.1977 (48)",
+  "age": 48,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2015",
+      "role": "Vereinsarzt",
+      "period": "15/16 (01.07.2015) - -"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2015",
+      "role": "Vereinsarzt",
+      "period": "15/16 (01.07.2015) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Leverkusen Jgd.",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-jugend/startseite/verein/11874/saison_id/2015",
+      "role": "Vereinsarzt",
+      "period": "15/16 (01.07.2015) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Düsseldorf II",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf-ii/startseite/verein/4690/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Düsseldorf U19",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf-u19/startseite/verein/6675/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Düsseldorf U18",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf-u18/startseite/verein/28105/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Düsseldorf U17",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf-u17/startseite/verein/23005/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Düsseldorf Jgd.",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf-jugend/startseite/verein/11955/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Düsseldorf Jgd.",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf-jugend/startseite/verein/11955/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "36382",
+  "_cached_at": "2026-02-12T18:25:34.079452",
+  "_preloaded_at": "2026-02-12T18:25:34.080354",
+  "_coach_name": "Dr. Philipp Ehrenstein"
+}

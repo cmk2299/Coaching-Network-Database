@@ -1,0 +1,40 @@
+{
+  "url": "https://www.transfermarkt.de/florian-bruns/profil/trainer/39530",
+  "scraped_at": "2026-02-12T18:33:06.912740",
+  "name": "Florian Bruns",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/39530-1678788414.jpg?lm=1",
+  "dob": "21.08.1979 (46)",
+  "age": 46,
+  "birthplace": "Oldenburg",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "agent": "Lars Meier ...",
+  "agent_url": "https://www.transfermarkt.de/lars-meier-management-amp-pr/beraterfirma/berater/4388",
+  "current_role": "Co-Trainer",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (19.09.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 16/17 (18.09.2016)"
+    }
+  ],
+  "coach_id": "39530",
+  "_cached_at": "2026-02-12T18:33:06.924828",
+  "_preloaded_at": "2026-02-12T18:33:06.925409",
+  "_coach_name": "Florian Bruns"
+}

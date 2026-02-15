@@ -1,0 +1,52 @@
+{
+  "url": "https://www.transfermarkt.de/swen-holtrode/profil/trainer/7060",
+  "scraped_at": "2026-02-13T00:02:14.771322",
+  "name": "Swen Holtrode",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Zeugwartund weitere Tätigkeiten",
+  "current_club": "Deutschland U20",
+  "current_club_url": "https://www.transfermarkt.de/deutschland-u20/startseite/verein/5709",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Koordinator Talentförderung",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "VfL Bochum U19",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u19/startseite/verein/3862/saison_id/2023",
+      "role": "Betreuer",
+      "period": "23/24 (01.07.2023) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Deutschland U20",
+      "club_url": "https://www.transfermarkt.de/deutschland-u20/startseite/verein/5709/saison_id/2022",
+      "role": "Zeugwart",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "Deutschland U19",
+      "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2021",
+      "role": "Zeugwart",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Deutschland U18",
+      "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/2018",
+      "role": "Zeugwart",
+      "period": "18/19 (01.07.2018) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "B. Dortmund U19",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-u19/startseite/verein/1464/saison_id/2012",
+      "role": "Zeugwart",
+      "period": "12/13 (01.07.2012) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "7060",
+  "_cached_at": "2026-02-13T00:02:14.807184",
+  "_preloaded_at": "2026-02-13T00:02:14.808697",
+  "_coach_name": "Swen Holtrode"
+}

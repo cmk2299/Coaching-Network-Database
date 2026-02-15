@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/frank-zollner/profil/trainer/6896",
+  "scraped_at": "2026-02-12T18:36:04.414519",
+  "name": "Frank Zöllner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_6896_80_2012_1.jpg?lm=1",
+  "dob": "20.02.1968 (57)",
+  "age": 57,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2022",
+      "role": "Physiotherapeut",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2009",
+      "role": "Physiotherapeut",
+      "period": "09/10 (01.01.2010) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/1992",
+      "role": "Physiotherapeut",
+      "period": "92/93 (01.07.1992) - 09/10 (31.12.2009)"
+    },
+    {
+      "club": "Dortmund Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896/saison_id/1990",
+      "role": "Physiotherapeut",
+      "period": "90/91 (01.07.1990) - 91/92 (30.06.1992)"
+    }
+  ],
+  "coach_id": "6896",
+  "_cached_at": "2026-02-12T18:36:04.425428",
+  "_preloaded_at": "2026-02-12T18:36:04.426114",
+  "_coach_name": "Frank Zöllner"
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/axel-busenkell/profil/trainer/6672",
+  "scraped_at": "2026-02-12T18:00:24.805935",
+  "name": "Axel Busenkell",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6672-1674731639.jpg?lm=1",
+  "dob": "26.11.1971 (54)",
+  "age": 54,
+  "birthplace": "Andernach",
+  "nationality": "Deutschland",
+  "current_role": "Rehatrainer",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "Türkei",
+      "club_url": "https://www.transfermarkt.de/turkei/startseite/verein/3381/saison_id/2021",
+      "role": "Fitnesstrainer",
+      "period": "21/22 (02.10.2021) - 23/24 (20.09.2023)"
+    },
+    {
+      "club": "Deutschland OLY",
+      "club_url": "https://www.transfermarkt.de/deutschland-olympia/startseite/verein/49503/saison_id/2020",
+      "role": "Fitnesstrainer",
+      "period": "20/21 (01.06.2021) - 21/22 (07.08.2021)"
+    },
+    {
+      "club": "Deutschland U21",
+      "club_url": "https://www.transfermarkt.de/deutschland-u21/startseite/verein/3817/saison_id/2007",
+      "role": "Fitnesstrainer",
+      "period": "07/08 (01.11.2007) - 21/22 (30.09.2021)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2000",
+      "role": "Rehatrainer",
+      "period": "00/01 (01.07.2000) - -"
+    }
+  ],
+  "coach_id": "6672",
+  "_cached_at": "2026-02-12T18:00:24.817910",
+  "_preloaded_at": "2026-02-12T18:00:24.818658",
+  "_coach_name": "Axel Busenkell"
+}

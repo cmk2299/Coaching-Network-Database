@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/dirk-michalowski/profil/trainer/145695",
+  "scraped_at": "2026-02-12T18:18:00.184181",
+  "name": "Dirk Michalowski",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Fanbeauftragter",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/1997",
+      "role": "Fanbeauftragter",
+      "period": "97/98 (01.12.1997) - -"
+    }
+  ],
+  "coach_id": "145695",
+  "_cached_at": "2026-02-12T18:18:00.193709",
+  "_preloaded_at": "2026-02-12T18:18:00.194194",
+  "_coach_name": "Dirk Michalowski"
+}

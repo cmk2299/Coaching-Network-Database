@@ -1,0 +1,46 @@
+{
+  "url": "https://www.transfermarkt.de/richard-kitzbichler/profil/trainer/21503",
+  "scraped_at": "2026-02-12T23:18:18.791400",
+  "name": "Richard Kitzbichler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/21503-1437483495.jpg?lm=1",
+  "dob": "12.01.1974 (52)",
+  "age": 52,
+  "birthplace": "Wörgl",
+  "nationality": "Österreich",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "MMR Professionals",
+  "agent_url": "https://www.transfermarkt.de/mmr-professionals/beraterfirma/berater/13560",
+  "current_role": "Koordinator Talentförderung",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2023",
+      "role": "Koordinator Talentförderung",
+      "period": "23/24 (01.09.2023) - -"
+    },
+    {
+      "club": "FC Southampton",
+      "club_url": "https://www.transfermarkt.de/fc-southampton/startseite/verein/180/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (23.08.2019) - 22/23 (07.11.2022)"
+    },
+    {
+      "club": "BJ Guoan",
+      "club_url": "https://www.transfermarkt.de/beijing-sinobo-guoan/startseite/verein/3176/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 19/20 (31.07.2019)"
+    },
+    {
+      "club": "RB Salzburg",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg/startseite/verein/409/saison_id/2009",
+      "role": "Co-Trainer",
+      "period": "09/10 (01.07.2009) - 16/17 (22.06.2017)"
+    }
+  ],
+  "coach_id": "21503",
+  "_cached_at": "2026-02-12T23:18:18.804245",
+  "_preloaded_at": "2026-02-12T23:18:18.804796",
+  "_coach_name": "Richard Kitzbichler"
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/noah-tegatz/profil/trainer/121356",
+  "scraped_at": "2026-02-12T19:25:58.724291",
+  "name": "Noah Tegatz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.11.1998 (27)",
+  "age": 27,
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2025",
+      "role": "Athletiktrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2021",
+      "role": "Sportwissenschaftler",
+      "period": "21/22 (01.07.2021) - 24/25 (30.06.2025)"
+    }
+  ],
+  "coach_id": "121356",
+  "_cached_at": "2026-02-12T19:25:58.736196",
+  "_preloaded_at": "2026-02-12T19:25:58.736901",
+  "_coach_name": "Noah Tegatz"
+}

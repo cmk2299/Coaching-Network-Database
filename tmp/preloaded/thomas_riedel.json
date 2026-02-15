@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-riedel/profil/trainer/2514",
+  "scraped_at": "2026-02-13T00:05:20.595669",
+  "name": "Thomas Riedel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_2514_89_2010_1.jpg?lm=1",
+  "dob": "07.03.1974 (51)",
+  "age": 51,
+  "birthplace": "Weißenfels",
+  "nationality": "Deutschland",
+  "current_role": "Masseur",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2011",
+      "role": "Masseur",
+      "period": "11/12 (01.07.2011) - -"
+    }
+  ],
+  "coach_id": "2514",
+  "_cached_at": "2026-02-13T00:05:20.614596",
+  "_preloaded_at": "2026-02-13T00:05:20.615424",
+  "_coach_name": "Thomas Riedel"
+}

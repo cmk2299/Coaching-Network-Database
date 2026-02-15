@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/pablo-thiam/profil/trainer/8332",
+  "scraped_at": "2026-02-12T19:28:08.206811",
+  "name": "Pablo Thiam",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/8332-1611787572.JPG?lm=1",
+  "dob": "03.01.1974 (52)",
+  "age": 52,
+  "birthplace": "Conakry",
+  "nationality": "Guinea",
+  "current_role": "Leiter der Nachwuchsabteilung",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "24/25 (19.06.2025) - -"
+    },
+    {
+      "club": "Hertha BSC",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc/startseite/verein/44/saison_id/2021",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "21/22 (01.07.2021) - 22/23 (22.06.2023)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "18/19 (01.07.2018) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2008",
+      "role": "Assistent der Geschäftsführung",
+      "period": "08/09 (01.07.2008) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Wolfsburg II",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-ii/startseite/verein/143/saison_id/2008",
+      "role": "Sportlicher Leiter",
+      "period": "08/09 (01.07.2008) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "8332",
+  "_cached_at": "2026-02-12T19:28:08.219578",
+  "_preloaded_at": "2026-02-12T19:28:08.220357",
+  "_coach_name": "Pablo Thiam"
+}

@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/barbara-ertel-leicht/profil/trainer/146193",
+  "scraped_at": "2026-02-12T18:01:10.752530",
+  "name": "Barbara Ertel-Leicht",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Leiterin Medien & Kommunikationund weitere Tätigkeiten",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+      "role": "Leiterin Medien & Kommunikation",
+      "period": "18/19 (29.05.2019) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2015",
+      "role": "Pressesprecherin",
+      "period": "15/16 (01.07.2015) - -"
+    }
+  ],
+  "coach_id": "146193",
+  "_cached_at": "2026-02-12T18:01:10.762452",
+  "_preloaded_at": "2026-02-12T18:01:10.762961",
+  "_coach_name": "Barbara Ertel-Leicht"
+}

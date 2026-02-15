@@ -1,0 +1,56 @@
+{
+  "url": "https://www.transfermarkt.de/moritz-volz/profil/trainer/71275",
+  "scraped_at": "2026-02-12T19:22:23.839069",
+  "name": "Moritz Volz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/71275-1593589417.jpg?lm=1",
+  "dob": "21.01.1983 (43)",
+  "age": 43,
+  "birthplace": "Siegen",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (13.01.2024) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Galatasaray",
+      "club_url": "https://www.transfermarkt.de/galatasaray-istanbul/startseite/verein/141/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (18.10.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Galatasaray",
+      "club_url": "https://www.transfermarkt.de/galatasaray-istanbul/startseite/verein/141/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (18.10.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Arsenal",
+      "club_url": "https://www.transfermarkt.de/fc-arsenal/startseite/verein/11/saison_id/2015",
+      "role": "Scout",
+      "period": "15/16 (01.07.2015) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "71275",
+  "_cached_at": "2026-02-12T19:22:23.851848",
+  "_preloaded_at": "2026-02-12T19:22:23.852498",
+  "_coach_name": "Moritz Volz"
+}

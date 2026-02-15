@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/roger-brandts/profil/trainer/127646",
+  "scraped_at": "2026-02-12T23:19:18.999001",
+  "name": "Roger Brandts",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "01.01.1966 (60)",
+  "age": 60,
+  "birthplace": "Mönchengladbach",
+  "nationality": "Deutschland",
+  "current_role": "Vize-Präsident",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2024",
+      "role": "Vize-Präsident",
+      "period": "24/25 (20.03.2025) - -"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2023",
+      "role": "Präsidiumsmitglied",
+      "period": "23/24 (19.03.2024) - 24/25 (19.03.2025)"
+    }
+  ],
+  "coach_id": "127646",
+  "_cached_at": "2026-02-12T23:19:19.010132",
+  "_preloaded_at": "2026-02-12T23:19:19.010793",
+  "_coach_name": "Roger Brandts"
+}

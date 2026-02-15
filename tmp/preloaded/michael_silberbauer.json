@@ -1,0 +1,81 @@
+{
+  "url": "https://www.transfermarkt.de/michael-silberbauer/profil/trainer/49694",
+  "scraped_at": "2026-02-12T19:20:27.707806",
+  "name": "Michael Silberbauer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/49694-1708202196.jpg?lm=1",
+  "dob": "07.07.1981 (44)",
+  "age": 44,
+  "birthplace": "Støvring",
+  "nationality": "Dänemark",
+  "contract_until": "30.06.2026",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (14.02.2024) - vsl. 30.06.2026"
+    },
+    {
+      "club": "FC Utrecht",
+      "club_url": "https://www.transfermarkt.de/fc-utrecht/startseite/verein/200/saison_id/2022",
+      "role": "Trainer",
+      "period": "22/23 (28.12.2022) - 23/24 (29.08.2023)"
+    },
+    {
+      "club": "FC Midtjylland",
+      "club_url": "https://www.transfermarkt.de/fc-midtjylland/startseite/verein/865/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (01.07.2022) - 22/23 (27.12.2022)"
+    },
+    {
+      "club": "FC Utrecht",
+      "club_url": "https://www.transfermarkt.de/fc-utrecht/startseite/verein/200/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (24.03.2022) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "FC Basel",
+      "club_url": "https://www.transfermarkt.de/fc-basel-1893/startseite/verein/26/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (01.07.2021) - 21/22 (31.12.2021)"
+    },
+    {
+      "club": "Midtjylland U19",
+      "club_url": "https://www.transfermarkt.de/fc-midtjylland-u19/startseite/verein/9054/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (17.08.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Pacific FC",
+      "club_url": "https://www.transfermarkt.de/pacific-fc/startseite/verein/68221/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (01.01.2019) - 19/20 (18.10.2019)"
+    },
+    {
+      "club": "FC Luzern",
+      "club_url": "https://www.transfermarkt.de/fc-luzern/startseite/verein/434/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (05.01.2018) - 18/19 (31.12.2018)"
+    },
+    {
+      "club": "FC Luzern",
+      "club_url": "https://www.transfermarkt.de/fc-luzern/startseite/verein/434/saison_id/2015",
+      "role": "Videoanalyst",
+      "period": "15/16 (01.03.2016) - 17/18 (05.01.2018)"
+    },
+    {
+      "club": "FC Biel-Bienne",
+      "club_url": "https://www.transfermarkt.de/fc-biel-bienne/startseite/verein/2155/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 15/16 (29.02.2016)"
+    }
+  ],
+  "coach_id": "49694",
+  "_cached_at": "2026-02-12T19:20:27.722947",
+  "_preloaded_at": "2026-02-12T19:20:27.723626",
+  "_coach_name": "Michael Silberbauer"
+}

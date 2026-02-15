@@ -1,0 +1,58 @@
+{
+  "url": "https://www.transfermarkt.de/sven-van-der-jeugt/profil/trainer/52647",
+  "scraped_at": "2026-02-13T00:01:51.899250",
+  "name": "Sven Van Der Jeugt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/52647-1755065619.jpg?lm=1",
+  "dob": "17.09.1980 (45)",
+  "age": 45,
+  "birthplace": "Diest",
+  "nationality": "Belgien",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "PROFI-MANAGEMENT",
+  "agent_url": "https://www.transfermarkt.de/profi-management/beraterfirma/berater/4904",
+  "current_role": "Torwarttrainer",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2024",
+      "role": "Torwarttrainer",
+      "period": "24/25 (08.07.2024) - -"
+    },
+    {
+      "club": "Union SG",
+      "club_url": "https://www.transfermarkt.de/royale-union-saint-gilloise/startseite/verein/3948/saison_id/2023",
+      "role": "Torwarttrainer",
+      "period": "23/24 (06.07.2023) - 24/25 (07.07.2024)"
+    },
+    {
+      "club": "Waasland-Beveren",
+      "club_url": "https://www.transfermarkt.de/waasland-beveren/startseite/verein/28643/saison_id/2019",
+      "role": "Torwarttrainer",
+      "period": "19/20 (01.07.2019) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Anderlecht U21",
+      "club_url": "https://www.transfermarkt.de/rsc-anderlecht-u21/startseite/verein/30857/saison_id/2018",
+      "role": "Torwarttrainer",
+      "period": "18/19 (03.08.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Thes Sport",
+      "club_url": "https://www.transfermarkt.de/kvv-thes-sport/startseite/verein/49143/saison_id/2017",
+      "role": "Torwarttrainer",
+      "period": "17/18 (01.07.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Patro Eisden",
+      "club_url": "https://www.transfermarkt.de/patro-eisden-maasmechelen/startseite/verein/3225/saison_id/2016",
+      "role": "Torwarttrainer",
+      "period": "16/17 (12.07.2016) - 16/17 (13.12.2016)"
+    }
+  ],
+  "coach_id": "52647",
+  "_cached_at": "2026-02-13T00:01:51.924260",
+  "_preloaded_at": "2026-02-13T00:01:51.925253",
+  "_coach_name": "Sven Van Der Jeugt"
+}

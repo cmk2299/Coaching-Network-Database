@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/christopher-weichert/profil/trainer/11348",
+  "scraped_at": "2026-02-12T18:10:07.213055",
+  "name": "Christopher Weichert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/11348-1423861750.JPG?lm=1",
+  "dob": "24.09.1984 (41)",
+  "age": 41,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2015",
+      "role": "Physiotherapeut",
+      "period": "15/16 (01.07.2015) - -"
+    },
+    {
+      "club": "SV Sandhausen",
+      "club_url": "https://www.transfermarkt.de/sv-sandhausen/startseite/verein/254/saison_id/2010",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "10/11 (01.07.2010) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "W. Mannheim",
+      "club_url": "https://www.transfermarkt.de/sv-waldhof-mannheim/startseite/verein/85/saison_id/2009",
+      "role": "Physiotherapeut",
+      "period": "09/10 (01.07.2009) - 09/10 (30.06.2010)"
+    }
+  ],
+  "coach_id": "11348",
+  "_cached_at": "2026-02-12T18:10:07.223495",
+  "_preloaded_at": "2026-02-12T18:10:07.224098",
+  "_coach_name": "Christopher Weichert"
+}

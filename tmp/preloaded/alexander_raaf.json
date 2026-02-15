@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/alexander-raaf/profil/trainer/10854",
+  "scraped_at": "2026-02-12T17:54:02.109614",
+  "name": "Alexander Raaf",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/10854-1438074896.jpg?lm=1",
+  "dob": "21.01.1974 (52)",
+  "age": 52,
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Teammanager",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2012",
+      "role": "Teammanager",
+      "period": "12/13 (01.07.2012) - -"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2008",
+      "role": "Co-Trainer",
+      "period": "08/09 (01.07.2008) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "10854",
+  "_cached_at": "2026-02-12T17:54:02.120237",
+  "_preloaded_at": "2026-02-12T17:54:02.120796",
+  "_coach_name": "Alexander Raaf"
+}

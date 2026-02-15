@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/silke-bannick/profil/trainer/40158",
+  "scraped_at": "2026-02-12T23:26:51.437597",
+  "name": "Silke Bannick",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.02.1981 (44)",
+  "age": 44,
+  "birthplace": "Eckernförde",
+  "nationality": "Deutschland",
+  "current_role": "Pressesprecherin",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2018",
+      "role": "Pressesprecherin",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2009",
+      "role": "stellv. Pressesprecherin",
+      "period": "09/10 (01.07.2009) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2006",
+      "role": "Medienmitarbeiterin",
+      "period": "06/07 (01.08.2006) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "40158",
+  "_cached_at": "2026-02-12T23:26:51.448131",
+  "_preloaded_at": "2026-02-12T23:26:51.448633",
+  "_coach_name": "Silke Bannick"
+}

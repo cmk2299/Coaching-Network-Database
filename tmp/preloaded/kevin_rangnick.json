@@ -1,0 +1,48 @@
+{
+  "url": "https://www.transfermarkt.de/kevin-rangnick/profil/trainer/103820",
+  "scraped_at": "2026-02-12T18:55:21.260652",
+  "name": "Kevin Rangnick",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "07.04.1991 (34)",
+  "age": 34,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2020",
+      "role": "Scout",
+      "period": "20/21 (01.01.2021) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2018",
+      "role": "Videoanalyst",
+      "period": "18/19 (01.11.2018) - 20/21 (31.12.2020)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.11.2016) - 18/19 (31.10.2018)"
+    },
+    {
+      "club": "RB Salzburg",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg/startseite/verein/409/saison_id/2015",
+      "role": "Scout",
+      "period": "15/16 (01.02.2016) - 15/16 (30.04.2016)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2015",
+      "role": "Scout",
+      "period": "15/16 (01.10.2015) - 15/16 (31.12.2015)"
+    }
+  ],
+  "coach_id": "103820",
+  "_cached_at": "2026-02-12T18:55:21.271716",
+  "_preloaded_at": "2026-02-12T18:55:21.272343",
+  "_coach_name": "Kevin Rangnick"
+}

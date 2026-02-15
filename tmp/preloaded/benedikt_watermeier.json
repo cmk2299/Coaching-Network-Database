@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/benedikt-watermeier/profil/trainer/110680",
+  "scraped_at": "2026-02-12T18:02:28.454547",
+  "name": "Benedikt Watermeier",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Fanbeauftragter",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2019",
+      "role": "Fanbeauftragter",
+      "period": "19/20 - -"
+    }
+  ],
+  "coach_id": "110680",
+  "_cached_at": "2026-02-12T18:02:28.464104",
+  "_preloaded_at": "2026-02-12T18:02:28.464651",
+  "_coach_name": "Benedikt Watermeier"
+}

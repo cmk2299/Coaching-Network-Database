@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dominik-hechler/profil/trainer/137263",
+  "scraped_at": "2026-02-12T18:19:01.624571",
+  "name": "Dominik Hechler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "08.09.1983 (42)",
+  "age": 42,
+  "nationality": "Deutschland",
+  "current_role": "Pressesprecher",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2022",
+      "role": "Pressesprecher",
+      "period": "22/23 (05.04.2023) - -"
+    }
+  ],
+  "coach_id": "137263",
+  "_cached_at": "2026-02-12T18:19:01.634728",
+  "_preloaded_at": "2026-02-12T18:19:01.635331",
+  "_coach_name": "Dominik Hechler"
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://www.transfermarkt.de/patrick-kohlmann/profil/trainer/54683",
+  "scraped_at": "2026-02-12T19:29:01.114382",
+  "name": "Patrick Kohlmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/54683-1660205112.jpg?lm=1",
+  "dob": "25.02.1983 (42)",
+  "age": 42,
+  "birthplace": "Dortmund",
+  "nationality": "IrlandDeutschland",
+  "contract_until": "30.06.2027",
+  "agent": "Bigpoint",
+  "agent_url": "https://www.transfermarkt.de/bigpoint-gmbh-amp-co-kg/beraterfirma/berater/555",
+  "current_role": "Co-Trainer",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (01.07.2025) - vsl. 30.06.2027"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (28.11.2021) - 24/25 (27.05.2025)"
+    },
+    {
+      "club": "Holstein Kiel",
+      "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 21/22 (07.10.2021)"
+    }
+  ],
+  "coach_id": "54683",
+  "_cached_at": "2026-02-12T19:29:01.125894",
+  "_preloaded_at": "2026-02-12T19:29:01.144935",
+  "_coach_name": "Patrick Kohlmann"
+}

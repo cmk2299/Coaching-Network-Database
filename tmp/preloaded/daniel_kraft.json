@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/daniel-kraft/profil/trainer/121362",
+  "scraped_at": "2026-02-12T18:13:18.238497",
+  "name": "Daniel Kraft",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "29.01.1998 (28)",
+  "age": 28,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2022",
+      "role": "Physiotherapeut",
+      "period": "22/23 (01.07.2023) - -"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/2021",
+      "role": "Physiotherapeut",
+      "period": "21/22 (05.02.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "SV Wehen Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden-jugend/startseite/verein/37897/saison_id/2020",
+      "role": "Physiotherapeut",
+      "period": "20/21 (05.02.2021) - 21/22 (04.02.2022)"
+    }
+  ],
+  "coach_id": "121362",
+  "_cached_at": "2026-02-12T18:13:18.249713",
+  "_preloaded_at": "2026-02-12T18:13:18.250964",
+  "_coach_name": "Daniel Kraft"
+}

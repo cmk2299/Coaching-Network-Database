@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/christian-gentner/profil/trainer/108151",
+  "scraped_at": "2026-02-12T18:06:40.711309",
+  "name": "Christian Gentner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/108151-1663318431.jpg?lm=1",
+  "dob": "14.08.1985 (40)",
+  "age": 40,
+  "birthplace": "Nürtingen",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "current_role": "Sportdirektor",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2024",
+      "role": "Sportdirektor",
+      "period": "24/25 (12.11.2024) - vsl. 30.06.2027"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2022",
+      "role": "Leiter Lizenzbereich",
+      "period": "22/23 (01.01.2023) - 24/25 (11.11.2024)"
+    }
+  ],
+  "coach_id": "108151",
+  "_cached_at": "2026-02-12T18:06:40.722210",
+  "_preloaded_at": "2026-02-12T18:06:40.722798",
+  "_coach_name": "Christian Gentner"
+}

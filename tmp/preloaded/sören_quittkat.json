@@ -1,0 +1,80 @@
+{
+  "url": "https://www.transfermarkt.de/soren-quittkat/profil/trainer/75167",
+  "scraped_at": "2026-02-13T00:02:53.347016",
+  "name": "Sören Quittkat",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/75167-1681476719.jpg?lm=1",
+  "dob": "09.09.1983 (42)",
+  "age": 42,
+  "birthplace": "Hamburg",
+  "nationality": "Deutschland",
+  "license": "DFB-Elite-Jugend-Lizenz",
+  "current_role": "Chefanalytiker",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2021",
+      "role": "Chefanalytiker",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (01.08.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "HSV Jgd.",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv-jugend/startseite/verein/12786/saison_id/2018",
+      "role": "Chefanalytiker",
+      "period": "18/19 (01.07.2018) - 20/21 (31.07.2020)"
+    },
+    {
+      "club": "Hamburger SV II",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv-ii/startseite/verein/389/saison_id/2018",
+      "role": "Chefanalytiker",
+      "period": "18/19 (01.07.2018) - 20/21 (31.07.2020)"
+    },
+    {
+      "club": "HSV U19",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv-u19/startseite/verein/2509/saison_id/2018",
+      "role": "Chefanalytiker",
+      "period": "18/19 (01.07.2018) - 20/21 (31.07.2020)"
+    },
+    {
+      "club": "HSV U17",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv-u17/startseite/verein/21063/saison_id/2018",
+      "role": "Chefanalytiker",
+      "period": "18/19 (01.07.2018) - 20/21 (31.07.2020)"
+    },
+    {
+      "club": "HSV U17",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv-u17/startseite/verein/21063/saison_id/2013",
+      "role": "Gegneranalyst",
+      "period": "13/14 (01.07.2013) - 14/15 (30.09.2014)"
+    },
+    {
+      "club": "Hamburger SV II",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv-ii/startseite/verein/389/saison_id/2013",
+      "role": "Gegneranalyst",
+      "period": "13/14 (01.07.2013) - 14/15 (30.09.2014)"
+    },
+    {
+      "club": "HSV U19",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv-u19/startseite/verein/2509/saison_id/2013",
+      "role": "Gegneranalyst",
+      "period": "13/14 (01.07.2013) - 14/15 (30.09.2014)"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2012",
+      "role": "Spielanalyst",
+      "period": "12/13 (01.10.2014) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "75167",
+  "_cached_at": "2026-02-13T00:02:53.372334",
+  "_preloaded_at": "2026-02-13T00:02:53.373293",
+  "_coach_name": "Sören Quittkat"
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/markus-behrens/profil/trainer/11281",
+  "scraped_at": "2026-02-12T19:08:34.946786",
+  "name": "Markus Behrens",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/11281-1422208655.jpg?lm=1",
+  "dob": "25.08.1972 (53)",
+  "age": 53,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2001",
+      "role": "Physiotherapeut",
+      "period": "01/02 (01.01.2002) - -"
+    }
+  ],
+  "coach_id": "11281",
+  "_cached_at": "2026-02-12T19:08:34.956643",
+  "_preloaded_at": "2026-02-12T19:08:34.957235",
+  "_coach_name": "Markus Behrens"
+}

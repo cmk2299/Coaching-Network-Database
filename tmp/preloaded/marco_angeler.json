@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/marco-angeler/profil/trainer/73735",
+  "scraped_at": "2026-02-12T19:05:38.510916",
+  "name": "Marco Angeler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/73735-1736776601.jpg?lm=1",
+  "dob": "28.01.1989 (37)",
+  "age": 37,
+  "birthplace": "Neunkirchen",
+  "nationality": "Österreich",
+  "current_role": "Performance Manager",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2024",
+      "role": "Performance Manager",
+      "period": "24/25 (01.01.2025) - -"
+    },
+    {
+      "club": "Sturm Graz",
+      "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (27.07.2020) - 24/25 (31.12.2024)"
+    },
+    {
+      "club": "Austria Wien",
+      "club_url": "https://www.transfermarkt.de/fk-austria-wien/startseite/verein/14/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (15.11.2019) - 19/20 (26.07.2020)"
+    },
+    {
+      "club": "Admira Wacker",
+      "club_url": "https://www.transfermarkt.de/fc-admira-wacker-modling/startseite/verein/503/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (31.10.2018) - 19/20 (15.10.2019)"
+    }
+  ],
+  "coach_id": "73735",
+  "_cached_at": "2026-02-12T19:05:38.521965",
+  "_preloaded_at": "2026-02-12T19:05:38.522633",
+  "_coach_name": "Marco Angeler"
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/alfred-schon/profil/trainer/338",
+  "scraped_at": "2026-02-12T17:55:03.614673",
+  "name": "Alfred Schön",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.01.1962 (64)",
+  "age": 64,
+  "birthplace": "Wiesloch",
+  "nationality": "Deutschland",
+  "current_role": "Chefscout",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2010",
+      "role": "Chefscout",
+      "period": "10/11 (01.07.2010) - -"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2007",
+      "role": "Co-Trainer",
+      "period": "07/08 (01.07.2007) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2006",
+      "role": "Trainer",
+      "period": "06/07 (01.07.2006) - 06/07 (30.06.2007)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2005",
+      "role": "Interimstrainer",
+      "period": "05/06 (24.05.2006) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/1994",
+      "role": "Scout",
+      "period": "94/95 (01.08.1994) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+      "role": "Co-Trainer",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "338",
+  "_cached_at": "2026-02-12T17:55:03.626248",
+  "_preloaded_at": "2026-02-12T17:55:03.626861",
+  "_coach_name": "Alfred Schön"
+}

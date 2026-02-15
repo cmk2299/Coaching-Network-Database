@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/soren-johannsen/profil/trainer/36018",
+  "scraped_at": "2026-02-13T00:02:45.663781",
+  "name": "Sören Johannsen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/36018-1665086629.jpg?lm=1",
+  "dob": "15.06.1985 (40)",
+  "age": 40,
+  "birthplace": "Villingen-Schwenningen",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2012",
+      "role": "Physiotherapeut",
+      "period": "12/13 (01.08.2012) - -"
+    }
+  ],
+  "coach_id": "36018",
+  "_cached_at": "2026-02-13T00:02:45.683063",
+  "_preloaded_at": "2026-02-13T00:02:45.683917",
+  "_coach_name": "Sören Johannsen"
+}

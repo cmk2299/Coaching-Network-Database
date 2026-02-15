@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/ulrike-hiller/profil/trainer/95984",
+  "scraped_at": "2026-02-13T00:42:01.805571",
+  "name": "Ulrike Hiller",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "11.06.1965 (60)",
+  "age": 60,
+  "birthplace": "Sarstedt",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2021",
+      "role": "Aufsichtsratsmitglied",
+      "period": "21/22 (04.09.2021) - 21/22 (06.10.2021)"
+    }
+  ],
+  "coach_id": "95984",
+  "_cached_at": "2026-02-13T00:42:01.838605",
+  "_preloaded_at": "2026-02-13T00:42:01.840402",
+  "_coach_name": "Ulrike Hiller"
+}

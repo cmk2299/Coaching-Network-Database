@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/dr-stephan-bornhardt/profil/trainer/44543",
+  "scraped_at": "2026-02-12T18:27:20.036169",
+  "name": "Dr. Stephan Bornhardt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "27.07.1976 (49)",
+  "age": 49,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+      "role": "Vereinsarzt",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "E. Braunschweig",
+      "club_url": "https://www.transfermarkt.de/eintracht-braunschweig/startseite/verein/23/saison_id/2015",
+      "role": "Vereinsarzt",
+      "period": "15/16 (01.07.2015) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "44543",
+  "_cached_at": "2026-02-12T18:27:20.046352",
+  "_preloaded_at": "2026-02-12T18:27:20.046915",
+  "_coach_name": "Dr. Stephan Bornhardt"
+}

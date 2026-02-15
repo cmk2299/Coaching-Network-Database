@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/simeon-unger/profil/trainer/122146",
+  "scraped_at": "2026-02-12T23:27:14.147141",
+  "name": "Simeon Unger",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "25.01.1985 (41)",
+  "age": 41,
+  "birthplace": "Stuttgart",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeutund weitere Tätigkeiten",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2024",
+      "role": "Physiotherapeut",
+      "period": "24/25 (01.09.2024) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2019",
+      "role": "Physiotherapeut",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2019",
+      "role": "Osteopath",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "RB Leipzig U19",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u19/startseite/verein/26621/saison_id/2017",
+      "role": "Leitender Physiotherapeut Akademie",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "RB Leipzig U17",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u17/startseite/verein/32942/saison_id/2017",
+      "role": "Leitender Physiotherapeut Akademie",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "RB Leipzig Jgd.",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-jugend/startseite/verein/39962/saison_id/2017",
+      "role": "Leitender Physiotherapeut Akademie",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "122146",
+  "_cached_at": "2026-02-12T23:27:14.158661",
+  "_preloaded_at": "2026-02-12T23:27:14.159251",
+  "_coach_name": "Simeon Unger"
+}

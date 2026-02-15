@@ -1,0 +1,102 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-baumler/profil/trainer/19730",
+  "scraped_at": "2026-02-12T17:55:27.279860",
+  "name": "Andreas Bäumler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/19730-1755203318.jpg?lm=1",
+  "dob": "02.02.1985 (41)",
+  "age": 41,
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2016",
+      "role": "Athletiktrainer",
+      "period": "16/17 (01.01.2017) - -"
+    },
+    {
+      "club": "FC Augsburg U19",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-u19/startseite/verein/4780/saison_id/2012",
+      "role": "Athletiktrainer",
+      "period": "12/13 (01.04.2013) - 16/17 (31.12.2016)"
+    },
+    {
+      "club": "FC Augsburg II",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-ii/startseite/verein/5379/saison_id/2012",
+      "role": "Athletiktrainer",
+      "period": "12/13 (01.04.2013) - 16/17 (31.12.2016)"
+    },
+    {
+      "club": "FC Augsburg U17",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-u17/startseite/verein/29176/saison_id/2012",
+      "role": "Athletiktrainer",
+      "period": "12/13 (01.04.2013) - 16/17 (31.12.2016)"
+    },
+    {
+      "club": "Augsburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-jugend/startseite/verein/28103/saison_id/2012",
+      "role": "Athletiktrainer",
+      "period": "12/13 (01.04.2013) - 16/17 (31.12.2016)"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2010",
+      "role": "Athletiktrainer",
+      "period": "10/11 (01.10.2010) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "Bielefeld Jgd.",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-jugend/startseite/verein/11954/saison_id/2010",
+      "role": "Athletiktrainer",
+      "period": "10/11 (01.10.2010) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "A. Bielefeld II",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-ii/startseite/verein/831/saison_id/2010",
+      "role": "Athletiktrainer",
+      "period": "10/11 (01.10.2010) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "Bielefeld U17",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-u17/startseite/verein/21053/saison_id/2010",
+      "role": "Athletiktrainer",
+      "period": "10/11 (01.10.2010) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "Bielefeld U19",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-u19/startseite/verein/4556/saison_id/2010",
+      "role": "Athletiktrainer",
+      "period": "10/11 (01.10.2010) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "Hertha BSC II",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc-ii/startseite/verein/45/saison_id/2008",
+      "role": "Athletiktrainer",
+      "period": "08/09 (01.04.2009) - 09/10 (31.05.2010)"
+    },
+    {
+      "club": "Hertha BSC U19",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc-u19/startseite/verein/2827/saison_id/2008",
+      "role": "Athletiktrainer",
+      "period": "08/09 (01.04.2009) - 09/10 (31.05.2010)"
+    },
+    {
+      "club": "Hertha BSC U17",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc-u17/startseite/verein/21066/saison_id/2008",
+      "role": "Athletiktrainer",
+      "period": "08/09 (01.04.2009) - 09/10 (31.05.2010)"
+    },
+    {
+      "club": "Hertha BSC Jgd.",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc-jugend/startseite/verein/11844/saison_id/2008",
+      "role": "Athletiktrainer",
+      "period": "08/09 (01.04.2009) - 09/10 (31.05.2010)"
+    }
+  ],
+  "coach_id": "19730",
+  "_cached_at": "2026-02-12T17:55:27.293056",
+  "_preloaded_at": "2026-02-12T17:55:27.293746",
+  "_coach_name": "Andreas Bäumler"
+}

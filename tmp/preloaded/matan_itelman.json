@@ -1,0 +1,54 @@
+{
+  "url": "https://www.transfermarkt.de/matan-itelman/profil/trainer/136529",
+  "scraped_at": "2026-02-12T19:12:31.493751",
+  "name": "Matan Itelman",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "02.06.1995 (30)",
+  "age": 30,
+  "nationality": "Israel",
+  "current_role": "Scout",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2023",
+      "role": "Scout",
+      "period": "23/24 (01.02.2024) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2021",
+      "role": "Nachwuchsscout",
+      "period": "21/22 (01.09.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "1.JFS Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-jugend-fussball-schule-koln-jugend/startseite/verein/106217/saison_id/2020",
+      "role": "Co-Trainer Analyse",
+      "period": "20/21 (01.05.2021) - 23/24 (01.08.2023)"
+    },
+    {
+      "club": "Hohenlind Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-borussia-lindenthal-hohenlind-jugend/startseite/verein/82563/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.01.2018) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Hohenlind Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-borussia-lindenthal-hohenlind-jugend/startseite/verein/82563/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.01.2018) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "H. Kfar Saba",
+      "club_url": "https://www.transfermarkt.de/hapoel-kfar-saba/startseite/verein/7532/saison_id/2016",
+      "role": "Jugendtrainer",
+      "period": "16/17 (01.10.2016) - 18/19 (31.07.2018)"
+    }
+  ],
+  "coach_id": "136529",
+  "_cached_at": "2026-02-12T19:12:31.504947",
+  "_preloaded_at": "2026-02-12T19:12:31.505549",
+  "_coach_name": "Matan Itelman"
+}

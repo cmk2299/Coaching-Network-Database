@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/felix-kling/profil/trainer/62832",
+  "scraped_at": "2026-02-12T18:31:56.065072",
+  "name": "Felix Kling",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/62832-1755202807.jpg?lm=1",
+  "dob": "11.06.1995 (30)",
+  "age": 30,
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Spielanalyst",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2024",
+      "role": "Spielanalyst",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "FC Augsburg II",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-ii/startseite/verein/5379/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 25/26 (30.06.2025)"
+    }
+  ],
+  "coach_id": "62832",
+  "_cached_at": "2026-02-12T18:31:56.075989",
+  "_preloaded_at": "2026-02-12T18:31:56.076592",
+  "_coach_name": "Felix Kling"
+}

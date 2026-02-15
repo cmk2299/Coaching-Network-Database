@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/dirk-folkerts/profil/trainer/111265",
+  "scraped_at": "2026-02-12T18:17:44.628077",
+  "name": "Dirk Folkerts",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.10.1993 (32)",
+  "age": 32,
+  "birthplace": "Oldenburg",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "current_role": "Spielanalyst",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2024",
+      "role": "Spielanalyst",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2026"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (01.09.2020) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2019",
+      "role": "Spielanalyst",
+      "period": "19/20 (01.03.2020) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "111265",
+  "_cached_at": "2026-02-12T18:17:44.638414",
+  "_preloaded_at": "2026-02-12T18:17:44.638978",
+  "_coach_name": "Dirk Folkerts"
+}

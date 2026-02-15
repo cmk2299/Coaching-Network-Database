@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/stephan-kuhnert/profil/trainer/1433",
+  "scraped_at": "2026-02-12T23:59:55.346656",
+  "name": "Stephan Kuhnert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/1433-1676499760.jpg?lm=1",
+  "dob": "07.09.1960 (65)",
+  "age": 65,
+  "birthplace": "Baunatal",
+  "nationality": "Deutschland",
+  "current_role": "Torwarttrainer",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/1998",
+      "role": "Torwarttrainer",
+      "period": "98/99 (01.07.1998) - -"
+    }
+  ],
+  "coach_id": "1433",
+  "_cached_at": "2026-02-12T23:59:55.389284",
+  "_preloaded_at": "2026-02-12T23:59:55.390702",
+  "_coach_name": "Stephan Kuhnert"
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/carsten-cramer/profil/trainer/39283",
+  "scraped_at": "2026-02-12T18:05:31.893403",
+  "name": "Carsten Cramer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/39283-1653985997.jpg?lm=1",
+  "dob": "23.12.1968 (57)",
+  "age": 57,
+  "birthplace": "Münster",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "current_role": "Geschäftsführer",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2017",
+      "role": "Geschäftsführer",
+      "period": "17/18 (01.03.2018) - vsl. 30.06.2027"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2010",
+      "role": "Direktor Marketing und Vertrieb",
+      "period": "10/11 (01.10.2010) - 17/18 (28.02.2018)"
+    },
+    {
+      "club": "Pr. Münster",
+      "club_url": "https://www.transfermarkt.de/preussen-munster/startseite/verein/91/saison_id/1991",
+      "role": "Marketingleiter",
+      "period": "91/92 (01.07.1991) - 00/01 (30.09.2000)"
+    },
+    {
+      "club": "Pr. Münster",
+      "club_url": "https://www.transfermarkt.de/preussen-munster/startseite/verein/91",
+      "role": "Geschäftsführer",
+      "period": "Unknown"
+    },
+    {
+      "club": "Pr. Münster",
+      "club_url": "https://www.transfermarkt.de/preussen-munster/startseite/verein/91",
+      "role": "Stadionsprecher",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "39283",
+  "_cached_at": "2026-02-12T18:05:31.904965",
+  "_preloaded_at": "2026-02-12T18:05:31.905640",
+  "_coach_name": "Carsten Cramer"
+}

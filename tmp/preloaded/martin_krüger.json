@@ -1,0 +1,62 @@
+{
+  "url": "https://www.transfermarkt.de/martin-kruger/profil/trainer/22729",
+  "scraped_at": "2026-02-12T19:11:15.122620",
+  "name": "Martin Krüger",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "26.11.1979 (46)",
+  "age": 46,
+  "birthplace": "Schwedt",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Athletiktrainer",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2016",
+      "role": "Athletiktrainer",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "U. Berlin U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2015",
+      "role": "Athletiktrainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "U. Berlin U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u17/startseite/verein/21099/saison_id/2015",
+      "role": "Athletiktrainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "U. Berlin Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-jugend/startseite/verein/36841/saison_id/2015",
+      "role": "Athletiktrainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Weißenseer FC",
+      "club_url": "https://www.transfermarkt.de/weissenseer-fc-1900/startseite/verein/6196/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (26.11.2014) - 14/15 (09.03.2015)"
+    },
+    {
+      "club": "Berliner SC",
+      "club_url": "https://www.transfermarkt.de/berliner-sc/startseite/verein/14410/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 14/15 (16.09.2014)"
+    },
+    {
+      "club": "SV Empor Berlin",
+      "club_url": "https://www.transfermarkt.de/sv-empor-berlin/startseite/verein/9011/saison_id/2011",
+      "role": "Trainer",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    }
+  ],
+  "coach_id": "22729",
+  "_cached_at": "2026-02-12T19:11:15.134673",
+  "_preloaded_at": "2026-02-12T19:11:15.135394",
+  "_coach_name": "Martin Krüger"
+}

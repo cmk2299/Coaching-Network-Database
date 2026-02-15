@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/mario-vossen/profil/trainer/2006",
+  "scraped_at": "2026-02-12T19:07:18.660479",
+  "name": "Mario Vossen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "21.07.1975 (50)",
+  "age": 50,
+  "birthplace": "Weckhoven",
+  "nationality": "Deutschland",
+  "current_role": "Chefscout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2007",
+      "role": "Chefscout",
+      "period": "07/08 (01.07.2007) - -"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2000",
+      "role": "Scout",
+      "period": "00/01 (01.07.2003) - 06/07 (30.06.2007)"
+    },
+    {
+      "club": "M'gladbach II",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-ii/startseite/verein/1006/saison_id/1999",
+      "role": "Scout",
+      "period": "99/00 (01.07.1999) - 02/03 (30.06.2003)"
+    },
+    {
+      "club": "M'gladbach U17",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u17/startseite/verein/21056/saison_id/1996",
+      "role": "Betreuer",
+      "period": "96/97 (01.07.1996) - 98/99 (30.06.1999)"
+    },
+    {
+      "club": "M'gladbach U19",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/1994",
+      "role": "Trainer",
+      "period": "94/95 (01.07.1994) - 95/96 (30.06.1996)"
+    }
+  ],
+  "coach_id": "2006",
+  "_cached_at": "2026-02-12T19:07:18.671440",
+  "_preloaded_at": "2026-02-12T19:07:18.672078",
+  "_coach_name": "Mario Vossen"
+}

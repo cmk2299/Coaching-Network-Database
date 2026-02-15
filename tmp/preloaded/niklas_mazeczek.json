@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/niklas-mazeczek/profil/trainer/36479",
+  "scraped_at": "2026-02-12T19:24:11.418204",
+  "name": "Niklas Mazeczek",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "28.09.1986 (39)",
+  "age": 39,
+  "birthplace": "Schlüchtern",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeutund weitere Tätigkeiten",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2020",
+      "role": "Physiotherapeut",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2020",
+      "role": "Osteopath",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "K. Offenbach",
+      "club_url": "https://www.transfermarkt.de/kickers-offenbach/startseite/verein/107/saison_id/2012",
+      "role": "Physiotherapeut",
+      "period": "12/13 (01.07.2012) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "36479",
+  "_cached_at": "2026-02-12T19:24:11.428567",
+  "_preloaded_at": "2026-02-12T19:24:11.429236",
+  "_coach_name": "Niklas Mazeczek"
+}

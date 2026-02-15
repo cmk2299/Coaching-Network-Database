@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/bjorn-kadlubowski/profil/trainer/107220",
+  "scraped_at": "2026-02-12T18:04:30.440461",
+  "name": "Björn Kadlubowski",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "14.03.1992 (33)",
+  "age": 33,
+  "birthplace": "Lünen",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Athletiktrainer",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2023",
+      "role": "Rehatrainer",
+      "period": "23/24 (01.07.2023) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2023",
+      "role": "Athletiktrainer",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (01.07.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2021",
+      "role": "Rehatrainer",
+      "period": "21/22 (01.07.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Bielefeld U17",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-u17/startseite/verein/21053/saison_id/2015",
+      "role": "Athletiktrainer",
+      "period": "15/16 (01.07.2015) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Bielefeld U19",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-u19/startseite/verein/4556/saison_id/2015",
+      "role": "Athletiktrainer",
+      "period": "15/16 (01.07.2015) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "A. Bielefeld II",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-ii/startseite/verein/831/saison_id/2015",
+      "role": "Athletiktrainer",
+      "period": "15/16 (01.07.2015) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Bielefeld U19",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-u19/startseite/verein/4556/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.10.2014) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Bielefeld Jgd.",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-jugend/startseite/verein/11954/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.10.2014) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "107220",
+  "_cached_at": "2026-02-12T18:04:30.452891",
+  "_preloaded_at": "2026-02-12T18:04:30.453608",
+  "_coach_name": "Björn Kadlubowski"
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/khalid-ddaou/profil/trainer/90224",
+  "scraped_at": "2026-02-12T18:55:29.122592",
+  "name": "Khalid Ddaou",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "20.05.1981 (44)",
+  "age": 44,
+  "birthplace": "Wiesbaden",
+  "nationality": "MarokkoDeutschland",
+  "current_role": "Scout Torwartbereich",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2023",
+      "role": "Scout Torwartbereich",
+      "period": "23/24 (01.04.2024) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2014",
+      "role": "Scout",
+      "period": "14/15 (01.07.2014) - 23/24 (01.04.2024)"
+    },
+    {
+      "club": "Wehen Wiesbaden",
+      "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden/startseite/verein/108/saison_id/2012",
+      "role": "Scout",
+      "period": "12/13 (01.07.2012) - 13/14 (30.06.2014)"
+    }
+  ],
+  "coach_id": "90224",
+  "_cached_at": "2026-02-12T18:55:29.133790",
+  "_preloaded_at": "2026-02-12T18:55:29.134391",
+  "_coach_name": "Khalid Ddaou"
+}

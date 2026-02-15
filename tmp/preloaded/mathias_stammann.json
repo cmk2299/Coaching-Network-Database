@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/mathias-stammann/profil/trainer/24764",
+  "scraped_at": "2026-02-12T19:13:02.186932",
+  "name": "Mathias Stammann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "08.05.1968 (57)",
+  "age": 57,
+  "birthplace": "Schwerin",
+  "nationality": "Deutschland",
+  "current_role": "Koordinator Talentförderung",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2017",
+      "role": "Koordinator Talentförderung",
+      "period": "17/18 (20.07.2017) - -"
+    },
+    {
+      "club": "Wolfsburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-jugend/startseite/verein/12821/saison_id/2000",
+      "role": "Trainer",
+      "period": "00/01 (01.07.2000) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "24764",
+  "_cached_at": "2026-02-12T19:13:02.197631",
+  "_preloaded_at": "2026-02-12T19:13:02.198230",
+  "_coach_name": "Mathias Stammann"
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/patrick-platins/profil/trainer/50836",
+  "scraped_at": "2026-02-12T19:29:23.983633",
+  "name": "Patrick Platins",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/50836-1766866527.jpg?lm=1",
+  "dob": "19.04.1983 (42)",
+  "age": 42,
+  "birthplace": "Immenstadt im Allgäu",
+  "nationality": "Deutschland",
+  "license": "DFB-Elite-Jugend-Lizenz",
+  "current_role": "Torwarttrainerund weitere Tätigkeiten",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "Wolfsburg U17",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-u17/startseite/verein/21087/saison_id/2023",
+      "role": "Torwarttrainer",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2019",
+      "role": "Torwartkoordinator NLZ",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2016",
+      "role": "Torwarttrainer",
+      "period": "16/17 (01.07.2016) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Wolfsburg II",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-ii/startseite/verein/143/saison_id/2016",
+      "role": "Torwarttrainer",
+      "period": "16/17 (01.07.2016) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Wolfsburg U17",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-u17/startseite/verein/21087/saison_id/2016",
+      "role": "Torwarttrainer",
+      "period": "16/17 (01.07.2016) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "50836",
+  "_cached_at": "2026-02-12T19:29:23.995670",
+  "_preloaded_at": "2026-02-12T19:29:23.996302",
+  "_coach_name": "Patrick Platins"
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/tim-kubel/profil/trainer/136496",
+  "scraped_at": "2026-02-13T00:07:36.981504",
+  "name": "Tim Kübel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.07.1993 (32)",
+  "age": 32,
+  "birthplace": "Böblingen",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Co-Trainerund weitere Tätigkeiten",
+  "current_club": "Dortmund Jgd.",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896",
+  "career_history": [
+    {
+      "club": "Dortmund Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (19.07.2024) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2024",
+      "role": "Sportwissenschaftler",
+      "period": "24/25 (19.07.2024) - vsl. 30.06.2027"
+    },
+    {
+      "club": "Chelsea",
+      "club_url": "https://www.transfermarkt.de/fc-chelsea/startseite/verein/631/saison_id/2021",
+      "role": "Sportwissenschaftler",
+      "period": "21/22 (01.07.2021) - 24/25 (18.07.2024)"
+    },
+    {
+      "club": "VfL Nag. U19",
+      "club_url": "https://www.transfermarkt.de/vfl-nagold-u19/startseite/verein/33733/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (01.01.2019) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "TFC Academy",
+      "club_url": "https://www.transfermarkt.de/tfc-academy/startseite/verein/29487/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.01.2018) - 18/19 (30.11.2018)"
+    }
+  ],
+  "coach_id": "136496",
+  "_cached_at": "2026-02-13T00:07:36.999115",
+  "_preloaded_at": "2026-02-13T00:07:37.000209",
+  "_coach_name": "Tim Kübel"
+}

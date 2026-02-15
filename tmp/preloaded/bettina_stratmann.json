@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/bettina-stratmann/profil/trainer/144177",
+  "scraped_at": "2026-02-12T18:04:15.266219",
+  "name": "Bettina Stratmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitgliedund weitere Tätigkeiten",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Präsidiumsmitglied",
+      "period": "24/25 (24.06.2025) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Aufsichtsratsmitglied",
+      "period": "24/25 (24.06.2025) - -"
+    }
+  ],
+  "coach_id": "144177",
+  "_cached_at": "2026-02-12T18:04:15.275977",
+  "_preloaded_at": "2026-02-12T18:04:15.276591",
+  "_coach_name": "Bettina Stratmann"
+}

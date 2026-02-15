@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/daniel-baude/profil/trainer/61339",
+  "scraped_at": "2026-02-12T18:12:01.992730",
+  "name": "Daniel Baude",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "14.03.1983 (42)",
+  "age": 42,
+  "birthplace": "Wurzen",
+  "nationality": "Deutschland",
+  "current_role": "Marketingmitarbeiter",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2016",
+      "role": "Marketingmitarbeiter",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2011",
+      "role": "Teammanager",
+      "period": "11/12 (01.07.2011) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "61339",
+  "_cached_at": "2026-02-12T18:12:02.003312",
+  "_preloaded_at": "2026-02-12T18:12:02.003947",
+  "_coach_name": "Daniel Baude"
+}

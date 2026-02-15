@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/ulrich-stein/profil/trainer/1614",
+  "scraped_at": "2026-02-13T00:41:38.124319",
+  "name": "Ulrich Stein",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1355400380.jpg?lm=1",
+  "dob": "23.10.1954 (71)",
+  "age": 71,
+  "birthplace": "Hamburg",
+  "nationality": "Deutschland",
+  "current_role": "Klubrepräsentant",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2017",
+      "role": "Klubrepräsentant",
+      "period": "17/18 (04.11.2017) - -"
+    },
+    {
+      "club": "Aserbaidschan",
+      "club_url": "https://www.transfermarkt.de/aserbaidschan/startseite/verein/8605/saison_id/2007",
+      "role": "Torwarttrainer",
+      "period": "07/08 (05.04.2008) - 14/15 (17.10.2014)"
+    },
+    {
+      "club": "Nigeria",
+      "club_url": "https://www.transfermarkt.de/nigeria/startseite/verein/3444/saison_id/2006",
+      "role": "Torwarttrainer",
+      "period": "06/07 (20.02.2007) - 07/08 (20.02.2008)"
+    },
+    {
+      "club": "Kuwait",
+      "club_url": "https://www.transfermarkt.de/kuwait/startseite/verein/3432/saison_id/2001",
+      "role": "Torwarttrainer",
+      "period": "01/02 (31.10.2001) - 01/02 (31.10.2001)"
+    },
+    {
+      "club": "TuS Celle FC",
+      "club_url": "https://www.transfermarkt.de/tus-celle-fc/startseite/verein/243/saison_id/2000",
+      "role": "Trainer",
+      "period": "00/01 (13.12.2000) - 01/02 (28.09.2001)"
+    },
+    {
+      "club": "1.FC Langen",
+      "club_url": "https://www.transfermarkt.de/1-fc-langen/startseite/verein/25191/saison_id/1993",
+      "role": "Trainer",
+      "period": "93/94 (31.03.1994) - 93/94 (31.05.1994)"
+    }
+  ],
+  "coach_id": "1614",
+  "_cached_at": "2026-02-13T00:41:38.167872",
+  "_preloaded_at": "2026-02-13T00:41:38.169584",
+  "_coach_name": "Ulrich Stein"
+}

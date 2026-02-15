@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dr-clemens-gwinner/profil/trainer/92089",
+  "scraped_at": "2026-02-12T18:20:55.057451",
+  "name": "Dr. Clemens Gwinner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.03.1984 (41)",
+  "age": 41,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2019",
+      "role": "Vereinsarzt",
+      "period": "19/20 (01.07.2019) - -"
+    }
+  ],
+  "coach_id": "92089",
+  "_cached_at": "2026-02-12T18:20:55.067686",
+  "_preloaded_at": "2026-02-12T18:20:55.068228",
+  "_coach_name": "Dr. Clemens Gwinner"
+}

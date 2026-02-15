@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/valery-laurent/profil/trainer/122358",
+  "scraped_at": "2026-02-13T00:43:34.297169",
+  "name": "Valéry Laurent",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "11.09.1987 (38)",
+  "age": 38,
+  "nationality": "Frankreich",
+  "current_role": "Scout",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2023",
+      "role": "Scout",
+      "period": "23/24 (01.12.2023) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.01.2021) - 23/24 (31.07.2023)"
+    },
+    {
+      "club": "Montfermeil U19",
+      "club_url": "https://www.transfermarkt.de/fc-montfermeil-u19/startseite/verein/89791/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.11.2013) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Rennes Jugend",
+      "club_url": "https://www.transfermarkt.de/fc-stade-rennes-jugend/startseite/verein/99634/saison_id/2007",
+      "role": "Scout",
+      "period": "07/08 (01.07.2009) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "122358",
+  "_cached_at": "2026-02-13T00:43:34.317812",
+  "_preloaded_at": "2026-02-13T00:43:34.318933",
+  "_coach_name": "Valéry Laurent"
+}

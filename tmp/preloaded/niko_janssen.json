@@ -1,0 +1,66 @@
+{
+  "url": "https://www.transfermarkt.de/niko-janssen/profil/trainer/118202",
+  "scraped_at": "2026-02-12T19:24:26.814128",
+  "name": "Niko Janssen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/118202-1703280575.png?lm=1",
+  "dob": "19.10.1995 (30)",
+  "age": 30,
+  "nationality": "Deutschland",
+  "current_role": "Co-Trainerund weitere Tätigkeiten",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "Viktoria Köln",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln/startseite/verein/1622/saison_id/2024",
+      "role": "Teammanager",
+      "period": "24/25 (01.01.2025) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "GW Brauweiler",
+      "club_url": "https://www.transfermarkt.de/sv-grun-weiss-brauweiler/startseite/verein/8830/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Viktoria Köln",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln/startseite/verein/1622/saison_id/2022",
+      "role": "Co-Trainer Analyse",
+      "period": "22/23 (01.05.2023) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (01.01.2023) - -"
+    },
+    {
+      "club": "Erftstadt U19",
+      "club_url": "https://www.transfermarkt.de/sc-germania-erftstadt-lechenich-u19/startseite/verein/99868/saison_id/2022",
+      "role": "Trainer",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Fort. Köln U17",
+      "club_url": "https://www.transfermarkt.de/sc-fortuna-koln-u17/startseite/verein/34114/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (01.06.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Fort. Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-fortuna-koln-jugend/startseite/verein/33446/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.06.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Bedburg. BV U19",
+      "club_url": "https://www.transfermarkt.de/bedburger-bv-u19/startseite/verein/29655/saison_id/2019",
+      "role": "Trainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "118202",
+  "_cached_at": "2026-02-12T19:24:26.826627",
+  "_preloaded_at": "2026-02-12T19:24:26.827295",
+  "_coach_name": "Niko Janssen"
+}

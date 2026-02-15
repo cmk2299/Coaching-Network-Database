@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/christian-vander/profil/trainer/29597",
+  "scraped_at": "2026-02-12T18:08:20.576329",
+  "name": "Christian Vander",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/29597-1660206093.jpg?lm=1",
+  "dob": "24.10.1980 (45)",
+  "age": 45,
+  "birthplace": "Willich",
+  "nationality": "Deutschland",
+  "current_role": "Torwarttrainer",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Oberneuland U17",
+      "club_url": "https://www.transfermarkt.de/fc-oberneuland-u17/startseite/verein/38504/saison_id/2024",
+      "role": "Torwarttrainer",
+      "period": "24/25 (01.07.2024) - 24/25 (25.10.2024)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2014",
+      "role": "Torwarttrainer",
+      "period": "14/15 (26.10.2014) - -"
+    },
+    {
+      "club": "Deutschland U20",
+      "club_url": "https://www.transfermarkt.de/deutschland-u20/startseite/verein/5709/saison_id/2014",
+      "role": "Torwarttrainer",
+      "period": "14/15 (01.09.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Deutschland U16",
+      "club_url": "https://www.transfermarkt.de/deutschland-u16/startseite/verein/17368/saison_id/2013",
+      "role": "Torwarttrainer",
+      "period": "13/14 (21.10.2013) - 14/15 (31.08.2014)"
+    },
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2013",
+      "role": "Torwarttrainer",
+      "period": "13/14 (01.07.2013) - 14/15 (25.10.2014)"
+    }
+  ],
+  "coach_id": "29597",
+  "_cached_at": "2026-02-12T18:08:20.588820",
+  "_preloaded_at": "2026-02-12T18:08:20.589435",
+  "_coach_name": "Christian Vander"
+}

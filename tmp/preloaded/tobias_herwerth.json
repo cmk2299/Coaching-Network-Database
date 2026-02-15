@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/tobias-herwerth/profil/trainer/36960",
+  "scraped_at": "2026-02-13T00:21:44.225224",
+  "name": "Tobias Herwerth",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "30.11.1975 (50)",
+  "age": 50,
+  "nationality": "Deutschland",
+  "current_role": "Direktor Medien und Kommunikation",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2014",
+      "role": "Direktor Medien und Kommunikation",
+      "period": "14/15 (01.09.2014) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2003",
+      "role": "stellv. Pressesprecher",
+      "period": "03/04 (01.07.2003) - 13/14 (31.08.2013)"
+    }
+  ],
+  "coach_id": "36960",
+  "_cached_at": "2026-02-13T00:21:44.257907",
+  "_preloaded_at": "2026-02-13T00:21:44.259386",
+  "_coach_name": "Tobias Herwerth"
+}

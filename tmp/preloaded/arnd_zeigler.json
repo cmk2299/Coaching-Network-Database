@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/arnd-zeigler/profil/trainer/6856",
+  "scraped_at": "2026-02-12T17:59:46.805188",
+  "name": "Arnd Zeigler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6856-1661419687.jpg?lm=1",
+  "dob": "07.07.1965 (60)",
+  "age": 60,
+  "birthplace": "Bremen",
+  "nationality": "Deutschland",
+  "current_role": "Stadionsprecher",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2000",
+      "role": "Stadionsprecher",
+      "period": "00/01 (21.04.2001) - -"
+    }
+  ],
+  "coach_id": "6856",
+  "_cached_at": "2026-02-12T17:59:46.816708",
+  "_preloaded_at": "2026-02-12T17:59:46.817377",
+  "_coach_name": "Arnd Zeigler"
+}

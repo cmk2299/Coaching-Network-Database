@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/samad-el-messaoudi/profil/trainer/98440",
+  "scraped_at": "2026-02-12T23:21:51.733342",
+  "name": "Samad El Messaoudi",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.01.1980 (46)",
+  "age": 46,
+  "nationality": "DeutschlandMarokko",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Scout",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/2019",
+      "role": "Teammanager",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/2017",
+      "role": "Sportlicher Leiter",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/2001",
+      "role": "Trainer",
+      "period": "01/02 (01.07.2001) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "98440",
+  "_cached_at": "2026-02-12T23:21:51.762919",
+  "_preloaded_at": "2026-02-12T23:21:51.763825",
+  "_coach_name": "Samad El Messaoudi"
+}

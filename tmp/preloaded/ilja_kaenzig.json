@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/ilja-kaenzig/profil/trainer/10850",
+  "scraped_at": "2026-02-12T18:43:36.416072",
+  "name": "Ilja Kaenzig",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/10850-1743706824.jpg?lm=1",
+  "dob": "21.06.1973 (52)",
+  "age": 52,
+  "birthplace": "Sursee",
+  "nationality": "Schweiz",
+  "contract_until": "30.06.2029",
+  "current_role": "Geschäftsführer",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Geschäftsführer",
+      "period": "24/25 (05.07.2024) - vsl. 30.06.2029"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2017",
+      "role": "Vorstand Finanzen",
+      "period": "17/18 (01.03.2018) - 24/25 (04.07.2024)"
+    },
+    {
+      "club": "FC Sochaux",
+      "club_url": "https://www.transfermarkt.de/fc-sochaux-montbeliard/startseite/verein/750/saison_id/2015",
+      "role": "Vorstandsvorsitzender",
+      "period": "15/16 (10.08.2015) - 17/18 (31.12.2017)"
+    },
+    {
+      "club": "BSC Young Boys",
+      "club_url": "https://www.transfermarkt.de/bsc-young-boys/startseite/verein/452/saison_id/2010",
+      "role": "Geschäftsführer",
+      "period": "10/11 (09.08.2010) - 12/13 (30.10.2012)"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2004",
+      "role": "Manager",
+      "period": "04/05 (01.07.2004) - 06/07 (15.11.2006)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2002",
+      "role": "Manager",
+      "period": "02/03 (03.07.2002) - 03/04 (30.06.2004)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/1998",
+      "role": "Teamkoordinator",
+      "period": "98/99 (01.12.1998) - 02/03 (02.07.2002)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/1997",
+      "role": "Nachwuchskoordinator",
+      "period": "97/98 (01.05.1998) - 98/99 (30.11.1998)"
+    },
+    {
+      "club": "Grasshoppers",
+      "club_url": "https://www.transfermarkt.de/grasshopper-club-zurich/startseite/verein/504/saison_id/1994",
+      "role": "Nachwuchskoordinator",
+      "period": "94/95 (01.07.1994) - 97/98 (30.04.1998)"
+    }
+  ],
+  "coach_id": "10850",
+  "_cached_at": "2026-02-12T18:43:36.429988",
+  "_preloaded_at": "2026-02-12T18:43:36.430782",
+  "_coach_name": "Ilja Kaenzig"
+}

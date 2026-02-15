@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/sascha-weiss/profil/trainer/6777",
+  "scraped_at": "2026-02-12T23:23:16.788130",
+  "name": "Sascha Weiß",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6777-1515622039.JPG?lm=1",
+  "dob": "28.02.1976 (49)",
+  "age": 49,
+  "birthplace": "Mölln",
+  "nationality": "Deutschland",
+  "current_role": "Medizinischer Leiter Physiotherapie",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2021",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Wolfsburg II",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-ii/startseite/verein/143/saison_id/2012",
+      "role": "Physiotherapeut",
+      "period": "12/13 (01.07.2012) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2012",
+      "role": "Osteopath",
+      "period": "12/13 (01.07.2012) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "E. Braunschweig",
+      "club_url": "https://www.transfermarkt.de/eintracht-braunschweig/startseite/verein/23/saison_id/2002",
+      "role": "Physiotherapeut",
+      "period": "02/03 (01.03.2003) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "6777",
+  "_cached_at": "2026-02-12T23:23:16.799623",
+  "_preloaded_at": "2026-02-12T23:23:16.800201",
+  "_coach_name": "Sascha Weiß"
+}

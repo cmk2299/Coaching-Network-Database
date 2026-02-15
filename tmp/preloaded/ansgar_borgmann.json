@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/ansgar-borgmann/profil/trainer/61127",
+  "scraped_at": "2026-02-12T17:58:53.957446",
+  "name": "Ansgar Borgmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Stadionsprecher",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2007",
+      "role": "Stadionsprecher",
+      "period": "07/08 (01.07.2007) - -"
+    }
+  ],
+  "coach_id": "61127",
+  "_cached_at": "2026-02-12T17:58:53.966900",
+  "_preloaded_at": "2026-02-12T17:58:53.967440",
+  "_coach_name": "Ansgar Borgmann"
+}

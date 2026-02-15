@@ -1,0 +1,48 @@
+{
+  "url": "https://www.transfermarkt.de/lucas-trittel/profil/trainer/113965",
+  "scraped_at": "2026-02-12T19:00:53.191677",
+  "name": "Lucas Trittel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.12.1992 (33)",
+  "age": 33,
+  "nationality": "Deutschland",
+  "current_role": "Rehatrainerund weitere Tätigkeiten",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Physiotherapeut",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Rehatrainer",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "F. Düsseldorf",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/2019",
+      "role": "Physiotherapeut",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Physiotherapeut",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2015",
+      "role": "Physiotherapeut",
+      "period": "15/16 (01.07.2015) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "113965",
+  "_cached_at": "2026-02-12T19:00:53.202899",
+  "_preloaded_at": "2026-02-12T19:00:53.203552",
+  "_coach_name": "Lucas Trittel"
+}

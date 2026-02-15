@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/dominik-berker/profil/trainer/121585",
+  "scraped_at": "2026-02-12T18:18:38.495762",
+  "name": "Dominik Berker",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Vize-Präsidentund weitere Tätigkeiten",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2023",
+      "role": "Schatzmeister",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2023",
+      "role": "Vize-Präsident",
+      "period": "23/24 (01.07.2023) - -"
+    }
+  ],
+  "coach_id": "121585",
+  "_cached_at": "2026-02-12T18:18:38.510428",
+  "_preloaded_at": "2026-02-12T18:18:38.511119",
+  "_coach_name": "Dominik Berker"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/dr-gunter-pfeiler/profil/trainer/10878",
+  "scraped_at": "2026-02-12T18:22:18.040386",
+  "name": "Dr. Günter Pfeiler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/10878-1515621856.JPG?lm=1",
+  "dob": "14.02.1954 (71)",
+  "age": 71,
+  "birthplace": "Salzgitter",
+  "nationality": "Deutschland",
+  "current_role": "Berater",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+      "role": "Berater",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/1998",
+      "role": "Vereinsarzt",
+      "period": "98/99 (01.07.1998) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "10878",
+  "_cached_at": "2026-02-12T18:22:18.050659",
+  "_preloaded_at": "2026-02-12T18:22:18.051207",
+  "_coach_name": "Dr. Günter Pfeiler"
+}

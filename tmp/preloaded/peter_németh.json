@@ -1,0 +1,88 @@
+{
+  "url": "https://www.transfermarkt.de/peter-nemeth/profil/trainer/6414",
+  "scraped_at": "2026-02-12T19:31:26.868552",
+  "name": "Peter Németh",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6414-1755065492.jpg?lm=1",
+  "dob": "14.09.1972 (53)",
+  "age": 53,
+  "birthplace": "Bojnice",
+  "nationality": "Slowakei",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "buchberger.network ...",
+  "agent_url": "https://www.transfermarkt.de/buchberger-network-in-sports/beraterfirma/berater/3581",
+  "current_role": "Co-Trainer",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (27.12.2022) - -"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (10.12.2018) - 20/21 (01.03.2021)"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 18/19 (22.08.2018)"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (17.02.2015) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (16.09.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Spfr. Siegen",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2009",
+      "role": "Trainer",
+      "period": "09/10 (29.03.2010) - 09/10 (12.04.2010)"
+    },
+    {
+      "club": "Spfr. Siegen",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2009",
+      "role": "Co-Trainer",
+      "period": "09/10 (29.10.2009) - 09/10 (28.03.2010)"
+    },
+    {
+      "club": "Spfr. Siegen",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 (01.01.2009) - 08/09 (02.06.2009)"
+    },
+    {
+      "club": "Spfr. Siegen",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2008",
+      "role": "Spielertrainer",
+      "period": "08/09 (04.07.2008) - 08/09 (31.12.2008)"
+    },
+    {
+      "club": "Spfr. Siegen",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2007",
+      "role": "Trainer",
+      "period": "07/08 (17.05.2008) - 08/09 (03.07.2008)"
+    },
+    {
+      "club": "Spfr. Siegen",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2007",
+      "role": "Spielertrainer",
+      "period": "07/08 (01.05.2008) - 07/08 (16.05.2008)"
+    }
+  ],
+  "coach_id": "6414",
+  "_cached_at": "2026-02-12T19:31:26.883754",
+  "_preloaded_at": "2026-02-12T19:31:26.884488",
+  "_coach_name": "Peter Németh"
+}

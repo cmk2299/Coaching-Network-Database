@@ -1,0 +1,64 @@
+{
+  "url": "https://www.transfermarkt.de/rogier-meijer/profil/trainer/49162",
+  "scraped_at": "2026-02-12T23:19:34.221044",
+  "name": "Rogier Meijer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/49162-1758704406.jpg?lm=1",
+  "dob": "05.09.1981 (44)",
+  "age": 44,
+  "birthplace": "Doetinchem",
+  "nationality": "Niederlande",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "SEG",
+  "agent_url": "https://www.transfermarkt.de/seg-sports-entertainment-group/beraterfirma/berater/586",
+  "current_role": "Co-Trainer",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (02.07.2025) - -"
+    },
+    {
+      "club": "NEC Nijmegen",
+      "club_url": "https://www.transfermarkt.de/nec-nijmegen/startseite/verein/467/saison_id/2019",
+      "role": "Trainer",
+      "period": "19/20 (02.06.2020) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "NEC Nijmegen",
+      "club_url": "https://www.transfermarkt.de/nec-nijmegen/startseite/verein/467/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (03.04.2019) - 19/20 (01.06.2020)"
+    },
+    {
+      "club": "NEC U19",
+      "club_url": "https://www.transfermarkt.de/nec-nijmegen-u19/startseite/verein/7463/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.07.2017) - 18/19 (03.04.2019)"
+    },
+    {
+      "club": "Graafschap U19",
+      "club_url": "https://www.transfermarkt.de/de-graafschap-doetinchem-u19/startseite/verein/14348/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (01.07.2015) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Graafschap Jgd.",
+      "club_url": "https://www.transfermarkt.de/de-graafschap-doetinchem-jugend/startseite/verein/32794/saison_id/2014",
+      "role": "Jugendtrainer",
+      "period": "14/15 (01.07.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "VIOD Doetinchem",
+      "club_url": "https://www.transfermarkt.de/viod-doetinchem/startseite/verein/2953/saison_id/2008",
+      "role": "Co-Trainer",
+      "period": "08/09 (01.07.2008) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "49162",
+  "_cached_at": "2026-02-12T23:19:34.234229",
+  "_preloaded_at": "2026-02-12T23:19:34.234782",
+  "_coach_name": "Rogier Meijer"
+}

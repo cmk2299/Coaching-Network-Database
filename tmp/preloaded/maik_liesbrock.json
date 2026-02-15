@@ -1,0 +1,90 @@
+{
+  "url": "https://www.transfermarkt.de/maik-liesbrock/profil/trainer/35575",
+  "scraped_at": "2026-02-12T19:02:24.871043",
+  "name": "Maik Liesbrock",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.04.1984 (41)",
+  "age": 41,
+  "nationality": "Deutschland",
+  "current_role": "Medizinischer Leiter Physiotherapie",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2020",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "20/21 (30.07.2020) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2020",
+      "role": "Osteopath",
+      "period": "20/21 (30.07.2020) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2013",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "13/14 (01.01.2014) - 20/21 (30.06.2019)"
+    },
+    {
+      "club": "Dortmund Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896/saison_id/2012",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "12/13 (01.07.2012) - 13/14 (31.12.2013)"
+    },
+    {
+      "club": "B. Dortmund U17",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-u17/startseite/verein/21055/saison_id/2012",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "12/13 (01.07.2012) - 13/14 (31.12.2013)"
+    },
+    {
+      "club": "Dortmund Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896/saison_id/2012",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "12/13 (01.07.2012) - 13/14 (31.12.2013)"
+    },
+    {
+      "club": "B. Dortmund U19",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-u19/startseite/verein/1464/saison_id/2012",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "12/13 (01.07.2012) - 13/14 (31.12.2013)"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2010",
+      "role": "Physiotherapeut",
+      "period": "10/11 (01.07.2010) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "Dortmund Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896/saison_id/2008",
+      "role": "Physiotherapeut",
+      "period": "08/09 (01.10.2008) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "Dortmund Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896/saison_id/2008",
+      "role": "Physiotherapeut",
+      "period": "08/09 (01.10.2008) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "B. Dortmund U17",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-u17/startseite/verein/21055/saison_id/2008",
+      "role": "Physiotherapeut",
+      "period": "08/09 (01.10.2008) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "B. Dortmund U19",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-u19/startseite/verein/1464/saison_id/2008",
+      "role": "Physiotherapeut",
+      "period": "08/09 (01.10.2008) - 09/10 (30.06.2010)"
+    }
+  ],
+  "coach_id": "35575",
+  "_cached_at": "2026-02-12T19:02:24.883976",
+  "_preloaded_at": "2026-02-12T19:02:24.884681",
+  "_coach_name": "Maik Liesbrock"
+}

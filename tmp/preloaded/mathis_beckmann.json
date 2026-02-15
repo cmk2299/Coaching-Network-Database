@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/mathis-beckmann/profil/trainer/104942",
+  "scraped_at": "2026-02-12T19:13:09.794883",
+  "name": "Mathis Beckmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "18.06.1995 (30)",
+  "age": 30,
+  "nationality": "Deutschland",
+  "current_role": "Rehatrainer",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Rehatrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "VfL Osnabrück",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck/startseite/verein/81/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (01.07.2021) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "VfL Osnabrück",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck/startseite/verein/81/saison_id/2020",
+      "role": "Rehatrainer",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "104942",
+  "_cached_at": "2026-02-12T19:13:09.805033",
+  "_preloaded_at": "2026-02-12T19:13:09.805608",
+  "_coach_name": "Mathis Beckmann"
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/philipp-turoff/profil/trainer/99271",
+  "scraped_at": "2026-02-12T23:14:21.009273",
+  "name": "Philipp Türoff",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/99271-1656252530.jpg?lm=1",
+  "dob": "21.05.1976 (49)",
+  "age": 49,
+  "birthplace": "Freiburg im Breisgau",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2029",
+  "current_role": "Geschäftsführer kaufmännisch",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2025",
+      "role": "Geschäftsführer kaufmännisch",
+      "period": "25/26 (22.01.2026) - vsl. 30.06.2029"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2021",
+      "role": "Geschäftsführer Finanzen",
+      "period": "21/22 (01.01.2022) - vsl. 30.06.2029"
+    }
+  ],
+  "coach_id": "99271",
+  "_cached_at": "2026-02-12T23:14:21.020823",
+  "_preloaded_at": "2026-02-12T23:14:21.021416",
+  "_coach_name": "Philipp Türoff"
+}

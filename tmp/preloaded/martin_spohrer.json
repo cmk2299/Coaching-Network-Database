@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/martin-spohrer/profil/trainer/19865",
+  "scraped_at": "2026-02-12T19:11:37.824001",
+  "name": "Martin Spohrer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/19865-1406212835.jpg?lm=1",
+  "dob": "19.08.1977 (48)",
+  "age": 48,
+  "birthplace": "Heidelberg",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Athletiktrainer",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2016",
+      "role": "Athletiktrainer",
+      "period": "16/17 (01.08.2016) - -"
+    },
+    {
+      "club": "B. Dortmund II",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-ii/startseite/verein/17/saison_id/2013",
+      "role": "Athletiktrainer",
+      "period": "13/14 (01.07.2013) - 16/17 (31.07.2016)"
+    },
+    {
+      "club": "M'gladbach U19",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/2011",
+      "role": "Athletiktrainer",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "M'gladbach II",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-ii/startseite/verein/1006/saison_id/2011",
+      "role": "Athletiktrainer",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "M'gladbach U17",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u17/startseite/verein/21056/saison_id/2011",
+      "role": "Athletiktrainer",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2008",
+      "role": "Torwarttrainer",
+      "period": "08/09 (01.07.2008) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2008",
+      "role": "Athletiktrainer",
+      "period": "08/09 (01.07.2008) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Hoffenheim U17",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u17/startseite/verein/21082/saison_id/2008",
+      "role": "Athletiktrainer",
+      "period": "08/09 (01.07.2008) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Hoffenheim U17",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u17/startseite/verein/21082/saison_id/2008",
+      "role": "Torwarttrainer",
+      "period": "08/09 (01.07.2008) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "19865",
+  "_cached_at": "2026-02-12T19:11:37.837242",
+  "_preloaded_at": "2026-02-12T19:11:37.837947",
+  "_coach_name": "Martin Spohrer"
+}

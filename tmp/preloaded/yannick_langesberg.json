@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/yannick-langesberg/profil/trainer/131928",
+  "scraped_at": "2026-02-13T00:45:57.850310",
+  "name": "Yannick Langesberg",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "31.03.1994 (31)",
+  "age": 31,
+  "birthplace": "Wickede/Wimbern",
+  "nationality": "Deutschland",
+  "current_role": "Teammanager",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2024",
+      "role": "Teammanager",
+      "period": "24/25 (01.07.2024) - -"
+    }
+  ],
+  "coach_id": "131928",
+  "_cached_at": "2026-02-13T00:45:57.867288",
+  "_preloaded_at": "2026-02-13T00:45:57.868942",
+  "_coach_name": "Yannick Langesberg"
+}

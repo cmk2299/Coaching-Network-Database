@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/thorsten-stuckmann/profil/trainer/114128",
+  "scraped_at": "2026-02-13T00:06:44.231972",
+  "name": "Thorsten Stuckmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "17.03.1981 (44)",
+  "age": 44,
+  "birthplace": "Gütersloh",
+  "nationality": "Deutschland",
+  "current_role": "Scout Torwartbereichund weitere Tätigkeiten",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2022",
+      "role": "Scout Torwartbereich",
+      "period": "22/23 (15.03.2023) - -"
+    },
+    {
+      "club": "E. Frankfurt II",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-ii/startseite/verein/177/saison_id/2022",
+      "role": "Scout Torwartbereich",
+      "period": "22/23 (15.03.2023) - -"
+    }
+  ],
+  "coach_id": "114128",
+  "_cached_at": "2026-02-13T00:06:44.248264",
+  "_preloaded_at": "2026-02-13T00:06:44.248965",
+  "_coach_name": "Thorsten Stuckmann"
+}

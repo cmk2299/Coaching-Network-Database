@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/tobias-holm/profil/trainer/63531",
+  "scraped_at": "2026-02-13T00:21:51.966892",
+  "name": "Tobias Holm",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/63531-1643902413.jpg?lm=1",
+  "dob": "20.04.1989 (36)",
+  "age": 36,
+  "birthplace": "Rinteln",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (09.11.2025) - -"
+    },
+    {
+      "club": "Wolfsburg U17",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-u17/startseite/verein/21087/saison_id/2025",
+      "role": "Trainer",
+      "period": "25/26 (01.07.2025) - 25/26 (08.11.2025)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (04.05.2025) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Wolfsburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-jugend/startseite/verein/12821/saison_id/2023",
+      "role": "Trainer",
+      "period": "23/24 (01.07.2023) - 24/25 (03.05.2025)"
+    },
+    {
+      "club": "Wolfsburg U19",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-u19/startseite/verein/5343/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (03.01.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Wolfsburg U17",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-u17/startseite/verein/21087/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (01.07.2020) - 21/22 (02.01.2022)"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2019",
+      "role": "Chefanalytiker",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2018",
+      "role": "Spielanalyst",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2019)"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2018",
+      "role": "Gegneranalyst",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "63531",
+  "_cached_at": "2026-02-13T00:21:52.013251",
+  "_preloaded_at": "2026-02-13T00:21:52.014917",
+  "_coach_name": "Tobias Holm"
+}

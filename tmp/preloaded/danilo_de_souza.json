@@ -1,0 +1,51 @@
+{
+  "url": "https://www.transfermarkt.de/danilo-de-souza/profil/trainer/63679",
+  "scraped_at": "2026-02-12T18:14:27.542407",
+  "name": "Danilo de Souza",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/63679-1755623989.jpg?lm=1",
+  "dob": "29.11.1983 (42)",
+  "age": 42,
+  "birthplace": "São Paulo",
+  "nationality": "BrasilienDeutschland",
+  "agent": "EMD Sports GmbH",
+  "agent_url": "https://www.transfermarkt.de/emd-sports-gmbh/beraterfirma/berater/1487",
+  "current_role": "Co-Trainer",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (06.07.2025) - -"
+    },
+    {
+      "club": "Leeds United",
+      "club_url": "https://www.transfermarkt.de/leeds-united/startseite/verein/399/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (04.07.2023) - 25/26 (05.07.2025)"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (15.01.2023) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "VfL Osnabrück",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck/startseite/verein/81/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (01.07.2021) - 22/23 (14.01.2023)"
+    },
+    {
+      "club": "SC Paderborn",
+      "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "63679",
+  "_cached_at": "2026-02-12T18:14:27.554784",
+  "_preloaded_at": "2026-02-12T18:14:27.555392",
+  "_coach_name": "Danilo de Souza"
+}

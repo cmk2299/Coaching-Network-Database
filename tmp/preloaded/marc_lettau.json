@@ -1,0 +1,100 @@
+{
+  "url": "https://www.transfermarkt.de/marc-lettau/profil/trainer/23738",
+  "scraped_at": "2026-02-12T19:04:21.421662",
+  "name": "Marc Lettau",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/23738-1671538024.jpg?lm=1",
+  "dob": "26.07.1985 (40)",
+  "age": 40,
+  "birthplace": "Uelzen",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "agent": "not_only_football",
+  "agent_url": "https://www.transfermarkt.de/not_only_football/beraterfirma/berater/11564",
+  "current_role": "Kaderplaner",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2024",
+      "role": "Kaderplaner",
+      "period": "24/25 (01.07.2025) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2023",
+      "role": "Sportdirektor",
+      "period": "23/24 (25.07.2023) - 24/25 (20.10.2024)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2023",
+      "role": "Leiter Lizenzbereich",
+      "period": "23/24 (25.07.2023) - 24/25 (20.10.2024)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2022",
+      "role": "Geschäftsführer Sport",
+      "period": "22/23 (08.03.2023) - 23/24 (02.07.2023)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2022",
+      "role": "Technischer Direktor",
+      "period": "22/23 (01.01.2023) - 23/24 (24.07.2023)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2022",
+      "role": "Kaderplaner",
+      "period": "22/23 (01.01.2023) - 24/25 (20.10.2024)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2017",
+      "role": "stellv. Geschäftsführer",
+      "period": "17/18 (15.05.2018) - 22/23 (31.12.2022)"
+    },
+    {
+      "club": "Schalke 04 Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04-jugend/startseite/verein/11884/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Schalke 04 U17",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04-u17/startseite/verein/21061/saison_id/2012",
+      "role": "Interimstrainer",
+      "period": "12/13 (16.12.2012) - 12/13 (17.01.2013)"
+    },
+    {
+      "club": "Schalke 04 U17",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04-u17/startseite/verein/21061/saison_id/2011",
+      "role": "Co-Trainer",
+      "period": "11/12 (01.07.2011) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2011",
+      "role": "Nachwuchskoordinator",
+      "period": "11/12 (01.07.2011) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Bodenteich U17",
+      "club_url": "https://www.transfermarkt.de/tus-bodenteich-u17/startseite/verein/38756/saison_id/2009",
+      "role": "Trainer",
+      "period": "09/10 (01.07.2009) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Bodenteich Jgd.",
+      "club_url": "https://www.transfermarkt.de/tus-bodenteich-jugend/startseite/verein/38755",
+      "role": "Trainer",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "23738",
+  "_cached_at": "2026-02-12T19:04:21.436538",
+  "_preloaded_at": "2026-02-12T19:04:21.437438",
+  "_coach_name": "Marc Lettau"
+}

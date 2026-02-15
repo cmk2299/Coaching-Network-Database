@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/matthias-hagner/profil/trainer/3429",
+  "scraped_at": "2026-02-12T19:13:56.289231",
+  "name": "Matthias Hagner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1399134561.jpg?lm=1",
+  "dob": "15.08.1974 (51)",
+  "age": 51,
+  "birthplace": "Gießen",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Sportpsychologeund weitere Tätigkeiten",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2024",
+      "role": "Sportpsychologe",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2024",
+      "role": "Sportpsychologe",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "JFV FC Aar Jgd.",
+      "club_url": "https://www.transfermarkt.de/jfv-fc-aar-jugend/startseite/verein/92211/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Spfr. Siegen",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2013",
+      "role": "Sportlicher Leiter",
+      "period": "13/14 (16.01.2014) - 14/15 (03.11.2014)"
+    },
+    {
+      "club": "Spfr. Siegen",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-siegen/startseite/verein/63/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (08.01.2014) - 14/15 (03.11.2014)"
+    },
+    {
+      "club": "Spfr. Siegen II",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-siegen-ii/startseite/verein/2366/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (07.01.2014)"
+    },
+    {
+      "club": "FSV Braunfels",
+      "club_url": "https://www.transfermarkt.de/fsv-braunfels/startseite/verein/2550/saison_id/2012",
+      "role": "Trainer",
+      "period": "12/13 (01.07.2012) - 12/13 (14.04.2013)"
+    },
+    {
+      "club": "VfB Gießen",
+      "club_url": "https://www.transfermarkt.de/vfb-giessen/startseite/verein/1473/saison_id/2011",
+      "role": "Trainer",
+      "period": "11/12 (01.07.2011) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "FSV Frankf. II",
+      "club_url": "https://www.transfermarkt.de/fsv-frankfurt-ii/startseite/verein/7258/saison_id/2006",
+      "role": "Trainer",
+      "period": "06/07 (01.07.2006) - 06/07 (30.06.2007)"
+    }
+  ],
+  "coach_id": "3429",
+  "_cached_at": "2026-02-12T19:13:56.302348",
+  "_preloaded_at": "2026-02-12T19:13:56.303017",
+  "_coach_name": "Matthias Hagner"
+}

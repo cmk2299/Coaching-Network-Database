@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/prof-dr-torben-pottgiesser/profil/trainer/122223",
+  "scraped_at": "2026-02-12T23:15:44.194371",
+  "name": "Prof. Dr. Torben Pottgießer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.02.1979 (47)",
+  "age": 47,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2023",
+      "role": "Vereinsarzt",
+      "period": "23/24 (01.07.2023) - -"
+    }
+  ],
+  "coach_id": "122223",
+  "_cached_at": "2026-02-12T23:15:44.205963",
+  "_preloaded_at": "2026-02-12T23:15:44.206532",
+  "_coach_name": "Prof. Dr. Torben Pottgießer"
+}

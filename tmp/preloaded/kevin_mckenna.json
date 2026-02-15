@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/kevin-mckenna/profil/trainer/41131",
+  "scraped_at": "2026-02-12T18:55:13.793462",
+  "name": "Kevin McKenna",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/41131-1755624045.jpg?lm=1",
+  "dob": "21.01.1980 (46)",
+  "age": 46,
+  "birthplace": "Calgary, Alberta",
+  "nationality": "Kanada",
+  "license": "C-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (02.01.2025) - -"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (03.09.2024) - 24/25 (24.11.2024)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (13.07.2021) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (19.09.2019) - 20/21 (29.09.2020)"
+    },
+    {
+      "club": "1.FC Köln II",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-ii/startseite/verein/438/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 19/20 (19.07.2019)"
+    },
+    {
+      "club": "1.FC Köln II",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-ii/startseite/verein/438/saison_id/2018",
+      "role": "Interimstrainer",
+      "period": "18/19 (28.04.2019) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "1.FC Köln II",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-ii/startseite/verein/438/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (01.07.2018) - 18/19 (27.04.2019)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (04.12.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (01.07.2014) - 17/18 (03.12.2017)"
+    }
+  ],
+  "coach_id": "41131",
+  "_cached_at": "2026-02-12T18:55:13.807765",
+  "_preloaded_at": "2026-02-12T18:55:13.808403",
+  "_coach_name": "Kevin McKenna"
+}

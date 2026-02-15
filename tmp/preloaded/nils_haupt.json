@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/nils-haupt/profil/trainer/153449",
+  "scraped_at": "2026-02-12T19:25:21.189180",
+  "name": "Nils Haupt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2025",
+      "role": "Vereinsarzt",
+      "period": "25/26 (01.07.2025) - -"
+    }
+  ],
+  "coach_id": "153449",
+  "_cached_at": "2026-02-12T19:25:21.198612",
+  "_preloaded_at": "2026-02-12T19:25:21.199125",
+  "_coach_name": "Nils Haupt"
+}

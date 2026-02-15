@@ -1,0 +1,40 @@
+{
+  "url": "https://www.transfermarkt.de/holger-boyne/profil/trainer/148849",
+  "scraped_at": "2026-02-12T18:42:42.249692",
+  "name": "Holger Boyne",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Medien und Kommunikationund weitere Tätigkeiten",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2024",
+      "role": "Medienmitarbeiter",
+      "period": "24/25 (01.09.2024) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2023",
+      "role": "Direktor Medien und Kommunikation",
+      "period": "23/24 (01.01.2024) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2016",
+      "role": "Medienmitarbeiter",
+      "period": "16/17 (01.06.2017) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2006",
+      "role": "Medienmitarbeiter",
+      "period": "06/07 (01.07.2006) - 16/17 (31.05.2017)"
+    }
+  ],
+  "coach_id": "148849",
+  "_cached_at": "2026-02-12T18:42:42.260750",
+  "_preloaded_at": "2026-02-12T18:42:42.261380",
+  "_coach_name": "Holger Boyne"
+}

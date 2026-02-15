@@ -1,0 +1,123 @@
+{
+  "url": "https://www.transfermarkt.de/ervin-skela/profil/trainer/80042",
+  "scraped_at": "2026-02-12T18:29:14.000564",
+  "name": "Ervin Skela",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/80042-1620038659.jpg?lm=1",
+  "dob": "17.11.1976 (49)",
+  "age": 49,
+  "birthplace": "Vlorë",
+  "nationality": "Albanien",
+  "contract_until": "30.06.2026",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Techniktrainerund weitere Tätigkeiten",
+  "current_club": "Frankfurt U19",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372",
+  "career_history": [
+    {
+      "club": "E. Frankfurt II",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-ii/startseite/verein/177/saison_id/2023",
+      "role": "Techniktrainer",
+      "period": "23/24 (01.07.2023) - vsl. 30.06.2026"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2023",
+      "role": "Techniktrainer",
+      "period": "23/24 (01.07.2023) - vsl. 30.06.2026"
+    },
+    {
+      "club": "E. Frankfurt YL",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-uefa-u19/startseite/verein/99465/saison_id/2023",
+      "role": "Techniktrainer",
+      "period": "23/24 (01.07.2023) - vsl. 30.06.2026"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2023",
+      "role": "Techniktrainer",
+      "period": "23/24 (01.07.2023) - vsl. 30.06.2026"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2022",
+      "role": "Trainer",
+      "period": "22/23 (24.01.2023) - 22/23 (31.03.2023)"
+    },
+    {
+      "club": "E. Frankfurt YL",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-uefa-u19/startseite/verein/99465/saison_id/2022",
+      "role": "Trainer",
+      "period": "22/23 (24.01.2023) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "E. Frankfurt YL",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-uefa-u19/startseite/verein/99465/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (01.07.2022) - 22/23 (23.01.2023)"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2022",
+      "role": "Individualtrainer",
+      "period": "22/23 (01.07.2022) - 22/23 (23.01.2023)"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (01.07.2022) - 22/23 (23.01.2023)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2021",
+      "role": "Trainer",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2020",
+      "role": "Individualtrainer",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/2020",
+      "role": "Individualtrainer",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/2020",
+      "role": "Individualtrainer",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2017",
+      "role": "Klubrepräsentant",
+      "period": "17/18 (04.11.2017) - -"
+    },
+    {
+      "club": "Dreieich U17",
+      "club_url": "https://www.transfermarkt.de/sc-hessen-dreieich-u17/startseite/verein/82075/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Dreieich Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-hessen-dreieich-jugend/startseite/verein/75792/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (01.01.2016) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "80042",
+  "_cached_at": "2026-02-12T18:29:14.018424",
+  "_preloaded_at": "2026-02-12T18:29:14.019249",
+  "_coach_name": "Ervin Skela"
+}

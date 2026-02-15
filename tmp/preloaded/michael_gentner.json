@@ -1,0 +1,57 @@
+{
+  "url": "https://www.transfermarkt.de/michael-gentner/profil/trainer/26457",
+  "scraped_at": "2026-02-12T19:18:16.663974",
+  "name": "Michael Gentner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "26.05.1982 (43)",
+  "age": 43,
+  "birthplace": "Nürtingen",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2030",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Leiter der Nachwuchsabteilung",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2021",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "21/22 (10.01.2022) - vsl. 30.06.2030"
+    },
+    {
+      "club": "Stuttgart II",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-ii/startseite/verein/102/saison_id/2021",
+      "role": "Sportlicher Leiter",
+      "period": "21/22 (01.07.2021) - 21/22 (09.01.2022)"
+    },
+    {
+      "club": "Stuttgart II",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-ii/startseite/verein/102/saison_id/2019",
+      "role": "Interimstrainer",
+      "period": "19/20 (01.01.2020) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Stuttgart Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-jugend/startseite/verein/19210/saison_id/2016",
+      "role": "Sportlicher Leiter",
+      "period": "16/17 (01.07.2016) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2012",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "12/13 (09.10.2012) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Stuttgart Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-jugend/startseite/verein/19210/saison_id/2011",
+      "role": "Trainer",
+      "period": "11/12 (01.07.2011) - 12/13 (08.10.2012)"
+    }
+  ],
+  "coach_id": "26457",
+  "_cached_at": "2026-02-12T19:18:16.676007",
+  "_preloaded_at": "2026-02-12T19:18:16.676633",
+  "_coach_name": "Michael Gentner"
+}

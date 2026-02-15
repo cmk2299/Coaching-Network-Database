@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/stefan-kamilli/profil/trainer/100778",
+  "scraped_at": "2026-02-12T23:28:44.117603",
+  "name": "Stefan Kamilli",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "26.05.1976 (49)",
+  "age": 49,
+  "birthplace": "Mainz",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2006",
+      "role": "Physiotherapeut",
+      "period": "06/07 (01.03.2007) - -"
+    }
+  ],
+  "coach_id": "100778",
+  "_cached_at": "2026-02-12T23:28:44.127391",
+  "_preloaded_at": "2026-02-12T23:28:44.127824",
+  "_coach_name": "Stefan Kamilli"
+}

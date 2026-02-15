@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/simon-martinello/profil/trainer/74617",
+  "scraped_at": "2026-02-12T23:27:44.356414",
+  "name": "Simon Martinello",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "01.11.1984 (41)",
+  "age": 41,
+  "birthplace": "Mühlbach",
+  "nationality": "Italien",
+  "current_role": "Athletiktrainerund weitere Tätigkeiten",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2019",
+      "role": "Rehatrainer",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2013",
+      "role": "Athletiktrainer",
+      "period": "13/14 (01.07.2013) - 16/17 (31.08.2016)"
+    }
+  ],
+  "coach_id": "74617",
+  "_cached_at": "2026-02-12T23:27:44.367254",
+  "_preloaded_at": "2026-02-12T23:27:44.367768",
+  "_coach_name": "Simon Martinello"
+}

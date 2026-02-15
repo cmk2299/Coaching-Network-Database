@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/franziska-pietschmann/profil/trainer/123191",
+  "scraped_at": "2026-02-12T18:36:35.401080",
+  "name": "Franziska Pietschmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Teammanagerin",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2020",
+      "role": "Teammanagerin",
+      "period": "20/21 (01.07.2020) - -"
+    }
+  ],
+  "coach_id": "123191",
+  "_cached_at": "2026-02-12T18:36:35.410476",
+  "_preloaded_at": "2026-02-12T18:36:35.411029",
+  "_coach_name": "Franziska Pietschmann"
+}

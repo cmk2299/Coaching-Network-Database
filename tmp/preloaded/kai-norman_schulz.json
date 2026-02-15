@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/kai-norman-schulz/profil/trainer/41262",
+  "scraped_at": "2026-02-12T18:53:31.467575",
+  "name": "Kai-Norman Schulz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/41262-1500993999.jpg?lm=1",
+  "dob": "02.05.1974 (51)",
+  "age": 51,
+  "birthplace": "Dortmund",
+  "nationality": "Deutschland",
+  "current_role": "Koordinator Sport-Technologien",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2017",
+      "role": "Koordinator Sport-Technologien",
+      "period": "17/18 (01.01.2018) - -"
+    },
+    {
+      "club": "Austria Wien",
+      "club_url": "https://www.transfermarkt.de/fk-austria-wien/startseite/verein/14/saison_id/2015",
+      "role": "Co-Trainer Analyse",
+      "period": "15/16 (01.07.2015) - 17/18 (31.12.2017)"
+    },
+    {
+      "club": "APOEL Nikosia",
+      "club_url": "https://www.transfermarkt.de/apoel-nikosia/startseite/verein/2784/saison_id/2014",
+      "role": "Videoanalyst",
+      "period": "14/15 (10.01.2015) - 14/15 (11.05.2015)"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2011",
+      "role": "Videoanalyst",
+      "period": "11/12 (17.10.2011) - 13/14 (17.09.2013)"
+    },
+    {
+      "club": "FC Basel",
+      "club_url": "https://www.transfermarkt.de/fc-basel-1893/startseite/verein/26/saison_id/2009",
+      "role": "Videoanalyst",
+      "period": "09/10 (01.07.2009) - 11/12 (16.10.2011)"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2008",
+      "role": "Videoanalyst",
+      "period": "08/09 (01.07.2008) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "41262",
+  "_cached_at": "2026-02-12T18:53:31.480037",
+  "_preloaded_at": "2026-02-12T18:53:31.480776",
+  "_coach_name": "Kai-Norman Schulz"
+}

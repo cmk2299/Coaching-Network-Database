@@ -1,0 +1,72 @@
+{
+  "url": "https://www.transfermarkt.de/marcelo-martins/profil/trainer/6504",
+  "scraped_at": "2026-02-12T19:05:30.540489",
+  "name": "Marcelo Martins",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6504-1638755976.png?lm=1",
+  "dob": "20.04.1975 (50)",
+  "age": 50,
+  "nationality": "Brasilien",
+  "current_role": "Athletiktrainer",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2023",
+      "role": "Athletiktrainer",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Antalyaspor",
+      "club_url": "https://www.transfermarkt.de/antalyaspor/startseite/verein/589/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (15.10.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Western Sydney",
+      "club_url": "https://www.transfermarkt.de/western-sydney-wanderers/startseite/verein/36100/saison_id/2017",
+      "role": "Fitnesstrainer",
+      "period": "17/18 (05.01.2018) - 18/19 (31.05.2019)"
+    },
+    {
+      "club": "Atlético-PR",
+      "club_url": "https://www.transfermarkt.de/club-athletico-paranaense/startseite/verein/679/saison_id/2015",
+      "role": "Performance Manager",
+      "period": "15/16 (01.01.2016) - 17/18 (04.01.2018)"
+    },
+    {
+      "club": "USA",
+      "club_url": "https://www.transfermarkt.de/vereinigte-staaten-olympia/startseite/verein/53846/saison_id/2014",
+      "role": "Fitnesstrainer",
+      "period": "14/15 (01.02.2015) - 15/16 (31.03.2016)"
+    },
+    {
+      "club": "Atlético-PR",
+      "club_url": "https://www.transfermarkt.de/club-athletico-paranaense/startseite/verein/679/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.01.2015) - 15/16 (31.12.2015)"
+    },
+    {
+      "club": "USA",
+      "club_url": "https://www.transfermarkt.de/vereinigte-staaten/startseite/verein/3505/saison_id/2013",
+      "role": "Fitnesstrainer",
+      "period": "13/14 (01.01.2014) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2008",
+      "role": "Fitnesstrainer",
+      "period": "08/09 (01.07.2008) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Katar",
+      "club_url": "https://www.transfermarkt.de/katar/startseite/verein/14162/saison_id/2006",
+      "role": "Fitnesstrainer",
+      "period": "06/07 (01.01.2007) - 07/08 (30.06.2008)"
+    }
+  ],
+  "coach_id": "6504",
+  "_cached_at": "2026-02-12T19:05:30.553425",
+  "_preloaded_at": "2026-02-12T19:05:30.554098",
+  "_coach_name": "Marcelo Martins"
+}

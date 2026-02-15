@@ -1,0 +1,97 @@
+{
+  "url": "https://www.transfermarkt.de/dr-philipp-laux/profil/trainer/2731",
+  "scraped_at": "2026-02-12T18:25:41.853612",
+  "name": "Dr. Philipp Laux",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/2731-1588933222.jpg?lm=1",
+  "dob": "25.01.1973 (53)",
+  "age": 53,
+  "birthplace": "Rastatt",
+  "nationality": "Deutschland",
+  "current_role": "Sportpsychologeund weitere Tätigkeiten",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2024",
+      "role": "Sportpsychologe",
+      "period": "24/25 (01.09.2024) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2019",
+      "role": "Sportpsychologe",
+      "period": "19/20 (01.05.2020) - -"
+    },
+    {
+      "club": "Deutschland U21",
+      "club_url": "https://www.transfermarkt.de/deutschland-u21/startseite/verein/3817/saison_id/2018",
+      "role": "Sportpsychologe",
+      "period": "18/19 (01.09.2018) - 20/21 (30.09.2020)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2015",
+      "role": "Sportpsychologe",
+      "period": "15/16 (01.07.2015) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2012",
+      "role": "Sportpsychologe",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2008",
+      "role": "Sportpsychologe",
+      "period": "08/09 (01.07.2008) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2006",
+      "role": "Torwarttrainer",
+      "period": "06/07 (01.07.2006) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2006",
+      "role": "Sportpsychologe",
+      "period": "06/07 (01.07.2006) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2005",
+      "role": "Torwarttrainer",
+      "period": "05/06 (08.11.2005) - 05/06 (31.12.2005)"
+    },
+    {
+      "club": "Deutschland U20",
+      "club_url": "https://www.transfermarkt.de/deutschland-u20/startseite/verein/5709/saison_id/2004",
+      "role": "Torwarttrainer",
+      "period": "04/05 (01.07.2004) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "Deutschland U18",
+      "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/2004",
+      "role": "Torwarttrainer",
+      "period": "04/05 (01.07.2004) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "Deutschland U19",
+      "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2004",
+      "role": "Torwarttrainer",
+      "period": "04/05 (01.07.2004) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "Deutschland U21",
+      "club_url": "https://www.transfermarkt.de/deutschland-u21/startseite/verein/3817/saison_id/2004",
+      "role": "Torwarttrainer",
+      "period": "04/05 (01.07.2004) - 05/06 (30.06.2006)"
+    }
+  ],
+  "coach_id": "2731",
+  "_cached_at": "2026-02-12T18:25:41.872995",
+  "_preloaded_at": "2026-02-12T18:25:41.873814",
+  "_coach_name": "Dr. Philipp Laux"
+}

@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/carsten-rademacher/profil/trainer/131746",
+  "scraped_at": "2026-02-12T18:05:39.542454",
+  "name": "Carsten Rademacher",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Rehatrainer",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2010",
+      "role": "Rehatrainer",
+      "period": "10/11 (01.07.2010) - -"
+    }
+  ],
+  "coach_id": "131746",
+  "_cached_at": "2026-02-12T18:05:39.552120",
+  "_preloaded_at": "2026-02-12T18:05:39.552716",
+  "_coach_name": "Carsten Rademacher"
+}

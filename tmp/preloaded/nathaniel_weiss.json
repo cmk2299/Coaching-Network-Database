@@ -1,0 +1,92 @@
+{
+  "url": "https://www.transfermarkt.de/nathaniel-weiss/profil/trainer/53412",
+  "scraped_at": "2026-02-12T19:22:32.330809",
+  "name": "Nathaniel Weiss",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "16.07.1987 (38)",
+  "age": 38,
+  "birthplace": "Brooklyn, New York",
+  "nationality": "Vereinigte Staaten",
+  "license": "A-Lizenz",
+  "current_role": "Techniktrainer",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Techniktrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2024",
+      "role": "Individualtrainer",
+      "period": "24/25 (01.07.2024) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2022",
+      "role": "Techniktrainer",
+      "period": "22/23 (01.07.2022) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Stuttgart Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-jugend/startseite/verein/19210/saison_id/2021",
+      "role": "Entwicklungscoach",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "1.FC Nürnberg",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg/startseite/verein/4/saison_id/2017",
+      "role": "Techniktrainer",
+      "period": "17/18 (01.07.2017) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Gr. Fürth U17",
+      "club_url": "https://www.transfermarkt.de/spvgg-greuther-furth-u17/startseite/verein/21077/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Gr. Fürth Jgd.",
+      "club_url": "https://www.transfermarkt.de/spvgg-greuther-furth-jugend/startseite/verein/20465/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Seligenport. II",
+      "club_url": "https://www.transfermarkt.de/sv-seligenporten-ii/startseite/verein/35378/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Seligenporten",
+      "club_url": "https://www.transfermarkt.de/sv-seligenporten/startseite/verein/1341/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "DFB-Stützpunkt",
+      "club_url": "https://www.transfermarkt.de/dfb-stutzpunkt/startseite/verein/36796/saison_id/2014",
+      "role": "Techniktrainer",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "FS Jelgava U19",
+      "club_url": "https://www.transfermarkt.de/fk-jelgava-u19/startseite/verein/28829/saison_id/2010",
+      "role": "Co-Trainer",
+      "period": "10/11 (01.07.2010) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "LTFC Academy",
+      "club_url": "https://www.transfermarkt.de/longford-town-fc-u19/startseite/verein/32613/saison_id/2008",
+      "role": "Co-Trainer",
+      "period": "08/09 (01.07.2008) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "53412",
+  "_cached_at": "2026-02-12T19:22:32.344754",
+  "_preloaded_at": "2026-02-12T19:22:32.345485",
+  "_coach_name": "Nathaniel Weiss"
+}

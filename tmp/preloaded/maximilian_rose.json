@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/maximilian-rose/profil/trainer/94739",
+  "scraped_at": "2026-02-12T19:16:29.312926",
+  "name": "Maximilian Rose",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "21.09.1995 (30)",
+  "age": 30,
+  "birthplace": "Kirchheimbolanden",
+  "nationality": "Deutschland",
+  "current_role": "Spielanalystund weitere Tätigkeiten",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2024",
+      "role": "Spielanalyst",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2024",
+      "role": "Koordinator Sport-Technologien",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.01.2020) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2019",
+      "role": "Technische/r Mitarbeiter/in",
+      "period": "19/20 (01.09.2019) - 19/20 (31.12.2019)"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.09.2019) - 19/20 (31.12.2019)"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2019",
+      "role": "Spielanalyst",
+      "period": "19/20 (01.09.2019) - 19/20 (31.12.2019)"
+    },
+    {
+      "club": "Wormatia Worms",
+      "club_url": "https://www.transfermarkt.de/vfr-wormatia-worms/startseite/verein/158/saison_id/2016",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "16/17 (01.09.2016) - 16/17 (31.10.2016)"
+    }
+  ],
+  "coach_id": "94739",
+  "_cached_at": "2026-02-12T19:16:29.324866",
+  "_preloaded_at": "2026-02-12T19:16:29.325512",
+  "_coach_name": "Maximilian Rose"
+}

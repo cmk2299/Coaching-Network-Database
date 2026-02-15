@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/nico-bottcher/profil/trainer/145693",
+  "scraped_at": "2026-02-12T19:23:02.838098",
+  "name": "Nico Böttcher",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Teammanager",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Teammanager",
+      "period": "24/25 (01.07.2024) - -"
+    }
+  ],
+  "coach_id": "145693",
+  "_cached_at": "2026-02-12T19:23:02.847968",
+  "_preloaded_at": "2026-02-12T19:23:02.848645",
+  "_coach_name": "Nico Böttcher"
+}

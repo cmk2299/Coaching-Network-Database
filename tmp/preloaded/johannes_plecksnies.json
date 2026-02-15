@@ -1,0 +1,67 @@
+{
+  "url": "https://www.transfermarkt.de/johannes-plecksnies/profil/trainer/54810",
+  "scraped_at": "2026-02-12T18:49:04.408976",
+  "name": "Johannes Plecksnies",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/54810-1536779796.jpg?lm=1",
+  "dob": "05.08.1989 (36)",
+  "age": 36,
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Leiter der Fußballschule",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2019",
+      "role": "Leiter der Fußballschule",
+      "period": "19/20 (01.03.2020) - -"
+    },
+    {
+      "club": "Hannover Jgd.",
+      "club_url": "https://www.transfermarkt.de/hannover-96-jugend/startseite/verein/17295/saison_id/2017",
+      "role": "Sportlicher Leiter",
+      "period": "17/18 (01.07.2017) - 19/20 (28.02.2020)"
+    },
+    {
+      "club": "Hannover Jgd.",
+      "club_url": "https://www.transfermarkt.de/hannover-96-jugend/startseite/verein/17295/saison_id/2016",
+      "role": "Nachwuchskoordinator",
+      "period": "16/17 (01.07.2016) - 19/20 (28.02.2020)"
+    },
+    {
+      "club": "Hannover Jgd.",
+      "club_url": "https://www.transfermarkt.de/hannover-96-jugend/startseite/verein/17295/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (01.07.2015) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Hannover Jgd.",
+      "club_url": "https://www.transfermarkt.de/hannover-96-jugend/startseite/verein/17295/saison_id/2014",
+      "role": "Co-Trainer Analyse",
+      "period": "14/15 (01.07.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "NFV",
+      "club_url": "https://www.transfermarkt.de/niedersachsischer-fussballverband/startseite/verein/61216/saison_id/2011",
+      "role": "Jugendtrainer",
+      "period": "11/12 (01.07.2011) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "TSV K/K Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsv-krahenwinkel-kaltenweide-jugend/startseite/verein/61230/saison_id/2010",
+      "role": "Trainer",
+      "period": "10/11 (01.07.2010) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "TSV K/K U17",
+      "club_url": "https://www.transfermarkt.de/tsv-krahenwinkel-kaltenweide-u17/startseite/verein/61229/saison_id/2009",
+      "role": "Trainer",
+      "period": "09/10 (01.07.2009) - 09/10 (30.06.2010)"
+    }
+  ],
+  "coach_id": "54810",
+  "_cached_at": "2026-02-12T18:49:04.421799",
+  "_preloaded_at": "2026-02-12T18:49:04.422507",
+  "_coach_name": "Johannes Plecksnies"
+}

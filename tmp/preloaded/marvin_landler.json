@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/marvin-landler/profil/trainer/105187",
+  "scraped_at": "2026-02-12T19:12:16.543560",
+  "name": "Marvin Landler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/105187-1678482816.JPG?lm=1",
+  "dob": "22.02.1995 (30)",
+  "age": 30,
+  "nationality": "Deutschland",
+  "current_role": "Mitarbeiter/-in d. Geschäftsstelle",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2024",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "24/25 (01.02.2025) - -"
+    },
+    {
+      "club": "Wormatia Worms",
+      "club_url": "https://www.transfermarkt.de/vfr-wormatia-worms/startseite/verein/158/saison_id/2023",
+      "role": "Geschäftsstellenleiter",
+      "period": "23/24 (01.01.2024) - 24/25 (31.01.2025)"
+    },
+    {
+      "club": "Wormatia Worms",
+      "club_url": "https://www.transfermarkt.de/vfr-wormatia-worms/startseite/verein/158/saison_id/2022",
+      "role": "Teammanager",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Wormatia Worms",
+      "club_url": "https://www.transfermarkt.de/vfr-wormatia-worms/startseite/verein/158",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "105187",
+  "_cached_at": "2026-02-12T19:12:16.554304",
+  "_preloaded_at": "2026-02-12T19:12:16.554933",
+  "_coach_name": "Marvin Landler"
+}

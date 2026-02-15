@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/dr-udo-tiefenbacher/profil/trainer/26210",
+  "scraped_at": "2026-02-12T18:27:34.943026",
+  "name": "Dr. Udo Tiefenbacher",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1382955676.jpg?lm=1",
+  "dob": "07.11.1964 (61)",
+  "age": 61,
+  "birthplace": "Stuttgart",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2019",
+      "role": "Vereinsarzt",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "VfR Aalen",
+      "club_url": "https://www.transfermarkt.de/vfr-aalen/startseite/verein/83/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.07.2012) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "26210",
+  "_cached_at": "2026-02-12T18:27:34.953778",
+  "_preloaded_at": "2026-02-12T18:27:34.954333",
+  "_coach_name": "Dr. Udo Tiefenbacher"
+}

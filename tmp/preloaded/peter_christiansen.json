@@ -1,0 +1,56 @@
+{
+  "url": "https://www.transfermarkt.de/peter-christiansen/profil/trainer/8900",
+  "scraped_at": "2026-02-12T19:30:40.787602",
+  "name": "Peter Christiansen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/8900-1716956447.jpg?lm=1",
+  "dob": "30.01.1975 (51)",
+  "age": 51,
+  "birthplace": "Hillerød",
+  "nationality": "Dänemark",
+  "contract_until": "31.01.2027",
+  "current_role": "Geschäftsführer Sport",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2024",
+      "role": "Geschäftsführer Sport",
+      "period": "24/25 (01.07.2024) - vsl. 31.01.2027"
+    },
+    {
+      "club": "Kopenhagen",
+      "club_url": "https://www.transfermarkt.de/fc-kopenhagen/startseite/verein/190/saison_id/2020",
+      "role": "Direktor Profifußball",
+      "period": "20/21 (01.04.2021) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Aarhus GF",
+      "club_url": "https://www.transfermarkt.de/aarhus-gf/startseite/verein/678/saison_id/2016",
+      "role": "Sportdirektor",
+      "period": "16/17 (06.12.2016) - 20/21 (31.03.2021)"
+    },
+    {
+      "club": "Aarhus GF",
+      "club_url": "https://www.transfermarkt.de/aarhus-gf/startseite/verein/678/saison_id/2015",
+      "role": "Chefscout",
+      "period": "15/16 (07.01.2016) - 20/21 (31.03.2021)"
+    },
+    {
+      "club": "Randers FC",
+      "club_url": "https://www.transfermarkt.de/randers-fc/startseite/verein/5724/saison_id/2013",
+      "role": "Sportdirektor",
+      "period": "13/14 (02.10.2013) - 15/16 (31.12.2015)"
+    },
+    {
+      "club": "Randers FC",
+      "club_url": "https://www.transfermarkt.de/randers-fc/startseite/verein/5724/saison_id/2007",
+      "role": "Chefscout",
+      "period": "07/08 (01.01.2008) - 13/14 (01.10.2013)"
+    }
+  ],
+  "coach_id": "8900",
+  "_cached_at": "2026-02-12T19:30:40.800234",
+  "_preloaded_at": "2026-02-12T19:30:40.800956",
+  "_coach_name": "Peter Christiansen"
+}

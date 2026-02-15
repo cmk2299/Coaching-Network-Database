@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/hans-dieter-potsch/profil/trainer/8325",
+  "scraped_at": "2026-02-12T18:40:46.732160",
+  "name": "Hans Dieter Pötsch",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "28.03.1951 (74)",
+  "age": 74,
+  "birthplace": "Traun",
+  "nationality": "Österreich",
+  "current_role": "stellv. Aufsichtsratsvorsitzender",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2008",
+      "role": "stellv. Aufsichtsratsvorsitzender",
+      "period": "08/09 (01.06.2009) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2007",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "07/08 (01.07.2007) - 08/09 (31.05.2009)"
+    }
+  ],
+  "coach_id": "8325",
+  "_cached_at": "2026-02-12T18:40:46.742127",
+  "_preloaded_at": "2026-02-12T18:40:46.742620",
+  "_coach_name": "Hans Dieter Pötsch"
+}

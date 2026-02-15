@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/julian-schleibinger/profil/trainer/143828",
+  "scraped_at": "2026-02-12T18:52:06.101691",
+  "name": "Julian Schleibinger",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "03.04.1998 (27)",
+  "age": 27,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.08.2021) - -"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2017",
+      "role": "Nachwuchsscout",
+      "period": "17/18 (01.01.2018) - 20/21 (31.10.2020)"
+    },
+    {
+      "club": "Ingolstadt Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04-jugend/startseite/verein/38223/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 - 20/21"
+    }
+  ],
+  "coach_id": "143828",
+  "_cached_at": "2026-02-12T18:52:06.111887",
+  "_preloaded_at": "2026-02-12T18:52:06.112503",
+  "_coach_name": "Julian Schleibinger"
+}

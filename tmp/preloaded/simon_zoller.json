@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/simon-zoller/profil/trainer/144823",
+  "scraped_at": "2026-02-12T23:27:59.459095",
+  "name": "Simon Zoller",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "26.06.1991 (34)",
+  "age": 34,
+  "birthplace": "Friedrichshafen",
+  "nationality": "Deutschland",
+  "current_role": "Leiter Lizenzbereich",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Leiter Lizenzbereich",
+      "period": "25/26 (01.11.2025) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Assistent der Geschäftsführung",
+      "period": "25/26 (01.07.2025) - 25/26 (31.10.2025)"
+    }
+  ],
+  "coach_id": "144823",
+  "_cached_at": "2026-02-12T23:27:59.469526",
+  "_preloaded_at": "2026-02-12T23:27:59.469971",
+  "_coach_name": "Simon Zoller"
+}

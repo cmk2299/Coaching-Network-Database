@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/keld-bordinggaard/profil/trainer/6936",
+  "scraped_at": "2026-02-12T18:54:50.142747",
+  "name": "Keld Bordinggaard",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6936-1406742649.jpg?lm=1",
+  "dob": "22.11.1962 (63)",
+  "age": 63,
+  "birthplace": "Holstebro",
+  "nationality": "Dänemark",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Nachwuchs-Cheftrainer",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2020",
+      "role": "Nachwuchs-Cheftrainer",
+      "period": "20/21 (04.03.2021) - -"
+    },
+    {
+      "club": "Vejle BK",
+      "club_url": "https://www.transfermarkt.de/vejle-boldklub/startseite/verein/443/saison_id/2019",
+      "role": "Nachwuchs-Cheftrainer",
+      "period": "19/20 (01.08.2019) - 20/21 (03.03.2021)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (01.07.2014) - 14/15 (17.02.2015)"
+    },
+    {
+      "club": "Silkeborg IF",
+      "club_url": "https://www.transfermarkt.de/silkeborg-if/startseite/verein/1177/saison_id/2012",
+      "role": "Trainer",
+      "period": "12/13 (01.07.2012) - 12/13 (11.11.2012)"
+    },
+    {
+      "club": "Dänemark U21",
+      "club_url": "https://www.transfermarkt.de/danemark-u21/startseite/verein/16783/saison_id/2006",
+      "role": "Trainer",
+      "period": "06/07 (01.07.2006) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Dänemark U20",
+      "club_url": "https://www.transfermarkt.de/danemark-u20/startseite/verein/28076/saison_id/2006",
+      "role": "Trainer",
+      "period": "06/07 (01.07.2006) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Dänemark",
+      "club_url": "https://www.transfermarkt.de/danemark/startseite/verein/3436/saison_id/2002",
+      "role": "Co-Trainer",
+      "period": "02/03 (01.07.2002) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "Vejle BK",
+      "club_url": "https://www.transfermarkt.de/vejle-boldklub/startseite/verein/443/saison_id/2001",
+      "role": "Trainer",
+      "period": "01/02 (01.07.2001) - 01/02 (13.01.2002)"
+    },
+    {
+      "club": "Vejle BK",
+      "club_url": "https://www.transfermarkt.de/vejle-boldklub/startseite/verein/443/saison_id/2000",
+      "role": "Co-Trainer",
+      "period": "00/01 (01.07.2000) - 00/01 (30.06.2001)"
+    }
+  ],
+  "coach_id": "6936",
+  "_cached_at": "2026-02-12T18:54:50.156045",
+  "_preloaded_at": "2026-02-12T18:54:50.156792",
+  "_coach_name": "Keld Bordinggaard"
+}

@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/adis-lovic/profil/trainer/20032",
+  "scraped_at": "2026-02-12T17:51:58.587738",
+  "name": "Adis Lovic",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/20032-1571820851.jpg?lm=1",
+  "dob": "06.10.1982 (43)",
+  "age": 43,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2015",
+      "role": "Physiotherapeut",
+      "period": "15/16 (01.07.2015) - -"
+    },
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2010",
+      "role": "Physiotherapeut",
+      "period": "10/11 (01.01.2011) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Werder U19",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-u19/startseite/verein/2491/saison_id/2010",
+      "role": "Physiotherapeut",
+      "period": "10/11 (01.01.2011) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "20032",
+  "_cached_at": "2026-02-12T17:51:58.598764",
+  "_preloaded_at": "2026-02-12T17:51:58.599348",
+  "_coach_name": "Adis Lovic"
+}

@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-schultheiss/profil/trainer/122628",
+  "scraped_at": "2026-02-13T00:05:51.177428",
+  "name": "Thomas Schultheiss",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "30.04.1971 (54)",
+  "age": 54,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "TSV Weilheim",
+      "club_url": "https://www.transfermarkt.de/tsv-weilheim-teck/startseite/verein/48936/saison_id/2017",
+      "role": "Sportlicher Leiter",
+      "period": "17/18 (01.07.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "TSV Weilheim",
+      "club_url": "https://www.transfermarkt.de/tsv-weilheim-teck/startseite/verein/48936/saison_id/2015",
+      "role": "Teammanager",
+      "period": "15/16 (01.07.2015) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2014",
+      "role": "Zeugwart",
+      "period": "14/15 (01.04.2015) - -"
+    }
+  ],
+  "coach_id": "122628",
+  "_cached_at": "2026-02-13T00:05:51.194084",
+  "_preloaded_at": "2026-02-13T00:05:51.194801",
+  "_coach_name": "Thomas Schultheiss"
+}

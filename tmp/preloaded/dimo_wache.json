@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/dimo-wache/profil/trainer/27321",
+  "scraped_at": "2026-02-12T18:17:29.003330",
+  "name": "Dimo Wache",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/27321-1689058961.jpg?lm=1",
+  "dob": "01.11.1973 (52)",
+  "age": 52,
+  "birthplace": "Brake",
+  "nationality": "Deutschland",
+  "current_role": "Klubrepräsentant",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2025",
+      "role": "Klubrepräsentant",
+      "period": "25/26 (03.02.2026) - -"
+    },
+    {
+      "club": "Darmstadt 98",
+      "club_url": "https://www.transfermarkt.de/sv-darmstadt-98/startseite/verein/105/saison_id/2012",
+      "role": "Torwarttrainer",
+      "period": "12/13 (01.01.2013) - 24/25 (09.04.2025)"
+    }
+  ],
+  "coach_id": "27321",
+  "_cached_at": "2026-02-12T18:17:29.014439",
+  "_preloaded_at": "2026-02-12T18:17:29.015038",
+  "_coach_name": "Dimo Wache"
+}

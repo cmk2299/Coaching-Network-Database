@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/meinolf-sprink/profil/trainer/36745",
+  "scraped_at": "2026-02-12T19:17:14.829002",
+  "name": "Meinolf Sprink",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.08.1958 (67)",
+  "age": 67,
+  "birthplace": "Düsseldorf",
+  "nationality": "Deutschland",
+  "current_role": "Fanbeauftragter",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2014",
+      "role": "Fanbeauftragter",
+      "period": "14/15 (01.05.2015) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2013",
+      "role": "Direktor Medien und Kommunikation",
+      "period": "13/14 (01.07.2013) - 14/15 (30.04.2015)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2006",
+      "role": "Marketingleiter",
+      "period": "06/07 (01.05.2007) - 09/10"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2006",
+      "role": "Direktor Marketing und Vertrieb",
+      "period": "06/07 (01.05.2007) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/1999",
+      "role": "Mitglied Gesellschafter-Ausschuss",
+      "period": "99/00 (01.01.2000) - 06/07 (30.04.2007)"
+    }
+  ],
+  "coach_id": "36745",
+  "_cached_at": "2026-02-12T19:17:14.840998",
+  "_preloaded_at": "2026-02-12T19:17:14.841613",
+  "_coach_name": "Meinolf Sprink"
+}

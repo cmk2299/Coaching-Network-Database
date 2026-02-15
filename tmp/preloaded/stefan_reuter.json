@@ -1,0 +1,44 @@
+{
+  "url": "https://www.transfermarkt.de/stefan-reuter/profil/trainer/3202",
+  "scraped_at": "2026-02-12T23:29:14.896067",
+  "name": "Stefan Reuter",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/3202-1726605680.jpg?lm=1",
+  "dob": "16.10.1966 (59)",
+  "age": 59,
+  "birthplace": "Dinkelsbühl",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Berater des Managements",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2023",
+      "role": "Berater des Managements",
+      "period": "23/24 (12.09.2023) - -"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2012",
+      "role": "Geschäftsführer Sport",
+      "period": "12/13 (01.01.2013) - 23/24 (11.09.2023)"
+    },
+    {
+      "club": "1860 München",
+      "club_url": "https://www.transfermarkt.de/tsv-1860-munchen/startseite/verein/72/saison_id/2005",
+      "role": "Sportlicher Leiter",
+      "period": "05/06 (23.01.2006) - 08/09 (02.02.2009)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2004",
+      "role": "Teammanager",
+      "period": "04/05 (01.07.2004) - 04/05 (03.01.2005)"
+    }
+  ],
+  "coach_id": "3202",
+  "_cached_at": "2026-02-12T23:29:14.908031",
+  "_preloaded_at": "2026-02-12T23:29:14.908486",
+  "_coach_name": "Stefan Reuter"
+}

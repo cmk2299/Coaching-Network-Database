@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/luuk-balkestein/profil/trainer/2004",
+  "scraped_at": "2026-02-12T19:01:54.059282",
+  "name": "Luuk Balkestein",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "09.04.1954 (71)",
+  "age": 71,
+  "birthplace": "Apeldoorn",
+  "nationality": "Niederlande",
+  "current_role": "Scout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2001",
+      "role": "Scout",
+      "period": "01/02 (01.07.2001) - -"
+    },
+    {
+      "club": "SC Heerenveen",
+      "club_url": "https://www.transfermarkt.de/sc-heerenveen/startseite/verein/306/saison_id/1995",
+      "role": "Scout",
+      "period": "95/96 (01.07.1995) - 00/01 (30.06.2001)"
+    }
+  ],
+  "coach_id": "2004",
+  "_cached_at": "2026-02-12T19:01:54.069888",
+  "_preloaded_at": "2026-02-12T19:01:54.070481",
+  "_coach_name": "Luuk Balkestein"
+}

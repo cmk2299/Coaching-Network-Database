@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/yannik-hohmann/profil/trainer/110550",
+  "scraped_at": "2026-02-13T00:46:05.097583",
+  "name": "Yannik Hohmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/110550-1669621558.jpg?lm=1",
+  "dob": "24.08.1993 (32)",
+  "age": 32,
+  "birthplace": "Zweibrücken",
+  "nationality": "Deutschland",
+  "license": "C-Lizenz",
+  "current_role": "Koordinator Sport-Technologien",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Koordinator Sport-Technologien",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Viktoria Köln",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln/startseite/verein/1622/saison_id/2020",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "20/21 (01.07.2020) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Vikt. Köln U19",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln-u19/startseite/verein/10075/saison_id/2019",
+      "role": "Leiter Administration",
+      "period": "19/20 (15.10.2019) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Vikt. Köln U17",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln-u17/startseite/verein/34088/saison_id/2019",
+      "role": "Leiter Administration",
+      "period": "19/20 (15.10.2019) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Vikt. Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln-jugend/startseite/verein/42376/saison_id/2019",
+      "role": "Leiter Administration",
+      "period": "19/20 (15.10.2019) - 24/25 (30.06.2025)"
+    }
+  ],
+  "coach_id": "110550",
+  "_cached_at": "2026-02-13T00:46:05.115115",
+  "_preloaded_at": "2026-02-13T00:46:05.115984",
+  "_coach_name": "Yannik Hohmann"
+}

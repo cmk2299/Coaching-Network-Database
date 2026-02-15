@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/felix-duden/profil/trainer/101727",
+  "scraped_at": "2026-02-12T18:31:32.856266",
+  "name": "Felix Duden",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "03.01.1968 (58)",
+  "age": 58,
+  "birthplace": "Hamburg",
+  "nationality": "Deutschland",
+  "current_role": "GF Stadiongesellschaft",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2013",
+      "role": "GF Stadiongesellschaft",
+      "period": "13/14 (01.11.2013) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2009",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "09/10 (01.12.2009) - 13/14 (31.10.2013)"
+    }
+  ],
+  "coach_id": "101727",
+  "_cached_at": "2026-02-12T18:31:32.878973",
+  "_preloaded_at": "2026-02-12T18:31:32.879875",
+  "_coach_name": "Felix Duden"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/alexander-fietze/profil/trainer/82275",
+  "scraped_at": "2026-02-12T17:53:15.561450",
+  "name": "Alexander Fietze",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.03.1990 (35)",
+  "age": 35,
+  "nationality": "Österreich",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 (01.11.2025) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.05.2016) - 25/26 (31.10.2025)"
+    }
+  ],
+  "coach_id": "82275",
+  "_cached_at": "2026-02-12T17:53:15.571880",
+  "_preloaded_at": "2026-02-12T17:53:15.572524",
+  "_coach_name": "Alexander Fietze"
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/rouven-kasper/profil/trainer/127412",
+  "scraped_at": "2026-02-12T23:20:35.349184",
+  "name": "Rouven Kasper",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/127412-1759131422.jpg?lm=1",
+  "dob": "16.02.1982 (43)",
+  "age": 43,
+  "birthplace": "Mühlacker",
+  "nationality": "Deutschland",
+  "current_role": "Vorstand Marketing",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2025",
+      "role": "Vorstand Marketing",
+      "period": "25/26 (01.01.2026) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2021",
+      "role": "Vorstand Marketing",
+      "period": "21/22 (15.01.2022) - 25/26 (31.12.2025)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2016",
+      "role": "Global Sports Director",
+      "period": "16/17 (01.08.2016) - 21/22 (14.01.2022)"
+    }
+  ],
+  "coach_id": "127412",
+  "_cached_at": "2026-02-12T23:20:35.372311",
+  "_preloaded_at": "2026-02-12T23:20:35.373139",
+  "_coach_name": "Rouven Kasper"
+}

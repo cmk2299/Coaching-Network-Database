@@ -1,0 +1,26 @@
+{
+  "url": "https://www.transfermarkt.de/fernando-carro/profil/trainer/72665",
+  "scraped_at": "2026-02-12T18:32:43.484963",
+  "name": "Fernando Carro",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/72665-1568121245.jpg?lm=1",
+  "dob": "27.07.1964 (61)",
+  "age": 61,
+  "birthplace": "Barcelona",
+  "nationality": "Spanien",
+  "contract_until": "30.06.2027",
+  "current_role": "Vorsitzender Geschäftsführung",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Vorsitzender Geschäftsführung",
+      "period": "18/19 (01.07.2018) - vsl. 30.06.2027"
+    }
+  ],
+  "coach_id": "72665",
+  "_cached_at": "2026-02-12T18:32:43.497105",
+  "_preloaded_at": "2026-02-12T18:32:43.498051",
+  "_coach_name": "Fernando Carro"
+}

@@ -1,0 +1,58 @@
+{
+  "url": "https://www.transfermarkt.de/bjarne-burgel/profil/trainer/121483",
+  "scraped_at": "2026-02-12T18:04:22.713000",
+  "name": "Bjarne Bürgel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2021",
+      "role": "Physiotherapeut",
+      "period": "21/22 (01.01.2022) - -"
+    },
+    {
+      "club": "Deutschland U15",
+      "club_url": "https://www.transfermarkt.de/deutschland-u15/startseite/verein/27300/saison_id/2021",
+      "role": "Physiotherapeut",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Deutschland U23",
+      "club_url": "https://www.transfermarkt.de/deutschland-u21/startseite/verein/3817",
+      "role": "Physiotherapeut",
+      "period": "Unknown"
+    },
+    {
+      "club": "Deutschland U20",
+      "club_url": "https://www.transfermarkt.de/deutschland-u20/startseite/verein/5709",
+      "role": "Physiotherapeut",
+      "period": "Unknown"
+    },
+    {
+      "club": "Deutschland U19",
+      "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710",
+      "role": "Physiotherapeut",
+      "period": "Unknown"
+    },
+    {
+      "club": "Deutschland U18",
+      "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067",
+      "role": "Physiotherapeut",
+      "period": "Unknown"
+    },
+    {
+      "club": "Deutschland U17",
+      "club_url": "https://www.transfermarkt.de/deutschland-u17/startseite/verein/17662",
+      "role": "Physiotherapeut",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "121483",
+  "_cached_at": "2026-02-12T18:04:22.723961",
+  "_preloaded_at": "2026-02-12T18:04:22.724615",
+  "_coach_name": "Bjarne Bürgel"
+}

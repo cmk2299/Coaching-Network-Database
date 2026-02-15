@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/jan-schimpchen/profil/trainer/107375",
+  "scraped_at": "2026-02-12T18:46:09.500046",
+  "name": "Jan Schimpchen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "11.03.1988 (37)",
+  "age": 37,
+  "nationality": "Deutschland",
+  "current_role": "Fitnesstrainer",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2022",
+      "role": "Fitnesstrainer",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "Benfica",
+      "club_url": "https://www.transfermarkt.de/benfica-lissabon/startseite/verein/294/saison_id/2017",
+      "role": "Fitnesstrainer",
+      "period": "17/18 (01.07.2017) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Benfica",
+      "club_url": "https://www.transfermarkt.de/benfica-lissabon/startseite/verein/294/saison_id/2017",
+      "role": "Sportwissenschaftler",
+      "period": "17/18 (01.07.2017) - 21/22 (30.06.2022)"
+    }
+  ],
+  "coach_id": "107375",
+  "_cached_at": "2026-02-12T18:46:09.510903",
+  "_preloaded_at": "2026-02-12T18:46:09.511551",
+  "_coach_name": "Jan Schimpchen"
+}

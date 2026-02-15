@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/marc-francis/profil/trainer/41280",
+  "scraped_at": "2026-02-12T19:04:05.893768",
+  "name": "Marc Francis",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "01.05.1969 (56)",
+  "age": 56,
+  "nationality": "Deutschland",
+  "current_role": "Fanbeauftragter",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2007",
+      "role": "Fanbeauftragter",
+      "period": "07/08 (01.10.2007) - -"
+    }
+  ],
+  "coach_id": "41280",
+  "_cached_at": "2026-02-12T19:04:05.903510",
+  "_preloaded_at": "2026-02-12T19:04:05.904414",
+  "_coach_name": "Marc Francis"
+}

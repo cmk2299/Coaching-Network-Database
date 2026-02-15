@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/petra-dahl/profil/trainer/82400",
+  "scraped_at": "2026-02-12T19:31:49.890941",
+  "name": "Petra Dahl",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "21.09.1970 (55)",
+  "age": 55,
+  "birthplace": "Leverkusen",
+  "nationality": "Deutschland",
+  "current_role": "Stadionsprecherin",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2009",
+      "role": "Stadionsprecherin",
+      "period": "09/10 (01.07.2009) - -"
+    }
+  ],
+  "coach_id": "82400",
+  "_cached_at": "2026-02-12T19:31:49.900745",
+  "_preloaded_at": "2026-02-12T19:31:49.901357",
+  "_coach_name": "Petra Dahl"
+}

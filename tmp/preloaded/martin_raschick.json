@@ -1,0 +1,92 @@
+{
+  "url": "https://www.transfermarkt.de/martin-raschick/profil/trainer/58679",
+  "scraped_at": "2026-02-12T19:11:22.903529",
+  "name": "Martin Raschick",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/58679-1516656856.jpg?lm=1",
+  "dob": "08.07.1990 (35)",
+  "age": 35,
+  "birthplace": "Bielefeld",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Chefanalytiker",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2024",
+      "role": "Chefanalytiker",
+      "period": "24/25 (18.05.2025) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (01.07.2024) - 24/25 (04.05.2025)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2022",
+      "role": "Chefanalytiker",
+      "period": "22/23 (01.07.2022) - 24/25 (04.05.2025)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2021",
+      "role": "Co-Trainer Analyse",
+      "period": "21/22 (25.10.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2019",
+      "role": "Gegneranalyst",
+      "period": "19/20 (24.09.2019) - 21/22 (24.10.2021)"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (05.10.2017) - 19/20 (23.09.2019)"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2016",
+      "role": "Spielanalyst",
+      "period": "16/17 (01.07.2016) - 17/18 (04.10.2017)"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2016",
+      "role": "Gegneranalyst",
+      "period": "16/17 (01.07.2016) - 17/18 (04.10.2017)"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2015",
+      "role": "Nachwuchs-Chefscout",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "K'lautern U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern-u19/startseite/verein/2371/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (01.09.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "K'lautern Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern-jugend/startseite/verein/12015/saison_id/2012",
+      "role": "Co-Trainer",
+      "period": "12/13 (01.01.2013) - 14/15 (31.08.2014)"
+    },
+    {
+      "club": "K'lautern U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern-u17/startseite/verein/21047/saison_id/2012",
+      "role": "Co-Trainer",
+      "period": "12/13 (01.07.2012) - 12/13 (31.12.2012)"
+    }
+  ],
+  "coach_id": "58679",
+  "_cached_at": "2026-02-12T19:11:22.917555",
+  "_preloaded_at": "2026-02-12T19:11:22.918263",
+  "_coach_name": "Martin Raschick"
+}

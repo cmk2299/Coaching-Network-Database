@@ -1,0 +1,53 @@
+{
+  "url": "https://www.transfermarkt.de/felix-wenderoth/profil/trainer/109094",
+  "scraped_at": "2026-02-12T18:32:28.529725",
+  "name": "Felix Wenderoth",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "current_role": "Torwarttrainerund weitere Tätigkeiten",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2025",
+      "role": "Torwarttrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "VfL Bochum II",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-ii/startseite/verein/446/saison_id/2024",
+      "role": "Torwarttrainer",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2026"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2021",
+      "role": "Torwartkoordinator NLZ",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "VfL Bochum U17",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u17/startseite/verein/21085/saison_id/2021",
+      "role": "Torwarttrainer",
+      "period": "21/22 (01.07.2021) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "VfL Bochum U19",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u19/startseite/verein/3862/saison_id/2021",
+      "role": "Torwarttrainer",
+      "period": "21/22 (01.07.2021) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2019",
+      "role": "Torwarttrainer",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "109094",
+  "_cached_at": "2026-02-12T18:32:28.541798",
+  "_preloaded_at": "2026-02-12T18:32:28.542443",
+  "_coach_name": "Felix Wenderoth"
+}

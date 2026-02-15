@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/dieter-schreiber/profil/trainer/120041",
+  "scraped_at": "2026-02-12T18:16:59.185216",
+  "name": "Dieter Schreiber",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.02.1987 (38)",
+  "age": 38,
+  "nationality": "PeruDeutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Scout",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "Sport. Cristal",
+      "club_url": "https://www.transfermarkt.de/club-sporting-cristal/startseite/verein/1450/saison_id/2015",
+      "role": "Chefanalytiker",
+      "period": "15/16 (01.01.2016) - 15/16 (31.12.2016)"
+    },
+    {
+      "club": "Sport. Cristal",
+      "club_url": "https://www.transfermarkt.de/club-sporting-cristal/startseite/verein/1450/saison_id/2013",
+      "role": "Sportdirektor",
+      "period": "13/14 (01.01.2014) - 15/16 (31.12.2015)"
+    },
+    {
+      "club": "Sport. Cristal",
+      "club_url": "https://www.transfermarkt.de/club-sporting-cristal/startseite/verein/1450/saison_id/2011",
+      "role": "Nachwuchskoordinator",
+      "period": "11/12 (01.01.2012) - 13/14 (31.12.2013)"
+    }
+  ],
+  "coach_id": "120041",
+  "_cached_at": "2026-02-12T18:16:59.196216",
+  "_preloaded_at": "2026-02-12T18:16:59.196793",
+  "_coach_name": "Dieter Schreiber"
+}

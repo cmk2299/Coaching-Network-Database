@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/ulrich-wolter/profil/trainer/27611",
+  "scraped_at": "2026-02-13T00:41:54.151462",
+  "name": "Ulrich Wolter",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.10.1973 (52)",
+  "age": 52,
+  "birthplace": "Bremen",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Finanzen",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2015",
+      "role": "Direktor Finanzen",
+      "period": "15/16 (01.01.2016) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2012",
+      "role": "Geschäftsführer",
+      "period": "12/13 (10.09.2012) - 14/15 (31.12.2015)"
+    }
+  ],
+  "coach_id": "27611",
+  "_cached_at": "2026-02-13T00:41:54.185622",
+  "_preloaded_at": "2026-02-13T00:41:54.187250",
+  "_coach_name": "Ulrich Wolter"
+}

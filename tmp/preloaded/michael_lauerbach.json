@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/michael-lauerbach/profil/trainer/74591",
+  "scraped_at": "2026-02-12T19:18:47.856991",
+  "name": "Michael Lauerbach",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Busfahrer",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2006",
+      "role": "Busfahrer",
+      "period": "06/07 (01.07.2006) - -"
+    }
+  ],
+  "coach_id": "74591",
+  "_cached_at": "2026-02-12T19:18:47.866504",
+  "_preloaded_at": "2026-02-12T19:18:47.867124",
+  "_coach_name": "Michael Lauerbach"
+}

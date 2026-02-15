@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/gurkan-karahan/profil/trainer/64276",
+  "scraped_at": "2026-02-12T18:39:07.406740",
+  "name": "Gürkan Karahan",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "20.12.1981 (44)",
+  "age": 44,
+  "nationality": "DeutschlandTürkei",
+  "current_role": "Koordinator Nachwuchsscouting",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2021",
+      "role": "Koordinator Nachwuchsscouting",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2009",
+      "role": "Leiter Nachwuchsscouting",
+      "period": "09/10 (01.07.2009) - 18/19 (31.05.2019)"
+    }
+  ],
+  "coach_id": "64276",
+  "_cached_at": "2026-02-12T18:39:07.416592",
+  "_preloaded_at": "2026-02-12T18:39:07.417111",
+  "_coach_name": "Gürkan Karahan"
+}

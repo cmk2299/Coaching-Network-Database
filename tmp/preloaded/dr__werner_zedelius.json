@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/dr-werner-zedelius/profil/trainer/74588",
+  "scraped_at": "2026-02-12T18:27:57.636215",
+  "name": "Dr. Werner Zedelius",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "stellv. Aufsichtsratsvorsitzender",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2018",
+      "role": "stellv. Aufsichtsratsvorsitzender",
+      "period": "18/19 (17.12.2018) - -"
+    }
+  ],
+  "coach_id": "74588",
+  "_cached_at": "2026-02-12T18:27:57.645850",
+  "_preloaded_at": "2026-02-12T18:27:57.646404",
+  "_coach_name": "Dr. Werner Zedelius"
+}

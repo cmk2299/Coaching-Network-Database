@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/dr-tim-schumacher/profil/trainer/55356",
+  "scraped_at": "2026-02-12T18:27:27.677040",
+  "name": "Dr. Tim Schumacher",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/55356-1515621544.jpg?lm=1",
+  "dob": "17.02.1974 (51)",
+  "age": 51,
+  "birthplace": "Bayreuth",
+  "nationality": "Deutschland",
+  "current_role": "Geschäftsführer",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2015",
+      "role": "Geschäftsführer",
+      "period": "15/16 (23.03.2016) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2014",
+      "role": "Direktor Recht",
+      "period": "14/15 (01.07.2014) - 15/16 (23.03.2016)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2012",
+      "role": "stellv. Geschäftsführer",
+      "period": "12/13 (01.01.2013) - 13/14 (30.06.2014)"
+    }
+  ],
+  "coach_id": "55356",
+  "_cached_at": "2026-02-12T18:27:27.688147",
+  "_preloaded_at": "2026-02-12T18:27:27.688765",
+  "_coach_name": "Dr. Tim Schumacher"
+}

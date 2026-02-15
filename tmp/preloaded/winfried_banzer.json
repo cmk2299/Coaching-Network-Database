@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/winfried-banzer/profil/trainer/139918",
+  "scraped_at": "2026-02-13T00:45:20.271879",
+  "name": "Winfried Banzer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "08.02.1953 (73)",
+  "age": 73,
+  "birthplace": "Riedenburg",
+  "nationality": "Deutschland",
+  "current_role": "Sportwissenschaftler",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2020",
+      "role": "Sportwissenschaftler",
+      "period": "20/21 (01.07.2020) - -"
+    }
+  ],
+  "coach_id": "139918",
+  "_cached_at": "2026-02-13T00:45:20.289523",
+  "_preloaded_at": "2026-02-13T00:45:20.290788",
+  "_coach_name": "Winfried Banzer"
+}

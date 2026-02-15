@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/marcus-breuer/profil/trainer/10388",
+  "scraped_at": "2026-02-12T19:06:39.589974",
+  "name": "Marcus Breuer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/10388-1406670716.jpg?lm=1",
+  "dob": "08.03.1970 (55)",
+  "age": 55,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwartund weitere Tätigkeiten",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/1994",
+      "role": "Busfahrer",
+      "period": "94/95 (01.07.1994) - -"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/1994",
+      "role": "Zeugwart",
+      "period": "94/95 (01.07.1994) - -"
+    }
+  ],
+  "coach_id": "10388",
+  "_cached_at": "2026-02-12T19:06:39.600388",
+  "_preloaded_at": "2026-02-12T19:06:39.601009",
+  "_coach_name": "Marcus Breuer"
+}

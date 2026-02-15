@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/walther-seinsch/profil/trainer/21883",
+  "scraped_at": "2026-02-13T00:44:50.391367",
+  "name": "Walther Seinsch",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/21883-1417681285.jpg?lm=1",
+  "dob": "21.10.1941 (84)",
+  "age": 84,
+  "birthplace": "Mayen",
+  "nationality": "Deutschland",
+  "current_role": "Ehrenpräsident",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "Pr. Münster",
+      "club_url": "https://www.transfermarkt.de/preussen-munster/startseite/verein/91/saison_id/2016",
+      "role": "Aufsichtsratsmitglied",
+      "period": "16/17 (05.12.2016) - 19/20 (12.01.2020)"
+    },
+    {
+      "club": "Pr. Münster",
+      "club_url": "https://www.transfermarkt.de/preussen-munster/startseite/verein/91/saison_id/2016",
+      "role": "Vorstandsmitglied",
+      "period": "16/17 (13.10.2016) - 16/17 (04.12.2016)"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2015",
+      "role": "Ehrenpräsident",
+      "period": "15/16 (17.12.2015) - -"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2000",
+      "role": "Präsident",
+      "period": "00/01 (01.11.2000) - 14/15 (03.12.2014)"
+    }
+  ],
+  "coach_id": "21883",
+  "_cached_at": "2026-02-13T00:44:50.412599",
+  "_preloaded_at": "2026-02-13T00:44:50.413705",
+  "_coach_name": "Walther Seinsch"
+}

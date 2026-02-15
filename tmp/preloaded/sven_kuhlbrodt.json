@@ -1,0 +1,48 @@
+{
+  "url": "https://www.transfermarkt.de/sven-kuhlbrodt/profil/trainer/36399",
+  "scraped_at": "2026-02-13T00:01:28.503426",
+  "name": "Sven Kuhlbrodt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "17.07.1980 (45)",
+  "age": 45,
+  "nationality": "Deutschland",
+  "current_role": "Medizinischer Leiter Physiotherapie",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2023",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2021",
+      "role": "Physiotherapeut",
+      "period": "21/22 (01.07.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2021",
+      "role": "Osteopath",
+      "period": "21/22 (01.07.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Babelsberg 03",
+      "club_url": "https://www.transfermarkt.de/sv-babelsberg-03/startseite/verein/90/saison_id/2012",
+      "role": "Physiotherapeut",
+      "period": "12/13 (01.07.2012) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "FSV Luckenwalde",
+      "club_url": "https://www.transfermarkt.de/fsv-63-luckenwalde/startseite/verein/5761/saison_id/2009",
+      "role": "Physiotherapeut",
+      "period": "09/10 (01.07.2009) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "36399",
+  "_cached_at": "2026-02-13T00:01:28.538472",
+  "_preloaded_at": "2026-02-13T00:01:28.539970",
+  "_coach_name": "Sven Kuhlbrodt"
+}

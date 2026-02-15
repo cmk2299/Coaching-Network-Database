@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/christian-gross/profil/trainer/129139",
+  "scraped_at": "2026-02-12T18:06:48.246994",
+  "name": "Christian Groß",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/129139-1751357518.jpg?lm=1",
+  "dob": "08.02.1989 (37)",
+  "age": 37,
+  "birthplace": "Bremen",
+  "nationality": "Deutschland",
+  "current_role": "Co-Trainer",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2024",
+      "role": "Scout",
+      "period": "24/25 (01.07.2024) - 24/25 (30.06.2025)"
+    }
+  ],
+  "coach_id": "129139",
+  "_cached_at": "2026-02-12T18:06:48.257986",
+  "_preloaded_at": "2026-02-12T18:06:48.258791",
+  "_coach_name": "Christian Groß"
+}

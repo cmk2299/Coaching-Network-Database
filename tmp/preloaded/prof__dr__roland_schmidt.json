@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/prof-dr-roland-schmidt/profil/trainer/74708",
+  "scraped_at": "2026-02-12T23:15:36.818702",
+  "name": "Prof. Dr. Roland Schmidt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.08.2012) - -"
+    }
+  ],
+  "coach_id": "74708",
+  "_cached_at": "2026-02-12T23:15:36.828819",
+  "_preloaded_at": "2026-02-12T23:15:36.829344",
+  "_coach_name": "Prof. Dr. Roland Schmidt"
+}

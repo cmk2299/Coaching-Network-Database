@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/heiko-wehe/profil/trainer/58361",
+  "scraped_at": "2026-02-12T18:41:40.391225",
+  "name": "Heiko Wehe",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/58361-1515622053.jpg?lm=1",
+  "dob": "17.07.1975 (50)",
+  "age": 50,
+  "nationality": "Deutschland",
+  "current_role": "Medizinchef",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2016",
+      "role": "Medizinchef",
+      "period": "16/17 (01.01.2017) - -"
+    }
+  ],
+  "coach_id": "58361",
+  "_cached_at": "2026-02-12T18:41:40.401067",
+  "_preloaded_at": "2026-02-12T18:41:40.401570",
+  "_coach_name": "Heiko Wehe"
+}

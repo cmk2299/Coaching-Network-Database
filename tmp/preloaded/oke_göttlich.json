@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/oke-gottlich/profil/trainer/37848",
+  "scraped_at": "2026-02-12T19:26:36.557347",
+  "name": "Oke Göttlich",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/37848-1693223081.jpeg?lm=1",
+  "dob": "28.11.1975 (50)",
+  "age": 50,
+  "birthplace": "Hamburg",
+  "nationality": "Deutschland",
+  "current_role": "Präsidentund weitere Tätigkeiten",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2019",
+      "role": "Präsidiumsmitglied",
+      "period": "19/20 (01.08.2019) - -"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2019",
+      "role": "Vorstandsmitglied",
+      "period": "19/20 (01.08.2019) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2014",
+      "role": "Präsident",
+      "period": "14/15 (16.11.2014) - -"
+    }
+  ],
+  "coach_id": "37848",
+  "_cached_at": "2026-02-12T19:26:36.568458",
+  "_preloaded_at": "2026-02-12T19:26:36.569009",
+  "_coach_name": "Oke Göttlich"
+}

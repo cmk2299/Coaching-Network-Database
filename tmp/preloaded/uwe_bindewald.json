@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/uwe-bindewald/profil/trainer/5929",
+  "scraped_at": "2026-02-13T00:42:25.351251",
+  "name": "Uwe Bindewald",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1389796254.jpg?lm=1",
+  "dob": "13.08.1968 (57)",
+  "age": 57,
+  "birthplace": "Friedberg",
+  "nationality": "Deutschland",
+  "current_role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2018",
+      "role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 17/18 (12.02.2018)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2010",
+      "role": "Trainer",
+      "period": "10/11 (02.01.2011) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "E. Frankfurt II",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-ii/startseite/verein/177/saison_id/2010",
+      "role": "Co-Trainer",
+      "period": "10/11 (01.07.2010) - 10/11 (01.01.2011)"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2007",
+      "role": "Co-Trainer",
+      "period": "07/08 (01.07.2007) - 07/08 (30.06.2008)"
+    }
+  ],
+  "coach_id": "5929",
+  "_cached_at": "2026-02-13T00:42:25.390606",
+  "_preloaded_at": "2026-02-13T00:42:25.392331",
+  "_coach_name": "Uwe Bindewald"
+}

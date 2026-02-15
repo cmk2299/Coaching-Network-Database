@@ -1,0 +1,45 @@
+{
+  "url": "https://www.transfermarkt.de/walter-gfrerer/profil/trainer/3534",
+  "scraped_at": "2026-02-13T00:44:19.646989",
+  "name": "Walter Gfrerer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/3534-1689881715.jpg?lm=1",
+  "dob": "13.01.1973 (53)",
+  "age": 53,
+  "birthplace": "Tamsweg",
+  "nationality": "Österreich",
+  "contract_until": "30.06.2027",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Performance Manager",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+      "role": "Performance Manager",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2027"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2022",
+      "role": "Athletiktrainer",
+      "period": "22/23 (01.07.2022) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "AS Monaco",
+      "club_url": "https://www.transfermarkt.de/as-monaco/startseite/verein/162/saison_id/2020",
+      "role": "Performance Manager",
+      "period": "20/21 (19.07.2020) - 21/22 (31.12.2021)"
+    },
+    {
+      "club": "RB Salzburg",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg/startseite/verein/409/saison_id/2006",
+      "role": "Konditionstrainer",
+      "period": "06/07 (01.07.2006) - 12/13 (30.06.2013)"
+    }
+  ],
+  "coach_id": "3534",
+  "_cached_at": "2026-02-13T00:44:19.668786",
+  "_preloaded_at": "2026-02-13T00:44:19.669851",
+  "_coach_name": "Walter Gfrerer"
+}

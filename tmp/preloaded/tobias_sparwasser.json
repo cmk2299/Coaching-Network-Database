@@ -1,0 +1,34 @@
+{
+  "url": "https://www.transfermarkt.de/tobias-sparwasser/profil/trainer/25887",
+  "scraped_at": "2026-02-13T00:22:46.516188",
+  "name": "Tobias Sparwasser",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Medien und Kommunikation",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2018",
+      "role": "Direktor Medien und Kommunikation",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2011",
+      "role": "Mediendirektor",
+      "period": "11/12 (01.07.2011) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2002",
+      "role": "Pressesprecher",
+      "period": "02/03 (01.07.2002) - 11/12 (30.06.2011)"
+    }
+  ],
+  "coach_id": "25887",
+  "_cached_at": "2026-02-13T00:22:46.549210",
+  "_preloaded_at": "2026-02-13T00:22:46.550493",
+  "_coach_name": "Tobias Sparwasser"
+}

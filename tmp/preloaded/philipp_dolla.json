@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/philipp-dolla/profil/trainer/121660",
+  "scraped_at": "2026-02-12T23:13:11.845380",
+  "name": "Philipp Dolla",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/121660-1723535596.jpg?lm=1",
+  "dob": "07.05.1993 (32)",
+  "age": 32,
+  "nationality": "Deutschland",
+  "current_role": "Teammanager",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2023",
+      "role": "Teammanager",
+      "period": "23/24 (01.07.2023) - -"
+    }
+  ],
+  "coach_id": "121660",
+  "_cached_at": "2026-02-12T23:13:11.868587",
+  "_preloaded_at": "2026-02-12T23:13:11.869471",
+  "_coach_name": "Philipp Dolla"
+}

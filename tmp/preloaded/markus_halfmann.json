@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/markus-halfmann/profil/trainer/47133",
+  "scraped_at": "2026-02-12T19:08:57.528381",
+  "name": "Markus Halfmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "21.05.1989 (36)",
+  "age": 36,
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Leiter der Nachwuchsabteilung",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2025",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "25/26 (17.07.2025) - -"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2022",
+      "role": "Sportlicher Leiter",
+      "period": "22/23 (06.01.2023) - 25/26 (16.07.2025)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (01.07.2018) - 22/23 (05.01.2023)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2016",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "16/17 (01.05.2017) - 22/23 (05.01.2023)"
+    },
+    {
+      "club": "Hennef 05",
+      "club_url": "https://www.transfermarkt.de/fc-hennef-05/startseite/verein/15171/saison_id/2015",
+      "role": "Pressesprecher",
+      "period": "15/16 (01.07.2015) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Hennef 05",
+      "club_url": "https://www.transfermarkt.de/fc-hennef-05/startseite/verein/15171/saison_id/2013",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "13/14 (01.07.2013) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Hennef 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-hennef-05-jugend/startseite/verein/34305/saison_id/2011",
+      "role": "Trainer",
+      "period": "11/12 (01.07.2011) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "47133",
+  "_cached_at": "2026-02-12T19:08:57.540000",
+  "_preloaded_at": "2026-02-12T19:08:57.540730",
+  "_coach_name": "Markus Halfmann"
+}

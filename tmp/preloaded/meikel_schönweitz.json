@@ -1,0 +1,110 @@
+{
+  "url": "https://www.transfermarkt.de/meikel-schonweitz/profil/trainer/15779",
+  "scraped_at": "2026-02-12T19:17:07.111395",
+  "name": "Meikel Schönweitz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/15779-1518787026.jpg?lm=1",
+  "dob": "05.02.1980 (46)",
+  "age": 46,
+  "birthplace": "Groß-Gerau",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Technischer Direktor",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2024",
+      "role": "Technischer Direktor",
+      "period": "24/25 (30.07.2024) - -"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2023",
+      "role": "Interimstrainer",
+      "period": "23/24 (04.11.2023) - 23/24 (14.01.2024)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2022",
+      "role": "Direktor Entwicklung",
+      "period": "22/23 (04.04.2023) - 24/25 (29.07.2024)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2018",
+      "role": "Nachwuchs-Cheftrainer",
+      "period": "18/19 (01.01.2019) - 22/23 (03.04.2023)"
+    },
+    {
+      "club": "Deutschland U20",
+      "club_url": "https://www.transfermarkt.de/deutschland-u20/startseite/verein/5709/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (01.07.2018) - 18/19 (31.12.2018)"
+    },
+    {
+      "club": "Deutschland U19",
+      "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.08.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Deutschland U18",
+      "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (31.07.2017)"
+    },
+    {
+      "club": "Deutschland U17",
+      "club_url": "https://www.transfermarkt.de/deutschland-u17/startseite/verein/17662/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Deutschland U16",
+      "club_url": "https://www.transfermarkt.de/deutschland-u16/startseite/verein/17368/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2014",
+      "role": "Nachwuchskoordinator",
+      "period": "14/15 (01.07.2014) - 18/19 (31.12.2018)"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2010",
+      "role": "Trainer",
+      "period": "10/11 (01.07.2010) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "HFV",
+      "club_url": "https://www.transfermarkt.de/hessischer-fussball-verband/startseite/verein/51215/saison_id/2008",
+      "role": "Verbandssportlehrer",
+      "period": "08/09 (01.07.2008) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "HFV",
+      "club_url": "https://www.transfermarkt.de/hessischer-fussball-verband/startseite/verein/51215/saison_id/2008",
+      "role": "Ausbildungsleiter",
+      "period": "08/09 (01.07.2008) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "DFB-Stützpunkt",
+      "club_url": "https://www.transfermarkt.de/dfb-stutzpunkt/startseite/verein/36796/saison_id/2002",
+      "role": "Trainer",
+      "period": "02/03 (01.07.2002) - 06/07 (30.06.2007)"
+    },
+    {
+      "club": "SV 07 Geinsheim",
+      "club_url": "https://www.transfermarkt.de/sv-07-geinsheim/startseite/verein/12171/saison_id/1993",
+      "role": "Jugendtrainer",
+      "period": "93/94 (01.07.1993) - 07/08 (30.06.2008)"
+    }
+  ],
+  "coach_id": "15779",
+  "_cached_at": "2026-02-12T19:17:07.126469",
+  "_preloaded_at": "2026-02-12T19:17:07.127240",
+  "_coach_name": "Meikel Schönweitz"
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/mario-gomez/profil/trainer/104576",
+  "scraped_at": "2026-02-12T19:07:10.978900",
+  "name": "Mario Gómez",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/104576-1661892555.jpg?lm=1",
+  "dob": "10.07.1985 (40)",
+  "age": 40,
+  "birthplace": "Riedlingen",
+  "nationality": "Deutschland",
+  "current_role": "Technischer Direktorund weitere Tätigkeiten",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2021",
+      "role": "Technischer Direktor",
+      "period": "21/22 (01.01.2022) - -"
+    },
+    {
+      "club": "RB New York",
+      "club_url": "https://www.transfermarkt.de/new-york-red-bulls/startseite/verein/623/saison_id/2021",
+      "role": "Technischer Direktor",
+      "period": "21/22 (01.01.2022) - -"
+    },
+    {
+      "club": "RB Bragantino",
+      "club_url": "https://www.transfermarkt.de/red-bull-bragantino/startseite/verein/8793/saison_id/2021",
+      "role": "Technischer Direktor",
+      "period": "21/22 (01.01.2022) - -"
+    }
+  ],
+  "coach_id": "104576",
+  "_cached_at": "2026-02-12T19:07:10.990436",
+  "_preloaded_at": "2026-02-12T19:07:10.991065",
+  "_coach_name": "Mario Gómez"
+}

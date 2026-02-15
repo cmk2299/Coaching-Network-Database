@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/soren-braun/profil/trainer/143113",
+  "scraped_at": "2026-02-13T00:02:30.139158",
+  "name": "Sören Braun",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.07.1998 (27)",
+  "age": 27,
+  "nationality": "Deutschland",
+  "current_role": "Assistent der Geschäftsführung",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2024",
+      "role": "Assistent der Geschäftsführung",
+      "period": "24/25 (01.07.2024) - -"
+    }
+  ],
+  "coach_id": "143113",
+  "_cached_at": "2026-02-13T00:02:30.170783",
+  "_preloaded_at": "2026-02-13T00:02:30.172040",
+  "_coach_name": "Sören Braun"
+}

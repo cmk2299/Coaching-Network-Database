@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/torsten-bauer/profil/trainer/98812",
+  "scraped_at": "2026-02-13T00:24:07.912093",
+  "name": "Torsten Bauer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Teamkoordinator",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/1996",
+      "role": "Teamkoordinator",
+      "period": "96/97 (01.07.1996) - -"
+    },
+    {
+      "club": "Freiburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-jugend/startseite/verein/18042/saison_id/1987",
+      "role": "Teamkoordinator",
+      "period": "87/88 (01.07.1987) - 95/96 (30.06.1996)"
+    }
+  ],
+  "coach_id": "98812",
+  "_cached_at": "2026-02-13T00:24:07.930477",
+  "_preloaded_at": "2026-02-13T00:24:07.931398",
+  "_coach_name": "Torsten Bauer"
+}

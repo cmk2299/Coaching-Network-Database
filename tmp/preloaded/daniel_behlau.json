@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/daniel-behlau/profil/trainer/99058",
+  "scraped_at": "2026-02-12T18:12:17.660046",
+  "name": "Daniel Behlau",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "24.08.1988 (37)",
+  "age": 37,
+  "birthplace": "Potsdam",
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.02.2015) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "99058",
+  "_cached_at": "2026-02-12T18:12:17.670803",
+  "_preloaded_at": "2026-02-12T18:12:17.671386",
+  "_coach_name": "Daniel Behlau"
+}

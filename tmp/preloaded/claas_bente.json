@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/claas-bente/profil/trainer/41167",
+  "scraped_at": "2026-02-12T18:10:30.066836",
+  "name": "Claas Bente",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/41167-1571820881.jpg?lm=1",
+  "dob": "02.07.1983 (42)",
+  "age": 42,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2017",
+      "role": "Physiotherapeut",
+      "period": "17/18 (01.01.2018) - -"
+    },
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2015",
+      "role": "Physiotherapeut",
+      "period": "15/16 (01.07.2015) - 17/18 (31.12.2017)"
+    },
+    {
+      "club": "Osnabrück II",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck-ii/startseite/verein/890",
+      "role": "Physiotherapeut",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "41167",
+  "_cached_at": "2026-02-12T18:10:30.077398",
+  "_preloaded_at": "2026-02-12T18:10:30.078020",
+  "_coach_name": "Claas Bente"
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/steffen-haas/profil/trainer/78960",
+  "scraped_at": "2026-02-12T23:30:08.546404",
+  "name": "Steffen Haas",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "18.03.1988 (37)",
+  "age": 37,
+  "birthplace": "Karlsruhe",
+  "nationality": "Deutschland",
+  "current_role": "Koordinator Sport-Technologien",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Koordinator Sport-Technologien",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2019",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "19/20 (01.03.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2018",
+      "role": "Videoanalyst",
+      "period": "18/19 (01.07.2018) - 19/20 (29.02.2020)"
+    }
+  ],
+  "coach_id": "78960",
+  "_cached_at": "2026-02-12T23:30:08.557244",
+  "_preloaded_at": "2026-02-12T23:30:08.557735",
+  "_coach_name": "Steffen Haas"
+}

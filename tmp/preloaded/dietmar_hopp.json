@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/dietmar-hopp/profil/trainer/22960",
+  "scraped_at": "2026-02-12T18:17:14.223436",
+  "name": "Dietmar Hopp",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/22960-1589535540.jpg?lm=1",
+  "dob": "26.04.1940 (85)",
+  "age": 85,
+  "birthplace": "Heidelberg",
+  "nationality": "Deutschland",
+  "current_role": "Gesellschafterund weitere Tätigkeiten",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "FCA Walldorf",
+      "club_url": "https://www.transfermarkt.de/fc-astoria-walldorf/startseite/verein/1348/saison_id/1995",
+      "role": "Investor/Mäzen",
+      "period": "95/96 (01.07.1995) - -"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/1989",
+      "role": "Gesellschafter",
+      "period": "89/90 (01.07.1989) - -"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/1989",
+      "role": "Investor/Mäzen",
+      "period": "89/90 (01.07.1989) - -"
+    }
+  ],
+  "coach_id": "22960",
+  "_cached_at": "2026-02-12T18:17:14.234950",
+  "_preloaded_at": "2026-02-12T18:17:14.235603",
+  "_coach_name": "Dietmar Hopp"
+}

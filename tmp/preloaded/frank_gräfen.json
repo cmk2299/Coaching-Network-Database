@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/frank-grafen/profil/trainer/11128",
+  "scraped_at": "2026-02-12T18:34:45.796004",
+  "name": "Frank Gräfen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/11128-1408095680.jpg?lm=1",
+  "dob": "07.07.1965 (60)",
+  "age": 60,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2004",
+      "role": "Zeugwart",
+      "period": "04/05 (01.07.2004) - -"
+    }
+  ],
+  "coach_id": "11128",
+  "_cached_at": "2026-02-12T18:34:45.805992",
+  "_preloaded_at": "2026-02-12T18:34:45.806547",
+  "_coach_name": "Frank Gräfen"
+}

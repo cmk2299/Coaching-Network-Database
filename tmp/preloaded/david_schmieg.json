@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/david-schmieg/profil/trainer/62030",
+  "scraped_at": "2026-02-12T18:15:20.543739",
+  "name": "David Schmieg",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "24.11.1983 (42)",
+  "age": 42,
+  "birthplace": "Bad Mergentheim",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Leiter der Fußballschule",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2018",
+      "role": "Leiter der Fußballschule",
+      "period": "18/19 (01.08.2018) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2012",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "12/13 (01.07.2012) - 18/19 (31.07.2018)"
+    }
+  ],
+  "coach_id": "62030",
+  "_cached_at": "2026-02-12T18:15:20.556767",
+  "_preloaded_at": "2026-02-12T18:15:20.557534",
+  "_coach_name": "David Schmieg"
+}

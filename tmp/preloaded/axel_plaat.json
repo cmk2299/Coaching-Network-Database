@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/axel-plaat/profil/trainer/25108",
+  "scraped_at": "2026-02-12T18:00:40.023476",
+  "name": "Axel Plaat",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_25108_86_2012_1.jpg?lm=1",
+  "dob": "24.06.1958 (67)",
+  "age": 67,
+  "birthplace": "Bremen",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2010",
+      "role": "Aufsichtsratsmitglied",
+      "period": "10/11 (02.03.2011) - -"
+    },
+    {
+      "club": "Werder U19",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-u19/startseite/verein/2491/saison_id/1988",
+      "role": "Trainer",
+      "period": "88/89 (01.07.1988) - 99/00 (30.06.2000)"
+    }
+  ],
+  "coach_id": "25108",
+  "_cached_at": "2026-02-12T18:00:40.034441",
+  "_preloaded_at": "2026-02-12T18:00:40.035035",
+  "_coach_name": "Axel Plaat"
+}

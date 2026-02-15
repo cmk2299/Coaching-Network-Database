@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/tobias-ufer/profil/trainer/82399",
+  "scraped_at": "2026-02-13T00:23:03.720365",
+  "name": "Tobias Ufer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "16.02.1978 (47)",
+  "age": 47,
+  "birthplace": "Düsseldorf",
+  "nationality": "Deutschland",
+  "current_role": "Stadionsprecher",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2017",
+      "role": "Stadionsprecher",
+      "period": "17/18 (01.07.2017) - -"
+    }
+  ],
+  "coach_id": "82399",
+  "_cached_at": "2026-02-13T00:23:03.752645",
+  "_preloaded_at": "2026-02-13T00:23:03.754028",
+  "_coach_name": "Tobias Ufer"
+}

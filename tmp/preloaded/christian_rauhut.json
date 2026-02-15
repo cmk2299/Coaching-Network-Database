@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/christian-rauhut/profil/trainer/38815",
+  "scraped_at": "2026-02-12T18:07:50.070278",
+  "name": "Christian Rauhut",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/38815-1491549771.jpg?lm=1",
+  "dob": "17.04.1978 (47)",
+  "age": 47,
+  "nationality": "Deutschland",
+  "current_role": "Direktor Marketing und Vertrieb",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2017",
+      "role": "Direktor Marketing und Vertrieb",
+      "period": "17/18 (01.07.2017) - -"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2007",
+      "role": "Marketing/Management",
+      "period": "07/08 - 10/11"
+    }
+  ],
+  "coach_id": "38815",
+  "_cached_at": "2026-02-12T18:07:50.087122",
+  "_preloaded_at": "2026-02-12T18:07:50.087783",
+  "_coach_name": "Christian Rauhut"
+}

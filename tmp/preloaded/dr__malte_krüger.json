@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/dr-malte-kruger/profil/trainer/97716",
+  "scraped_at": "2026-02-12T18:24:20.049101",
+  "name": "Dr. Malte Krüger",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "10.04.1982 (43)",
+  "age": 43,
+  "birthplace": "Wuppertal",
+  "nationality": "Deutschland",
+  "current_role": "Sportwissenschaftler",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Sportwissenschaftler",
+      "period": "18/19 (01.01.2019) - -"
+    }
+  ],
+  "coach_id": "97716",
+  "_cached_at": "2026-02-12T18:24:20.059612",
+  "_preloaded_at": "2026-02-12T18:24:20.060190",
+  "_coach_name": "Dr. Malte Krüger"
+}

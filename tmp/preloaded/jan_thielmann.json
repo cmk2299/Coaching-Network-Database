@@ -1,0 +1,34 @@
+{
+  "url": "https://www.transfermarkt.de/jan-thielmann/profil/trainer/145833",
+  "scraped_at": "2026-02-12T18:46:24.964918",
+  "name": "Jan Thielmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Finanzen",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Direktor Finanzen",
+      "period": "25/26 (01.01.2026) - -"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2021",
+      "role": "Leiter Finanzen und Personal",
+      "period": "21/22 (01.03.2022) - 25/26 (31.12.2025)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2019",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "19/20 (01.08.2019) - 21/22 (28.02.2022)"
+    }
+  ],
+  "coach_id": "145833",
+  "_cached_at": "2026-02-12T18:46:24.975399",
+  "_preloaded_at": "2026-02-12T18:46:24.976068",
+  "_coach_name": "Jan Thielmann"
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/marc-schilling/profil/trainer/54597",
+  "scraped_at": "2026-02-12T19:04:28.878785",
+  "name": "Marc Schilling",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.06.1972 (53)",
+  "age": 53,
+  "birthplace": "Hachenburg",
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchsscout",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2024",
+      "role": "Nachwuchsscout",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "SF Eisbachtal",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-eisbachtal/startseite/verein/1206/saison_id/2021",
+      "role": "Nachwuchskoordinator",
+      "period": "21/22 (08.04.2022) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "SG Alpenrod",
+      "club_url": "https://www.transfermarkt.de/sg-alpenrod/startseite/verein/68546/saison_id/2021",
+      "role": "Trainer",
+      "period": "21/22 (01.07.2021) - 21/22 (07.04.2022)"
+    },
+    {
+      "club": "FC Dorndorf",
+      "club_url": "https://www.transfermarkt.de/fc-dorndorf/startseite/verein/26718/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.07.2017) - 18/19 (31.12.2018)"
+    }
+  ],
+  "coach_id": "54597",
+  "_cached_at": "2026-02-12T19:04:28.889615",
+  "_preloaded_at": "2026-02-12T19:04:28.890502",
+  "_coach_name": "Marc Schilling"
+}

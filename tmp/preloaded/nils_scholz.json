@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/nils-scholz/profil/trainer/58365",
+  "scraped_at": "2026-02-12T19:25:36.422805",
+  "name": "Nils Scholz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/58365-1515622300.JPG?lm=1",
+  "dob": "09.10.1978 (47)",
+  "age": 47,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2008",
+      "role": "Zeugwart",
+      "period": "08/09 (01.07.2008) - -"
+    }
+  ],
+  "coach_id": "58365",
+  "_cached_at": "2026-02-12T19:25:36.433079",
+  "_preloaded_at": "2026-02-12T19:25:36.433849",
+  "_coach_name": "Nils Scholz"
+}

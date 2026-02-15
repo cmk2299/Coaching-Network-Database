@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/cacilia-alsfasser/profil/trainer/54249",
+  "scraped_at": "2026-02-12T18:11:38.640254",
+  "name": "Cäcilia Alsfasser",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2016",
+      "role": "Aufsichtsratsmitglied",
+      "period": "16/17 (25.06.2017) - -"
+    }
+  ],
+  "coach_id": "54249",
+  "_cached_at": "2026-02-12T18:11:38.650746",
+  "_preloaded_at": "2026-02-12T18:11:38.651380",
+  "_coach_name": "Cäcilia Alsfasser"
+}

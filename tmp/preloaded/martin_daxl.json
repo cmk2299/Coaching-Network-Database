@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/martin-daxl/profil/trainer/119850",
+  "scraped_at": "2026-02-12T19:10:44.308527",
+  "name": "Martin Daxl",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "08.05.1962 (63)",
+  "age": 63,
+  "nationality": "Deutschland",
+  "current_role": "Individualtrainer",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Individualtrainer",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2020",
+      "role": "Individualtrainer",
+      "period": "20/21 (19.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "SC Paderborn",
+      "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2017",
+      "role": "Individualtrainer",
+      "period": "17/18 (01.07.2017) - 20/21 (18.07.2020)"
+    }
+  ],
+  "coach_id": "119850",
+  "_cached_at": "2026-02-12T19:10:44.319658",
+  "_preloaded_at": "2026-02-12T19:10:44.320362",
+  "_coach_name": "Martin Daxl"
+}

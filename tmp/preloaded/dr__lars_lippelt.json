@@ -1,0 +1,34 @@
+{
+  "url": "https://www.transfermarkt.de/dr-lars-lippelt/profil/trainer/18411",
+  "scraped_at": "2026-02-12T18:24:12.489457",
+  "name": "Dr. Lars Lippelt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2019",
+      "role": "Vereinsarzt",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "Deutschland U21",
+      "club_url": "https://www.transfermarkt.de/deutschland-u21/startseite/verein/3817/saison_id/2009",
+      "role": "Vereinsarzt",
+      "period": "09/10 (01.07.2009) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Deutschland U17",
+      "club_url": "https://www.transfermarkt.de/deutschland-u17/startseite/verein/17662/saison_id/2007",
+      "role": "Vereinsarzt",
+      "period": "07/08 (01.07.2007) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "18411",
+  "_cached_at": "2026-02-12T18:24:12.499806",
+  "_preloaded_at": "2026-02-12T18:24:12.500416",
+  "_coach_name": "Dr. Lars Lippelt"
+}

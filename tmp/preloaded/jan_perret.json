@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/jan-perret/profil/trainer/122827",
+  "scraped_at": "2026-02-12T18:45:31.411148",
+  "name": "Jan Perret",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "07.04.2003 (22)",
+  "age": 22,
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2021",
+      "role": "Nachwuchsscout",
+      "period": "21/22 (01.08.2021) - -"
+    },
+    {
+      "club": "Quelle Fürth",
+      "club_url": "https://www.transfermarkt.de/sg-quelle-furth/startseite/verein/545/saison_id/2021",
+      "role": "Co-Trainer Analyse",
+      "period": "21/22 (01.08.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Quelle FÜ Jgd.",
+      "club_url": "https://www.transfermarkt.de/sg-quelle-furth-jugend/startseite/verein/40827/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (01.09.2020) - 22/23 (30.06.2023)"
+    }
+  ],
+  "coach_id": "122827",
+  "_cached_at": "2026-02-12T18:45:31.422175",
+  "_preloaded_at": "2026-02-12T18:45:31.422790",
+  "_coach_name": "Jan Perret"
+}

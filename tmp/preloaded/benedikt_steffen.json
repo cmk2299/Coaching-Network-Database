@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/benedikt-steffen/profil/trainer/148069",
+  "scraped_at": "2026-02-12T18:02:20.695930",
+  "name": "Benedikt Steffen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Aufsichtsratsmitglied",
+      "period": "25/26 (03.09.2025) - -"
+    }
+  ],
+  "coach_id": "148069",
+  "_cached_at": "2026-02-12T18:02:20.705894",
+  "_preloaded_at": "2026-02-12T18:02:20.706491",
+  "_coach_name": "Benedikt Steffen"
+}

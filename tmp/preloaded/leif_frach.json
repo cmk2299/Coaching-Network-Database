@@ -1,0 +1,158 @@
+{
+  "url": "https://www.transfermarkt.de/leif-frach/profil/trainer/47355",
+  "scraped_at": "2026-02-12T18:59:12.270072",
+  "name": "Leif Frach",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/47355-1752736908.jpg?lm=1",
+  "dob": "17.02.1988 (37)",
+  "age": 37,
+  "birthplace": "Ostercappeln",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Athletiktrainerund weitere Tätigkeiten",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2020",
+      "role": "Athletiktrainer",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2020",
+      "role": "Rehatrainer",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2018",
+      "role": "Performance Manager",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2018",
+      "role": "Performance Manager",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "1.FC Köln U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u19/startseite/verein/1461/saison_id/2018",
+      "role": "Performance Manager",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2016",
+      "role": "Athletiktrainer",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Werder U19",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-u19/startseite/verein/2491/saison_id/2016",
+      "role": "Athletiktrainer",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Werder U17",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-u17/startseite/verein/21079/saison_id/2016",
+      "role": "Athletiktrainer",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.03.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.03.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.03.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "1.FC Köln U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u19/startseite/verein/1461/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.03.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "1.FC Köln U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u19/startseite/verein/1461/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.03.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2014",
+      "role": "Athletiktrainer",
+      "period": "14/15 (01.03.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Werder Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-jugend/startseite/verein/12012/saison_id/2012",
+      "role": "Athletiktrainer",
+      "period": "12/13 (01.02.2013) - 14/15 (31.10.2014)"
+    },
+    {
+      "club": "Werder U17",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-u17/startseite/verein/21079/saison_id/2012",
+      "role": "Athletiktrainer",
+      "period": "12/13 (01.02.2013) - 14/15 (31.10.2014)"
+    },
+    {
+      "club": "Werder U19",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-u19/startseite/verein/2491/saison_id/2012",
+      "role": "Athletiktrainer",
+      "period": "12/13 (01.02.2013) - 14/15 (31.10.2014)"
+    },
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2012",
+      "role": "Rehatrainer",
+      "period": "12/13 (01.02.2013) - 14/15 (31.10.2014)"
+    },
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2012",
+      "role": "Athletiktrainer",
+      "period": "12/13 (01.02.2013) - 14/15 (31.10.2014)"
+    },
+    {
+      "club": "Werder U19",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-u19/startseite/verein/2491/saison_id/2012",
+      "role": "Rehatrainer",
+      "period": "12/13 (01.02.2013) - 14/15 (31.10.2014)"
+    },
+    {
+      "club": "Werder U17",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-u17/startseite/verein/21079/saison_id/2012",
+      "role": "Rehatrainer",
+      "period": "12/13 (01.02.2013) - 14/15 (31.10.2014)"
+    },
+    {
+      "club": "Werder Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-jugend/startseite/verein/12012/saison_id/2012",
+      "role": "Rehatrainer",
+      "period": "12/13 (01.02.2013) - 14/15 (31.10.2014)"
+    },
+    {
+      "club": "SC West Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-west-koln-jugend/startseite/verein/38050",
+      "role": "Trainer",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "47355",
+  "_cached_at": "2026-02-12T18:59:12.286373",
+  "_preloaded_at": "2026-02-12T18:59:12.287205",
+  "_coach_name": "Leif Frach"
+}

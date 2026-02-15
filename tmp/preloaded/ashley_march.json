@@ -1,0 +1,79 @@
+{
+  "url": "https://www.transfermarkt.de/ashley-march/profil/trainer/104417",
+  "scraped_at": "2026-02-12T18:00:09.906001",
+  "name": "Ashley March",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "01.01.1992 (34)",
+  "age": 34,
+  "nationality": "England",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.09.2021) - -"
+    },
+    {
+      "club": "Brighton",
+      "club_url": "https://www.transfermarkt.de/brighton-amp-hove-albion/startseite/verein/1237/saison_id/2020",
+      "role": "Videoanalyst",
+      "period": "20/21 (01.01.2021) - 21/22 (31.08.2021)"
+    },
+    {
+      "club": "Fulham Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-fulham-jugend/startseite/verein/32580/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "FC Fulham",
+      "club_url": "https://www.transfermarkt.de/fc-fulham/startseite/verein/931/saison_id/2018",
+      "role": "Verbindungstrainer",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "FC Fulham",
+      "club_url": "https://www.transfermarkt.de/fc-fulham/startseite/verein/931/saison_id/2018",
+      "role": "Scout",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Oxford United",
+      "club_url": "https://www.transfermarkt.de/oxford-united/startseite/verein/988/saison_id/2016",
+      "role": "Jugendtrainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Brackley",
+      "club_url": "https://www.transfermarkt.de/brackley-town/startseite/verein/20877/saison_id/2014",
+      "role": "Jugendtrainer",
+      "period": "14/15 (01.07.2014) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Aldershot",
+      "club_url": "https://www.transfermarkt.de/aldershot-town/startseite/verein/3717/saison_id/2012",
+      "role": "Spielanalyst",
+      "period": "12/13 (01.07.2012) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Southampt. Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-southampton-jugend/startseite/verein/50780/saison_id/2011",
+      "role": "Co-Trainer",
+      "period": "11/12 (01.07.2011) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Brackley",
+      "club_url": "https://www.transfermarkt.de/brackley-town/startseite/verein/20877/saison_id/2009",
+      "role": "Jugendtrainer",
+      "period": "09/10 (01.07.2009) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "104417",
+  "_cached_at": "2026-02-12T18:00:09.918650",
+  "_preloaded_at": "2026-02-12T18:00:09.919493",
+  "_coach_name": "Ashley March"
+}

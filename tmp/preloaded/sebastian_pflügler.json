@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/sebastian-pflugler/profil/trainer/74704",
+  "scraped_at": "2026-02-12T23:25:20.232246",
+  "name": "Sebastian Pflügler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2009",
+      "role": "Zeugwart",
+      "period": "09/10 (01.07.2009) - -"
+    }
+  ],
+  "coach_id": "74704",
+  "_cached_at": "2026-02-12T23:25:20.241733",
+  "_preloaded_at": "2026-02-12T23:25:20.242187",
+  "_coach_name": "Sebastian Pflügler"
+}

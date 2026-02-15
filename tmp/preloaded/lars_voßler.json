@@ -1,0 +1,64 @@
+{
+  "url": "https://www.transfermarkt.de/lars-vossler/profil/trainer/7334",
+  "scraped_at": "2026-02-12T18:58:26.894813",
+  "name": "Lars Voßler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/7334-1678788593.jpg?lm=1",
+  "dob": "09.03.1976 (49)",
+  "age": 49,
+  "birthplace": "Freiburg im Breisgau",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "Ralph Ziegler",
+  "agent_url": "https://www.transfermarkt.de/ziegler-sports-gmbh/beraterfirma/berater/5815",
+  "current_role": "Co-Trainer",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2011",
+      "role": "Co-Trainer",
+      "period": "11/12 (01.01.2012) - -"
+    },
+    {
+      "club": "SC Freiburg U19",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2011",
+      "role": "Trainer",
+      "period": "11/12 (01.07.2011) - 11/12 (31.12.2011)"
+    },
+    {
+      "club": "SC Freiburg U19",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2006",
+      "role": "Co-Trainer",
+      "period": "06/07 (01.07.2006) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Freiburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-jugend/startseite/verein/18042/saison_id/2004",
+      "role": "Trainer",
+      "period": "04/05 (01.01.2005) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2004",
+      "role": "Technische/r Mitarbeiter/in",
+      "period": "04/05 (01.01.2005) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2004",
+      "role": "Spielanalyst",
+      "period": "04/05 (01.01.2005) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2004",
+      "role": "Scout",
+      "period": "04/05 (01.01.2005) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "7334",
+  "_cached_at": "2026-02-12T18:58:26.907689",
+  "_preloaded_at": "2026-02-12T18:58:26.908457",
+  "_coach_name": "Lars Voßler"
+}

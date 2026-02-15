@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dirk-diekmann/profil/trainer/90211",
+  "scraped_at": "2026-02-12T18:17:36.628979",
+  "name": "Dirk Diekmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.08.1963 (62)",
+  "age": 62,
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchsscout",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/1990",
+      "role": "Nachwuchsscout",
+      "period": "90/91 (01.07.1990) - -"
+    }
+  ],
+  "coach_id": "90211",
+  "_cached_at": "2026-02-12T18:17:36.639077",
+  "_preloaded_at": "2026-02-12T18:17:36.639659",
+  "_coach_name": "Dirk Diekmann"
+}

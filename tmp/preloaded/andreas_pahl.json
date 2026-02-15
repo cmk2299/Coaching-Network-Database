@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-pahl/profil/trainer/11139",
+  "scraped_at": "2026-02-12T17:56:43.619649",
+  "name": "Andreas Pahl",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_11139_80_2012_1.jpg?lm=1",
+  "dob": "01.07.1975 (50)",
+  "age": 50,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/1998",
+      "role": "Zeugwart",
+      "period": "98/99 (01.07.1998) - -"
+    }
+  ],
+  "coach_id": "11139",
+  "_cached_at": "2026-02-12T17:56:43.629453",
+  "_preloaded_at": "2026-02-12T17:56:43.629999",
+  "_coach_name": "Andreas Pahl"
+}

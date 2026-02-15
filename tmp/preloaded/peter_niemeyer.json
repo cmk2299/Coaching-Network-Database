@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/peter-niemeyer/profil/trainer/69869",
+  "scraped_at": "2026-02-12T19:31:19.200284",
+  "name": "Peter Niemeyer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/69869-1719657849.jpg?lm=1",
+  "dob": "22.11.1983 (42)",
+  "age": 42,
+  "birthplace": "Mettingen",
+  "nationality": "Deutschland",
+  "current_role": "Leiter Lizenzbereich",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2023",
+      "role": "Leiter Lizenzbereich",
+      "period": "23/24 (17.06.2024) - -"
+    },
+    {
+      "club": "Pr. Münster",
+      "club_url": "https://www.transfermarkt.de/preussen-munster/startseite/verein/91/saison_id/2022",
+      "role": "Geschäftsführer Sport",
+      "period": "22/23 (01.07.2022) - 23/24 (16.06.2024)"
+    },
+    {
+      "club": "Pr. Münster",
+      "club_url": "https://www.transfermarkt.de/preussen-munster/startseite/verein/91/saison_id/2020",
+      "role": "Sportdirektor",
+      "period": "20/21 (18.07.2020) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Twente Enschede",
+      "club_url": "https://www.transfermarkt.de/fc-twente-enschede/startseite/verein/317/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "FC Twente II",
+      "club_url": "https://www.transfermarkt.de/fc-twente-enschede-heracles-almelo-u21/startseite/verein/18026/saison_id/2019",
+      "role": "Trainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Twente Enschede",
+      "club_url": "https://www.transfermarkt.de/fc-twente-enschede/startseite/verein/317/saison_id/2018",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "69869",
+  "_cached_at": "2026-02-12T19:31:19.218172",
+  "_preloaded_at": "2026-02-12T19:31:19.218869",
+  "_coach_name": "Peter Niemeyer"
+}

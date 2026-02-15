@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/martin-kowatzki/profil/trainer/82401",
+  "scraped_at": "2026-02-12T19:11:07.511530",
+  "name": "Martin Kowatzki",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.11.1983 (42)",
+  "age": 42,
+  "birthplace": "Leverkusen",
+  "nationality": "DeutschlandPolen",
+  "current_role": "Betreuerund weitere Tätigkeiten",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2015",
+      "role": "Zeugwart",
+      "period": "15/16 (01.07.2015) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2015",
+      "role": "Betreuer",
+      "period": "15/16 (01.07.2015) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2007",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "07/08 (01.07.2007) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "82401",
+  "_cached_at": "2026-02-12T19:11:07.521893",
+  "_preloaded_at": "2026-02-12T19:11:07.522542",
+  "_coach_name": "Martin Kowatzki"
+}

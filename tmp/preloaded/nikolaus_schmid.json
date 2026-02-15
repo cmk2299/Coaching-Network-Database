@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/nikolaus-schmid/profil/trainer/36019",
+  "scraped_at": "2026-02-12T19:24:57.303465",
+  "name": "Nikolaus Schmid",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/36019-1407095621.jpg?lm=1",
+  "dob": "15.03.1971 (54)",
+  "age": 54,
+  "birthplace": "Landshut",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2015",
+      "role": "Physiotherapeut",
+      "period": "15/16 (01.07.2015) - -"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2013",
+      "role": "Physiotherapeut",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2012",
+      "role": "Medizinischer Leiter NLZ",
+      "period": "12/13 (01.07.2012) - 12/13 (30.06.2013)"
+    }
+  ],
+  "coach_id": "36019",
+  "_cached_at": "2026-02-12T19:24:57.314233",
+  "_preloaded_at": "2026-02-12T19:24:57.314889",
+  "_coach_name": "Nikolaus Schmid"
+}

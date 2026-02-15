@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/jasper-petereit/profil/trainer/104418",
+  "scraped_at": "2026-02-12T18:47:02.172473",
+  "name": "Jasper Petereit",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "01.01.1994 (32)",
+  "age": 32,
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2020",
+      "role": "Scout",
+      "period": "20/21 (15.01.2021) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2017",
+      "role": "Videoanalyst",
+      "period": "17/18 (01.07.2017) - 20/21 (14.01.2021)"
+    }
+  ],
+  "coach_id": "104418",
+  "_cached_at": "2026-02-12T18:47:02.182741",
+  "_preloaded_at": "2026-02-12T18:47:02.183613",
+  "_coach_name": "Jasper Petereit"
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/simon-lackmann/profil/trainer/82697",
+  "scraped_at": "2026-02-12T23:27:36.795829",
+  "name": "Simon Lackmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/82697-1611093093.png?lm=1",
+  "dob": "29.12.1980 (45)",
+  "age": 45,
+  "birthplace": "Münster",
+  "nationality": "Deutschland",
+  "current_role": "Spielanalystund weitere Tätigkeiten",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2008",
+      "role": "Spielanalyst",
+      "period": "08/09 (01.01.2009) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2008",
+      "role": "Gegneranalyst",
+      "period": "08/09 (01.01.2009) - -"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2007",
+      "role": "Trainer",
+      "period": "07/08 (01.07.2007) - 07/08 (30.06.2008)"
+    }
+  ],
+  "coach_id": "82697",
+  "_cached_at": "2026-02-12T23:27:36.806889",
+  "_preloaded_at": "2026-02-12T23:27:36.807387",
+  "_coach_name": "Simon Lackmann"
+}

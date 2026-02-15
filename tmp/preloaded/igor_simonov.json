@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/igor-simonov/profil/trainer/14801",
+  "scraped_at": "2026-02-12T18:43:28.812044",
+  "name": "Igor Simonov",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1373971413.jpg?lm=1",
+  "dob": "19.06.1958 (67)",
+  "age": 67,
+  "birthplace": "Makeevka, Donetsk Oblast",
+  "nationality": "UkraineDeutschland",
+  "current_role": "Zeugwart",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2010",
+      "role": "Zeugwart",
+      "period": "10/11 (01.07.2010) - -"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/2003",
+      "role": "Trainer",
+      "period": "03/04 (01.10.2003) - 09/10 (30.06.2010)"
+    }
+  ],
+  "coach_id": "14801",
+  "_cached_at": "2026-02-12T18:43:28.823101",
+  "_preloaded_at": "2026-02-12T18:43:28.823772",
+  "_coach_name": "Igor Simonov"
+}

@@ -1,0 +1,79 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-barth/profil/trainer/15440",
+  "scraped_at": "2026-02-13T00:03:56.294812",
+  "name": "Thomas Barth",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/15440-1755065756.jpg?lm=1",
+  "dob": "23.05.1981 (44)",
+  "age": 44,
+  "birthplace": "Lutherstadt Wittenberg",
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2023",
+      "role": "Athletiktrainer",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "J. Regensburg",
+      "club_url": "https://www.transfermarkt.de/ssv-jahn-regensburg/startseite/verein/109/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (01.08.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "J. Regensburg",
+      "club_url": "https://www.transfermarkt.de/ssv-jahn-regensburg/startseite/verein/109/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (01.08.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "J. Regensburg",
+      "club_url": "https://www.transfermarkt.de/ssv-jahn-regensburg/startseite/verein/109/saison_id/2021",
+      "role": "Rehatrainer",
+      "period": "21/22 (01.08.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (09.10.2018) - 18/19 (19.04.2019)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2016",
+      "role": "Athletiktrainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2012",
+      "role": "Athletiktrainer",
+      "period": "12/13 (01.07.2012) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2012",
+      "role": "Rehatrainer",
+      "period": "12/13 (01.07.2012) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "J. Regensburg",
+      "club_url": "https://www.transfermarkt.de/ssv-jahn-regensburg/startseite/verein/109/saison_id/2008",
+      "role": "Athletiktrainer",
+      "period": "08/09 (25.11.2008) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "J. Regensburg",
+      "club_url": "https://www.transfermarkt.de/ssv-jahn-regensburg/startseite/verein/109/saison_id/2008",
+      "role": "Rehatrainer",
+      "period": "08/09 (24.11.2008) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "15440",
+  "_cached_at": "2026-02-13T00:03:56.320442",
+  "_preloaded_at": "2026-02-13T00:03:56.321577",
+  "_coach_name": "Thomas Barth"
+}

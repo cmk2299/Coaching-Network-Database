@@ -1,0 +1,48 @@
+{
+  "url": "https://www.transfermarkt.de/hans-peter-baamann/profil/trainer/32349",
+  "scraped_at": "2026-02-12T18:40:23.695038",
+  "name": "Hans-Peter Baamann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.12.1965 (60)",
+  "age": 60,
+  "nationality": "Deutschland",
+  "current_role": "Kaderplanerund weitere Tätigkeiten",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "Heidenheim II",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-ii/startseite/verein/12221/saison_id/2026",
+      "role": "Sportlicher Leiter",
+      "period": "26/27 (01.07.2026) - -"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2025",
+      "role": "Kaderplaner",
+      "period": "25/26 (01.01.2026) - -"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2014",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "14/15 (01.07.2014) - -"
+    },
+    {
+      "club": "Heidenheim U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-u17/startseite/verein/36121/saison_id/2013",
+      "role": "Interimstrainer",
+      "period": "13/14 (02.11.2013) - 13/14 (15.12.2013)"
+    },
+    {
+      "club": "Heidenheim U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-u19/startseite/verein/14822/saison_id/2007",
+      "role": "Trainer",
+      "period": "07/08 (01.01.2008) - 09/10 (30.06.2010)"
+    }
+  ],
+  "coach_id": "32349",
+  "_cached_at": "2026-02-12T18:40:23.706004",
+  "_preloaded_at": "2026-02-12T18:40:23.706591",
+  "_coach_name": "Hans-Peter Baamann"
+}

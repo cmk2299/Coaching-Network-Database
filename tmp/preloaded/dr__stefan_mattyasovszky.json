@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dr-stefan-mattyasovszky/profil/trainer/15463",
+  "scraped_at": "2026-02-12T18:26:57.626512",
+  "name": "Dr. Stefan Mattyasovszky",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1373376368.jpg?lm=1",
+  "dob": "24.08.1978 (47)",
+  "age": 47,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2012",
+      "role": "Vereinsarzt",
+      "period": "12/13 (01.07.2012) - -"
+    }
+  ],
+  "coach_id": "15463",
+  "_cached_at": "2026-02-12T18:26:57.636635",
+  "_preloaded_at": "2026-02-12T18:26:57.637231",
+  "_coach_name": "Dr. Stefan Mattyasovszky"
+}

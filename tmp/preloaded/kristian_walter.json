@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/kristian-walter/profil/trainer/31865",
+  "scraped_at": "2026-02-12T18:57:55.724350",
+  "name": "Kristian Walter",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/31865-1749818102.jpg?lm=1",
+  "dob": "14.06.1984 (41)",
+  "age": 41,
+  "birthplace": "Dresden",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 (01.09.2025) - -"
+    },
+    {
+      "club": "Hansa Rostock",
+      "club_url": "https://www.transfermarkt.de/fc-hansa-rostock/startseite/verein/30/saison_id/2022",
+      "role": "Sportdirektor",
+      "period": "22/23 (05.06.2023) - 23/24 (07.05.2024)"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2018",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "18/19 (01.01.2019) - 22/23 (04.06.2023)"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2017",
+      "role": "Sportdirektor",
+      "period": "17/18 (01.03.2018) - 18/19 (31.01.2019)"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (17.02.2015) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Dynamo Dresden",
+      "club_url": "https://www.transfermarkt.de/sg-dynamo-dresden/startseite/verein/129/saison_id/2011",
+      "role": "Chefscout",
+      "period": "11/12 (01.10.2012) - 22/23 (04.06.2023)"
+    },
+    {
+      "club": "Energie Cottbus",
+      "club_url": "https://www.transfermarkt.de/fc-energie-cottbus/startseite/verein/25/saison_id/2008",
+      "role": "Scout",
+      "period": "08/09 (01.01.2009) - 10/11 (31.10.2010)"
+    }
+  ],
+  "coach_id": "31865",
+  "_cached_at": "2026-02-12T18:57:55.737837",
+  "_preloaded_at": "2026-02-12T18:57:55.738890",
+  "_coach_name": "Kristian Walter"
+}

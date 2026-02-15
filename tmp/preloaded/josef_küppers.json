@@ -1,0 +1,48 @@
+{
+  "url": "https://www.transfermarkt.de/josef-kuppers/profil/trainer/2656",
+  "scraped_at": "2026-02-12T18:51:13.427270",
+  "name": "Josef Küppers",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.05.1960 (65)",
+  "age": 65,
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2009",
+      "role": "Nachwuchsscout",
+      "period": "09/10 (01.07.2009) - -"
+    },
+    {
+      "club": "Wegberg-Beeck",
+      "club_url": "https://www.transfermarkt.de/fc-wegberg-beeck/startseite/verein/2681/saison_id/2007",
+      "role": "Trainer",
+      "period": "07/08 (27.11.2007) - 08/09 (10.05.2009)"
+    },
+    {
+      "club": "Wegberg-Beeck",
+      "club_url": "https://www.transfermarkt.de/fc-wegberg-beeck/startseite/verein/2681/saison_id/2007",
+      "role": "Interimstrainer",
+      "period": "07/08 (11.11.2007) - 07/08 (26.11.2007)"
+    },
+    {
+      "club": "Wegberg-Beeck",
+      "club_url": "https://www.transfermarkt.de/fc-wegberg-beeck/startseite/verein/2681/saison_id/2001",
+      "role": "Co-Trainer",
+      "period": "01/02 (01.07.2001) - 07/08 (10.11.2007)"
+    },
+    {
+      "club": "Wegberg-B. U19",
+      "club_url": "https://www.transfermarkt.de/fc-wegberg-beeck-u19/startseite/verein/21420/saison_id/1997",
+      "role": "Trainer",
+      "period": "97/98 (01.07.1997) - 00/01 (30.06.2001)"
+    }
+  ],
+  "coach_id": "2656",
+  "_cached_at": "2026-02-12T18:51:13.438163",
+  "_preloaded_at": "2026-02-12T18:51:13.438807",
+  "_coach_name": "Josef Küppers"
+}

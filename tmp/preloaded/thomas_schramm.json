@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-schramm/profil/trainer/113344",
+  "scraped_at": "2026-02-13T00:05:36.141074",
+  "name": "Thomas Schramm",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "07.11.1967 (58)",
+  "age": 58,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Geschäftsführerund weitere Tätigkeiten",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2002",
+      "role": "Scout",
+      "period": "02/03 (01.07.2002) - -"
+    },
+    {
+      "club": "Füchse U19",
+      "club_url": "https://www.transfermarkt.de/reinickendorfer-fuchse-u19/startseite/verein/7866/saison_id/2000",
+      "role": "Trainer",
+      "period": "00/01 (01.07.2000) - 01/02 (30.06.2002)"
+    },
+    {
+      "club": "SV Tasmania U17",
+      "club_url": "https://www.transfermarkt.de/sv-tasmania-berlin-u17/startseite/verein/28051/saison_id/1998",
+      "role": "Trainer",
+      "period": "98/99 (01.07.1998) - 99/00 (30.06.2000)"
+    },
+    {
+      "club": "Tasmania Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-tasmania-berlin-jugend/startseite/verein/48092/saison_id/1995",
+      "role": "Trainer",
+      "period": "95/96 (01.07.1995) - 97/98 (30.06.1998)"
+    },
+    {
+      "club": "Lütgendortmund",
+      "club_url": "https://www.transfermarkt.de/sg-lutgendortmund/startseite/verein/72377",
+      "role": "Geschäftsführer",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "113344",
+  "_cached_at": "2026-02-13T00:05:36.159215",
+  "_preloaded_at": "2026-02-13T00:05:36.160016",
+  "_coach_name": "Thomas Schramm"
+}

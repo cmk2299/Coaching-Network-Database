@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/dr-christoph-engelke/profil/trainer/15610",
+  "scraped_at": "2026-02-12T18:20:47.718880",
+  "name": "Dr. Christoph Engelke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/15610-1571820706.jpg?lm=1",
+  "dob": "16.06.1964 (61)",
+  "age": 61,
+  "birthplace": "Braunlage",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2018",
+      "role": "Vereinsarzt",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "Ottersberg",
+      "club_url": "https://www.transfermarkt.de/tsv-ottersberg/startseite/verein/13838/saison_id/2001",
+      "role": "Vereinsarzt",
+      "period": "01/02 - 13/14"
+    },
+    {
+      "club": "A. Delmenhorst",
+      "club_url": "https://www.transfermarkt.de/sv-atlas-delmenhorst/startseite/verein/29988/saison_id/1996",
+      "role": "Vereinsarzt",
+      "period": "96/97 - 97/98"
+    }
+  ],
+  "coach_id": "15610",
+  "_cached_at": "2026-02-12T18:20:47.730621",
+  "_preloaded_at": "2026-02-12T18:20:47.731264",
+  "_coach_name": "Dr. Christoph Engelke"
+}

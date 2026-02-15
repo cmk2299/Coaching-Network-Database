@@ -1,0 +1,69 @@
+{
+  "url": "https://www.transfermarkt.de/markus-hoffmann/profil/trainer/5792",
+  "scraped_at": "2026-02-12T19:09:13.033930",
+  "name": "Markus Hoffmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/5792-1691615020.jpg?lm=1",
+  "dob": "29.06.1972 (53)",
+  "age": 53,
+  "birthplace": "Salzburg",
+  "nationality": "Österreich",
+  "contract_until": "30.06.2028",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (07.12.2025) - vsl. 30.06.2028"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (01.07.2018) - 23/24 (15.11.2023)"
+    },
+    {
+      "club": "FC St. Gallen",
+      "club_url": "https://www.transfermarkt.de/fc-st-gallen-1879/startseite/verein/257/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 17/18 (24.04.2018)"
+    },
+    {
+      "club": "FC Basel",
+      "club_url": "https://www.transfermarkt.de/fc-basel-1893/startseite/verein/26/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Spartak Moskau",
+      "club_url": "https://www.transfermarkt.de/spartak-moskau/startseite/verein/232/saison_id/2014",
+      "role": "Chefanalytiker",
+      "period": "14/15 (23.06.2014) - 14/15 (31.05.2015)"
+    },
+    {
+      "club": "FC Basel",
+      "club_url": "https://www.transfermarkt.de/fc-basel-1893/startseite/verein/26/saison_id/2011",
+      "role": "Co-Trainer",
+      "period": "11/12 (01.01.2012) - 13/14 (17.06.2014)"
+    },
+    {
+      "club": "Seekirchen",
+      "club_url": "https://www.transfermarkt.de/sv-seekirchen/startseite/verein/4463/saison_id/2007",
+      "role": "Trainer",
+      "period": "07/08 (31.03.2008) - 11/12 (31.12.2011)"
+    },
+    {
+      "club": "Seekirchen",
+      "club_url": "https://www.transfermarkt.de/sv-seekirchen/startseite/verein/4463/saison_id/2007",
+      "role": "Co-Trainer",
+      "period": "07/08 (01.01.2008) - 07/08 (31.03.2008)"
+    }
+  ],
+  "coach_id": "5792",
+  "_cached_at": "2026-02-12T19:09:13.047270",
+  "_preloaded_at": "2026-02-12T19:09:13.047912",
+  "_coach_name": "Markus Hoffmann"
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/tom-lohmann/profil/trainer/92597",
+  "scraped_at": "2026-02-13T00:23:37.012602",
+  "name": "Tom Lohmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "18.08.1992 (33)",
+  "age": 33,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchs-Chefscout",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2020",
+      "role": "Nachwuchs-Chefscout",
+      "period": "20/21 (01.05.2021) - -"
+    },
+    {
+      "club": "MSU Billings",
+      "club_url": "https://www.transfermarkt.de/msub-yellowjackets-montana-state-uni-billings-/startseite/verein/56084/saison_id/2017",
+      "role": "Kaderplaner",
+      "period": "17/18 (01.05.2018) - 18/19 (14.02.2020)"
+    },
+    {
+      "club": "MSU Billings",
+      "club_url": "https://www.transfermarkt.de/msub-yellowjackets-montana-state-uni-billings-/startseite/verein/56084/saison_id/2017",
+      "role": "Torwarttrainer",
+      "period": "17/18 (01.05.2018) - 18/19 (14.02.2020)"
+    },
+    {
+      "club": "MSU Billings",
+      "club_url": "https://www.transfermarkt.de/msub-yellowjackets-montana-state-uni-billings-/startseite/verein/56084/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.05.2018) - 19/20 (14.02.2020)"
+    }
+  ],
+  "coach_id": "92597",
+  "_cached_at": "2026-02-13T00:23:37.032935",
+  "_preloaded_at": "2026-02-13T00:23:37.033852",
+  "_coach_name": "Tom Lohmann"
+}

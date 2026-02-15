@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/dirk-thieme/profil/trainer/16672",
+  "scraped_at": "2026-02-12T18:18:15.269814",
+  "name": "Dirk Thieme",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "27.06.1962 (63)",
+  "age": 63,
+  "nationality": "Deutschland",
+  "current_role": "Präsidiumsmitglied",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2009",
+      "role": "Präsidiumsmitglied",
+      "period": "09/10 (06.11.2009) - -"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2004",
+      "role": "Aufsichtsratsmitglied",
+      "period": "04/05 (07.09.2004) - 09/10 (05.11.2009)"
+    }
+  ],
+  "coach_id": "16672",
+  "_cached_at": "2026-02-12T18:18:15.279760",
+  "_preloaded_at": "2026-02-12T18:18:15.280310",
+  "_coach_name": "Dirk Thieme"
+}

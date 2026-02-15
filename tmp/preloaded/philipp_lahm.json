@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/philipp-lahm/profil/trainer/108152",
+  "scraped_at": "2026-02-12T23:13:35.212970",
+  "name": "Philipp Lahm",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/108152-1663318358.jpg?lm=1",
+  "dob": "11.11.1983 (42)",
+  "age": 42,
+  "birthplace": "München",
+  "nationality": "Deutschland",
+  "current_role": "Berater des Managements",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2022",
+      "role": "Klubrepräsentant",
+      "period": "22/23 (13.12.2022) - 24/25 (31.07.2024)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2022",
+      "role": "Berater des Managements",
+      "period": "22/23 (13.12.2022) - 24/25 (31.07.2024)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2022",
+      "role": "Berater des Managements",
+      "period": "22/23 (11.09.2022) - -"
+    }
+  ],
+  "coach_id": "108152",
+  "_cached_at": "2026-02-12T23:13:35.243296",
+  "_preloaded_at": "2026-02-12T23:13:35.245731",
+  "_coach_name": "Philipp Lahm"
+}

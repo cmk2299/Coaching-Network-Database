@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/christian-geidus/profil/trainer/31918",
+  "scraped_at": "2026-02-12T18:06:33.191518",
+  "name": "Christian Geidus",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.10.1982 (43)",
+  "age": 43,
+  "nationality": "Deutschland",
+  "current_role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2024",
+      "role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+      "period": "24/25 (01.01.2025) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2014",
+      "role": "Medienbeauftragter",
+      "period": "14/15 (01.07.2014) - 24/25 (31.12.2024)"
+    },
+    {
+      "club": "RB Leipzig U17",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u17/startseite/verein/32942/saison_id/2010",
+      "role": "Betreuer",
+      "period": "10/11 (01.07.2010) - 13/14 (30.06.2014)"
+    }
+  ],
+  "coach_id": "31918",
+  "_cached_at": "2026-02-12T18:06:33.201917",
+  "_preloaded_at": "2026-02-12T18:06:33.202487",
+  "_coach_name": "Christian Geidus"
+}

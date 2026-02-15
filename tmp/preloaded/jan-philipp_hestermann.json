@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/jan-philipp-hestermann/profil/trainer/20581",
+  "scraped_at": "2026-02-12T18:44:37.169139",
+  "name": "Jan-Philipp Hestermann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/20581-1662623797.jpg?lm=1",
+  "dob": "26.03.1983 (42)",
+  "age": 42,
+  "birthplace": "Rotenburg",
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2025",
+      "role": "Athletiktrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2020",
+      "role": "Athletiktrainer",
+      "period": "20/21 (05.09.2020) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "VfL Osnabrück",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck/startseite/verein/81/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.10.2019) - 20/21 (04.09.2020)"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2017",
+      "role": "Athletiktrainer",
+      "period": "17/18 (05.01.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Ingolstadt II",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04-ii/startseite/verein/7681/saison_id/2011",
+      "role": "Athletiktrainer",
+      "period": "11/12 (01.07.2011) - 17/18 (04.01.2018)"
+    }
+  ],
+  "coach_id": "20581",
+  "_cached_at": "2026-02-12T18:44:37.181269",
+  "_preloaded_at": "2026-02-12T18:44:37.181944",
+  "_coach_name": "Jan-Philipp Hestermann"
+}

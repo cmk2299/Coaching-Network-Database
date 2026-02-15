@@ -1,0 +1,60 @@
+{
+  "url": "https://www.transfermarkt.de/dr-stefan-porten/profil/trainer/19769",
+  "scraped_at": "2026-02-12T18:27:05.050935",
+  "name": "Dr. Stefan Porten",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/19769-1406670518.jpg?lm=1",
+  "dob": "08.01.1977 (49)",
+  "age": 49,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2023",
+      "role": "Vereinsarzt",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Deutschland U19",
+      "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2023",
+      "role": "Vereinsarzt",
+      "period": "23/24 (01.07.2023) - 23/24 (31.07.2023)"
+    },
+    {
+      "club": "Deutschland U21",
+      "club_url": "https://www.transfermarkt.de/deutschland-u21/startseite/verein/3817/saison_id/2022",
+      "role": "Vereinsarzt",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Deutschland U20",
+      "club_url": "https://www.transfermarkt.de/deutschland-u20/startseite/verein/5709/saison_id/2021",
+      "role": "Vereinsarzt",
+      "period": "21/22 (01.07.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Deutschland U18",
+      "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/2020",
+      "role": "Vereinsarzt",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Deutschland U19",
+      "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2019",
+      "role": "Vereinsarzt",
+      "period": "19/20 (01.09.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2011",
+      "role": "Vereinsarzt",
+      "period": "11/12 (01.07.2011) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "19769",
+  "_cached_at": "2026-02-12T18:27:05.062289",
+  "_preloaded_at": "2026-02-12T18:27:05.062865",
+  "_coach_name": "Dr. Stefan Porten"
+}

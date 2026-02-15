@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/jannes-ehresmann/profil/trainer/120345",
+  "scraped_at": "2026-02-12T18:46:54.863433",
+  "name": "Jannes Ehresmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "25.06.1998 (27)",
+  "age": 27,
+  "nationality": "Deutschland",
+  "current_role": "Videoanalyst",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2021",
+      "role": "Videoanalyst",
+      "period": "21/22 (01.07.2021) - -"
+    }
+  ],
+  "coach_id": "120345",
+  "_cached_at": "2026-02-12T18:46:54.873705",
+  "_preloaded_at": "2026-02-12T18:46:54.874360",
+  "_coach_name": "Jannes Ehresmann"
+}

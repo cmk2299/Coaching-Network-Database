@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/sebastian-schuppan/profil/trainer/87182",
+  "scraped_at": "2026-02-12T23:25:50.397632",
+  "name": "Sebastian Schuppan",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/87182-1618218830.jpg?lm=1",
+  "dob": "18.07.1986 (39)",
+  "age": 39,
+  "birthplace": "Lauchhammer",
+  "nationality": "Deutschland",
+  "current_role": "Sportlicher Leiter",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2024",
+      "role": "Sportlicher Leiter",
+      "period": "24/25 (16.01.2025) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2023",
+      "role": "Assistent der Geschäftsführung",
+      "period": "23/24 (03.11.2023) - 24/25 (15.01.2025)"
+    },
+    {
+      "club": "Würzb. Kickers",
+      "club_url": "https://www.transfermarkt.de/wurzburger-kickers/startseite/verein/1557/saison_id/2020",
+      "role": "Interimstrainer",
+      "period": "20/21 (02.04.2021) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Würzb. Kickers",
+      "club_url": "https://www.transfermarkt.de/wurzburger-kickers/startseite/verein/1557/saison_id/2020",
+      "role": "Vorstand Sport",
+      "period": "20/21 (17.11.2020) - 21/22 (04.10.2021)"
+    }
+  ],
+  "coach_id": "87182",
+  "_cached_at": "2026-02-12T23:25:50.409747",
+  "_preloaded_at": "2026-02-12T23:25:50.410329",
+  "_coach_name": "Sebastian Schuppan"
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dirk-muller/profil/trainer/6683",
+  "scraped_at": "2026-02-12T18:18:07.621449",
+  "name": "Dirk Müller",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6683-1406670565.jpg?lm=1",
+  "dob": "27.03.1969 (56)",
+  "age": 56,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2006",
+      "role": "Physiotherapeut",
+      "period": "06/07 (01.11.2006) - -"
+    }
+  ],
+  "coach_id": "6683",
+  "_cached_at": "2026-02-12T18:18:07.631501",
+  "_preloaded_at": "2026-02-12T18:18:07.631986",
+  "_coach_name": "Dirk Müller"
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/jan-hoepner/profil/trainer/48621",
+  "scraped_at": "2026-02-12T18:45:16.156043",
+  "name": "Jan Hoepner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/48621-1689881535.jpg?lm=1",
+  "dob": "11.04.1981 (44)",
+  "age": 44,
+  "birthplace": "Köln",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (04.02.2026) - -"
+    },
+    {
+      "club": "F. Düsseldorf",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (08.02.2022) - 25/26 (06.10.2025)"
+    },
+    {
+      "club": "Leverkusen U17",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u17/startseite/verein/21054/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 21/22 (07.02.2022)"
+    }
+  ],
+  "coach_id": "48621",
+  "_cached_at": "2026-02-12T18:45:16.167984",
+  "_preloaded_at": "2026-02-12T18:45:16.169143",
+  "_coach_name": "Jan Hoepner"
+}

@@ -1,0 +1,21 @@
+{
+  "url": "https://www.transfermarkt.de/boban-aleric/profil/trainer/86314",
+  "scraped_at": "2026-02-12T18:04:45.790348",
+  "name": "Boban Aleric",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/86314-1681477453.jpg?lm=1",
+  "current_role": "Zeugwart",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2019",
+      "role": "Zeugwart",
+      "period": "19/20 (01.07.2019) - -"
+    }
+  ],
+  "coach_id": "86314",
+  "_cached_at": "2026-02-12T18:04:45.800783",
+  "_preloaded_at": "2026-02-12T18:04:45.801371",
+  "_coach_name": "Boban Aleric"
+}

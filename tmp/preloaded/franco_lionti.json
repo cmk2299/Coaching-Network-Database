@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/franco-lionti/profil/trainer/3151",
+  "scraped_at": "2026-02-12T18:34:15.269342",
+  "name": "Franco Lionti",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1373971308.jpg?lm=1",
+  "dob": "24.11.1967 (58)",
+  "age": 58,
+  "birthplace": "Agrigent",
+  "nationality": "Italien",
+  "current_role": "Zeugwart",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/1997",
+      "role": "Zeugwart",
+      "period": "97/98 (01.07.1997) - -"
+    }
+  ],
+  "coach_id": "3151",
+  "_cached_at": "2026-02-12T18:34:15.280034",
+  "_preloaded_at": "2026-02-12T18:34:15.281259",
+  "_coach_name": "Franco Lionti"
+}

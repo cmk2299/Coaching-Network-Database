@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/uli-mohr/profil/trainer/1675",
+  "scraped_at": "2026-02-13T00:25:06.247413",
+  "name": "Uli Mohr",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "11.06.1970 (55)",
+  "age": 55,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2002",
+      "role": "Scout",
+      "period": "02/03 (01.07.2002) - -"
+    },
+    {
+      "club": "Hertha BSC",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc/startseite/verein/44/saison_id/1996",
+      "role": "Scout",
+      "period": "96/97 (01.07.1996) - 01/02 (30.06.2002)"
+    }
+  ],
+  "coach_id": "1675",
+  "_cached_at": "2026-02-13T00:25:06.262669",
+  "_preloaded_at": "2026-02-13T00:25:06.263493",
+  "_coach_name": "Uli Mohr"
+}

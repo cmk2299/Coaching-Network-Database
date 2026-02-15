@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/marc-hindelang/profil/trainer/76533",
+  "scraped_at": "2026-02-12T19:04:13.502559",
+  "name": "Marc Hindelang",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "25.03.1967 (58)",
+  "age": 58,
+  "nationality": "Deutschland",
+  "current_role": "Medienmitarbeiter",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Medienmitarbeiter",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2017",
+      "role": "Pressesprecher",
+      "period": "17/18 (01.06.2018) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "76533",
+  "_cached_at": "2026-02-12T19:04:13.512622",
+  "_preloaded_at": "2026-02-12T19:04:13.513495",
+  "_coach_name": "Marc Hindelang"
+}

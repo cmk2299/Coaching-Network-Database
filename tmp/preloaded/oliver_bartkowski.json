@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/oliver-bartkowski/profil/trainer/148067",
+  "scraped_at": "2026-02-12T19:26:59.030816",
+  "name": "Oliver Bartkowski",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/148067-1762661664.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Aufsichtsratsmitglied",
+      "period": "25/26 (01.08.2025) - -"
+    }
+  ],
+  "coach_id": "148067",
+  "_cached_at": "2026-02-12T19:26:59.040698",
+  "_preloaded_at": "2026-02-12T19:26:59.041195",
+  "_coach_name": "Oliver Bartkowski"
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/felix-timpe/profil/trainer/51703",
+  "scraped_at": "2026-02-12T18:32:20.333547",
+  "name": "Felix Timpe",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "21.08.1983 (42)",
+  "age": 42,
+  "nationality": "Deutschland",
+  "current_role": "GF Stadiongesellschaftund weitere Tätigkeiten",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2020",
+      "role": "GF Stadiongesellschaft",
+      "period": "20/21 (01.01.2021) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2013",
+      "role": "Spielbetrieb",
+      "period": "13/14 (01.10.2013) - -"
+    }
+  ],
+  "coach_id": "51703",
+  "_cached_at": "2026-02-12T18:32:20.343518",
+  "_preloaded_at": "2026-02-12T18:32:20.344057",
+  "_coach_name": "Felix Timpe"
+}

@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/hans-joachim-watzke/profil/trainer/6910",
+  "scraped_at": "2026-02-12T18:40:08.489380",
+  "name": "Hans-Joachim Watzke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6910-1476695534.jpg?lm=1",
+  "dob": "21.06.1959 (66)",
+  "age": 66,
+  "birthplace": "Marsberg",
+  "nationality": "Deutschland",
+  "current_role": "Präsident",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2025",
+      "role": "Präsident",
+      "period": "25/26 (23.11.2025) - -"
+    },
+    {
+      "club": "UEFA",
+      "club_url": "https://www.transfermarkt.de/uefa-exekutivkomitee/startseite/verein/30827/saison_id/2022",
+      "role": "Vorstandsmitglied",
+      "period": "22/23 (05.04.2023) - -"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2021",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "21/22 (11.02.2022) - -"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2021",
+      "role": "Vize-Präsident",
+      "period": "21/22 (11.02.2022) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2004",
+      "role": "Vorsitzender Geschäftsführung",
+      "period": "04/05 (11.02.2005) - 25/26 (23.11.2025)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2001",
+      "role": "Schatzmeister",
+      "period": "01/02 (01.11.2001) - 04/05 (10.02.2005)"
+    },
+    {
+      "club": "RW Erlinghausen",
+      "club_url": "https://www.transfermarkt.de/rw-erlinghausen/startseite/verein/8159/saison_id/1995",
+      "role": "Vorstandsvorsitzender",
+      "period": "95/96 (01.07.1995) - 22/23 (28.02.2023)"
+    }
+  ],
+  "coach_id": "6910",
+  "_cached_at": "2026-02-12T18:40:08.502114",
+  "_preloaded_at": "2026-02-12T18:40:08.502700",
+  "_coach_name": "Hans-Joachim Watzke"
+}

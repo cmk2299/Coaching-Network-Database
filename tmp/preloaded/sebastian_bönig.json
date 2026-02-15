@@ -1,0 +1,68 @@
+{
+  "url": "https://www.transfermarkt.de/sebastian-bonig/profil/trainer/30214",
+  "scraped_at": "2026-02-12T23:23:55.904172",
+  "name": "Sebastian Bönig",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/30214-1691614926.jpg?lm=1",
+  "dob": "26.08.1981 (44)",
+  "age": 44,
+  "birthplace": "Erding",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (02.01.2025) - -"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (06.05.2024) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2023",
+      "role": "Betreuer der Leihspieler",
+      "period": "23/24 (18.03.2024) - 24/25 (29.12.2024)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (01.07.2014) - 23/24 (19.11.2023)"
+    },
+    {
+      "club": "U. Berlin U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.05.2014) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Union Berlin II",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-ii/startseite/verein/5303/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.04.2014)"
+    },
+    {
+      "club": "U. Berlin U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2012",
+      "role": "Co-Trainer",
+      "period": "12/13 (01.07.2012) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2011",
+      "role": "Trainer-Auszubildender",
+      "period": "11/12 (01.07.2011) - 13/14 (30.06.2014)"
+    }
+  ],
+  "coach_id": "30214",
+  "_cached_at": "2026-02-12T23:23:55.917347",
+  "_preloaded_at": "2026-02-12T23:23:55.917898",
+  "_coach_name": "Sebastian Bönig"
+}

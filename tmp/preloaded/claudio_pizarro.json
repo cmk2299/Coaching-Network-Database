@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/claudio-pizarro/profil/trainer/92627",
+  "scraped_at": "2026-02-12T18:10:45.011036",
+  "name": "Claudio Pizarro",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/92627-1699441562.jpg?lm=1",
+  "dob": "03.10.1978 (47)",
+  "age": 47,
+  "birthplace": "Callao",
+  "nationality": "PeruItalien",
+  "current_role": "Klubrepräsentant",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2020",
+      "role": "Klubrepräsentant",
+      "period": "20/21 (15.09.2020) - -"
+    }
+  ],
+  "coach_id": "92627",
+  "_cached_at": "2026-02-12T18:10:45.021449",
+  "_preloaded_at": "2026-02-12T18:10:45.022031",
+  "_coach_name": "Claudio Pizarro"
+}

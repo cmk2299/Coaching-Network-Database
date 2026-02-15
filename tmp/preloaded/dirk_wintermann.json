@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/dirk-wintermann/profil/trainer/95985",
+  "scraped_at": "2026-02-12T18:18:22.615508",
+  "name": "Dirk Wintermann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/95985-1675942155.jpg?lm=1",
+  "dob": "13.03.1967 (58)",
+  "age": 58,
+  "birthplace": "Oldenburg",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2021",
+      "role": "Aufsichtsratsmitglied",
+      "period": "21/22 (01.10.2021) - -"
+    },
+    {
+      "club": "Großenkneten",
+      "club_url": "https://www.transfermarkt.de/tsv-grossenkneten/startseite/verein/29699/saison_id/2019",
+      "role": "Vorstandsvorsitzender",
+      "period": "19/20 (01.10.2019) - 21/22 (30.09.2021)"
+    }
+  ],
+  "coach_id": "95985",
+  "_cached_at": "2026-02-12T18:18:22.625735",
+  "_preloaded_at": "2026-02-12T18:18:22.626642",
+  "_coach_name": "Dirk Wintermann"
+}

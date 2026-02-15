@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/frank-ordenewitz/profil/trainer/2313",
+  "scraped_at": "2026-02-12T18:35:17.713733",
+  "name": "Frank Ordenewitz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/2313-1687186514.jpg?lm=1",
+  "dob": "25.03.1965 (60)",
+  "age": 60,
+  "birthplace": "Dorfmark",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2011",
+      "role": "Chefscout",
+      "period": "11/12 (01.01.2012) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2008",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "08/09 (01.10.2008) - 11/12 (31.12.2011)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2005",
+      "role": "Scout",
+      "period": "05/06 (01.07.2005) - 08/09 (30.09.2008)"
+    }
+  ],
+  "coach_id": "2313",
+  "_cached_at": "2026-02-12T18:35:17.725197",
+  "_preloaded_at": "2026-02-12T18:35:17.725835",
+  "_coach_name": "Frank Ordenewitz"
+}

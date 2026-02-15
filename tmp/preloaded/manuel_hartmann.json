@@ -1,0 +1,62 @@
+{
+  "url": "https://www.transfermarkt.de/manuel-hartmann/profil/trainer/48447",
+  "scraped_at": "2026-02-12T19:03:20.172311",
+  "name": "Manuel Hartmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/48447-1661349561.jpg?lm=1",
+  "dob": "26.03.1984 (41)",
+  "age": 41,
+  "birthplace": "Esslingen am Neckar",
+  "nationality": "Deutschland",
+  "license": "A+-Lizenz",
+  "current_role": "Trainerund weitere Tätigkeiten",
+  "current_club": "1.FC Köln Jgd.",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880",
+  "career_history": [
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2025",
+      "role": "Trainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2025",
+      "role": "Verbindungstrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2024",
+      "role": "Trainer",
+      "period": "24/25 (01.07.2024) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2023",
+      "role": "Trainer",
+      "period": "23/24 (01.07.2023) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2022",
+      "role": "Trainer",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (01.07.2018) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "TSV Schilksee",
+      "club_url": "https://www.transfermarkt.de/tsv-schilksee/startseite/verein/24244/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (31.12.2016)"
+    }
+  ],
+  "coach_id": "48447",
+  "_cached_at": "2026-02-12T19:03:20.184744",
+  "_preloaded_at": "2026-02-12T19:03:20.185343",
+  "_coach_name": "Manuel Hartmann"
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/lars-kupper/profil/trainer/82408",
+  "scraped_at": "2026-02-12T18:58:03.337362",
+  "name": "Lars Küpper",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "10.04.1977 (48)",
+  "age": 48,
+  "nationality": "Deutschland",
+  "current_role": "Direktor Recht",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2015",
+      "role": "Direktor Recht",
+      "period": "15/16 (01.07.2015) - -"
+    }
+  ],
+  "coach_id": "82408",
+  "_cached_at": "2026-02-12T18:58:03.347253",
+  "_preloaded_at": "2026-02-12T18:58:03.347867",
+  "_coach_name": "Lars Küpper"
+}

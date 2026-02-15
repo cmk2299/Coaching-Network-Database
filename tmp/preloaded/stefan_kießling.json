@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/stefan-kiessling/profil/trainer/60982",
+  "scraped_at": "2026-02-12T23:28:51.443263",
+  "name": "Stefan Kießling",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/60982-1538134841.jpg?lm=1",
+  "dob": "25.01.1984 (42)",
+  "age": 42,
+  "birthplace": "Lichtenfels",
+  "nationality": "Deutschland",
+  "current_role": "Klubrepräsentant",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2023",
+      "role": "Klubrepräsentant",
+      "period": "23/24 (18.08.2023) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Koordinator Lizenzbereich",
+      "period": "18/19 (28.09.2018) - 23/24 (17.08.2023)"
+    }
+  ],
+  "coach_id": "60982",
+  "_cached_at": "2026-02-12T23:28:51.453747",
+  "_preloaded_at": "2026-02-12T23:28:51.454232",
+  "_coach_name": "Stefan Kießling"
+}

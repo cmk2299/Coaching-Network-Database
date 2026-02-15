@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/max-beckmann/profil/trainer/98570",
+  "scraped_at": "2026-02-12T19:15:12.918669",
+  "name": "Max Beckmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.06.1986 (39)",
+  "age": 39,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2015",
+      "role": "Zeugwart",
+      "period": "15/16 (01.06.2016) - -"
+    }
+  ],
+  "coach_id": "98570",
+  "_cached_at": "2026-02-12T19:15:12.928497",
+  "_preloaded_at": "2026-02-12T19:15:12.929157",
+  "_coach_name": "Max Beckmann"
+}

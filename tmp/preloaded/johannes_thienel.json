@@ -1,0 +1,67 @@
+{
+  "url": "https://www.transfermarkt.de/johannes-thienel/profil/trainer/62775",
+  "scraped_at": "2026-02-12T18:49:27.139587",
+  "name": "Johannes Thienel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/62775-1534798186.JPG?lm=1",
+  "dob": "08.08.1992 (33)",
+  "age": 33,
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Rehatrainer",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2022",
+      "role": "Rehatrainer",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "SC Paderborn",
+      "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "E. Braunschweig",
+      "club_url": "https://www.transfermarkt.de/eintracht-braunschweig/startseite/verein/23/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "SF Lotte",
+      "club_url": "https://www.transfermarkt.de/sportfreunde-lotte/startseite/verein/668/saison_id/2018",
+      "role": "Athletiktrainer",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "U. Berlin U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2017",
+      "role": "Rehatrainer",
+      "period": "17/18 (05.08.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "U. Berlin Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-jugend/startseite/verein/36841/saison_id/2017",
+      "role": "Rehatrainer",
+      "period": "17/18 (05.08.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "U. Berlin U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u17/startseite/verein/21099/saison_id/2016",
+      "role": "Rehatrainer",
+      "period": "16/17 (05.08.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "U. Berlin U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u17/startseite/verein/21099/saison_id/2016",
+      "role": "Athletiktrainer",
+      "period": "16/17 (05.08.2016) - 17/18 (04.08.2017)"
+    }
+  ],
+  "coach_id": "62775",
+  "_cached_at": "2026-02-12T18:49:27.152153",
+  "_preloaded_at": "2026-02-12T18:49:27.152815",
+  "_coach_name": "Johannes Thienel"
+}

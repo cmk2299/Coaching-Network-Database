@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/franz-reiner/profil/trainer/144403",
+  "scraped_at": "2026-02-12T18:36:27.933036",
+  "name": "Franz Reiner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.07.1967 (58)",
+  "age": 58,
+  "birthplace": "Houston, Texas",
+  "nationality": "Vereinigte Staaten",
+  "current_role": "stellv. Aufsichtsratsvorsitzender",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "stellv. Aufsichtsratsvorsitzender",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2016",
+      "role": "Aufsichtsratsmitglied",
+      "period": "16/17 (09.10.2016) - 24/25 (30.06.2025)"
+    }
+  ],
+  "coach_id": "144403",
+  "_cached_at": "2026-02-12T18:36:27.943092",
+  "_preloaded_at": "2026-02-12T18:36:27.943672",
+  "_coach_name": "Franz Reiner"
+}

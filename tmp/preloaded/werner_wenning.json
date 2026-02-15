@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/werner-wenning/profil/trainer/52164",
+  "scraped_at": "2026-02-13T00:45:05.317305",
+  "name": "Werner Wenning",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "21.10.1946 (79)",
+  "age": 79,
+  "birthplace": "Leverkusen",
+  "nationality": "Deutschland",
+  "current_role": "Mitglied Gesellschafter-Ausschuss",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2010",
+      "role": "Mitglied Gesellschafter-Ausschuss",
+      "period": "10/11 (03.12.2010) - -"
+    }
+  ],
+  "coach_id": "52164",
+  "_cached_at": "2026-02-13T00:45:05.338121",
+  "_preloaded_at": "2026-02-13T00:45:05.339047",
+  "_coach_name": "Werner Wenning"
+}

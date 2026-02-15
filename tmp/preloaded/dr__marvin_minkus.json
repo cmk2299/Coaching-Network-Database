@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/dr-marvin-minkus/profil/trainer/105712",
+  "scraped_at": "2026-02-12T18:24:49.374670",
+  "name": "Dr. Marvin Minkus",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "06.03.1991 (34)",
+  "age": 34,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2022",
+      "role": "Vereinsarzt",
+      "period": "22/23 (01.07.2022) - -"
+    }
+  ],
+  "coach_id": "105712",
+  "_cached_at": "2026-02-12T18:24:49.384772",
+  "_preloaded_at": "2026-02-12T18:24:49.385379",
+  "_coach_name": "Dr. Marvin Minkus"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/marco-ban/profil/trainer/69050",
+  "scraped_at": "2026-02-12T19:05:46.001497",
+  "name": "Marco Ban",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "26.08.1994 (31)",
+  "age": 31,
+  "birthplace": "Stuttgart",
+  "nationality": "DeutschlandKroatien",
+  "current_role": "Scout",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2023",
+      "role": "Scout",
+      "period": "23/24 (28.01.2024) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.07.2019) - -"
+    }
+  ],
+  "coach_id": "69050",
+  "_cached_at": "2026-02-12T19:05:46.011780",
+  "_preloaded_at": "2026-02-12T19:05:46.012372",
+  "_coach_name": "Marco Ban"
+}

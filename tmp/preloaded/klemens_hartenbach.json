@@ -1,0 +1,79 @@
+{
+  "url": "https://www.transfermarkt.de/klemens-hartenbach/profil/trainer/2987",
+  "scraped_at": "2026-02-12T18:56:39.989935",
+  "name": "Klemens Hartenbach",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/2987-1502991951.jpg?lm=1",
+  "dob": "29.08.1964 (61)",
+  "age": 61,
+  "birthplace": "Freiburg",
+  "nationality": "Deutschland",
+  "current_role": "Sportdirektorund weitere Tätigkeiten",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2012",
+      "role": "Sportdirektor",
+      "period": "12/13 (01.04.2013) - -"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2007",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "07/08 (01.07.2007) - -"
+    },
+    {
+      "club": "SC Freiburg U19",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2001",
+      "role": "Sportlicher Leiter",
+      "period": "01/02 (30.09.2001) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "SC Freiburg U17",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u17/startseite/verein/21075/saison_id/2001",
+      "role": "Sportlicher Leiter",
+      "period": "01/02 (30.09.2001) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Freiburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-jugend/startseite/verein/18042/saison_id/2001",
+      "role": "Sportlicher Leiter",
+      "period": "01/02 (30.09.2001) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2001",
+      "role": "Nachwuchsscout",
+      "period": "01/02 (01.09.2001) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "SC Freiburg II",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-ii/startseite/verein/245/saison_id/2001",
+      "role": "Sportlicher Leiter",
+      "period": "01/02 (01.09.2001) - 12/13 (30.06.2016)"
+    },
+    {
+      "club": "SC Freiburg U19",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2001",
+      "role": "Co-Trainer",
+      "period": "01/02 (01.09.2001) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "SC Freiburg U19",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2001",
+      "role": "Torwarttrainer",
+      "period": "01/02 (01.09.2001) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "SF Elzach-Yach",
+      "club_url": "https://www.transfermarkt.de/sf-elzach-yach/startseite/verein/22143/saison_id/1998",
+      "role": "Spielertrainer",
+      "period": "98/99 (01.07.1998) - 01/02 (31.08.2001)"
+    }
+  ],
+  "coach_id": "2987",
+  "_cached_at": "2026-02-12T18:56:40.003200",
+  "_preloaded_at": "2026-02-12T18:56:40.003826",
+  "_coach_name": "Klemens Hartenbach"
+}

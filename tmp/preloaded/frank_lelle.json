@@ -1,0 +1,85 @@
+{
+  "url": "https://www.transfermarkt.de/frank-lelle/profil/trainer/10092",
+  "scraped_at": "2026-02-12T18:35:10.320785",
+  "name": "Frank Lelle",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_10092_2_2012_1.jpg?lm=1",
+  "dob": "04.02.1965 (61)",
+  "age": 61,
+  "birthplace": "Hermersberg",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2017",
+      "role": "Nachwuchs-Chefscout",
+      "period": "17/18 (01.02.2018) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2014",
+      "role": "Scout",
+      "period": "14/15 (01.07.2014) - 17/18 (31.01.2018)"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2012",
+      "role": "Scout",
+      "period": "12/13 (01.03.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "K'lautern II",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern-ii/startseite/verein/151/saison_id/2008",
+      "role": "Interimstrainer",
+      "period": "08/09 (04.05.2009) - 08/09 (24.05.2009)"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2008",
+      "role": "Nachwuchskoordinator",
+      "period": "08/09 (01.07.2008) - 12/13 (28.02.2013)"
+    },
+    {
+      "club": "LR Ahlen",
+      "club_url": "https://www.transfermarkt.de/rot-weiss-ahlen/startseite/verein/50/saison_id/2003",
+      "role": "Co-Trainer",
+      "period": "03/04 - 03/04"
+    },
+    {
+      "club": "W. Mannheim",
+      "club_url": "https://www.transfermarkt.de/sv-waldhof-mannheim/startseite/verein/85/saison_id/2002",
+      "role": "Co-Trainer",
+      "period": "02/03 (03.04.2003) - 02/03 (31.05.2003)"
+    },
+    {
+      "club": "Karlsruher SC",
+      "club_url": "https://www.transfermarkt.de/karlsruher-sc/startseite/verein/48/saison_id/2000",
+      "role": "Co-Trainer",
+      "period": "00/01 (01.07.2000) - 02/03 (25.10.2002)"
+    },
+    {
+      "club": "FK Pirmasens",
+      "club_url": "https://www.transfermarkt.de/fk-pirmasens/startseite/verein/726/saison_id/1998",
+      "role": "Trainer",
+      "period": "98/99 (09.09.1998) - 99/00 (30.06.2000)"
+    },
+    {
+      "club": "Pirmasens U19",
+      "club_url": "https://www.transfermarkt.de/fk-pirmasens-u19/startseite/verein/7826",
+      "role": "Trainer",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "10092",
+  "_cached_at": "2026-02-12T18:35:10.333954",
+  "_preloaded_at": "2026-02-12T18:35:10.334742",
+  "_coach_name": "Frank Lelle"
+}

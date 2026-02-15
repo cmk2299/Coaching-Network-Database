@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/michael-hafner/profil/trainer/54251",
+  "scraped_at": "2026-02-12T19:18:31.698267",
+  "name": "Michael Häfner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2016",
+      "role": "Aufsichtsratsmitglied",
+      "period": "16/17 (25.06.2017) - -"
+    }
+  ],
+  "coach_id": "54251",
+  "_cached_at": "2026-02-12T19:18:31.707858",
+  "_preloaded_at": "2026-02-12T19:18:31.708408",
+  "_coach_name": "Michael Häfner"
+}

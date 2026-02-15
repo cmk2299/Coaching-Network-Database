@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/gerrit-meier/profil/trainer/115449",
+  "scraped_at": "2026-02-12T18:37:59.616302",
+  "name": "Gerrit Meier",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "18.11.1970 (55)",
+  "age": 55,
+  "birthplace": "Oldenburg",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2023",
+      "role": "Aufsichtsratsmitglied",
+      "period": "23/24 (01.07.2023) - vsl. 30.06.2027"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2020",
+      "role": "Strategischer Berater",
+      "period": "20/21 (01.10.2020) - 20/21 (31.10.2020)"
+    }
+  ],
+  "coach_id": "115449",
+  "_cached_at": "2026-02-12T18:37:59.626473",
+  "_preloaded_at": "2026-02-12T18:37:59.627004",
+  "_coach_name": "Gerrit Meier"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/erwin-staudt/profil/trainer/8330",
+  "scraped_at": "2026-02-12T18:29:21.619784",
+  "name": "Erwin Staudt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "25.02.1948 (77)",
+  "age": 77,
+  "birthplace": "Leonberg",
+  "nationality": "Deutschland",
+  "current_role": "Ehrenpräsident",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2011",
+      "role": "Ehrenpräsident",
+      "period": "11/12 (04.08.2011) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2002",
+      "role": "Präsident",
+      "period": "02/03 (26.06.2003) - 11/12 (18.07.2011)"
+    }
+  ],
+  "coach_id": "8330",
+  "_cached_at": "2026-02-12T18:29:21.636555",
+  "_preloaded_at": "2026-02-12T18:29:21.637231",
+  "_coach_name": "Erwin Staudt"
+}

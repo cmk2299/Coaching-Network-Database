@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/tobias-werner/profil/trainer/79781",
+  "scraped_at": "2026-02-13T00:23:12.257771",
+  "name": "Tobias Werner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/79781-1647246461.jpg?lm=1",
+  "dob": "19.07.1985 (40)",
+  "age": 40,
+  "birthplace": "Gera",
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchskoordinator",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2024",
+      "role": "Verbindungstrainer",
+      "period": "24/25 (03.07.2024) - -"
+    },
+    {
+      "club": "J. Regensburg",
+      "club_url": "https://www.transfermarkt.de/ssv-jahn-regensburg/startseite/verein/109/saison_id/2022",
+      "role": "Geschäftsführer Sport",
+      "period": "22/23 (01.12.2022) - 22/23 (23.05.2023)"
+    },
+    {
+      "club": "Carl Zeiss Jena",
+      "club_url": "https://www.transfermarkt.de/fc-carl-zeiss-jena/startseite/verein/113/saison_id/2019",
+      "role": "Sportdirektor",
+      "period": "19/20 (01.06.2020) - 22/23 (30.11.2022)"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2019",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "19/20 (01.07.2019) - 19/20 (31.05.2020)"
+    }
+  ],
+  "coach_id": "79781",
+  "_cached_at": "2026-02-13T00:23:12.305556",
+  "_preloaded_at": "2026-02-13T00:23:12.307349",
+  "_coach_name": "Tobias Werner"
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/laura-kersting/profil/trainer/77477",
+  "scraped_at": "2026-02-12T18:58:41.626899",
+  "name": "Laura Kersting",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/77477-1681477246.jpg?lm=1",
+  "dob": "04.02.1988 (38)",
+  "age": 38,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeutin",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2019",
+      "role": "Physiotherapeutin",
+      "period": "19/20 (01.03.2020) - -"
+    }
+  ],
+  "coach_id": "77477",
+  "_cached_at": "2026-02-12T18:58:41.637221",
+  "_preloaded_at": "2026-02-12T18:58:41.637801",
+  "_coach_name": "Laura Kersting"
+}

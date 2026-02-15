@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/sven-meusch/profil/trainer/25436",
+  "scraped_at": "2026-02-13T00:01:43.918623",
+  "name": "Sven Meusch",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "29.09.1981 (44)",
+  "age": 44,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2010",
+      "role": "Scout",
+      "period": "10/11 (01.07.2010) - -"
+    }
+  ],
+  "coach_id": "25436",
+  "_cached_at": "2026-02-13T00:01:43.940748",
+  "_preloaded_at": "2026-02-13T00:01:43.941783",
+  "_coach_name": "Sven Meusch"
+}

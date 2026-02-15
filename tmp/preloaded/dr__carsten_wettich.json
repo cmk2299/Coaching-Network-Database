@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/dr-carsten-wettich/profil/trainer/123288",
+  "scraped_at": "2026-02-12T18:20:25.352219",
+  "name": "Dr. Carsten Wettich",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.09.1979 (46)",
+  "age": 46,
+  "birthplace": "Köln",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2019",
+      "role": "Vize-Präsident",
+      "period": "19/20 (15.12.2019) - 25/26 (27.09.2025)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2019",
+      "role": "Aufsichtsratsmitglied",
+      "period": "19/20 (15.12.2019) - -"
+    }
+  ],
+  "coach_id": "123288",
+  "_cached_at": "2026-02-12T18:20:25.362335",
+  "_preloaded_at": "2026-02-12T18:20:25.362974",
+  "_coach_name": "Dr. Carsten Wettich"
+}

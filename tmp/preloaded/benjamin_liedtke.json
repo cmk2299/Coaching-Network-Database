@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/benjamin-liedtke/profil/trainer/117177",
+  "scraped_at": "2026-02-12T18:02:51.528259",
+  "name": "Benjamin Liedtke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "05.01.1987 (39)",
+  "age": 39,
+  "nationality": "Deutschland",
+  "current_role": "Leiter der Nachwuchsabteilung",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2020",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "20/21 (15.01.2021) - -"
+    },
+    {
+      "club": "St. Pauli Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli-jugend/startseite/verein/29107/saison_id/2018",
+      "role": "Sportlicher Leiter",
+      "period": "18/19 (01.01.2019) - 20/21 (14.01.2021)"
+    }
+  ],
+  "coach_id": "117177",
+  "_cached_at": "2026-02-12T18:02:51.538082",
+  "_preloaded_at": "2026-02-12T18:02:51.538595",
+  "_coach_name": "Benjamin Liedtke"
+}

@@ -1,0 +1,86 @@
+{
+  "url": "https://www.transfermarkt.de/klaus-augenthaler/profil/trainer/10",
+  "scraped_at": "2026-02-12T18:56:01.239383",
+  "name": "Klaus Augenthaler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/10-1589534427.jpg?lm=1",
+  "dob": "26.09.1957 (68)",
+  "age": 68,
+  "birthplace": "Fürstenzell",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Klubrepräsentant",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2017",
+      "role": "Jugendtrainer",
+      "period": "17/18 (01.07.2017) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2017",
+      "role": "Klubrepräsentant",
+      "period": "17/18 (01.07.2017) - -"
+    },
+    {
+      "club": "SV Donaustauf",
+      "club_url": "https://www.transfermarkt.de/sv-donaustauf/startseite/verein/33844/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Unterhaching",
+      "club_url": "https://www.transfermarkt.de/spvgg-unterhaching/startseite/verein/66/saison_id/2009",
+      "role": "Trainer",
+      "period": "09/10 (23.03.2010) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2005",
+      "role": "Trainer",
+      "period": "05/06 (29.12.2005) - 06/07 (19.05.2007)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2002",
+      "role": "Trainer",
+      "period": "02/03 (13.05.2003) - 05/06 (16.09.2005)"
+    },
+    {
+      "club": "1.FC Nürnberg",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg/startseite/verein/4/saison_id/1999",
+      "role": "Trainer",
+      "period": "99/00 (02.03.2000) - 02/03 (30.04.2003)"
+    },
+    {
+      "club": "Grazer AK",
+      "club_url": "https://www.transfermarkt.de/grazer-ak-1902/startseite/verein/316/saison_id/1997",
+      "role": "Trainer",
+      "period": "97/98 (01.07.1997) - 99/00 (01.03.2000)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/1995",
+      "role": "Interimstrainer",
+      "period": "95/96 (16.05.1996) - 95/96 (30.06.1996)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/1992",
+      "role": "Co-Trainer",
+      "period": "92/93 (01.07.1992) - 96/97 (30.06.1997)"
+    },
+    {
+      "club": "B. München U19",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/1991",
+      "role": "Trainer",
+      "period": "91/92 (09.10.1991) - 91/92 (30.06.1992)"
+    }
+  ],
+  "coach_id": "10",
+  "_cached_at": "2026-02-12T18:56:01.256374",
+  "_preloaded_at": "2026-02-12T18:56:01.257093",
+  "_coach_name": "Klaus Augenthaler"
+}

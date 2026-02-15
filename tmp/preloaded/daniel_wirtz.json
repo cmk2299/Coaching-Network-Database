@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/daniel-wirtz/profil/trainer/52355",
+  "scraped_at": "2026-02-12T18:14:04.267432",
+  "name": "Daniel Wirtz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/52355-1535128835.jpg?lm=1",
+  "dob": "27.03.1982 (43)",
+  "age": 43,
+  "birthplace": "Witten",
+  "nationality": "DeutschlandPortugal",
+  "contract_until": "30.06.2026",
+  "current_role": "Nachwuchsscout",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Nachwuchsscout",
+      "period": "24/25 (01.12.2024) - vsl. 30.06.2026"
+    },
+    {
+      "club": "FC Basel",
+      "club_url": "https://www.transfermarkt.de/fc-basel-1893/startseite/verein/26/saison_id/2023",
+      "role": "Scout",
+      "period": "23/24 (01.01.2024) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2021",
+      "role": "Koordinator Nachwuchsscouting",
+      "period": "21/22 (01.01.2022) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2020",
+      "role": "Nachwuchsscout",
+      "period": "20/21 (01.11.2020) - 21/22 (31.12.2021)"
+    },
+    {
+      "club": "KFC Uerdingen",
+      "club_url": "https://www.transfermarkt.de/kfc-uerdingen-05/startseite/verein/95/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.07.2016) - 20/21 (31.10.2020)"
+    }
+  ],
+  "coach_id": "52355",
+  "_cached_at": "2026-02-12T18:14:04.279834",
+  "_preloaded_at": "2026-02-12T18:14:04.280702",
+  "_coach_name": "Daniel Wirtz"
+}

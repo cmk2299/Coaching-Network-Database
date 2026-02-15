@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/niko-romm/profil/trainer/107330",
+  "scraped_at": "2026-02-12T19:24:42.475426",
+  "name": "Niko Romm",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.10.1978 (47)",
+  "age": 47,
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainer",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2020",
+      "role": "Athletiktrainer",
+      "period": "20/21 (01.01.2021) - -"
+    },
+    {
+      "club": "Norwich City",
+      "club_url": "https://www.transfermarkt.de/norwich-city/startseite/verein/1123/saison_id/2019",
+      "role": "Performance Manager",
+      "period": "19/20 (01.07.2019) - 20/21 (31.12.2020)"
+    }
+  ],
+  "coach_id": "107330",
+  "_cached_at": "2026-02-12T19:24:42.485641",
+  "_preloaded_at": "2026-02-12T19:24:42.486288",
+  "_coach_name": "Niko Romm"
+}

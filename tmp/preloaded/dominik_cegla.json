@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/dominik-cegla/profil/trainer/123189",
+  "scraped_at": "2026-02-12T18:18:46.268659",
+  "name": "Dominik Cegla",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "27.05.1984 (41)",
+  "age": 41,
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Sportwissenschaftler",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2010",
+      "role": "Sportwissenschaftler",
+      "period": "10/11 (01.01.2011) - -"
+    },
+    {
+      "club": "RB Leipzig Jgd.",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-jugend/startseite/verein/39962/saison_id/2009",
+      "role": "Trainer",
+      "period": "09/10 (01.07.2009) - 10/11 (31.12.2010)"
+    },
+    {
+      "club": "Halle Jgd.",
+      "club_url": "https://www.transfermarkt.de/hallescher-fc-jugend/startseite/verein/37365/saison_id/2006",
+      "role": "Trainer",
+      "period": "06/07 (01.07.2006) - 08/09 (30.09.2008)"
+    }
+  ],
+  "coach_id": "123189",
+  "_cached_at": "2026-02-12T18:18:46.279461",
+  "_preloaded_at": "2026-02-12T18:18:46.280085",
+  "_coach_name": "Dominik Cegla"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/uwe-bein/profil/trainer/3278",
+  "scraped_at": "2026-02-13T00:42:17.833161",
+  "name": "Uwe Bein",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/3278-1487164107.jpg?lm=1",
+  "dob": "26.09.1960 (65)",
+  "age": 65,
+  "birthplace": "Heringen",
+  "nationality": "Deutschland",
+  "current_role": "Klubrepräsentant",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2017",
+      "role": "Klubrepräsentant",
+      "period": "17/18 (04.11.2017) - -"
+    },
+    {
+      "club": "K. Offenbach",
+      "club_url": "https://www.transfermarkt.de/kickers-offenbach/startseite/verein/107/saison_id/2005",
+      "role": "Sportlicher Leiter",
+      "period": "05/06 (01.07.2005) - 05/06 (23.12.2005)"
+    }
+  ],
+  "coach_id": "3278",
+  "_cached_at": "2026-02-13T00:42:17.868314",
+  "_preloaded_at": "2026-02-13T00:42:17.869822",
+  "_coach_name": "Uwe Bein"
+}

@@ -1,0 +1,81 @@
+{
+  "url": "https://www.transfermarkt.de/filip-tapalovic/profil/trainer/27165",
+  "scraped_at": "2026-02-12T18:32:51.291808",
+  "name": "Filip Tapalovic",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/27165-1663754073.jpg?lm=1",
+  "dob": "22.10.1976 (49)",
+  "age": 49,
+  "birthplace": "Gelsenkirchen",
+  "nationality": "KroatienDeutschland",
+  "contract_until": "30.06.2026",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (02.02.2025) - vsl. 30.06.2026"
+    },
+    {
+      "club": "Hull City",
+      "club_url": "https://www.transfermarkt.de/hull-city/startseite/verein/3008/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (01.07.2024) - 24/25 (27.11.2024)"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (01.07.2021) - 23/24 (12.02.2024)"
+    },
+    {
+      "club": "Melbourne Vict.",
+      "club_url": "https://www.transfermarkt.de/melbourne-victory/startseite/verein/7006/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (04.07.2019) - 19/20 (15.01.2020)"
+    },
+    {
+      "club": "Adelaide United",
+      "club_url": "https://www.transfermarkt.de/adelaide-united/startseite/verein/875/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (27.06.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "1860 München",
+      "club_url": "https://www.transfermarkt.de/tsv-1860-munchen/startseite/verein/72/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (08.10.2014) - 14/15 (17.02.2015)"
+    },
+    {
+      "club": "TSV 1860 U19",
+      "club_url": "https://www.transfermarkt.de/tsv-1860-munchen-u19/startseite/verein/2510/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 14/15 (07.10.2014)"
+    },
+    {
+      "club": "1860 München",
+      "club_url": "https://www.transfermarkt.de/tsv-1860-munchen/startseite/verein/72/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (09.04.2014) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "TSV 1860 U17",
+      "club_url": "https://www.transfermarkt.de/tsv-1860-munchen-u17/startseite/verein/21083/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "TSV 1860 U19",
+      "club_url": "https://www.transfermarkt.de/tsv-1860-munchen-u19/startseite/verein/2510/saison_id/2012",
+      "role": "Co-Trainer",
+      "period": "12/13 (01.01.2013) - 12/13 (30.06.2013)"
+    }
+  ],
+  "coach_id": "27165",
+  "_cached_at": "2026-02-12T18:32:51.306094",
+  "_preloaded_at": "2026-02-12T18:32:51.306788",
+  "_coach_name": "Filip Tapalovic"
+}

@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/gordana-markovic-masala/profil/trainer/15451",
+  "scraped_at": "2026-02-12T18:38:22.130060",
+  "name": "Gordana Markovic-Masala",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_15451_102_2010_1.jpg?lm=1",
+  "dob": "19.10.1957 (68)",
+  "age": 68,
+  "birthplace": "Mala Drenova",
+  "nationality": "Serbien",
+  "current_role": "Zeugwärtin",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2003",
+      "role": "Zeugwärtin",
+      "period": "03/04 (20.02.2004) - -"
+    }
+  ],
+  "coach_id": "15451",
+  "_cached_at": "2026-02-12T18:38:22.140353",
+  "_preloaded_at": "2026-02-12T18:38:22.140863",
+  "_coach_name": "Gordana Markovic-Masala"
+}

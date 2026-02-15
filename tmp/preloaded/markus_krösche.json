@@ -1,0 +1,51 @@
+{
+  "url": "https://www.transfermarkt.de/markus-krosche/profil/trainer/34524",
+  "scraped_at": "2026-02-12T19:09:35.592793",
+  "name": "Markus Krösche",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/34524-1770809882.png?lm=1",
+  "dob": "17.09.1980 (45)",
+  "age": 45,
+  "birthplace": "Hannover",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2028",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Sportvorstand",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2020",
+      "role": "Sportvorstand",
+      "period": "20/21 (01.06.2021) - vsl. 30.06.2028"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2019",
+      "role": "Sportdirektor",
+      "period": "19/20 (01.07.2019) - 20/21 (31.05.2021)"
+    },
+    {
+      "club": "SC Paderborn",
+      "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2016",
+      "role": "Geschäftsführer Sport",
+      "period": "16/17 (17.03.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 16/17 (05.03.2017)"
+    },
+    {
+      "club": "SC Paderborn II",
+      "club_url": "https://www.transfermarkt.de/sc-paderborn-07-ii/startseite/verein/6604/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "34524",
+  "_cached_at": "2026-02-12T19:09:35.608350",
+  "_preloaded_at": "2026-02-12T19:09:35.609230",
+  "_coach_name": "Markus Krösche"
+}

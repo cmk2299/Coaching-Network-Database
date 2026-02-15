@@ -1,0 +1,71 @@
+{
+  "url": "https://www.transfermarkt.de/david-krecidlo/profil/trainer/22057",
+  "scraped_at": "2026-02-12T18:15:05.196554",
+  "name": "David Krecidlo",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/22057-1597907477.jpg?lm=1",
+  "dob": "19.01.1984 (42)",
+  "age": 42,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2028",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "BALLWERK Sports GmbH",
+  "agent_url": "https://www.transfermarkt.de/ballwerk-sports-gmbh/beraterfirma/berater/4910",
+  "current_role": "Co-Trainer",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (03.04.2023) - vsl. 30.06.2028"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (27.07.2020) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 20/21 (26.07.2020)"
+    },
+    {
+      "club": "B. München U19",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "RB Leipzig U19",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig-u19/startseite/verein/26621/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "H. Zehlendorf",
+      "club_url": "https://www.transfermarkt.de/fc-hertha-03-zehlendorf/startseite/verein/2943/saison_id/2015",
+      "role": "Sportlicher Leiter",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Zehlendorf U19",
+      "club_url": "https://www.transfermarkt.de/fc-hertha-03-zehlendorf-u19/startseite/verein/10342/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Zehlendorf U19",
+      "club_url": "https://www.transfermarkt.de/fc-hertha-03-zehlendorf-u19/startseite/verein/10342/saison_id/2011",
+      "role": "Co-Trainer",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    }
+  ],
+  "coach_id": "22057",
+  "_cached_at": "2026-02-12T18:15:05.210497",
+  "_preloaded_at": "2026-02-12T18:15:05.211184",
+  "_coach_name": "David Krecidlo"
+}

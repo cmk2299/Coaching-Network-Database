@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/bernd-weng/profil/trainer/1570",
+  "scraped_at": "2026-02-12T18:03:52.733374",
+  "name": "Bernd Weng",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/1570-1438074928.jpg?lm=1",
+  "dob": "27.08.1969 (56)",
+  "age": 56,
+  "nationality": "Deutschland",
+  "license": "Torwarttrainer-Lizenz",
+  "current_role": "Torwarttrainerund weitere Tätigkeiten",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "Heidenheimer SB",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2000",
+      "role": "Torwarttrainer",
+      "period": "00/01 (01.07.2000) - -"
+    },
+    {
+      "club": "Heidenheimer SB",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2000",
+      "role": "Torwartkoordinator NLZ",
+      "period": "00/01 (01.07.2000) - -"
+    }
+  ],
+  "coach_id": "1570",
+  "_cached_at": "2026-02-12T18:03:52.743996",
+  "_preloaded_at": "2026-02-12T18:03:52.744577",
+  "_coach_name": "Bernd Weng"
+}

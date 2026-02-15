@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/oskar-kosche/profil/trainer/15074",
+  "scraped_at": "2026-02-12T19:27:45.571028",
+  "name": "Oskar Kosche",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "18.08.1967 (58)",
+  "age": 58,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "current_role": "Geschäftsführerund weitere Tätigkeiten",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2017",
+      "role": "Präsidiumsmitglied",
+      "period": "17/18 (01.07.2017) - -"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2014",
+      "role": "Geschäftsführer",
+      "period": "14/15 (26.04.2015) - -"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2006",
+      "role": "Geschäftsführer",
+      "period": "06/07 (01.07.2006) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2003",
+      "role": "Nachwuchskoordinator",
+      "period": "03/04 (01.07.2003) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "Babelsberg 03",
+      "club_url": "https://www.transfermarkt.de/sv-babelsberg-03/startseite/verein/90/saison_id/2001",
+      "role": "Interimstrainer",
+      "period": "01/02 (01.02.2002) - 01/02 (04.02.2002)"
+    },
+    {
+      "club": "Babelsberg 03",
+      "club_url": "https://www.transfermarkt.de/sv-babelsberg-03/startseite/verein/90/saison_id/2000",
+      "role": "Manager",
+      "period": "00/01 (01.07.2000) - 02/03 (30.05.2003)"
+    }
+  ],
+  "coach_id": "15074",
+  "_cached_at": "2026-02-12T19:27:45.582383",
+  "_preloaded_at": "2026-02-12T19:27:45.583051",
+  "_coach_name": "Oskar Kosche"
+}

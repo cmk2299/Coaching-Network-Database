@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/michael-schade/profil/trainer/28853",
+  "scraped_at": "2026-02-12T19:20:05.150835",
+  "name": "Michael Schade",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1372673368.jpg?lm=1",
+  "dob": "22.12.1952 (73)",
+  "age": 73,
+  "birthplace": "Solingen",
+  "nationality": "Deutschland",
+  "current_role": "Mitglied Gesellschafter-Ausschuss",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Mitglied Gesellschafter-Ausschuss",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2013",
+      "role": "Geschäftsführer",
+      "period": "13/14 (01.07.2013) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "28853",
+  "_cached_at": "2026-02-12T19:20:05.161951",
+  "_preloaded_at": "2026-02-12T19:20:05.162520",
+  "_coach_name": "Michael Schade"
+}

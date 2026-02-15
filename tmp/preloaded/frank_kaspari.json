@@ -1,0 +1,75 @@
+{
+  "url": "https://www.transfermarkt.de/frank-kaspari/profil/trainer/4864",
+  "scraped_at": "2026-02-12T18:34:53.730292",
+  "name": "Frank Kaspari",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/4864-1734066402.jpg?lm=1",
+  "dob": "03.11.1970 (55)",
+  "age": 55,
+  "birthplace": "Geislingen",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2028",
+  "license": "A-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2025",
+      "role": "Co-Trainer",
+      "period": "25/26 (01.07.2025) - vsl. 30.06.2028"
+    },
+    {
+      "club": "SC Paderborn",
+      "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (01.07.2022) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2021",
+      "role": "Betreuer der Leihspieler",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (18.11.2019) - 20/21 (11.04.2021)"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (25.09.2016) - 17/18 (21.01.2018)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2012",
+      "role": "Co-Trainer",
+      "period": "12/13 (02.04.2013) - 15/16 (26.10.2015)"
+    },
+    {
+      "club": "SSV Ulm U19",
+      "club_url": "https://www.transfermarkt.de/ssv-ulm-1846-u19/startseite/verein/7750/saison_id/2012",
+      "role": "Trainer",
+      "period": "12/13 (19.09.2012) - 12/13 (01.04.2013)"
+    },
+    {
+      "club": "SSV Ulm U19",
+      "club_url": "https://www.transfermarkt.de/ssv-ulm-1846-u19/startseite/verein/7750/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 (01.07.2008) - 09/10 (22.09.2009)"
+    },
+    {
+      "club": "Sonnenhof-Gr.",
+      "club_url": "https://www.transfermarkt.de/sg-sonnenhof-grossaspach/startseite/verein/2589/saison_id/2007",
+      "role": "Co-Trainer",
+      "period": "07/08 (01.07.2007) - 07/08 (19.11.2007)"
+    }
+  ],
+  "coach_id": "4864",
+  "_cached_at": "2026-02-12T18:34:53.743512",
+  "_preloaded_at": "2026-02-12T18:34:53.744167",
+  "_coach_name": "Frank Kaspari"
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dr-karsten-bogner/profil/trainer/95279",
+  "scraped_at": "2026-02-12T18:23:41.890305",
+  "name": "Dr. Karsten Bogner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/95279-1723535070.jpg?lm=1",
+  "dob": "08.11.1974 (51)",
+  "age": 51,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2021",
+      "role": "Vereinsarzt",
+      "period": "21/22 (01.07.2021) - -"
+    }
+  ],
+  "coach_id": "95279",
+  "_cached_at": "2026-02-12T18:23:41.901163",
+  "_preloaded_at": "2026-02-12T18:23:41.901837",
+  "_coach_name": "Dr. Karsten Bogner"
+}

@@ -1,0 +1,108 @@
+{
+  "url": "https://www.transfermarkt.de/marvin-kilian/profil/trainer/58680",
+  "scraped_at": "2026-02-12T19:12:00.866877",
+  "name": "Marvin Kilian",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/58680-1546346998.jpg?lm=1",
+  "dob": "08.02.1992 (34)",
+  "age": 34,
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainerund weitere Tätigkeiten",
+  "current_club": "Mainz 05 U19",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2024",
+      "role": "Medizinischer Leiter NLZ",
+      "period": "24/25 (01.08.2024) - -"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2024",
+      "role": "Medizinchef",
+      "period": "24/25 (01.08.2024) - -"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2024",
+      "role": "Medizinchef",
+      "period": "24/25 (01.08.2024) - -"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2024",
+      "role": "Medizinchef",
+      "period": "24/25 (01.08.2024) - -"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2019",
+      "role": "Sportwissenschaftler",
+      "period": "19/20 (01.07.2019) - 24/25 (01.08.2024)"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2019",
+      "role": "Rehatrainer",
+      "period": "19/20 (01.07.2019) - 24/25 (01.08.2024)"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2019",
+      "role": "Rehatrainer",
+      "period": "19/20 (01.07.2019) - 24/25 (01.08.2024)"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2019",
+      "role": "Sportwissenschaftler",
+      "period": "19/20 (01.07.2019) - 24/25 (01.08.2024)"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2019",
+      "role": "Rehatrainer",
+      "period": "19/20 (01.07.2019) - 24/25 (01.08.2024)"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2019",
+      "role": "Sportwissenschaftler",
+      "period": "19/20 (01.07.2019) - 24/25 (01.08.2024)"
+    },
+    {
+      "club": "K'lautern II",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern-ii/startseite/verein/151/saison_id/2017",
+      "role": "Athletiktrainer",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "1 JFS Köln U19",
+      "club_url": "https://www.transfermarkt.de/1-jugend-fussball-schule-koln/startseite/verein/23989/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "58680",
+  "_cached_at": "2026-02-12T19:12:00.880648",
+  "_preloaded_at": "2026-02-12T19:12:00.881451",
+  "_coach_name": "Marvin Kilian"
+}

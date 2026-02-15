@@ -1,0 +1,41 @@
+{
+  "url": "https://www.transfermarkt.de/jonas-garzke/profil/trainer/121355",
+  "scraped_at": "2026-02-12T18:50:05.275707",
+  "name": "Jonas Garzke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Teammanager",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2023",
+      "role": "Teammanager",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2019",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "19/20 (15.03.2020) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Wolfsburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-jugend/startseite/verein/12821/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (01.03.2019) - 19/20 (14.03.2020)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "18/19 (01.08.2018) - 18/19 (28.02.2019)"
+    }
+  ],
+  "coach_id": "121355",
+  "_cached_at": "2026-02-12T18:50:05.286229",
+  "_preloaded_at": "2026-02-12T18:50:05.286824",
+  "_coach_name": "Jonas Garzke"
+}

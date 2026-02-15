@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/hinrich-von-hallen/profil/trainer/38936",
+  "scraped_at": "2026-02-12T18:42:26.982470",
+  "name": "Hinrich von Hallen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/38936-1438025292.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Finanzen",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2004",
+      "role": "Direktor Finanzen",
+      "period": "04/05 (09.12.2004) - -"
+    }
+  ],
+  "coach_id": "38936",
+  "_cached_at": "2026-02-12T18:42:26.992524",
+  "_preloaded_at": "2026-02-12T18:42:26.993198",
+  "_coach_name": "Hinrich von Hallen"
+}

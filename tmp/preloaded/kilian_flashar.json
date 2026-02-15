@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/kilian-flashar/profil/trainer/140931",
+  "scraped_at": "2026-02-12T18:55:37.003349",
+  "name": "Kilian Flashar",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "25.06.2000 (25)",
+  "age": 25,
+  "nationality": "Deutschland",
+  "current_role": "Mitarbeiter/-in d. Geschäftsstelle",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2025",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "25/26 (01.08.2025) - -"
+    },
+    {
+      "club": "Viktoria Köln",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln/startseite/verein/1622/saison_id/2024",
+      "role": "Spielbetrieb",
+      "period": "24/25 (01.07.2024) - 25/26 (31.07.2025)"
+    },
+    {
+      "club": "Viktoria Köln",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln/startseite/verein/1622/saison_id/2024",
+      "role": "Sicherheitsbeauftragter",
+      "period": "24/25 (01.07.2024) - 25/26 (31.07.2025)"
+    },
+    {
+      "club": "Viktoria Köln",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-koln/startseite/verein/1622/saison_id/2020",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "20/21 (01.06.2021) - 23/24 (30.06.2024)"
+    }
+  ],
+  "coach_id": "140931",
+  "_cached_at": "2026-02-12T18:55:37.013929",
+  "_preloaded_at": "2026-02-12T18:55:37.014631",
+  "_coach_name": "Kilian Flashar"
+}

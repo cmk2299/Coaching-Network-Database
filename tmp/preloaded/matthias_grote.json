@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/matthias-grote/profil/trainer/71003",
+  "scraped_at": "2026-02-12T19:13:40.459569",
+  "name": "Matthias Grote",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/71003-1616790263.jpg?lm=1",
+  "dob": "10.05.1987 (38)",
+  "age": 38,
+  "birthplace": "Lüneburg",
+  "nationality": "Deutschland",
+  "license": "DFB-Elite-Jugend-Lizenz",
+  "current_role": "Gegneranalyst",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2021",
+      "role": "Gegneranalyst",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "KV Oostende",
+      "club_url": "https://www.transfermarkt.de/kv-oostende/startseite/verein/2861/saison_id/2020",
+      "role": "Co-Trainer Analyse",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2017",
+      "role": "Chefanalytiker",
+      "period": "17/18 (01.07.2017) - 19/20 (31.12.2019)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2012",
+      "role": "Spielanalyst",
+      "period": "12/13 (01.07.2012) - 18/19 (30.06.2017)"
+    },
+    {
+      "club": "Lok Leipzig",
+      "club_url": "https://www.transfermarkt.de/1-fc-lokomotive-leipzig/startseite/verein/497/saison_id/2011",
+      "role": "Athletiktrainer",
+      "period": "11/12 (01.08.2011) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "71003",
+  "_cached_at": "2026-02-12T19:13:40.471289",
+  "_preloaded_at": "2026-02-12T19:13:40.471976",
+  "_coach_name": "Matthias Grote"
+}

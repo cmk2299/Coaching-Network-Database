@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/hans-peter-villis/profil/trainer/39467",
+  "scraped_at": "2026-02-12T18:40:39.055163",
+  "name": "Hans-Peter Villis",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/39467-1478888061.jpg?lm=1",
+  "dob": "06.07.1958 (67)",
+  "age": 67,
+  "birthplace": "Castrop-Rauxel",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsvorsitzenderund weitere Tätigkeiten",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "25/26 (23.06.2025) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "stellv. Vorstandsvorsitzender",
+      "period": "24/25 (23.06.2025) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2018",
+      "role": "Vorstandsvorsitzender",
+      "period": "18/19 (10.08.2018) - 24/25 (23.10.2024)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2012",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "12/13 (10.09.2012) - 24/25 (23.10.2024)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2010",
+      "role": "Aufsichtsratsmitglied",
+      "period": "10/11 (06.09.2010) - 12/13 (09.09.2012)"
+    }
+  ],
+  "coach_id": "39467",
+  "_cached_at": "2026-02-12T18:40:39.066244",
+  "_preloaded_at": "2026-02-12T18:40:39.066777",
+  "_coach_name": "Hans-Peter Villis"
+}

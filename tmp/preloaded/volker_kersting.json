@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/volker-kersting/profil/trainer/42043",
+  "scraped_at": "2026-02-13T00:44:11.664009",
+  "name": "Volker Kersting",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/42043-1536595529.jpg?lm=1",
+  "dob": "08.08.1972 (53)",
+  "age": 53,
+  "nationality": "Deutschland",
+  "current_role": "Leiter der Nachwuchsabteilung",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2009",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "09/10 (01.07.2009) - -"
+    }
+  ],
+  "coach_id": "42043",
+  "_cached_at": "2026-02-13T00:44:11.683746",
+  "_preloaded_at": "2026-02-13T00:44:11.684674",
+  "_coach_name": "Volker Kersting"
+}

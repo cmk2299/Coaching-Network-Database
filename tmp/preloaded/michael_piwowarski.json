@@ -1,0 +1,110 @@
+{
+  "url": "https://www.transfermarkt.de/michael-piwowarski/profil/trainer/2051",
+  "scraped_at": "2026-02-12T19:19:49.595482",
+  "name": "Michael Piwowarski",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "14.11.1948 (77)",
+  "age": 77,
+  "birthplace": "Bissendorf",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2016",
+      "role": "Nachwuchsscout",
+      "period": "16/17 (01.03.2017) - -"
+    },
+    {
+      "club": "Karlsruher SC",
+      "club_url": "https://www.transfermarkt.de/karlsruher-sc/startseite/verein/48/saison_id/2010",
+      "role": "Nachwuchs-Chefscout",
+      "period": "10/11 (01.07.2010) - 16/17 (28.02.2017)"
+    },
+    {
+      "club": "DFB-Jugend",
+      "club_url": "https://www.transfermarkt.de/dfb-jugend/startseite/verein/50422/saison_id/2008",
+      "role": "Nachwuchsscout",
+      "period": "08/09 (01.01.2009) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "Chelsea",
+      "club_url": "https://www.transfermarkt.de/fc-chelsea/startseite/verein/631/saison_id/2006",
+      "role": "Scout",
+      "period": "06/07 (01.09.2006) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "A. Bielefeld II",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-ii/startseite/verein/831/saison_id/2004",
+      "role": "Trainer",
+      "period": "04/05 (01.01.2005) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "W. Mannheim U19",
+      "club_url": "https://www.transfermarkt.de/sv-waldhof-mannheim-u19/startseite/verein/7753/saison_id/1999",
+      "role": "Trainer",
+      "period": "99/00 (01.07.1999) - 03/04 (30.06.2004)"
+    },
+    {
+      "club": "W. Mannheim",
+      "club_url": "https://www.transfermarkt.de/sv-waldhof-mannheim/startseite/verein/85/saison_id/1999",
+      "role": "Nachwuchskoordinator",
+      "period": "99/00 (01.07.1999) - 03/04 (30.06.2004)"
+    },
+    {
+      "club": "FC Huttenheim",
+      "club_url": "https://www.transfermarkt.de/fc-huttenheim/startseite/verein/45087/saison_id/1996",
+      "role": "Trainer",
+      "period": "96/97 - 96/97"
+    },
+    {
+      "club": "Karlsruher SC",
+      "club_url": "https://www.transfermarkt.de/karlsruher-sc/startseite/verein/48/saison_id/1989",
+      "role": "Nachwuchskoordinator",
+      "period": "89/90 (01.07.1989) - 93/94 (30.06.1994)"
+    },
+    {
+      "club": "Karlsruhe U19",
+      "club_url": "https://www.transfermarkt.de/karlsruher-sc-u19/startseite/verein/5370/saison_id/1989",
+      "role": "Trainer",
+      "period": "89/90 (01.07.1989) - 93/94 (30.06.1994)"
+    },
+    {
+      "club": "VfR Rheinsheim",
+      "club_url": "https://www.transfermarkt.de/vfr-rheinsheim/startseite/verein/62975/saison_id/1985",
+      "role": "Trainer",
+      "period": "85/86 - 85/86"
+    },
+    {
+      "club": "TSG Rheda",
+      "club_url": "https://www.transfermarkt.de/tsg-schwarz-gelb-rheda/startseite/verein/102222/saison_id/1983",
+      "role": "Trainer",
+      "period": "83/84 (01.07.1983) - 83/84 (30.06.1984)"
+    },
+    {
+      "club": "SV Alfhausen",
+      "club_url": "https://www.transfermarkt.de/sv-alfhausen/startseite/verein/33371/saison_id/1981",
+      "role": "Trainer",
+      "period": "81/82 - 81/82"
+    },
+    {
+      "club": "TSG Harsewinkel",
+      "club_url": "https://www.transfermarkt.de/tsg-harsewinkel/startseite/verein/37932/saison_id/1980",
+      "role": "Trainer",
+      "period": "80/81 (26.03.1981) - 80/81 (30.06.1981)"
+    },
+    {
+      "club": "TSG Harsewinkel",
+      "club_url": "https://www.transfermarkt.de/tsg-harsewinkel/startseite/verein/37932/saison_id/1980",
+      "role": "Interimstrainer",
+      "period": "80/81 (10.03.1981) - 80/81 (25.03.1981)"
+    }
+  ],
+  "coach_id": "2051",
+  "_cached_at": "2026-02-12T19:19:49.609801",
+  "_preloaded_at": "2026-02-12T19:19:49.610557",
+  "_coach_name": "Michael Piwowarski"
+}

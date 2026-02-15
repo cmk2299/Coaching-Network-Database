@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/prof-dr-dr-heiko-striegel/profil/trainer/17537",
+  "scraped_at": "2026-02-12T23:15:13.779265",
+  "name": "Prof. Dr. Dr. Heiko Striegel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_17537_79_2010_1.jpg?lm=1",
+  "dob": "21.05.1970 (55)",
+  "age": 55,
+  "birthplace": "Bietigheim",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2005",
+      "role": "Vereinsarzt",
+      "period": "05/06 (01.07.2005) - -"
+    }
+  ],
+  "coach_id": "17537",
+  "_cached_at": "2026-02-12T23:15:13.792959",
+  "_preloaded_at": "2026-02-12T23:15:13.793626",
+  "_coach_name": "Prof. Dr. Dr. Heiko Striegel"
+}

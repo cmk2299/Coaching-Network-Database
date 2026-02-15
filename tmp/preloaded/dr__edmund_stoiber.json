@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/dr-edmund-stoiber/profil/trainer/24678",
+  "scraped_at": "2026-02-12T18:21:25.087195",
+  "name": "Dr. Edmund Stoiber",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/24678-1518604400.jpg?lm=1",
+  "dob": "28.09.1941 (84)",
+  "age": 84,
+  "birthplace": "Oberaudorf",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitgliedund weitere Tätigkeiten",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2009",
+      "role": "Aufsichtsratsmitglied",
+      "period": "09/10 (18.01.2010) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2009",
+      "role": "Vorsitzender des Verwaltungsrates",
+      "period": "09/10 (17.12.2009) - -"
+    }
+  ],
+  "coach_id": "24678",
+  "_cached_at": "2026-02-12T18:21:25.098684",
+  "_preloaded_at": "2026-02-12T18:21:25.099365",
+  "_coach_name": "Dr. Edmund Stoiber"
+}

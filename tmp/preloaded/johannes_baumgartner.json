@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/johannes-baumgartner/profil/trainer/121580",
+  "scraped_at": "2026-02-12T18:48:26.103943",
+  "name": "Johannes Baumgartner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "06.05.1957 (68)",
+  "age": 68,
+  "birthplace": "Bad Säckingen",
+  "nationality": "Deutschland",
+  "current_role": "stellv. Aufsichtsratsvorsitzender",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2014",
+      "role": "stellv. Aufsichtsratsvorsitzender",
+      "period": "14/15 (27.10.2014) - -"
+    }
+  ],
+  "coach_id": "121580",
+  "_cached_at": "2026-02-12T18:48:26.114686",
+  "_preloaded_at": "2026-02-12T18:48:26.115273",
+  "_coach_name": "Johannes Baumgartner"
+}

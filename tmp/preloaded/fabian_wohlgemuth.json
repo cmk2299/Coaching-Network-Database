@@ -1,0 +1,69 @@
+{
+  "url": "https://www.transfermarkt.de/fabian-wohlgemuth/profil/trainer/17688",
+  "scraped_at": "2026-02-12T18:31:09.136101",
+  "name": "Fabian Wohlgemuth",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/17688-1721830659.jpg?lm=1",
+  "dob": "02.04.1979 (46)",
+  "age": 46,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "license": "A-Lizenz",
+  "current_role": "Vorstand Sport",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2024",
+      "role": "Vorstand Sport",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2027"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2022",
+      "role": "Sportdirektor",
+      "period": "22/23 (03.12.2022) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "SC Paderborn",
+      "club_url": "https://www.transfermarkt.de/sc-paderborn-07/startseite/verein/127/saison_id/2019",
+      "role": "Geschäftsführer Sport",
+      "period": "19/20 (01.05.2020) - 22/23 (02.12.2022)"
+    },
+    {
+      "club": "Holstein Kiel",
+      "club_url": "https://www.transfermarkt.de/holstein-kiel/startseite/verein/269/saison_id/2017",
+      "role": "Geschäftsführer Sport",
+      "period": "17/18 (03.06.2018) - 19/20 (07.10.2019)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2010",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "10/11 (01.06.2011) - 17/18 (02.06.2018)"
+    },
+    {
+      "club": "Wolfsburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-jugend/startseite/verein/12821/saison_id/2010",
+      "role": "Chefscout",
+      "period": "10/11 (01.01.2011) - 10/11 (31.05.2011)"
+    },
+    {
+      "club": "HSV Jgd.",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv-jugend/startseite/verein/12786/saison_id/2009",
+      "role": "Chefscout",
+      "period": "09/10 (01.07.2009) - 10/11 (31.12.2010)"
+    },
+    {
+      "club": "HSV U17",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv-u17/startseite/verein/21063/saison_id/2008",
+      "role": "Co-Trainer",
+      "period": "08/09 (01.07.2008) - 10/11 (31.12.2010)"
+    }
+  ],
+  "coach_id": "17688",
+  "_cached_at": "2026-02-12T18:31:09.149244",
+  "_preloaded_at": "2026-02-12T18:31:09.149871",
+  "_coach_name": "Fabian Wohlgemuth"
+}

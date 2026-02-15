@@ -1,0 +1,34 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-schreitt/profil/trainer/29557",
+  "scraped_at": "2026-02-13T00:05:43.916814",
+  "name": "Thomas Schreitt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Marketing und Vertrieb",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2019",
+      "role": "Direktor Marketing und Vertrieb",
+      "period": "19/20 (01.03.2020) - -"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2019",
+      "role": "Marketingleiter",
+      "period": "19/20 (01.07.2019) - 19/20 (28.02.2020)"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2012",
+      "role": "Marketing/Management",
+      "period": "12/13 (01.11.2012) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "29557",
+  "_cached_at": "2026-02-13T00:05:43.940514",
+  "_preloaded_at": "2026-02-13T00:05:43.941359",
+  "_coach_name": "Thomas Schreitt"
+}

@@ -1,0 +1,84 @@
+{
+  "url": "https://www.transfermarkt.de/tobias-haussler/profil/trainer/125181",
+  "scraped_at": "2026-02-13T00:21:59.547888",
+  "name": "Tobias Häußler",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.10.1997 (28)",
+  "age": 28,
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainerund weitere Tätigkeiten",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2023",
+      "role": "Athletiktrainer",
+      "period": "23/24 (01.01.2024) - -"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2023",
+      "role": "Rehatrainer",
+      "period": "23/24 (01.01.2024) - -"
+    },
+    {
+      "club": "Heidenheim U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-u19/startseite/verein/14822/saison_id/2022",
+      "role": "Rehatrainer",
+      "period": "22/23 (01.01.2022) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "Heidenheim U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-u19/startseite/verein/14822/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (01.01.2022) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "Heidenheim U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-u17/startseite/verein/36121/saison_id/2021",
+      "role": "Rehatrainer",
+      "period": "21/22 (01.01.2022) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "Heidenheim U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-u17/startseite/verein/36121/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (01.01.2022) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "Heidenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-jugend/startseite/verein/41740/saison_id/2020",
+      "role": "Athletiktrainer",
+      "period": "20/21 (01.07.2020) - 21/22 (31.12.2021)"
+    },
+    {
+      "club": "Heidenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-jugend/startseite/verein/41740/saison_id/2020",
+      "role": "Rehatrainer",
+      "period": "20/21 (01.07.2020) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "Heidenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-jugend/startseite/verein/41740/saison_id/2020",
+      "role": "Athletiktrainer",
+      "period": "20/21 (01.07.2020) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "Heidenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-jugend/startseite/verein/41740/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "SC Staig",
+      "club_url": "https://www.transfermarkt.de/sc-staig/startseite/verein/4631/saison_id/2015",
+      "role": "Fitnesstrainer",
+      "period": "15/16 (01.08.2015) - 21/22 (31.12.2021)"
+    }
+  ],
+  "coach_id": "125181",
+  "_cached_at": "2026-02-13T00:21:59.594622",
+  "_preloaded_at": "2026-02-13T00:21:59.596448",
+  "_coach_name": "Tobias Häußler"
+}

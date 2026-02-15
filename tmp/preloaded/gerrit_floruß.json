@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/gerrit-floruss/profil/trainer/144720",
+  "scraped_at": "2026-02-12T18:37:51.998643",
+  "name": "Gerrit Floruß",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Vorstand Finanzen",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2019",
+      "role": "Vorstand Finanzen",
+      "period": "19/20 (01.01.2020) - -"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2018",
+      "role": "Leiter Finanzen und Personal",
+      "period": "18/19 (01.07.2018) - 19/20 (31.12.2019)"
+    }
+  ],
+  "coach_id": "144720",
+  "_cached_at": "2026-02-12T18:37:52.008503",
+  "_preloaded_at": "2026-02-12T18:37:52.009008",
+  "_coach_name": "Gerrit Floruß"
+}

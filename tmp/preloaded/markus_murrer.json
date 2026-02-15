@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/markus-murrer/profil/trainer/54579",
+  "scraped_at": "2026-02-12T19:09:50.621546",
+  "name": "Markus Murrer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "09.11.1981 (44)",
+  "age": 44,
+  "birthplace": "Salzburg",
+  "nationality": "Österreich",
+  "current_role": "Athletiktrainer",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+      "role": "Athletiktrainer",
+      "period": "24/25 (22.07.2024) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2017",
+      "role": "Athletiktrainer",
+      "period": "17/18 (11.07.2017) - 23/24 (30.06.2024)"
+    }
+  ],
+  "coach_id": "54579",
+  "_cached_at": "2026-02-12T19:09:50.632365",
+  "_preloaded_at": "2026-02-12T19:09:50.632963",
+  "_coach_name": "Markus Murrer"
+}

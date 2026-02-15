@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/raimond-aumann/profil/trainer/6968",
+  "scraped_at": "2026-02-12T23:16:06.957547",
+  "name": "Raimond Aumann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.10.1963 (62)",
+  "age": 62,
+  "birthplace": "Augsburg",
+  "nationality": "Deutschland",
+  "current_role": "Klubrepräsentant",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2022",
+      "role": "Klubrepräsentant",
+      "period": "22/23 (01.02.2023) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/1995",
+      "role": "Fanbeauftragter",
+      "period": "95/96 (01.07.1995) - 22/23 (31.01.2023)"
+    }
+  ],
+  "coach_id": "6968",
+  "_cached_at": "2026-02-12T23:16:06.971142",
+  "_preloaded_at": "2026-02-12T23:16:06.971891",
+  "_coach_name": "Raimond Aumann"
+}

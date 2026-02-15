@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/julien-zamberk/profil/trainer/82147",
+  "scraped_at": "2026-02-12T18:52:29.377397",
+  "name": "Julien Zamberk",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Vorstand Finanzen",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2024",
+      "role": "Vorstand Finanzen",
+      "period": "24/25 (01.11.2024) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2020",
+      "role": "GF Stadiongesellschaft",
+      "period": "20/21 (01.07.2020) - 24/25 (31.10.2024)"
+    }
+  ],
+  "coach_id": "82147",
+  "_cached_at": "2026-02-12T18:52:29.392671",
+  "_preloaded_at": "2026-02-12T18:52:29.394352",
+  "_coach_name": "Julien Zamberk"
+}

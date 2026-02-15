@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/matthias-rosa/profil/trainer/127914",
+  "scraped_at": "2026-02-12T19:14:34.310527",
+  "name": "Matthias Rosa",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.06.1985 (40)",
+  "age": 40,
+  "birthplace": "Tuttlingen",
+  "nationality": "Deutschland",
+  "current_role": "Rehatrainer",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2024",
+      "role": "Rehatrainer",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2018",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "18/19 (01.07.2018) - 23/24 (30.06.2024)"
+    }
+  ],
+  "coach_id": "127914",
+  "_cached_at": "2026-02-12T19:14:34.320849",
+  "_preloaded_at": "2026-02-12T19:14:34.321458",
+  "_coach_name": "Matthias Rosa"
+}

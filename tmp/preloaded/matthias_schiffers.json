@@ -1,0 +1,44 @@
+{
+  "url": "https://www.transfermarkt.de/matthias-schiffers/profil/trainer/11197",
+  "scraped_at": "2026-02-12T19:14:50.161676",
+  "name": "Matthias Schiffers",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/11197-1406635044.jpg?lm=1",
+  "dob": "27.04.1982 (43)",
+  "age": 43,
+  "birthplace": "Aachen",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Athletiktrainer",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2015",
+      "role": "Athletiktrainer",
+      "period": "15/16 (01.01.2016) - -"
+    },
+    {
+      "club": "Stuttgart II",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart-ii/startseite/verein/102/saison_id/2010",
+      "role": "Athletiktrainer",
+      "period": "10/11 (01.07.2010) - 15/16 (31.12.2015)"
+    },
+    {
+      "club": "Alem. Aachen",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen/startseite/verein/8/saison_id/2008",
+      "role": "Athletiktrainer",
+      "period": "08/09 (01.07.2008) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "A. Aachen II",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen-ii/startseite/verein/578/saison_id/2007",
+      "role": "Athletiktrainer",
+      "period": "07/08 (01.07.2007) - 07/08 (30.06.2008)"
+    }
+  ],
+  "coach_id": "11197",
+  "_cached_at": "2026-02-12T19:14:50.173272",
+  "_preloaded_at": "2026-02-12T19:14:50.173900",
+  "_coach_name": "Matthias Schiffers"
+}

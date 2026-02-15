@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/yasar-besohe/profil/trainer/96356",
+  "scraped_at": "2026-02-13T00:46:12.347168",
+  "name": "Yasar Besohé",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/96356-1730191311.jpg?lm=1",
+  "dob": "26.01.1991 (35)",
+  "age": 35,
+  "birthplace": "Köln",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2025",
+      "role": "Physiotherapeut",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Hoffenheim II",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-ii/startseite/verein/983/saison_id/2023",
+      "role": "Physiotherapeut",
+      "period": "23/24 (01.07.2023) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Hoffenheim U19",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u19/startseite/verein/8925/saison_id/2021",
+      "role": "Physiotherapeut",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Hoffenheim U17",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u17/startseite/verein/21082/saison_id/2021",
+      "role": "Physiotherapeut",
+      "period": "21/22 (01.07.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2019",
+      "role": "Physiotherapeut",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2018",
+      "role": "Physiotherapeut",
+      "period": "18/19 (01.09.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2017",
+      "role": "Physiotherapeut",
+      "period": "17/18 (01.02.2018) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "96356",
+  "_cached_at": "2026-02-13T00:46:12.365704",
+  "_preloaded_at": "2026-02-13T00:46:12.366654",
+  "_coach_name": "Yasar Besohé"
+}

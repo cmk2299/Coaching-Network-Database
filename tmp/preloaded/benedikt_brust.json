@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/benedikt-brust/profil/trainer/95278",
+  "scraped_at": "2026-02-12T18:02:05.624316",
+  "name": "Benedikt Brust",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/95278-1755203373.jpg?lm=1",
+  "dob": "13.10.1988 (37)",
+  "age": 37,
+  "nationality": "Deutschland",
+  "current_role": "Videoanalyst",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2016",
+      "role": "Videoanalyst",
+      "period": "16/17 (01.08.2016) - -"
+    }
+  ],
+  "coach_id": "95278",
+  "_cached_at": "2026-02-12T18:02:05.634433",
+  "_preloaded_at": "2026-02-12T18:02:05.634919",
+  "_coach_name": "Benedikt Brust"
+}

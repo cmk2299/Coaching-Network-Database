@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/klaus-beck/profil/trainer/82703",
+  "scraped_at": "2026-02-12T18:56:09.057033",
+  "name": "Klaus Beck",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "19.02.1945 (80)",
+  "age": 80,
+  "birthplace": "Leichlingen",
+  "nationality": "Deutschland",
+  "current_role": "Mitglied Gesellschafter-Ausschuss",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2002",
+      "role": "Mitglied Gesellschafter-Ausschuss",
+      "period": "02/03 (25.05.2003) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2002",
+      "role": "Vorstandsvorsitzender",
+      "period": "02/03 (25.05.2003) - 06/07 (30.06.2007)"
+    }
+  ],
+  "coach_id": "82703",
+  "_cached_at": "2026-02-12T18:56:09.067558",
+  "_preloaded_at": "2026-02-12T18:56:09.068208",
+  "_coach_name": "Klaus Beck"
+}

@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/jan-niklas-droste/profil/trainer/123185",
+  "scraped_at": "2026-02-12T18:44:21.942697",
+  "name": "Jan-Niklas Droste",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "24.07.1990 (35)",
+  "age": 35,
+  "birthplace": "Minden",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2021",
+      "role": "Vereinsarzt",
+      "period": "21/22 (01.07.2021) - -"
+    }
+  ],
+  "coach_id": "123185",
+  "_cached_at": "2026-02-12T18:44:21.952467",
+  "_preloaded_at": "2026-02-12T18:44:21.953046",
+  "_coach_name": "Jan-Niklas Droste"
+}

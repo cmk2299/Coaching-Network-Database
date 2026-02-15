@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/serdar-ayar/profil/trainer/54747",
+  "scraped_at": "2026-02-12T23:26:20.880980",
+  "name": "Serdar Ayar",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.04.1972 (53)",
+  "age": 53,
+  "birthplace": "Dortmund",
+  "nationality": "DeutschlandTürkei",
+  "current_role": "Spielanalystund weitere Tätigkeiten",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2012",
+      "role": "Spielanalyst",
+      "period": "12/13 (01.07.2012) - 17/18 (05.07.2017)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2012",
+      "role": "Scout",
+      "period": "12/13 (01.07.2012) - -"
+    },
+    {
+      "club": "B. Dortmund U19",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-u19/startseite/verein/1464/saison_id/2008",
+      "role": "Spielanalyst",
+      "period": "08/09 (01.07.2008) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "54747",
+  "_cached_at": "2026-02-12T23:26:20.891782",
+  "_preloaded_at": "2026-02-12T23:26:20.892377",
+  "_coach_name": "Serdar Ayar"
+}

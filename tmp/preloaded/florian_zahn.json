@@ -1,0 +1,80 @@
+{
+  "url": "https://www.transfermarkt.de/florian-zahn/profil/trainer/14778",
+  "scraped_at": "2026-02-12T18:33:52.497587",
+  "name": "Florian Zahn",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/14778-1532692886.jpg?lm=1",
+  "dob": "08.12.1981 (44)",
+  "age": 44,
+  "birthplace": "Darmstadt",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Kaderplanerund weitere Tätigkeiten",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2021",
+      "role": "Nachwuchs-Chefscout",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2021",
+      "role": "Kaderplaner",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "B. München U19",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/2021",
+      "role": "Kaderplaner",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "B. München U17",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u17/startseite/verein/21058/saison_id/2021",
+      "role": "Kaderplaner",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.01.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Chelsea",
+      "club_url": "https://www.transfermarkt.de/fc-chelsea/startseite/verein/631/saison_id/2018",
+      "role": "Chefscout",
+      "period": "18/19 (01.07.2018) - 19/20 (31.12.2019)"
+    },
+    {
+      "club": "Chelsea",
+      "club_url": "https://www.transfermarkt.de/fc-chelsea/startseite/verein/631/saison_id/2015",
+      "role": "Scout",
+      "period": "15/16 (01.07.2015) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2013",
+      "role": "Nachwuchs-Chefscout",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "K'lautern U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern-u19/startseite/verein/2371/saison_id/2011",
+      "role": "Co-Trainer",
+      "period": "11/12 (01.07.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Wehen Wiesbaden",
+      "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden/startseite/verein/108/saison_id/2007",
+      "role": "Teammanager",
+      "period": "07/08 (01.05.2008) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "14778",
+  "_cached_at": "2026-02-12T18:33:52.510453",
+  "_preloaded_at": "2026-02-12T18:33:52.511135",
+  "_coach_name": "Florian Zahn"
+}

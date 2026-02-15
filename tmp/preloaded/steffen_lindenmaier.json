@@ -1,0 +1,40 @@
+{
+  "url": "https://www.transfermarkt.de/steffen-lindenmaier/profil/trainer/25880",
+  "scraped_at": "2026-02-12T23:30:40.382135",
+  "name": "Steffen Lindenmaier",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Mitarbeiter/-in d. Geschäftsstelle",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2022",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "22/23 (05.08.2022) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2010",
+      "role": "Medienbeauftragter",
+      "period": "10/11 (01.10.2010) - 22/23 (04.08.2022)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2010",
+      "role": "stellv. Pressesprecher",
+      "period": "10/11 (01.10.2010) - 22/23 (01.08.2022)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2006",
+      "role": "Marketingmitarbeiter",
+      "period": "06/07 (01.01.2007) - 10/11 (30.09.2010)"
+    }
+  ],
+  "coach_id": "25880",
+  "_cached_at": "2026-02-12T23:30:40.415705",
+  "_preloaded_at": "2026-02-12T23:30:40.417081",
+  "_coach_name": "Steffen Lindenmaier"
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/lars-ricken/profil/trainer/6983",
+  "scraped_at": "2026-02-12T18:58:19.028102",
+  "name": "Lars Ricken",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6983-1463493390.jpg?lm=1",
+  "dob": "10.07.1976 (49)",
+  "age": 49,
+  "birthplace": "Dortmund",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "current_role": "Geschäftsführer Sportund weitere Tätigkeiten",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2023",
+      "role": "Geschäftsführer Sport",
+      "period": "23/24 (01.05.2024) - vsl. 30.06.2027"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2020",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "20/21 (10.11.2020) - 23/24 (30.04.2024)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2008",
+      "role": "Nachwuchskoordinator",
+      "period": "08/09 (11.07.2008) - 20/21 (09.11.2020)"
+    }
+  ],
+  "coach_id": "6983",
+  "_cached_at": "2026-02-12T18:58:19.039699",
+  "_preloaded_at": "2026-02-12T18:58:19.040293",
+  "_coach_name": "Lars Ricken"
+}

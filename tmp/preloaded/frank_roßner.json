@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/frank-rossner/profil/trainer/95277",
+  "scraped_at": "2026-02-12T18:35:33.249831",
+  "name": "Frank Roßner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/95277-1755203588.jpg?lm=1",
+  "dob": "11.08.1971 (54)",
+  "age": 54,
+  "nationality": "Deutschland",
+  "current_role": "Rehatrainer",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2021",
+      "role": "Rehatrainer",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2016",
+      "role": "Rehatrainer",
+      "period": "16/17 (01.11.2016) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "95277",
+  "_cached_at": "2026-02-12T18:35:33.259969",
+  "_preloaded_at": "2026-02-12T18:35:33.260552",
+  "_coach_name": "Frank Roßner"
+}

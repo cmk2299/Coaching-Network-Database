@@ -1,0 +1,73 @@
+{
+  "url": "https://www.transfermarkt.de/dennis-morschel/profil/trainer/27588",
+  "scraped_at": "2026-02-12T18:16:21.672032",
+  "name": "Dennis Morschel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/27588-1406616242.jpg?lm=1",
+  "dob": "21.02.1985 (40)",
+  "age": 40,
+  "birthplace": "Datteln",
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainerund weitere Tätigkeiten",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2020",
+      "role": "Rehatrainer",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2020",
+      "role": "Athletiktrainer",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2017",
+      "role": "Rehatrainer",
+      "period": "17/18 (01.12.2017) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2017",
+      "role": "Athletiktrainer",
+      "period": "17/18 (01.12.2017) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "1.FC Köln U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u19/startseite/verein/1461/saison_id/2016",
+      "role": "Leitender Physiotherapeut Akademie",
+      "period": "16/17 (01.07.2016) - 17/18 (30.11.2017)"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2016",
+      "role": "Leitender Physiotherapeut Akademie",
+      "period": "16/17 (01.07.2016) - 17/18 (30.11.2017)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2016",
+      "role": "Leitender Physiotherapeut Akademie",
+      "period": "16/17 (01.07.2016) - 17/18 (30.11.2017)"
+    },
+    {
+      "club": "Pr. Münster",
+      "club_url": "https://www.transfermarkt.de/preussen-munster/startseite/verein/91/saison_id/2011",
+      "role": "Physiotherapeut",
+      "period": "11/12 (01.07.2011) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Pr. Münster",
+      "club_url": "https://www.transfermarkt.de/preussen-munster/startseite/verein/91/saison_id/2011",
+      "role": "Athletiktrainer",
+      "period": "11/12 (01.07.2011) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "27588",
+  "_cached_at": "2026-02-12T18:16:21.685002",
+  "_preloaded_at": "2026-02-12T18:16:21.685708",
+  "_coach_name": "Dennis Morschel"
+}

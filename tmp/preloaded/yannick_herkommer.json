@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/yannick-herkommer/profil/trainer/75157",
+  "scraped_at": "2026-02-13T00:45:50.161396",
+  "name": "Yannick Herkommer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/75157-1691177661.jpg?lm=1",
+  "dob": "07.11.1994 (31)",
+  "age": 31,
+  "birthplace": "Mutlangen",
+  "nationality": "Deutschland",
+  "license": "DFB-Elite-Jugend-Lizenz",
+  "current_role": "Spielanalyst",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2024",
+      "role": "Spielanalyst",
+      "period": "24/25 (09.07.2024) - -"
+    },
+    {
+      "club": "FC Basel",
+      "club_url": "https://www.transfermarkt.de/fc-basel-1893/startseite/verein/26/saison_id/2023",
+      "role": "Videoanalyst",
+      "period": "23/24 (24.07.2023) - 24/25 (08.07.2024)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2019",
+      "role": "Spielanalyst",
+      "period": "19/20 (01.07.2019) - 23/24 (23.07.2023)"
+    },
+    {
+      "club": "Norm. Gmünd",
+      "club_url": "https://www.transfermarkt.de/1-fc-normannia-gmund/startseite/verein/3466/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 19/20 (31.01.2020)"
+    },
+    {
+      "club": "TSV Essingen",
+      "club_url": "https://www.transfermarkt.de/tsv-essingen/startseite/verein/12540/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "75157",
+  "_cached_at": "2026-02-13T00:45:50.180667",
+  "_preloaded_at": "2026-02-13T00:45:50.181574",
+  "_coach_name": "Yannick Herkommer"
+}

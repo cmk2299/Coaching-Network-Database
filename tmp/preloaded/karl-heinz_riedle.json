@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/karl-heinz-riedle/profil/trainer/5186",
+  "scraped_at": "2026-02-12T18:54:02.289988",
+  "name": "Karl-Heinz Riedle",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/5186-1429870797.jpg?lm=1",
+  "dob": "16.09.1965 (60)",
+  "age": 60,
+  "birthplace": "Weiler im Allgäu",
+  "nationality": "Deutschland",
+  "current_role": "Klubrepräsentant",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2014",
+      "role": "Klubrepräsentant",
+      "period": "14/15 (22.11.2014) - -"
+    },
+    {
+      "club": "Grasshoppers",
+      "club_url": "https://www.transfermarkt.de/grasshopper-club-zurich/startseite/verein/504/saison_id/2004",
+      "role": "Sportlicher Leiter",
+      "period": "04/05 (20.01.2005) - 06/07 (19.04.2007)"
+    },
+    {
+      "club": "FC Fulham",
+      "club_url": "https://www.transfermarkt.de/fc-fulham/startseite/verein/931/saison_id/1999",
+      "role": "Interimstrainer",
+      "period": "99/00 (01.04.2000) - 99/00 (30.06.2000)"
+    }
+  ],
+  "coach_id": "5186",
+  "_cached_at": "2026-02-12T18:54:02.301712",
+  "_preloaded_at": "2026-02-12T18:54:02.302288",
+  "_coach_name": "Karl-Heinz Riedle"
+}

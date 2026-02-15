@@ -1,0 +1,87 @@
+{
+  "url": "https://www.transfermarkt.de/jefta-bresser/profil/trainer/21454",
+  "scraped_at": "2026-02-12T18:47:17.353738",
+  "name": "Jefta Bresser",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/21454-1697117651.jpg?lm=1",
+  "dob": "02.02.1971 (55)",
+  "age": 55,
+  "birthplace": "Wisch",
+  "nationality": "Niederlande",
+  "agent": "One II Agency",
+  "agent_url": "https://www.transfermarkt.de/one-ii-agency/beraterfirma/berater/10032",
+  "current_role": "Leiter der Nachwuchsabteilung",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2023",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "23/24 (18.10.2023) - -"
+    },
+    {
+      "club": "Graafschap U18",
+      "club_url": "https://www.transfermarkt.de/de-graafschap-doetinchem-u18/startseite/verein/81347/saison_id/2023",
+      "role": "Trainer",
+      "period": "23/24 (01.07.2023) - 23/24 (17.10.2023)"
+    },
+    {
+      "club": "De Graafschap",
+      "club_url": "https://www.transfermarkt.de/de-graafschap-doetinchem/startseite/verein/642/saison_id/2018",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "18/19 (07.09.2018) - 23/24 (17.10.2023)"
+    },
+    {
+      "club": "NAC Breda U21",
+      "club_url": "https://www.transfermarkt.de/nac-breda-u21/startseite/verein/8523/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.07.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "NAC Breda U19",
+      "club_url": "https://www.transfermarkt.de/nac-breda-u19/startseite/verein/7462/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "NAC Breda",
+      "club_url": "https://www.transfermarkt.de/nac-breda/startseite/verein/132/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (01.07.2016) - 18/19 (06.09.2018)"
+    },
+    {
+      "club": "NEC Nijmegen",
+      "club_url": "https://www.transfermarkt.de/nec-nijmegen/startseite/verein/467/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Zenit S-Pb",
+      "club_url": "https://www.transfermarkt.de/zenit-st-petersburg/startseite/verein/964/saison_id/2012",
+      "role": "Techniktrainer",
+      "period": "12/13 (02.03.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "FC Fulham",
+      "club_url": "https://www.transfermarkt.de/fc-fulham/startseite/verein/931/saison_id/2011",
+      "role": "Techniktrainer",
+      "period": "11/12 (31.10.2011) - 12/13 (01.03.2013)"
+    },
+    {
+      "club": "PSV",
+      "club_url": "https://www.transfermarkt.de/psv-eindhoven/startseite/verein/383/saison_id/2005",
+      "role": "Verbindungstrainer",
+      "period": "05/06 (01.07.2005) - 11/12 (30.10.2011)"
+    },
+    {
+      "club": "Graafschap U17",
+      "club_url": "https://www.transfermarkt.de/de-graafschap-doetinchem-u17/startseite/verein/19226/saison_id/1999",
+      "role": "Trainer",
+      "period": "99/00 (01.07.1999) - 99/00 (30.06.2000)"
+    }
+  ],
+  "coach_id": "21454",
+  "_cached_at": "2026-02-12T18:47:17.370019",
+  "_preloaded_at": "2026-02-12T18:47:17.371550",
+  "_coach_name": "Jefta Bresser"
+}

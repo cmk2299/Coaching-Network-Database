@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/matthias-muhlen/profil/trainer/145699",
+  "scraped_at": "2026-02-12T19:14:26.703675",
+  "name": "Matthias Mühlen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Direktor Entwicklung",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Direktor Entwicklung",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2017",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "17/18 (01.11.2017) - 23/24 (30.06.2024)"
+    }
+  ],
+  "coach_id": "145699",
+  "_cached_at": "2026-02-12T19:14:26.713764",
+  "_preloaded_at": "2026-02-12T19:14:26.714363",
+  "_coach_name": "Matthias Mühlen"
+}

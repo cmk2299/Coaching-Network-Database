@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/marco-russ/profil/trainer/81329",
+  "scraped_at": "2026-02-12T19:06:24.491519",
+  "name": "Marco Russ",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/81329-1629818105.jpg?lm=1",
+  "dob": "04.08.1985 (40)",
+  "age": 40,
+  "birthplace": "Hanau",
+  "nationality": "Deutschland",
+  "current_role": "Spielanalyst",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (01.07.2020) - -"
+    }
+  ],
+  "coach_id": "81329",
+  "_cached_at": "2026-02-12T19:06:24.502380",
+  "_preloaded_at": "2026-02-12T19:06:24.502949",
+  "_coach_name": "Marco Russ"
+}

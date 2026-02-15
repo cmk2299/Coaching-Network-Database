@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/bernadette-martini/profil/trainer/144402",
+  "scraped_at": "2026-02-12T18:03:15.152441",
+  "name": "Bernadette Martini",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "27.08.1981 (44)",
+  "age": 44,
+  "birthplace": "Mosbach",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Aufsichtsratsmitglied",
+      "period": "25/26 (01.07.2025) - -"
+    }
+  ],
+  "coach_id": "144402",
+  "_cached_at": "2026-02-12T18:03:15.162264",
+  "_preloaded_at": "2026-02-12T18:03:15.162867",
+  "_coach_name": "Bernadette Martini"
+}

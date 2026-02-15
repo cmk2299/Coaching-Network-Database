@@ -1,0 +1,116 @@
+{
+  "url": "https://www.transfermarkt.de/sebastian-podsiadly/profil/trainer/92156",
+  "scraped_at": "2026-02-12T23:25:27.625522",
+  "name": "Sebastian Podsiadly",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/92156-1769022917.jpeg?lm=1",
+  "dob": "09.06.1991 (34)",
+  "age": 34,
+  "nationality": "DeutschlandPolen",
+  "contract_until": "30.06.2028",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Co-Trainer Analyse",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2025",
+      "role": "Co-Trainer Analyse",
+      "period": "25/26 (07.12.2025) - vsl. 30.06.2028"
+    },
+    {
+      "club": "Al Ahly",
+      "club_url": "https://www.transfermarkt.de/el-ahly-kairo/startseite/verein/7/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (29.05.2025) - 25/26 (31.08.2025)"
+    },
+    {
+      "club": "Sturm Graz",
+      "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2024",
+      "role": "Spielanalyst",
+      "period": "24/25 (01.07.2024) - 24/25 (03.01.2025)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2023",
+      "role": "Gegneranalyst",
+      "period": "23/24 (01.02.2024) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2023",
+      "role": "Videoanalyst",
+      "period": "23/24 (01.02.2024) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (01.09.2020) - 23/24 (31.01.2024)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2020",
+      "role": "Videoanalyst",
+      "period": "20/21 (01.09.2020) - 23/24 (31.01.2024)"
+    },
+    {
+      "club": "SC West U17",
+      "club_url": "https://www.transfermarkt.de/sc-west-koln-u17/startseite/verein/91054/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (01.07.2020) - 20/21 (31.08.2020)"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2018",
+      "role": "Gegneranalyst",
+      "period": "18/19 (01.01.2019) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2016",
+      "role": "Koordinator Nachwuchsscouting",
+      "period": "16/17 (01.07.2016) - 18/19 (31.10.2018)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2015",
+      "role": "Gegneranalyst",
+      "period": "15/16 (01.08.2015) - 16/17 (31.08.2016)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2015",
+      "role": "Spielanalyst",
+      "period": "15/16 (01.08.2015) - 16/17 (31.08.2016)"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2014",
+      "role": "Scout",
+      "period": "14/15 (01.10.2014) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Deutz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/sportvereinigung-deutz-05-jugend/startseite/verein/86660/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 14/15 (31.12.2014)"
+    },
+    {
+      "club": "Bedburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/bedburger-bv-jugend/startseite/verein/100201/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.06.2014)"
+    }
+  ],
+  "coach_id": "92156",
+  "_cached_at": "2026-02-12T23:25:27.641475",
+  "_preloaded_at": "2026-02-12T23:25:27.642293",
+  "_coach_name": "Sebastian Podsiadly"
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/diego-benaglio/profil/trainer/144050",
+  "scraped_at": "2026-02-12T18:16:36.645603",
+  "name": "Diego Benaglio",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/144050-1750688597.jpg?lm=1",
+  "dob": "08.09.1983 (42)",
+  "age": 42,
+  "birthplace": "Zürich",
+  "nationality": "Schweiz",
+  "current_role": "Aufsichtsratsmitgliedund weitere Tätigkeiten",
+  "current_club": "Schweiz U21",
+  "current_club_url": "https://www.transfermarkt.de/schweiz-u21/startseite/verein/9534",
+  "career_history": [
+    {
+      "club": "Schweiz U21",
+      "club_url": "https://www.transfermarkt.de/schweiz-u21/startseite/verein/9534/saison_id/2025",
+      "role": "Sportkoordinator",
+      "period": "25/26 (01.09.2025) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2025",
+      "role": "Aufsichtsratsmitglied",
+      "period": "25/26 (01.07.2025) - -"
+    }
+  ],
+  "coach_id": "144050",
+  "_cached_at": "2026-02-12T18:16:36.656934",
+  "_preloaded_at": "2026-02-12T18:16:36.657550",
+  "_coach_name": "Diego Benaglio"
+}

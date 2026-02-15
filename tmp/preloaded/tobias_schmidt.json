@@ -1,0 +1,46 @@
+{
+  "url": "https://www.transfermarkt.de/tobias-schmidt/profil/trainer/29905",
+  "scraped_at": "2026-02-13T00:22:30.285812",
+  "name": "Tobias Schmidt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2024",
+      "role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+      "period": "24/25 (01.03.2025) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2019",
+      "role": "Direktor Medien und Kommunikation",
+      "period": "19/20 (01.04.2020) - 24/25 (31.12.2024)"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2016",
+      "role": "Medienbeauftragter",
+      "period": "16/17 (03.01.2017) - 19/20 (31.03.2020)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2013",
+      "role": "Medienbeauftragter",
+      "period": "13/14 (01.11.2013) - 15/16 (28.02.2016)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2001",
+      "role": "Pressesprecher",
+      "period": "01/02 (01.07.2001) - 13/14 (31.10.2013)"
+    }
+  ],
+  "coach_id": "29905",
+  "_cached_at": "2026-02-13T00:22:30.320250",
+  "_preloaded_at": "2026-02-13T00:22:30.321876",
+  "_coach_name": "Tobias Schmidt"
+}

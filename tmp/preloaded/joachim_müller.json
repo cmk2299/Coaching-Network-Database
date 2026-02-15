@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/joachim-muller/profil/trainer/16683",
+  "scraped_at": "2026-02-12T18:47:32.442536",
+  "name": "Joachim Müller",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2009",
+      "role": "Aufsichtsratsmitglied",
+      "period": "09/10 (06.11.2009) - -"
+    }
+  ],
+  "coach_id": "16683",
+  "_cached_at": "2026-02-12T18:47:32.452334",
+  "_preloaded_at": "2026-02-12T18:47:32.453587",
+  "_coach_name": "Joachim Müller"
+}

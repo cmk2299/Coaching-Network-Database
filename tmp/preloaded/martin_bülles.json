@@ -1,0 +1,44 @@
+{
+  "url": "https://www.transfermarkt.de/martin-bulles/profil/trainer/20044",
+  "scraped_at": "2026-02-12T19:10:36.508763",
+  "name": "Martin Bülles",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.06.1981 (44)",
+  "age": 44,
+  "birthplace": "Bonn",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Nachwuchs-Chefscout",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2016",
+      "role": "Nachwuchs-Chefscout",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2015",
+      "role": "Scout",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "1.FC Köln U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u19/startseite/verein/1461/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2007",
+      "role": "Co-Trainer",
+      "period": "07/08 (01.07.2007) - 12/13 (30.06.2013)"
+    }
+  ],
+  "coach_id": "20044",
+  "_cached_at": "2026-02-12T19:10:36.519782",
+  "_preloaded_at": "2026-02-12T19:10:36.520358",
+  "_coach_name": "Martin Bülles"
+}

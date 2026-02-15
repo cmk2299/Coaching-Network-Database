@@ -1,0 +1,40 @@
+{
+  "url": "https://www.transfermarkt.de/felix-wirmer/profil/trainer/121586",
+  "scraped_at": "2026-02-12T18:32:35.929371",
+  "name": "Felix Wirmer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2023",
+      "role": "Aufsichtsratsmitglied",
+      "period": "23/24 (31.08.2023) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2021",
+      "role": "Vorsitzender des Verwaltungsrates",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2017",
+      "role": "Stellvertretender Vorsitzender des Verwaltungsrates",
+      "period": "17/18 (01.07.2017) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2012",
+      "role": "Verwaltungsratmitglied",
+      "period": "12/13 (01.07.2012) - -"
+    }
+  ],
+  "coach_id": "121586",
+  "_cached_at": "2026-02-12T18:32:35.941077",
+  "_preloaded_at": "2026-02-12T18:32:35.941749",
+  "_coach_name": "Felix Wirmer"
+}

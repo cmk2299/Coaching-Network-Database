@@ -1,0 +1,91 @@
+{
+  "url": "https://www.transfermarkt.de/franz-josef-tenhagen/profil/trainer/252",
+  "scraped_at": "2026-02-12T18:36:20.282371",
+  "name": "Franz-Josef Tenhagen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1349707929.jpg?lm=1",
+  "dob": "31.10.1952 (73)",
+  "age": 73,
+  "birthplace": "Rees",
+  "nationality": "Deutschland",
+  "current_role": "Präsidiumsmitglied",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2018",
+      "role": "Präsidiumsmitglied",
+      "period": "18/19 (10.08.2018) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2016",
+      "role": "Aufsichtsratsmitglied",
+      "period": "16/17 (01.10.2016) - 18/19 (09.08.2018)"
+    },
+    {
+      "club": "SV Grieth",
+      "club_url": "https://www.transfermarkt.de/sv-grieth/startseite/verein/32491/saison_id/2009",
+      "role": "Trainer",
+      "period": "09/10 (01.07.2009) - 10/11 (12.01.2011)"
+    },
+    {
+      "club": "SC Bocholt 1926",
+      "club_url": "https://www.transfermarkt.de/sc-bocholt-1926/startseite/verein/2591/saison_id/2008",
+      "role": "Sportlicher Leiter",
+      "period": "08/09 (01.07.2008) - 08/09 (30.06.2009)"
+    },
+    {
+      "club": "1.FC Bocholt",
+      "club_url": "https://www.transfermarkt.de/1-fc-bocholt/startseite/verein/392/saison_id/2000",
+      "role": "Trainer",
+      "period": "00/01 (01.01.2001) - 06/07 (04.03.2007)"
+    },
+    {
+      "club": "LR Ahlen",
+      "club_url": "https://www.transfermarkt.de/rot-weiss-ahlen/startseite/verein/50/saison_id/1998",
+      "role": "Trainer",
+      "period": "98/99 (14.10.1998) - 00/01 (11.09.2000)"
+    },
+    {
+      "club": "Wattenscheid 09",
+      "club_url": "https://www.transfermarkt.de/sg-wattenscheid-09/startseite/verein/97/saison_id/1996",
+      "role": "Trainer",
+      "period": "96/97 (01.07.1996) - 98/99 (13.09.1998)"
+    },
+    {
+      "club": "1.FC Bocholt",
+      "club_url": "https://www.transfermarkt.de/1-fc-bocholt/startseite/verein/392/saison_id/1991",
+      "role": "Trainer",
+      "period": "91/92 (01.07.1991) - 95/96 (24.05.1996)"
+    },
+    {
+      "club": "Fortuna Köln",
+      "club_url": "https://www.transfermarkt.de/sc-fortuna-koln/startseite/verein/92/saison_id/1989",
+      "role": "Trainer",
+      "period": "89/90 (03.10.1989) - 90/91 (23.09.1990)"
+    },
+    {
+      "club": "TuRU Düsseldorf",
+      "club_url": "https://www.transfermarkt.de/turu-dusseldorf/startseite/verein/857/saison_id/1989",
+      "role": "Trainer",
+      "period": "89/90 (01.07.1989) - 89/90 (30.09.1989)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/1988",
+      "role": "Trainer",
+      "period": "88/89 (01.07.1988) - 88/89 (30.06.1989)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/1986",
+      "role": "Co-Trainer",
+      "period": "86/87 (01.07.1986) - 87/88 (30.06.1988)"
+    }
+  ],
+  "coach_id": "252",
+  "_cached_at": "2026-02-12T18:36:20.295844",
+  "_preloaded_at": "2026-02-12T18:36:20.296576",
+  "_coach_name": "Franz-Josef Tenhagen"
+}

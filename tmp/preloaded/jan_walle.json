@@ -1,0 +1,133 @@
+{
+  "url": "https://www.transfermarkt.de/jan-walle/profil/trainer/35921",
+  "scraped_at": "2026-02-12T18:46:32.379029",
+  "name": "Jan Walle",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "30.08.1976 (49)",
+  "age": 49,
+  "nationality": "Deutschland",
+  "license": "DFB-Elite-Jugend-Lizenz",
+  "current_role": "Teammanagerund weitere Tätigkeiten",
+  "current_club": "U. Berlin U19",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802",
+  "career_history": [
+    {
+      "club": "U. Berlin U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2022",
+      "role": "Teammanager",
+      "period": "22/23 (01.09.2022) - -"
+    },
+    {
+      "club": "U. Berlin U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u17/startseite/verein/21099/saison_id/2022",
+      "role": "Teammanager",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "U. Berlin U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u17/startseite/verein/21099/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (01.07.2022) - 22/23 (31.10.2022)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2020",
+      "role": "Koordinator Talentförderung",
+      "period": "20/21 (01.08.2020) - -"
+    },
+    {
+      "club": "U. Berlin U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Hertha BSC U17",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc-u17/startseite/verein/21066/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (01.03.2019) - 18/19 (31.03.2019)"
+    },
+    {
+      "club": "Hertha BSC U19",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc-u19/startseite/verein/2827/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (01.03.2019) - 18/19 (31.03.2019)"
+    },
+    {
+      "club": "BFV",
+      "club_url": "https://www.transfermarkt.de/berliner-fussballverband/startseite/verein/68136/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (01.10.2018) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "DFB-Jugend",
+      "club_url": "https://www.transfermarkt.de/dfb-jugend/startseite/verein/50422/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.04.2018) - 19/20 (31.08.2019)"
+    },
+    {
+      "club": "Berlin. SC Jgd.",
+      "club_url": "https://www.transfermarkt.de/berliner-sc-jugend/startseite/verein/25885/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.07.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Zehlendorf U19",
+      "club_url": "https://www.transfermarkt.de/fc-hertha-03-zehlendorf-u19/startseite/verein/10342/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "TeBe Jgd.",
+      "club_url": "https://www.transfermarkt.de/tennis-borussia-berlin-jugend/startseite/verein/12596/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (03.09.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "RSV Eintracht",
+      "club_url": "https://www.transfermarkt.de/rsv-eintracht-1949/startseite/verein/29476/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 15/16 (02.09.2015)"
+    },
+    {
+      "club": "RSV Eintracht",
+      "club_url": "https://www.transfermarkt.de/rsv-eintracht-1949/startseite/verein/29476/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "RSV Eintracht",
+      "club_url": "https://www.transfermarkt.de/rsv-eintracht-1949/startseite/verein/29476/saison_id/2011",
+      "role": "Jugendtrainer",
+      "period": "11/12 (01.07.2011) - 15/16 (02.09.2015)"
+    },
+    {
+      "club": "RSV Eintr. U19",
+      "club_url": "https://www.transfermarkt.de/rsv-eintracht-1949-u19/startseite/verein/38702/saison_id/2011",
+      "role": "Koordinator Talentförderung",
+      "period": "11/12 (01.07.2011) - 15/16 (02.09.2015)"
+    },
+    {
+      "club": "RSV Eintr. U17",
+      "club_url": "https://www.transfermarkt.de/rsv-eintracht-1949-u17/startseite/verein/62010/saison_id/2011",
+      "role": "Koordinator Talentförderung",
+      "period": "11/12 (01.07.2011) - 15/16 (02.09.2015)"
+    },
+    {
+      "club": "RSV Eintr. Jgd.",
+      "club_url": "https://www.transfermarkt.de/rsv-eintracht-1949-jugend/startseite/verein/67761/saison_id/2011",
+      "role": "Koordinator Talentförderung",
+      "period": "11/12 (01.07.2011) - 15/16 (02.09.2015)"
+    },
+    {
+      "club": "TeBe Jgd.",
+      "club_url": "https://www.transfermarkt.de/tennis-borussia-berlin-jugend/startseite/verein/12596/saison_id/2002",
+      "role": "Trainer",
+      "period": "02/03 (01.01.2003) - 05/06 (31.01.2006)"
+    }
+  ],
+  "coach_id": "35921",
+  "_cached_at": "2026-02-12T18:46:32.394289",
+  "_preloaded_at": "2026-02-12T18:46:32.395065",
+  "_coach_name": "Jan Walle"
+}

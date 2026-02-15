@@ -1,0 +1,83 @@
+{
+  "url": "https://www.transfermarkt.de/jurgen-klopp/profil/trainer/118",
+  "scraped_at": "2026-02-12T18:53:16.218270",
+  "name": "Jürgen Klopp",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/118-1736865351.jpg?lm=1",
+  "dob": "16.06.1967 (58)",
+  "age": 58,
+  "birthplace": "Stuttgart",
+  "nationality": "Deutschland",
+  "contract_until": "31.12.2029",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "projectFIVE GmbH",
+  "agent_url": "https://www.transfermarkt.de/projectfive-gmbh/beraterfirma/berater/12245",
+  "current_role": "Global Sports Directorund weitere Tätigkeiten",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2024",
+      "role": "Global Sports Director",
+      "period": "24/25 (01.01.2025) - vsl. 31.12.2029"
+    },
+    {
+      "club": "RB Bragantino",
+      "club_url": "https://www.transfermarkt.de/red-bull-bragantino/startseite/verein/8793/saison_id/2024",
+      "role": "Global Sports Director",
+      "period": "24/25 (01.01.2025) - vsl. 31.12.2029"
+    },
+    {
+      "club": "RB New York",
+      "club_url": "https://www.transfermarkt.de/new-york-red-bulls/startseite/verein/623/saison_id/2024",
+      "role": "Global Sports Director",
+      "period": "24/25 (01.01.2025) - vsl. 31.12.2029"
+    },
+    {
+      "club": "RB Omiya",
+      "club_url": "https://www.transfermarkt.de/omiya-ardija/startseite/verein/7452/saison_id/2024",
+      "role": "Global Sports Director",
+      "period": "24/25 (01.01.2025) - vsl. 31.12.2029"
+    },
+    {
+      "club": "Leeds United",
+      "club_url": "https://www.transfermarkt.de/leeds-united/startseite/verein/399/saison_id/2024",
+      "role": "Global Sports Director",
+      "period": "24/25 (01.01.2025) - vsl. 31.12.2029"
+    },
+    {
+      "club": "Paris FC",
+      "club_url": "https://www.transfermarkt.de/paris-fc/startseite/verein/10004/saison_id/2024",
+      "role": "Global Sports Director",
+      "period": "24/25 (01.01.2025) - vsl. 31.12.2029"
+    },
+    {
+      "club": "Liverpool",
+      "club_url": "https://www.transfermarkt.de/fc-liverpool/startseite/verein/31/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (08.10.2015) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 (01.07.2008) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2000",
+      "role": "Trainer",
+      "period": "00/01 (28.02.2001) - 07/08 (30.06.2008)"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/1987",
+      "role": "Trainer",
+      "period": "87/88 (01.07.1987) - 87/88 (30.06.1988)"
+    }
+  ],
+  "coach_id": "118",
+  "_cached_at": "2026-02-12T18:53:16.234526",
+  "_preloaded_at": "2026-02-12T18:53:16.235210",
+  "_coach_name": "Jürgen Klopp"
+}

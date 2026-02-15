@@ -1,0 +1,76 @@
+{
+  "url": "https://www.transfermarkt.de/fabian-klotz/profil/trainer/81450",
+  "scraped_at": "2026-02-12T18:30:22.273206",
+  "name": "Fabian Klotz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/81450-1701534746.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Sportwissenschaftler",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2025",
+      "role": "Sportwissenschaftler",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Wolfsburg U19",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-u19/startseite/verein/5343/saison_id/2021",
+      "role": "Athletiktrainer",
+      "period": "21/22 (03.01.2022) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Wolfsburg U17",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-u17/startseite/verein/21087/saison_id/2020",
+      "role": "Athletiktrainer",
+      "period": "20/21 (01.07.2020) - 21/22 (02.01.2022)"
+    },
+    {
+      "club": "1.FC Köln U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u19/startseite/verein/1461/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2019",
+      "role": "Athletiktrainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.08.2016) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Osnabrück U19",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck-u19/startseite/verein/4270/saison_id/2015",
+      "role": "Sportwissenschaftler",
+      "period": "15/16 (01.08.2015) - 15/16 (30.09.2015)"
+    },
+    {
+      "club": "Osnabrück U17",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck-u17/startseite/verein/21086/saison_id/2015",
+      "role": "Sportwissenschaftler",
+      "period": "15/16 (01.08.2015) - 15/16 (30.09.2015)"
+    },
+    {
+      "club": "Osnabrück Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck-jugend/startseite/verein/23889/saison_id/2015",
+      "role": "Sportwissenschaftler",
+      "period": "15/16 (01.08.2015) - 15/16 (30.09.2015)"
+    }
+  ],
+  "coach_id": "81450",
+  "_cached_at": "2026-02-12T18:30:22.285885",
+  "_preloaded_at": "2026-02-12T18:30:22.286641",
+  "_coach_name": "Fabian Klotz"
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/sebastian-hartung/profil/trainer/25438",
+  "scraped_at": "2026-02-12T23:24:18.799656",
+  "name": "Sebastian Hartung",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "06.12.1980 (45)",
+  "age": 45,
+  "birthplace": "Erfurt",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Chefscout",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2016",
+      "role": "Chefscout",
+      "period": "16/17 (01.07.2016) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2015",
+      "role": "Videoanalyst",
+      "period": "15/16 (01.04.2016) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "25438",
+  "_cached_at": "2026-02-12T23:24:18.810287",
+  "_preloaded_at": "2026-02-12T23:24:18.810687",
+  "_coach_name": "Sebastian Hartung"
+}

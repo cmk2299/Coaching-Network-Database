@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/maximilian-schwab/profil/trainer/74593",
+  "scraped_at": "2026-02-12T19:16:44.362379",
+  "name": "Maximilian Schwab",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "28.11.1988 (37)",
+  "age": 37,
+  "nationality": "Deutschland",
+  "current_role": "Spielanalyst",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2012",
+      "role": "Spielanalyst",
+      "period": "12/13 (01.07.2012) - -"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2011",
+      "role": "Spielanalyst",
+      "period": "11/12 (01.08.2011) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "74593",
+  "_cached_at": "2026-02-12T19:16:44.372890",
+  "_preloaded_at": "2026-02-12T19:16:44.373487",
+  "_coach_name": "Maximilian Schwab"
+}

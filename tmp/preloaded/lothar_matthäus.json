@@ -1,0 +1,82 @@
+{
+  "url": "https://www.transfermarkt.de/lothar-matthaus/profil/trainer/155",
+  "scraped_at": "2026-02-12T19:00:29.741174",
+  "name": "Lothar Matthäus",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/155-1589534534.jpg?lm=1",
+  "dob": "21.03.1961 (64)",
+  "age": 64,
+  "birthplace": "Erlangen",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "sportmanufaktur ...",
+  "agent_url": "https://www.transfermarkt.de/sportmanufaktur-gmbh-amp-co-kg/beraterfirma/berater/1667",
+  "current_role": "Gesellschafterund weitere Tätigkeiten",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Accra Lions",
+      "club_url": "https://www.transfermarkt.de/accra-lions/startseite/verein/63057/saison_id/2022",
+      "role": "Gesellschafter",
+      "period": "22/23 (22.05.2023) - -"
+    },
+    {
+      "club": "Grünwald Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsv-grunwald-jugend/startseite/verein/60253/saison_id/2022",
+      "role": "Trainer",
+      "period": "22/23 (05.09.2022) - 24/25 (26.08.2024)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2017",
+      "role": "Klubrepräsentant",
+      "period": "17/18 (01.07.2017) - -"
+    },
+    {
+      "club": "Bulgarien",
+      "club_url": "https://www.transfermarkt.de/bulgarien/startseite/verein/3394/saison_id/2010",
+      "role": "Trainer",
+      "period": "10/11 (23.09.2010) - 11/12 (19.09.2011)"
+    },
+    {
+      "club": "Maccabi Netanya",
+      "club_url": "https://www.transfermarkt.de/maccabi-netanya/startseite/verein/5223/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 (01.08.2008) - 08/09 (29.04.2009)"
+    },
+    {
+      "club": "RB Salzburg",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg/startseite/verein/409/saison_id/2006",
+      "role": "Co-Trainer",
+      "period": "06/07 (01.07.2006) - 06/07 (30.06.2007)"
+    },
+    {
+      "club": "Atlético-PR",
+      "club_url": "https://www.transfermarkt.de/club-athletico-paranaense/startseite/verein/679/saison_id/2005",
+      "role": "Trainer",
+      "period": "05/06 (03.02.2006) - 05/06 (07.03.2006)"
+    },
+    {
+      "club": "Ungarn",
+      "club_url": "https://www.transfermarkt.de/ungarn/startseite/verein/3468/saison_id/2003",
+      "role": "Trainer",
+      "period": "03/04 (01.01.2004) - 05/06 (31.12.2005)"
+    },
+    {
+      "club": "Partizan",
+      "club_url": "https://www.transfermarkt.de/fk-partizan-belgrad/startseite/verein/669/saison_id/2002",
+      "role": "Trainer",
+      "period": "02/03 (22.12.2002) - 03/04 (13.12.2003)"
+    },
+    {
+      "club": "SK Rapid",
+      "club_url": "https://www.transfermarkt.de/sk-rapid-wien/startseite/verein/170/saison_id/2001",
+      "role": "Trainer",
+      "period": "01/02 (06.09.2001) - 01/02 (10.05.2002)"
+    }
+  ],
+  "coach_id": "155",
+  "_cached_at": "2026-02-12T19:00:29.756646",
+  "_preloaded_at": "2026-02-12T19:00:29.757415",
+  "_coach_name": "Lothar Matthäus"
+}

@@ -1,0 +1,48 @@
+{
+  "url": "https://www.transfermarkt.de/jonas-grunewald/profil/trainer/20653",
+  "scraped_at": "2026-02-12T18:50:12.575170",
+  "name": "Jonas Grünewald",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/20653-1406742445.jpg?lm=1",
+  "dob": "08.05.1984 (41)",
+  "age": 41,
+  "nationality": "Deutschland",
+  "current_role": "Performance Manager",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2014",
+      "role": "Performance Manager",
+      "period": "14/15 (01.07.2014) - -"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2009",
+      "role": "Performance Manager",
+      "period": "09/10 (01.07.2009) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2009",
+      "role": "Performance Manager",
+      "period": "09/10 (01.07.2009) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2009",
+      "role": "Performance Manager",
+      "period": "09/10 (01.07.2009) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Mainz 05 Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-jugend/startseite/verein/17588/saison_id/2009",
+      "role": "Performance Manager",
+      "period": "09/10 (01.07.2009) - 13/14 (30.06.2014)"
+    }
+  ],
+  "coach_id": "20653",
+  "_cached_at": "2026-02-12T18:50:12.586792",
+  "_preloaded_at": "2026-02-12T18:50:12.587425",
+  "_coach_name": "Jonas Grünewald"
+}

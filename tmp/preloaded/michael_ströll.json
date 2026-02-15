@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/michael-stroll/profil/trainer/95286",
+  "scraped_at": "2026-02-12T19:20:35.713724",
+  "name": "Michael Ströll",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/95286-1694525331.jpg?lm=1",
+  "dob": "01.06.1984 (41)",
+  "age": 41,
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2029",
+  "current_role": "Geschäftsführer",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2023",
+      "role": "Geschäftsführer",
+      "period": "23/24 (12.09.2023) - vsl. 30.06.2029"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2016",
+      "role": "Geschäftsführer kaufmännisch",
+      "period": "16/17 (01.07.2016) - 23/24 (11.09.2023)"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2015",
+      "role": "GF Stadiongesellschaft",
+      "period": "15/16 (01.10.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2013",
+      "role": "Geschäftsstellenleiter",
+      "period": "13/14 (01.07.2013) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2012",
+      "role": "Leiter Organisation und Infrastruktur",
+      "period": "12/13 (01.07.2012) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2006",
+      "role": "Leiter Finanzen und Personal",
+      "period": "06/07 (01.11.2006) - 12/13 (30.06.2013)"
+    }
+  ],
+  "coach_id": "95286",
+  "_cached_at": "2026-02-12T19:20:35.726266",
+  "_preloaded_at": "2026-02-12T19:20:35.726896",
+  "_coach_name": "Michael Ströll"
+}

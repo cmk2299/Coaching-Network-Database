@@ -1,0 +1,73 @@
+{
+  "url": "https://www.transfermarkt.de/dr-reinhard-rauball/profil/trainer/6905",
+  "scraped_at": "2026-02-12T18:26:12.580359",
+  "name": "Dr. Reinhard Rauball",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1347356432.jpg?lm=1",
+  "dob": "25.12.1946 (79)",
+  "age": 79,
+  "birthplace": "Northeim",
+  "nationality": "Deutschland",
+  "current_role": "Ehrenpräsident",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2022",
+      "role": "Ehrenpräsident",
+      "period": "22/23 (21.11.2022) - -"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2015",
+      "role": "Vize-Präsident",
+      "period": "15/16 (16.04.2016) - 19/20 (27.09.2019)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2015",
+      "role": "Präsident",
+      "period": "15/16 (09.11.2015) - 15/16 (15.04.2016)"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2007",
+      "role": "Präsident",
+      "period": "07/08 (06.08.2007) - 19/20 (31.08.2019)"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2007",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "07/08 (06.08.2007) - 19/20 (31.08.2019)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2007",
+      "role": "Vize-Präsident",
+      "period": "07/08 (06.08.2007) - 15/16 (08.11.2015)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2004",
+      "role": "Präsident",
+      "period": "04/05 (14.11.2004) - 22/23 (20.11.2022)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/1984",
+      "role": "Präsident",
+      "period": "84/85 (01.11.1984) - 86/87 (30.11.1986)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/1979",
+      "role": "Präsident",
+      "period": "79/80 (01.11.1979) - 82/83 (30.11.1982)"
+    }
+  ],
+  "coach_id": "6905",
+  "_cached_at": "2026-02-12T18:26:12.593523",
+  "_preloaded_at": "2026-02-12T18:26:12.594214",
+  "_coach_name": "Dr. Reinhard Rauball"
+}

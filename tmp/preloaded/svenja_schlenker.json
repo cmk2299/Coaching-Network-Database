@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/svenja-schlenker/profil/trainer/150703",
+  "scraped_at": "2026-02-13T00:02:06.915827",
+  "name": "Svenja Schlenker",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.05.1983 (42)",
+  "age": 42,
+  "nationality": "Deutschland",
+  "current_role": "Geschäftsführerinund weitere Tätigkeiten",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2025",
+      "role": "Geschäftsführerin",
+      "period": "25/26 (26.11.2025) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2020",
+      "role": "Fußballabteilungsleiterin",
+      "period": "20/21 (01.10.2020) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2010",
+      "role": "Marketingmitarbeiterin",
+      "period": "10/11 (01.11.2010) - 20/21 (30.09.2020)"
+    }
+  ],
+  "coach_id": "150703",
+  "_cached_at": "2026-02-13T00:02:06.936009",
+  "_preloaded_at": "2026-02-13T00:02:06.936991",
+  "_coach_name": "Svenja Schlenker"
+}

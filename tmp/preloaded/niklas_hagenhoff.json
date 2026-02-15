@@ -1,0 +1,56 @@
+{
+  "url": "https://www.transfermarkt.de/niklas-hagenhoff/profil/trainer/98755",
+  "scraped_at": "2026-02-12T19:23:48.310822",
+  "name": "Niklas Hagenhoff",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/98755-1665086482.jpg?lm=1",
+  "dob": "30.10.1996 (29)",
+  "age": 29,
+  "birthplace": "Husum",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Spielanalyst",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2021",
+      "role": "Spielanalyst",
+      "period": "21/22 (01.01.2022) - -"
+    },
+    {
+      "club": "St. Pauli Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli-jugend/startseite/verein/29107/saison_id/2019",
+      "role": "Chefanalytiker",
+      "period": "19/20 (01.11.2019) - 21/22 (31.10.2021)"
+    },
+    {
+      "club": "St. Pauli U19",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli-u19/startseite/verein/2486/saison_id/2019",
+      "role": "Chefanalytiker",
+      "period": "19/20 (01.11.2019) - 21/22 (31.10.2021)"
+    },
+    {
+      "club": "St. Pauli U17",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli-u17/startseite/verein/21062/saison_id/2019",
+      "role": "Chefanalytiker",
+      "period": "19/20 (01.11.2019) - 21/22 (31.10.2021)"
+    },
+    {
+      "club": "Hohenlind Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-borussia-lindenthal-hohenlind-jugend/startseite/verein/82563/saison_id/2018",
+      "role": "Koordinator Talentförderung",
+      "period": "18/19 (01.01.2019) - 19/20 (31.10.2019)"
+    },
+    {
+      "club": "Hohenlind Jgd.",
+      "club_url": "https://www.transfermarkt.de/sc-borussia-lindenthal-hohenlind-jugend/startseite/verein/82563/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.08.2017) - 19/20 (31.10.2019)"
+    }
+  ],
+  "coach_id": "98755",
+  "_cached_at": "2026-02-12T19:23:48.324383",
+  "_preloaded_at": "2026-02-12T19:23:48.325943",
+  "_coach_name": "Niklas Hagenhoff"
+}

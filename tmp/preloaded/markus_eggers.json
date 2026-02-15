@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/markus-eggers/profil/trainer/54791",
+  "scraped_at": "2026-02-12T19:08:49.909695",
+  "name": "Markus Eggers",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.10.1979 (46)",
+  "age": 46,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2017",
+      "role": "Zeugwart",
+      "period": "17/18 (01.07.2017) - -"
+    }
+  ],
+  "coach_id": "54791",
+  "_cached_at": "2026-02-12T19:08:49.919402",
+  "_preloaded_at": "2026-02-12T19:08:49.919952",
+  "_coach_name": "Markus Eggers"
+}

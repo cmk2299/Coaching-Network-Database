@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/florian-lauerer/profil/trainer/1469",
+  "scraped_at": "2026-02-12T18:33:21.871784",
+  "name": "Florian Lauerer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/1469-1571820805.jpg?lm=1",
+  "dob": "28.11.1973 (52)",
+  "age": 52,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeutund weitere Tätigkeiten",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Schweiz",
+      "club_url": "https://www.transfermarkt.de/schweiz/startseite/verein/3384/saison_id/2024",
+      "role": "Physiotherapeut",
+      "period": "24/25 (01.03.2025) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2003",
+      "role": "Physiotherapeut",
+      "period": "03/04 (01.07.2003) - -"
+    }
+  ],
+  "coach_id": "1469",
+  "_cached_at": "2026-02-12T18:33:21.882072",
+  "_preloaded_at": "2026-02-12T18:33:21.882670",
+  "_coach_name": "Florian Lauerer"
+}

@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/rudiger-vollborn/profil/trainer/352",
+  "scraped_at": "2026-02-12T23:21:14.437945",
+  "name": "Rüdiger Vollborn",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_352_15_2010_1.jpg?lm=1",
+  "dob": "12.02.1963 (63)",
+  "age": 63,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "current_role": "Fanbeauftragter",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2012",
+      "role": "Fanbeauftragter",
+      "period": "12/13 (01.07.2012) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2003",
+      "role": "Torwarttrainer",
+      "period": "03/04 (01.07.2003) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "Leverkusen II",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-ii/startseite/verein/211/saison_id/1999",
+      "role": "Torwarttrainer",
+      "period": "99/00 (01.07.1999) - 02/03 (30.06.2003)"
+    },
+    {
+      "club": "Leverkusen II",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-ii/startseite/verein/211/saison_id/1999",
+      "role": "Co-Trainer",
+      "period": "99/00 (01.07.1999) - 02/03 (30.06.2003)"
+    },
+    {
+      "club": "Leverkusen U19",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u19/startseite/verein/4713/saison_id/1999",
+      "role": "Torwarttrainer",
+      "period": "99/00 (01.07.1999) - 02/03 (30.06.2003)"
+    },
+    {
+      "club": "Leverkusen U17",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u17/startseite/verein/21054/saison_id/1999",
+      "role": "Torwarttrainer",
+      "period": "99/00 (01.07.1999) - 02/03 (30.06.2003)"
+    },
+    {
+      "club": "Leverkusen Jgd.",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-jugend/startseite/verein/11874/saison_id/1999",
+      "role": "Torwarttrainer",
+      "period": "99/00 (01.07.1999) - 02/03 (30.06.2003)"
+    }
+  ],
+  "coach_id": "352",
+  "_cached_at": "2026-02-12T23:21:14.471261",
+  "_preloaded_at": "2026-02-12T23:21:14.472421",
+  "_coach_name": "Rüdiger Vollborn"
+}

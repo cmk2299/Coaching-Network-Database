@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/simon-rolfes/profil/trainer/61237",
+  "scraped_at": "2026-02-12T23:27:51.750056",
+  "name": "Simon Rolfes",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/61237-1705657456.jpg?lm=1",
+  "dob": "21.01.1982 (44)",
+  "age": 44,
+  "birthplace": "Ibbenbüren",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2028",
+  "current_role": "Geschäftsführer Sport",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2022",
+      "role": "Geschäftsführer Sport",
+      "period": "22/23 (01.07.2022) - vsl. 30.06.2028"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Sportdirektor",
+      "period": "18/19 (01.12.2018) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "18/19 (01.07.2018) - 18/19 (30.11.2018)"
+    }
+  ],
+  "coach_id": "61237",
+  "_cached_at": "2026-02-12T23:27:51.762392",
+  "_preloaded_at": "2026-02-12T23:27:51.762951",
+  "_coach_name": "Simon Rolfes"
+}

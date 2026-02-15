@@ -1,0 +1,73 @@
+{
+  "url": "https://www.transfermarkt.de/tim-hielscher/profil/trainer/11471",
+  "scraped_at": "2026-02-13T00:07:14.465144",
+  "name": "Tim Hielscher",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "17.11.1982 (43)",
+  "age": 43,
+  "birthplace": "Oberhausen",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeutund weitere Tätigkeiten",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2025",
+      "role": "Physiotherapeut",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2025",
+      "role": "Sportwissenschaftler",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2025",
+      "role": "Osteopath",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2014",
+      "role": "Physiotherapeut",
+      "period": "14/15 (01.07.2014) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "FV Niederrhein",
+      "club_url": "https://www.transfermarkt.de/fussballverband-niederrhein/startseite/verein/102183/saison_id/2011",
+      "role": "Physiotherapeut",
+      "period": "11/12 (01.07.2011) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Duisburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/msv-duisburg-jugend/startseite/verein/11888/saison_id/2010",
+      "role": "Physiotherapeut",
+      "period": "10/11 (01.07.2010) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "RW Essen II",
+      "club_url": "https://www.transfermarkt.de/rot-weiss-essen-ii/startseite/verein/5119/saison_id/2009",
+      "role": "Physiotherapeut",
+      "period": "09/10 (01.07.2009) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "RW Essen U19",
+      "club_url": "https://www.transfermarkt.de/rot-weiss-essen-u19/startseite/verein/4269/saison_id/2007",
+      "role": "Physiotherapeut",
+      "period": "07/08 (01.07.2007) - 08/09 (30.06.2009)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2005",
+      "role": "Physiotherapeut",
+      "period": "05/06 (01.07.2005) - 05/06 (30.06.2006)"
+    }
+  ],
+  "coach_id": "11471",
+  "_cached_at": "2026-02-13T00:07:14.483802",
+  "_preloaded_at": "2026-02-13T00:07:14.484549",
+  "_coach_name": "Tim Hielscher"
+}

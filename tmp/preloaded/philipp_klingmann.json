@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/philipp-klingmann/profil/trainer/105374",
+  "scraped_at": "2026-02-12T23:13:19.260746",
+  "name": "Philipp Klingmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/105374-1691616428.jpg?lm=1",
+  "dob": "22.04.1988 (37)",
+  "age": 37,
+  "birthplace": "Heidelberg",
+  "nationality": "Deutschland",
+  "current_role": "Sportlicher Leiterund weitere Tätigkeiten",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2024",
+      "role": "Sportlicher Leiter",
+      "period": "24/25 (04.02.2025) - -"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2024",
+      "role": "Mitarbeiter des Nachwuchsleistungszentrums",
+      "period": "24/25 (01.01.2025) - -"
+    },
+    {
+      "club": "SV Sandhausen",
+      "club_url": "https://www.transfermarkt.de/sv-sandhausen/startseite/verein/254/saison_id/2022",
+      "role": "Teammanager",
+      "period": "22/23 (01.07.2022) - 24/25 (31.12.2024)"
+    },
+    {
+      "club": "SV Sandhausen",
+      "club_url": "https://www.transfermarkt.de/sv-sandhausen/startseite/verein/254/saison_id/2022",
+      "role": "Leitender Assistent des Geschäftsführers Sport",
+      "period": "22/23 (01.07.2022) - 24/25 (31.12.2024)"
+    }
+  ],
+  "coach_id": "105374",
+  "_cached_at": "2026-02-12T23:13:19.294945",
+  "_preloaded_at": "2026-02-12T23:13:19.295859",
+  "_coach_name": "Philipp Klingmann"
+}

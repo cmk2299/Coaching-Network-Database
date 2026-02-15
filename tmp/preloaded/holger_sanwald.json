@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/holger-sanwald/profil/trainer/22856",
+  "scraped_at": "2026-02-12T18:42:49.896460",
+  "name": "Holger Sanwald",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/22856-1688373267.jpg?lm=1",
+  "dob": "18.05.1967 (58)",
+  "age": 58,
+  "birthplace": "Giengen an der Brenz",
+  "nationality": "Deutschland",
+  "current_role": "Vorstandsvorsitzenderund weitere Tätigkeiten",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2017",
+      "role": "Vorstandsmitglied",
+      "period": "17/18 (01.12.2017) - 23/24 (31.12.2023)"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2017",
+      "role": "Aufsichtsratsmitglied",
+      "period": "17/18 (01.12.2017) - -"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2016",
+      "role": "Vorstandsvorsitzender",
+      "period": "16/17 (12.12.2016) - -"
+    },
+    {
+      "club": "Heidenheimer SB",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/1994",
+      "role": "Geschäftsführer",
+      "period": "94/95 (01.07.1994) - 16/17 (11.12.2016)"
+    }
+  ],
+  "coach_id": "22856",
+  "_cached_at": "2026-02-12T18:42:49.908567",
+  "_preloaded_at": "2026-02-12T18:42:49.909214",
+  "_coach_name": "Holger Sanwald"
+}

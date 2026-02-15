@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/bernd-legien/profil/trainer/1672",
+  "scraped_at": "2026-02-12T18:03:30.118668",
+  "name": "Bernd Legien",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "03.05.1971 (54)",
+  "age": 54,
+  "birthplace": "Roth",
+  "nationality": "Deutschland",
+  "current_role": "Leiter der Scouting-Abteilung",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2018",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "18/19 (01.10.2018) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2014",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "14/15 (13.10.2014) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2011",
+      "role": "Chefscout",
+      "period": "11/12 (01.01.2012) - 14/15 (12.10.2014)"
+    },
+    {
+      "club": "RB Salzburg",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg/startseite/verein/409/saison_id/2009",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "09/10 (01.01.2010) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2002",
+      "role": "Chefscout",
+      "period": "02/03 (01.07.2002) - 09/10 (30.09.2009)"
+    }
+  ],
+  "coach_id": "1672",
+  "_cached_at": "2026-02-12T18:03:30.129653",
+  "_preloaded_at": "2026-02-12T18:03:30.130262",
+  "_coach_name": "Bernd Legien"
+}

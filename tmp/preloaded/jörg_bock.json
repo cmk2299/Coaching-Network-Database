@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/jorg-bock/profil/trainer/6857",
+  "scraped_at": "2026-02-12T18:52:52.241057",
+  "name": "Jörg Bock",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6857-1665142377.JPG?lm=1",
+  "dob": "01.12.1972 (53)",
+  "age": 53,
+  "nationality": "Deutschland",
+  "current_role": "Pressesprecher",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2020",
+      "role": "Pressesprecher",
+      "period": "20/21 (10.08.2020) - -"
+    },
+    {
+      "club": "Wehen Wiesbaden",
+      "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden/startseite/verein/108/saison_id/2018",
+      "role": "Leiter Medien & Kommunikation",
+      "period": "18/19 (01.02.2019) - 19/20 (09.08.2020)"
+    },
+    {
+      "club": "Karlsruher SC",
+      "club_url": "https://www.transfermarkt.de/karlsruher-sc/startseite/verein/48/saison_id/2003",
+      "role": "Pressesprecher",
+      "period": "03/04 (01.07.2003) - 18/19 (07.09.2018)"
+    }
+  ],
+  "coach_id": "6857",
+  "_cached_at": "2026-02-12T18:52:52.251535",
+  "_preloaded_at": "2026-02-12T18:52:52.252129",
+  "_coach_name": "Jörg Bock"
+}

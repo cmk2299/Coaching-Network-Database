@@ -1,0 +1,72 @@
+{
+  "url": "https://www.transfermarkt.de/maximilian-steiger/profil/trainer/110915",
+  "scraped_at": "2026-02-12T19:16:51.967895",
+  "name": "Maximilian Steiger",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "17.01.1993 (33)",
+  "age": 33,
+  "nationality": "Deutschland",
+  "current_role": "Spielanalyst",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2024",
+      "role": "Spielanalyst",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "E. Frankfurt II",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-ii/startseite/verein/177/saison_id/2022",
+      "role": "Videoanalyst",
+      "period": "22/23 (01.07.2022) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/2020",
+      "role": "Videoanalyst",
+      "period": "20/21 (01.04.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2020",
+      "role": "Videoanalyst",
+      "period": "20/21 (01.04.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2020",
+      "role": "Videoanalyst",
+      "period": "20/21 (01.04.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Frankfurt U19",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u19/startseite/verein/5372/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (01.04.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (01.04.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Frankfurt Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-jugend/startseite/verein/12016/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (01.04.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Urberach II",
+      "club_url": "https://www.transfermarkt.de/fc-viktoria-09-urberach-ii/startseite/verein/20568/saison_id/2020",
+      "role": "Trainer",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "110915",
+  "_cached_at": "2026-02-12T19:16:51.980269",
+  "_preloaded_at": "2026-02-12T19:16:51.980950",
+  "_coach_name": "Maximilian Steiger"
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/johannes-jahns/profil/trainer/89570",
+  "scraped_at": "2026-02-12T18:48:49.042545",
+  "name": "Johannes Jahns",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/89570-1709740712.jpg?lm=1",
+  "dob": "15.02.1982 (43)",
+  "age": 43,
+  "birthplace": "Bremen",
+  "nationality": "Deutschland",
+  "current_role": "Kaderplanerund weitere Tätigkeiten",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2023",
+      "role": "Kaderplaner",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2023",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "RB Salzburg",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg/startseite/verein/409/saison_id/2020",
+      "role": "Sportkoordinator",
+      "period": "20/21 (01.09.2020) - 22/23 (30.06.2023)"
+    }
+  ],
+  "coach_id": "89570",
+  "_cached_at": "2026-02-12T18:48:49.053529",
+  "_preloaded_at": "2026-02-12T18:48:49.054164",
+  "_coach_name": "Johannes Jahns"
+}

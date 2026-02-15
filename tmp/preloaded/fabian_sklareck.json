@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/fabian-sklareck/profil/trainer/145692",
+  "scraped_at": "2026-02-12T18:30:53.635880",
+  "name": "Fabian Sklareck",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Physiotherapeut",
+      "period": "24/25 (01.07.2024) - -"
+    }
+  ],
+  "coach_id": "145692",
+  "_cached_at": "2026-02-12T18:30:53.645840",
+  "_preloaded_at": "2026-02-12T18:30:53.646448",
+  "_coach_name": "Fabian Sklareck"
+}

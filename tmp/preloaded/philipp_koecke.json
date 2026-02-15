@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/philipp-koecke/profil/trainer/25698",
+  "scraped_at": "2026-02-12T23:13:27.100820",
+  "name": "Philipp Koecke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "1971 (~ 55)",
+  "birthplace": "Wuppertal",
+  "nationality": "Deutschland",
+  "current_role": "Wirtschaftsrat",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2019",
+      "role": "Wirtschaftsrat",
+      "period": "19/20 (08.09.2019) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2017",
+      "role": "stellv. Aufsichtsratsvorsitzender",
+      "period": "17/18 (07.09.2017) - 19/20 (07.09.2019)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2013",
+      "role": "Aufsichtsratsmitglied",
+      "period": "13/14 (01.07.2013) - 19/20 (07.09.2019)"
+    }
+  ],
+  "coach_id": "25698",
+  "_cached_at": "2026-02-12T23:13:27.130039",
+  "_preloaded_at": "2026-02-12T23:13:27.131073",
+  "_coach_name": "Philipp Koecke"
+}

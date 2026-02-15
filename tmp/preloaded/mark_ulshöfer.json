@@ -1,0 +1,56 @@
+{
+  "url": "https://www.transfermarkt.de/mark-ulshofer/profil/trainer/21935",
+  "scraped_at": "2026-02-12T19:08:12.196781",
+  "name": "Mark Ulshöfer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_21935_38_2012_1.jpg?lm=1",
+  "dob": "21.12.1966 (59)",
+  "age": 59,
+  "birthplace": "Bad Dürrheim",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Scout",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "Aston Villa",
+      "club_url": "https://www.transfermarkt.de/aston-villa/startseite/verein/405/saison_id/2017",
+      "role": "Scout",
+      "period": "17/18 (01.07.2017) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "F. Düsseldorf",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/2007",
+      "role": "Chefscout",
+      "period": "07/08 (01.01.2008) - 15/16 (14.06.2016)"
+    },
+    {
+      "club": "Fortuna Köln",
+      "club_url": "https://www.transfermarkt.de/sc-fortuna-koln/startseite/verein/92/saison_id/1995",
+      "role": "Scout",
+      "period": "95/96 (01.07.1995) - 99/00 (30.06.2000)"
+    },
+    {
+      "club": "Fort. Köln U19",
+      "club_url": "https://www.transfermarkt.de/sc-fortuna-koln-u19/startseite/verein/16521/saison_id/1995",
+      "role": "Co-Trainer",
+      "period": "95/96 (01.07.1995) - 98/99 (30.06.1999)"
+    },
+    {
+      "club": "Fortuna Köln II",
+      "club_url": "https://www.transfermarkt.de/sc-fortuna-koln-u23/startseite/verein/21476/saison_id/1995",
+      "role": "Co-Trainer",
+      "period": "95/96 (01.07.1995) - 95/96 (30.06.1999)"
+    }
+  ],
+  "coach_id": "21935",
+  "_cached_at": "2026-02-12T19:08:12.209045",
+  "_preloaded_at": "2026-02-12T19:08:12.209801",
+  "_coach_name": "Mark Ulshöfer"
+}

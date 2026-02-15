@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/benjamin-frank/profil/trainer/61475",
+  "scraped_at": "2026-02-12T18:02:36.283858",
+  "name": "Benjamin Frank",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.06.1981 (44)",
+  "age": 44,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2017",
+      "role": "Scout",
+      "period": "17/18 (01.10.2017) - -"
+    },
+    {
+      "club": "Crystal Palace",
+      "club_url": "https://www.transfermarkt.de/crystal-palace/startseite/verein/873/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Leicester City",
+      "club_url": "https://www.transfermarkt.de/leicester-city/startseite/verein/1003/saison_id/2014",
+      "role": "Scout",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "61475",
+  "_cached_at": "2026-02-12T18:02:36.294290",
+  "_preloaded_at": "2026-02-12T18:02:36.294872",
+  "_coach_name": "Benjamin Frank"
+}

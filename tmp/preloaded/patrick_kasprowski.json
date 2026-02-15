@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/patrick-kasprowski/profil/trainer/58364",
+  "scraped_at": "2026-02-12T19:28:53.691583",
+  "name": "Patrick Kasprowski",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/58364-1515621807.JPG?lm=1",
+  "dob": "22.03.1989 (36)",
+  "age": 36,
+  "birthplace": "Münster",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2010",
+      "role": "Physiotherapeut",
+      "period": "10/11 (01.07.2010) - -"
+    }
+  ],
+  "coach_id": "58364",
+  "_cached_at": "2026-02-12T19:28:53.701656",
+  "_preloaded_at": "2026-02-12T19:28:53.702228",
+  "_coach_name": "Patrick Kasprowski"
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/marco-mentrup/profil/trainer/37741",
+  "scraped_at": "2026-02-12T19:06:16.502564",
+  "name": "Marco Mentrup",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "24.05.1969 (56)",
+  "age": 56,
+  "nationality": "Deutschland",
+  "license": "DFB-Elite-Jugend-Lizenz",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2022",
+      "role": "Nachwuchsscout",
+      "period": "22/23 (01.08.2022) - -"
+    },
+    {
+      "club": "Osnabrück Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck-jugend/startseite/verein/23889/saison_id/2021",
+      "role": "Trainer",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Osnabrück Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck-jugend/startseite/verein/23889/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Osnabrück Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-osnabruck-jugend/startseite/verein/23889/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "GMHütte U17",
+      "club_url": "https://www.transfermarkt.de/viktoria-georgsmarienhutte-u17/startseite/verein/37355/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "37741",
+  "_cached_at": "2026-02-12T19:06:16.514075",
+  "_preloaded_at": "2026-02-12T19:06:16.514729",
+  "_coach_name": "Marco Mentrup"
+}

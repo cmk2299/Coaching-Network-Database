@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/dr-karl-heinrich-dittmar/profil/trainer/15181",
+  "scraped_at": "2026-02-12T18:23:34.355751",
+  "name": "Dr. Karl-Heinrich Dittmar",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_15181_15_2010_1.jpg?lm=1",
+  "dob": "08.01.1963 (63)",
+  "age": 63,
+  "birthplace": "Leverkusen",
+  "nationality": "Deutschland",
+  "current_role": "Medizinchef",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2009",
+      "role": "Medizinchef",
+      "period": "09/10 (01.07.2009) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2002",
+      "role": "Vereinsarzt",
+      "period": "02/03 (01.07.2002) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "15181",
+  "_cached_at": "2026-02-12T18:23:34.366284",
+  "_preloaded_at": "2026-02-12T18:23:34.366876",
+  "_coach_name": "Dr. Karl-Heinrich Dittmar"
+}

@@ -1,0 +1,64 @@
+{
+  "url": "https://www.transfermarkt.de/dustin-heun/profil/trainer/31523",
+  "scraped_at": "2026-02-12T18:28:27.573842",
+  "name": "Dustin Heun",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/31523-1629813529.png?lm=1",
+  "dob": "11.04.1984 (41)",
+  "age": 41,
+  "birthplace": "Duisburg",
+  "nationality": "Deutschland",
+  "license": "C-Lizenz",
+  "agent": "FSB – ...",
+  "agent_url": "https://www.transfermarkt.de/fsb-spielerberatung-gmbh/beraterfirma/berater/3625",
+  "current_role": "Scout",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (01.02.2023) - -"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (01.07.2022) - 22/23 (31.01.2023)"
+    },
+    {
+      "club": "LASK",
+      "club_url": "https://www.transfermarkt.de/lask/startseite/verein/413/saison_id/2020",
+      "role": "Chefscout",
+      "period": "20/21 (01.07.2020) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "LASK",
+      "club_url": "https://www.transfermarkt.de/lask/startseite/verein/413/saison_id/2019",
+      "role": "Videoanalyst",
+      "period": "19/20 (10.01.2020) - 21/22 (31.12.2021)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (17.10.2016) - 16/17 (26.02.2017)"
+    },
+    {
+      "club": "Wolfsburg II",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-ii/startseite/verein/143/saison_id/2013",
+      "role": "Scout",
+      "period": "13/14 (01.07.2013) - 19/20 (10.01.2020)"
+    },
+    {
+      "club": "Wolfsburg II",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-ii/startseite/verein/143/saison_id/2013",
+      "role": "Videoanalyst",
+      "period": "13/14 (01.07.2013) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "31523",
+  "_cached_at": "2026-02-12T18:28:27.586709",
+  "_preloaded_at": "2026-02-12T18:28:27.587418",
+  "_coach_name": "Dustin Heun"
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dr-paul-klein/profil/trainer/9181",
+  "scraped_at": "2026-02-12T18:25:04.169737",
+  "name": "Dr. Paul Klein",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/9181-1406673147.jpg?lm=1",
+  "dob": "23.05.1967 (58)",
+  "age": 58,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2003",
+      "role": "Vereinsarzt",
+      "period": "03/04 (01.01.2004) - -"
+    }
+  ],
+  "coach_id": "9181",
+  "_cached_at": "2026-02-12T18:25:04.182129",
+  "_preloaded_at": "2026-02-12T18:25:04.182947",
+  "_coach_name": "Dr. Paul Klein"
+}

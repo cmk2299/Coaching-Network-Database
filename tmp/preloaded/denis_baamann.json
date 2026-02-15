@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/denis-baamann/profil/trainer/151763",
+  "scraped_at": "2026-02-12T18:15:51.252979",
+  "name": "Denis Baamann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "10.06.1990 (35)",
+  "age": 35,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2018",
+      "role": "Scout",
+      "period": "18/19 (01.01.2019) - -"
+    }
+  ],
+  "coach_id": "151763",
+  "_cached_at": "2026-02-12T18:15:51.262866",
+  "_preloaded_at": "2026-02-12T18:15:51.263412",
+  "_coach_name": "Denis Baamann"
+}

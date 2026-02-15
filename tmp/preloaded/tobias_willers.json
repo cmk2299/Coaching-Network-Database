@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/tobias-willers/profil/trainer/82276",
+  "scraped_at": "2026-02-13T00:23:19.730499",
+  "name": "Tobias Willers",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "21.04.1987 (38)",
+  "age": 38,
+  "birthplace": "Hasede",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2020",
+      "role": "Scout",
+      "period": "20/21 (07.07.2020) - -"
+    }
+  ],
+  "coach_id": "82276",
+  "_cached_at": "2026-02-13T00:23:19.749514",
+  "_preloaded_at": "2026-02-13T00:23:19.750403",
+  "_coach_name": "Tobias Willers"
+}

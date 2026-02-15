@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/heinz-seyfert/profil/trainer/6688",
+  "scraped_at": "2026-02-12T18:41:55.644484",
+  "name": "Heinz Seyfert",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6688-1665085788.jpg?lm=1",
+  "dob": "30.08.1948 (77)",
+  "age": 77,
+  "birthplace": "Sinsheim",
+  "nationality": "Deutschland",
+  "current_role": "Betreuer",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/1992",
+      "role": "Zeugwart",
+      "period": "92/93 (01.07.1992) - -"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/1992",
+      "role": "Betreuer",
+      "period": "92/93 (01.07.1992) - -"
+    }
+  ],
+  "coach_id": "6688",
+  "_cached_at": "2026-02-12T18:41:55.654788",
+  "_preloaded_at": "2026-02-12T18:41:55.655334",
+  "_coach_name": "Heinz Seyfert"
+}

@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/patrick-herrmann/profil/trainer/128756",
+  "scraped_at": "2026-02-12T19:28:38.815884",
+  "name": "Patrick Herrmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.02.1991 (35)",
+  "age": 35,
+  "birthplace": "Uchtelfangen",
+  "nationality": "Deutschland",
+  "current_role": "Sponsoring",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2024",
+      "role": "Sponsoring",
+      "period": "24/25 (01.07.2024) - -"
+    }
+  ],
+  "coach_id": "128756",
+  "_cached_at": "2026-02-12T19:28:38.825841",
+  "_preloaded_at": "2026-02-12T19:28:38.826355",
+  "_coach_name": "Patrick Herrmann"
+}

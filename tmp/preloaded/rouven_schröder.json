@@ -1,0 +1,98 @@
+{
+  "url": "https://www.transfermarkt.de/rouven-schroder/profil/trainer/11342",
+  "scraped_at": "2026-02-12T23:20:43.487233",
+  "name": "Rouven Schröder",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/11342-1601390385.jpg?lm=1",
+  "dob": "18.10.1975 (50)",
+  "age": 50,
+  "birthplace": "Arnsberg",
+  "nationality": "Deutschland",
+  "license": "Fachübungsleiter",
+  "current_role": "Sportdirektor",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2025",
+      "role": "Sportdirektor",
+      "period": "25/26 (14.10.2025) - -"
+    },
+    {
+      "club": "RB Salzburg",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg/startseite/verein/409/saison_id/2024",
+      "role": "Geschäftsführer Sport",
+      "period": "24/25 (01.12.2024) - 25/26 (13.10.2025)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2022",
+      "role": "Sportdirektor",
+      "period": "22/23 (01.04.2023) - 24/25 (30.11.2024)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2020",
+      "role": "Sportdirektor",
+      "period": "20/21 (01.06.2021) - 22/23 (26.10.2022)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2017",
+      "role": "Vorstand Sport",
+      "period": "17/18 (03.07.2017) - 20/21 (22.12.2020)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2015",
+      "role": "Sportdirektor",
+      "period": "15/16 (01.04.2016) - 17/18 (02.07.2017)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2014",
+      "role": "Sportdirektor",
+      "period": "14/15 (01.07.2014) - 15/16 (02.03.2016)"
+    },
+    {
+      "club": "Greuther Fürth",
+      "club_url": "https://www.transfermarkt.de/spvgg-greuther-furth/startseite/verein/65/saison_id/2012",
+      "role": "Sportdirektor",
+      "period": "12/13 (04.01.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Greuther Fürth",
+      "club_url": "https://www.transfermarkt.de/spvgg-greuther-furth/startseite/verein/65/saison_id/2012",
+      "role": "Koordinator Lizenzbereich",
+      "period": "12/13 (01.07.2012) - 12/13 (03.01.2013)"
+    },
+    {
+      "club": "1.FC Nürnberg",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg/startseite/verein/4/saison_id/2011",
+      "role": "Scout",
+      "period": "11/12 (01.07.2011) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "1.FC Nürnberg",
+      "club_url": "https://www.transfermarkt.de/1-fc-nurnberg/startseite/verein/4/saison_id/2011",
+      "role": "Videoanalyst",
+      "period": "11/12 (01.07.2011) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "Strand 08",
+      "club_url": "https://www.transfermarkt.de/ntsv-strand-08/startseite/verein/4714/saison_id/2010",
+      "role": "Co-Trainer",
+      "period": "10/11 (01.07.2010) - 10/11 (31.12.2010)"
+    },
+    {
+      "club": "VfL Bochum II",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-ii/startseite/verein/446/saison_id/2009",
+      "role": "Co-Trainer",
+      "period": "09/10 (01.07.2009) - 09/10 (31.01.2010)"
+    }
+  ],
+  "coach_id": "11342",
+  "_cached_at": "2026-02-12T23:20:43.502490",
+  "_preloaded_at": "2026-02-12T23:20:43.503145",
+  "_coach_name": "Rouven Schröder"
+}

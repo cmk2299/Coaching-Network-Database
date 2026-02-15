@@ -1,0 +1,68 @@
+{
+  "url": "https://www.transfermarkt.de/lukas-berg/profil/trainer/81655",
+  "scraped_at": "2026-02-12T19:01:08.697648",
+  "name": "Lukas Berg",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.08.1993 (32)",
+  "age": 32,
+  "birthplace": "Bergisch Gladbach",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2028",
+  "current_role": "Technischer Direktor",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2024",
+      "role": "Technischer Direktor",
+      "period": "24/25 (07.06.2025) - vsl. 30.06.2028"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2022",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "22/23 (16.11.2022) - 24/25 (06.06.2025)"
+    },
+    {
+      "club": "Bonner SC",
+      "club_url": "https://www.transfermarkt.de/bonner-sc/startseite/verein/215/saison_id/2022",
+      "role": "Aufsichtsratsmitglied",
+      "period": "22/23 (19.09.2022) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2020",
+      "role": "Leiter Lizenzbereich",
+      "period": "20/21 (01.02.2021) - 22/23 (15.11.2022)"
+    },
+    {
+      "club": "Bonner SC",
+      "club_url": "https://www.transfermarkt.de/bonner-sc/startseite/verein/215/saison_id/2020",
+      "role": "Chefscout",
+      "period": "20/21 (01.07.2020) - 20/21 (31.01.2021)"
+    },
+    {
+      "club": "Bonner SC",
+      "club_url": "https://www.transfermarkt.de/bonner-sc/startseite/verein/215/saison_id/2019",
+      "role": "Leiter der Scouting-Abteilung",
+      "period": "19/20 (05.08.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Bonner SC",
+      "club_url": "https://www.transfermarkt.de/bonner-sc/startseite/verein/215/saison_id/2017",
+      "role": "Nachwuchsscout",
+      "period": "17/18 (01.03.2018) - 19/20 (04.08.2019)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2016",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "16/17 (01.08.2016) - 20/21 (31.01.2021)"
+    }
+  ],
+  "coach_id": "81655",
+  "_cached_at": "2026-02-12T19:01:08.710161",
+  "_preloaded_at": "2026-02-12T19:01:08.711050",
+  "_coach_name": "Lukas Berg"
+}

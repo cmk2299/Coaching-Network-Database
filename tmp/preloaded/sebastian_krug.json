@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/sebastian-krug/profil/trainer/108890",
+  "scraped_at": "2026-02-12T23:25:05.221968",
+  "name": "Sebastian Krug",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "09.02.1983 (43)",
+  "age": 43,
+  "nationality": "Deutschland",
+  "current_role": "Chefscout",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2022",
+      "role": "Chefscout",
+      "period": "22/23 (21.09.2022) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+      "role": "Scout",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "108890",
+  "_cached_at": "2026-02-12T23:25:05.231810",
+  "_preloaded_at": "2026-02-12T23:25:05.232258",
+  "_coach_name": "Sebastian Krug"
+}

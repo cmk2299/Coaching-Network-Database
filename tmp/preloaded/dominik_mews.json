@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/dominik-mews/profil/trainer/112976",
+  "scraped_at": "2026-02-12T18:19:32.244838",
+  "name": "Dominik Mews",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "07.12.1992 (33)",
+  "age": 33,
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Spielanalyst",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2025",
+      "role": "Spielanalyst",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2023",
+      "role": "Spielanalyst",
+      "period": "23/24 (01.07.2023) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2018",
+      "role": "Spielanalyst",
+      "period": "18/19 (01.08.2018) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2016",
+      "role": "Spielanalyst",
+      "period": "16/17 (01.01.2017) - 18/19 (31.12.2018)"
+    }
+  ],
+  "coach_id": "112976",
+  "_cached_at": "2026-02-12T18:19:32.255541",
+  "_preloaded_at": "2026-02-12T18:19:32.256132",
+  "_coach_name": "Dominik Mews"
+}

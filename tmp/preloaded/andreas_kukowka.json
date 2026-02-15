@@ -1,0 +1,56 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-kukowka/profil/trainer/135063",
+  "scraped_at": "2026-02-12T17:56:20.952657",
+  "name": "Andreas Kukowka",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "08.03.1983 (42)",
+  "age": 42,
+  "birthplace": "Knurów",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Scout",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2018",
+      "role": "Scout",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "1.FC Köln Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-jugend/startseite/verein/11880/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "1.FC Köln U17",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u17/startseite/verein/21048/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Schwalmstadt",
+      "club_url": "https://www.transfermarkt.de/1-fc-schwalmstadt/startseite/verein/4784/saison_id/2012",
+      "role": "Co-Trainer",
+      "period": "12/13 (01.07.2012) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "FSV Schröck",
+      "club_url": "https://www.transfermarkt.de/fsv-schrock/startseite/verein/14492/saison_id/2010",
+      "role": "Co-Trainer",
+      "period": "10/11 (01.01.2011) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "135063",
+  "_cached_at": "2026-02-12T17:56:20.964187",
+  "_preloaded_at": "2026-02-12T17:56:20.964793",
+  "_coach_name": "Andreas Kukowka"
+}

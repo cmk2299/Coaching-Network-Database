@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/jorg-hinze/profil/trainer/16659",
+  "scraped_at": "2026-02-12T18:52:59.923033",
+  "name": "Jörg Hinze",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.05.1950 (75)",
+  "age": 75,
+  "birthplace": "Halle (Saale)",
+  "nationality": "Deutschland",
+  "current_role": "Präsidiumsmitglied",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2006",
+      "role": "Präsidiumsmitglied",
+      "period": "06/07 (01.02.2007) - -"
+    }
+  ],
+  "coach_id": "16659",
+  "_cached_at": "2026-02-12T18:52:59.933438",
+  "_preloaded_at": "2026-02-12T18:52:59.934035",
+  "_coach_name": "Jörg Hinze"
+}

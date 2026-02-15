@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/hannelore-kraft/profil/trainer/127645",
+  "scraped_at": "2026-02-12T18:39:38.044630",
+  "name": "Hannelore Kraft",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.06.1961 (64)",
+  "age": 64,
+  "birthplace": "Mülheim an der Ruhr",
+  "nationality": "Deutschland",
+  "current_role": "Vize-Präsidentin",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2023",
+      "role": "Vize-Präsidentin",
+      "period": "23/24 (19.03.2024) - -"
+    }
+  ],
+  "coach_id": "127645",
+  "_cached_at": "2026-02-12T18:39:38.054482",
+  "_preloaded_at": "2026-02-12T18:39:38.054991",
+  "_coach_name": "Hannelore Kraft"
+}

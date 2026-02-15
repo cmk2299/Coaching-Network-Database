@@ -1,0 +1,72 @@
+{
+  "url": "https://www.transfermarkt.de/marius-kirmse/profil/trainer/106437",
+  "scraped_at": "2026-02-12T19:07:34.045277",
+  "name": "Marius Kirmse",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.07.1988 (37)",
+  "age": 37,
+  "nationality": "Deutschland",
+  "current_role": "Ernährungsberater",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2024",
+      "role": "Ernährungsberater",
+      "period": "24/25 (01.06.2025) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2023",
+      "role": "Ernährungsberater",
+      "period": "23/24 (01.07.2023) - 24/25 (31.05.2025)"
+    },
+    {
+      "club": "VfL Bochum U19",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u19/startseite/verein/3862/saison_id/2023",
+      "role": "Ernährungsberater",
+      "period": "23/24 (01.07.2023) - 24/25 (31.05.2025)"
+    },
+    {
+      "club": "VfL Bochum U17",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-u17/startseite/verein/21085/saison_id/2023",
+      "role": "Ernährungsberater",
+      "period": "23/24 (01.07.2023) - 24/25 (31.05.2025)"
+    },
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2023",
+      "role": "Ernährungsberater",
+      "period": "23/24 (01.07.2023) - 24/25 (31.05.2025)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2022",
+      "role": "Rehatrainer",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2022",
+      "role": "Individualtrainer",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2022",
+      "role": "Athletiktrainer",
+      "period": "22/23 (01.07.2022) - 24/25 (31.05.2025)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2022",
+      "role": "Präventivtrainer",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    }
+  ],
+  "coach_id": "106437",
+  "_cached_at": "2026-02-12T19:07:34.057222",
+  "_preloaded_at": "2026-02-12T19:07:34.057883",
+  "_coach_name": "Marius Kirmse"
+}

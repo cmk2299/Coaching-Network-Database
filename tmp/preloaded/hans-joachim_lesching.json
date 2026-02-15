@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/hans-joachim-lesching/profil/trainer/16682",
+  "scraped_at": "2026-02-12T18:40:00.893478",
+  "name": "Hans-Joachim Lesching",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2003",
+      "role": "Aufsichtsratsmitglied",
+      "period": "03/04 (27.05.2004) - -"
+    }
+  ],
+  "coach_id": "16682",
+  "_cached_at": "2026-02-12T18:40:00.902822",
+  "_preloaded_at": "2026-02-12T18:40:00.903294",
+  "_coach_name": "Hans-Joachim Lesching"
+}

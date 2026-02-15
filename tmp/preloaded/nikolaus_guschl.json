@@ -1,0 +1,48 @@
+{
+  "url": "https://www.transfermarkt.de/nikolaus-guschl/profil/trainer/95282",
+  "scraped_at": "2026-02-12T19:24:49.949120",
+  "name": "Nikolaus Guschl",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/95282-1723535535.jpg?lm=1",
+  "dob": "10.09.1991 (34)",
+  "age": 34,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2021",
+      "role": "Physiotherapeut",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "Augsburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-jugend/startseite/verein/28103/saison_id/2019",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "FC Augsburg U17",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-u17/startseite/verein/29176/saison_id/2019",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "FC Augsburg U19",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-u19/startseite/verein/4780/saison_id/2019",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "FC Augsburg U17",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg-u17/startseite/verein/29176/saison_id/2013",
+      "role": "Physiotherapeut",
+      "period": "13/14 (01.07.2013) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "95282",
+  "_cached_at": "2026-02-12T19:24:49.960792",
+  "_preloaded_at": "2026-02-12T19:24:49.961442",
+  "_coach_name": "Nikolaus Guschl"
+}

@@ -1,0 +1,39 @@
+{
+  "url": "https://www.transfermarkt.de/matthias-kleinsteiber/profil/trainer/4043",
+  "scraped_at": "2026-02-12T19:14:18.874561",
+  "name": "Matthias Kleinsteiber",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/4043-1733829197.jpg?lm=1",
+  "dob": "05.01.1978 (48)",
+  "age": 48,
+  "birthplace": "Meiningen",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "license": "Torwarttrainer-Lizenz",
+  "current_role": "Torwarttrainer",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2017",
+      "role": "Torwarttrainer",
+      "period": "17/18 (01.07.2017) - vsl. 30.06.2026"
+    },
+    {
+      "club": "B. Dortmund II",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-ii/startseite/verein/17/saison_id/2011",
+      "role": "Torwarttrainer",
+      "period": "11/12 (01.07.2011) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "B. Dortmund U19",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-u19/startseite/verein/1464/saison_id/2005",
+      "role": "Torwarttrainer",
+      "period": "05/06 (01.07.2005) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "4043",
+  "_cached_at": "2026-02-12T19:14:18.886268",
+  "_preloaded_at": "2026-02-12T19:14:18.886876",
+  "_coach_name": "Matthias Kleinsteiber"
+}

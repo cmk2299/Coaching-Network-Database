@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/alexander-jura/profil/trainer/58700",
+  "scraped_at": "2026-02-12T17:53:31.262681",
+  "name": "Alexander Jura",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/58700-1701534837.jpg?lm=1",
+  "dob": "30.04.1991 (34)",
+  "age": 34,
+  "birthplace": "Helmstedt",
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2023",
+      "role": "Physiotherapeut",
+      "period": "23/24 (01.11.2023) - -"
+    },
+    {
+      "club": "Wolfsburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-jugend/startseite/verein/12821/saison_id/2021",
+      "role": "Leitender Physiotherapeut Akademie",
+      "period": "21/22 (01.07.2021) - 23/24 (31.10.2023)"
+    },
+    {
+      "club": "Wolfsburg U19",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-u19/startseite/verein/5343/saison_id/2019",
+      "role": "Physiotherapeut",
+      "period": "19/20 (01.07.2019) - 23/24 (31.10.2023)"
+    },
+    {
+      "club": "Wolfsburg II",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg-ii/startseite/verein/143/saison_id/2018",
+      "role": "Physiotherapeut",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2014",
+      "role": "Physiotherapeut",
+      "period": "14/15 (01.04.2015) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "58700",
+  "_cached_at": "2026-02-12T17:53:31.274716",
+  "_preloaded_at": "2026-02-12T17:53:31.275348",
+  "_coach_name": "Alexander Jura"
+}

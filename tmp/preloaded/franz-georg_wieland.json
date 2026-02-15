@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/franz-georg-wieland/profil/trainer/144971",
+  "scraped_at": "2026-02-12T18:36:12.161631",
+  "name": "Franz-Georg Wieland",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "07.03.1993 (32)",
+  "age": 32,
+  "birthplace": "Friedrichshafen",
+  "nationality": "Deutschland",
+  "current_role": "Co-Trainer Analyse",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2024",
+      "role": "Co-Trainer Analyse",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "SC Freiburg U19",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg-u19/startseite/verein/4042/saison_id/2021",
+      "role": "Videoanalyst",
+      "period": "21/22 (01.07.2021) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Freiburger FC",
+      "club_url": "https://www.transfermarkt.de/freiburger-fc/startseite/verein/745/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (01.07.2020) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Freib. FC U19",
+      "club_url": "https://www.transfermarkt.de/freiburger-fc-u19/startseite/verein/16128/saison_id/2019",
+      "role": "Teammanager",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Oberteuringen",
+      "club_url": "https://www.transfermarkt.de/sv-oberteuringen/startseite/verein/24989/saison_id/2015",
+      "role": "Betreuer",
+      "period": "15/16 (01.07.2015) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "144971",
+  "_cached_at": "2026-02-12T18:36:12.172941",
+  "_preloaded_at": "2026-02-12T18:36:12.173569",
+  "_coach_name": "Franz-Georg Wieland"
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.transfermarkt.de/oliver-neuville/profil/trainer/29181",
+  "scraped_at": "2026-02-12T19:27:30.214357",
+  "name": "Oliver Neuville",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/29181-1662966810.jpg?lm=1",
+  "dob": "01.05.1973 (52)",
+  "age": 52,
+  "birthplace": "Locarno",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - -"
+    },
+    {
+      "club": "M'gladbach U19",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach-u19/startseite/verein/4121/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (01.07.2013) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "29181",
+  "_cached_at": "2026-02-12T19:27:30.226799",
+  "_preloaded_at": "2026-02-12T19:27:30.227442",
+  "_coach_name": "Oliver Neuville"
+}

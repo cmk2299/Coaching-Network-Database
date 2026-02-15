@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/felix-schierholt/profil/trainer/65519",
+  "scraped_at": "2026-02-12T18:32:12.571566",
+  "name": "Felix Schierholt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/65519-1633437868.jpg?lm=1",
+  "dob": "17.01.1991 (35)",
+  "age": 35,
+  "nationality": "Deutschland",
+  "current_role": "Leitender Physiotherapeut Akademie",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2022",
+      "role": "Leitender Physiotherapeut Akademie",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "B. München U19",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/2021",
+      "role": "Physiotherapeut",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Unterhaching",
+      "club_url": "https://www.transfermarkt.de/spvgg-unterhaching/startseite/verein/66/saison_id/2015",
+      "role": "Physiotherapeut",
+      "period": "15/16 (01.07.2015) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "65519",
+  "_cached_at": "2026-02-12T18:32:12.592041",
+  "_preloaded_at": "2026-02-12T18:32:12.592881",
+  "_coach_name": "Felix Schierholt"
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/daniel-janssen/profil/trainer/24119",
+  "scraped_at": "2026-02-12T18:13:03.314362",
+  "name": "Daniel Janssen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.06.1971 (54)",
+  "age": 54,
+  "birthplace": "Köln",
+  "nationality": "Deutschland",
+  "license": "B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2010",
+      "role": "Scout",
+      "period": "10/11 (01.07.2010) - -"
+    },
+    {
+      "club": "Hertha BSC",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc/startseite/verein/44/saison_id/2006",
+      "role": "Scout",
+      "period": "06/07 (01.07.2006) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "SCB Viktoria",
+      "club_url": "https://www.transfermarkt.de/scb-viktoria-koln/startseite/verein/37751/saison_id/2004",
+      "role": "Spielertrainer",
+      "period": "04/05 (01.01.2005) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "SCB Viktoria",
+      "club_url": "https://www.transfermarkt.de/scb-viktoria-koln/startseite/verein/37751/saison_id/2003",
+      "role": "Spielertrainer",
+      "period": "03/04 (01.01.2004) - 03/04 (30.06.2004)"
+    },
+    {
+      "club": "TuS Schmidt",
+      "club_url": "https://www.transfermarkt.de/tus-schmidt/startseite/verein/284/saison_id/1999",
+      "role": "Spielertrainer",
+      "period": "99/00 (01.07.1999) - 00/01 (31.01.2001)"
+    }
+  ],
+  "coach_id": "24119",
+  "_cached_at": "2026-02-12T18:13:03.327378",
+  "_preloaded_at": "2026-02-12T18:13:03.329022",
+  "_coach_name": "Daniel Janssen"
+}

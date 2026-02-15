@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/johannes-haberlandt/profil/trainer/51179",
+  "scraped_at": "2026-02-12T18:48:41.360116",
+  "name": "Johannes Haberlandt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "03.02.1993 (33)",
+  "age": 33,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2023",
+      "role": "Physiotherapeut",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "Karlsruher SC",
+      "club_url": "https://www.transfermarkt.de/karlsruher-sc/startseite/verein/48/saison_id/2019",
+      "role": "Physiotherapeut",
+      "period": "19/20 (01.09.2019) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Karlsruhe U19",
+      "club_url": "https://www.transfermarkt.de/karlsruher-sc-u19/startseite/verein/5370/saison_id/2018",
+      "role": "Physiotherapeut",
+      "period": "18/19 (01.01.2019) - 19/20 (31.08.2019)"
+    },
+    {
+      "club": "TSV Ilshofen",
+      "club_url": "https://www.transfermarkt.de/tsv-ilshofen/startseite/verein/33470/saison_id/2016",
+      "role": "Physiotherapeut",
+      "period": "16/17 (01.07.2016) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "51179",
+  "_cached_at": "2026-02-12T18:48:41.370836",
+  "_preloaded_at": "2026-02-12T18:48:41.371472",
+  "_coach_name": "Johannes Haberlandt"
+}

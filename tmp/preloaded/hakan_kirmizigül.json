@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/hakan-kirmizigul/profil/trainer/118096",
+  "scraped_at": "2026-02-12T18:39:14.978143",
+  "name": "Hakan Kirmizigül",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Türkei",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+      "role": "Nachwuchsscout",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "118096",
+  "_cached_at": "2026-02-12T18:39:14.987598",
+  "_preloaded_at": "2026-02-12T18:39:14.988106",
+  "_coach_name": "Hakan Kirmizigül"
+}

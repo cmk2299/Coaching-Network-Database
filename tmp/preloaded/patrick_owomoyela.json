@@ -1,0 +1,26 @@
+{
+  "url": "https://www.transfermarkt.de/patrick-owomoyela/profil/trainer/59442",
+  "scraped_at": "2026-02-12T19:29:16.298616",
+  "name": "Patrick Owomoyela",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/59442-1735901028.png?lm=1",
+  "dob": "05.11.1979 (46)",
+  "age": 46,
+  "birthplace": "Hamburg",
+  "nationality": "DeutschlandNigeria",
+  "license": "A-Lizenz",
+  "current_role": "Klubrepräsentant",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2017",
+      "role": "Klubrepräsentant",
+      "period": "17/18 (06.03.2018) - -"
+    }
+  ],
+  "coach_id": "59442",
+  "_cached_at": "2026-02-12T19:29:16.309629",
+  "_preloaded_at": "2026-02-12T19:29:16.310228",
+  "_coach_name": "Patrick Owomoyela"
+}

@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/bum-kun-cha/profil/trainer/633",
+  "scraped_at": "2026-02-12T18:04:53.993938",
+  "name": "Bum-kun Cha",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/633-1618818890.jpg?lm=1",
+  "dob": "22.05.1953 (72)",
+  "age": 72,
+  "birthplace": "Hwaseong, Gyeonggi",
+  "nationality": "Südkorea",
+  "current_role": "Besitzerund weitere Tätigkeiten",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2018",
+      "role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+      "period": "18/19 (03.11.2018) - -"
+    },
+    {
+      "club": "SZ FC",
+      "club_url": "https://www.transfermarkt.de/shenzhen-fc/startseite/verein/1320/saison_id/2014",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "14/15 (16.04.2015) - 17/18 (10.04.2018)"
+    },
+    {
+      "club": "Suwon Bluewings",
+      "club_url": "https://www.transfermarkt.de/suwon-samsung-bluewings/startseite/verein/3301/saison_id/2003",
+      "role": "Trainer",
+      "period": "03/04 (17.10.2003) - 09/10 (08.06.2010)"
+    },
+    {
+      "club": "SZ FC",
+      "club_url": "https://www.transfermarkt.de/shenzhen-fc/startseite/verein/1320/saison_id/1998",
+      "role": "Trainer",
+      "period": "98/99 (01.07.1998) - 99/00 (31.12.1999)"
+    },
+    {
+      "club": "Südkorea",
+      "club_url": "https://www.transfermarkt.de/sudkorea/startseite/verein/3589/saison_id/1996",
+      "role": "Trainer",
+      "period": "96/97 (01.01.1997) - 97/98 (20.06.1998)"
+    },
+    {
+      "club": "Ulsan Hyundai",
+      "club_url": "https://www.transfermarkt.de/ulsan-hyundai/startseite/verein/3535/saison_id/1990",
+      "role": "Trainer",
+      "period": "90/91 (23.11.1990) - 94/95 (27.11.1994)"
+    },
+    {
+      "club": "Chaboom Acad.",
+      "club_url": "https://www.transfermarkt.de/fc-chaboom-youth-football-academy/startseite/verein/123936/saison_id/1987",
+      "role": "Besitzer",
+      "period": "87/88 (01.01.1988) - -"
+    }
+  ],
+  "coach_id": "633",
+  "_cached_at": "2026-02-12T18:04:54.007475",
+  "_preloaded_at": "2026-02-12T18:04:54.008179",
+  "_coach_name": "Bum-kun Cha"
+}

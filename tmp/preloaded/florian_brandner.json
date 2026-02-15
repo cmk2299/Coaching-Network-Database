@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/florian-brandner/profil/trainer/74592",
+  "scraped_at": "2026-02-12T18:32:58.838308",
+  "name": "Florian Brandner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.09.1983 (42)",
+  "age": 42,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2018",
+      "role": "Physiotherapeut",
+      "period": "18/19 (01.01.2019) - -"
+    },
+    {
+      "club": "B. München U19",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/2017",
+      "role": "Physiotherapeut",
+      "period": "17/18 (01.07.2017) - 18/19 (31.12.2018)"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2016",
+      "role": "Physiotherapeut",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2010",
+      "role": "Physiotherapeut",
+      "period": "10/11 (01.07.2010) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "74592",
+  "_cached_at": "2026-02-12T18:32:58.849603",
+  "_preloaded_at": "2026-02-12T18:32:58.850344",
+  "_coach_name": "Florian Brandner"
+}

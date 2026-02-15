@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/frank-rutemoller/profil/trainer/71349",
+  "scraped_at": "2026-02-12T18:35:41.192677",
+  "name": "Frank Rutemöller",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "28.07.1983 (42)",
+  "age": 42,
+  "birthplace": "Köln",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "current_role": "Spielanalyst",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2017",
+      "role": "Spielanalyst",
+      "period": "17/18 (01.11.2017) - vsl. 30.06.2026"
+    },
+    {
+      "club": "Deutschland U18",
+      "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/2016",
+      "role": "Videoanalyst",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "FIFA",
+      "club_url": "https://www.transfermarkt.de/fifa-council/startseite/verein/30826/saison_id/2013",
+      "role": "Spielanalyst",
+      "period": "13/14 (01.03.2014) - 16/17 (31.12.2016)"
+    },
+    {
+      "club": "Deutschland U17",
+      "club_url": "https://www.transfermarkt.de/deutschland-u17/startseite/verein/17662/saison_id/2012",
+      "role": "Videoanalyst",
+      "period": "12/13 (01.07.2012) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Leverkusen Jgd.",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-jugend/startseite/verein/11874/saison_id/2010",
+      "role": "Trainer",
+      "period": "10/11 (01.01.2010) - 11/12 (29.02.2012)"
+    }
+  ],
+  "coach_id": "71349",
+  "_cached_at": "2026-02-12T18:35:41.204049",
+  "_preloaded_at": "2026-02-12T18:35:41.204634",
+  "_coach_name": "Frank Rutemöller"
+}

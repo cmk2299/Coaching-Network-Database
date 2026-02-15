@@ -1,0 +1,48 @@
+{
+  "url": "https://www.transfermarkt.de/dr-stefan-hertl/profil/trainer/10389",
+  "scraped_at": "2026-02-12T18:26:50.200284",
+  "name": "Dr. Stefan Hertl",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/10389-1406670433.jpg?lm=1",
+  "dob": "14.01.1960 (66)",
+  "age": 66,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "GER Team 2006",
+      "club_url": "https://www.transfermarkt.de/deutschland-team-2006/startseite/verein/40791/saison_id/2004",
+      "role": "Vereinsarzt",
+      "period": "04/05 (01.07.2004) - 06/07 (31.07.2006)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2003",
+      "role": "Vereinsarzt",
+      "period": "03/04 (01.07.2003) - -"
+    },
+    {
+      "club": "Deutschland U18",
+      "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/1991",
+      "role": "Vereinsarzt",
+      "period": "91/92 (01.07.1991) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "Deutschland U21",
+      "club_url": "https://www.transfermarkt.de/deutschland-u21/startseite/verein/3817/saison_id/1991",
+      "role": "Vereinsarzt",
+      "period": "91/92 (01.07.1991) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/1988",
+      "role": "Vereinsarzt",
+      "period": "88/89 (01.01.1989) - 89/90 (31.12.1989)"
+    }
+  ],
+  "coach_id": "10389",
+  "_cached_at": "2026-02-12T18:26:50.211315",
+  "_preloaded_at": "2026-02-12T18:26:50.211947",
+  "_coach_name": "Dr. Stefan Hertl"
+}

@@ -1,0 +1,99 @@
+{
+  "url": "https://www.transfermarkt.de/rene-maric/profil/trainer/49415",
+  "scraped_at": "2026-02-12T23:17:48.014896",
+  "name": "René Marić",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/49415-1535448202.jpg?lm=1",
+  "dob": "04.09.1992 (33)",
+  "age": 33,
+  "birthplace": "Oberndorf bei Salzburg",
+  "nationality": "Österreich",
+  "contract_until": "30.06.2029",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainerund weitere Tätigkeiten",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+      "role": "Co-Trainer",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2029"
+    },
+    {
+      "club": "B. München U19",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/2024",
+      "role": "Entwicklungscoach",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2029"
+    },
+    {
+      "club": "B. München U19",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u19/startseite/verein/1462/saison_id/2023",
+      "role": "Trainer",
+      "period": "23/24 (05.02.2024) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "B. München YL",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-uefa-u19/startseite/verein/41585/saison_id/2023",
+      "role": "Trainer",
+      "period": "23/24 (05.02.2024) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/2023",
+      "role": "Entwicklungscoach",
+      "period": "23/24 (15.11.2023) - vsl. 30.06.2029"
+    },
+    {
+      "club": "B. München Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-jugend/startseite/verein/18936/saison_id/2023",
+      "role": "Entwicklungscoach",
+      "period": "23/24 (15.11.2023) - vsl. 30.06.2029"
+    },
+    {
+      "club": "B. München U17",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-u17/startseite/verein/21058/saison_id/2023",
+      "role": "Entwicklungscoach",
+      "period": "23/24 (15.11.2023) - vsl. 30.06.2029"
+    },
+    {
+      "club": "Leeds United",
+      "club_url": "https://www.transfermarkt.de/leeds-united/startseite/verein/399/saison_id/2022",
+      "role": "Co-Trainer",
+      "period": "22/23 (30.07.2022) - 22/23 (06.02.2023)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2021",
+      "role": "Co-Trainer",
+      "period": "21/22 (01.07.2021) - 21/22 (20.05.2022)"
+    },
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "RB Salzburg",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg/startseite/verein/409/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (01.07.2017) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "AKA Salzb. U18",
+      "club_url": "https://www.transfermarkt.de/aka-red-bull-salzburg-u18/startseite/verein/11263/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Handenberg",
+      "club_url": "https://www.transfermarkt.de/tsu-handenberg/startseite/verein/35817/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    }
+  ],
+  "coach_id": "49415",
+  "_cached_at": "2026-02-12T23:17:48.031254",
+  "_preloaded_at": "2026-02-12T23:17:48.031994",
+  "_coach_name": "René Marić"
+}

@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/aimen-demai/profil/trainer/43848",
+  "scraped_at": "2026-02-12T18:00:47.396780",
+  "name": "Aïmen Demai",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "10.12.1982 (43)",
+  "age": 43,
+  "birthplace": "Thionville",
+  "nationality": "TunesienAlgerien",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Scout",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2021",
+      "role": "Scout",
+      "period": "21/22 (01.02.2022) - -"
+    },
+    {
+      "club": "Düsseldorf Jgd.",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf-jugend/startseite/verein/11955/saison_id/2020",
+      "role": "Trainer",
+      "period": "20/21 (01.07.2020) - 21/22 (31.12.2021)"
+    },
+    {
+      "club": "A. Aachen U17",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen-u17/startseite/verein/21052/saison_id/2019",
+      "role": "Trainer",
+      "period": "19/20 (01.07.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "A. Aachen U19",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen-u19/startseite/verein/5295/saison_id/2016",
+      "role": "Technischer Direktor",
+      "period": "16/17 (01.07.2016) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "A. Aachen U17",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen-u17/startseite/verein/21052/saison_id/2016",
+      "role": "Trainer",
+      "period": "16/17 (01.07.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "A. Aachen U17",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen-u17/startseite/verein/21052/saison_id/2016",
+      "role": "Technischer Direktor",
+      "period": "16/17 (01.07.2016) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "A. Aachen Jgd.",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen-jugend/startseite/verein/11965/saison_id/2016",
+      "role": "Technischer Direktor",
+      "period": "16/17 (01.07.2016) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Alem. Aachen",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen/startseite/verein/8/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (22.12.2015) - 15/16 (31.12.2015)"
+    },
+    {
+      "club": "Alem. Aachen",
+      "club_url": "https://www.transfermarkt.de/alemannia-aachen/startseite/verein/8/saison_id/2015",
+      "role": "Interimstrainer",
+      "period": "15/16 (06.12.2015) - 15/16 (21.12.2015)"
+    }
+  ],
+  "coach_id": "43848",
+  "_cached_at": "2026-02-12T18:00:47.409459",
+  "_preloaded_at": "2026-02-12T18:00:47.410103",
+  "_coach_name": "Aïmen Demai"
+}

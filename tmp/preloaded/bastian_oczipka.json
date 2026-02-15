@@ -1,0 +1,44 @@
+{
+  "url": "https://www.transfermarkt.de/bastian-oczipka/profil/trainer/150816",
+  "scraped_at": "2026-02-12T18:01:26.117313",
+  "name": "Bastian Oczipka",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.01.1989 (37)",
+  "age": 37,
+  "birthplace": "Bergisch Gladbach",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Scout",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2025",
+      "role": "Scout",
+      "period": "25/26 (01.09.2025) - -"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2024",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "24/25 (01.09.2024) - 25/26 (30.09.2025)"
+    },
+    {
+      "club": "Leverkusen Jgd.",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-jugend/startseite/verein/11874/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (01.08.2023) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2023",
+      "role": "Scout",
+      "period": "23/24 (01.08.2023) - 23/24 (30.06.2024)"
+    }
+  ],
+  "coach_id": "150816",
+  "_cached_at": "2026-02-12T18:01:26.128312",
+  "_preloaded_at": "2026-02-12T18:01:26.128835",
+  "_coach_name": "Bastian Oczipka"
+}

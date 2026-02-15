@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/wolfgang-hotze/profil/trainer/8317",
+  "scraped_at": "2026-02-13T00:45:27.714105",
+  "name": "Wolfgang Hotze",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/8317-1515621461.jpg?lm=1",
+  "dob": "09.07.1952 (73)",
+  "age": 73,
+  "birthplace": "Essen",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+      "role": "Aufsichtsratsmitglied",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2016",
+      "role": "Geschäftsführer Sport & Kommunikation",
+      "period": "16/17 (13.12.2016) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2014",
+      "role": "Geschäftsführer kaufmännisch",
+      "period": "14/15 (01.07.2014) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2000",
+      "role": "Geschäftsführer Finanzen",
+      "period": "00/01 (23.05.2001) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/1996",
+      "role": "Vorstandsmitglied",
+      "period": "96/97 (01.07.1996) - 96/97 (31.12.1996)"
+    }
+  ],
+  "coach_id": "8317",
+  "_cached_at": "2026-02-13T00:45:27.734710",
+  "_preloaded_at": "2026-02-13T00:45:27.736051",
+  "_coach_name": "Wolfgang Hotze"
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/tatjana-haenni/profil/trainer/151144",
+  "scraped_at": "2026-02-13T00:03:24.203819",
+  "name": "Tatjana Haenni",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/151144-1765356786.jpg?lm=1",
+  "dob": "02.12.1966 (59)",
+  "age": 59,
+  "birthplace": "Biel",
+  "nationality": "Schweiz",
+  "current_role": "Vorsitzende Geschäftsführung",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2025",
+      "role": "Vorsitzende Geschäftsführung",
+      "period": "25/26 (01.01.2026) - -"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2005",
+      "role": "Präsidentin",
+      "period": "05/06 (01.07.2005) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2000",
+      "role": "Trainerin",
+      "period": "00/01 (01.07.2000) - 00/01 (30.06.2001)"
+    }
+  ],
+  "coach_id": "151144",
+  "_cached_at": "2026-02-13T00:03:24.241097",
+  "_preloaded_at": "2026-02-13T00:03:24.242403",
+  "_coach_name": "Tatjana Haenni"
+}

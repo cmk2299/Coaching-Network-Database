@@ -1,0 +1,134 @@
+{
+  "url": "https://www.transfermarkt.de/miguel-angel-campos/profil/trainer/33149",
+  "scraped_at": "2026-02-12T19:21:30.074989",
+  "name": "Miguel Ángel Campos",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "05.09.1976 (49)",
+  "age": 49,
+  "birthplace": "Granada",
+  "nationality": "Spanien",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Performance Manager",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2025",
+      "role": "Performance Manager",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Spanien",
+      "club_url": "https://www.transfermarkt.de/spanien-olympia/startseite/verein/53824/saison_id/2024",
+      "role": "Fitnesstrainer",
+      "period": "24/25 (01.07.2024) - 24/25 (09.08.2024)"
+    },
+    {
+      "club": "Spanien U21",
+      "club_url": "https://www.transfermarkt.de/spanien-u21/startseite/verein/9567/saison_id/2024",
+      "role": "Fitnesstrainer",
+      "period": "24/25 (01.07.2024) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Spanien U21",
+      "club_url": "https://www.transfermarkt.de/spanien-u21/startseite/verein/9567/saison_id/2022",
+      "role": "Fitnesstrainer",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Spanien U19",
+      "club_url": "https://www.transfermarkt.de/spanien-u19/startseite/verein/12609/saison_id/2022",
+      "role": "Fitnesstrainer",
+      "period": "22/23 (01.07.2022) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Spanien U17",
+      "club_url": "https://www.transfermarkt.de/spanien-u17/startseite/verein/12395/saison_id/2022",
+      "role": "Fitnesstrainer",
+      "period": "22/23 (01.07.2022) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "FC Watford",
+      "club_url": "https://www.transfermarkt.de/fc-watford/startseite/verein/1010/saison_id/2021",
+      "role": "Fitnesstrainer",
+      "period": "21/22 (01.02.2022) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "FC Cádiz",
+      "club_url": "https://www.transfermarkt.de/fc-cadiz/startseite/verein/2687/saison_id/2018",
+      "role": "Fitnesstrainer",
+      "period": "18/19 (16.01.2019) - 21/22 (31.01.2022)"
+    },
+    {
+      "club": "UD Almería",
+      "club_url": "https://www.transfermarkt.de/ud-almeria/startseite/verein/3302/saison_id/2017",
+      "role": "Fitnesstrainer",
+      "period": "17/18 (01.11.2017) - 17/18 (30.04.2018)"
+    },
+    {
+      "club": "Algerien",
+      "club_url": "https://www.transfermarkt.de/algerien/startseite/verein/3614/saison_id/2016",
+      "role": "Fitnesstrainer",
+      "period": "16/17 (13.04.2017) - 17/18 (18.10.2017)"
+    },
+    {
+      "club": "FC Granada",
+      "club_url": "https://www.transfermarkt.de/fc-granada/startseite/verein/16795/saison_id/2016",
+      "role": "Fitnesstrainer",
+      "period": "16/17 (01.10.2016) - 16/17 (31.03.2017)"
+    },
+    {
+      "club": "UD Levante",
+      "club_url": "https://www.transfermarkt.de/ud-levante/startseite/verein/3368/saison_id/2014",
+      "role": "Fitnesstrainer",
+      "period": "14/15 (22.10.2014) - 15/16 (26.10.2015)"
+    },
+    {
+      "club": "Recr. Huelva",
+      "club_url": "https://www.transfermarkt.de/recreativo-huelva/startseite/verein/2867/saison_id/2008",
+      "role": "Fitnesstrainer",
+      "period": "08/09 (01.07.2008) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Real Murcia",
+      "club_url": "https://www.transfermarkt.de/real-murcia/startseite/verein/171/saison_id/2006",
+      "role": "Fitnesstrainer",
+      "period": "06/07 (01.07.2006) - 07/08 (31.03.2008)"
+    },
+    {
+      "club": "Deportivo Xerez",
+      "club_url": "https://www.transfermarkt.de/deportivo-xerez/startseite/verein/134/saison_id/2005",
+      "role": "Fitnesstrainer",
+      "period": "05/06 (01.07.2005) - 05/06 (30.06.2006)"
+    },
+    {
+      "club": "Rac. Santander",
+      "club_url": "https://www.transfermarkt.de/racing-santander/startseite/verein/630/saison_id/2003",
+      "role": "Fitnesstrainer",
+      "period": "03/04 (01.08.2003) - 04/05 (28.02.2005)"
+    },
+    {
+      "club": "Recr. Huelva",
+      "club_url": "https://www.transfermarkt.de/recreativo-huelva/startseite/verein/2867/saison_id/2001",
+      "role": "Fitnesstrainer",
+      "period": "01/02 (01.07.2001) - 02/03 (30.06.2003)"
+    },
+    {
+      "club": "FC Granada",
+      "club_url": "https://www.transfermarkt.de/fc-granada/startseite/verein/16795/saison_id/2000",
+      "role": "Fitnesstrainer",
+      "period": "00/01 (01.01.2001) - 00/01 (30.06.2001)"
+    },
+    {
+      "club": "Poli Almería",
+      "club_url": "https://www.transfermarkt.de/polideportivo-almeria/startseite/verein/21370/saison_id/1999",
+      "role": "Fitnesstrainer",
+      "period": "99/00 (01.07.1999) - 00/01 (31.10.2000)"
+    }
+  ],
+  "coach_id": "33149",
+  "_cached_at": "2026-02-12T19:21:30.092196",
+  "_preloaded_at": "2026-02-12T19:21:30.093029",
+  "_coach_name": "Miguel Ángel Campos"
+}

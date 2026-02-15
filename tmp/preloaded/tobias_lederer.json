@@ -1,0 +1,57 @@
+{
+  "url": "https://www.transfermarkt.de/tobias-lederer/profil/trainer/66732",
+  "scraped_at": "2026-02-13T00:22:07.380335",
+  "name": "Tobias Lederer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "03.04.1992 (33)",
+  "age": 33,
+  "birthplace": "Ludwigslust",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "license": "B+-Lizenz",
+  "current_role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2024",
+      "role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+      "period": "24/25 (01.07.2024) - vsl. 30.06.2026"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2023",
+      "role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+      "period": "23/24 (15.07.2023) - 23/24 (15.09.2023)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2019",
+      "role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+      "period": "19/20 (01.02.2020) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Tsinghua Uni HS",
+      "club_url": "https://www.transfermarkt.de/tsinghua-university-high-school/startseite/verein/121006/saison_id/2019",
+      "role": "Sportlicher Leiter",
+      "period": "19/20 (01.04.2019) - -"
+    },
+    {
+      "club": "Hebei FC Jgd.",
+      "club_url": "https://www.transfermarkt.de/hebei-fc-youth/startseite/verein/88662/saison_id/2017",
+      "role": "Trainer",
+      "period": "17/18 (01.04.2018) - 18/19 (31.03.2019)"
+    },
+    {
+      "club": "E. Dortm. Jgd.",
+      "club_url": "https://www.transfermarkt.de/eintracht-dortmund-jugend/startseite/verein/41200/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 17/18 (31.03.2018)"
+    }
+  ],
+  "coach_id": "66732",
+  "_cached_at": "2026-02-13T00:22:07.420576",
+  "_preloaded_at": "2026-02-13T00:22:07.422094",
+  "_coach_name": "Tobias Lederer"
+}

@@ -1,0 +1,56 @@
+{
+  "url": "https://www.transfermarkt.de/jan-schafer/profil/trainer/43215",
+  "scraped_at": "2026-02-12T18:46:17.191059",
+  "name": "Jan Schäfer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/43215-1526723768.jpg?lm=1",
+  "dob": "04.09.1987 (38)",
+  "age": 38,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Nachwuchskoordinator",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2019",
+      "role": "Nachwuchskoordinator",
+      "period": "19/20 (15.07.2019) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2018",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "1.FC Köln U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-u19/startseite/verein/1461/saison_id/2017",
+      "role": "Co-Trainer",
+      "period": "17/18 (15.01.2018) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Rot-Weiß Erfurt",
+      "club_url": "https://www.transfermarkt.de/rot-weiss-erfurt/startseite/verein/111/saison_id/2014",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "14/15 (24.03.2015) - 17/18 (14.01.2018)"
+    },
+    {
+      "club": "RW Erfurt U19",
+      "club_url": "https://www.transfermarkt.de/rot-weiss-erfurt-u19/startseite/verein/7680/saison_id/2013",
+      "role": "Co-Trainer",
+      "period": "13/14 (01.07.2013) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Rot-Weiß Erfurt",
+      "club_url": "https://www.transfermarkt.de/rot-weiss-erfurt/startseite/verein/111/saison_id/2013",
+      "role": "Nachwuchskoordinator",
+      "period": "13/14 (01.07.2013) - 17/18 (14.01.2018)"
+    }
+  ],
+  "coach_id": "43215",
+  "_cached_at": "2026-02-12T18:46:17.202834",
+  "_preloaded_at": "2026-02-12T18:46:17.203477",
+  "_coach_name": "Jan Schäfer"
+}

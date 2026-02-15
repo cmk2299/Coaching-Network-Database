@@ -1,0 +1,68 @@
+{
+  "url": "https://www.transfermarkt.de/mario-baric/profil/trainer/16707",
+  "scraped_at": "2026-02-12T19:07:03.302810",
+  "name": "Mario Baric",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/16707-1571821028.jpg?lm=1",
+  "dob": "10.11.1984 (41)",
+  "age": 41,
+  "birthplace": "Sarajevo",
+  "nationality": "Bosnien-HerzegowinaDeutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Chefanalytiker",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2025",
+      "role": "Chefanalytiker",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2021",
+      "role": "Spielanalyst",
+      "period": "21/22 (01.07.2021) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2016",
+      "role": "Chefanalytiker",
+      "period": "16/17 (01.07.2016) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Saarbrücken",
+      "club_url": "https://www.transfermarkt.de/1-fc-saarbrucken/startseite/verein/1/saison_id/2015",
+      "role": "Chefanalytiker",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Saarbrücken",
+      "club_url": "https://www.transfermarkt.de/1-fc-saarbrucken/startseite/verein/1/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "MSV Duisburg",
+      "club_url": "https://www.transfermarkt.de/msv-duisburg/startseite/verein/52/saison_id/2009",
+      "role": "Co-Trainer Analyse",
+      "period": "09/10 (01.08.2009) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2008",
+      "role": "Spielanalyst",
+      "period": "08/09 (01.10.2008) - 08/09 (30.06.2009)"
+    },
+    {
+      "club": "1.FC K'lautern",
+      "club_url": "https://www.transfermarkt.de/1-fc-kaiserslautern/startseite/verein/2/saison_id/2008",
+      "role": "Scout",
+      "period": "08/09 (01.10.2008) - 08/09 (30.06.2009)"
+    }
+  ],
+  "coach_id": "16707",
+  "_cached_at": "2026-02-12T19:07:03.315646",
+  "_preloaded_at": "2026-02-12T19:07:03.316327",
+  "_coach_name": "Mario Baric"
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/markus-irmer/profil/trainer/82402",
+  "scraped_at": "2026-02-12T19:09:20.513563",
+  "name": "Markus Irmer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "27.12.1976 (49)",
+  "age": 49,
+  "nationality": "Deutschland",
+  "current_role": "Betreuerund weitere Tätigkeiten",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Busfahrer",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2018",
+      "role": "Betreuer",
+      "period": "18/19 (01.07.2018) - -"
+    }
+  ],
+  "coach_id": "82402",
+  "_cached_at": "2026-02-12T19:09:20.523465",
+  "_preloaded_at": "2026-02-12T19:09:20.524069",
+  "_coach_name": "Markus Irmer"
+}

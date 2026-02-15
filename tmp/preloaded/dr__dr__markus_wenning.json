@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/dr-dr-markus-wenning/profil/trainer/99528",
+  "scraped_at": "2026-02-12T18:21:17.608711",
+  "name": "Dr. Dr. Markus Wenning",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "23.12.1985 (40)",
+  "age": 40,
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "SC Freiburg",
+  "current_club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60",
+  "career_history": [
+    {
+      "club": "SC Freiburg",
+      "club_url": "https://www.transfermarkt.de/sc-freiburg/startseite/verein/60/saison_id/2020",
+      "role": "Vereinsarzt",
+      "period": "20/21 (01.07.2020) - -"
+    }
+  ],
+  "coach_id": "99528",
+  "_cached_at": "2026-02-12T18:21:17.618874",
+  "_preloaded_at": "2026-02-12T18:21:17.619533",
+  "_coach_name": "Dr. Dr. Markus Wenning"
+}

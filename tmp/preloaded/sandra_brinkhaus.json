@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/sandra-brinkhaus/profil/trainer/110676",
+  "scraped_at": "2026-02-12T23:22:14.983387",
+  "name": "Sandra Brinkhaus",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Fanbeauftragte",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2019",
+      "role": "Fanbeauftragte",
+      "period": "19/20 (01.08.2019) - -"
+    }
+  ],
+  "coach_id": "110676",
+  "_cached_at": "2026-02-12T23:22:15.001895",
+  "_preloaded_at": "2026-02-12T23:22:15.002565",
+  "_coach_name": "Sandra Brinkhaus"
+}

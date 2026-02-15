@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/nicolai-adam/profil/trainer/30478",
+  "scraped_at": "2026-02-12T19:23:17.972030",
+  "name": "Nicolai Adam",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "11.12.1972 (53)",
+  "age": 53,
+  "birthplace": "Seligenstadt",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2017",
+      "role": "Mitarbeiter zum Ausbau internationaler Beziehungen",
+      "period": "17/18 (01.09.2017) - -"
+    },
+    {
+      "club": "Indien U17",
+      "club_url": "https://www.transfermarkt.de/indien-u17/startseite/verein/56446/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.04.2015) - 16/17 (31.01.2017)"
+    },
+    {
+      "club": "Indien U16",
+      "club_url": "https://www.transfermarkt.de/indien-u16/startseite/verein/36502/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.04.2015) - 17/18 (31.01.2017)"
+    },
+    {
+      "club": "Aserbaid. U19",
+      "club_url": "https://www.transfermarkt.de/aserbaidschan-u19/startseite/verein/28028/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 14/15 (31.03.2015)"
+    },
+    {
+      "club": "Aserbaid. U18",
+      "club_url": "https://www.transfermarkt.de/aserbaidschan-u18/startseite/verein/28086/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Aserbaid. U17",
+      "club_url": "https://www.transfermarkt.de/aserbaidschan-u17/startseite/verein/29840/saison_id/2010",
+      "role": "Trainer",
+      "period": "10/11 (26.01.2011) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Lesotho",
+      "club_url": "https://www.transfermarkt.de/lesotho/startseite/verein/13962/saison_id/2009",
+      "role": "Berater",
+      "period": "09/10 (22.08.2009) - 09/10 (10.09.2009)"
+    },
+    {
+      "club": "Viktoria Kahl",
+      "club_url": "https://www.transfermarkt.de/viktoria-kahl/startseite/verein/4915/saison_id/2005",
+      "role": "Trainer",
+      "period": "05/06 (01.07.2005) - 06/07 (31.03.2007)"
+    },
+    {
+      "club": "G. Ober-Roden",
+      "club_url": "https://www.transfermarkt.de/germania-ober-roden/startseite/verein/1431/saison_id/2002",
+      "role": "Co-Trainer",
+      "period": "02/03 (01.07.2002) - 02/03 (30.06.2003)"
+    }
+  ],
+  "coach_id": "30478",
+  "_cached_at": "2026-02-12T19:23:17.984409",
+  "_preloaded_at": "2026-02-12T19:23:17.985095",
+  "_coach_name": "Nicolai Adam"
+}

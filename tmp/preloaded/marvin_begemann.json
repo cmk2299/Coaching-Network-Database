@@ -1,0 +1,66 @@
+{
+  "url": "https://www.transfermarkt.de/marvin-begemann/profil/trainer/114967",
+  "scraped_at": "2026-02-12T19:11:45.628953",
+  "name": "Marvin Begemann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "10.05.1995 (30)",
+  "age": 30,
+  "nationality": "Deutschland",
+  "current_role": "Koordinator Sport-Technologien",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2024",
+      "role": "Koordinator Sport-Technologien",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2022",
+      "role": "Videoanalyst",
+      "period": "22/23 (16.04.2023) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Hannover 96",
+      "club_url": "https://www.transfermarkt.de/hannover-96/startseite/verein/42/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (16.04.2023) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (01.07.2020) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2019",
+      "role": "Spielanalyst",
+      "period": "19/20 (01.08.2019) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Frankfurt U17",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt-u17/startseite/verein/21057/saison_id/2018",
+      "role": "Videoanalyst",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2018",
+      "role": "Scout",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Erlensee Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-erlensee-jugend/startseite/verein/70951/saison_id/2017",
+      "role": "Videoanalyst",
+      "period": "17/18 (01.07.2017) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "114967",
+  "_cached_at": "2026-02-12T19:11:45.641211",
+  "_preloaded_at": "2026-02-12T19:11:45.641901",
+  "_coach_name": "Marvin Begemann"
+}

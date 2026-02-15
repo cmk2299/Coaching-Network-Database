@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/christoph-schade/profil/trainer/106860",
+  "scraped_at": "2026-02-12T18:09:36.346562",
+  "name": "Christoph Schade",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/106860-1723534974.jpg?lm=1",
+  "dob": "20.04.1993 (32)",
+  "age": 32,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2022",
+      "role": "Zeugwart",
+      "period": "22/23 (01.07.2022) - -"
+    }
+  ],
+  "coach_id": "106860",
+  "_cached_at": "2026-02-12T18:09:36.356815",
+  "_preloaded_at": "2026-02-12T18:09:36.357432",
+  "_coach_name": "Christoph Schade"
+}

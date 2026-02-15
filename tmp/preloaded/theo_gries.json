@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/theo-gries/profil/trainer/2519",
+  "scraped_at": "2026-02-13T00:03:48.453413",
+  "name": "Theo Gries",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "10.02.1961 (65)",
+  "age": 65,
+  "birthplace": "Mittelbrunn",
+  "nationality": "Deutschland",
+  "current_role": "Chefscout",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2015",
+      "role": "Chefscout",
+      "period": "15/16 (01.07.2015) - -"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2011",
+      "role": "Scout",
+      "period": "11/12 (03.08.2011) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Union Berlin II",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-ii/startseite/verein/5303/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 (01.07.2008) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2007",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "07/08 (01.04.2008) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Union Berlin II",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-ii/startseite/verein/5303/saison_id/2007",
+      "role": "Nachwuchskoordinator",
+      "period": "07/08 (01.07.2007) - 07/08 (31.03.2008)"
+    },
+    {
+      "club": "TeBe Berlin",
+      "club_url": "https://www.transfermarkt.de/tennis-borussia-berlin/startseite/verein/101/saison_id/2003",
+      "role": "Trainer",
+      "period": "03/04 (01.07.2003) - 05/06 (30.10.2005)"
+    },
+    {
+      "club": "H. Zehlendorf",
+      "club_url": "https://www.transfermarkt.de/fc-hertha-03-zehlendorf/startseite/verein/2943/saison_id/1999",
+      "role": "Trainer",
+      "period": "99/00 (20.10.1999) - 99/00 (30.06.2000)"
+    }
+  ],
+  "coach_id": "2519",
+  "_cached_at": "2026-02-13T00:03:48.476140",
+  "_preloaded_at": "2026-02-13T00:03:48.477623",
+  "_coach_name": "Theo Gries"
+}

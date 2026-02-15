@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/nico-bitterlich/profil/trainer/143356",
+  "scraped_at": "2026-02-12T19:22:55.390644",
+  "name": "Nico Bitterlich",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/143356-1748986010.jpg?lm=1",
+  "dob": "08.03.1990 (35)",
+  "age": 35,
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2023",
+      "role": "Nachwuchsscout",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "SV Empor Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-empor-berlin-jugend/startseite/verein/46005/saison_id/2015",
+      "role": "Trainer",
+      "period": "15/16 (01.07.2015) - 21/22 (30.06.2022)"
+    }
+  ],
+  "coach_id": "143356",
+  "_cached_at": "2026-02-12T19:22:55.401210",
+  "_preloaded_at": "2026-02-12T19:22:55.401830",
+  "_coach_name": "Nico Bitterlich"
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-linke/profil/trainer/5176",
+  "scraped_at": "2026-02-13T00:04:50.427481",
+  "name": "Thomas Linke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/_1370069025.jpg?lm=1",
+  "dob": "26.12.1969 (56)",
+  "age": 56,
+  "birthplace": "Sömmerda",
+  "nationality": "Deutschland",
+  "current_role": "Klubrepräsentant",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2022",
+      "role": "Klubrepräsentant",
+      "period": "22/23 (19.10.2022) - -"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2018",
+      "role": "Sportdirektor",
+      "period": "18/19 (02.04.2019) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2018",
+      "role": "Berater des Managements",
+      "period": "18/19 (21.11.2018) - 18/19 (01.04.2019)"
+    },
+    {
+      "club": "FC Ingolstadt",
+      "club_url": "https://www.transfermarkt.de/fc-ingolstadt-04/startseite/verein/4795/saison_id/2011",
+      "role": "Sportdirektor",
+      "period": "11/12 (10.11.2011) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2010",
+      "role": "Sportlicher Leiter",
+      "period": "10/11 (21.02.2011) - 10/11 (04.05.2011)"
+    },
+    {
+      "club": "RB Salzburg",
+      "club_url": "https://www.transfermarkt.de/red-bull-salzburg/startseite/verein/409/saison_id/2007",
+      "role": "Sportlicher Leiter",
+      "period": "07/08 (12.09.2007) - 10/11 (20.02.2011)"
+    }
+  ],
+  "coach_id": "5176",
+  "_cached_at": "2026-02-13T00:04:50.452030",
+  "_preloaded_at": "2026-02-13T00:04:50.453069",
+  "_coach_name": "Thomas Linke"
+}

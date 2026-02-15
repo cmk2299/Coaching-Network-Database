@@ -1,0 +1,68 @@
+{
+  "url": "https://www.transfermarkt.de/matthias-sammer/profil/trainer/219",
+  "scraped_at": "2026-02-12T19:14:42.615565",
+  "name": "Matthias Sammer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/219-1670924681.jpg?lm=1",
+  "dob": "05.09.1967 (58)",
+  "age": 58,
+  "birthplace": "Dresden",
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Berater des Managements",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2022",
+      "role": "Berater des Managements",
+      "period": "22/23 (13.12.2022) - 24/25 (31.07.2024)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2017",
+      "role": "Berater des Managements",
+      "period": "17/18 (01.04.2018) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2012",
+      "role": "Sportvorstand",
+      "period": "12/13 (02.07.2012) - 16/17 (10.07.2016)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2010",
+      "role": "Nachwuchskoordinator",
+      "period": "10/11 (01.07.2010) - 12/13 (01.07.2012)"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2005",
+      "role": "Sportdirektor",
+      "period": "05/06 (01.04.2006) - 12/13 (01.07.2012)"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2004",
+      "role": "Trainer",
+      "period": "04/05 (01.07.2004) - 04/05 (02.06.2005)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2000",
+      "role": "Trainer",
+      "period": "00/01 (01.07.2000) - 03/04 (30.06.2004)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/1999",
+      "role": "Co-Trainer",
+      "period": "99/00 (13.04.2000) - 99/00 (30.06.2000)"
+    }
+  ],
+  "coach_id": "219",
+  "_cached_at": "2026-02-12T19:14:42.629756",
+  "_preloaded_at": "2026-02-12T19:14:42.630463",
+  "_coach_name": "Matthias Sammer"
+}

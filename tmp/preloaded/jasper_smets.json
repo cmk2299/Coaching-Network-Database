@@ -1,0 +1,62 @@
+{
+  "url": "https://www.transfermarkt.de/jasper-smets/profil/trainer/120305",
+  "scraped_at": "2026-02-12T18:47:09.662827",
+  "name": "Jasper Smets",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "06.08.1995 (30)",
+  "age": 30,
+  "birthplace": "Mönchengladbach",
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Spielanalyst",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2023",
+      "role": "Spielanalyst",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "F. Düsseldorf",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf/startseite/verein/38/saison_id/2022",
+      "role": "Spielanalyst",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Düsseldorf II",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf-ii/startseite/verein/4690/saison_id/2021",
+      "role": "Spielanalyst",
+      "period": "21/22 (01.07.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Düsseldorf U19",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf-u19/startseite/verein/6675/saison_id/2019",
+      "role": "Videoanalyst",
+      "period": "19/20 (01.08.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Düsseldorf U17",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf-u17/startseite/verein/23005/saison_id/2019",
+      "role": "Videoanalyst",
+      "period": "19/20 (01.08.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Düsseldorf Jgd.",
+      "club_url": "https://www.transfermarkt.de/fortuna-dusseldorf-jugend/startseite/verein/11955/saison_id/2019",
+      "role": "Videoanalyst",
+      "period": "19/20 (01.08.2019) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2017",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "17/18 (01.10.2017) - 19/20 (31.07.2019)"
+    }
+  ],
+  "coach_id": "120305",
+  "_cached_at": "2026-02-12T18:47:09.675002",
+  "_preloaded_at": "2026-02-12T18:47:09.675667",
+  "_coach_name": "Jasper Smets"
+}

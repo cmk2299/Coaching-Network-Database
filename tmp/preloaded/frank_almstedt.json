@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/frank-almstedt/profil/trainer/9357",
+  "scraped_at": "2026-02-12T18:34:22.822685",
+  "name": "Frank Almstedt",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/9357-1406673023.jpg?lm=1",
+  "dob": "11.07.1965 (60)",
+  "age": 60,
+  "nationality": "Deutschland",
+  "current_role": "Zeugwart",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2010",
+      "role": "Zeugwart",
+      "period": "10/11 (01.07.2010) - -"
+    },
+    {
+      "club": "1.FC Köln II",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln-ii/startseite/verein/438/saison_id/2002",
+      "role": "Zeugwart",
+      "period": "02/03 (01.10.2002) - 09/10 (30.06.2010)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+      "role": "Busfahrer",
+      "period": "Unknown"
+    }
+  ],
+  "coach_id": "9357",
+  "_cached_at": "2026-02-12T18:34:22.833104",
+  "_preloaded_at": "2026-02-12T18:34:22.833737",
+  "_coach_name": "Frank Almstedt"
+}

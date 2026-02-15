@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/adrian-wittmann/profil/trainer/70884",
+  "scraped_at": "2026-02-12T17:52:14.165188",
+  "name": "Adrian Wittmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/70884-1755624847.jpg?lm=1",
+  "dob": "22.04.1986 (39)",
+  "age": 39,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "license": "B-Lizenz",
+  "current_role": "Co-Trainer Analyse",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2013",
+      "role": "Co-Trainer Analyse",
+      "period": "13/14 (01.02.2014) - -"
+    },
+    {
+      "club": "U. Berlin Jgd.",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-jugend/startseite/verein/36841/saison_id/2012",
+      "role": "Trainer",
+      "period": "12/13 (01.07.2012) - 13/14 (31.01.2014)"
+    },
+    {
+      "club": "U. Berlin U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin-u19/startseite/verein/7802/saison_id/2010",
+      "role": "Videoanalyst",
+      "period": "10/11 (01.02.2011) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "70884",
+  "_cached_at": "2026-02-12T17:52:14.177213",
+  "_preloaded_at": "2026-02-12T17:52:14.177848",
+  "_coach_name": "Adrian Wittmann"
+}

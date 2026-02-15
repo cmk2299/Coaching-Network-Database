@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/prof-dr-bernhard-pellens/profil/trainer/110462",
+  "scraped_at": "2026-02-12T23:14:51.519171",
+  "name": "Prof. Dr. Bernhard Pellens",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "17.11.1955 (70)",
+  "age": 70,
+  "birthplace": "Geldern",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2021",
+      "role": "Aufsichtsratsmitglied",
+      "period": "21/22 (02.12.2021) - -"
+    }
+  ],
+  "coach_id": "110462",
+  "_cached_at": "2026-02-12T23:14:51.529779",
+  "_preloaded_at": "2026-02-12T23:14:51.530309",
+  "_coach_name": "Prof. Dr. Bernhard Pellens"
+}

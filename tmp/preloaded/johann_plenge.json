@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/johann-plenge/profil/trainer/112305",
+  "scraped_at": "2026-02-12T18:48:18.426729",
+  "name": "Johann Plenge",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "30.11.1985 (40)",
+  "age": 40,
+  "birthplace": "Sulingen",
+  "nationality": "Deutschland",
+  "current_role": "stellv. Geschäftsführerund weitere Tätigkeiten",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2025",
+      "role": "stellv. Geschäftsführer",
+      "period": "25/26 (01.01.2026) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2022",
+      "role": "Präsident",
+      "period": "22/23 (13.01.2023) - vsl. 31.12.2026"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2022",
+      "role": "Vorstandsvorsitzender",
+      "period": "22/23 (13.01.2023) - 25/26 (31.12.2025)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2021",
+      "role": "Geschäftsführer",
+      "period": "21/22 (01.01.2022) - 22/23 (12.01.2023)"
+    },
+    {
+      "club": "RBSI",
+      "club_url": "https://www.transfermarkt.de/red-bull-soccer-international/startseite/verein/91228/saison_id/2019",
+      "role": "Direktor Profifußball",
+      "period": "19/20 (01.10.2019) - 21/22 (31.12.2021)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2009",
+      "role": "Direktor Recht",
+      "period": "09/10 (15.04.2010) - 19/20 (30.09.2019)"
+    },
+    {
+      "club": "RBSI",
+      "club_url": "https://www.transfermarkt.de/red-bull-soccer-international/startseite/verein/91228/saison_id/2006",
+      "role": "Marketingmitarbeiter",
+      "period": "06/07 (01.01.2007) - 09/10 (14.04.2010)"
+    }
+  ],
+  "coach_id": "112305",
+  "_cached_at": "2026-02-12T18:48:18.438474",
+  "_preloaded_at": "2026-02-12T18:48:18.439196",
+  "_coach_name": "Johann Plenge"
+}

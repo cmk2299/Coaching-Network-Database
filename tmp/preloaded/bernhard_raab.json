@@ -1,0 +1,75 @@
+{
+  "url": "https://www.transfermarkt.de/bernhard-raab/profil/trainer/9802",
+  "scraped_at": "2026-02-12T18:04:07.938637",
+  "name": "Bernhard Raab",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/9802-1600679654.jpg?lm=1",
+  "dob": "17.03.1966 (59)",
+  "age": 59,
+  "birthplace": "Karlsbad",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Co-Trainer",
+  "current_club": "1.FC Heidenheim",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036",
+  "career_history": [
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 (01.07.2018) - vsl. 30.06.2027"
+    },
+    {
+      "club": "Heidenheim U19",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846-u19/startseite/verein/14822/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2014",
+      "role": "Co-Trainer",
+      "period": "14/15 (01.07.2014) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "1.FC Heidenheim",
+      "club_url": "https://www.transfermarkt.de/1-fc-heidenheim-1846/startseite/verein/2036/saison_id/2013",
+      "role": "Leiter der Nachwuchsabteilung",
+      "period": "13/14 (01.04.2014) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "Sumqayit",
+      "club_url": "https://www.transfermarkt.de/sumqayit-pfk/startseite/verein/36999/saison_id/2011",
+      "role": "Trainer",
+      "period": "11/12 (19.09.2011) - 12/13 (11.06.2013)"
+    },
+    {
+      "club": "SV Wehen II",
+      "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden-ii/startseite/verein/1324/saison_id/2010",
+      "role": "Trainer",
+      "period": "10/11 (01.07.2010) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Wehen Wiesbaden",
+      "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden/startseite/verein/108/saison_id/2008",
+      "role": "Manager",
+      "period": "08/09 (15.04.2009) - 08/09 (30.06.2009)"
+    },
+    {
+      "club": "Wehen Wiesbaden",
+      "club_url": "https://www.transfermarkt.de/sv-wehen-wiesbaden/startseite/verein/108/saison_id/2008",
+      "role": "Nachwuchskoordinator",
+      "period": "08/09 (01.07.2008) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "FV Biebrich 02",
+      "club_url": "https://www.transfermarkt.de/fv-biebrich-02/startseite/verein/1595/saison_id/2006",
+      "role": "Spielertrainer",
+      "period": "06/07 (01.07.2006) - 07/08 (30.06.2008)"
+    }
+  ],
+  "coach_id": "9802",
+  "_cached_at": "2026-02-12T18:04:07.951786",
+  "_preloaded_at": "2026-02-12T18:04:07.952454",
+  "_coach_name": "Bernhard Raab"
+}

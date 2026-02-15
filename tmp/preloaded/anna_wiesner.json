@@ -1,0 +1,29 @@
+{
+  "url": "https://www.transfermarkt.de/anna-wiesner/profil/trainer/117174",
+  "scraped_at": "2026-02-12T17:58:38.162396",
+  "name": "Anna Wiesner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2026",
+  "current_role": "Leitender Assistent des Geschäftsführers Sport",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2023",
+      "role": "Leitender Assistent des Geschäftsführers Sport",
+      "period": "23/24 (01.08.2023) - vsl. 30.06.2026"
+    },
+    {
+      "club": "Hansa Rostock",
+      "club_url": "https://www.transfermarkt.de/fc-hansa-rostock/startseite/verein/30/saison_id/2022",
+      "role": "Teammanager",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    }
+  ],
+  "coach_id": "117174",
+  "_cached_at": "2026-02-12T17:58:38.172191",
+  "_preloaded_at": "2026-02-12T17:58:38.172723",
+  "_coach_name": "Anna Wiesner"
+}

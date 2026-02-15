@@ -1,0 +1,61 @@
+{
+  "url": "https://www.transfermarkt.de/karl-heinz-rummenigge/profil/trainer/6878",
+  "scraped_at": "2026-02-12T18:54:09.972199",
+  "name": "Karl-Heinz Rummenigge",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6878-1701245987.jpg?lm=1",
+  "dob": "25.09.1955 (70)",
+  "age": 70,
+  "birthplace": "Lippstadt",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2022",
+      "role": "Aufsichtsratsmitglied",
+      "period": "22/23 (30.05.2023) - -"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2022",
+      "role": "Berater des Managements",
+      "period": "22/23 (13.12.2022) - 23/24 (17.09.2023)"
+    },
+    {
+      "club": "UEFA",
+      "club_url": "https://www.transfermarkt.de/uefa-exekutivkomitee/startseite/verein/30827/saison_id/2020",
+      "role": "Vorstandsmitglied",
+      "period": "20/21 (20.04.2021) - 23/24 (08.02.2024)"
+    },
+    {
+      "club": "UEFA",
+      "club_url": "https://www.transfermarkt.de/uefa-exekutivkomitee/startseite/verein/30827/saison_id/2015",
+      "role": "Verwaltungsratmitglied",
+      "period": "15/16 (01.09.2015) - 17/18 (04.09.2017)"
+    },
+    {
+      "club": "UEFA",
+      "club_url": "https://www.transfermarkt.de/uefa-exekutivkomitee/startseite/verein/30827/saison_id/2015",
+      "role": "Strategischer Berater",
+      "period": "15/16 (01.09.2015) - 18/19 (31.08.2018)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2001",
+      "role": "Vorstandsvorsitzender",
+      "period": "01/02 (14.02.2002) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/1991",
+      "role": "Vize-Präsident",
+      "period": "91/92 (25.11.1991) - 01/02 (13.02.2002)"
+    }
+  ],
+  "coach_id": "6878",
+  "_cached_at": "2026-02-12T18:54:09.987206",
+  "_preloaded_at": "2026-02-12T18:54:09.987935",
+  "_coach_name": "Karl-Heinz Rummenigge"
+}

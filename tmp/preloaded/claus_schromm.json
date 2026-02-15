@@ -1,0 +1,79 @@
+{
+  "url": "https://www.transfermarkt.de/claus-schromm/profil/trainer/3062",
+  "scraped_at": "2026-02-12T18:10:52.979516",
+  "name": "Claus Schromm",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/3062-1587936138.jpg?lm=1",
+  "dob": "21.04.1969 (56)",
+  "age": 56,
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Nachwuchs-Cheftrainer",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2021",
+      "role": "Nachwuchs-Cheftrainer",
+      "period": "21/22 (12.08.2021) - -"
+    },
+    {
+      "club": "Unterhaching",
+      "club_url": "https://www.transfermarkt.de/spvgg-unterhaching/startseite/verein/66/saison_id/2020",
+      "role": "Sportlicher Leiter",
+      "period": "20/21 (29.07.2020) - 20/21 (19.03.2021)"
+    },
+    {
+      "club": "Unterhaching",
+      "club_url": "https://www.transfermarkt.de/spvgg-unterhaching/startseite/verein/66/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (09.04.2015) - 20/21 (28.07.2020)"
+    },
+    {
+      "club": "Unterhaching",
+      "club_url": "https://www.transfermarkt.de/spvgg-unterhaching/startseite/verein/66/saison_id/2014",
+      "role": "Interimstrainer",
+      "period": "14/15 (26.03.2015) - 14/15 (09.04.2015)"
+    },
+    {
+      "club": "U'haching U19",
+      "club_url": "https://www.transfermarkt.de/spvgg-unterhaching-u19/startseite/verein/8207/saison_id/2014",
+      "role": "Trainer",
+      "period": "14/15 (12.09.2014) - 14/15 (25.03.2015)"
+    },
+    {
+      "club": "Unterhaching",
+      "club_url": "https://www.transfermarkt.de/spvgg-unterhaching/startseite/verein/66/saison_id/2013",
+      "role": "Sportlicher Leiter",
+      "period": "13/14 (03.01.2014) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "Unterhaching",
+      "club_url": "https://www.transfermarkt.de/spvgg-unterhaching/startseite/verein/66/saison_id/2012",
+      "role": "Trainer",
+      "period": "12/13 (01.07.2012) - 13/14 (02.01.2014)"
+    },
+    {
+      "club": "SV Heimstetten",
+      "club_url": "https://www.transfermarkt.de/sv-heimstetten/startseite/verein/1238/saison_id/2010",
+      "role": "Trainer",
+      "period": "10/11 (01.07.2010) - 11/12 (27.10.2011)"
+    },
+    {
+      "club": "TSV 1860 U19",
+      "club_url": "https://www.transfermarkt.de/tsv-1860-munchen-u19/startseite/verein/2510/saison_id/2003",
+      "role": "Trainer",
+      "period": "03/04 (20.02.2004) - 08/09 (30.06.2009)"
+    },
+    {
+      "club": "U'haching U19",
+      "club_url": "https://www.transfermarkt.de/spvgg-unterhaching-u19/startseite/verein/8207/saison_id/1999",
+      "role": "Trainer",
+      "period": "99/00 (01.07.1999) - 02/03 (30.06.2003)"
+    }
+  ],
+  "coach_id": "3062",
+  "_cached_at": "2026-02-12T18:10:52.992230",
+  "_preloaded_at": "2026-02-12T18:10:52.992843",
+  "_coach_name": "Claus Schromm"
+}

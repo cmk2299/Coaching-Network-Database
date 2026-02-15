@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/bernd-osterloh/profil/trainer/58354",
+  "scraped_at": "2026-02-12T18:03:37.599776",
+  "name": "Bernd Osterloh",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "12.09.1956 (69)",
+  "age": 69,
+  "birthplace": "Braunschweig",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2005",
+      "role": "Aufsichtsratsmitglied",
+      "period": "05/06 (01.10.2005) - -"
+    }
+  ],
+  "coach_id": "58354",
+  "_cached_at": "2026-02-12T18:03:37.609836",
+  "_preloaded_at": "2026-02-12T18:03:37.610413",
+  "_coach_name": "Bernd Osterloh"
+}

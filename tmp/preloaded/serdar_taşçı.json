@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/serdar-tasci/profil/trainer/144399",
+  "scraped_at": "2026-02-12T23:26:28.405015",
+  "name": "Serdar Taşçı",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/144399-1751380774.jpg?lm=1",
+  "dob": "24.04.1987 (38)",
+  "age": 38,
+  "birthplace": "Esslingen (Neckar)",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2025",
+      "role": "Aufsichtsratsmitglied",
+      "period": "25/26 (01.07.2025) - -"
+    }
+  ],
+  "coach_id": "144399",
+  "_cached_at": "2026-02-12T23:26:28.417540",
+  "_preloaded_at": "2026-02-12T23:26:28.418073",
+  "_coach_name": "Serdar Taşçı"
+}

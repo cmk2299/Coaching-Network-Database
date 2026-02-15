@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/jan-christian-dreesen/profil/trainer/27524",
+  "scraped_at": "2026-02-12T18:44:14.608774",
+  "name": "Jan-Christian Dreesen",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/27524-1699301858.jpg?lm=1",
+  "dob": "04.09.1967 (58)",
+  "age": 58,
+  "birthplace": "Aurich",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "current_role": "Vorstandsvorsitzender",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2022",
+      "role": "Vorstandsvorsitzender",
+      "period": "22/23 (28.05.2023) - vsl. 30.06.2027"
+    },
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2016",
+      "role": "Vorstandsmitglied",
+      "period": "16/17 (01.09.2016) - 19/20 (31.08.2019)"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2016",
+      "role": "Präsidiumsmitglied",
+      "period": "16/17 (01.09.2016) - 24/25 (15.11.2024)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2013",
+      "role": "stellv. Vorstandsvorsitzender",
+      "period": "13/14 (12.02.2014) - 22/23 (27.05.2023)"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2012",
+      "role": "Vorstand Finanzen",
+      "period": "12/13 (01.02.2013) - 22/23 (27.05.2023)"
+    }
+  ],
+  "coach_id": "27524",
+  "_cached_at": "2026-02-12T18:44:14.621046",
+  "_preloaded_at": "2026-02-12T18:44:14.621602",
+  "_coach_name": "Jan-Christian Dreesen"
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/ulrich-leitermann/profil/trainer/110458",
+  "scraped_at": "2026-02-13T00:24:45.622205",
+  "name": "Ulrich Leitermann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "1959 (~ 67)",
+  "birthplace": "Offenburg",
+  "nationality": "Deutschland",
+  "current_role": "stellv. Aufsichtsratsvorsitzenderund weitere Tätigkeiten",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2021",
+      "role": "stellv. Aufsichtsratsvorsitzender",
+      "period": "21/22 (25.09.2021) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2015",
+      "role": "Aufsichtsratsmitglied",
+      "period": "15/16 (23.11.2015) - -"
+    }
+  ],
+  "coach_id": "110458",
+  "_cached_at": "2026-02-13T00:24:45.639751",
+  "_preloaded_at": "2026-02-13T00:24:45.640669",
+  "_coach_name": "Ulrich Leitermann"
+}

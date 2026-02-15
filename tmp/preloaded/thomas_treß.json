@@ -1,0 +1,26 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-tress/profil/trainer/29401",
+  "scraped_at": "2026-02-13T00:06:06.855678",
+  "name": "Thomas Treß",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/29401-1713775714.jpg?lm=1",
+  "dob": "31.01.1966 (60)",
+  "age": 60,
+  "birthplace": "Riedlingen",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "current_role": "Geschäftsführer Finanzen",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2005",
+      "role": "Geschäftsführer Finanzen",
+      "period": "05/06 (01.06.2006) - vsl. 30.06.2027"
+    }
+  ],
+  "coach_id": "29401",
+  "_cached_at": "2026-02-13T00:06:06.872338",
+  "_preloaded_at": "2026-02-13T00:06:06.873066",
+  "_coach_name": "Thomas Treß"
+}

@@ -1,0 +1,46 @@
+{
+  "url": "https://www.transfermarkt.de/joel-kunz/profil/trainer/75979",
+  "scraped_at": "2026-02-12T18:48:10.640012",
+  "name": "Joel Kunz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Integrationsbeauftragter",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2019",
+      "role": "Integrationsbeauftragter",
+      "period": "19/20 (01.08.2019) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2016",
+      "role": "Medienbeauftragter",
+      "period": "16/17 (01.01.2017) - 19/20 (31.07.2019)"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2014",
+      "role": "Marketingmitarbeiter",
+      "period": "14/15 (01.01.2015) - 15/16 (31.12.2015)"
+    },
+    {
+      "club": "SuS Günne",
+      "club_url": "https://www.transfermarkt.de/sus-gunne/startseite/verein/72017/saison_id/2013",
+      "role": "Geschäftsführer",
+      "period": "13/14 (01.01.2014) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2013",
+      "role": "Medienmitarbeiter",
+      "period": "13/14 (01.10.2013) - 14/15 (31.12.2014)"
+    }
+  ],
+  "coach_id": "75979",
+  "_cached_at": "2026-02-12T18:48:10.651129",
+  "_preloaded_at": "2026-02-12T18:48:10.652124",
+  "_coach_name": "Joel Kunz"
+}

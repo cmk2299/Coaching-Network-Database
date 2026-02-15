@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/dren-hodja/profil/trainer/150815",
+  "scraped_at": "2026-02-12T18:28:12.426013",
+  "name": "Dren Hodja",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "27.03.1994 (31)",
+  "age": 31,
+  "birthplace": "Offenbach am Main",
+  "nationality": "DeutschlandKosovo",
+  "current_role": "Scout",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (01.04.2023) - -"
+    }
+  ],
+  "coach_id": "150815",
+  "_cached_at": "2026-02-12T18:28:12.436131",
+  "_preloaded_at": "2026-02-12T18:28:12.436723",
+  "_coach_name": "Dren Hodja"
+}

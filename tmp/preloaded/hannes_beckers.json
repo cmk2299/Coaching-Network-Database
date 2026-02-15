@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/hannes-beckers/profil/trainer/118095",
+  "scraped_at": "2026-02-12T18:39:45.609056",
+  "name": "Hannes Beckers",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2023",
+      "role": "Nachwuchsscout",
+      "period": "23/24 (01.07.2023) - -"
+    }
+  ],
+  "coach_id": "118095",
+  "_cached_at": "2026-02-12T18:39:45.618445",
+  "_preloaded_at": "2026-02-12T18:39:45.618929",
+  "_coach_name": "Hannes Beckers"
+}

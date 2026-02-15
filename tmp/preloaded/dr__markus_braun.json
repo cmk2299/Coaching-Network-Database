@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/dr-markus-braun/profil/trainer/6892",
+  "scraped_at": "2026-02-12T18:24:42.050172",
+  "name": "Dr. Markus Braun",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/6892-1408095660.jpg?lm=1",
+  "dob": "12.08.1966 (59)",
+  "age": 59,
+  "birthplace": "Krefeld",
+  "nationality": "Deutschland",
+  "current_role": "Vereinsarzt",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2003",
+      "role": "Vereinsarzt",
+      "period": "03/04 (01.07.2003) - -"
+    }
+  ],
+  "coach_id": "6892",
+  "_cached_at": "2026-02-12T18:24:42.060443",
+  "_preloaded_at": "2026-02-12T18:24:42.060999",
+  "_coach_name": "Dr. Markus Braun"
+}

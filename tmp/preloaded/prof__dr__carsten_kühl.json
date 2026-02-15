@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/prof-dr-carsten-kuhl/profil/trainer/128347",
+  "scraped_at": "2026-02-12T23:14:58.911401",
+  "name": "Prof. Dr. Carsten Kühl",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "09.03.1962 (63)",
+  "age": 63,
+  "birthplace": "Lauterbach",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2021",
+      "role": "Aufsichtsratsmitglied",
+      "period": "21/22 (30.06.2021) - -"
+    }
+  ],
+  "coach_id": "128347",
+  "_cached_at": "2026-02-12T23:14:58.922102",
+  "_preloaded_at": "2026-02-12T23:14:58.922676",
+  "_coach_name": "Prof. Dr. Carsten Kühl"
+}

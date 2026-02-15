@@ -1,0 +1,42 @@
+{
+  "url": "https://www.transfermarkt.de/silke-seidel/profil/trainer/110304",
+  "scraped_at": "2026-02-12T23:26:58.991153",
+  "name": "Silke Seidel",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "1962 (~ 64)",
+  "birthplace": "Dortmund",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsvorsitzendeund weitere Tätigkeiten",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2025",
+      "role": "Schatzmeister",
+      "period": "25/26 (23.11.2025) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2024",
+      "role": "Aufsichtsratsvorsitzende",
+      "period": "24/25 (25.11.2024) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2022",
+      "role": "Vize-Präsidentin",
+      "period": "22/23 (20.11.2022) - 24/25 (22.11.2025)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2014",
+      "role": "Aufsichtsratsmitglied",
+      "period": "14/15 (23.11.2014) - 24/25 (24.11.2024)"
+    }
+  ],
+  "coach_id": "110304",
+  "_cached_at": "2026-02-12T23:26:59.002178",
+  "_preloaded_at": "2026-02-12T23:26:59.002693",
+  "_coach_name": "Silke Seidel"
+}

@@ -1,0 +1,39 @@
+{
+  "url": "https://www.transfermarkt.de/sandro-heskamp/profil/trainer/70704",
+  "scraped_at": "2026-02-12T23:22:31.122169",
+  "name": "Sandro Heskamp",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/70704-1657272757.jpg?lm=1",
+  "dob": "20.06.1994 (31)",
+  "age": 31,
+  "birthplace": "Osnabrück",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "agent": "Familienangehörige",
+  "current_role": "Scout",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2024",
+      "role": "Scout",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Blau-Weiß Lohne",
+      "club_url": "https://www.transfermarkt.de/blau-weiss-lohne/startseite/verein/4883/saison_id/2022",
+      "role": "Interimstrainer",
+      "period": "22/23 (16.11.2022) - 22/23 (14.12.2022)"
+    },
+    {
+      "club": "Blau-Weiß Lohne",
+      "club_url": "https://www.transfermarkt.de/blau-weiss-lohne/startseite/verein/4883/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 22/23 (15.11.2022)"
+    }
+  ],
+  "coach_id": "70704",
+  "_cached_at": "2026-02-12T23:22:31.135480",
+  "_preloaded_at": "2026-02-12T23:22:31.136000",
+  "_coach_name": "Sandro Heskamp"
+}

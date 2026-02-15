@@ -1,0 +1,74 @@
+{
+  "url": "https://www.transfermarkt.de/tim-mattern/profil/trainer/40184",
+  "scraped_at": "2026-02-13T00:07:44.961030",
+  "name": "Tim Mattern",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/40184-1743428179.jpg?lm=1",
+  "dob": "19.05.1986 (39)",
+  "age": 39,
+  "birthplace": "Gelsenkirchen",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Scout",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2019",
+      "role": "Scout",
+      "period": "19/20 (02.03.2020) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2013",
+      "role": "Leiter Nachwuchsscouting",
+      "period": "13/14 (01.01.2014) - 19/20 (01.03.2020)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2013",
+      "role": "Nachwuchs-Chefscout",
+      "period": "13/14 (01.01.2014) - 19/20 (01.03.2020)"
+    },
+    {
+      "club": "Duisburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/msv-duisburg-jugend/startseite/verein/11888/saison_id/2013",
+      "role": "Individualtrainer",
+      "period": "13/14 (01.07.2013) - 13/14 (31.12.2013)"
+    },
+    {
+      "club": "Duisburg U17",
+      "club_url": "https://www.transfermarkt.de/msv-duisburg-u17/startseite/verein/21070/saison_id/2013",
+      "role": "Individualtrainer",
+      "period": "13/14 (01.07.2013) - 13/14 (31.12.2013)"
+    },
+    {
+      "club": "Duisburg U19",
+      "club_url": "https://www.transfermarkt.de/msv-duisburg-u19/startseite/verein/2758/saison_id/2013",
+      "role": "Individualtrainer",
+      "period": "13/14 (01.07.2013) - 13/14 (31.12.2013)"
+    },
+    {
+      "club": "MSV Duisburg",
+      "club_url": "https://www.transfermarkt.de/msv-duisburg/startseite/verein/52/saison_id/2011",
+      "role": "Nachwuchskoordinator",
+      "period": "11/12 (01.07.2011) - 13/14 (31.12.2013)"
+    },
+    {
+      "club": "Duisburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/msv-duisburg-jugend/startseite/verein/11888/saison_id/2008",
+      "role": "Torwarttrainer",
+      "period": "08/09 (01.07.2008) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Duisburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/msv-duisburg-jugend/startseite/verein/11888/saison_id/2008",
+      "role": "Trainer",
+      "period": "08/09 (01.07.2008) - 11/12 (30.06.2012)"
+    }
+  ],
+  "coach_id": "40184",
+  "_cached_at": "2026-02-13T00:07:44.980631",
+  "_preloaded_at": "2026-02-13T00:07:44.981461",
+  "_coach_name": "Tim Mattern"
+}

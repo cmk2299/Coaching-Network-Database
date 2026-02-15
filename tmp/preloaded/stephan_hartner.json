@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/stephan-hartner/profil/trainer/82699",
+  "scraped_at": "2026-02-12T23:59:40.250140",
+  "name": "Stephan Hartner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "28.04.1988 (37)",
+  "age": 37,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2017",
+      "role": "Physiotherapeut",
+      "period": "17/18 (01.07.2017) - -"
+    },
+    {
+      "club": "Leverkusen U19",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u19/startseite/verein/4713/saison_id/2013",
+      "role": "Physiotherapeut",
+      "period": "13/14 (01.07.2013) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Leverkusen U17",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen-u17/startseite/verein/21054/saison_id/2013",
+      "role": "Physiotherapeut",
+      "period": "13/14 (01.07.2013) - 16/17 (30.06.2017)"
+    }
+  ],
+  "coach_id": "82699",
+  "_cached_at": "2026-02-12T23:59:40.261411",
+  "_preloaded_at": "2026-02-12T23:59:40.261947",
+  "_coach_name": "Stephan Hartner"
+}

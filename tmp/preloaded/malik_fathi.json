@@ -1,0 +1,53 @@
+{
+  "url": "https://www.transfermarkt.de/malik-fathi/profil/trainer/69978",
+  "scraped_at": "2026-02-12T19:02:32.658581",
+  "name": "Malik Fathi",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/69978-1691999763.jpg?lm=1",
+  "dob": "29.10.1983 (42)",
+  "age": 42,
+  "birthplace": "Berlin",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2028",
+  "license": "A-Lizenz",
+  "agent": "Siebert & Backs",
+  "agent_url": "https://www.transfermarkt.de/siebert-amp-backs-fussballmanagement-gmbh/beraterfirma/berater/2546",
+  "current_role": "Co-Trainer",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2023",
+      "role": "Co-Trainer",
+      "period": "23/24 (01.07.2023) - vsl. 30.06.2028"
+    },
+    {
+      "club": "Hertha BSC Jgd.",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc-jugend/startseite/verein/11844/saison_id/2021",
+      "role": "Trainer",
+      "period": "21/22 (01.07.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Hertha BSC II",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc-ii/startseite/verein/45/saison_id/2020",
+      "role": "Trainer",
+      "period": "20/21 (26.01.2021) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Hertha BSC II",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc-ii/startseite/verein/45/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 20/21 (25.01.2021)"
+    },
+    {
+      "club": "Atl. Baleares",
+      "club_url": "https://www.transfermarkt.de/atletico-baleares/startseite/verein/18687/saison_id/2018",
+      "role": "Mentaltrainer",
+      "period": "18/19 (01.07.2018) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "69978",
+  "_cached_at": "2026-02-12T19:02:32.671614",
+  "_preloaded_at": "2026-02-12T19:02:32.672253",
+  "_coach_name": "Malik Fathi"
+}

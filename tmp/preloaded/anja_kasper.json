@@ -1,0 +1,22 @@
+{
+  "url": "https://www.transfermarkt.de/anja-kasper/profil/trainer/123177",
+  "scraped_at": "2026-02-12T17:58:23.033855",
+  "name": "Anja Kasper",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "Geschäftsführerin",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2021",
+      "role": "Geschäftsführerin",
+      "period": "21/22 (01.10.2021) - -"
+    }
+  ],
+  "coach_id": "123177",
+  "_cached_at": "2026-02-12T17:58:23.043786",
+  "_preloaded_at": "2026-02-12T17:58:23.044410",
+  "_coach_name": "Anja Kasper"
+}

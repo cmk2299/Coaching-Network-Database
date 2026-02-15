@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/till-gronemeyer/profil/trainer/144175",
+  "scraped_at": "2026-02-13T00:06:51.635637",
+  "name": "Till Grönemeyer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "current_role": "stellv. Vorstandsvorsitzenderund weitere Tätigkeiten",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "stellv. Vorstandsvorsitzender",
+      "period": "24/25 (23.06.2025) - -"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2024",
+      "role": "Aufsichtsratsmitglied",
+      "period": "24/25 (23.06.2025) - -"
+    }
+  ],
+  "coach_id": "144175",
+  "_cached_at": "2026-02-13T00:06:51.651835",
+  "_preloaded_at": "2026-02-13T00:06:51.652672",
+  "_coach_name": "Till Grönemeyer"
+}

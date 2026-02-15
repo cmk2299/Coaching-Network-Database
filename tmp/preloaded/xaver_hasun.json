@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/xaver-hasun/profil/trainer/98147",
+  "scraped_at": "2026-02-13T00:45:42.897907",
+  "name": "Xaver Hasun",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "27.06.1993 (32)",
+  "age": 32,
+  "birthplace": "Klosterneuburg",
+  "nationality": "Österreich",
+  "current_role": "Scout",
+  "current_club": "FC St. Pauli",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2018",
+      "role": "Scout",
+      "period": "18/19 (15.09.2018) - -"
+    },
+    {
+      "club": "Hamburger SV",
+      "club_url": "https://www.transfermarkt.de/hamburger-sv/startseite/verein/41/saison_id/2017",
+      "role": "Scout",
+      "period": "17/18 (01.06.2018) - 18/19 (31.08.2018)"
+    }
+  ],
+  "coach_id": "98147",
+  "_cached_at": "2026-02-13T00:45:42.914930",
+  "_preloaded_at": "2026-02-13T00:45:42.915807",
+  "_coach_name": "Xaver Hasun"
+}

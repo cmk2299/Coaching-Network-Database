@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/benjamin-hoppenz/profil/trainer/114833",
+  "scraped_at": "2026-02-12T18:02:44.025609",
+  "name": "Benjamin Hoppenz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.09.1979 (46)",
+  "age": 46,
+  "nationality": "Deutschland",
+  "current_role": "Sportkoordinator",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2022",
+      "role": "Sportkoordinator",
+      "period": "22/23 (01.02.2023) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2010",
+      "role": "Scout",
+      "period": "10/11 (01.07.2010) - 22/23 (31.01.2023)"
+    },
+    {
+      "club": "Hertha BSC",
+      "club_url": "https://www.transfermarkt.de/hertha-bsc/startseite/verein/44/saison_id/2006",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "06/07 (01.02.2007) - 09/10 (31.12.2009)"
+    }
+  ],
+  "coach_id": "114833",
+  "_cached_at": "2026-02-12T18:02:44.036297",
+  "_preloaded_at": "2026-02-12T18:02:44.037092",
+  "_coach_name": "Benjamin Hoppenz"
+}

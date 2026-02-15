@@ -1,0 +1,79 @@
+{
+  "url": "https://www.transfermarkt.de/kira-klemmer/profil/trainer/109096",
+  "scraped_at": "2026-02-12T18:55:52.590369",
+  "name": "Kira Klemmer",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "03.05.1994 (31)",
+  "age": 31,
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Rehatrainerinund weitere Tätigkeiten",
+  "current_club": "Werder Jgd.",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen-jugend/startseite/verein/12012",
+  "career_history": [
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2025",
+      "role": "Rehatrainerin",
+      "period": "25/26 (01.01.2026) - -"
+    },
+    {
+      "club": "Werder Jgd.",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-jugend/startseite/verein/12012/saison_id/2024",
+      "role": "Rehatrainerin",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Bielefeld U19",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-u19/startseite/verein/4556/saison_id/2023",
+      "role": "Athletiktrainerin",
+      "period": "23/24 (01.07.2023) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Bielefeld U19",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-u19/startseite/verein/4556/saison_id/2023",
+      "role": "Rehatrainerin",
+      "period": "23/24 (01.07.2023) - 23/24 (30.06.2024)"
+    },
+    {
+      "club": "Bielefeld U17",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-u17/startseite/verein/21053/saison_id/2021",
+      "role": "Athletiktrainerin",
+      "period": "21/22 (15.11.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Bielefeld U17",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-u17/startseite/verein/21053/saison_id/2021",
+      "role": "Rehatrainerin",
+      "period": "21/22 (15.11.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "Bielefeld Jgd.",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-jugend/startseite/verein/11954/saison_id/2019",
+      "role": "Athletiktrainerin",
+      "period": "19/20 (01.07.2019) - 21/22 (14.11.2021)"
+    },
+    {
+      "club": "Bielefeld Jgd.",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-jugend/startseite/verein/11954/saison_id/2019",
+      "role": "Rehatrainerin",
+      "period": "19/20 (01.07.2019) - 21/22 (14.11.2021)"
+    },
+    {
+      "club": "Duisburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/msv-duisburg-jugend/startseite/verein/11888/saison_id/2017",
+      "role": "Athletiktrainerin",
+      "period": "17/18 (01.01.2018) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Duisburg Jgd.",
+      "club_url": "https://www.transfermarkt.de/msv-duisburg-jugend/startseite/verein/11888/saison_id/2017",
+      "role": "Rehatrainerin",
+      "period": "17/18 (01.01.2018) - 18/19 (30.06.2019)"
+    }
+  ],
+  "coach_id": "109096",
+  "_cached_at": "2026-02-12T18:55:52.602578",
+  "_preloaded_at": "2026-02-12T18:55:52.603187",
+  "_coach_name": "Kira Klemmer"
+}

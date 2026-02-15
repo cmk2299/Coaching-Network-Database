@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/robin-mehring/profil/trainer/118107",
+  "scraped_at": "2026-02-12T23:18:49.123097",
+  "name": "Robin Mehring",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "02.03.2000 (25)",
+  "age": 25,
+  "nationality": "Deutschland",
+  "license": "UEFA-B-Lizenz",
+  "current_role": "Videoanalyst",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2023",
+      "role": "Videoanalyst",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2022",
+      "role": "Torwarttrainer",
+      "period": "22/23 (01.07.2022) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "VfL Bochum Jgd.",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum-jugend/startseite/verein/11894/saison_id/2021",
+      "role": "Technische/r Mitarbeiter/in",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    }
+  ],
+  "coach_id": "118107",
+  "_cached_at": "2026-02-12T23:18:49.134445",
+  "_preloaded_at": "2026-02-12T23:18:49.135033",
+  "_coach_name": "Robin Mehring"
+}

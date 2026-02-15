@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/michael-thurk/profil/trainer/71451",
+  "scraped_at": "2026-02-12T19:20:43.151438",
+  "name": "Michael Thurk",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/71451-1564481144.jpg?lm=1",
+  "dob": "28.05.1976 (49)",
+  "age": 49,
+  "birthplace": "Frankfurt am Main",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2020",
+      "role": "Scout",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2019",
+      "role": "Co-Trainer",
+      "period": "19/20 (01.07.2019) - 19/20 (10.11.2019)"
+    }
+  ],
+  "coach_id": "71451",
+  "_cached_at": "2026-02-12T19:20:43.162814",
+  "_preloaded_at": "2026-02-12T19:20:43.163402",
+  "_coach_name": "Michael Thurk"
+}

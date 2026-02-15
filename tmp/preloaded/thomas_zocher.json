@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-zocher/profil/trainer/21955",
+  "scraped_at": "2026-02-13T00:06:14.198342",
+  "name": "Thomas Zocher",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "16.07.1968 (57)",
+  "age": 57,
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2014",
+      "role": "Scout",
+      "period": "14/15 (01.07.2014) - -"
+    }
+  ],
+  "coach_id": "21955",
+  "_cached_at": "2026-02-13T00:06:14.213109",
+  "_preloaded_at": "2026-02-13T00:06:14.213784",
+  "_coach_name": "Thomas Zocher"
+}

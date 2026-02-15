@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/fritz-bischoff/profil/trainer/18576",
+  "scraped_at": "2026-02-12T18:37:05.821739",
+  "name": "Fritz Bischoff",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "03.07.1949 (76)",
+  "age": 76,
+  "nationality": "Deutschland",
+  "license": "Fachübungsleiter",
+  "current_role": "Scout",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2010",
+      "role": "Scout",
+      "period": "10/11 (01.07.2010) - -"
+    },
+    {
+      "club": "1.FC Bocholt",
+      "club_url": "https://www.transfermarkt.de/1-fc-bocholt/startseite/verein/392/saison_id/1996",
+      "role": "Trainer",
+      "period": "96/97 (01.07.1996) - 96/97 (20.02.1997)"
+    },
+    {
+      "club": "Pr. Münster",
+      "club_url": "https://www.transfermarkt.de/preussen-munster/startseite/verein/91/saison_id/1994",
+      "role": "Trainer",
+      "period": "94/95 (01.07.1994) - 95/96 (14.08.1995)"
+    },
+    {
+      "club": "Deutschland U17",
+      "club_url": "https://www.transfermarkt.de/deutschland-u17/startseite/verein/17662/saison_id/1991",
+      "role": "Trainer",
+      "period": "91/92 (01.07.1991) - 91/92 (30.06.1992)"
+    },
+    {
+      "club": "B. München II",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen-ii/startseite/verein/28/saison_id/1986",
+      "role": "Trainer",
+      "period": "86/87 (01.07.1986) - 86/87 (30.06.1987)"
+    }
+  ],
+  "coach_id": "18576",
+  "_cached_at": "2026-02-12T18:37:05.832771",
+  "_preloaded_at": "2026-02-12T18:37:05.833319",
+  "_coach_name": "Fritz Bischoff"
+}

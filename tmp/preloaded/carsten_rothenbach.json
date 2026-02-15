@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/carsten-rothenbach/profil/trainer/98444",
+  "scraped_at": "2026-02-12T18:05:46.966173",
+  "name": "Carsten Rothenbach",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/98444-1692970690.jpg?lm=1",
+  "dob": "03.09.1980 (45)",
+  "age": 45,
+  "birthplace": "Heidelberg",
+  "nationality": "Deutschland",
+  "current_role": "Sportlicher Leiterund weitere Tätigkeiten",
+  "current_club": "St. Pauli II",
+  "current_club_url": "https://www.transfermarkt.de/fc-st-pauli-ii/startseite/verein/225",
+  "career_history": [
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2022",
+      "role": "Assistent der Geschäftsführung",
+      "period": "22/23 (01.01.2023) - -"
+    },
+    {
+      "club": "St. Pauli II",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli-ii/startseite/verein/225/saison_id/2021",
+      "role": "Sportlicher Leiter",
+      "period": "21/22 (01.07.2021) - -"
+    },
+    {
+      "club": "FC St. Pauli",
+      "club_url": "https://www.transfermarkt.de/fc-st-pauli/startseite/verein/35/saison_id/2015",
+      "role": "Leitender Assistent des Geschäftsführers Sport",
+      "period": "15/16 (01.07.2015) - 22/23 (31.12.2022)"
+    }
+  ],
+  "coach_id": "98444",
+  "_cached_at": "2026-02-12T18:05:46.977046",
+  "_preloaded_at": "2026-02-12T18:05:46.977632",
+  "_coach_name": "Carsten Rothenbach"
+}

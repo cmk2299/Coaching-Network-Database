@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/mathias-kolodziej/profil/trainer/72022",
+  "scraped_at": "2026-02-12T19:12:54.514854",
+  "name": "Mathias Kolodziej",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "04.04.1988 (37)",
+  "age": 37,
+  "nationality": "Deutschland",
+  "current_role": "Athletiktrainerund weitere Tätigkeiten",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2017",
+      "role": "Athletiktrainer",
+      "period": "17/18 (01.01.2018) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2017",
+      "role": "Sportwissenschaftler",
+      "period": "17/18 (01.01.2018) - -"
+    }
+  ],
+  "coach_id": "72022",
+  "_cached_at": "2026-02-12T19:12:54.525132",
+  "_preloaded_at": "2026-02-12T19:12:54.525708",
+  "_coach_name": "Mathias Kolodziej"
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/dietmar-allgaier/profil/trainer/132332",
+  "scraped_at": "2026-02-12T18:17:06.565640",
+  "name": "Dietmar Allgaier",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/132332-1742660301.jpg?lm=1",
+  "dob": "11.06.1966 (59)",
+  "age": 59,
+  "birthplace": "Stuttgart",
+  "nationality": "Deutschland",
+  "current_role": "Präsidentund weitere Tätigkeiten",
+  "current_club": "VfB Stuttgart",
+  "current_club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79",
+  "career_history": [
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2024",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "24/25 (27.09.2024) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2024",
+      "role": "Präsident",
+      "period": "24/25 (01.08.2024) - -"
+    },
+    {
+      "club": "VfB Stuttgart",
+      "club_url": "https://www.transfermarkt.de/vfb-stuttgart/startseite/verein/79/saison_id/2024",
+      "role": "Aufsichtsratsmitglied",
+      "period": "24/25 (01.08.2024) - 24/25 (26.09.2024)"
+    }
+  ],
+  "coach_id": "132332",
+  "_cached_at": "2026-02-12T18:17:06.576667",
+  "_preloaded_at": "2026-02-12T18:17:06.577285",
+  "_coach_name": "Dietmar Allgaier"
+}

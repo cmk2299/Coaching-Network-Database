@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/fabian-franke/profil/trainer/122943",
+  "scraped_at": "2026-02-12T18:29:51.220171",
+  "name": "Fabian Franke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "07.03.1989 (36)",
+  "age": 36,
+  "birthplace": "Leipzig",
+  "nationality": "Deutschland",
+  "current_role": "Scout",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (23.01.2023) - -"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2018",
+      "role": "Scout",
+      "period": "18/19 (01.01.2019) - 22/23 (22.01.2023)"
+    },
+    {
+      "club": "Frauenfußball",
+      "club_url": "https://www.transfermarkt.de/frauenfussball/startseite/verein/36877/saison_id/2018",
+      "role": "Co-Trainer",
+      "period": "18/19 - 18/19"
+    }
+  ],
+  "coach_id": "122943",
+  "_cached_at": "2026-02-12T18:29:51.230943",
+  "_preloaded_at": "2026-02-12T18:29:51.231827",
+  "_coach_name": "Fabian Franke"
+}

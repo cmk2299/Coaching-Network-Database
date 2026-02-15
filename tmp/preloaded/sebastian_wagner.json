@@ -1,0 +1,50 @@
+{
+  "url": "https://www.transfermarkt.de/sebastian-wagner/profil/trainer/28048",
+  "scraped_at": "2026-02-12T23:26:05.672592",
+  "name": "Sebastian Wagner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "28.10.1980 (45)",
+  "age": 45,
+  "birthplace": "Köln",
+  "nationality": "Deutschland",
+  "license": "UEFA-A-Lizenz",
+  "current_role": "Scout Torwartbereichund weitere Tätigkeiten",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2020",
+      "role": "Scout Torwartbereich",
+      "period": "20/21 (01.01.2021) - -"
+    },
+    {
+      "club": "RB New York",
+      "club_url": "https://www.transfermarkt.de/new-york-red-bulls/startseite/verein/623/saison_id/2020",
+      "role": "Scout Torwartbereich",
+      "period": "20/21 (01.01.2021) - -"
+    },
+    {
+      "club": "RB Bragantino",
+      "club_url": "https://www.transfermarkt.de/red-bull-bragantino/startseite/verein/8793/saison_id/2020",
+      "role": "Scout Torwartbereich",
+      "period": "20/21 (01.01.2021) - -"
+    },
+    {
+      "club": "Dortmund Jgd.",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund-jugend/startseite/verein/11896/saison_id/2015",
+      "role": "Torwarttrainer",
+      "period": "15/16 (01.07.2015) - 20/21 (31.12.2020)"
+    },
+    {
+      "club": "Schalke 04 Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04-jugend/startseite/verein/11884/saison_id/2012",
+      "role": "Torwarttrainer",
+      "period": "12/13 (01.03.2013) - 14/15 (30.06.2015)"
+    }
+  ],
+  "coach_id": "28048",
+  "_cached_at": "2026-02-12T23:26:05.684245",
+  "_preloaded_at": "2026-02-12T23:26:05.684825",
+  "_coach_name": "Sebastian Wagner"
+}

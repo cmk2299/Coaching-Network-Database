@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/sasa-zivanovic/profil/trainer/12210",
+  "scraped_at": "2026-02-12T23:22:38.666984",
+  "name": "Sasa Zivanovic",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_12210_80_2012_1.jpg?lm=1",
+  "dob": "04.07.1972 (53)",
+  "age": 53,
+  "nationality": "Bosnien-Herzegowina",
+  "current_role": "Physiotherapeut",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/1995",
+      "role": "Physiotherapeut",
+      "period": "95/96 (01.07.1995) - -"
+    }
+  ],
+  "coach_id": "12210",
+  "_cached_at": "2026-02-12T23:22:38.677692",
+  "_preloaded_at": "2026-02-12T23:22:38.678343",
+  "_coach_name": "Sasa Zivanovic"
+}

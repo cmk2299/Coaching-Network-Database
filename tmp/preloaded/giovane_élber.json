@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/giovane-elber/profil/trainer/5161",
+  "scraped_at": "2026-02-12T18:38:14.770312",
+  "name": "Giovane Élber",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/5161-1424687252.jpg?lm=1",
+  "dob": "23.07.1972 (53)",
+  "age": 53,
+  "birthplace": "Londrina",
+  "nationality": "Brasilien",
+  "current_role": "Klubrepräsentant",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2016",
+      "role": "Klubrepräsentant",
+      "period": "16/17 (16.02.2017) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2007",
+      "role": "Scout",
+      "period": "07/08 (09.09.2007) - 10/11 (31.07.2010)"
+    }
+  ],
+  "coach_id": "5161",
+  "_cached_at": "2026-02-12T18:38:14.780932",
+  "_preloaded_at": "2026-02-12T18:38:14.781488",
+  "_coach_name": "Giovane Élber"
+}

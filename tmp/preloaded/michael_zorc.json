@@ -1,0 +1,37 @@
+{
+  "url": "https://www.transfermarkt.de/michael-zorc/profil/trainer/3295",
+  "scraped_at": "2026-02-12T19:21:06.591188",
+  "name": "Michael Zorc",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/3295-1410544535.jpg?lm=1",
+  "dob": "25.08.1962 (63)",
+  "age": 63,
+  "birthplace": "Dortmund",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2024",
+      "role": "Aufsichtsratsmitglied",
+      "period": "24/25 (25.11.2024) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2005",
+      "role": "Sportdirektor",
+      "period": "05/06 (01.07.2005) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/1998",
+      "role": "Sportlicher Leiter",
+      "period": "98/99 (01.07.1998) - 04/05 (30.06.2005)"
+    }
+  ],
+  "coach_id": "3295",
+  "_cached_at": "2026-02-12T19:21:06.603129",
+  "_preloaded_at": "2026-02-12T19:21:06.603668",
+  "_coach_name": "Michael Zorc"
+}

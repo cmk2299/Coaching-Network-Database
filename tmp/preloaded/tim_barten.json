@@ -1,0 +1,54 @@
+{
+  "url": "https://www.transfermarkt.de/tim-barten/profil/trainer/27593",
+  "scraped_at": "2026-02-13T00:07:06.664217",
+  "name": "Tim Barten",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/27593-1683275122.jpg?lm=1",
+  "dob": "05.08.1976 (49)",
+  "age": 49,
+  "nationality": "Deutschland",
+  "current_role": "Spielbetriebund weitere Tätigkeiten",
+  "current_club": "Werder Bremen",
+  "current_club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86",
+  "career_history": [
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2015",
+      "role": "Sportlicher Leiter",
+      "period": "15/16 (01.07.2015) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2012",
+      "role": "Teammanager",
+      "period": "12/13 (01.01.2013) - -"
+    },
+    {
+      "club": "W. Bremen II",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen-ii/startseite/verein/87/saison_id/2012",
+      "role": "Teammanager",
+      "period": "12/13 (01.01.2013) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2012",
+      "role": "Spielbetrieb",
+      "period": "12/13 (01.01.2013) - -"
+    },
+    {
+      "club": "Werder Bremen",
+      "club_url": "https://www.transfermarkt.de/sv-werder-bremen/startseite/verein/86/saison_id/2008",
+      "role": "Marketingmitarbeiter",
+      "period": "08/09 (01.05.2009) - 12/13 (31.12.2012)"
+    },
+    {
+      "club": "Fortuna Köln",
+      "club_url": "https://www.transfermarkt.de/sc-fortuna-koln/startseite/verein/92/saison_id/1998",
+      "role": "Assistent der Geschäftsführung",
+      "period": "98/99 (01.04.1999) - 00/01 (31.12.2000)"
+    }
+  ],
+  "coach_id": "27593",
+  "_cached_at": "2026-02-13T00:07:06.682254",
+  "_preloaded_at": "2026-02-13T00:07:06.682979",
+  "_coach_name": "Tim Barten"
+}

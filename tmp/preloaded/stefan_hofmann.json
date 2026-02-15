@@ -1,0 +1,73 @@
+{
+  "url": "https://www.transfermarkt.de/stefan-hofmann/profil/trainer/38863",
+  "scraped_at": "2026-02-12T23:28:29.366389",
+  "name": "Stefan Hofmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/38863-1571383622.jpg?lm=1",
+  "dob": "14.06.1963 (62)",
+  "age": 62,
+  "nationality": "Deutschland",
+  "license": "UEFA-Pro-Lizenz",
+  "current_role": "Vorstandsvorsitzenderund weitere Tätigkeiten",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "Deutschland",
+      "club_url": "https://www.transfermarkt.de/deutschland/startseite/verein/3262/saison_id/2022",
+      "role": "Vorstandsmitglied",
+      "period": "22/23 (01.12.2022) - -"
+    },
+    {
+      "club": "DFL",
+      "club_url": "https://www.transfermarkt.de/deutsche-fussball-liga/startseite/verein/51476/saison_id/2022",
+      "role": "Aufsichtsratsmitglied",
+      "period": "22/23 (01.12.2022) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2017",
+      "role": "Vorstandsvorsitzender",
+      "period": "17/18 (21.01.2018) - -"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2015",
+      "role": "Interimstrainer",
+      "period": "15/16 (07.10.2015) - 15/16 (03.01.2016)"
+    },
+    {
+      "club": "Mainz 05 U19",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u19/startseite/verein/5369/saison_id/2014",
+      "role": "Interimstrainer",
+      "period": "14/15 (17.02.2015) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2007",
+      "role": "Nachwuchskoordinator",
+      "period": "07/08 (01.07.2007) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "Mainz 05 U17",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-u17/startseite/verein/21051/saison_id/2006",
+      "role": "Trainer",
+      "period": "06/07 (01.07.2006) - 06/07 (30.06.2007)"
+    },
+    {
+      "club": "Bad Kreuznach",
+      "club_url": "https://www.transfermarkt.de/eintracht-bad-kreuznach/startseite/verein/2263/saison_id/2003",
+      "role": "Trainer",
+      "period": "03/04 (04.05.2004) - 03/04 (30.06.2004)"
+    },
+    {
+      "club": "Hassia Bingen",
+      "club_url": "https://www.transfermarkt.de/hassia-bingen/startseite/verein/994/saison_id/2001",
+      "role": "Trainer",
+      "period": "01/02 (01.07.2001) - 03/04"
+    }
+  ],
+  "coach_id": "38863",
+  "_cached_at": "2026-02-12T23:28:29.379257",
+  "_preloaded_at": "2026-02-12T23:28:29.379817",
+  "_coach_name": "Stefan Hofmann"
+}

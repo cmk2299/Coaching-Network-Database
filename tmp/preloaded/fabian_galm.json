@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/fabian-galm/profil/trainer/112969",
+  "scraped_at": "2026-02-12T18:30:06.704732",
+  "name": "Fabian Galm",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "29.09.1989 (36)",
+  "age": 36,
+  "birthplace": "Miltenberg",
+  "nationality": "Deutschland",
+  "current_role": "Nachwuchsscout",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2022",
+      "role": "Nachwuchsscout",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2021",
+      "role": "Nachwuchsscout",
+      "period": "21/22 (01.07.2021) - 21/22 (30.06.2022)"
+    }
+  ],
+  "coach_id": "112969",
+  "_cached_at": "2026-02-12T18:30:06.715551",
+  "_preloaded_at": "2026-02-12T18:30:06.716906",
+  "_coach_name": "Fabian Galm"
+}

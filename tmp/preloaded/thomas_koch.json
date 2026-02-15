@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-koch/profil/trainer/16681",
+  "scraped_at": "2026-02-13T00:04:42.618261",
+  "name": "Thomas Koch",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "15.06.1962 (63)",
+  "age": 63,
+  "birthplace": "Königs Wusterhausen",
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsvorsitzender",
+  "current_club": "Union Berlin",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89",
+  "career_history": [
+    {
+      "club": "Union Berlin",
+      "club_url": "https://www.transfermarkt.de/1-fc-union-berlin/startseite/verein/89/saison_id/2011",
+      "role": "Aufsichtsratsvorsitzender",
+      "period": "11/12 (01.03.2012) - -"
+    }
+  ],
+  "coach_id": "16681",
+  "_cached_at": "2026-02-13T00:04:42.636465",
+  "_preloaded_at": "2026-02-13T00:04:42.637243",
+  "_coach_name": "Thomas Koch"
+}

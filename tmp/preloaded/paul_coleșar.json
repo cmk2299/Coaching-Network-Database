@@ -1,0 +1,36 @@
+{
+  "url": "https://www.transfermarkt.de/paul-colesar/profil/trainer/25700",
+  "scraped_at": "2026-02-12T19:29:46.853020",
+  "name": "Paul Coleșar",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "13.09.1983 (42)",
+  "age": 42,
+  "nationality": "RumänienDeutschland",
+  "current_role": "Nachwuchsscout",
+  "current_club": "1.FC Köln",
+  "current_club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3",
+  "career_history": [
+    {
+      "club": "Rumänien",
+      "club_url": "https://www.transfermarkt.de/rumanien/startseite/verein/3447/saison_id/2016",
+      "role": "Scout",
+      "period": "16/17 (01.08.2016) - 20/21"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2013",
+      "role": "Nachwuchsscout",
+      "period": "13/14 (01.01.2014) - -"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2010",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "period": "10/11 (01.07.2010) - 12/13 (30.06.2013)"
+    }
+  ],
+  "coach_id": "25700",
+  "_cached_at": "2026-02-12T19:29:46.863333",
+  "_preloaded_at": "2026-02-12T19:29:46.863972",
+  "_coach_name": "Paul Coleșar"
+}

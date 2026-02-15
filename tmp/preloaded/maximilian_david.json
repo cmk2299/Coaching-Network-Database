@@ -1,0 +1,30 @@
+{
+  "url": "https://www.transfermarkt.de/maximilian-david/profil/trainer/114443",
+  "scraped_at": "2026-02-12T19:15:50.947955",
+  "name": "Maximilian David",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "10.12.1995 (30)",
+  "age": 30,
+  "nationality": "Deutschland",
+  "current_role": "Physiotherapeut",
+  "current_club": "VfL Bochum",
+  "current_club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80",
+  "career_history": [
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2025",
+      "role": "Physiotherapeut",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "SV Meppen",
+      "club_url": "https://www.transfermarkt.de/sv-meppen/startseite/verein/247/saison_id/2021",
+      "role": "Physiotherapeut",
+      "period": "21/22 (01.08.2021) - 24/25 (30.06.2025)"
+    }
+  ],
+  "coach_id": "114443",
+  "_cached_at": "2026-02-12T19:15:50.958004",
+  "_preloaded_at": "2026-02-12T19:15:50.958585",
+  "_coach_name": "Maximilian David"
+}

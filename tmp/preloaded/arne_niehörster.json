@@ -1,0 +1,31 @@
+{
+  "url": "https://www.transfermarkt.de/arne-niehorster/profil/trainer/55493",
+  "scraped_at": "2026-02-12T18:00:02.079799",
+  "name": "Arne Niehörster",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "07.12.1979 (46)",
+  "age": 46,
+  "birthplace": "Dortmund",
+  "nationality": "Deutschland",
+  "current_role": "Teammanager",
+  "current_club": "Bor. Dortmund",
+  "current_club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16",
+  "career_history": [
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2018",
+      "role": "Teammanager",
+      "period": "18/19 (01.07.2018) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2012",
+      "role": "stellv. Pressesprecher",
+      "period": "12/13 (01.07.2012) - 17/18 (30.06.2018)"
+    }
+  ],
+  "coach_id": "55493",
+  "_cached_at": "2026-02-12T18:00:02.094108",
+  "_preloaded_at": "2026-02-12T18:00:02.094865",
+  "_coach_name": "Arne Niehörster"
+}

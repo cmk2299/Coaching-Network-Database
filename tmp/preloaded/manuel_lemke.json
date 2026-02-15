@@ -1,0 +1,49 @@
+{
+  "url": "https://www.transfermarkt.de/manuel-lemke/profil/trainer/98875",
+  "scraped_at": "2026-02-12T19:03:35.325119",
+  "name": "Manuel Lemke",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "19.02.1990 (35)",
+  "age": 35,
+  "birthplace": "Duisburg",
+  "nationality": "Deutschland",
+  "current_role": "Chefscout",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2023",
+      "role": "Chefscout",
+      "period": "23/24 (01.08.2023) - -"
+    },
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2018",
+      "role": "Scout",
+      "period": "18/19 (01.07.2018) - 23/24 (31.07.2023)"
+    },
+    {
+      "club": "1.FC Köln",
+      "club_url": "https://www.transfermarkt.de/1-fc-koln/startseite/verein/3/saison_id/2014",
+      "role": "Scout",
+      "period": "14/15 (01.07.2014) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "TSV Meerbusch",
+      "club_url": "https://www.transfermarkt.de/tsv-meerbusch/startseite/verein/49126/saison_id/2013",
+      "role": "Nachwuchskoordinator",
+      "period": "13/14 (01.01.2014) - 15/16 (31.01.2016)"
+    },
+    {
+      "club": "VfL Bochum",
+      "club_url": "https://www.transfermarkt.de/vfl-bochum/startseite/verein/80/saison_id/2012",
+      "role": "Nachwuchsscout",
+      "period": "12/13 (01.07.2012) - 13/14 (31.12.2013)"
+    }
+  ],
+  "coach_id": "98875",
+  "_cached_at": "2026-02-12T19:03:35.336623",
+  "_preloaded_at": "2026-02-12T19:03:35.337378",
+  "_coach_name": "Manuel Lemke"
+}

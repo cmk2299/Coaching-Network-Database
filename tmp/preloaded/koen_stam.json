@@ -1,0 +1,88 @@
+{
+  "url": "https://www.transfermarkt.de/koen-stam/profil/trainer/43644",
+  "scraped_at": "2026-02-12T18:57:03.336946",
+  "name": "Koen Stam",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "27.02.1987 (38)",
+  "age": 38,
+  "birthplace": "Alkmaar",
+  "nationality": "Niederlande",
+  "license": "UEFA-Pro-Lizenz",
+  "agent": "Key United",
+  "agent_url": "https://www.transfermarkt.de/key-united/beraterfirma/berater/2654",
+  "current_role": "Verbindungstrainerund weitere Tätigkeiten",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2025",
+      "role": "Verbindungstrainer",
+      "period": "25/26 (01.07.2025) - -"
+    },
+    {
+      "club": "Feyenoord",
+      "club_url": "https://www.transfermarkt.de/feyenoord-rotterdam/startseite/verein/234/saison_id/2023",
+      "role": "Entwicklungscoach",
+      "period": "23/24 (21.09.2023) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Feyenoord",
+      "club_url": "https://www.transfermarkt.de/feyenoord-rotterdam/startseite/verein/234/saison_id/2021",
+      "role": "Leiter Methodik",
+      "period": "21/22 (01.07.2021) - 24/25 (30.06.2025)"
+    },
+    {
+      "club": "Feyenoord",
+      "club_url": "https://www.transfermarkt.de/feyenoord-rotterdam/startseite/verein/234/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (03.02.2021) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "Feyenoord U21",
+      "club_url": "https://www.transfermarkt.de/feyenoord-rotterdam-u21/startseite/verein/24366/saison_id/2020",
+      "role": "Co-Trainer",
+      "period": "20/21 (20.08.2020) - 20/21 (03.02.2021)"
+    },
+    {
+      "club": "AZ Alkmaar II",
+      "club_url": "https://www.transfermarkt.de/az-alkmaar-ii/startseite/verein/11368/saison_id/2018",
+      "role": "Trainer",
+      "period": "18/19 (01.07.2018) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Niederlande U18",
+      "club_url": "https://www.transfermarkt.de/niederlande-u18/startseite/verein/16340/saison_id/2016",
+      "role": "Co-Trainer",
+      "period": "16/17 (18.08.2016) - 16/17 (30.06.2017)"
+    },
+    {
+      "club": "AZ U19",
+      "club_url": "https://www.transfermarkt.de/az-alkmaar-u19/startseite/verein/7460/saison_id/2013",
+      "role": "Trainer",
+      "period": "13/14 (01.07.2013) - 17/18 (30.06.2018)"
+    },
+    {
+      "club": "AZ Alkmaar Jgd.",
+      "club_url": "https://www.transfermarkt.de/az-alkmaar-jugend/startseite/verein/32793/saison_id/2012",
+      "role": "Jugendtrainer",
+      "period": "12/13 (01.07.2012) - 12/13 (30.06.2013)"
+    },
+    {
+      "club": "Volendam U18",
+      "club_url": "https://www.transfermarkt.de/fc-volendam-u18/startseite/verein/52452/saison_id/2011",
+      "role": "Trainer",
+      "period": "11/12 (01.07.2011) - 11/12 (30.06.2012)"
+    },
+    {
+      "club": "Volendam Jgd.",
+      "club_url": "https://www.transfermarkt.de/fc-volendam-jugend/startseite/verein/44865/saison_id/2010",
+      "role": "Jugendtrainer",
+      "period": "10/11 (01.07.2010) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "43644",
+  "_cached_at": "2026-02-12T18:57:03.350538",
+  "_preloaded_at": "2026-02-12T18:57:03.351250",
+  "_coach_name": "Koen Stam"
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://www.transfermarkt.de/sven-elsinger/profil/trainer/15182",
+  "scraped_at": "2026-02-13T00:00:42.011319",
+  "name": "Sven Elsinger",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/t_15182_15_2010_1.jpg?lm=1",
+  "dob": "30.12.1967 (58)",
+  "age": 58,
+  "birthplace": "Groß-Gerau",
+  "nationality": "Deutschland",
+  "current_role": "Medizinischer Leiter Physiotherapie",
+  "current_club": "B. Leverkusen",
+  "current_club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15",
+  "career_history": [
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2023",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "23/24 (01.07.2023) - -"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2021",
+      "role": "Berater",
+      "period": "21/22 (01.07.2021) - 22/23 (30.06.2023)"
+    },
+    {
+      "club": "B. Leverkusen",
+      "club_url": "https://www.transfermarkt.de/bayer-04-leverkusen/startseite/verein/15/saison_id/2008",
+      "role": "Medizinischer Leiter Physiotherapie",
+      "period": "08/09 (01.07.2008) - 20/21 (30.06.2021)"
+    },
+    {
+      "club": "DFB-Jugend",
+      "club_url": "https://www.transfermarkt.de/dfb-jugend/startseite/verein/50422/saison_id/1992",
+      "role": "Physiotherapeut",
+      "period": "92/93 (01.07.1992) - 07/08 (30.06.2008)"
+    }
+  ],
+  "coach_id": "15182",
+  "_cached_at": "2026-02-13T00:00:42.049243",
+  "_preloaded_at": "2026-02-13T00:00:42.050752",
+  "_coach_name": "Sven Elsinger"
+}

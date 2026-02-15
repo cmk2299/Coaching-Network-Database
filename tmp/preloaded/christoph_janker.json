@@ -1,0 +1,38 @@
+{
+  "url": "https://www.transfermarkt.de/christoph-janker/profil/trainer/76727",
+  "scraped_at": "2026-02-12T18:08:58.498795",
+  "name": "Christoph Janker",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/76727-1711115273.jpg?lm=1",
+  "dob": "14.02.1985 (40)",
+  "age": 40,
+  "birthplace": "Cham",
+  "nationality": "Deutschland",
+  "contract_until": "30.06.2027",
+  "current_role": "Technischer Direktor",
+  "current_club": "FC Augsburg",
+  "current_club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167",
+  "career_history": [
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2023",
+      "role": "Technischer Direktor",
+      "period": "23/24 (22.03.2024) - vsl. 30.06.2027"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2021",
+      "role": "Leiter Lizenzbereich",
+      "period": "21/22 (01.07.2021) - 23/24 (21.03.2024)"
+    },
+    {
+      "club": "FC Augsburg",
+      "club_url": "https://www.transfermarkt.de/fc-augsburg/startseite/verein/167/saison_id/2019",
+      "role": "Verbindungstrainer",
+      "period": "19/20 (01.02.2020) - 20/21 (30.06.2021)"
+    }
+  ],
+  "coach_id": "76727",
+  "_cached_at": "2026-02-12T18:08:58.509821",
+  "_preloaded_at": "2026-02-12T18:08:58.510443",
+  "_coach_name": "Christoph Janker"
+}

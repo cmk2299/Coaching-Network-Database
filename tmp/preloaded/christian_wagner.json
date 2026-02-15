@@ -1,0 +1,23 @@
+{
+  "url": "https://www.transfermarkt.de/christian-wagner/profil/trainer/118094",
+  "scraped_at": "2026-02-12T18:08:35.716590",
+  "name": "Christian Wagner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "Deutschland",
+  "license": "A-Lizenz",
+  "current_role": "Koordinator Nachwuchsscouting",
+  "current_club": "Bor. M'gladbach",
+  "current_club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18",
+  "career_history": [
+    {
+      "club": "Bor. M'gladbach",
+      "club_url": "https://www.transfermarkt.de/borussia-monchengladbach/startseite/verein/18/saison_id/2016",
+      "role": "Koordinator Nachwuchsscouting",
+      "period": "16/17 (01.07.2016) - -"
+    }
+  ],
+  "coach_id": "118094",
+  "_cached_at": "2026-02-12T18:08:35.726439",
+  "_preloaded_at": "2026-02-12T18:08:35.727014",
+  "_coach_name": "Christian Wagner"
+}

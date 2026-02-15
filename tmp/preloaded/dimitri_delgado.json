@@ -1,0 +1,25 @@
+{
+  "url": "https://www.transfermarkt.de/dimitri-delgado/profil/trainer/116988",
+  "scraped_at": "2026-02-12T18:17:21.490317",
+  "name": "Dimitri Delgado",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "03.08.1989 (36)",
+  "age": 36,
+  "birthplace": "Livry-Gargan",
+  "nationality": "Frankreich",
+  "current_role": "Scout",
+  "current_club": "E. Frankfurt",
+  "current_club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24",
+  "career_history": [
+    {
+      "club": "E. Frankfurt",
+      "club_url": "https://www.transfermarkt.de/eintracht-frankfurt/startseite/verein/24/saison_id/2022",
+      "role": "Scout",
+      "period": "22/23 (01.03.2023) - -"
+    }
+  ],
+  "coach_id": "116988",
+  "_cached_at": "2026-02-12T18:17:21.500535",
+  "_preloaded_at": "2026-02-12T18:17:21.501543",
+  "_coach_name": "Dimitri Delgado"
+}

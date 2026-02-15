@@ -1,0 +1,52 @@
+{
+  "url": "https://www.transfermarkt.de/andreas-schicker/profil/trainer/40663",
+  "scraped_at": "2026-02-12T17:56:58.947102",
+  "name": "Andreas Schicker",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/40663-1763556085.jpg?lm=1",
+  "dob": "06.07.1986 (39)",
+  "age": 39,
+  "birthplace": "Bruck an der Mur",
+  "nationality": "Österreich",
+  "contract_until": "30.06.2029",
+  "license": "UEFA-A-Lizenz",
+  "agent": "ohne Berater",
+  "current_role": "Geschäftsführer Sport",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2024",
+      "role": "Geschäftsführer Sport",
+      "period": "24/25 (09.10.2024) - vsl. 30.06.2029"
+    },
+    {
+      "club": "Sturm Graz",
+      "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2019",
+      "role": "Geschäftsführer Sport",
+      "period": "19/20 (01.05.2020) - 24/25 (08.10.2024)"
+    },
+    {
+      "club": "Sturm Graz",
+      "club_url": "https://www.transfermarkt.de/sk-sturm-graz/startseite/verein/122/saison_id/2018",
+      "role": "Chefscout",
+      "period": "18/19 (26.11.2018) - 19/20 (30.04.2020)"
+    },
+    {
+      "club": "Wiener Neustadt",
+      "club_url": "https://www.transfermarkt.de/1-wiener-neustadter-sc/startseite/verein/17444/saison_id/2017",
+      "role": "Sportdirektor",
+      "period": "17/18 (01.06.2017) - 18/19 (25.11.2018)"
+    },
+    {
+      "club": "Wiener Neustadt",
+      "club_url": "https://www.transfermarkt.de/1-wiener-neustadter-sc/startseite/verein/17444/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (10.06.2015) - 16/17 (31.05.2017)"
+    }
+  ],
+  "coach_id": "40663",
+  "_cached_at": "2026-02-12T17:56:58.959763",
+  "_preloaded_at": "2026-02-12T17:56:58.960352",
+  "_coach_name": "Andreas Schicker"
+}

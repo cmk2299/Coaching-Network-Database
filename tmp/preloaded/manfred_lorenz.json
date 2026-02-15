@@ -1,0 +1,66 @@
+{
+  "url": "https://www.transfermarkt.de/manfred-lorenz/profil/trainer/1047",
+  "scraped_at": "2026-02-12T19:02:48.322636",
+  "name": "Manfred Lorenz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "26.09.1948 (77)",
+  "age": 77,
+  "nationality": "Deutschland",
+  "current_role": "Aufsichtsratsmitglied",
+  "current_club": "1.FSV Mainz 05",
+  "current_club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39",
+  "career_history": [
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2021",
+      "role": "Aufsichtsratsmitglied",
+      "period": "21/22 (30.06.2021) - -"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/2000",
+      "role": "Interimstrainer",
+      "period": "00/01 (15.11.2000) - 00/01 (21.11.2000)"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/2000",
+      "role": "Sportlicher Leiter",
+      "period": "00/01 (01.07.2000) - 18/19 (30.06.2019)"
+    },
+    {
+      "club": "FSV Mainz 05 II",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05-ii/startseite/verein/851/saison_id/1999",
+      "role": "Trainer",
+      "period": "99/00 (01.07.1999) - 99/00 (30.06.2000)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/1997",
+      "role": "Interimstrainer",
+      "period": "97/98 (23.08.1997) - 97/98 (15.09.1997)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/1996",
+      "role": "Interimstrainer",
+      "period": "96/97 (03.03.1997) - 96/97 (10.03.1997)"
+    },
+    {
+      "club": "1.FSV Mainz 05",
+      "club_url": "https://www.transfermarkt.de/1-fsv-mainz-05/startseite/verein/39/saison_id/1995",
+      "role": "Interimstrainer",
+      "period": "95/96 (14.09.1995) - 95/96 (23.09.1995)"
+    },
+    {
+      "club": "FC 08 Homburg",
+      "club_url": "https://www.transfermarkt.de/fc-08-homburg/startseite/verein/459/saison_id/1994",
+      "role": "Trainer",
+      "period": "94/95 (01.05.1995) - 94/95 (30.06.1995)"
+    }
+  ],
+  "coach_id": "1047",
+  "_cached_at": "2026-02-12T19:02:48.334066",
+  "_preloaded_at": "2026-02-12T19:02:48.334711",
+  "_coach_name": "Manfred Lorenz"
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.transfermarkt.de/steffen-hillmann/profil/trainer/114832",
+  "scraped_at": "2026-02-12T23:30:16.433273",
+  "name": "Steffen Hillmann",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "dob": "22.04.1989 (36)",
+  "age": 36,
+  "nationality": "Deutschland",
+  "current_role": "Leiter Lizenzbereich",
+  "current_club": "VfL Wolfsburg",
+  "current_club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82",
+  "career_history": [
+    {
+      "club": "VfL Wolfsburg",
+      "club_url": "https://www.transfermarkt.de/vfl-wolfsburg/startseite/verein/82/saison_id/2022",
+      "role": "Leiter Lizenzbereich",
+      "period": "22/23 (01.07.2022) - -"
+    }
+  ],
+  "coach_id": "114832",
+  "_cached_at": "2026-02-12T23:30:16.465945",
+  "_preloaded_at": "2026-02-12T23:30:16.467363",
+  "_coach_name": "Steffen Hillmann"
+}

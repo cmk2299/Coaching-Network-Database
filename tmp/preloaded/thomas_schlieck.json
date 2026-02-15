@@ -1,0 +1,92 @@
+{
+  "url": "https://www.transfermarkt.de/thomas-schlieck/profil/trainer/421",
+  "scraped_at": "2026-02-13T00:05:28.440421",
+  "name": "Thomas Schlieck",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/421-1407491398.jpg?lm=1",
+  "dob": "17.12.1969 (56)",
+  "age": 56,
+  "birthplace": "Greven",
+  "nationality": "Deutschland",
+  "license": "Torwarttrainer-Lizenz",
+  "current_role": "Koordinator Torwartbereich",
+  "current_club": "RB Leipzig",
+  "current_club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826",
+  "career_history": [
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2020",
+      "role": "Koordinator Torwartbereich",
+      "period": "20/21 (01.07.2020) - -"
+    },
+    {
+      "club": "Bor. Dortmund",
+      "club_url": "https://www.transfermarkt.de/borussia-dortmund/startseite/verein/16/saison_id/2015",
+      "role": "Koordinator Torwartbereich",
+      "period": "15/16 (01.07.2015) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Deutschland U18",
+      "club_url": "https://www.transfermarkt.de/deutschland-u18/startseite/verein/9067/saison_id/2014",
+      "role": "Torwarttrainer",
+      "period": "14/15 (01.07.2014) - 15/16 (30.06.2016)"
+    },
+    {
+      "club": "Deutschland U19",
+      "club_url": "https://www.transfermarkt.de/deutschland-u19/startseite/verein/5710/saison_id/2013",
+      "role": "Torwarttrainer",
+      "period": "13/14 (01.07.2013) - 13/14 (30.06.2014)"
+    },
+    {
+      "club": "RB Leipzig",
+      "club_url": "https://www.transfermarkt.de/rasenballsport-leipzig/startseite/verein/23826/saison_id/2012",
+      "role": "Koordinator Torwartbereich",
+      "period": "12/13 (05.10.2012) - 14/15 (30.06.2015)"
+    },
+    {
+      "club": "Schalke 04 II",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04-ii/startseite/verein/34/saison_id/2011",
+      "role": "Torwarttrainer",
+      "period": "11/12 (01.07.2011) - 12/13 (04.10.2012)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2011",
+      "role": "Koordinator Torwartbereich",
+      "period": "11/12 (01.07.2011) - 12/13 (04.10.2012)"
+    },
+    {
+      "club": "FC Schalke 04",
+      "club_url": "https://www.transfermarkt.de/fc-schalke-04/startseite/verein/33/saison_id/2011",
+      "role": "Scout Torwartbereich",
+      "period": "11/12 (01.07.2011) - 12/13 (04.10.2012)"
+    },
+    {
+      "club": "A. Bielefeld II",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld-ii/startseite/verein/831/saison_id/2001",
+      "role": "Torwarttrainer",
+      "period": "01/02 (01.07.2001) - 08/09 (30.06.2009)"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/1999",
+      "role": "Torwarttrainer",
+      "period": "99/00 (01.07.1999) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/1999",
+      "role": "Scout Torwartbereich",
+      "period": "99/00 (01.07.1999) - 10/11 (30.06.2011)"
+    },
+    {
+      "club": "Arm. Bielefeld",
+      "club_url": "https://www.transfermarkt.de/arminia-bielefeld/startseite/verein/10/saison_id/1999",
+      "role": "Koordinator Torwartbereich",
+      "period": "99/00 (01.07.1999) - 10/11 (30.06.2011)"
+    }
+  ],
+  "coach_id": "421",
+  "_cached_at": "2026-02-13T00:05:28.465722",
+  "_preloaded_at": "2026-02-13T00:05:28.466732",
+  "_coach_name": "Thomas Schlieck"
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.transfermarkt.de/matthias-guldner/profil/trainer/107306",
+  "scraped_at": "2026-02-12T19:13:48.529700",
+  "name": "Matthias Güldner",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/107306-1665086112.jpg?lm=1",
+  "dob": "03.01.1987 (39)",
+  "age": 39,
+  "birthplace": "Magdeburg",
+  "nationality": "Deutschland",
+  "current_role": "Spielanalyst",
+  "current_club": "TSG Hoffenheim",
+  "current_club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533",
+  "career_history": [
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2022",
+      "role": "Spielanalyst",
+      "period": "22/23 (01.07.2022) - -"
+    },
+    {
+      "club": "FC Basel",
+      "club_url": "https://www.transfermarkt.de/fc-basel-1893/startseite/verein/26/saison_id/2021",
+      "role": "Spielanalyst",
+      "period": "21/22 (01.04.2022) - 21/22 (30.06.2022)"
+    },
+    {
+      "club": "TSG Hoffenheim",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim/startseite/verein/533/saison_id/2020",
+      "role": "Spielanalyst",
+      "period": "20/21 (01.07.2020) - 21/22 (31.03.2022)"
+    },
+    {
+      "club": "Hoffenheim U19",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u19/startseite/verein/8925/saison_id/2015",
+      "role": "Chefanalytiker",
+      "period": "15/16 (01.07.2015) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Hoffenheim U19",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u19/startseite/verein/8925/saison_id/2015",
+      "role": "Co-Trainer",
+      "period": "15/16 (01.07.2015) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Hoffenheim YL",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-uefa-u19/startseite/verein/69272/saison_id/2015",
+      "role": "Chefanalytiker",
+      "period": "15/16 (01.07.2015) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Hoffenheim U17",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-u17/startseite/verein/21082/saison_id/2015",
+      "role": "Chefanalytiker",
+      "period": "15/16 (01.07.2015) - 19/20 (30.06.2020)"
+    },
+    {
+      "club": "Hoffenheim Jgd.",
+      "club_url": "https://www.transfermarkt.de/tsg-1899-hoffenheim-jugend/startseite/verein/17474/saison_id/2015",
+      "role": "Chefanalytiker",
+      "period": "15/16 (01.07.2015) - 19/20 (30.06.2020)"
+    }
+  ],
+  "coach_id": "107306",
+  "_cached_at": "2026-02-12T19:13:48.542518",
+  "_preloaded_at": "2026-02-12T19:13:48.543362",
+  "_coach_name": "Matthias Güldner"
+}

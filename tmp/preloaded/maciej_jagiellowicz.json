@@ -1,0 +1,28 @@
+{
+  "url": "https://www.transfermarkt.de/maciej-jagiellowicz/profil/trainer/135056",
+  "scraped_at": "2026-02-12T19:02:09.625980",
+  "name": "Maciej Jagiellowicz",
+  "image_url": "https://img.a.transfermarkt.technology/portrait/header/default.jpg?lm=1",
+  "nationality": "DeutschlandPolen",
+  "current_role": "Teammanagerund weitere Tätigkeiten",
+  "current_club": "Bayern München",
+  "current_club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27",
+  "career_history": [
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2024",
+      "role": "Teammanager",
+      "period": "24/25 (01.07.2024) - -"
+    },
+    {
+      "club": "Bayern München",
+      "club_url": "https://www.transfermarkt.de/fc-bayern-munchen/startseite/verein/27/saison_id/2016",
+      "role": "Sicherheitsbeauftragter",
+      "period": "16/17 (01.01.2017) - -"
+    }
+  ],
+  "coach_id": "135056",
+  "_cached_at": "2026-02-12T19:02:09.636190",
+  "_preloaded_at": "2026-02-12T19:02:09.636893",
+  "_coach_name": "Maciej Jagiellowicz"
+}
