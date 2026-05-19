@@ -46,7 +46,7 @@ def count_preload_stats():
                     stats['total_teammates'] += teammates
                     stats['total_management'] += management
                     stats['total_companions'] += teammates + management
-            except:
+            except Exception:
                 pass
 
         if (coach_dir / "teammates.json").exists():

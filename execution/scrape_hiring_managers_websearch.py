@@ -43,7 +43,7 @@ def load_from_cache(coach_name: str, club_name: str) -> Optional[Dict]:
             cached_at = datetime.fromisoformat(cached.get("cached_at", ""))
             if (datetime.now() - cached_at).days < CACHE_DURATION_DAYS:
                 return cached.get("result")
-        except:
+        except Exception:
             pass
 
     return None

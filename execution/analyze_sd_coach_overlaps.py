@@ -71,7 +71,7 @@ def load_coaches():
                             try:
                                 season_id = club_url.split("/saison_id/")[1].split("/")[0]
                                 start_year = int(season_id)
-                            except:
+                            except Exception:
                                 pass
 
                         # Extract club from role field (format: "ClubNameRole")

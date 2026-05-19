@@ -131,7 +131,7 @@ def load_coaches():
                                 # Estimate end year (assume 2-3 year tenure if not specified)
                                 if not end_year:
                                     end_year = start_year + 2
-                            except:
+                            except Exception:
                                 pass
 
                         # Categorize position type

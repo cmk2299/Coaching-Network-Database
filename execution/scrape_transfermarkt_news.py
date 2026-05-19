@@ -47,7 +47,7 @@ def load_from_cache(coach_name: str, club_name: str) -> Optional[Dict]:
 
         if age < CACHE_DURATION_DAYS:
             return cached.get("result")
-    except:
+    except Exception:
         pass
 
     return None

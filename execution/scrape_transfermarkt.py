@@ -252,20 +252,39 @@ def parse_coach_profile(soup: BeautifulSoup, url: str) -> dict:
     tables = soup.find_all("table", class_="items")
     for table in tables:
         header = table.find_previous(["h2", "div"], class_=["content-box-headline", "table-header"])
-        if header and any(x in header.get_text().lower() for x in ["karriere", "career", "stationen"]):
+        if header and any(x in header.get_text().lower() for x in ["karriere", "career", "stationen", "history"]):
             for row in table.find_all("tr")[1:]:  # Skip header
                 cells = row.find_all("td")
-                if len(cells) >= 3:
-                    club_cell = cells[0]
-                    role_cell = cells[1] if len(cells) > 1 else None
-                    date_cell = cells[-1]
+                if len(cells) >= 4:
+                    # New structure: [logo, club+role, appointed, until, matches, ppm]
+                    club_role_cell = cells[1]  # Club & Role combined
+                    appointed_cell = cells[2]   # Start date
+                    until_cell = cells[3]       # End date
 
-                    club_link = club_cell.find("a")
+                    # Extract club and role from combined cell
+                    club_link = club_role_cell.find("a")
+                    full_text = club_role_cell.get_text(strip=True)
+
+                    # Split club name and role
+                    if club_link:
+                        club_name = club_link.get_text(strip=True)
+                        # Role is the text after club name
+                        role = full_text.replace(club_name, "").strip()
+                    else:
+                        # Fallback: try to parse from full text
+                        club_name = full_text
+                        role = "Unknown"
+
+                    # Build period from appointed and until dates
+                    appointed = appointed_cell.get_text(strip=True)
+                    until = until_cell.get_text(strip=True)
+                    period = f"{appointed} - {until}" if appointed and until else "Unknown"
+
                     career_entry = {
-                        "club": club_link.get_text(strip=True) if club_link else club_cell.get_text(strip=True),
+                        "club": club_name,
                         "club_url": TM_BASE + club_link["href"] if club_link and club_link.get("href") else None,
-                        "role": role_cell.get_text(strip=True) if role_cell else "Unknown",
-                        "period": date_cell.get_text(strip=True) if date_cell else "Unknown"
+                        "role": role if role else "Unknown",
+                        "period": period
                     }
                     career.append(career_entry)
 

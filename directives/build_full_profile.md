@@ -1,7 +1,7 @@
 # Directive: Build Full Coach Profile
 
 ## Goal
-Build a comprehensive coach profile by orchestrating all scrapers and exporting to Google Sheets.
+Build a comprehensive coach profile by orchestrating all scrapers, enriching with network data, and outputting to an interactive HTML dashboard.
 
 ## Input
 - Coach name (string) OR
@@ -36,13 +36,40 @@ Build a comprehensive coach profile by orchestrating all scrapers and exporting 
 
 **Output:** Players used JSON with:
 - all_players[]
-- significant_players[] (20+ games, 70+ avg minutes)
+- significant_players[] (20+ games, 45+ avg minutes)
 
-### Step 4: Export to Google Sheets
-**Script:** `execution/export_to_sheets.py`
-**Command:** `python export_to_sheets.py --profile {profile.json}`
+### Step 4: Enrich Network Contacts
+**Script:** `execution/enrich_transfermarkt_profiles.py`
+**Command:** `python enrich_transfermarkt_profiles.py`
 
-**Output:** Row added/updated in Google Sheet
+**Output:** `data/profile_enrichment.json` with per-contact fields:
+- nationality, dob, age, license, current_club
+- Scraped from TM profile pages of all contacts with tm_url
+
+### Step 5: Cross-Reference & Enrich Relationships
+**Script:** `execution/enrich_network.py` (or orchestrator logic)
+
+**Output:** Per-contact enrichment:
+- career_history (from master_coach_profiles.json matching)
+- coaches_worked_with[] (coaches at shared stations)
+- sds_worked_with[] (sporting directors at shared stations)
+- top_players_coached[] (from players_used data, 20+ games, 45+ avg mins)
+
+### Step 6: Generate Background Summaries
+**Script:** `execution/generate_background_summaries.py`
+
+**Output:** `data/background_summaries.json` — 1-2 sentence German summary per contact, template-based per category (no LLM API needed)
+
+### Step 7: Build Dashboard
+**Template:** `blessin_network_v3.html` (template with `__NETWORK_PLACEHOLDER__` / `__DRILLDOWN_PLACEHOLDER__`)
+
+**Process:**
+1. Merge all enrichment data into `data/blessin_full_network.json`
+2. Minify network + drilldown JSON
+3. Replace placeholders in template
+4. Output production HTML file
+
+**Output:** Single self-contained HTML file with embedded data
 
 ## Edge Cases
 
@@ -62,18 +89,31 @@ Build a comprehensive coach profile by orchestrating all scrapers and exporting 
 - New coach with no significant history
 - Set significant_players to empty
 
-### Google Sheets auth fails
-- Delete token.json
-- Re-run to trigger new OAuth flow
+### Low career_history match rate
+- master_coach_profiles.json matching by name yields ~9%
+- Consider fuzzy matching or TM coach_id matching for improvement
+
+### Agent/Berater data unavailable
+- TM doesn't display agent info for coaches (0% hit rate)
+- Field requires alternative data source — skip for now
 
 ## Timing
 - Profile: ~5 seconds
 - Teammates: ~5 seconds
 - Players used: ~5 seconds
-- Export: ~2 seconds
-- **Total: ~17 seconds per coach**
+- Network enrichment (69 contacts): ~4 minutes (3s delay per request)
+- Background summaries: ~1 second
+- Dashboard build: ~2 seconds
+- **Total: ~5 minutes per coach network**
 
 ## Learnings
-(Add discoveries here as the system runs)
 
-- [Date]: Learning
+- [2026-02-24]: TM profile pages have different HTML structures for coaches vs players. The info table uses `<span class="info-table__content">` for fields like nationality, DOB, license.
+- [2026-02-24]: Agent/Berater info is rarely shown for coaches on TM (0% hit rate). This field may need an alternative data source.
+- [2026-02-24]: TM nationality field sometimes concatenates dual nationalities without separator (e.g. "UngarnGriechenland"). Need to split by uppercase letters.
+- [2026-02-24]: License field coverage is low (~20%). Many coaches don't list their license on TM.
+- [2026-02-28]: Scraping with 3s delay and proper User-Agent works reliably. No blocks encountered on 69 sequential requests.
+- [2026-02-28]: career_history from master_coach_profiles.json only matches ~9% of network contacts by name. Fuzzy matching or TM ID matching would improve this.
+- [2026-02-28]: Players coached filter of "20+ games, 70+ min avg" was too strict — relaxed to 45 min avg for broader coverage (30/91 contacts).
+- [2026-02-28]: Google Sheets export removed from MVP scope — replaced by interactive HTML dashboard with embedded data.
+- [2026-02-28]: Background summaries generated deterministically from structured data (no LLM API needed) — template-based approach per category works well.

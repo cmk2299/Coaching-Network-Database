@@ -58,7 +58,7 @@ def load_from_cache(key: str, max_age_days: int = 7) -> Optional[Dict]:
             cached_at = datetime.fromisoformat(data.get("cached_at", "2000-01-01"))
             if datetime.now() - cached_at < timedelta(days=max_age_days):
                 return data
-        except:
+        except Exception:
             pass
     return None
 

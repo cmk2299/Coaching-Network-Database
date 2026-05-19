@@ -48,7 +48,7 @@ def load_from_cache(club_id: int, person_type: str = "staff") -> Optional[Dict]:
             cached_at = datetime.fromisoformat(data.get("cached_at", "2000-01-01"))
             if (datetime.now() - cached_at).days < 30:
                 return data.get("staff", [])
-        except:
+        except Exception:
             pass
 
     return None
@@ -181,7 +181,7 @@ def parse_date(date_str: str) -> Optional[datetime]:
         # Handle "DD.MM.YYYY" format
         elif re.match(r'^\d{2}\.\d{2}\.\d{4}$', date_str):
             return datetime.strptime(date_str, "%d.%m.%Y")
-    except:
+    except Exception:
         pass
 
     return None

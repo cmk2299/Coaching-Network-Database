@@ -62,7 +62,7 @@ def scrape_companions_for_all():
                     results['total_companions'] += total
                     results['successful'] += 1
                     print(f"  ✓ {total} companions already saved")
-            except:
+            except Exception:
                 pass
             continue
 

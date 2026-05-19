@@ -44,7 +44,7 @@ def get_bundesliga_coaches() -> List[Dict]:
                 from datetime import datetime
                 date_obj = datetime.strptime(appointed_date, "%b %d, %Y")
                 start_date = date_obj.strftime("%m.%Y")
-            except:
+            except Exception:
                 start_date = appointed_date
 
             coaches.append({

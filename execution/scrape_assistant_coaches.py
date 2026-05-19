@@ -187,7 +187,7 @@ def scrape_assistant_profile(assistant_url: str) -> dict:
                     try:
                         age = int(text.split()[0])
                         result["age"] = age
-                    except:
+                    except Exception:
                         pass
                 # Nationality
                 flag = row.find("img", class_="flaggenrahmen")
@@ -235,7 +235,7 @@ def scrape_assistant_profile(assistant_url: str) -> dict:
                             if len(year_part) == 2:
                                 year_num = int(year_part)
                                 station["start_year"] = 2000 + year_num if year_num < 50 else 1900 + year_num
-                        except:
+                        except Exception:
                             pass
 
                 # Cell 3: End period
@@ -249,7 +249,7 @@ def scrape_assistant_profile(assistant_url: str) -> dict:
                             if len(year_part) == 2:
                                 year_num = int(year_part)
                                 station["end_year"] = 2000 + year_num if year_num < 50 else 1900 + year_num
-                        except:
+                        except Exception:
                             pass
 
                 if station.get("club"):
