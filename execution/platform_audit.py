@@ -30,6 +30,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output"
 DASH = OUT / "dashboards"
 DATA = ROOT / "data"
+PROFILES = DATA / "person_profiles"
 TEMPLATE = ROOT / "blessin_network_v3.html"
 INDEX = OUT / "index.html"
 SEASON = 2026  # 2026/2027
@@ -196,18 +197,40 @@ def C9_player_current_club_staleness(sample_networks=60, per_net=40):
         pcs = [c for c in net.get("contacts", []) if c.get("category") == "player_coached"]
         if len(pcs) < 8:
             continue
-        stations = set(net.get("stations", []))
         def ccname(c):
             cc = c.get("current_club")
             return cc.get("name") if isinstance(cc, dict) else cc
-        # what fraction of player current_clubs are just one of the coach's stations?
-        on_station = sum(1 for c in pcs[:per_net] if ccname(c) in stations)
-        n = min(len(pcs), per_net)
-        if n and on_station / n >= 0.85:
-            probs.append(f"C9: {nf.stem} — {on_station}/{n} coached-players' current_club == a coach station (builder stamped station, not real club)")
+        # AUTHORITATIVE check: compare the contact's current_club against the
+        # player's SPIELER profile current_club. A mismatch = builder stamped the
+        # wrong value (station-stamp bug). Players genuinely still at a coach
+        # station (active 3.Liga squads) match their profile → NOT flagged.
+        mism = 0
+        compared = 0
+        for c in pcs[:per_net]:
+            pid = c.get("_tm_id") or c.get("tm_id")
+            if not pid:
+                continue
+            pf = PROFILES / f"spieler_{pid}.json"
+            if not pf.exists():
+                continue
+            try:
+                prof = json.loads(pf.read_text())
+            except Exception:
+                continue
+            pcc = prof.get("current_club")
+            real = pcc.get("name") if isinstance(pcc, dict) else pcc
+            if not real:
+                continue
+            compared += 1
+            shown = ccname(c)
+            # post_career_role contacts legitimately show their work club, skip
+            if c.get("post_career_role"):
+                continue
+            if shown != real:
+                mism += 1
         checked += 1
-    if checked == 0:
-        return probs
+        if compared >= 6 and mism / compared >= 0.30:
+            probs.append(f"C9: {nf.stem} — {mism}/{compared} coached-players' current_club != profile (stale/station-stamp)")
     return probs
 
 
