@@ -1571,8 +1571,15 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         # Former teammates: score by their POST-playing career
         is_still_player = False  # Only relevant for former_teammate; init for league/recency modifiers
         if cat == "former_teammate":
-            # Check their current role from profile
-            teammate_profile = profiles.get(tm_id, {})
+            # Check their current role from profile.
+            # NAME-VERIFY (2026-06-04): a Mitspieler's GS-derived tm_id can be
+            # bogus / resolve only in the trainer namespace to a DIFFERENT person
+            # (e.g. Marco Bode[Bremen] id 520 → trainer_520 = Serse Cosmi →
+            # falsely shown as "Cheftrainer Salernitana"). Only trust the profile
+            # if its name matches the contact; else treat as an unscraped player.
+            teammate_profile = profiles.get(tm_id, {}) or {}
+            if teammate_profile and not _name_matches(teammate_profile.get("name"), c.get("name", "")):
+                teammate_profile = {}
             teammate_career = teammate_profile.get("career_history", [])
             # Detect if person is still an active player (no coaching/management career)
             is_still_player = (teammate_profile.get("type") == "player" or
@@ -2119,6 +2126,15 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                 c.get("name", ""),
                 contact_tm_id=tm_id,
             )
+            # NAME-COLLISION GUARD (2026-06-04): a Mitspieler/teammate with no
+            # tm_id (GS data) — or a bogus tm_id that only resolves in the wrong
+            # namespace — must NOT be promoted to an active coach just because a
+            # SAME-NAMED active staff member exists (Marco Bode[Bremen player]
+            # promoted to "Cheftrainer Salernitana" via namesake). When the
+            # contact has no verifiable tm_id, require the staff entry to NOT be
+            # an ambiguous/multi-id name; otherwise reject.
+            if staff_info and tm_id is None and staff_info.get("_ambiguous"):
+                staff_info = None
             if staff_info:
                 old_cat = c.get("category", "")
                 new_cat = staff_info["category"]
@@ -2603,6 +2619,41 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             "patterns": hh.get("patterns") or {},
             "agent_relationships": (ap.get("agent_relationships") or [])[:3],
         }
+
+    # ── FINAL ID-INTEGRITY SANITIZER (2026-06-04) ──────────────────────────
+    # Single chokepoint guarding against TM namespace id-reuse: if a contact's
+    # _tm_id resolves (in EITHER namespace) only to a DIFFERENT person, any
+    # role/current_club enriched from that wrong profile is bogus. Strip such
+    # fields back to a safe player-base. Catches every upstream path at once
+    # (GS bogus ids, lookup_active_staff namesakes, career-history leaks).
+    _ns_cache = _cache.get("profiles_ns") or {}
+    _san = 0
+    for c in contacts_list:
+        tid = c.get("_tm_id")
+        if not tid:
+            continue
+        sp = _ns_cache.get(f"spieler_{tid}")
+        tr = _ns_cache.get(f"trainer_{tid}")
+        names = [p.get("name") for p in (sp, tr) if p]
+        if not names:
+            continue  # no profile to contradict the contact — leave as-is
+        if any(_name_matches(n, c.get("name", "")) for n in names):
+            continue  # at least one namespace confirms the person — OK
+        # Neither namespace matches → the id points at someone else. Any role/
+        # club that looks coach/exec-derived is wrong; reset to player-safe base.
+        cat = c.get("category")
+        if cat in ("former_teammate", "player_coached"):
+            pos = None
+            note = c.get("note", "")
+            c["current_club"] = None
+            # keep a neutral playing role if we can infer position, else generic
+            if not str(c.get("role", "")).lower().startswith(("mitspieler", "spieler")):
+                c["role"] = "Mitspieler" if cat == "former_teammate" else "Spieler"
+            c["career_history"] = None
+            c.pop("post_career_role", None)
+            _san += 1
+    if _san:
+        print(f"  ID-sanitizer: reset {_san} contact(s) with mismatched namespace id")
 
     network = {
         "center": profile["name"],
