@@ -2639,19 +2639,35 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             continue  # no profile to contradict the contact — leave as-is
         if any(_name_matches(n, c.get("name", "")) for n in names):
             continue  # at least one namespace confirms the person — OK
-        # Neither namespace matches → the id points at someone else. Any role/
-        # club that looks coach/exec-derived is wrong; reset to player-safe base.
+        # Neither namespace matches → the id points at someone else. EVERY field
+        # enriched from that wrong profile is bogus, regardless of the contact's
+        # CURRENT category — because an upstream path may have FALSELY PROMOTED a
+        # player/teammate to head_coach/scouting/exec using the foreign profile
+        # (Marco Bode → "head_coach US Salernitana"; Ilsanker → wrong id 1040).
         cat = c.get("category")
-        if cat in ("former_teammate", "player_coached"):
-            pos = None
-            note = c.get("note", "")
-            c["current_club"] = None
-            # keep a neutral playing role if we can infer position, else generic
+        # Detect a player/teammate ORIGIN even if currently mislabeled.
+        is_player_origin = (
+            cat in ("former_teammate", "player_coached")
+            or c.get("shared_matches") is not None
+            or str(c.get("note", "")).lower().startswith(("mitspieler", "spieler"))
+            or c.get("relationship_type") == "playing"
+        )
+        c["current_club"] = None
+        c["career_history"] = None
+        c.pop("post_career_role", None)
+        if is_player_origin:
+            # revert any false promotion back to teammate/player
+            base_cat = "player_coached" if cat == "player_coached" else "former_teammate"
+            c["category"] = base_cat
+            c["pro_status"] = "player"
             if not str(c.get("role", "")).lower().startswith(("mitspieler", "spieler")):
-                c["role"] = "Mitspieler" if cat == "former_teammate" else "Spieler"
-            c["career_history"] = None
-            c.pop("post_career_role", None)
-            _san += 1
+                c["role"] = "Mitspieler" if base_cat == "former_teammate" else "Spieler"
+        else:
+            # unknown-origin contact with a wrong id: neutralize the role/club but
+            # keep the name; don't invent a category.
+            if c.get("role") and "(" in str(c.get("role")):
+                c["role"] = str(c["role"]).split("(")[0].strip() or "Unbekannt"
+        _san += 1
     if _san:
         print(f"  ID-sanitizer: reset {_san} contact(s) with mismatched namespace id")
 
