@@ -385,6 +385,37 @@ def preload_all_profiles() -> Dict[int, dict]:
     return profiles_by_tmid
 
 
+def _name_matches(a: str, b: str) -> bool:
+    """Diacritic-insensitive, surname-anchored name match. Guards against TM
+    namespace id-reuse attaching a wrong person's profile to a contact.
+    True:  Szczesny==Szczęsny, Jagiełło==Jagiello, Hansi Flick==Hans-Dieter Flick
+    False: Udo Knierim != Per Nilsson, Wolfgang Hotze != Marcel Schäfer."""
+    import unicodedata
+
+    # Explicit folds for chars NFKD doesn't decompose (Polish ł, Nordic ø/æ, ð/þ)
+    _FOLD = {"ł": "l", "ø": "o", "æ": "ae", "œ": "oe", "ð": "d", "þ": "th", "ß": "ss"}
+
+    def fold(s):
+        s = (s or "").lower()
+        s = "".join(_FOLD.get(ch, ch) for ch in s)
+        s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+        return s
+
+    na = re.sub(r"[^a-z]", "", fold(a))
+    nb = re.sub(r"[^a-z]", "", fold(b))
+    if not na or not nb:
+        return False
+    if na == nb:
+        return True
+    # Surname anchor: the LAST token of each name must match (firstnames vary:
+    # "Hansi" vs "Hans-Dieter", nicknames, etc., but the surname is stable).
+    ta = [t for t in re.split(r"[^a-z]+", fold(a)) if len(t) > 1]
+    tb = [t for t in re.split(r"[^a-z]+", fold(b)) if len(t) > 1]
+    if ta and tb and ta[-1] == tb[-1]:
+        return True
+    return False
+
+
 def get_profile_ns(kind: str, tm_id) -> Optional[dict]:
     """Namespace-explicit profile lookup (collision-safe).
 
@@ -1160,13 +1191,16 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             # current_club must be the player's ACTUAL current club (incl. "Karriereende"
             # for retired players) from their profile — NOT player_data.club_name, which
             # is the squad/station where the coach met them (Augsburg-retiree bug).
-            # Use the SPIELER namespace explicitly: bare `pid` can collide with an
-            # unrelated trainer of the same id (TM namespace ID-reuse).
-            "current_club": (lambda _p: (
-                normalize_club(_p["current_club"].get("name", ""), _p["current_club"].get("tm_id"))
-                if isinstance(_p.get("current_club"), dict) and _p["current_club"].get("name")
-                else (_p.get("current_club") if isinstance(_p.get("current_club"), str) else None)
-            ))(get_profile_ns("spieler", pid) or {}),
+            # Use the SPIELER namespace explicitly AND verify the profile name matches
+            # the contact name: bare `pid` can collide with an unrelated person of the
+            # same id (TM namespace ID-reuse, e.g. trainer Udo Knierim 18100 vs
+            # spieler Per Nilsson 18100). If names don't match → None (no wrong data).
+            "current_club": (lambda _p, _nm: (
+                (normalize_club(_p["current_club"].get("name", ""), _p["current_club"].get("tm_id"))
+                 if isinstance(_p.get("current_club"), dict) and _p["current_club"].get("name")
+                 else (_p.get("current_club") if isinstance(_p.get("current_club"), str) else None))
+                if _name_matches(_p.get("name"), _nm) else None
+            ))(get_profile_ns("spieler", pid) or {}, player_data.get("name", "")),
         }
 
         # POST-CAREER ROLE (2026-06-04): for a player_coached contact who has retired
@@ -1179,8 +1213,12 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             _cc = contacts_map[pid].get("current_club")
             _ccn = _cc.get("name") if isinstance(_cc, dict) else _cc
             _sp = get_profile_ns("spieler", pid) or {}
+            # Only trust the spieler profile if its name matches the contact —
+            # else it's a namespace collision (wrong person) and DOB would be bogus.
+            if not _name_matches(_sp.get("name"), player_data.get("name", "")):
+                _sp = {}
             _sp_dob = (_sp.get("dob") or "").strip()
-            _sp_name = (player_data.get("name") or _sp.get("name") or "").strip().lower()
+            _sp_name = (_sp.get("name") or "").strip().lower()
             if _ccn in ("Karriereende", "Vereinslos", None) and _sp_dob and _sp_name:
                 _ns = _cache.get("profiles_ns") or {}
                 _match = None
