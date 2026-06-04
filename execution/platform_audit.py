@@ -176,6 +176,41 @@ def C8_saison_label(index_html):
     return probs
 
 
+def C9_player_current_club_staleness(sample_networks=60, per_net=40):
+    """player_coached contacts must carry a REAL current_club from the profile,
+    not the squad/station name. Heuristic: if a player_coached contact's
+    current_club equals one of the coach's own stations for (almost) ALL such
+    contacts, the builder stamped the station instead of the profile club
+    (Augsburg-retiree bug). Also flags networks where profiles are so stale
+    that 0 retirees show 'Karriereende' despite many veteran players."""
+    probs = []
+    nets = sorted((DATA / "networks").glob("*.json"))
+    # focus on BL coach networks (have a sd_registry-independent signal): sample broadly
+    step = max(1, len(nets) // sample_networks)
+    checked = 0
+    for nf in nets[::step]:
+        try:
+            net = json.loads(nf.read_text())
+        except Exception:
+            continue
+        pcs = [c for c in net.get("contacts", []) if c.get("category") == "player_coached"]
+        if len(pcs) < 8:
+            continue
+        stations = set(net.get("stations", []))
+        def ccname(c):
+            cc = c.get("current_club")
+            return cc.get("name") if isinstance(cc, dict) else cc
+        # what fraction of player current_clubs are just one of the coach's stations?
+        on_station = sum(1 for c in pcs[:per_net] if ccname(c) in stations)
+        n = min(len(pcs), per_net)
+        if n and on_station / n >= 0.85:
+            probs.append(f"C9: {nf.stem} — {on_station}/{n} coached-players' current_club == a coach station (builder stamped station, not real club)")
+        checked += 1
+    if checked == 0:
+        return probs
+    return probs
+
+
 CHECKS = [
     ("C1_template_drilldown_guard", lambda ctx: C1_template_drilldown_guard()),
     ("C2_est_games_display_leak", lambda ctx: C2_est_games_display_leak()),
@@ -185,6 +220,7 @@ CHECKS = [
     ("C6_league_counts", lambda ctx: C6_league_counts()),
     ("C7_dashboard_drilldown_pairs", lambda ctx: C7_dashboard_drilldown_pairs()),
     ("C8_saison_label", lambda ctx: C8_saison_label(ctx["index"])),
+    ("C9_player_current_club_staleness", lambda ctx: C9_player_current_club_staleness()),
 ]
 
 

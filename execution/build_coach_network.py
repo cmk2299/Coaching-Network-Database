@@ -336,17 +336,39 @@ def preload_all_profiles() -> Dict[int, dict]:
 
     print("  Loading all profiles into memory...")
     t0 = time.time()
-    profiles = {}
+    # Post-Sprint-A namespace migration: filenames are spieler_<id>.json or
+    # trainer_<id>.json (legacy `<id>.json` still tolerated). Build an int-keyed
+    # dict for backward compat: trainer-side wins if both exist, else spieler.
+    profiles_by_tmid: dict[int, dict] = {}
+    trainer_seen: set[int] = set()
     for pf in sorted(PROFILES_DIR.glob("*.json")):
-        try:
-            tm_id = int(pf.stem)
-            profiles[tm_id] = load_json(pf)
-        except (ValueError, json.JSONDecodeError) as e:
+        stem = pf.stem
+        kind = None
+        tm_str = stem
+        if stem.startswith("trainer_"):
+            tm_str = stem[len("trainer_"):]
+            kind = "trainer"
+        elif stem.startswith("spieler_"):
+            tm_str = stem[len("spieler_"):]
+            kind = "spieler"
+        if not tm_str.isdigit():
             continue
+        tm_id = int(tm_str)
+        try:
+            data = load_json(pf)
+        except (ValueError, json.JSONDecodeError):
+            continue
+        # Priority: trainer always wins (most callers want coach data).
+        # Legacy files (kind is None) act like trainer for compatibility.
+        if kind == "trainer" or kind is None:
+            profiles_by_tmid[tm_id] = data
+            trainer_seen.add(tm_id)
+        elif kind == "spieler" and tm_id not in trainer_seen:
+            profiles_by_tmid[tm_id] = data
 
-    _cache["profiles"] = profiles
-    print(f"  ✓ {len(profiles)} profiles loaded in {time.time()-t0:.1f}s")
-    return profiles
+    _cache["profiles"] = profiles_by_tmid
+    print(f"  ✓ {len(profiles_by_tmid)} profiles loaded in {time.time()-t0:.1f}s")
+    return profiles_by_tmid
 
 
 def build_profile_index(profiles: Dict[int, dict]) -> Dict[Tuple[int, int], List[int]]:
@@ -375,13 +397,125 @@ def build_profile_index(profiles: Dict[int, dict]) -> Dict[Tuple[int, int], List
     return _cache["profile_index"]
 
 
+import re as _re_module
+
+
+def filter_default_image(url):
+    """PATTERN 36 FIX (2026-05-26): TM serves a placeholder avatar
+    `https://img.a.transfermarkt.technology/portrait/medium/default.jpg`
+    for persons without a photo. Storing this as `image_url` blocks the
+    dashboard from rendering an initials-based fallback (clean look).
+    Replace with empty string so the UI falls back to initials.
+    5,966 contacts had this leak across 813 networks.
+    """
+    if not url:
+        return url
+    if "default.jpg" in url or "/default." in url:
+        return ""
+    return url
+
+
+def normalize_dob(dob: str) -> str:
+    """PATTERN 32 FIX (2026-05-23): normalize DOB to ISO yyyy-mm-dd format.
+
+    Two formats coexist in source data:
+      - "1972-01-23" (ISO, from person_profiles scraped after Sprint A)
+      - "23.01.1972" (DE, from staff files / GS data / older scrapes)
+    Same human appearing in two networks could have different formats. 2,880
+    such inconsistencies counted in Iter 9 audit. Normalize all writes to ISO.
+    """
+    if not dob:
+        return dob
+    s = dob.strip()
+    # Already ISO?
+    iso = None
+    if re.match(r"^\d{4}-\d{2}-\d{2}$", s):
+        iso = s
+    else:
+        # DE format?
+        m = re.match(r"^(\d{2})\.(\d{2})\.(\d{4})$", s)
+        if m:
+            iso = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+        elif re.match(r"^\d{4}$", s):
+            return s  # year-only
+
+    # PATTERN 35 FIX (2026-05-26): squad scraper occasionally writes the
+    # join-date or season-start (e.g. "01.07.2024") into the player's `dob`
+    # field. Filter implausible birth years (< 1920 or > 2015) — these are
+    # never real DOBs for football professionals. 137 contact records had
+    # contract-date-as-DOB values like 2024-07-01, 2026-01-01, 2022-07-01.
+    if iso:
+        try:
+            y = int(iso[:4])
+            if y < 1920 or y > 2015:
+                return ""
+        except Exception:
+            pass
+        return iso
+    return s  # unknown format — passthrough
+
+
+def profile_namespace_mismatch(contact_name: str, profile_name: str) -> bool:
+    """F1 Dual-Namespace Guard (extracted 2026-05-23 — Pattern 25).
+
+    Returns True if the loaded profile name doesn't match the contact name —
+    indicating a TM dual-namespace collision (e.g. spieler/104=Fredi Bobic
+    vs trainer/104=Walter Junghans). Callers should drop ALL profile-derived
+    enrichment fields when this returns True.
+
+    Compares surnames (last token) case-insensitively + diacritic-folded.
+    Conservative — minimizes false-positives on legitimate short-form variants
+    (Tom/Thomas, Andy/Andreas) while catching all confirmed F1 corruptions
+    (Bobic/Junghans, Piwowarski/Hagg, Ayestaran/Keller, Stevens/Tuchel etc.).
+    """
+    if not contact_name or not profile_name:
+        return False
+    import unicodedata as _ud
+    def _norm(s: str) -> str:
+        s = _ud.normalize("NFD", s)
+        s = "".join(ch for ch in s if not _ud.combining(ch))
+        return s.lower().strip()
+    sn = _norm(profile_name)
+    cn = _norm(contact_name)
+    if sn == cn or sn in cn or cn in sn:
+        return False
+    sn_last = sn.split()[-1] if sn.split() else ""
+    cn_last = cn.split()[-1] if cn.split() else ""
+    if sn_last and cn_last and sn_last != cn_last:
+        return True
+    return False
+
+
+def is_future_career_entry(entry: dict) -> bool:
+    """Return True if entry's date_from is a future season (26/27 or later).
+
+    PATTERN 15 FIX (2026-05-23): TM pre-enters next-season contracts before they
+    start.  These future entries can corrupt center_role and contact career_history.
+    Skip any entry whose start season is after 2025 (i.e. 26/27 or later).
+
+    Used in:
+    - build_network() center-role computation (filter career[0] future entries)
+    - Contact career_history enrichment (filter future entries from detail panel)
+    """
+    m = _re_module.match(r'(\d{2})/(\d{2})', entry.get('date_from', ''))
+    if not m:
+        return False
+    return (2000 + int(m.group(1))) > 2025  # 26/27 starts 2026
+
+
 def load_coach_profile(tm_id: int) -> Optional[dict]:
-    """Load a single coach profile (from cache or file)."""
+    """Load a single coach profile (from cache or file).
+    Pattern-12-Fix (2026-05-22): After Phase-A namespace migration, files are
+    named trainer_{id}.json / spieler_{id}.json — legacy {id}.json no longer exists.
+    Check typed paths first, fall back to legacy for pre-migration files.
+    """
     if _cache["profiles"] is not None:
         return _cache["profiles"].get(tm_id)
-    path = PROFILES_DIR / f"{tm_id}.json"
-    if path.exists():
-        return load_json(path)
+    # Namespace-aware path search: trainer wins over spieler, legacy fallback
+    for prefix in ("trainer_", "spieler_", ""):
+        path = PROFILES_DIR / f"{prefix}{tm_id}.json"
+        if path.exists():
+            return load_json(path)
     return None
 
 
@@ -549,7 +683,11 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                     "name": s["name"],
                     "stations": [club_name],
                     "category": refined_cat,
-                    "role": s.get("section", "Staff"),
+                    "role": compute_role_display(
+                        category=refined_cat,
+                        section=s.get("section", ""),
+                        club_name=club_name,
+                    ),
                     "tm_url": s.get("tm_url", "") if validated_id else None,
                     "tm_id": validated_id or s["tm_id"],  # Keep original for map key
                     "_validated_tm_id": validated_id,  # Track if ID was validated
@@ -583,15 +721,21 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                 continue
             if s["tm_id"] not in contacts_map:
                 validated_id = validate_staff_tm_id(s["name"], s["tm_id"], profiles)
+                _sec_1b = s.get("section", "")
+                _cat_1b = classify_staff_section(_sec_1b)
                 contacts_map[s["tm_id"]] = {
                     "name": s["name"],
                     "stations": [club_name],
-                    "category": classify_staff_section(s.get("section", "")),
-                    "role": s.get("section", "Staff"),
+                    "category": _cat_1b,
+                    "role": compute_role_display(
+                        category=_cat_1b,
+                        section=_sec_1b,
+                        club_name=club_name,
+                    ),
                     "tm_url": s.get("tm_url", "") if validated_id else None,
                     "tm_id": validated_id or s["tm_id"],
                     "_validated_tm_id": validated_id,
-                    "_staff_section": s.get("section", ""),  # Track original section for upgrade logic
+                    "_staff_section": _sec_1b,  # Track original section for upgrade logic
                     "seasons_together": 1,
                     "_latest_season": max(info["seasons"]) if info["seasons"] else 2020,
                 }
@@ -651,9 +795,18 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                 station_details.append(f"{sname} ({format_season(s_sorted[0])}–{format_season(s_sorted[-1])})")
         note = "; ".join(station_details)
 
-        role_display = latest_role
-        if other_current:
-            role_display = f"{latest_role}, {other_current.get('name', '')}"
+        # SYSTEMIC FIX (2026-05-22): use compute_role_display() instead of raw
+        # latest_role string. Fixes TRAINER_NOT_CHEFTRAINER (285 contacts):
+        # TM stores "Trainer" as generic title even for head coaches; category is
+        # already "head_coach" via classify_role() → compute_role_display() maps it
+        # to "Cheftrainer, Club". Also fixes executive/SD display to use specific title.
+        cc_name = other_current.get("name", "") if other_current else ""
+        role_display = compute_role_display(
+            category=category,
+            section="",
+            club_name=cc_name,
+            career_history=[{"role": latest_role, "club": cc_name}] if latest_role else [],
+        )
 
         if other_id in contacts_map:
             existing = contacts_map[other_id]
@@ -681,8 +834,8 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                 "seasons_together": total_seasons,
                 "_latest_season": latest_shared,
                 "nationality": filter_nationality(other.get("nationality")),
-                "dob": other.get("dob"),
-                "image_url": other.get("image_url"),
+                "dob": normalize_dob(other.get("dob","") or ""),
+                "image_url": filter_default_image(other.get("image_url")),
                 "current_club": other_current.get("name") if other_current else None,
                 "license": other.get("license"),
             }
@@ -779,7 +932,7 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                             "_latest_season": season,
                             "relationship_type": "playing",
                             "nationality": filter_nationality(player.get("nationality")),
-                            "image_url": player.get("image_url"),
+                            "image_url": filter_default_image(player.get("image_url")),
                             # Fix C (A8 2026-05-13) — per-club station breakdown
                             "shared_stations": [{"club": club_name, "seasons": [season], "matches": 0}],
                         }
@@ -970,9 +1123,16 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             "minutes": total_minutes if total_minutes else None,
             "_latest_season": max(seasons),
             "nationality": filter_nationality(player_data.get("nationality")),
-            "dob": player_data.get("dob"),
-            "image_url": player_data.get("image_url"),
-            "current_club": player_data.get("club_name"),
+            "dob": normalize_dob(player_data.get("dob","") or ""),
+            "image_url": filter_default_image(player_data.get("image_url")),
+            # current_club must be the player's ACTUAL current club (incl. "Karriereende"
+            # for retired players) from their profile — NOT player_data.club_name, which
+            # is the squad/station where the coach met them (Augsburg-retiree bug).
+            "current_club": (lambda _p: (
+                normalize_club(_p["current_club"].get("name", ""), _p["current_club"].get("tm_id"))
+                if isinstance(_p.get("current_club"), dict) and _p["current_club"].get("name")
+                else (_p.get("current_club") if isinstance(_p.get("current_club"), str) else None)
+            ))(profiles.get(pid, {}) if profiles else {}),
         }
 
     # ── 4) Lehrgangs-Kollegen (from coaching_licenses.json) ──
@@ -1061,8 +1221,8 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                         "_latest_season": _lehrgang_year,
                         "lehrgang_cohort": cohort_year,
                         "nationality": filter_nationality(coll_profile.get("nationality")),
-                        "dob": coll_profile.get("dob"),
-                        "image_url": coll_profile.get("image_url"),
+                        "dob": normalize_dob(coll_profile.get("dob","") or ""),
+                        "image_url": filter_default_image(coll_profile.get("image_url")),
                         "current_club": normalize_club(coll_current.get("name", ""), coll_current.get("tm_id")) if coll_current else None,
                         "license": coll_profile.get("license"),
                     }
@@ -1076,18 +1236,30 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         print(f"  Lehrgang: not found in cohort data")
 
     # ── Enrich contacts from person_profiles (images, nationality, etc.) ──
+    # PATTERN 25 FIX (2026-05-23): apply F1 dual-namespace guard HERE too.
+    # Previously this early-enrichment loop set current_club / image_url from
+    # whichever profile won the int-keyed lookup in preload_all_profiles().
+    # For dual-namespace IDs (e.g. tm_id=104: spieler=Bobic, trainer=Junghans),
+    # the contact-name "Fredi Bobic" was incorrectly enriched with
+    # "Bayern München II" (Junghans's club) and Junghans's image URL.
+    # The later F1 guard at line ~1903 only protected career_history enrichment.
     enriched = 0
+    ns_mismatch_skipped = 0
     for tm_id, c in contacts_map.items():
         p = profiles.get(tm_id)
         if not p:
             continue
+        # F1 GUARD: skip enrichment if profile name doesn't match contact name
+        if profile_namespace_mismatch(c.get("name", ""), p.get("name", "")):
+            ns_mismatch_skipped += 1
+            continue
         if not c.get("image_url") and p.get("image_url"):
-            c["image_url"] = p["image_url"]
+            c["image_url"] = filter_default_image(p["image_url"])
             enriched += 1
         if not c.get("nationality") and p.get("nationality"):
             c["nationality"] = filter_nationality(p["nationality"])
         if not c.get("dob") and p.get("dob"):
-            c["dob"] = p["dob"]
+            c["dob"] = normalize_dob(p["dob"])
         if not c.get("current_club") and p.get("current_club"):
             cc = p["current_club"]
             c["current_club"] = normalize_club(cc.get("name", ""), cc.get("tm_id")) if isinstance(cc, dict) else str(cc)
@@ -1095,6 +1267,8 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             c["license"] = p["license"]
     if enriched:
         print(f"  Enriched {enriched} contacts with images from profiles")
+    if ns_mismatch_skipped:
+        print(f"  F1-Guard skipped {ns_mismatch_skipped} dual-namespace contacts (early-enrich)")
 
     # ── Resolve post-career activity for retired players (former_teammates) ──
     # TM player profiles show "Karriereende" but often have a "Zuletzt tätig als:"
@@ -1365,11 +1539,111 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                         "head_coach": "trainer",
                         "sporting_director": "sd",
                     }[post_role]
+                    # PATTERN 23 FIX (2026-05-23): when category is upgraded from
+                    # former_teammate to a decision-maker role, also refresh role,
+                    # current_club, and career_history. Otherwise the contact keeps
+                    # the stale "Mitspieler (Position)" role string. This is the root
+                    # cause of Grover Gibson / Giuseppe Di Leone showing
+                    # "Mitspieler (Linker Verteidiger)" despite being Sportdirektor.
+                    # We do NOT rely on later profile-enrichment (line ~1818) because
+                    # it may be skipped by F1 dual-namespace guard or missing profile.
+                    try:
+                        _tm_first = teammate_career[0] if teammate_career else {}
+                        _tm_current_club = ""
+                        # Prefer teammate_profile.current_club; fall back to career[0].club
+                        _tp_cc = teammate_profile.get("current_club") or {}
+                        if isinstance(_tp_cc, dict):
+                            _tm_current_club = normalize_club(_tp_cc.get("name", ""), _tp_cc.get("tm_id")) or ""
+                        elif isinstance(_tp_cc, str):
+                            _tm_current_club = normalize_club(_tp_cc) or ""
+                        if not _tm_current_club:
+                            _tm_current_club = normalize_club(_tm_first.get("club", "") or _tm_first.get("club_name", ""),
+                                                              _tm_first.get("club_tm_id")) or ""
+                        if _tm_current_club:
+                            c["current_club"] = _tm_current_club
+                        # Copy career_history so detail panel + compute_role_display can use it
+                        # PATTERN 15 EXTENSION (2026-05-23): also filter future entries here
+                        # to prevent "26/27 Sportlicher Leiter @ Heidenheim II" leaks
+                        # into contact detail panels via Pattern 23 path.
+                        if teammate_career and not c.get("career_history"):
+                            _tc_current = [e for e in teammate_career if not is_future_career_entry(e)]
+                            _tc_display = _tc_current if _tc_current else teammate_career
+                            c["career_history"] = [
+                                {"club": normalize_club(e.get("club", "") or e.get("club_name", ""), e.get("club_tm_id")),
+                                 "role": e.get("role", ""),
+                                 "from": e.get("date_from", "") or e.get("from", ""),
+                                 "to":   e.get("date_to", "")   or e.get("to", "")}
+                                for e in _tc_display
+                            ]
+                        # Refresh role display (drops "Mitspieler (Position)")
+                        c["role"] = compute_role_display(
+                            category=post_role,
+                            section="",
+                            club_name=_tm_current_club,
+                            career_history=c.get("career_history") or teammate_career,
+                            position=c.get("playing_position", "") or "",
+                            person_type=teammate_profile.get("type", "") or "",
+                        )
+                        c["_teammate_promoted"] = True
+                        # PATTERN 34 (2026-05-26): when a former_teammate is
+                        # promoted to head_coach via post-career classification,
+                        # refresh tm_id + tm_url to the trainer namespace so
+                        # dashboard cross-links resolve correctly. Previously
+                        # left tm_id=None and tm_url at /profil/spieler/{id},
+                        # blocking decision_makers.json routing for 355 contacts.
+                        if post_role == "head_coach":
+                            try:
+                                trainer_tmid = resolve_trainer_tm_id(
+                                    spieler_tm_id=tm_id,
+                                    person_name=c.get("name", ""),
+                                    persons_master=profiles or {},
+                                )
+                                if trainer_tmid:
+                                    c["tm_id"] = trainer_tmid
+                                    _new_url = build_trainer_url(c.get("name", ""), trainer_tmid)
+                                    if _new_url:
+                                        c["tm_url"] = _new_url
+                            except Exception:
+                                pass
+                    except Exception:
+                        pass
                 elif post_role == "scouting":
                     # Scout-promotion (Minkwitz-Pattern) — relevant for talent pipeline
                     cat = "scouting"
                     c["category"] = "scouting"
                     c["pro_status"] = "scout"
+                    # PATTERN 23 (extension): also refresh role for scouts
+                    try:
+                        _tp_cc = teammate_profile.get("current_club") or {}
+                        _tm_current_club = ""
+                        if isinstance(_tp_cc, dict):
+                            _tm_current_club = normalize_club(_tp_cc.get("name", ""), _tp_cc.get("tm_id")) or ""
+                        elif isinstance(_tp_cc, str):
+                            _tm_current_club = normalize_club(_tp_cc) or ""
+                        if _tm_current_club:
+                            c["current_club"] = _tm_current_club
+                        if teammate_career and not c.get("career_history"):
+                            # Pattern 15 ext: filter future entries here too
+                            _tc_current = [e for e in teammate_career if not is_future_career_entry(e)]
+                            _tc_display = _tc_current if _tc_current else teammate_career
+                            c["career_history"] = [
+                                {"club": normalize_club(e.get("club", "") or e.get("club_name", ""), e.get("club_tm_id")),
+                                 "role": e.get("role", ""),
+                                 "from": e.get("date_from", "") or e.get("from", ""),
+                                 "to":   e.get("date_to", "")   or e.get("to", "")}
+                                for e in _tc_display
+                            ]
+                        c["role"] = compute_role_display(
+                            category="scouting",
+                            section="",
+                            club_name=_tm_current_club,
+                            career_history=c.get("career_history") or teammate_career,
+                            position=c.get("playing_position", "") or "",
+                            person_type=teammate_profile.get("type", "") or "",
+                        )
+                        c["_teammate_promoted"] = True
+                    except Exception:
+                        pass
             else:
                 role_score = 3  # Still active player, less relevant for placements
 
@@ -1597,15 +1871,41 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
 
     # SCORING_AUDIT D4: deterministic tiebreaker so rebuilds are reproducible.
     # Order: relevance DESC, category, name ASC, tm_id ASC.
+    # Post-Sprint-A: tm_id can occasionally be a string (e.g. "trainer_8402")
+    # because typed-alias keys leak from preload_all_profiles. Coerce to int.
+    def _safe_int(v):
+        try:
+            return int(v)
+        except (TypeError, ValueError):
+            return 0
     contacts_list = sorted(
         contacts_map.values(),
         key=lambda c: (
             -c.get("relevance_score", 0),
             cat_order.get(c.get("category", ""), 99),
             (c.get("name") or "").lower(),
-            c.get("tm_id") or 0,
+            _safe_int(c.get("tm_id")),
         )
     )
+
+    # PATTERN 33 FIX (2026-05-23): exclude the center coach from own contact list.
+    # Found 7 networks (Frank Lehmann, Kevin Koffi, Lukas Kohler, Sebastian Lange,
+    # Michael Jürgen, Simon Beccari, René Vollath) where the center coach was
+    # listed as a contact of himself — happens when name matches both as center
+    # AND through GS/career path. Self-reference confuses users.
+    _center_name = (profile.get("name") or "").strip().lower()
+    _center_tm_id = profile.get("tm_id")
+    if _center_name:
+        _before = len(contacts_list)
+        contacts_list = [c for c in contacts_list
+                          if (c.get("name") or "").strip().lower() != _center_name
+                          or c.get("_tm_id") == _center_tm_id]  # keep only if NOT self
+        # Actually: drop all where name matches center name (no exception — center is the center)
+        contacts_list = [c for c in contacts_list
+                          if (c.get("name") or "").strip().lower() != _center_name]
+        _removed = _before - len(contacts_list)
+        if _removed:
+            print(f"  Pattern 33: removed {_removed} self-reference contact(s)")
 
     # Load curated trainer overrides (Hidden-Gems-Patch 2026-04-30)
     trainer_overrides = load_trainer_overrides()
@@ -1742,9 +2042,40 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
 
         # Enrich with career_history from person_profiles (for detail panel timeline)
         if tm_id and profiles:
-            p = profiles.get(int(tm_id), {})
+            p = profiles.get(int(tm_id), {}) or {}
+
+            # F1-QUICK-FIX (2026-05-21): TM dual-namespace-collision guard.
+            # TM nutzt getrennte ID-Namespaces für /spieler/<id> und /trainer/<id>;
+            # gleiche numerische ID kann zwei verschiedene Personen meinen
+            # (z.B. spieler/104=Fredi Bobic vs trainer/104=Walter Junghans).
+            # Unser persons_master keyed nur auf tm_id — der zuletzt gescrapete
+            # überschreibt → Frankenstein-Anzeige (Bobic's Name, Junghans' Karriere).
+            # Quick-Fix: validiere stored name gegen contact.name.
+            # Bei klarem Mismatch (Levenshtein-ähnlich): drop ALLE Enrichment-Felder.
+            # Behalt nur name + tm_id + category + role (= Original-Quelle).
+            # Vollständige Migration (siehe DIRECTIVE_2026-05-21_evening_deploy.md §2.3)
+            # folgt in separatem Sprint.
+            # PATTERN 25 (2026-05-23): use shared helper for namespace check.
+            # Same logic, single source of truth — see profile_namespace_mismatch()
+            # module-level definition above.
+            _profile_mismatch = profile_namespace_mismatch(
+                c.get("name", ""), p.get("name", "")
+            )
+
+            if _profile_mismatch:
+                # DROP enrichment — leave the contact with only its original
+                # (network-builder-provided) data. Better empty career than
+                # someone else's career.
+                p = {}
+
             ch = p.get("career_history", [])
             if ch:
+                # PATTERN 15 FIX (extended, 2026-05-23): filter future entries so the
+                # detail-panel career table never shows "26/27 Sportlicher Leiter @
+                # Heidenheim II" while the contact is still in their current role.
+                ch_current = [e for e in ch if not is_future_career_entry(e)]
+                # Fallback: if ALL entries are future (edge case), keep them all
+                ch_display = ch_current if ch_current else ch
                 # Compact format: list of {club, role, from, to} dicts
                 c["career_history"] = [
                     {
@@ -1753,18 +2084,63 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                         "from": e.get("date_from", "").split(" ")[0] if e.get("date_from") else "",
                         "to": e.get("date_to", "").split(" ")[0] if e.get("date_to") else "",
                     }
-                    for e in ch
+                    for e in ch_display
                 ]
+                # FIX 2026-05-21 (F9): re-run compute_role_display now that
+                # career_history is loaded.  Two paths need this:
+                #
+                # Path A: Active-staff-promotion (Section 2) ran BEFORE career_history
+                # was enrichable → executives/SDs promoted via staff get specific title.
+                #
+                # Path B: Section 1a/1b contacts were built without career_history
+                # (it isn't loaded yet at that point). Executives / SDs in the direct
+                # staff file also need their role refreshed so "Management" → e.g.
+                # "Geschäftsführer Sport".  We also cover section-less lehrgang or any
+                # other executive/SD that was created before career_history was available.
+                _EXEC_CATS = {"executive", "sporting_director", "management",
+                              "executive_governance", "executive_secondary"}
+                if c.get("_active_staff_promoted") or c.get("category") in _EXEC_CATS:
+                    # Resolve display club name (precedence: current_club → stations[0])
+                    # current_club may be a dict {name, tm_id} (Pattern 10)
+                    _raw_cc = c.get("current_club") or ""
+                    if isinstance(_raw_cc, dict):
+                        _raw_cc = _raw_cc.get("name", "") or ""
+                    _club_for_role = _raw_cc.strip()
+                    if not _club_for_role:
+                        # Section 1a/1b contacts use stations[0] as their club context
+                        _stns = c.get("stations") or []
+                        _club_for_role = _stns[0] if _stns else ""
+                    try:
+                        c["role"] = compute_role_display(
+                            category=c.get("category"),
+                            section=c.get("_staff_section") or "",
+                            club_name=_club_for_role,
+                            career_history=c.get("career_history"),
+                            position=c.get("playing_position") or "",
+                            person_type=p.get("type") or "",
+                        )
+                    except Exception:
+                        pass
 
             # Enrich with agent/Berater from person_profiles
-            agent = p.get("agent", "")
-            if agent and agent != "ohne Berater":
+            # PATTERN 31 FIX (2026-05-23): blacklist filter applied AT WRITE-TIME,
+            # not just at render-time. Previously the dashboard template stripped
+            # values like "Familienangehörige", "Eltern", "ohne Berater" — but
+            # they still polluted the JSON (2,331 contacts). Filtering at source
+            # so JSON is clean for any consumer.
+            _AGENT_BLACKLIST = {"ohne Berater", "Familienangehörige", "Familie",
+                                  "Eltern", "Vater", "Bruder", "keine Angabe",
+                                  "-", "N/A", "unbekannt", ""}
+            agent = (p.get("agent", "") or "").strip()
+            if agent and agent not in _AGENT_BLACKLIST:
                 c["agent"] = agent
             else:
                 # Fallback: curated trainer-agents (TM doesn't expose agents on Trainer-Profiles)
                 ta = TRAINER_AGENTS.get(str(tm_id))
                 if ta and ta.get("agent"):
-                    c["agent"] = ta["agent"]
+                    ta_agent = (ta["agent"] or "").strip()
+                    if ta_agent and ta_agent not in _AGENT_BLACKLIST:
+                        c["agent"] = ta_agent
 
             # Enrich with contract data (Aktivierungs-Trigger)
             contract_until = p.get("contract_until")
@@ -1832,16 +2208,139 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         # Deduplicate stations per contact
         c["stations"] = sorted(set(c["stations"]))
 
+    # PATTERN 26 FIX (2026-05-23): merge spieler+trainer duplicates of the
+    # same human (e.g. Tobias Rathgeb spieler_6131 + trainer_54665). Without
+    # this, the dashboard shows the same person TWICE — once as
+    # former_teammate / player_coached (spieler ID), once as coaching_staff /
+    # head_coach (trainer ID). 382 such duplicates exist across networks.
+    # Strategy:
+    #   1. Group contacts by normalized full name.
+    #   2. If a group has 2+ entries with different tm_ids: pick winner by
+    #      category priority (head_coach > sporting_director > ... > player).
+    #   3. Merge stations, career_history, shared_matches from all entries.
+    #   4. Keep winner's tm_url + image_url (= matches their primary role).
+    _CAT_PRIORITY = [
+        "head_coach", "sporting_director", "executive", "executive_governance",
+        "executive_secondary", "management", "coaching_staff", "academy",
+        "analyst", "scouting", "coach_hired", "lehrgang",
+        "former_teammate", "player_coached", "other_staff", "medical", "",
+    ]
+    _PRIORITY_RANK = {c: i for i, c in enumerate(_CAT_PRIORITY)}
+
+    from collections import defaultdict as _dd
+    _by_name = _dd(list)
+    for c in contacts_list:
+        nm = (c.get("name") or "").strip().lower()
+        if not nm:
+            continue
+        _by_name[nm].append(c)
+
+    _merged_count = 0
+    _to_drop = set()
+    for nm, entries in _by_name.items():
+        if len(entries) <= 1:
+            continue
+        # Extract tm_ids from URLs for de-dup check
+        def _tid(c):
+            m = re.search(r"/(?:spieler|trainer)/(\d+)", c.get("tm_url","") or "")
+            return int(m.group(1)) if m else id(c)
+        tids = {_tid(c) for c in entries}
+        if len(tids) <= 1:
+            continue   # same tm_id already, no merge needed (separate code already dedupes)
+
+        # Sort by priority — lowest rank = winner
+        entries_sorted = sorted(entries,
+            key=lambda c: (_PRIORITY_RANK.get(c.get("category",""), 99), -len(c.get("stations") or [])))
+        winner = entries_sorted[0]
+        losers = entries_sorted[1:]
+
+        # Merge stations + career_history dates
+        merged_st = set(winner.get("stations") or [])
+        for l in losers:
+            merged_st.update(l.get("stations") or [])
+        winner["stations"] = sorted(merged_st)
+
+        # Merge shared_matches / shared_minutes (sum)
+        for l in losers:
+            if l.get("shared_matches"):
+                winner["shared_matches"] = max(winner.get("shared_matches",0), l["shared_matches"])
+            if l.get("shared_minutes"):
+                winner["shared_minutes"] = max(winner.get("shared_minutes",0), l["shared_minutes"])
+
+        # Track merge so future audits can verify
+        winner["_merged_aliases"] = sorted({_tid(c) for c in entries if _tid(c) != _tid(winner)})
+
+        for l in losers:
+            _to_drop.add(id(l))
+            _merged_count += 1
+
+    if _merged_count:
+        contacts_list = [c for c in contacts_list if id(c) not in _to_drop]
+        print(f"  Pattern 26 dedup: merged {_merged_count} spieler/trainer duplicates")
+
+    # PATTERN 27 (2026-05-23): normalize tm_url to absolute form.
+    # GemeinsameSpiele data provides relative URLs (e.g. '/lambertz/profil/spieler/8640')
+    # which break when rendered as <a href=...> in the dashboard (would resolve to
+    # coach-network-explorer.vercel.app/lambertz/... → 404).
+    # 44,600 contacts across networks had broken relative URLs.
+    _tm_base = "https://www.transfermarkt.de"
+    _url_fixed = 0
+    for c in contacts_list:
+        url = c.get("tm_url") or ""
+        if url and url.startswith("/"):
+            c["tm_url"] = _tm_base + url
+            _url_fixed += 1
+    if _url_fixed:
+        print(f"  Pattern 27: normalized {_url_fixed} relative tm_urls → absolute")
+
+    # PATTERN 26b (2026-05-23): remove self-loops from coaches_worked_with /
+    # sds_worked_with. After dedup, the winner's relationships array may still
+    # reference the loser by name — which is now the SAME person as the winner.
+    # Also catches any pre-existing self-loops from cross-reference logic where
+    # spieler+trainer dual-namespace contacts referenced each other.
+    _surviving_names = {(c.get("name") or "").strip().lower() for c in contacts_list}
+    _self_loops_removed = 0
+    for c in contacts_list:
+        nm = (c.get("name") or "").strip().lower()
+        for key in ("coaches_worked_with", "sds_worked_with"):
+            arr = c.get(key) or []
+            if not arr:
+                continue
+            filtered = [x for x in arr if isinstance(x, dict)
+                        and (x.get("name","").strip().lower() != nm)]
+            removed = len(arr) - len(filtered)
+            if removed:
+                _self_loops_removed += removed
+                c[key] = filtered
+    if _self_loops_removed:
+        print(f"  Pattern 26b: removed {_self_loops_removed} self-loops/stale dedup refs")
+
     all_stations = sorted(set(s for c in contacts_list for s in c.get("stations", [])))
     all_categories = sorted(set(c.get("category", "") for c in contacts_list))
 
     # Center info — resolve nationality (filter dissolved states + U-teams)
     nationality = filter_nationality(profile.get("nationality", ""))
 
+    # SYSTEMIC FIX (2026-05-22): use compute_role_display() for center role.
+    # Prev: f"{latest_role} {club}" → "Trainer Deutschland" for Nagelsmann.
+    # After: compute_role_display(category, club_name) → "Bundestrainer, Deutschland".
+    #
+    # PATTERN 15 FIX (2026-05-23): skip future career entries (26/27+) at career[0].
+    # TM pre-enters next-season contracts → career[0] points to future role.
+    # E.g., Eta has "Frauenfußball (26/27)" at career[0] but is still at Union Berlin.
+    # is_future_career_entry() is now a module-level function (Pattern 15 extension).
     current_role = "Trainer"
     if career:
-        latest = career[0]
-        current_role = f"{latest.get('role', 'Trainer')} {normalize_club(latest.get('club_name', ''), latest.get('club_tm_id'))}"
+        # Use first non-future entry; fall back to career[0] if all are future
+        _career_current = [e for e in career if not is_future_career_entry(e)]
+        latest = _career_current[0] if _career_current else career[0]
+        _center_club = normalize_club(latest.get('club_name', ''), latest.get('club_tm_id'))
+        current_role = compute_role_display(
+            category=center_cat,
+            section="",
+            club_name=_center_club,
+            career_history=career,
+        )
 
     # ─── Sprint F Phase 6: Decision-Maker enrichment ───
     # If center is a DM (in hire_history), mark hires + add co-DMs + attach agent patterns.
@@ -1914,7 +2413,7 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                     "_tm_id": ht_id,
                     "category": "coach_hired",
                     "stations": [h.get("club", "?")],
-                    "role": f"Trainer (gehirt {h.get('year','?')})",
+                    "role": f"Trainer (geholt {h.get('year','?')})",
                     "relevance_score": 75 if h.get("confidence") == "high" else 55,
                     "_dm_hire": {
                         "year": h.get("year"),
@@ -2000,11 +2499,11 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         "center": profile["name"],
         "center_info": {
             "role": current_role,
-            "dob": profile.get("dob", ""),
+            "dob": normalize_dob(profile.get("dob", "")),
             "nationality": nationality,
             "license": profile.get("license"),
             "tm_url": profile.get("tm_url", ""),
-            "image_url": profile.get("image_url", ""),
+            "image_url": filter_default_image(profile.get("image_url", "")),
         },
         "total_contacts": len(contacts_list),
         "stations": all_stations,
@@ -2081,10 +2580,15 @@ def generate_background_summaries(network: dict) -> dict:
 
 def build_drilldown(center_network: dict, profiles: Dict[int, dict],
                     profile_index: Dict[Tuple[int, int], List[int]],
-                    max_contacts: int = 15) -> dict:
+                    max_contacts: int = 15,
+                    max_drilldowns: int = 50) -> dict:
     """
-    Build DRILLDOWN dict for all drill-downable contacts in a network.
+    Build DRILLDOWN dict for drill-downable contacts in a network.
     Each contact with a scraped profile gets their own sub-network (one level deep).
+
+    max_drilldowns caps the total number of sub-networks built.  Contacts are
+    processed in relevance-score order (highest first, as output by build_network),
+    so the cap naturally preserves the most important connections.
 
     Returns:
         {contact_name: sub_network_dict, ...}
@@ -2096,6 +2600,11 @@ def build_drilldown(center_network: dict, profiles: Dict[int, dict],
         # Skip players — they usually don't have career history
         if contact.get("category") == "player_coached":
             continue
+
+        # Hard cap — contacts are sorted by relevance score so top-N non-player
+        # contacts are kept.  Players are excluded from this count.
+        if drilldown_count >= max_drilldowns:
+            break
 
         # Need tm_id to look up profile
         tm_id = contact.get("_tm_id")
@@ -2184,6 +2693,23 @@ def main():
         return
 
     network = generate_background_summaries(network)
+
+    # FIX 2026-05-21 (F7): Finale Display-Normalisierung.
+    # National-Federation-Mapping für current_club: "Deutschland" → "DFB" etc.
+    # Wird hier zentral angewendet, damit alle Downstream-Konsumenten (Dashboard,
+    # Drilldown, Index, Club-Pages) die Verband-Abkürzung sehen.
+    try:
+        from lib.normalization import federation_label
+        for c in network.get("contacts", []) or []:
+            cc = c.get("current_club")
+            if isinstance(cc, str) and cc:
+                c["current_club"] = federation_label(cc)
+            # Stations können ebenfalls Country-Namen enthalten (z.B. bei Bundes-Trainern)
+            stations = c.get("stations")
+            if isinstance(stations, list):
+                c["stations"] = [federation_label(s) if isinstance(s, str) else s for s in stations]
+    except Exception as e:
+        print(f"  ⚠ Federation-Label-Normalisierung übersprungen: {e}")
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     output_path = Path(args.output) if args.output else OUTPUT_DIR / f"{args.tm_id}.json"
