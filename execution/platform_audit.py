@@ -211,6 +211,37 @@ def C9_player_current_club_staleness(sample_networks=60, per_net=40):
     return probs
 
 
+def C10_namespace_collisions():
+    """TM reuses numeric ids across spieler/trainer namespaces for DIFFERENT
+    people. Flag any tm_id with both a spieler_ and trainer_ profile whose
+    names differ — these are landmines for any bare-id lookup."""
+    probs = []
+    pdir = DATA / "person_profiles"
+    sp, tr = {}, {}
+    for f in pdir.glob("spieler_*.json"):
+        tid = f.stem[len("spieler_"):]
+        try:
+            sp[tid] = (json.loads(f.read_text()).get("name") or "").strip().lower()
+        except Exception:
+            pass
+    for f in pdir.glob("trainer_*.json"):
+        tid = f.stem[len("trainer_"):]
+        try:
+            tr[tid] = (json.loads(f.read_text()).get("name") or "").strip().lower()
+        except Exception:
+            pass
+    for tid in set(sp) & set(tr):
+        if sp[tid] and tr[tid] and sp[tid] != tr[tid]:
+            probs.append(f"C10: id {tid} collision — spieler='{sp[tid]}' vs trainer='{tr[tid]}' (bare-id lookups unsafe)")
+    # This is informational: the builder is now namespace-safe, so these are
+    # expected. We cap the report so it doesn't drown the others.
+    if len(probs) > 6:
+        head = probs[:6]
+        head.append(f"C10: … +{len(probs)-6} more known collisions (builder handles via namespace keys)")
+        return head
+    return probs
+
+
 CHECKS = [
     ("C1_template_drilldown_guard", lambda ctx: C1_template_drilldown_guard()),
     ("C2_est_games_display_leak", lambda ctx: C2_est_games_display_leak()),
@@ -221,6 +252,12 @@ CHECKS = [
     ("C7_dashboard_drilldown_pairs", lambda ctx: C7_dashboard_drilldown_pairs()),
     ("C8_saison_label", lambda ctx: C8_saison_label(ctx["index"])),
     ("C9_player_current_club_staleness", lambda ctx: C9_player_current_club_staleness()),
+]
+
+# Informational checks: printed for awareness but NOT counted as failures
+# (the builder already handles these correctly via namespace-keyed lookups).
+INFO_CHECKS = [
+    ("C10_namespace_collisions", lambda ctx: C10_namespace_collisions()),
 ]
 
 
@@ -248,9 +285,23 @@ def main():
             if len(probs) > 15:
                 print(f"        … +{len(probs)-15} more")
 
+    # Informational checks (not counted toward pass/fail)
+    info = {}
+    for name, fn in INFO_CHECKS:
+        try:
+            probs = fn(ctx)
+        except Exception as e:
+            probs = [f"{name}: EXCEPTION {e}"]
+        info[name] = probs
+        if not args.quiet and probs:
+            print(f"  [i] {name} ({len(probs)} known, informational)")
+            for p in probs[:8]:
+                print(f"        {p}")
+
     print(f"\n  PLATFORM AUDIT: {total} problem(s) across {len(CHECKS)} checks")
     if args.json:
-        args.json.write_text(json.dumps({"total": total, "checks": report}, ensure_ascii=False, indent=2))
+        args.json.write_text(json.dumps(
+            {"total": total, "checks": report, "info": info}, ensure_ascii=False, indent=2))
     return 1 if total else 0
 
 
