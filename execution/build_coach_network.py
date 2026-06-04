@@ -121,7 +121,8 @@ if _ap_path.exists():
 
 # ── Global cache (loaded once, reused across calls) ────────────────────
 _cache = {
-    "profiles": None,        # {tm_id: profile_dict}
+    "profiles": None,        # {tm_id: profile_dict} (trainer-wins; for coach/SD centers)
+    "profiles_ns": None,     # {"spieler_<id>"|"trainer_<id>": profile} (collision-safe)
     "club_registry": None,   # {tm_id: club_dict}
     "profile_index": None,   # {(club_tm_id, season): [tm_id, ...]} — inverted index
     "coaching_licenses": None,
@@ -339,7 +340,15 @@ def preload_all_profiles() -> Dict[int, dict]:
     # Post-Sprint-A namespace migration: filenames are spieler_<id>.json or
     # trainer_<id>.json (legacy `<id>.json` still tolerated). Build an int-keyed
     # dict for backward compat: trainer-side wins if both exist, else spieler.
+    #
+    # NAMESPACE COLLISION (2026-06-04): TM REUSES the same numeric id across the
+    # spieler and trainer namespaces for DIFFERENT people (e.g. spieler 63022 =
+    # Jan Moravek, trainer 63022 = Andreas Mohr). The int-keyed dict therefore
+    # silently returns the wrong person for player-context lookups. We keep the
+    # int dict (trainer-wins is correct for coach/SD CENTERS) but ALSO build a
+    # namespace-keyed dict so player-context code can fetch the right person.
     profiles_by_tmid: dict[int, dict] = {}
+    profiles_by_ns: dict[str, dict] = {}
     trainer_seen: set[int] = set()
     for pf in sorted(PROFILES_DIR.glob("*.json")):
         stem = pf.stem
@@ -358,6 +367,9 @@ def preload_all_profiles() -> Dict[int, dict]:
             data = load_json(pf)
         except (ValueError, json.JSONDecodeError):
             continue
+        # Namespace-explicit store (always correct, no collisions).
+        ns_key = f"{kind or 'trainer'}_{tm_id}"
+        profiles_by_ns[ns_key] = data
         # Priority: trainer always wins (most callers want coach data).
         # Legacy files (kind is None) act like trainer for compatibility.
         if kind == "trainer" or kind is None:
@@ -367,8 +379,28 @@ def preload_all_profiles() -> Dict[int, dict]:
             profiles_by_tmid[tm_id] = data
 
     _cache["profiles"] = profiles_by_tmid
-    print(f"  ✓ {len(profiles_by_tmid)} profiles loaded in {time.time()-t0:.1f}s")
+    _cache["profiles_ns"] = profiles_by_ns
+    print(f"  ✓ {len(profiles_by_tmid)} profiles loaded in {time.time()-t0:.1f}s "
+          f"({len(profiles_by_ns)} namespace-keyed)")
     return profiles_by_tmid
+
+
+def get_profile_ns(kind: str, tm_id) -> Optional[dict]:
+    """Namespace-explicit profile lookup (collision-safe).
+
+    kind: 'spieler' or 'trainer'. Falls back to the int dict / legacy file only
+    if the namespace cache is unbuilt. Returns None if not found.
+    """
+    ns = _cache.get("profiles_ns")
+    if ns is not None:
+        hit = ns.get(f"{kind}_{tm_id}")
+        if hit is not None:
+            return hit
+        # legacy <id>.json was stored as trainer_<id> in ns
+        if kind == "trainer":
+            return None
+        return None
+    return None
 
 
 def build_profile_index(profiles: Dict[int, dict]) -> Dict[Tuple[int, int], List[int]]:
@@ -1128,12 +1160,51 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             # current_club must be the player's ACTUAL current club (incl. "Karriereende"
             # for retired players) from their profile — NOT player_data.club_name, which
             # is the squad/station where the coach met them (Augsburg-retiree bug).
+            # Use the SPIELER namespace explicitly: bare `pid` can collide with an
+            # unrelated trainer of the same id (TM namespace ID-reuse).
             "current_club": (lambda _p: (
                 normalize_club(_p["current_club"].get("name", ""), _p["current_club"].get("tm_id"))
                 if isinstance(_p.get("current_club"), dict) and _p["current_club"].get("name")
                 else (_p.get("current_club") if isinstance(_p.get("current_club"), str) else None)
-            ))(profiles.get(pid, {}) if profiles else {}),
+            ))(get_profile_ns("spieler", pid) or {}),
         }
+
+        # POST-CAREER ROLE (2026-06-04): for a player_coached contact who has retired
+        # / is vereinslos, surface their CURRENT football role (Trainer/SD/Direktor)
+        # from a NAME+DOB-verified trainer profile — the value the scout actually wants.
+        # Deterministic via TM, NO external search API. Collision-safe: we require
+        # both name AND birthdate to match the spieler profile, because TM reuses the
+        # same numeric id across namespaces for different people.
+        try:
+            _cc = contacts_map[pid].get("current_club")
+            _ccn = _cc.get("name") if isinstance(_cc, dict) else _cc
+            _sp = get_profile_ns("spieler", pid) or {}
+            _sp_dob = (_sp.get("dob") or "").strip()
+            _sp_name = (player_data.get("name") or _sp.get("name") or "").strip().lower()
+            if _ccn in ("Karriereende", "Vereinslos", None) and _sp_dob and _sp_name:
+                _ns = _cache.get("profiles_ns") or {}
+                _match = None
+                for _k, _v in _ns.items():
+                    if not _k.startswith("trainer_"):
+                        continue
+                    if (_v.get("name") or "").strip().lower() != _sp_name:
+                        continue
+                    if (_v.get("dob") or "").strip() != _sp_dob:
+                        continue  # DOB gate → same person only
+                    _match = _v
+                    break
+                _tr_career = (_match or {}).get("career_history") or []
+                if _tr_career:
+                    _cur = _tr_career[0]  # most recent role
+                    _role = (_cur.get("role") or "").strip()
+                    _club = normalize_club(_cur.get("club_name", ""), _cur.get("club_tm_id"))
+                    if _role and _club:
+                        contacts_map[pid]["role"] = f"{_role} ({_club})"
+                        contacts_map[pid]["post_career_role"] = True
+                        if (_cur.get("date_to") or "").strip() in ("-", "", "heute"):
+                            contacts_map[pid]["current_club"] = _club
+        except Exception:
+            pass
 
     # ── 4) Lehrgangs-Kollegen (from coaching_licenses.json) ──
     # Person can be in multiple cohorts (UEFA Pro Lizenz + Management im Profifußball).

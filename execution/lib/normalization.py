@@ -169,7 +169,16 @@ def normalize_club(name: str, club_tm_id: int = None) -> str:
 
     Priority: 1) CLUB_NAME_NORMALIZE dict, 2) club_registry lookup, 3) raw name.
     All results pass through the dict a second time to catch registry names with suffixes.
+
+    PATTERN 29 FIX (2026-05-23): strip TM's defunct-club suffix " (-YYYY)" /
+    " (- YYYY)" which leaks into station names. E.g., "Brescia Calcio (- 2025)"
+    represents a club that dissolved in 2025; we want the bare club name in
+    stations and detail panels. Visible at: Brescia Calcio, KV Oostende,
+    Royal Excel Mouscron, Lierse SK (4 affected networks).
     """
+    if not name:
+        return name
+    name = re.sub(r"\s*\(-\s*\d{4}\)\s*$", "", name)
     if name in CLUB_NAME_NORMALIZE:
         return CLUB_NAME_NORMALIZE[name]
     if club_tm_id:
@@ -394,7 +403,17 @@ def parse_season_from_date(date_str: str) -> Optional[int]:
 
 
 def get_season_range(date_from: str, date_to: str) -> List[int]:
-    """Get list of seasons where the person was active (clamped to 2010–2025)."""
+    """Get list of seasons where the person was active (clamped to 2010–2025).
+
+    PATTERN 28 FIX (2026-05-23): When the actual career range is entirely
+    BEFORE 2010 or entirely after 2025, return [] (no relevant seasons) instead
+    of [start]. Previously returned [start] which mapped pre-2010 entries to
+    season 2010 — falsely creating "shared seasons" between two people who
+    were at the same club but at different (both pre-2010) times. Caused
+    false-positive shared-station claims in coach networks (e.g., Pavel Dotchev
+    Erfurt 05-07 + Alois Schwartz Erfurt 02-04 → both mapped to 2010 → false
+    overlap claim in Dotchev's network).
+    """
     start = parse_season_from_date(date_from)
     end = parse_season_from_date(date_to)
 
@@ -403,10 +422,14 @@ def get_season_range(date_from: str, date_to: str) -> List[int]:
     if end is None:
         end = 2025  # still active
 
+    # Filter out entries entirely outside the 2010–2025 window
+    if end < 2010 or start > 2025:
+        return []
+
     start = max(start, 2010)
     end = min(end, 2025)
 
-    return list(range(start, end + 1)) if start <= end else [start]
+    return list(range(start, end + 1))
 
 
 def format_season(year: int) -> str:
@@ -589,13 +612,61 @@ NATIONAL_TEAMS = {
     "Kroatien", "Serbien", "Slowenien", "Slowakei", "Ungarn", "Türkei",
 }
 
+# Verbände: Display-Mapping für Nationalverbands-Mitarbeiter
+# (z.B. "Andreas Rettig, Geschäftsführer Sport, Deutschland" → "...DFB")
+# Wird beim Display von current_club genutzt um Verband statt Land anzuzeigen.
+# FIX 2026-05-21 (F7): DFB-Mitarbeiter erscheinen mit Verein="Deutschland" — irreführend.
+NATIONAL_FEDERATIONS = {
+    "Deutschland": "DFB",
+    "Österreich": "ÖFB",
+    "Schweiz": "SFV",
+    "Luxemburg": "FLF",
+    "Liechtenstein": "LFV",
+    "England": "FA",
+    "Schottland": "SFA",
+    "Wales": "FAW",
+    "Nordirland": "IFA",
+    "Irland": "FAI",
+    "Frankreich": "FFF",
+    "Spanien": "RFEF",
+    "Italien": "FIGC",
+    "Niederlande": "KNVB",
+    "Belgien": "URBSFA",
+    "Portugal": "FPF",
+    "Polen": "PZPN",
+    "Tschechien": "FAČR",
+    "Dänemark": "DBU",
+    "Schweden": "SvFF",
+    "Norwegen": "NFF",
+    "Finnland": "SPL",
+    "Kroatien": "HNS",
+    "Serbien": "FSS",
+    "Slowenien": "NZS",
+    "Slowakei": "SFZ",
+    "Ungarn": "MLSZ",
+    "Türkei": "TFF",
+}
+
+
+def federation_label(club_name: str) -> str:
+    """Map country name to its national federation abbreviation if applicable.
+    Returns the original club_name if no mapping found.
+
+    Used for executive/staff contacts whose Verein is the country itself
+    (e.g., DFB-Mitarbeiter, ÖFB-Sportdirektor). Pre-fix this displayed as
+    "Geschäftsführer Sport, Deutschland" which is ambiguous.
+    """
+    if not club_name:
+        return club_name
+    return NATIONAL_FEDERATIONS.get(club_name.strip(), club_name)
+
 # Kategorie → Default-Label (Fallback wenn keine spezifische Section verfügbar)
 _CATEGORY_LABEL = {
     "head_coach": "Cheftrainer",
     "coaching_staff": "Co-Trainer",
     "academy": "Trainer NLZ",
     "sporting_director": "Sportdirektor",
-    "executive": "Geschäftsführer Sport",
+    "executive": "Geschäftsführer",  # Pattern 37 (2026-05-26): was "Geschäftsführer Sport"; bucket also catches plain Geschäftsführer/Vorstandsmitglied/CEO/Leiter Lizenz without Sport-Verantwortung. Sport-Spezialisten landen in sporting_director.
     "executive_governance": "Präsidium",
     "scouting": "Scout",
     "analyst": "Analyst",
@@ -609,8 +680,15 @@ _CATEGORY_LABEL = {
 
 # Sections die als generischer Container gelten und durch die category
 # überschrieben werden sollen (z.B. "Trainerstab" → kategorie-spezifisch)
+# PATTERN 22 FIX (2026-05-23): "Management" added — it is a generic TM container
+# section that covers SDs, Geschäftsführer, Leiter, etc. When clubs don't match
+# (cross-club case) and Priority 3.5 falls through, Priority 4 was returning
+# "Management, Club" even for sporting_director contacts (should be "Sportdirektor").
+# Marking "Management" as generic lets Priority 5 use _CATEGORY_LABEL instead.
 _GENERIC_SECTIONS = {
-    "Trainerstab", "Mitarbeiter", "Staff", "Sonstiges", "",
+    "Trainerstab", "Mitarbeiter", "Staff", "Sonstiges",
+    "Management",  # generic TM umbrella section — category label is more specific
+    "",
 }
 
 
@@ -655,6 +733,57 @@ def compute_role_display(category: str, section: str = "", club_name: str = "",
         if club:
             return f"Cheftrainer, {club}"
         return "Cheftrainer"
+
+    # FIX 2026-05-21 (F9): Priority 3.5 — wenn category=executive/sporting_director
+    # und career_history[0].role enthält eine spezifischere Bezeichnung als die
+    # generische section (z.B. section="Management" aber career-role="Geschäftsführer
+    # Sport"), bevorzuge career-role. Bornemann-Bug: Tabelle zeigte "Management"
+    # statt "Geschäftsführer Sport" obwohl Detail-Card es richtig hatte.
+    #
+    # PATTERN 19 FIX (2026-05-23): sporting_director category bypasses keyword check
+    # (compound SD titles like "Sportdirektor" have lowercase 'd', miss keyword "Direktor").
+    #
+    # PATTERN 21 FIX (2026-05-23): When career_history[0].club matches current_club,
+    # the club guard is sufficient protection — no keyword check needed. This fixes
+    # exec titles like "Leiter Lizenzbereich" that don't appear in _SPECIFIC_KEYWORDS
+    # but are clearly specific management roles at the correct club.
+    # Keyword check is only used for CROSS-CLUB overrides (different career club).
+    _SPECIFIC_OVERRIDE_CATS = {"executive", "sporting_director", "management",
+                                "executive_governance", "executive_secondary"}
+    if cat in _SPECIFIC_OVERRIDE_CATS and career_history:
+        _latest = career_history[0] if isinstance(career_history, list) else None
+        if isinstance(_latest, dict) and _latest.get("role"):
+            _ch_role = (_latest["role"] or "").strip()
+            # Normalize BOTH sides of comparison (Pattern 38, 2026-05-26).
+            # Without normalizing current_club, asymmetric normalize-map entries
+            # like "E. Frankfurt" → "Eintracht Frankfurt" cause _clubs_match=False
+            # and the specific career role gets discarded.
+            _ch_club_raw = (_latest.get("club") or "").strip()
+            _ch_club = normalize_club(_ch_club_raw) if _ch_club_raw else ""
+            _norm_club = normalize_club(club) if club else ""
+            # Space-insensitive club comparison
+            _club_ns = _norm_club.replace(" ", "").lower()
+            _ch_club_ns = _ch_club.replace(" ", "").lower()
+            _clubs_match = (
+                not club or not _ch_club or
+                _ch_club_ns in _club_ns or _club_ns in _ch_club_ns
+            )
+            # CROSS-CLUB keyword list: only gate on keywords when clubs DON'T match,
+            # to avoid picking up an old role at a previous club.
+            _SPECIFIC_KEYWORDS = ("Geschäftsführer", "Sportvorstand", "Direktor",
+                                  "direktor",  # catches "Sportdirektor", "Technischer Direktor"
+                                  "Vorstand Sport", "Sportchef", "Sportlicher Leiter",
+                                  "Leiter Sport", "Leiter Fußball", "Generalsekretär",
+                                  "Manager", "Präsident", "Sportdirektor")
+            _role_qualifies = (
+                _clubs_match or   # same club → always trust career title
+                cat == "sporting_director" or   # SD: trust regardless of club
+                any(kw in _ch_role for kw in _SPECIFIC_KEYWORDS)  # cross-club: keyword guard
+            )
+            if _role_qualifies and _clubs_match:
+                if club:
+                    return f"{_ch_role}, {club}"
+                return _ch_role
 
     # Priority 4: specific section beats generic category label
     section_clean = (section or "").strip()
@@ -830,7 +959,18 @@ def resolve_trainer_tm_id(spieler_tm_id, person_name: str,
     except (ValueError, TypeError):
         spi_id = None
 
+    # DOB of the spieler entry — used to disambiguate same-name persons.
+    # TM trainer-links on a spieler page can point at a DIFFERENT person who
+    # merely shares the name (e.g. Jonas Hummels[player] vs Hermann Hummels,
+    # or two different "Framberger"s). Only a matching DOB proves same person.
+    spi_dob = None
+    if spi_id is not None:
+        spi_entry = persons_master.get(str(spi_id)) or persons_master.get(spi_id)
+        if isinstance(spi_entry, dict):
+            spi_dob = (spi_entry.get("dob") or "").strip() or None
+
     candidates = []
+    dob_candidates = []
     for tm_id, v in persons_master.items():
         if not isinstance(v, dict):
             continue
@@ -845,8 +985,22 @@ def resolve_trainer_tm_id(spieler_tm_id, person_name: str,
         if spi_id is not None and cid == spi_id:
             continue  # same id → not a distinct trainer profile
         candidates.append(cid)
+        # DOB-gated candidate: only trust when birthdates match
+        cand_dob = (v.get("dob") or "").strip() or None
+        if spi_dob and cand_dob and cand_dob == spi_dob:
+            dob_candidates.append(cid)
 
+    # Prefer DOB-verified match (safe even with name collisions).
+    if len(dob_candidates) == 1:
+        return dob_candidates[0]
+    if dob_candidates:
+        return 0  # multiple same-name+same-DOB → too ambiguous, don't guess
+    # No DOB on file anywhere: fall back to name-only ONLY if exactly one
+    # candidate AND we had no spieler DOB to check against (legacy data).
+    # If we DID have a spieler DOB but no candidate matched it, the single
+    # name-match is almost certainly a different person → reject.
+    if spi_dob:
+        return 0
     if len(candidates) == 1:
         return candidates[0]
-    # Ambiguous: multiple trainer profiles with same name → do NOT auto-resolve
     return 0
