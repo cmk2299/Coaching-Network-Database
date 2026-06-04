@@ -1,0 +1,61 @@
+{
+  "_comment": "Manual overrides for coaches where TM data lags reality. 'sacked' = coach left, treat club as vacancy (unless 'appointed' fills it). 'appointed' = confirmed incoming head coach TM hasn't listed yet; generator swaps the stale scraped HC for this one. 'sd' = sporting director override when TM classifies them as other_staff. Remove entries once TM is updated and staff re-scraped.",
+  "sacked": [
+    {
+      "club_tm_id": 93,
+      "club": "SC Verl",
+      "tm_id": 30133,
+      "name": "Tobias Strobl",
+      "note": "Wechselt zum VfL Wolfsburg (Vertrag bis 2028). Verl dadurch vakant. TM noch nicht aktualisiert. Quelle: SC Verl / Wolfsburg offiziell Juni 2026",
+      "added": "2026-06-04"
+    },
+    {
+      "club_tm_id": 10,
+      "club": "Arminia Bielefeld",
+      "tm_id": 35168,
+      "name": "Mitch Kniat",
+      "note": "Trennung nach 3 Jahren Ende Saison 2025/26. Nachfolger noch offen. TM noch nicht aktualisiert. Quelle: nw.de / sportschau Juni 2026",
+      "added": "2026-06-04"
+    }
+  ],
+  "appointed": [
+    {
+      "club_tm_id": 89,
+      "club": "1.FC Union Berlin",
+      "replaces_tm_id": 118097,
+      "tm_id": 22822,
+      "name": "Mauro Lustrinelli",
+      "tm_url": "https://www.transfermarkt.de/mauro-lustrinelli/profil/trainer/22822",
+      "note": "Ab 01.07.2026 Cheftrainer (von FC Thun). Eta zur Frauenmannschaft. TM noch nicht aktualisiert. Quelle: fc-union-berlin.de 21.05.2026",
+      "added": "2026-05-30"
+    },
+    {
+      "club_tm_id": 82,
+      "club": "VfL Wolfsburg",
+      "replaces_tm_id": null,
+      "tm_id": 30133,
+      "name": "Tobias Strobl",
+      "tm_url": "https://www.transfermarkt.de/tobias-strobl/profil/trainer/30133",
+      "note": "Neuer Cheftrainer ab 2026/27 (von SC Verl, Vertrag bis 2028). Hecking wurde GF Sport. TM noch nicht aktualisiert. Quelle: VfL Wolfsburg offiziell Juni 2026",
+      "added": "2026-06-04"
+    }
+  ],
+  "sd": [
+    {
+      "club_tm_id": 89,
+      "club": "1.FC Union Berlin",
+      "tm_id": 3201,
+      "name": "Horst Heldt",
+      "note": "Geschäftsführer Sport / Sportdirektor. TM listet als Management/other_staff. Quelle: fc-union-berlin.de",
+      "added": "2026-05-30"
+    },
+    {
+      "club_tm_id": 10,
+      "club": "Arminia Bielefeld",
+      "tm_id": 27369,
+      "name": "Michael Mutzel",
+      "note": "Sport-Geschäftsführer / Sportdirektor. TM listet als Management/other_staff. Quelle: arminia.de",
+      "added": "2026-06-04"
+    }
+  ]
+}

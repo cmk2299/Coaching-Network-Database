@@ -96,6 +96,19 @@ def get_all_head_coaches(club_registry: Dict[int, dict], leagues: List[str],
     bl_clubs = get_bl_clubs(club_registry, leagues, season)
     coaches = []
 
+    # PATTERN 43 (2026-05-30): coach_overrides 'appointed' — confirmed incoming head
+    # coaches TM hasn't listed yet (TM lag). Keyed by club_tm_id; swaps the stale
+    # scraped head_coach for the real one. Systemic: applies to any future appointment.
+    _appointed_by_club = {}
+    try:
+        _ovp = Path(__file__).parent.parent / 'data' / 'coach_overrides.json'
+        _ovd = json.load(open(_ovp))
+        for a in _ovd.get('appointed', []):
+            if a.get('club_tm_id') is not None:
+                _appointed_by_club[a['club_tm_id']] = a
+    except Exception:
+        pass
+
     for club_id, club in sorted(bl_clubs.items(), key=lambda x: x[1].get("name", "")):
         staff = load_staff(club_id)
         if not staff:
@@ -105,7 +118,26 @@ def get_all_head_coaches(club_registry: Dict[int, dict], leagues: List[str],
         if not trainerstab:
             continue
 
-        head = trainerstab[0]
+        # PATTERN 39 FIX (2026-05-26): explicitly filter for role=="head_coach" rather
+        # than taking trainerstab[0]. Frankfurt-Bug: actual head coach missing from
+        # staff scrape → trainerstab[0] returned Co-Trainer Jan Fießer as "head coach",
+        # who then appeared in BL1-Liste without hot-seat-score and replaced the
+        # actual current trainer (Teisl/Toppmöller). Systemic: any club where the
+        # head_coach role is missing should be skipped, not silently promote a
+        # co-trainer.
+        head_candidates = [s for s in trainerstab if s.get("role") == "head_coach"]
+        _appt = _appointed_by_club.get(club_id)
+        if not head_candidates:
+            if _appt:
+                head = {"tm_id": _appt["tm_id"], "name": _appt["name"], "tm_url": _appt.get("tm_url", "")}
+            else:
+                print(f"  WARN: {staff.get('club_name','?')} (club {club_id}) — no head_coach in Trainerstab, skipping")
+                continue
+        else:
+            head = head_candidates[0]
+            # Override: confirmed incoming coach replaces stale TM head_coach
+            if _appt and (_appt.get("replaces_tm_id") is None or head.get("tm_id") == _appt.get("replaces_tm_id")):
+                head = {"tm_id": _appt["tm_id"], "name": _appt["name"], "tm_url": _appt.get("tm_url", "")}
         league_data = club.get("leagues") or club.get("league_history", {})
         # Try "2025/2026" format first, then "2025"
         club_leagues = league_data.get(f"{season}/{season+1}", league_data.get(str(season), []))
@@ -160,7 +192,12 @@ def load_all_network_coaches(existing_tm_ids: set) -> List[dict]:
 
         name = net.get("center", "?")
         center_info = net.get("center_info", {})
-        slug = net.get("slug") or re.sub(r'[^a-z0-9]+', '_', name.lower()).strip('_')
+        # PATTERN 30 FIX (2026-05-23): use canonical slugify() for diacritics.
+        # Previously the inline regex `[^a-z0-9]+` dropped non-ASCII chars
+        # entirely → "René Wagner" became "ren_wagner" instead of "rene_wagner",
+        # causing dashboard URL 404 on the live site. The canonical helper
+        # transliterates é→e, ä→ae, ß→ss, etc.
+        slug = net.get("slug") or slugify(name)
 
         # Get nationality from persons_master
         person = pm.get(tm_id_str, {})
@@ -340,7 +377,8 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
         try:
             sd_data = json.load(open(sd_registry_file))
             for sd in sd_data.get("sds", []):
-                slug = re.sub(r"[^a-z0-9]+", "_", sd["name"].lower()).strip("_")
+                # PATTERN 30: canonical slugify for diacritics
+                slug = slugify(sd["name"])
                 if (DASHBOARD_DIR / f"{slug}_sd_network.html").exists():
                     sd_count += 1
         except Exception:
@@ -413,10 +451,31 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
             f'Networks</div></div>'
         )
 
-    # ── Trainer-Total (Networks minus NLZ minus DMs) ─────────────────
+    # ── Trainer-Total (Networks minus actual NLZ/DM networks built) ──
     # Pragmatic count: alle Coach-Networks (Profi + Coachinside + Trainerstab + Historisch)
     # ohne NLZ-Cluster und ohne reine Decision-Maker.
-    trainer_total = max(0, networks_count - nlz_count_kpi - dm_count)
+    # FIX 2026-05-21: previously used registry sizes (nlz_count_kpi + dm_count) which
+    # over-subtract because not every NLZ/DM in the registry has an actual network on disk.
+    # Now: count actual networks-on-disk that match NLZ/DM tm_ids.
+    nlz_built = 0
+    dm_built = 0
+    try:
+        net_ids = set()
+        if networks_dir.exists():
+            for p in networks_dir.glob("*.json"):
+                if p.stem.isdigit():
+                    net_ids.add(int(p.stem))
+        nlz_path_kpi = BASE / "data" / "nlz_trainer_registry.json"
+        if nlz_path_kpi.exists():
+            nlz_reg = json.load(open(nlz_path_kpi)).get("trainers", [])
+            nlz_built = sum(1 for t in nlz_reg if t.get("tm_id") in net_ids)
+        dm_path_kpi = BASE / "data" / "decision_makers.json"
+        if dm_path_kpi.exists():
+            dm_reg = json.load(open(dm_path_kpi)).get("decision_makers", [])
+            dm_built = sum(1 for d in dm_reg if d.get("tm_id") in net_ids)
+    except Exception:
+        pass
+    trainer_total = max(0, networks_count - nlz_built - dm_built)
 
     # Hires-Count (from hire_history.json)
     hires_count = 0
@@ -776,6 +835,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
         if score < 45 or status not in ("warm", "hot-seat", "critical"):
             continue
         hot_seat_ranked.append({
+            "tm_id": c["tm_id"],
             "name": c["name"],
             "club": c["club"],
             "league": c.get("league", ""),
@@ -787,6 +847,37 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
             "position": hs.get("position", 0),
         })
     hot_seat_ranked.sort(key=lambda r: r["score"], reverse=True)
+
+    # PATTERN 42 (2026-05-28): coach_overrides.json — manual sacked/resigned overrides
+    # for coaches where TM data lags behind reality (TM hasn't updated their staff page yet).
+    # Sacked coaches are excluded from hot-seat + treated as vacancies.
+    _overrides_path = Path(__file__).parent.parent / 'data' / 'coach_overrides.json'
+    _sacked_ids = set()
+    _sacked_clubs = {}        # club_name -> {name, note}
+    _sacked_club_ids = set()  # club_tm_id of sacked entries → force-vacant even if TM still shows old HC
+    _sd_by_club = {}          # club_tm_id -> {name, ...} (Pattern 43: SD override for vacancy display)
+    _appointed_club_ids = set()  # club_tm_id with confirmed incoming HC → NOT vacant (Pattern 43)
+    try:
+        _ov = json.load(open(_overrides_path))
+        for _s in _ov.get('sd', []):
+            if _s.get('club_tm_id') is not None:
+                _sd_by_club[_s['club_tm_id']] = _s
+        for _a in _ov.get('appointed', []):
+            if _a.get('club_tm_id') is not None:
+                _appointed_club_ids.add(_a['club_tm_id'])
+        for s in _ov.get('sacked', []):
+            _sacked_ids.add(s['tm_id'])
+            _sacked_clubs[s['club']] = s
+            if s.get('club_tm_id') is not None:
+                _sacked_club_ids.add(s['club_tm_id'])
+    except Exception:
+        pass
+    hot_seat_ranked = [r for r in hot_seat_ranked if r.get('tm_id') not in _sacked_ids]
+    # Also patch all_active so sacked coaches don't appear as current head coaches in their club
+    for c in all_active:
+        if c.get('tm_id') in _sacked_ids:
+            c['_sacked'] = True
+
     top_hot_seat = hot_seat_ranked[:5]
 
     hot_seat_block = ""
@@ -812,7 +903,82 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
             <div class="row-go">&rsaquo;</div>
           </a>
         </div>""")
-        hot_seat_block = f"""<div class="section hot-seat-block" id="hot-seat-cross-liga">
+        # PATTERN 41 (2026-05-26): Vakante Cheftrainer-Posten als eigene Sektion.
+        # projectFIVE-Argument: Vakanzen sind genauso wichtige Trainerberatungs-Leads
+        # wie Wackelkandidaten. Auto-detected via Pattern 39 (clubs ohne head_coach).
+        vacancy_rows = []
+        try:
+            reg_path = Path(__file__).parent.parent / 'data' / 'club_registry.json'
+            reg = json.load(open(reg_path))
+            season_key = f"{season}/{season+1}"
+            for c in reg.get('clubs', []):
+                liga_codes = c.get('leagues', {}).get(season_key, [])
+                liga = next((l for l in ('BL1','BL2','BL3') if l in liga_codes), None)
+                if not liga: continue
+                tm_id = c.get('tm_id')
+                staff_file = Path(__file__).parent.parent / 'data' / 'staff' / f'{tm_id}.json'
+                if not staff_file.exists(): continue
+                try: sd = json.load(open(staff_file))
+                except: continue
+                # Appointed override: confirmed incoming HC → club is filled, never vacant
+                if tm_id in _appointed_club_ids:
+                    continue
+                ts = [s for s in sd.get('staff',[]) if s.get('section')=='Trainerstab']
+                # Check if current head_coach is sacked (by tm_id or club-level override)
+                hc = next((s for s in ts if s.get('role')=='head_coach'), None)
+                is_sacked_override = (hc and hc.get('tm_id') in _sacked_ids) or (tm_id in _sacked_club_ids)
+                if any(s.get('role')=='head_coach' for s in ts) and not is_sacked_override:
+                    continue
+                _sdov = _sd_by_club.get(tm_id)
+                sd_name = _sdov['name'] if _sdov else next((s['name'] for s in sd.get('staff',[]) if s.get('role')=='sporting_director'), '—')
+                # Interim = first Trainerstab member who is NOT the (sacked) head coach.
+                # ts[0] is often the departed HC himself when sacked via override.
+                interim = next((s['name'] for s in ts
+                                if s.get('role') != 'head_coach'
+                                and s.get('tm_id') not in _sacked_ids), '—')
+                club_name = normalize_club(c.get('name',''), tm_id)
+                # SD-dashboard cross-link. PATTERN 30: canonical slugify() for umlauts
+                # (naive regex produced "kr_sche" → 404). Prefer the SD-network file,
+                # fall back to coach-network, else no link.
+                href = '#'
+                if sd_name != '—':
+                    _sd_slug = slugify(sd_name)
+                    if (DASHBOARD_DIR / f"{_sd_slug}_sd_network.html").exists():
+                        href = f"dashboards/{_sd_slug}_sd_network.html"
+                    elif (DASHBOARD_DIR / f"{_sd_slug}_network.html").exists():
+                        href = f"dashboards/{_sd_slug}_network.html"
+                vacancy_rows.append(f"""
+  <div class="row-wrap" data-name="{club_name.lower()}" data-club="{club_name.lower()}" data-vacant="1">
+    <a href="{href}" class="row">
+      <div class="row-img"><span>&bull;</span></div>
+      <div class="row-name">{club_name}<span class="league-badge" title="{liga}">{liga}</span></div>
+      <div class="row-club">{sd_name}</div>
+      <div class="row-hotseat" style="background:rgba(231,76,60,.22);color:#e74c3c;border:1px solid rgba(231,76,60,.5);font-weight:600">VAKANT</div>
+      <div class="row-stat" style="text-align:left">{interim} (Co)</div>
+      <div class="row-stat">&nbsp;</div>
+      <div class="row-go">&rsaquo;</div>
+    </a>
+  </div>""")
+        except Exception as _e:
+            pass
+
+        vacancy_block = ""
+        if vacancy_rows:
+            vacancy_block = f"""<div class="section vacancy-block" id="vacancies-cross-liga" style="margin-bottom:24px">
+  <div class="section-hdr">
+    <h2 class="section-title" style="color:#e74c3c">Vakante Cheftrainer-Posten · liga-übergreifend</h2>
+    <span class="section-count">{len(vacancy_rows)}</span>
+    <span class="section-line"></span>
+  </div>
+  <div class="table-hdr">
+    <span></span><span>Verein</span><span>Sportdirektor</span><span style="text-align:center">Status</span><span>Interim</span><span></span><span></span>
+  </div>
+{''.join(vacancy_rows)}
+</div>
+
+"""
+
+        hot_seat_block = vacancy_block + f"""<div class="section hot-seat-block" id="hot-seat-cross-liga">
   <div class="section-hdr">
     <h2 class="section-title">Hot-Seat · liga-übergreifend</h2>
     <span class="section-count">{len(top_hot_seat)}</span>
@@ -836,10 +1002,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
 <meta property="og:url" content="https://coach-network-explorer.vercel.app">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/tokens.css">
-<link rel="stylesheet" href="/assets/base.css">
-<link rel="stylesheet" href="/assets/buttons.css">
-<link rel="stylesheet" href="/assets/haptik.css">
+<!-- /assets/*.css removed 2026-05-21 (lost in worktree-collision incident; styling now inline) -->
 <style>
 /* Fallback tokens — also defined in /assets/tokens.css (for direct-open / offline) */
 :root{{
@@ -869,6 +1032,22 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
 .stat-item{{display:flex;flex-direction:column}}
 .stat-val{{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:#fff;letter-spacing:-.5px}}
 .stat-lbl{{font-size:11px;color:var(--text-3);margin-top:2px;text-transform:uppercase;letter-spacing:.5px}}
+
+/* ── Nationality badge (post-2026-05-21: inline since /assets/haptik.css gone) ── */
+.nat-badge{{
+  display:inline-block;
+  font-family:'JetBrains Mono',monospace;
+  font-size:9px;font-weight:600;
+  letter-spacing:.05em;
+  padding:2px 5px;
+  margin-right:8px;
+  border-radius:3px;
+  background:rgba(255,255,255,.06);
+  color:var(--text-2);
+  border:1px solid var(--border);
+  vertical-align:middle;
+  text-transform:uppercase;
+}}
 
 /* ── Search ── */
 .search-wrap{{padding:20px 40px 0}}
@@ -928,6 +1107,9 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
   border-bottom:1px solid var(--border);
   transition:background .1s;
 }}
+/* Vacancy block: wider Interim column (last meaningful col holds "Name (Co)") */
+.vacancy-block .table-hdr,.vacancy-block .row{{grid-template-columns:44px 1fr 1fr 88px 140px 0 32px}}
+.vacancy-block .row-stat{{white-space:nowrap}}
 /* Hot-Seat cell — color-coded score badge */
 .row-hotseat{{text-align:center;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600;letter-spacing:.05em}}
 .row-hotseat--critical{{color:#e74c3c}}
@@ -1054,9 +1236,7 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
 <div class="update-banner">
   <div class="update-dot"></div>
   <span>Datenstand: <strong>{datetime.now().strftime('%d.%m.%Y')}</strong></span>
-  <button class="update-btn" id="check-btn" onclick="checkCoaches()">Trainerwechsel prüfen</button>
 </div>
-<div id="check-results" class="check-results" style="display:none"></div>
 
 {hot_seat_block}
 
@@ -1106,8 +1286,6 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
 </div>
 
 <script>
-const COACHES={coaches_check_json};
-
 function filter(){{
   const q=document.getElementById('q').value.toLowerCase();
   document.querySelectorAll('.row-wrap').forEach(r=>{{
@@ -1140,81 +1318,6 @@ function sortRows(el, key){{
   rows.forEach(r=>parent.appendChild(r));
 }}
 
-function normalize(s){{ return (s||'').trim().toLowerCase().replace(/\\s+/g,' '); }}
-function closeCheck(){{ document.getElementById('check-results').style.display='none'; }}
-
-async function checkCoaches(){{
-  const btn=document.getElementById('check-btn');
-  const box=document.getElementById('check-results');
-  btn.classList.add('loading');
-  btn.textContent='Prüfe TM…';
-  box.style.display='none';
-
-  try{{
-    const r=await fetch('/api/check-coaches');
-    if(!r.ok) throw new Error('HTTP '+r.status);
-    const data=await r.json();
-
-    if(data.errors && data.errors.length>0 && (data.L1||[]).length===0 && (data.L2||[]).length===0){{
-      throw new Error(data.errors.map(e=>e.league+': '+e.message).join(', '));
-    }}
-
-    const tmCoaches=[...(data.L1||[]),...(data.L2||[])];
-    const changes=[];
-    const seenClubIds=new Set();
-
-    for(const tm of tmCoaches){{
-      const cid=String(tm.club_tm_id);
-      seenClubIds.add(cid);
-      const cur=COACHES[cid];
-      if(!cur){{
-        changes.push({{type:'new',club:tm.club,name:tm.name,tag:'neu'}});
-      }} else if(normalize(cur.name)!==normalize(tm.name)){{
-        changes.push({{type:'changed',club:tm.club||cur.club,oldName:cur.name,newName:tm.name,tag:'neu'}});
-      }}
-    }}
-
-    for(const [cid,info] of Object.entries(COACHES)){{
-      if(!seenClubIds.has(cid)){{
-        changes.push({{type:'missing',club:info.club,name:info.name,tag:'weg'}});
-      }}
-    }}
-
-    let html='';
-    if(changes.length===0){{
-      html='<div class="check-ok">Alle '+tmCoaches.length+' Trainer aktuell — keine Wechsel detected.</div>';
-    }} else {{
-      html='<div style="margin-bottom:8px;color:var(--text)"><strong>'+changes.length+' Änderung'+(changes.length>1?'en':'')+'</strong> gefunden:</div>';
-      for(const c of changes){{
-        if(c.type==='changed'){{
-          html+='<div class="check-item"><span class="check-club">'+c.club+'</span><span class="check-old">'+c.oldName+'</span><span class="check-arrow">&rarr;</span><span class="check-new">'+c.newName+'</span><span class="check-tag neu">'+c.tag+'</span></div>';
-        }} else if(c.type==='new'){{
-          html+='<div class="check-item"><span class="check-club">'+c.club+'</span><span class="check-new">'+c.name+'</span><span class="check-tag neu">neu</span></div>';
-        }} else if(c.type==='missing'){{
-          html+='<div class="check-item"><span class="check-club">'+c.club+'</span><span class="check-old">'+c.name+'</span><span class="check-tag weg">nicht gefunden</span></div>';
-        }}
-      }}
-      html+='<div style="margin-top:12px;font-size:11px;color:var(--text-3)">Rebuild: <code>bash run_mvp.sh</code></div>';
-    }}
-    if(data.errors && data.errors.length>0){{
-      html+='<div style="margin-top:8px" class="check-err">Warnungen: '+data.errors.map(e=>e.league+' '+e.message).join(', ')+'</div>';
-    }}
-    html+='<button class="check-close" onclick="closeCheck()">Schließen</button>';
-    box.innerHTML=html;
-    box.style.display='block';
-
-  }}catch(e){{
-    const _is404=e.message&&e.message.includes('404');
-    const _errHtml=_is404
-      ?'<div style="color:#f0a500;font-weight:500">TM von Vercel-Servern nicht erreichbar</div><div style="margin-top:4px;font-size:11px;color:var(--text-3)">Serverless-IPs werden von TM blockiert — lokal prüfen: <code>python execution/check_coach_changes.py</code></div>'
-      :'<div class="check-err">Fehler: '+e.message+'</div><div style="margin-top:4px;font-size:11px;color:var(--text-3)">Alternativ: <code>python execution/check_coach_changes.py</code></div>';
-    box.innerHTML=_errHtml+'<button class="check-close" onclick="closeCheck()">Schließen</button>';
-    box.style.display='block';
-  }}
-
-  btn.classList.remove('loading');
-  btn.textContent='Trainerwechsel prüfen';
-}}
 
 const API='http://localhost:8000';
 async function refreshClub(clubId,btn){{

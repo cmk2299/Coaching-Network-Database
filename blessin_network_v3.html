@@ -1,0 +1,2928 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>__CENTER_NAME_PLACEHOLDER__ — Netzwerk-Explorer</title>
+<meta property="og:title" content="__CENTER_NAME_PLACEHOLDER__ — Netzwerk-Explorer">
+<meta property="og:description" content="Interaktives Trainer-Netzwerk: Kontakte, Stationen, Karrierewege">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://coach-network-explorer.vercel.app">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<!-- /assets/*.css removed 2026-05-21 (lost in worktree-collision; styling is inline below) -->
+<style>
+/* Fallback tokens — /assets/tokens.css is the source of truth */
+:root {
+  --bg: #0a0a0e;
+  --surface-1: #111318;
+  --surface-2: #1a1d24;
+  --surface: var(--surface-1);
+  --surface2: var(--surface-2);
+  --border: rgba(255,255,255,0.08);
+  --border-hover: rgba(255,255,255,0.16);
+  --accent: #F40009;
+  --accent-dim: #8b1a2b;
+  --accent-glow: rgba(244,0,9,0.12);
+  --red: var(--accent);
+  --red-glow: var(--accent-glow);
+  --text: #d4d4d8;
+  --text-dim: #8b8d97;
+  --text-muted: #7c7e88;
+  --radius: 6px;
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --font-sans: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-display: 'Space Grotesk', var(--font-sans);
+  --font-mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:'IBM Plex Sans',system-ui,sans-serif; height:100vh; overflow:hidden; -webkit-font-smoothing:antialiased; }
+
+/* ── Layout Grid ── */
+.app { display:grid; grid-template-columns:320px 1fr 0; grid-template-rows:64px 1fr 48px; height:100vh; gap:0; transition:grid-template-columns 0.2s ease; }
+.app:has(.sidebar-right.open) { grid-template-columns:320px 1fr 340px; }
+.header { grid-column:1/-1; display:flex; align-items:center; padding:0 24px; gap:16px; border-bottom:1px solid var(--border); background:var(--surface); }
+.sidebar-left { grid-row:2; overflow-y:auto; border-right:1px solid var(--border); background:var(--surface); }
+.main-canvas { grid-row:2; position:relative; overflow:hidden; background:var(--bg); }
+.sidebar-right { grid-row:2; overflow-y:auto; border-left:1px solid var(--border); background:var(--surface); display:none; }
+.sidebar-right.open { display:block; }
+.footer { grid-column:1/-1; display:flex; align-items:center; justify-content:space-between; padding:0 24px; font-size:11px; color:var(--text-muted); border-top:1px solid var(--border); background:var(--surface); }
+
+/* ── Header ── */
+.logo { font-family:'IBM Plex Sans',sans-serif; font-weight:700; font-size:15px; color:var(--text); white-space:nowrap; letter-spacing:-.3px; }
+.logo b { color:var(--red); font-weight:700; }
+.breadcrumb { display:flex; align-items:center; gap:6px; font-size:13px; }
+.breadcrumb .crumb { cursor:pointer; color:var(--text-dim); transition:color 0.2s; padding:4px 8px; border-radius:6px; }
+.breadcrumb .crumb:hover { color:var(--text); background:rgba(255,255,255,0.05); }
+.breadcrumb .crumb.active { color:var(--red); font-weight:600; }
+.breadcrumb .sep { color:var(--text-muted); font-size:10px; }
+.header-spacer { flex:1; }
+.search-wrap { position:relative; }
+.search-wrap input { background:var(--surface2); border:1px solid var(--border); color:var(--text); font-size:12px; padding:6px 10px 6px 28px; border-radius:4px; width:180px; outline:none; transition:border-color 0.15s; font-family:'IBM Plex Sans',sans-serif; }
+.search-wrap input:focus { border-color:var(--red); }
+.search-wrap .icon { position:absolute; left:8px; top:50%; transform:translateY(-50%); color:var(--text-muted); font-size:11px; pointer-events:none; }
+.stat-badge { font-size:11px; color:var(--text-dim); background:var(--surface2); padding:3px 8px; border-radius:3px; border:1px solid var(--border); white-space:nowrap; font-family:'JetBrains Mono',monospace; }
+.stat-badge span { color:var(--red); font-weight:600; }
+.pro-filter-btn { background:var(--surface2); border:1px solid var(--border); color:var(--text-dim); font-size:11px; padding:5px 12px; border-radius:3px; cursor:pointer; transition:all 0.15s; white-space:nowrap; font-family:'IBM Plex Sans',sans-serif; }
+.pro-filter-btn:hover { border-color:var(--red); color:var(--text); }
+.pro-filter-btn.active { background:var(--red); border-color:var(--red); color:#fff; font-weight:600; }
+/* Availability-Status-Badges (Replacement-Pool) */
+.avail-badge { display:inline-block; font-size:10px; padding:2px 8px; border-radius:3px; font-weight:500; font-family:'IBM Plex Sans',sans-serif; letter-spacing:0.3px; text-transform:uppercase; }
+.avail-vereinslos { background:rgba(46,204,64,.18); color:#2ecc40; border:1px solid rgba(46,204,64,.4); }
+.avail-frei_zum_saisonende { background:rgba(243,156,18,.18); color:#f39c12; border:1px solid rgba(243,156,18,.4); }
+.avail-wechselbereit { background:rgba(243,156,18,.18); color:#f39c12; border:1px solid rgba(243,156,18,.4); }
+.avail-kontraktiert { background:rgba(255,255,255,.05); color:var(--text-dim); border:1px solid var(--border); }
+.avail-unbekannt { background:transparent; color:var(--text-3); border:1px dashed var(--border); }
+
+/* ── Sidebar Left ── */
+.sidebar-section { padding:16px; border-bottom:1px solid var(--border); }
+.sidebar-section h4 { font-family:'IBM Plex Sans',sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:1.5px; color:var(--text-muted); margin-bottom:10px; }
+
+/* Station filter chips */
+.station-chips { display:flex; flex-wrap:wrap; gap:6px; }
+.chip { font-size:10px; padding:4px 8px; border-radius:3px; cursor:pointer; border:1px solid var(--border); color:var(--text-dim); background:transparent; transition:all 0.15s; user-select:none; }
+.chip:hover { border-color:var(--border-hover); color:var(--text); }
+.chip.active { border-color:var(--red); color:var(--red); background:var(--red-glow); }
+.chip .dot { display:inline-block; width:7px; height:7px; border-radius:50%; margin-right:5px; vertical-align:middle; }
+
+/* Category legend */
+.legend-row { display:flex; align-items:center; gap:8px; padding:6px 0; font-size:12px; cursor:pointer; color:var(--text-dim); transition:color 0.2s; }
+.legend-row:hover { color:var(--text); }
+.legend-row.active { color:var(--red); font-weight:500; }
+.legend-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+.legend-label { flex:1; }
+.legend-count { font-size:10px; color:var(--text-muted); }
+
+/* Contact list */
+.contact-list { max-height:calc(100vh - 420px); overflow-y:auto; }
+.contact-item { display:flex; align-items:center; gap:8px; padding:6px 10px; border-radius:8px; cursor:pointer; font-size:12px; color:var(--text-dim); transition:all 0.15s; border:1px solid transparent; min-height:42px; }
+.contact-item:hover { background:rgba(255,255,255,0.03); border-color:var(--border); color:var(--text); }
+.contact-item.highlighted { background:var(--red-glow); border-color:rgba(255,65,54,0.2); color:var(--text); }
+.contact-item .ci-dot { width:6px; height:6px; border-radius:50%; flex-shrink:0; }
+.contact-item .ci-name { flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.contact-item .ci-pro { font-size:10px; flex-shrink:0; }
+.contact-item .ci-drill { font-size:9px; color:var(--red); opacity:0.6; }
+.contact-item .ci-station { font-size:9px; padding:2px 5px; border-radius:4px; background:rgba(255,255,255,0.05); color:var(--text-muted); white-space:nowrap; }
+
+/* ── Canvas area ── */
+canvas { display:block; width:100%; height:100%; }
+.canvas-tooltip { position:absolute; z-index:20; pointer-events:none; display:none; max-width:280px;
+  background:rgba(18,18,24,0.75); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px);
+  border:1px solid rgba(255,255,255,0.1); border-radius:12px; padding:14px 16px;
+  box-shadow:0 8px 32px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.03) inset;
+  transition:opacity 0.15s ease; font-size:12px; }
+.canvas-tooltip .ct-header { display:flex; align-items:center; gap:10px; margin-bottom:8px; }
+.canvas-tooltip .ct-avatar { width:44px; height:44px; border-radius:50%; object-fit:cover; flex-shrink:0; border:2px solid rgba(255,255,255,0.15); background:var(--surface2); }
+.canvas-tooltip .ct-avatar-initials { width:44px; height:44px; border-radius:50%; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:16px; color:#fff; }
+.canvas-tooltip .ct-info { flex:1; min-width:0; }
+.canvas-tooltip .ct-name { color:#fff; font-weight:600; font-size:14px; font-family:'IBM Plex Sans',sans-serif; line-height:1.2; }
+.canvas-tooltip .ct-role { color:var(--text-dim); font-size:11px; margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.canvas-tooltip .ct-score-wrap { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+.canvas-tooltip .ct-score-bar { flex:1; height:4px; background:rgba(255,255,255,0.08); border-radius:2px; overflow:hidden; }
+.canvas-tooltip .ct-score-fill { height:100%; border-radius:2px; transition:width 0.2s; }
+.canvas-tooltip .ct-score-val { font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--text-dim); min-width:20px; text-align:right; }
+.canvas-tooltip .ct-divider { height:1px; background:rgba(255,255,255,0.06); margin:8px 0; }
+.canvas-tooltip .ct-stations { color:var(--text-dim); font-size:11px; line-height:1.4; }
+.canvas-tooltip .ct-stations-icon { color:var(--text-muted); margin-right:4px; }
+.canvas-tooltip .ct-meta { color:var(--text-muted); font-size:10px; margin-top:4px; }
+.canvas-tooltip .ct-action { color:#3498db; font-size:10px; margin-top:6px; font-weight:500; }
+
+/* ── Sidebar Right (Detail) ── */
+.detail-header { padding:20px 16px 12px; border-bottom:1px solid var(--border); position:relative; display:flex; gap:14px; align-items:flex-start; }
+.detail-close { position:absolute; right:12px; top:12px; cursor:pointer; color:var(--text-muted); font-size:16px; width:28px; height:28px; display:flex; align-items:center; justify-content:center; border-radius:6px; z-index:1; }
+.detail-close:hover { background:rgba(255,255,255,0.05); color:var(--text); }
+.detail-avatar { width:48px; height:48px; border-radius:50%; object-fit:cover; border:1.5px solid var(--text-muted); flex-shrink:0; background:var(--surface2); }
+.detail-avatar.hidden { display:none; }
+.detail-header-text { flex:1; min-width:0; }
+.detail-name { font-family:'IBM Plex Sans',sans-serif; font-size:18px; font-weight:700; color:var(--red); }
+.detail-role { color:var(--text-dim); font-size:13px; margin-top:2px; }
+.detail-note { color:var(--text-dim); font-size:12px; margin-top:8px; line-height:1.5; }
+.detail-section { padding:12px 16px; border-bottom:1px solid var(--border); }
+.detail-section h5 { font-size:10px; text-transform:uppercase; letter-spacing:1px; color:var(--text-muted); margin-bottom:8px; }
+.detail-stations { display:flex; flex-wrap:wrap; gap:5px; }
+.detail-station-tag { font-size:11px; padding:3px 8px; border-radius:6px; border:1px solid; }
+.detail-sub-contact { padding:5px 0; font-size:12px; color:var(--text-dim); border-bottom:1px solid var(--border); cursor:pointer; }
+.detail-sub-contact:hover { color:var(--red); }
+.detail-meta { font-size:11px; color:var(--text-dim); line-height:1.6; }
+.detail-meta span { color:var(--text); }
+.detail-meta .gs-stat { color:var(--accent); font-family:var(--font-mono); font-size:10px; }
+/* Definition-list pattern for biographical meta — clear label/value hierarchy */
+.detail-meta dl { display:grid; grid-template-columns:auto 1fr; gap:4px 12px; margin:0; }
+.detail-meta dt { color:var(--text-muted); font-size:10px; text-transform:uppercase; letter-spacing:0.5px; font-family:var(--font-mono); align-self:center; }
+.detail-meta dd { margin:0; color:var(--text); font-size:12px; }
+.detail-meta dd.dd-accent { color:var(--accent); font-family:var(--font-mono); font-size:11px; }
+.detail-summary { font-size:11px; color:var(--text-dim); line-height:1.5; font-style:normal; background:rgba(255,255,255,0.02); padding:8px 10px; border-radius:3px; border-left:2px solid var(--text-muted); }
+.detail-career { font-size:11px; color:var(--text-dim); line-height:1.6; }
+.career-table { width:100%; border-collapse:collapse; font-size:11px; font-family:'JetBrains Mono',monospace; }
+.career-table th { text-align:left; color:var(--text-dim); font-weight:400; padding:2px 6px 2px 0; border-bottom:1px solid var(--border); }
+.career-table td { padding:3px 6px 3px 0; border-bottom:1px solid rgba(255,255,255,0.03); color:var(--text-sec); }
+.career-table td:first-child { color:var(--text); font-weight:500; }
+.career-table tr:last-child td { border-bottom:none; }
+.career-season { color:var(--text-dim); font-variant-numeric:tabular-nums; white-space:nowrap; }
+.detail-connections { font-size:11px; color:var(--text-dim); line-height:1.6; }
+.detail-connections .conn-label { font-size:10px; text-transform:uppercase; letter-spacing:0.5px; color:var(--text-muted); margin-top:6px; display:block; }
+.detail-connections .conn-names { color:var(--text-dim); }
+.detail-players { font-size:11px; color:var(--text-dim); line-height:1.6; }
+.detail-tm { display:inline-block; font-size:11px; color:#3498db; text-decoration:none; margin-top:4px; }
+.detail-tm:hover { text-decoration:underline; }
+.detail-dashboard-link { display:block; width:100%; text-align:center; font-size:13px; font-weight:700; color:#fff; text-decoration:none; padding:10px 16px; background:var(--red); border:1px solid var(--red); border-radius:4px; transition:background .15s,opacity .15s; letter-spacing:.3px; font-family:'IBM Plex Sans',sans-serif; box-sizing:border-box; }
+.detail-dashboard-link:hover { background:#e62020; opacity:0.9; text-decoration:none; }
+.drill-btn { display:block; width:100%; margin-top:12px; padding:8px; background:transparent; color:var(--red); border:1px solid var(--red); border-radius:3px; cursor:pointer; font-size:11px; font-weight:600; font-family:'IBM Plex Sans',sans-serif; transition:all 0.15s; text-align:center; letter-spacing:.3px; text-transform:uppercase; }
+.drill-btn:hover { background:var(--red); color:#fff; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width:5px; }
+::-webkit-scrollbar-track { background:transparent; }
+::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.1); border-radius:3px; }
+::-webkit-scrollbar-thumb:hover { background:rgba(255,255,255,0.2); }
+
+/* Transition overlay */
+.transition-overlay { position:fixed; top:0; left:0; width:100%; height:100%; z-index:999; background:rgba(10,10,18,0); pointer-events:none; transition:background 0.35s; }
+
+/* ── Table View ── */
+.main-table { scrollbar-width:thin; scrollbar-color:rgba(255,255,255,0.1) transparent; }
+.main-table table caption { position:absolute; left:-10000px; width:1px; height:1px; overflow:hidden; }  /* a11y caption (visually hidden) */
+.main-table table tbody tr { transition:background 0.12s; border-bottom:1px solid var(--border); }
+.main-table table tbody tr:hover { background:rgba(255,255,255,0.045); }
+.main-table table tbody tr.is-selected { background:rgba(244,0,9,0.08); border-left:2px solid var(--red); }
+.main-table table tbody tr:focus-visible { outline:2px solid var(--red); outline-offset:-2px; }
+.main-table table tbody td { padding:8px 12px; border-bottom:1px solid var(--border); vertical-align:middle; color:var(--text-dim); }
+.main-table .td-name { display:flex; align-items:center; gap:10px; }
+.main-table .td-avatar { width:32px; height:32px; border-radius:50%; object-fit:cover; flex-shrink:0; }
+.main-table .td-avatar-init { width:32px; height:32px; border-radius:50%; flex-shrink:0; display:flex; align-items:center; justify-content:center; color:#fff; font-weight:600; font-size:11px; }
+.main-table .td-name-text { font-weight:500; color:var(--text); }
+/* Score bar: min-width 60% so 50-score is visibly different from 80-score (not invisible) */
+.main-table .td-score-bar { width:64px; height:5px; background:rgba(255,255,255,0.08); border-radius:2px; display:inline-block; overflow:hidden; margin-right:8px; vertical-align:middle; }
+.main-table .td-score-fill { height:100%; border-radius:2px; min-width:6px; }
+.main-table .td-station-tag { display:inline-block; font-size:10px; padding:2px 6px; border-radius:4px; margin:1px 2px; border:1px solid; }
+.main-table .td-cat-badge { font-size:10px; padding:2px 8px; border-radius:10px; display:inline-block; }
+.main-table .td-tm-link { display:inline-block; color:#3498db; text-decoration:none; font-size:10px; font-family:'JetBrains Mono',monospace; font-weight:600; letter-spacing:.05em; padding:4px 8px; min-width:32px; min-height:24px; line-height:16px; text-align:center; border:1px solid #3498db55; border-radius:3px; background:#3498db11; transition:background .15s,border-color .15s; }
+.main-table .td-tm-link:hover { background:#3498db28; border-color:#3498db; text-decoration:none; }
+.td-dash-link { display:inline-block; color:#fff; text-decoration:none; font-size:9px; font-weight:700; margin-left:6px; padding:2px 6px; background:var(--red); border-radius:3px; opacity:0.85; transition:opacity .15s; vertical-align:middle; font-family:'JetBrains Mono',monospace; letter-spacing:.05em; }
+.td-dash-link::after { content:' →'; opacity:0.7; font-weight:400; }
+.td-dash-link:hover { opacity:1; text-decoration:none; }
+/* Hide empty player-stat columns when active filter excludes players */
+.table-hide-player-cols .col-apps, .table-hide-player-cols .col-min { display:none; }
+.th-sort:hover { color:var(--text) !important; }
+.th-sort[aria-sort="ascending"]::after { content:' ↑'; color:var(--red); }
+.th-sort[aria-sort="descending"]::after { content:' ↓'; color:var(--red); }
+.th-sort:not([aria-sort])::after { content:' ⇅'; color:var(--text-muted); opacity:0.4; }
+/* Legacy CSS-class fallbacks for in-flight regen */
+.th-sort.asc::after { content:' ↑'; color:var(--red); }
+.th-sort.desc::after { content:' ↓'; color:var(--red); }
+.table-cat-btn { font-size:11px; padding:8px 12px; min-height:32px; border-radius:12px; cursor:pointer; border:1px solid var(--border); color:var(--text-dim); background:transparent; transition:all 0.15s; font-family:'IBM Plex Sans',sans-serif; }
+.table-cat-btn:hover { border-color:var(--border-hover); color:var(--text); }
+.table-cat-btn.active { color:#fff; font-weight:500; }
+/* Mobile: bigger touch targets per WCAG/Apple HIG */
+@media (max-width:768px) {
+  .table-cat-btn { padding:10px 14px; min-height:44px; font-size:12px; }
+  .stat-badge, .pro-filter-btn, .view-btn { min-height:44px !important; padding:10px 14px !important; }
+  .detail-close { width:44px !important; height:44px !important; font-size:24px !important; }
+}
+
+/* Responsive: collapse sidebars on small screens */
+/* ── Mobile Toggle Button ── */
+.mobile-toggle { display:none; background:var(--surface2); border:1px solid var(--border); color:var(--text-dim); font-size:18px; width:36px; height:36px; border-radius:4px; cursor:pointer; align-items:center; justify-content:center; }
+.mobile-toggle:hover { border-color:var(--border-hover); color:var(--text); }
+
+@media (max-width:1100px) {
+  .app { grid-template-columns:1fr; }
+  .sidebar-left { display:none; position:fixed; left:0; top:64px; bottom:48px; width:320px; z-index:50; box-shadow:4px 0 24px rgba(0,0,0,0.5); }
+  .sidebar-left.mobile-open { display:block; }
+  .sidebar-right { position:fixed; right:0; top:64px; bottom:48px; width:340px; z-index:50; box-shadow:-4px 0 24px rgba(0,0,0,0.5); }
+  .mobile-toggle { display:flex; }
+  .header .search-wrap input { width:120px; }
+  .header .stat-badge:nth-child(n+3) { display:none; }
+}
+@media (max-width:600px) {
+  .header { padding:0 12px; gap:8px; }
+  .header .search-wrap { display:none; }
+  .sidebar-left.mobile-open { width:100vw; }
+  .sidebar-right { width:100vw; }
+  .footer { padding:0 12px; font-size:10px; }
+}
+
+/* ═════════════════════════════════════════════════════════════════
+   UX-Polish 2026-05-15 — Glassmorphism + smoother filters/table
+   Overlay-Patch über bestehende Styles. Inspiration: Muzli 2026
+   Top-Dashboards, Linear, Stripe, Vercel.
+   ═════════════════════════════════════════════════════════════════ */
+
+/* — Stat-Badges: frosted glass with subtle gradient — */
+.stat-badge {
+  font-size: 11px;
+  color: var(--text);
+  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.015));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.06);
+  white-space: nowrap;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.stat-badge:hover { border-color: rgba(255,255,255,0.12); background: rgba(255,255,255,0.06); }
+.stat-badge span { color: var(--red); font-weight: 700; }
+
+/* — Filter-Buttons (Decision-Maker / Verfügbare): pill-shape + soft glow — */
+.pro-filter-btn {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: var(--text-dim);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 7px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  font-family: 'IBM Plex Sans', sans-serif;
+  letter-spacing: 0.01em;
+}
+.pro-filter-btn:hover {
+  border-color: rgba(244,0,9,0.4);
+  color: var(--text);
+  background: rgba(255,255,255,0.05);
+}
+.pro-filter-btn.active {
+  background: linear-gradient(180deg, var(--red), #c8000a);
+  border-color: var(--red);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 12px rgba(244,0,9,0.25), 0 0 0 1px rgba(244,0,9,0.15);
+}
+
+/* — Search bar: bigger, more inviting — */
+.search-wrap input {
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+  padding: 8px 12px 8px 32px;
+  width: 200px;
+  font-size: 13px;
+  transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+.search-wrap input:focus {
+  border-color: var(--red);
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 0 0 3px rgba(244,0,9,0.12);
+}
+.search-wrap .icon { left: 11px; font-size: 12px; }
+
+/* — Score-Slider — smoother — */
+.score-slider-wrap { gap: 10px; padding: 6px 10px; border-radius: 8px; transition: background 0.2s ease; }
+.score-slider-wrap:hover { background: rgba(255,255,255,0.03); }
+#score-slider { width: 110px; }
+
+/* — Sidebar — softer dividers, tighter (2026-05-15 v2) — */
+.sidebar-section { padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,0.04); }
+.sidebar-section:last-child { border-bottom: none; }
+.sidebar-section h4 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  color: var(--text-3);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+/* — Filter-Chips (Station/Berater): pill-shape, smoother — */
+.station-chips { gap: 6px; }
+.chip {
+  font-size: 11px;
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.025);
+  border: 1px solid rgba(255,255,255,0.06);
+  color: var(--text-dim);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: all 0.18s ease;
+}
+.chip:hover {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.14);
+  color: var(--text);
+  transform: translateY(-1px);
+}
+.chip.active {
+  background: linear-gradient(180deg, rgba(244,0,9,0.18), rgba(244,0,9,0.08));
+  border-color: rgba(244,0,9,0.55);
+  color: #ff6b73;
+  font-weight: 600;
+  box-shadow: 0 1px 8px rgba(244,0,9,0.12);
+}
+.chip .dot { width: 6px; height: 6px; margin-right: 6px; }
+
+/* — Legend rows — clean — */
+.legend-row {
+  padding: 7px 8px;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+  gap: 10px;
+}
+.legend-row:hover { background: rgba(255,255,255,0.03); color: var(--text); }
+.legend-row.active { background: rgba(244,0,9,0.08); color: #ff6b73; }
+.legend-dot { width: 8px; height: 8px; }
+
+/* — Contact list (left sidebar) — smoother — */
+.contact-item {
+  padding: 8px 12px;
+  border-radius: 8px;
+  gap: 10px;
+  min-height: 44px;
+  border: 1px solid transparent;
+  transition: all 0.15s ease;
+}
+.contact-item:hover {
+  background: rgba(255,255,255,0.035);
+  border-color: rgba(255,255,255,0.05);
+  transform: translateX(2px);
+}
+.contact-item.highlighted {
+  background: linear-gradient(90deg, rgba(244,0,9,0.12), rgba(244,0,9,0.03));
+  border-color: rgba(244,0,9,0.25);
+  color: var(--text);
+  box-shadow: inset 3px 0 0 var(--red);
+}
+
+/* — Main Table — more breath, sharper hierarchy — */
+.main-table { padding: 4px 0; }
+.main-table table { font-size: 13px; }
+.main-table table thead tr th {
+  padding: 14px 14px !important;
+  font-size: 9px !important;
+  letter-spacing: 1.5px !important;
+  color: var(--text-3) !important;
+  background: linear-gradient(180deg, var(--surface), rgba(26,26,30,0.92));
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255,255,255,0.06) !important;
+}
+.main-table table tbody tr { border-bottom: 1px solid rgba(255,255,255,0.025); transition: background 0.15s ease, transform 0.15s ease; }
+.main-table table tbody tr:hover { background: rgba(255,255,255,0.025); }
+.main-table table tbody tr.is-selected {
+  background: linear-gradient(90deg, rgba(244,0,9,0.06), rgba(244,0,9,0.015));
+  border-left: 3px solid var(--red);
+}
+.main-table table tbody td { padding: 12px 14px; color: var(--text-dim); }
+.main-table .td-name { gap: 12px; }
+.main-table .td-name-text { font-weight: 600; font-size: 13px; color: var(--text); }
+
+/* — Score-bar: larger + gradient, easier to read — */
+.main-table .td-score-bar {
+  width: 72px; height: 6px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 3px;
+  margin-right: 10px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+}
+.main-table .td-score-fill {
+  border-radius: 3px;
+  background-image: linear-gradient(90deg, var(--score-color, var(--red)) 60%, color-mix(in srgb, var(--score-color, var(--red)) 70%, white) 100%);
+  box-shadow: 0 0 8px rgba(244,0,9,0.25);
+}
+
+/* — Station-tags in table: softer, more uniform — */
+.main-table .td-station-tag {
+  font-size: 10px; padding: 3px 8px; border-radius: 999px; margin: 2px 3px;
+  font-weight: 500; letter-spacing: 0.02em;
+  background: rgba(255,255,255,0.025);
+}
+
+/* — Category badges: pill shape, modern — */
+.main-table .td-cat-badge {
+  font-size: 10px; padding: 3px 10px; border-radius: 999px;
+  font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+}
+
+/* — TM-Link buttons: less spammy — */
+.main-table .td-tm-link {
+  font-size: 10px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  background: rgba(52,152,219,0.08);
+  border-color: rgba(52,152,219,0.3);
+  transition: all 0.15s ease;
+}
+.main-table .td-tm-link:hover {
+  background: rgba(52,152,219,0.18);
+  border-color: rgba(52,152,219,0.6);
+  transform: translateY(-1px);
+}
+
+/* — NET-Badge inline link — cleaner — */
+.td-dash-link, .ci-pro {
+  padding: 2px 6px;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.05);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-left: 6px;
+  transition: all 0.15s ease;
+}
+.td-dash-link:hover, .ci-pro:hover { background: rgba(244,0,9,0.12); border-color: rgba(244,0,9,0.3); }
+
+/* — Detail Panel (right) — softer transitions — */
+.sidebar-right { transition: transform 0.25s ease; }
+.detail-header { padding: 24px 18px 16px; }
+.detail-name { font-size: 19px; letter-spacing: -0.02em; }
+.detail-role { font-size: 13px; margin-top: 4px; }
+.detail-section { padding: 14px 18px; border-bottom: 1px solid rgba(255,255,255,0.04); }
+.detail-section h5 { font-size: 10px; letter-spacing: 1.5px; color: var(--text-3); margin-bottom: 10px; font-weight: 600; }
+
+/* — Empty state for filter results — */
+.main-table table tbody:empty::after {
+  content: 'Keine Treffer mit aktuellem Filter — entferne einen Filter um mehr zu sehen.';
+  display: block;
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-3);
+  font-size: 13px;
+}
+
+/* — Scrollbar polish — */
+.main-table::-webkit-scrollbar, .contact-list::-webkit-scrollbar { width: 8px; }
+.main-table::-webkit-scrollbar-track, .contact-list::-webkit-scrollbar-track { background: transparent; }
+.main-table::-webkit-scrollbar-thumb, .contact-list::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.06); border-radius: 4px; transition: background 0.2s ease;
+}
+.main-table::-webkit-scrollbar-thumb:hover, .contact-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.14);
+}
+
+/* — Table-Category Filter Pills (oben in der Tabelle) — */
+#table-category-filters { padding: 14px 20px 10px !important; gap: 6px !important; }
+#table-category-filters button {
+  font-size: 11px !important;
+  padding: 6px 12px !important;
+  border-radius: 999px !important;
+  background: rgba(255,255,255,0.025) !important;
+  border: 1px solid rgba(255,255,255,0.05) !important;
+  color: var(--text-dim) !important;
+  transition: all 0.18s ease !important;
+  font-weight: 500;
+}
+#table-category-filters button:hover {
+  background: rgba(255,255,255,0.05) !important;
+  border-color: rgba(255,255,255,0.12) !important;
+  color: var(--text) !important;
+}
+#table-category-filters button.active {
+  background: linear-gradient(180deg, var(--red), #c8000a) !important;
+  border-color: var(--red) !important;
+  color: #fff !important;
+  font-weight: 600;
+  box-shadow: 0 1px 8px rgba(244,0,9,0.18);
+}
+
+</style>
+</head>
+<body>
+<a href="#main" class="skip-nav" style="position:absolute;top:-40px;left:0;background:var(--red);color:#fff;padding:8px 16px;z-index:9999;font-size:14px;transition:top 0.2s" onfocus="this.style.top='0'" onblur="this.style.top='-40px'">Zum Inhalt</a>
+
+<div class="app">
+  <!-- Header -->
+  <header class="header">
+    <button class="mobile-toggle" id="mobile-toggle" title="Filter anzeigen">&#9776;</button>
+    <a href="../index.html" class="logo" style="text-decoration:none;color:inherit;display:flex;align-items:center;gap:8px"><span style="color:var(--text-muted);font-size:13px">&larr;</span><span><b style="color:var(--red)">p5</b> Network Explorer</span></a>
+    <div class="breadcrumb" id="breadcrumb">
+      <span class="crumb active" data-level="0">__CENTER_NAME_PLACEHOLDER__</span>
+    </div>
+    <span class="center-specialty" id="center-specialty" style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;font-family:'JetBrains Mono',monospace;padding:3px 8px;border:1px solid var(--border);border-radius:3px;display:none"></span>
+    <div class="header-spacer"></div>
+    <div class="search-wrap">
+      <span class="icon" style="font-style:normal">&#8981;</span>
+      <input id="search-input" placeholder="Kontakt suchen..." />
+    </div>
+    <div class="stat-badge"><span id="stat-contacts">91</span> Kontakte</div>
+    <div class="stat-badge"><span id="stat-stations">7</span> Stationen</div>
+    <!-- Sprint F Phase 6 — DM-Info badge (only visible for SD/GF dashboards) -->
+    <div class="stat-badge dm-info-badge" id="dm-info-badge" style="display:none;background:rgba(230,126,34,0.12);border-color:#e67e22;color:#e67e22;cursor:pointer" title="Hire-Decider — siehe Detail">
+      <span id="dm-hires-count">0</span> Hires · <span id="dm-tier-label">Tier ?</span>
+    </div>
+    <!-- Sprint G Phase 5 — Cross-Drilldown: Quick-Links zu anderen Dashboard-Varianten -->
+    <div id="cross-variants" style="display:none;gap:4px;flex-wrap:nowrap"></div>
+    <button class="pro-filter-btn" id="pro-filter-btn" title="Nur Decision-Maker anzeigen: Trainer, Sporting Directors, Executives (Vorstand/Präsident/CEO)">
+      Nur Decision-Maker
+    </button>
+    <button class="pro-filter-btn" id="avail-filter-btn" title="Nur verfügbare Coaches: vereinslos, freier Vertrag (< 4 Monate), wechselbereit">
+      Nur Verfügbare
+    </button>
+    <!-- Fix B (A6 2026-05-13) — Mitspieler-Filter: nur Ex-Teammates mit aktiver
+         Fußball-Rolle (Trainer/SD/Scout/Exec). Default = aktiv. -->
+    <button class="pro-filter-btn active" id="mitspieler-active-btn" title="Mitspieler ohne Fußballrolle ausblenden (Karriereende ohne Trainer-/SD-/Scout-/Exec-Tätigkeit)">
+      Mitspieler: aktiv im Fußball
+    </button>
+    <label class="score-slider-wrap" for="score-slider" style="display:flex;align-items:center;gap:8px;margin-left:8px;min-height:44px;padding:0 4px;cursor:pointer">
+      <span style="font-size:10px;color:var(--text-muted);font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:0.5px">Min. Score</span>
+      <input type="range" id="score-slider" min="0" max="100" value="0" step="5" aria-label="Minimum Relevance Score Filter" style="width:96px;accent-color:var(--red);cursor:pointer">
+      <span id="score-val" aria-live="polite" style="font-size:12px;color:var(--text);font-family:'JetBrains Mono',monospace;min-width:28px;font-weight:500">≥0</span>
+    </label>
+  </header>
+
+  <!-- Sidebar Left — Order: Stationen → Kategorien → Berater (Kontakte-Liste entfernt 2026-05-15) -->
+  <aside class="sidebar-left">
+    <div class="sidebar-section">
+      <h4>Stationen</h4>
+      <div class="station-chips" id="station-chips"></div>
+    </div>
+    <div class="sidebar-section">
+      <h4>Kategorien</h4>
+      <div id="legend"></div>
+    </div>
+    <div class="sidebar-section" id="agent-chips-section" style="display:none">
+      <h4>Berater</h4>
+      <div class="station-chips" id="agent-chips"></div>
+    </div>
+    <!-- Kontakte-Liste hidden (Tabelle ist primary view) -->
+    <div class="sidebar-section" id="contact-list-section" style="display:none">
+      <div class="contact-list" id="contact-list"></div>
+    </div>
+  </aside>
+
+  <!-- Main Canvas (Graph view) -->
+  <div class="main-canvas" id="canvas-container" style="display:none">
+    <canvas id="canvas" aria-label="Netzwerk-Visualisierung" role="img"></canvas>
+    <canvas id="minimap" width="160" height="120" style="position:absolute;bottom:12px;right:12px;border:1px solid rgba(255,255,255,0.08);border-radius:6px;background:rgba(10,10,14,0.8);backdrop-filter:blur(8px);display:none;cursor:pointer;z-index:10"></canvas>
+    <!-- Drag-Affordance hint (unten-links) — from /assets/haptik.css -->
+    <div class="canvas-hint">Ziehen zum Bewegen · Scroll zum Zoomen</div>
+    <div class="canvas-tooltip" id="tooltip">
+      <div class="ct-header">
+        <img class="ct-avatar" id="tt-avatar-img" src="" alt="" style="display:none">
+        <div class="ct-avatar-initials" id="tt-avatar-init" style="display:none"></div>
+        <div class="ct-info">
+          <div class="ct-name" id="tt-name"></div>
+          <div class="ct-role" id="tt-role"></div>
+        </div>
+      </div>
+      <div class="ct-score-wrap">
+        <div class="ct-score-bar"><div class="ct-score-fill" id="tt-score-fill"></div></div>
+        <div class="ct-score-val" id="tt-score-val"></div>
+      </div>
+      <div class="ct-divider"></div>
+      <div class="ct-stations" id="tt-stations"></div>
+      <div class="ct-meta" id="tt-meta"></div>
+      <div class="ct-action" id="tt-action"></div>
+    </div>
+  </div>
+
+  <!-- Table View -->
+  <div class="main-table" id="table-container" style="grid-row:2;overflow-y:auto;background:var(--bg);padding:0">
+    <div style="padding:14px 24px 8px;display:flex;gap:8px;flex-wrap:wrap;align-items:center" role="toolbar" aria-label="Tabelle nach Kategorie filtern">
+      <span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;font-family:'JetBrains Mono',monospace;margin-right:4px">Filter</span>
+      <span id="table-category-filters" style="display:contents"></span>
+    </div>
+    <table id="contacts-table" style="width:100%;border-collapse:separate;border-spacing:0;font-size:12px">
+      <caption>Kontakt-Netzwerk des Trainers, sortierbar nach Spalten. Klick auf Zeile öffnet Detail-Panel.</caption>
+      <thead>
+        <tr style="position:sticky;top:0;z-index:5;background:var(--surface)">
+          <th scope="col" class="th-sort" data-col="name" style="text-align:left;padding:10px 12px;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);border-bottom:1px solid var(--border);cursor:pointer;white-space:nowrap;font-family:'IBM Plex Sans',sans-serif">Name</th>
+          <th scope="col" class="th-sort" data-col="role" style="text-align:left;padding:10px 12px;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);border-bottom:1px solid var(--border);cursor:pointer;white-space:nowrap;font-family:'IBM Plex Sans',sans-serif">Rolle</th>
+          <th scope="col" class="th-sort" data-col="club" style="text-align:left;padding:10px 12px;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);border-bottom:1px solid var(--border);cursor:pointer;white-space:nowrap;font-family:'IBM Plex Sans',sans-serif">Verein</th>
+          <th scope="col" class="th-sort" data-col="category" style="text-align:left;padding:10px 12px;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);border-bottom:1px solid var(--border);cursor:pointer;white-space:nowrap;font-family:'IBM Plex Sans',sans-serif">Kategorie</th>
+          <th scope="col" class="th-sort col-apps" data-col="appearances" style="text-align:center;padding:10px 8px;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);border-bottom:1px solid var(--border);cursor:pointer;white-space:nowrap;font-family:'JetBrains Mono',monospace" title="Spiele unter diesem Trainer (nur für Spieler)">Sp.</th>
+          <th scope="col" class="col-min" style="text-align:center;padding:10px 8px;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);border-bottom:1px solid var(--border);white-space:nowrap;font-family:'JetBrains Mono',monospace" title="Durchschnittliche Spielminuten (nur für Spieler)">Min/Sp</th>
+          <th scope="col" class="th-sort" data-col="score" aria-sort="descending" style="text-align:center;padding:10px 12px;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);border-bottom:1px solid var(--border);cursor:pointer;white-space:nowrap;font-family:'JetBrains Mono',monospace" title="Relevanz-Score (0-100): Stationen-Überlappung × Rolle × Liga × Rezenz">Score</th>
+          <th scope="col" class="th-sort" data-col="stations" style="text-align:left;padding:10px 12px;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);border-bottom:1px solid var(--border);cursor:pointer;white-space:nowrap;font-family:'IBM Plex Sans',sans-serif">Stationen</th>
+          <th scope="col" class="th-sort" data-col="nationality" style="text-align:left;padding:10px 12px;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);border-bottom:1px solid var(--border);cursor:pointer;white-space:nowrap;font-family:'IBM Plex Sans',sans-serif">Nation</th>
+          <th scope="col" style="text-align:center;padding:10px 8px;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);border-bottom:1px solid var(--border);font-family:'IBM Plex Sans',sans-serif">TM-Profil</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </div>
+
+  <!-- Sidebar Right (Detail) -->
+  <aside class="sidebar-right" id="detail-panel">
+    <div class="detail-header">
+      <div class="detail-close" id="detail-close">✕</div>
+      <img class="detail-avatar hidden" id="d-avatar" src="" alt="">
+      <div class="detail-header-text">
+        <div class="detail-name" id="d-name"></div>
+        <div class="detail-role" id="d-role"></div>
+      </div>
+    </div>
+    <div class="detail-section" id="d-meta-section" style="display:none">
+      <div class="detail-meta" id="d-meta"></div>
+    </div>
+    <div class="detail-row" id="d-agent-row" style="display:none;padding:4px 16px;font-size:11px">
+      <span style="color:var(--text-dim)">Berater </span><span id="d-agent-value" style="color:var(--text);font-weight:500"></span>
+    </div>
+    <div class="detail-row" id="d-avail-row" style="display:none;padding:4px 16px;font-size:11px">
+      <span style="color:var(--text-dim)">Verfügbarkeit </span><span id="d-avail-value"></span>
+    </div>
+    <div class="detail-row" id="d-contract-row" style="display:none;padding:4px 16px;font-size:11px">
+      <span style="color:var(--text-dim)">Vertrag bis </span><span id="d-contract-value" style="color:var(--text);font-weight:500;font-family:var(--font-mono)"></span>
+    </div>
+    <div class="detail-row" id="d-gs-row" style="display:none;padding:4px 16px;font-size:11px">
+      <span style="color:var(--text-dim)">Gemeinsame Spiele </span><span id="d-gs-value" style="color:var(--accent);font-family:var(--font-mono);font-weight:500"></span>
+    </div>
+    <div class="detail-section" id="d-dashboard-section" style="display:none">
+      <a class="detail-dashboard-link" id="d-dashboard-link" href="#">Netzwerk öffnen &rarr;</a>
+    </div>
+    <div class="detail-section" id="d-summary-section" style="display:none">
+      <div class="detail-summary" id="d-summary"></div>
+    </div>
+    <div class="detail-section">
+      <div class="detail-note" id="d-note"></div>
+    </div>
+    <div class="detail-section">
+      <h5>Stationen</h5>
+      <div class="detail-stations" id="d-stations"></div>
+    </div>
+    <div class="detail-section" id="d-career-section" style="display:none">
+      <h5>Karriere</h5>
+      <div class="detail-career" id="d-career"></div>
+    </div>
+    <div class="detail-section" id="d-connections-section" style="display:none">
+      <h5>Verbindungen</h5>
+      <div class="detail-connections" id="d-connections"></div>
+    </div>
+    <div class="detail-section" id="d-players-section" style="display:none">
+      <h5>Top-Spieler (20+ Spiele)</h5>
+      <div class="detail-players" id="d-players"></div>
+    </div>
+    <div class="detail-section" id="d-tm-section" style="display:none">
+      <a class="detail-tm" id="d-tm" href="#" target="_blank">→ Transfermarkt-Profil</a>
+    </div>
+    <div class="detail-section" id="d-drilldown-section" style="display:none">
+      <h5>Netzwerk-Vorschau</h5>
+      <div id="d-drilldown-list"></div>
+      <button class="drill-btn" id="d-drill-btn">Netzwerk erkunden</button>
+    </div>
+      <!-- WORKFLOW_INSERT:widgets — Sprint I Berater-CRM (idempotent) -->
+    <div class="workflow-pipeline" data-active-tm-id="">
+      <label>Pipeline-Status</label>
+      <select class="pipeline-stage" data-tm-id="">
+        <option value="">— nicht in Pipeline —</option>
+        <option value="watching">Beobachtung</option>
+        <option value="contacted">Kontaktiert</option>
+        <option value="in_talks">Im Gespräch</option>
+        <option value="mandate">Mandat</option>
+        <option value="placed">Vermittelt</option>
+        <option value="passed">Abgeschlossen</option>
+      </select>
+      <label class="pin-toggle">
+        <input type="checkbox" class="pipeline-pin" data-tm-id="">
+        Anpinnen — Daily-Digest
+      </label>
+    </div>
+    <div class="workflow-notes" data-tm-id="">
+      <label>Notizen</label>
+      <ul class="notes-list" data-tm-id=""></ul>
+      <textarea class="note-input" placeholder="Neue Notiz (Markdown ok). Tags via #call #2027"></textarea>
+      <button type="button" class="note-save">Speichern</button>
+    </div>
+    <div class="workflow-reminder" data-tm-id="">
+      <label>Reminder</label>
+      <input type="date" class="reminder-date" />
+      <input type="text" class="reminder-text" placeholder="z.B. Anruf zur Vertragsverlängerung" />
+      <button type="button" class="reminder-add">+</button>
+      <ul class="reminders-list" data-tm-id=""></ul>
+    </div>
+    <!-- /WORKFLOW_INSERT:widgets -->
+  </aside>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <span>SPORTFIVE Compliance · Nur öffentlich verfügbare Daten · DSGVO-konform</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:10px">click = details &middot; dblclick = drill-down &middot; backspace = back</span>
+  </footer>
+</div>
+
+<div class="transition-overlay" id="transition-overlay"></div>
+
+<script>
+// ═══════════════════════════════════════════════════
+// DATA (embedded)
+// ═══════════════════════════════════════════════════
+const NETWORK = {};
+const DRILLDOWN = {};
+const DRILLDOWN_URL = '';
+const DASHBOARD_INDEX = __DASHBOARD_INDEX_PLACEHOLDER__;
+const DASHBOARD_VARIANTS = __DASHBOARD_VARIANTS_PLACEHOLDER__;
+const CENTER_TM_ID = __CENTER_TM_ID_PLACEHOLDER__;
+
+// ═══════════════════════════════════════════════════
+// CONFIG
+// ═══════════════════════════════════════════════════
+const CATEGORIES = {
+  sporting_director:{color:'#F40009',label:'Sporting Director',size:1.3},
+  executive:{color:'#e76e3b',label:'Executive',size:1.25},     // GF Sport/Sportvorstand/Director of Football — primary trainer-hire driver
+  executive_governance:{color:'#d68a4f',label:'Präsidium/AR',size:1.10},  // Präsident/AR-Vorsitz — ratification/veto
+  executive_secondary:{color:'#a06038',label:'AR-Mitglied',size:0.95},    // Marketing/AR-Mitglied — formal only
+  management:{color:'#2a9d8f',label:'Management',size:1.1},     // Pressesprecher/Marketing/Finance
+  coaching_staff:{color:'#457b9d',label:'Coaching Staff',size:1.1},
+  player_coached:{color:'#e9c46a',label:'Players Coached',size:1.0},
+  teammate:{color:'#f4a261',label:'Mitspieler',size:1.0},
+  former_teammate:{color:'#e76f51',label:'Mitspieler',size:1.0},
+  lehrgang:{color:'#9b59b6',label:'DFB-Lehrgang',size:1.15},
+  academy:{color:'#27ae60',label:'NLZ/Academy',size:1.1},
+  scouting:{color:'#3498db',label:'Scouting',size:1.0},
+  medical:{color:'#95a5a6',label:'Medical/Perf.',size:0.9},
+  other_staff:{color:'#666',label:'Staff',size:0.85},
+  analyst:{color:'#457b9d',label:'Analyst',size:0.9},
+  head_coach:{color:'#F40009',label:'Head Coach',size:1.4},
+  // Sprint F Phase 6 — DM-Network categories
+  coach_hired:{color:'#e67e22',label:'Hired Coach',size:1.3},      // orange — DM hired this coach
+  co_decision_maker:{color:'#7f8c8d',label:'Co-Decision-Maker',size:1.05}  // grey — Tier 2/3/NLZ at same club
+};
+
+const STATION_COLORS = {
+  'RB Leipzig':'#dd0000','KV Oostende':'#1e6f30','Genoa CFC':'#c4161c',
+  'Union SG':'#ffd700','Union Saint-Gilloise':'#ffd700','FC St. Pauli':'#6b3a2a',
+  'Spielerkarriere':'#7f8c8d','DFB-Lehrgang':'#9b59b6','Übergreifend':'#555','Unbekannt':'#555'
+};
+
+// ═══════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════
+let canvas, ctx, W, H, dpr;
+let currentCenter = '__CENTER_NAME_PLACEHOLDER__';
+let currentContacts = [];
+let currentStations = [];
+let breadcrumbs = [{name:NETWORK.center,level:0}];
+let nodes = [];
+let activeFilters = {stations:new Set(), categories:new Set(), agents:new Set()};
+let searchTerm = '';
+let hoveredNode = null;
+let selectedNode = null;
+let stars = [];
+let proFilterActive = false;
+let scoreThreshold = 0;
+
+// ═══════════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════════
+function init() {
+  canvas = document.getElementById('canvas');
+  ctx = canvas.getContext('2d');
+  resize();
+  generateStars();
+  // Preload profile images
+  if (NETWORK.center_info && NETWORK.center_info.image_url) getImage(NETWORK.center_info.image_url);
+  NETWORK.contacts.forEach(c => { if (c.image_url) getImage(c.image_url); });
+
+  // Specialty badge in header (e.g. "Frauenfußball · UEFA-Pro" for context that
+  // the pseudo-station filter would otherwise hide)
+  const specialty = document.getElementById('center-specialty');
+  if (specialty && NETWORK.center_info) {
+    const ci = NETWORK.center_info;
+    const parts = [];
+    // Detect Frauenfußball or other domain from role
+    if (ci.role) {
+      if (/frauen/i.test(ci.role)) parts.push('Frauenfußball');
+      else if (/jugend|nachwuchs|nlz|u\d/i.test(ci.role)) parts.push('Nachwuchs');
+    }
+    if (ci.license) parts.push(ci.license);
+    if (parts.length) {
+      specialty.textContent = parts.join(' · ');
+      specialty.style.display = 'inline-block';
+    }
+  }
+
+  // Sprint G Phase 5 — Cross-Drilldown: render variant-quick-links if person has multiple dashboards
+  const cv = document.getElementById('cross-variants');
+  if (cv && typeof DASHBOARD_VARIANTS !== 'undefined' && CENTER_TM_ID != null) {
+    const variants = DASHBOARD_VARIANTS[CENTER_TM_ID] || DASHBOARD_VARIANTS[String(CENTER_TM_ID)];
+    if (variants && Object.keys(variants).length >= 2) {
+      // Determine which is the CURRENT dashboard kind from the page URL/path
+      const path = location.pathname.toLowerCase();
+      let currentKind = "coach";
+      if (path.includes("_sd_network.html")) currentKind = "sd";
+      else if (path.includes("_nlz_network.html")) currentKind = "nlz";
+      const LABEL = {coach: "Profi", sd: "SD", nlz: "NLZ"};
+      const COLOR = {coach: "#c8102e", sd: "#e76e3b", nlz: "#27ae60"};
+      const TIP   = {coach: "Profi-Trainer-Netzwerk öffnen",
+                     sd:    "SD-/Decision-Maker-Netzwerk öffnen",
+                     nlz:   "NLZ-/Talente-Netzwerk öffnen"};
+      const links = [];
+      Object.entries(variants).forEach(([kind, slug]) => {
+        if (kind === currentKind) return;
+        const href = slug + "_network.html";
+        const lbl = LABEL[kind] || kind;
+        const clr = COLOR[kind] || "#888";
+        const tip = TIP[kind] || ("Variante: " + kind);
+        links.push(`<a href="${href}" title="${tip}" style="text-decoration:none"><div class="stat-badge" style="background:rgba(255,255,255,0.04);border-color:${clr};color:${clr};font-size:11px;cursor:pointer">→ ${lbl}-Netz</div></a>`);
+      });
+      if (links.length) {
+        cv.innerHTML = links.join("");
+        cv.style.display = "inline-flex";
+      }
+    }
+  }
+
+  // Sprint F Phase 6 — DM-Info Badge (only for SDs/GFs)
+  const dmBadge = document.getElementById('dm-info-badge');
+  if (dmBadge && NETWORK.dm_info) {
+    const di = NETWORK.dm_info;
+    document.getElementById('dm-hires-count').textContent = di.total_hires || 0;
+    const tierLabel = {'1':'Tier 1','2':'Tier 2','3':'Tier 3','nlz':'NLZ'}[di.tier] || (di.tier || '?');
+    document.getElementById('dm-tier-label').textContent = tierLabel;
+    let tipParts = [];
+    if (di.tm_title) tipParts.push(di.tm_title);
+    if (di.club_name) tipParts.push(di.club_name);
+    if (di.patterns) {
+      const p = di.patterns;
+      if (p.preferred_age_at_hire_avg) tipParts.push(`Ø Alter @ Hire: ${p.preferred_age_at_hire_avg}`);
+      if (p.avg_tenure_years) tipParts.push(`Ø Tenure: ${p.avg_tenure_years}y`);
+      if (p.preferred_nationality && p.preferred_nationality.length) tipParts.push(`Bevorzugt: ${p.preferred_nationality.join(', ')}`);
+    }
+    if (di.agent_relationships && di.agent_relationships.length) {
+      const ag = di.agent_relationships.slice(0,3).map(r => `${r.agent} (${r.hires})`).join(', ');
+      tipParts.push(`Agent-Beziehungen: ${ag}`);
+    }
+    dmBadge.title = tipParts.join(' · ');
+    dmBadge.style.display = 'inline-flex';
+  }
+
+  loadLevel(NETWORK.contacts, NETWORK.stations, '__CENTER_NAME_PLACEHOLDER__');
+  setupEvents();
+  setupTableSort();
+  buildTableCategoryFilters();
+  buildTable();
+  switchView('table'); // Default to table view
+  requestAnimationFrame(render);
+}
+
+function resize() {
+  const container = document.getElementById('canvas-container');
+  const rect = container.getBoundingClientRect();
+  if (rect.width === 0 || rect.height === 0) return; // hidden
+  dpr = window.devicePixelRatio || 1;
+  W = rect.width;
+  H = rect.height;
+  canvas.width = W * dpr;
+  canvas.height = H * dpr;
+  canvas.style.width = W + 'px';
+  canvas.style.height = H + 'px';
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  if (currentContacts.length) layoutNodes();
+}
+
+function generateStars() { stars = []; /* removed — clean bg */ }
+
+// ═══════════════════════════════════════════════════
+// LOAD LEVEL
+// ═══════════════════════════════════════════════════
+function loadLevel(contacts, stations, centerName) {
+  currentContacts = contacts;
+  currentStations = stations.length ? stations : [...new Set(contacts.flatMap(c=>c.stations||[]))];
+  currentCenter = centerName;
+  activeFilters.stations.clear();
+  activeFilters.categories.clear();
+  activeFilters.agents.clear();
+  searchTerm = '';
+  document.getElementById('search-input').value = '';
+  selectedNode = null;
+  // M10: Reset zoom on level change
+  viewScale = 1; viewOffsetX = 0; viewOffsetY = 0;
+  closeDetail();
+  buildStationChips();
+  buildAgentChips();
+  buildLegend();
+  buildContactList();
+  updateStats();
+  layoutNodes();
+}
+
+// ═══════════════════════════════════════════════════
+// FILTERS & UI BUILDERS
+// ═══════════════════════════════════════════════════
+// Q3 (Live-Audit 2026-04-30): Pseudo-stations are not real career clubs —
+// DFB-Lehrgang cohorts appear in detail panel, not as sidebar filter chips.
+const PSEUDO_CHIP_PATTERNS = ['DFB-Lehrgang', 'Mgmt-Lehrgang', 'Trainerausbildung'];
+
+function buildStationChips() {
+  const el = document.getElementById('station-chips');
+  el.innerHTML = '';
+  const realStations = currentStations.filter(
+    st => !PSEUDO_CHIP_PATTERNS.some(p => st.includes(p))
+  );
+  realStations.forEach(st => {
+    const chip = document.createElement('div');
+    chip.className = 'chip' + (activeFilters.stations.has(st) ? ' active' : '');
+    const col = STATION_COLORS[st] || '#555';
+    chip.innerHTML = `<span class="dot" style="background:${col}"></span>${st}`;
+    chip.onclick = () => {
+      if (activeFilters.stations.has(st)) activeFilters.stations.delete(st);
+      else activeFilters.stations.add(st);
+      chip.classList.toggle('active', activeFilters.stations.has(st));
+      onFilterChange();
+    };
+    el.appendChild(chip);
+  });
+}
+
+// Sprint #3 Berater-Filter — Top-20 Agenturen per Network, dynamisch.
+// Blacklist (same as detail-panel) gefiltert. Section nur visible wenn ≥3 Agenturen.
+const AGENT_FILTER_BLACKLIST = new Set([
+  '', 'ohne berater', 'familienangehörige', 'familienangehoerige',
+  'eltern', 'keine angabe', 'kein berater', '-', 'n/a', 'unbekannt'
+]);
+function buildAgentChips() {
+  const section = document.getElementById('agent-chips-section');
+  const el = document.getElementById('agent-chips');
+  if (!section || !el) return;
+  el.innerHTML = '';
+  // Count agents in current contacts
+  const counts = {};
+  currentContacts.forEach(c => {
+    const a = (c.agent || '').trim();
+    if (!a || AGENT_FILTER_BLACKLIST.has(a.toLowerCase())) return;
+    counts[a] = (counts[a] || 0) + 1;
+  });
+  const top = Object.entries(counts).sort((a,b) => b[1]-a[1]).slice(0, 20);
+  if (top.length < 3) {
+    section.style.display = 'none';
+    return;
+  }
+  section.style.display = '';
+  top.forEach(([agent, n]) => {
+    const chip = document.createElement('div');
+    chip.className = 'chip' + (activeFilters.agents.has(agent) ? ' active' : '');
+    chip.title = `${n} Kontakt${n > 1 ? 'e' : ''} mit Berater "${agent}"`;
+    chip.innerHTML = `<span class="dot" style="background:#9b59b6"></span>${agent} <span style="opacity:0.6;font-size:10px">${n}</span>`;
+    chip.onclick = () => {
+      if (activeFilters.agents.has(agent)) activeFilters.agents.delete(agent);
+      else activeFilters.agents.add(agent);
+      chip.classList.toggle('active', activeFilters.agents.has(agent));
+      onFilterChange();
+    };
+    el.appendChild(chip);
+  });
+}
+
+function buildLegend() {
+  const el = document.getElementById('legend');
+  el.innerHTML = '';
+  const cats = {};
+  currentContacts.forEach(c => { cats[c.category] = (cats[c.category]||0)+1; });
+  // Fix A1c v2 (2026-05-14) — Lehrgang-Counter erweitern (siehe buildTableCategoryFilters)
+  let _lhExtra = 0;
+  currentContacts.forEach(c => {
+    if (c.category === 'lehrgang') return;
+    if ((c.stations || []).some(s => typeof s === 'string' &&
+        (s.includes('DFB-Lehrgang') || s.includes('Mgmt-Lehrgang') || s.includes('DFB Fußball-Lehrer')))) {
+      _lhExtra++;
+    }
+  });
+  if (_lhExtra > 0) cats.lehrgang = (cats.lehrgang || 0) + _lhExtra;
+  Object.entries(CATEGORIES).forEach(([key,cfg]) => {
+    if (!cats[key]) return;
+    const row = document.createElement('div');
+    row.className = 'legend-row';
+    row.innerHTML = `<div class="legend-dot" style="background:${cfg.color}"></div>
+      <span class="legend-label">${cfg.label}</span>
+      <span class="legend-count">${cats[key]}</span>`;
+    row.onclick = () => {
+      if (activeFilters.categories.has(key)) activeFilters.categories.delete(key);
+      else activeFilters.categories.add(key);
+      row.classList.toggle('active', activeFilters.categories.has(key));
+      onFilterChange();
+    };
+    el.appendChild(row);
+  });
+}
+
+function getInitialsForList(name) {
+  if (!name) return '?';
+  const parts = name.trim().split(/\s+/);
+  if (parts.length === 1) return parts[0].charAt(0).toUpperCase();
+  return (parts[0].charAt(0) + parts[parts.length - 1].charAt(0)).toUpperCase();
+}
+
+function buildContactList() {
+  const el = document.getElementById('contact-list');
+  el.innerHTML = '';
+  const filtered = getFilteredContacts().sort((a,b) => (b.relevance_score||0) - (a.relevance_score||0));
+
+  filtered.forEach(c => {
+    const item = document.createElement('div');
+    item.className = 'contact-item';
+    const cat = CATEGORIES[c.category] || {};
+    const catColor = cat.color || '#555';
+    const score = c.relevance_score || 0;
+    const st = (c.stations||[])[0] || '';
+    let proBadge = c.pro_status==='trainer' ? '<span class="ci-pro" title="Trainer" style="color:#F40009">T</span>' : c.pro_status==='sd' ? '<span class="ci-pro" title="Sporting Director" style="color:#F40009">SD</span>' : c.pro_status==='exec' ? '<span class="ci-pro" title="Geschäftsführer Sport / Sportvorstand — primärer Hire-Decider" style="color:#e76e3b">EX</span>' : c.pro_status==='exec_gov' ? '<span class="ci-pro" title="Präsident / Aufsichtsratsvorsitzender — Ratifikation" style="color:#d68a4f">EX·G</span>' : '';
+    // Sprint F Phase 6: Hire-Indicator (H) and Co-DM (D) badges
+    if (c.category === 'coach_hired' || c._dm_hire) {
+      const hireYear = (c._dm_hire||{}).year || '?';
+      proBadge = '<span class="ci-pro" title="Trainer-Hire (' + hireYear + ')" style="color:#e67e22">H</span>' + proBadge;
+    }
+    if (c.category === 'co_decision_maker') {
+      const tier = (c._co_dm||{}).tier || '';
+      proBadge = '<span class="ci-pro" title="Co-Decision-Maker — Tier ' + tier + '" style="color:#7f8c8d">D</span>' + proBadge;
+    }
+
+    // M9: Mini-avatar (photo or initials)
+    const avatarHtml = c.image_url
+      ? '<img class="ci-avatar" src="' + c.image_url + '" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'" style="width:28px;height:28px;border-radius:50%;object-fit:cover;flex-shrink:0;border:1.5px solid ' + catColor + '"><div class="ci-avatar-init" style="display:none;width:28px;height:28px;border-radius:50%;background:' + catColor + ';color:#fff;font-size:10px;font-weight:600;flex-shrink:0;align-items:center;justify-content:center">' + getInitialsForList(c.name) + '</div>'
+      : '<div class="ci-avatar-init" style="display:flex;width:28px;height:28px;border-radius:50%;background:' + catColor + ';color:#fff;font-size:10px;font-weight:600;flex-shrink:0;align-items:center;justify-content:center">' + getInitialsForList(c.name) + '</div>';
+
+    // M9: Score micro-bar
+    const scoreBar = score > 0 ? '<div style="width:32px;height:3px;background:rgba(255,255,255,0.06);border-radius:2px;flex-shrink:0;overflow:hidden"><div style="width:' + score + '%;height:100%;background:' + catColor + ';border-radius:2px"></div></div>' : '';
+
+    item.innerHTML = avatarHtml +
+      '<div style="flex:1;min-width:0"><span class="ci-name">' + c.name + '</span>' +
+      '<div style="font-size:9px;color:var(--text-muted);margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">' + (c.role || st) + '</div></div>' +
+      proBadge + scoreBar +
+      (c.has_drilldown ? '<span class="ci-drill">&raquo;</span>' : '');
+
+    item.onclick = () => { selectContact(c); highlightNode(c.name); };
+    item.ondblclick = () => { if (c.has_drilldown) drillDown(c); };
+    item.dataset.name = c.name;
+    el.appendChild(item);
+  });
+}
+
+// Availability-Filter (Replacement-Pool)
+let availFilterActive = false;
+const AVAIL_FILTER_STATUS = new Set(["vereinslos", "frei_zum_saisonende", "wechselbereit"]);
+
+// Fix B (A6 2026-05-13) — Mitspieler-Filter (default ON):
+// Hide Mitspieler whose _today_role is NOT trainer/SD/scouting/executive/coaching_staff/etc.
+// "_today_role" is set by build_coach_network.py for former_teammate contacts. Values:
+//   head_coach, coaching_staff, sporting_director, executive, scouting,
+//   analyst, academy, management, ex_<role>, none
+let mitspielerActiveOnly = true;
+const MITSPIELER_ACTIVE_ROLES = new Set([
+  'head_coach','coaching_staff','sporting_director','executive',
+  'scouting','analyst','academy','management',
+]);
+
+function getFilteredContacts() {
+  return currentContacts.filter(c => {
+    if (proFilterActive && c.pro_status !== 'trainer' && c.pro_status !== 'sd' && c.pro_status !== 'exec' && c.pro_status !== 'exec_gov') return false;
+    if (availFilterActive && !AVAIL_FILTER_STATUS.has(c.availability_status)) return false;
+    if (scoreThreshold > 0 && (c.relevance_score || 0) < scoreThreshold) return false;
+    if (activeFilters.stations.size && !c.stations.some(s => activeFilters.stations.has(s))) return false;
+    if (activeFilters.agents.size && !activeFilters.agents.has((c.agent || '').trim())) return false;
+    // Fix A1c (2026-05-13) — "lehrgang"-Filter erweitern auf Station-Match.
+    // LG-Kollegen sind oft unter primärer Kategorie (head_coach etc.) abgelegt,
+    // ihre stations[] enthalten "DFB-Lehrgang YYYY". Ohne diese Erweiterung
+    // zeigt der Lehrgang-Filter nur die wenigen reinen lehrgang-Contacts.
+    if (activeFilters.categories.size && !activeFilters.categories.has(c.category)) {
+      const wantsLehrgang = activeFilters.categories.has('lehrgang');
+      const hasLehrgangStation = wantsLehrgang && (c.stations || []).some(s =>
+        typeof s === 'string' && (s.includes('DFB-Lehrgang') || s.includes('Mgmt-Lehrgang') || s.includes('DFB Fußball-Lehrer')));
+      if (!hasLehrgangStation) return false;
+    }
+    if (searchTerm && !c.name.toLowerCase().includes(searchTerm)) return false;
+    // Fix B (A6) — hide non-active Mitspieler when toggle is ON
+    // Backward-compat: wenn _today_role noch nicht im Network gesetzt (Pre-Rebuild),
+    // Filter ignorieren statt alle former_teammates blind auszublenden.
+    if (mitspielerActiveOnly && c.category === 'former_teammate' && c._today_role) {
+      if (!MITSPIELER_ACTIVE_ROLES.has(c._today_role)) return false;
+    }
+    return true;
+  });
+}
+
+function toggleProFilter() {
+  proFilterActive = !proFilterActive;
+  document.getElementById('pro-filter-btn').classList.toggle('active', proFilterActive);
+  onFilterChange();
+}
+
+function toggleAvailFilter() {
+  availFilterActive = !availFilterActive;
+  document.getElementById('avail-filter-btn').classList.toggle('active', availFilterActive);
+  onFilterChange();
+}
+
+// Fix B (A6 2026-05-13) — toggle "Mitspieler: aktiv im Fußball"
+function toggleMitspielerActive() {
+  mitspielerActiveOnly = !mitspielerActiveOnly;
+  const btn = document.getElementById('mitspieler-active-btn');
+  if (btn) btn.classList.toggle('active', mitspielerActiveOnly);
+  onFilterChange();
+}
+
+function onFilterChange() {
+  buildContactList();
+  layoutNodes();
+  updateStats();
+  buildTableCategoryFilters();
+  buildTable();
+}
+
+// M5: Animation interpolation — called in render loop
+function animateNodes() {
+  let anyMoving = false;
+  nodes.forEach(n => {
+    if (n.targetX !== undefined && n.targetY !== undefined) {
+      const dx = n.targetX - n.x;
+      const dy = n.targetY - n.y;
+      if (Math.abs(dx) > 0.5 || Math.abs(dy) > 0.5) {
+        n.x += dx * 0.12;
+        n.y += dy * 0.12;
+        anyMoving = true;
+      } else {
+        n.x = n.targetX;
+        n.y = n.targetY;
+      }
+    }
+    // Opacity animation (fade in/out)
+    if (n.targetAlpha !== undefined) {
+      const da = n.targetAlpha - (n.alpha || 1);
+      if (Math.abs(da) > 0.01) {
+        n.alpha = (n.alpha || 1) + da * 0.15;
+      } else {
+        n.alpha = n.targetAlpha;
+      }
+    }
+  });
+}
+
+function updateStats() {
+  const filtered = getFilteredContacts();
+  document.getElementById('stat-contacts').textContent = filtered.length;
+  // Use currentStations (set by loadLevel) — contacts may be trimmed but stations reflect full career
+  document.getElementById('stat-stations').textContent = currentStations.length;
+}
+
+// ═══════════════════════════════════════════════════
+// RADIAL LAYOUT (Concentric Rings × Station Wedges)
+// Sprint A: M1 Photo-Nodes + Initialen, M2 Label Collision, M6 Score-Ring
+// ═══════════════════════════════════════════════════
+
+// Config
+const RING_RADII = [0.32, 0.56, 0.80];   // fraction of maxR per tier
+const RING_THRESHOLDS = [70, 40, 0];       // score cutoffs: Kern ≥70, Mittel 40-69, Peripherie <40
+const WEDGE_GAP = 0.04;                    // radians gap between wedges
+const CENTER_R_MIN = 65;                   // px exclusion zone around center
+const NODE_MIN_R = 12;                     // M1: minimum node radius (clean, compact)
+
+let edges = [];       // kept for interface compat
+let simRunning = false;
+
+// ── Zoom & Pan state ──
+let viewScale = 1;
+let viewOffsetX = 0;
+let viewOffsetY = 0;
+let isPanning = false;
+let panLastX = 0, panLastY = 0;
+const ZOOM_MIN = 0.4;
+const ZOOM_MAX = 5;
+
+// Hex to rgba helper (supports 3-char and 6-char hex)
+function hexToRgba(hex, alpha) {
+  if (!hex || hex.length < 4) return `rgba(85,85,85,${alpha})`;
+  let r, g, b;
+  if (hex.length === 4) {
+    r = parseInt(hex[1]+hex[1], 16);
+    g = parseInt(hex[2]+hex[2], 16);
+    b = parseInt(hex[3]+hex[3], 16);
+  } else {
+    r = parseInt(hex.slice(1,3), 16);
+    g = parseInt(hex.slice(3,5), 16);
+    b = parseInt(hex.slice(5,7), 16);
+  }
+  if (isNaN(r)) r = 85; if (isNaN(g)) g = 85; if (isNaN(b)) b = 85;
+  return `rgba(${r},${g},${b},${alpha})`;
+}
+
+// Lighten a hex color for initials background
+function lightenHex(hex, amount) {
+  let r = parseInt(hex.slice(1,3), 16);
+  let g = parseInt(hex.slice(3,5), 16);
+  let b = parseInt(hex.slice(5,7), 16);
+  r = Math.min(255, r + amount);
+  g = Math.min(255, g + amount);
+  b = Math.min(255, b + amount);
+  return `rgb(${r},${g},${b})`;
+}
+
+// Get initials from name
+function getInitials(name) {
+  if (!name) return '?';
+  const parts = name.trim().split(/\s+/);
+  if (parts.length === 1) return parts[0].charAt(0).toUpperCase();
+  return (parts[0].charAt(0) + parts[parts.length - 1].charAt(0)).toUpperCase();
+}
+
+// Image cache for canvas avatars
+const imageCache = {};
+const imageLoading = {};
+function getImage(url) {
+  if (!url) return null;
+  if (imageCache[url]) return imageCache[url];
+  if (imageLoading[url]) return null;
+  imageLoading[url] = true;
+  const img = new Image();
+  img.crossOrigin = 'anonymous';
+  img.onload = () => { imageCache[url] = img; delete imageLoading[url]; };
+  img.onerror = () => { delete imageLoading[url]; imageCache[url] = 'failed'; };
+  img.src = url;
+  return null;
+}
+
+// Screen ↔ World coordinate transforms
+function screenToWorld(sx, sy) {
+  return {
+    x: (sx - viewOffsetX) / viewScale,
+    y: (sy - viewOffsetY) / viewScale
+  };
+}
+
+// Deterministic hash → [0,1]
+function nameHash(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) h = ((h << 5) - h) + str.charCodeAt(i);
+  return (Math.abs(h) % 10000) / 10000;
+}
+
+// ── Wedge data computed in layoutNodes, reused by drawStationLabels ──
+let wedgeData = {};  // station → { startAngle, endAngle, color, count }
+
+// ── M2: Label collision grid ──
+let labelGrid = {};
+
+function resetLabelGrid() {
+  labelGrid = {};
+}
+
+function canPlaceLabel(x, y, w, h) {
+  // Grid cells 70×30px — check all cells the label would occupy
+  const x1 = Math.floor(x / 70);
+  const y1 = Math.floor(y / 30);
+  const x2 = Math.floor((x + w) / 70);
+  const y2 = Math.floor((y + h) / 30);
+  for (let gx = x1; gx <= x2; gx++) {
+    for (let gy = y1; gy <= y2; gy++) {
+      const key = `${gx}_${gy}`;
+      if (labelGrid[key]) return false;
+    }
+  }
+  // Reserve cells
+  for (let gx = x1; gx <= x2; gx++) {
+    for (let gy = y1; gy <= y2; gy++) {
+      labelGrid[`${gx}_${gy}`] = true;
+    }
+  }
+  return true;
+}
+function layoutNodes() {
+  const oldNodes = nodes;
+  const newNodes = [];
+  nodes = oldNodes; // keep old references for animation matching
+  wedgeData = {};
+  const filtered = getFilteredContacts();
+  if (!filtered.length) return;
+
+  const cx = W / 2, cy = H / 2;
+  const maxR = Math.min(W, H) * 0.42;
+
+  // 1) Group by primary station
+  const groups = {};
+  filtered.forEach(c => {
+    const st = (c.stations || ['Unbekannt'])[0];
+    if (!groups[st]) groups[st] = [];
+    groups[st].push(c);
+  });
+  const stationKeys = Object.keys(groups).sort((a,b) => groups[b].length - groups[a].length);
+  const total = filtered.length;
+
+  // 2) Allocate angular wedges — proportional but with minimum width
+  const totalGap = WEDGE_GAP * stationKeys.length;
+  const usableAngle = Math.PI * 2 - totalGap;
+  const MIN_WEDGE = 0.12;
+
+  let rawAngles = stationKeys.map(st => (groups[st].length / total) * usableAngle);
+  let deficit = 0;
+  rawAngles = rawAngles.map(a => {
+    if (a < MIN_WEDGE) { deficit += MIN_WEDGE - a; return MIN_WEDGE; }
+    return a;
+  });
+  if (deficit > 0) {
+    const largeSum = rawAngles.reduce((s, a) => a > MIN_WEDGE ? s + a : s, 0);
+    rawAngles = rawAngles.map(a => a > MIN_WEDGE ? a - deficit * (a / largeSum) : a);
+  }
+
+  let angle = -Math.PI / 2;
+  stationKeys.forEach((st, i) => {
+    const span = rawAngles[i];
+    wedgeData[st] = {
+      startAngle: angle,
+      endAngle: angle + span,
+      color: STATION_COLORS[st] || '#555',
+      count: groups[st].length
+    };
+    angle += span + WEDGE_GAP;
+  });
+
+  // 3) Within each wedge, bucket contacts by score tier, then place on rings
+  stationKeys.forEach(st => {
+    const members = groups[st];
+    const wd = wedgeData[st];
+
+    const tiers = [[], [], []];
+    members.forEach(c => {
+      const score = c.relevance_score || 0;
+      if (score >= RING_THRESHOLDS[0]) tiers[0].push(c);
+      else if (score >= RING_THRESHOLDS[1]) tiers[1].push(c);
+      else tiers[2].push(c);
+    });
+
+    tiers.forEach((tierContacts, ti) => {
+      if (!tierContacts.length) return;
+      const ringR = Math.max(CENTER_R_MIN, maxR * RING_RADII[ti]);
+
+      tierContacts.sort((a,b) => (b.relevance_score||0) - (a.relevance_score||0));
+
+      const wedgeSpan = wd.endAngle - wd.startAngle;
+      const step = wedgeSpan / (tierContacts.length + 1);
+
+      tierContacts.forEach((c, idx) => {
+        const baseAngle = wd.startAngle + step * (idx + 1);
+        const h = nameHash(c.name);
+        const aJitter = step * 0.25 * (h - 0.5);
+        const rJitter = maxR * 0.04 * (nameHash(c.name + '_r') - 0.5);
+        const a = baseAngle + aJitter;
+        const r = ringR + rJitter;
+
+        const cat = CATEGORIES[c.category] || {};
+        const score = c.relevance_score || 0;
+        const scorePct = Math.min(1, Math.max(0, (score - 15) / 85));
+        const hasImg = !!c.image_url;
+
+        // M1: ALL nodes at least NODE_MIN_R — everyone is a person
+        const maxNodeR = ti === 0 ? 20 : (ti === 1 ? 18 : 15);
+        let baseSize;
+        if (hasImg) {
+          // Photo nodes — scale by score, but always at least NODE_MIN_R
+          baseSize = Math.max(NODE_MIN_R, Math.min(maxNodeR, 12 + scorePct * 10));
+        } else {
+          // Initials nodes — also at least NODE_MIN_R
+          baseSize = Math.max(NODE_MIN_R, Math.min(maxNodeR, 10 + scorePct * 8));
+        }
+        // Outer ring (low score) gets slightly smaller
+        if (ti === 2 && scorePct < 0.15) baseSize = Math.max(12, baseSize - 2);
+
+        const newX = cx + Math.cos(a) * r;
+        const newY = cy + Math.sin(a) * r;
+        // M5: Check if node already exists (reuse position for animation)
+        const existing = nodes.find(en => en.contact && en.contact.name === c.name);
+        if (existing) {
+          existing.targetX = newX;
+          existing.targetY = newY;
+          existing.r = baseSize;
+          existing.color = cat.color || '#555';
+          existing.station = st;
+          existing.scorePct = scorePct;
+          existing.angle = a;
+          existing.tier = ti;
+          existing.targetAlpha = 1;
+          newNodes.push(existing);
+        } else {
+          newNodes.push({
+            x: cx, y: cy, // start from center (entrance animation)
+            targetX: newX,
+            targetY: newY,
+            r: baseSize,
+            contact: c,
+            color: cat.color || '#555',
+            station: st,
+            scorePct: scorePct,
+            angle: a,
+            tier: ti,
+            alpha: 0,
+            targetAlpha: 1
+          });
+        }
+      });
+    });
+  });
+
+  nodes = newNodes;
+  simRunning = false;
+}
+
+function buildEdges() { edges = []; }
+function runSimulation() { simRunning = false; }
+
+// ═══════════════════════════════════════════════════
+// RENDER (Radial)
+// ═══════════════════════════════════════════════════
+
+function render() {
+  if (!W || !H || !isFinite(W) || !isFinite(H)) { requestAnimationFrame(render); return; }
+  ctx.save();
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.clearRect(0, 0, W, H);
+  drawBackground();
+  ctx.restore();
+
+  // Apply zoom+pan transform for all world-space drawing
+  // M5: Animate nodes toward targets
+  animateNodes();
+
+  ctx.save();
+  ctx.setTransform(dpr * viewScale, 0, 0, dpr * viewScale, viewOffsetX * dpr, viewOffsetY * dpr);
+  drawStationLabels();
+  drawSynapses();
+  drawCenter();
+  drawNeurons();
+  ctx.restore();
+
+  // HUD overlay (fixed position, no zoom)
+  ctx.save();
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  drawZoomHUD();
+  ctx.restore();
+
+  drawMinimap();
+  requestAnimationFrame(render);
+}
+
+function drawZoomHUD() {
+  if (viewScale === 1 && viewOffsetX === 0 && viewOffsetY === 0) return;
+  ctx.globalAlpha = 0.4;
+  ctx.fillStyle = '#fff';
+  ctx.font = "400 10px 'JetBrains Mono',monospace";
+  ctx.textAlign = 'right';
+  ctx.fillText(Math.round(viewScale * 100) + '%', W - 12, H - 12);
+  ctx.fillStyle = '#888';
+  ctx.font = "400 9px 'IBM Plex Sans',sans-serif";
+  ctx.fillText('Doppelklick = Reset Zoom', W - 12, H - 26);
+  ctx.globalAlpha = 1;
+}
+
+// M8: Minimap
+function drawMinimap() {
+  const mm = document.getElementById('minimap');
+  if (!mm) return;
+  const showMinimap = viewScale > 1.15;
+  mm.style.display = showMinimap ? 'block' : 'none';
+  if (!showMinimap) return;
+
+  const mmCtx = mm.getContext('2d');
+  const mmW = 160, mmH = 120;
+  mmCtx.clearRect(0, 0, mmW, mmH);
+
+  // Draw all nodes as tiny dots
+  const scaleX = mmW / W;
+  const scaleY = mmH / H;
+  nodes.forEach(n => {
+    const x = n.x * scaleX;
+    const y = n.y * scaleY;
+    mmCtx.fillStyle = n.color;
+    mmCtx.globalAlpha = 0.6;
+    mmCtx.beginPath();
+    mmCtx.arc(x, y, Math.max(1, n.r * scaleX * 0.3), 0, Math.PI * 2);
+    mmCtx.fill();
+  });
+
+  // Draw viewport rectangle
+  const vpX = (-viewOffsetX / viewScale) * scaleX;
+  const vpY = (-viewOffsetY / viewScale) * scaleY;
+  const vpW = (W / viewScale) * scaleX;
+  const vpH = (H / viewScale) * scaleY;
+  mmCtx.globalAlpha = 0.6;
+  mmCtx.strokeStyle = '#F40009';
+  mmCtx.lineWidth = 1.5;
+  mmCtx.strokeRect(vpX, vpY, vpW, vpH);
+  mmCtx.globalAlpha = 1;
+}
+
+function drawBackground() {
+  ctx.fillStyle = '#0a0a0e';
+  ctx.fillRect(0, 0, W, H);
+
+  ctx.fillStyle = 'rgba(255,255,255,0.008)';
+  const step = 48;
+  for (let x = step; x < W; x += step) {
+    for (let y = step; y < H; y += step) {
+      ctx.fillRect(x, y, 1, 1);
+    }
+  }
+}
+
+function drawRingGuides() {
+  const cx = W / 2, cy = H / 2;
+  const maxR = Math.min(W, H) * 0.42;
+  ctx.setLineDash([2, 6]);
+  RING_RADII.forEach((frac, i) => {
+    const r = maxR * frac;
+    ctx.strokeStyle = 'rgba(255,255,255,0.04)';
+    ctx.lineWidth = 0.5 / viewScale;
+    ctx.beginPath();
+    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    ctx.stroke();
+  });
+  ctx.setLineDash([]);
+
+  const tierLabels = ['KERN', 'MITTEL', 'RAND'];
+  const fontSize = Math.max(7, 8 / viewScale);
+  ctx.font = `400 ${fontSize}px 'JetBrains Mono',monospace`;
+  ctx.textAlign = 'left';
+  const labelAngle = Math.PI * 0.38;
+  RING_RADII.forEach((frac, i) => {
+    const r = maxR * frac;
+    const lx = cx + r * Math.cos(labelAngle) + 4;
+    const ly = cy + r * Math.sin(labelAngle) - 4;
+    ctx.fillStyle = 'rgba(255,255,255,0.1)';
+    ctx.fillText(tierLabels[i], lx, ly);
+  });
+}
+
+function drawStationLabels() {
+  if (!W || !H) return;
+  drawRingGuides();
+  if (searchTerm) return;
+  const cx = W / 2, cy = H / 2;
+  const maxR = Math.min(W, H) * 0.42;
+  const outerR = maxR * 0.88;
+
+  Object.entries(wedgeData).forEach(([name, wd]) => {
+    if (wd.count < 1) return;
+    const col = wd.color;
+    const midAngle = (wd.startAngle + wd.endAngle) / 2;
+    const span = wd.endAngle - wd.startAngle;
+
+    // M4: Wedge fill — radial gradient, brighter on hover
+    const isActiveWedge = hoveredNode && hoveredNode.station === name;
+    const fillAlpha = isActiveWedge ? 0.08 : 0.03;
+    if (span > 0.08) {
+      const grd = ctx.createRadialGradient(cx, cy, CENTER_R_MIN, cx, cy, outerR);
+      grd.addColorStop(0, hexToRgba(col, 0));
+      grd.addColorStop(1, hexToRgba(col, fillAlpha));
+      ctx.fillStyle = grd;
+      ctx.beginPath();
+      ctx.moveTo(cx, cy);
+      ctx.arc(cx, cy, outerR, wd.startAngle, wd.endAngle);
+      ctx.closePath();
+      ctx.fill();
+    }
+
+    // Wedge arc — solid line at rim
+    ctx.globalAlpha = 0.25;
+    ctx.strokeStyle = col;
+    ctx.lineWidth = 1.5 / viewScale;
+    ctx.beginPath();
+    ctx.arc(cx, cy, outerR, wd.startAngle, wd.endAngle);
+    ctx.stroke();
+
+    // Radial divider lines at wedge boundaries
+    ctx.globalAlpha = 0.06;
+    ctx.strokeStyle = col;
+    ctx.lineWidth = 0.5 / viewScale;
+    [wd.startAngle, wd.endAngle].forEach(a => {
+      ctx.beginPath();
+      ctx.moveTo(cx + CENTER_R_MIN * 0.8 * Math.cos(a), cy + CENTER_R_MIN * 0.8 * Math.sin(a));
+      ctx.lineTo(cx + outerR * Math.cos(a), cy + outerR * Math.sin(a));
+      ctx.stroke();
+    });
+
+    // Station label — with colored dot indicator
+    const labelR = outerR + 16;
+    const lx = cx + labelR * Math.cos(midAngle);
+    const ly = cy + labelR * Math.sin(midAngle);
+
+    // Dot indicator before station name
+    const dotR = 3 / viewScale;
+    const dotX = lx + (lx < cx ? dotR + 2 : -dotR - 2);
+    ctx.globalAlpha = 0.7;
+    ctx.fillStyle = col;
+    ctx.beginPath();
+    ctx.arc(dotX, ly, dotR, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.globalAlpha = 0.55;
+    ctx.fillStyle = col;
+    const stFontSize = Math.max(8, 11 / viewScale);
+    ctx.font = `500 ${stFontSize}px 'JetBrains Mono',monospace`;
+    ctx.textBaseline = 'middle';
+
+    const normAngle = ((midAngle % (Math.PI * 2)) + Math.PI * 2) % (Math.PI * 2);
+    if (normAngle > Math.PI * 0.55 && normAngle < Math.PI * 1.45) {
+      ctx.textAlign = lx < cx ? 'right' : 'left';
+    } else if (lx < cx - 20) {
+      ctx.textAlign = 'right';
+    } else if (lx > cx + 20) {
+      ctx.textAlign = 'left';
+    } else {
+      ctx.textAlign = 'center';
+    }
+
+    let label = name.length > 20 ? name.slice(0, 18) + '..' : name;
+    ctx.fillText(label, lx, ly);
+
+    ctx.globalAlpha = 1;
+  });
+}
+
+function drawSynapses() {
+  const cx = W / 2, cy = H / 2;
+
+  // M7: Relationship arcs on hover — show connections between contacts who know each other
+  if (hoveredNode && !searchTerm) {
+    const hc = hoveredNode.contact;
+    const connNames = new Set();
+    (hc.coaches_worked_with || []).forEach(n => connNames.add(n));
+    (hc.sds_worked_with || []).forEach(n => connNames.add(n));
+
+    if (connNames.size > 0) {
+      // Draw arcs from hovered node to connected nodes
+      nodes.forEach(n => {
+        if (connNames.has(n.contact.name)) {
+          // Quadratic bezier arc
+          const mx = (hoveredNode.x + n.x) / 2;
+          const my = (hoveredNode.y + n.y) / 2;
+          // Offset midpoint perpendicular to the line
+          const dx = n.x - hoveredNode.x;
+          const dy = n.y - hoveredNode.y;
+          const dist = Math.sqrt(dx*dx + dy*dy);
+          const perpX = -dy / (dist || 1) * dist * 0.15;
+          const perpY = dx / (dist || 1) * dist * 0.15;
+
+          const shared = n.contact.shared_station_count || 1;
+          const lw = Math.min(2.5, 0.8 + shared * 0.5);
+
+          ctx.globalAlpha = 0.35;
+          ctx.strokeStyle = hoveredNode.color;
+          ctx.lineWidth = lw;
+          ctx.setLineDash([]);
+          ctx.beginPath();
+          ctx.moveTo(hoveredNode.x, hoveredNode.y);
+          ctx.quadraticCurveTo(mx + perpX, my + perpY, n.x, n.y);
+          ctx.stroke();
+          ctx.globalAlpha = 1;
+        }
+      });
+    }
+  }
+
+  // Subtle radial lines only for high-score nodes (toned down from before)
+  if (!hoveredNode) {
+    nodes.forEach(n => {
+      const c = n.contact;
+      const dimmed = searchTerm && !c.name.toLowerCase().includes(searchTerm);
+      if (dimmed) return;
+      const sp = n.scorePct || 0;
+      if (sp < 0.6) return; // only top contacts
+      const alpha = 0.008 + sp * 0.02;
+      ctx.strokeStyle = hexToRgba(n.color, alpha);
+      ctx.lineWidth = 0.25;
+      ctx.beginPath();
+      ctx.moveTo(cx, cy);
+      ctx.lineTo(n.x, n.y);
+      ctx.stroke();
+    });
+  }
+}
+
+function drawCenter() {
+  const cx = W/2, cy = H/2;
+  let centerImgUrl = null;
+  if (currentCenter === NETWORK.center && NETWORK.center_info) centerImgUrl = NETWORK.center_info.image_url;
+  else { const k = currentCenter.toLowerCase().replace(/ /g, '_'); if (DRILLDOWN && DRILLDOWN[k] && DRILLDOWN[k].center_info) centerImgUrl = DRILLDOWN[k].center_info.image_url; }
+  const centerImg = centerImgUrl ? getImage(centerImgUrl) : null;
+  const hasCenterImg = centerImg && centerImg !== 'failed';
+  const centerR = 32;
+
+  ctx.globalAlpha = 1;
+
+  // Subtle static glow behind center (no animation)
+  const glowR = centerR * 2.5;
+  const grd = ctx.createRadialGradient(cx, cy, centerR * 0.5, cx, cy, glowR);
+  grd.addColorStop(0, 'rgba(244,0,9,0.06)');
+  grd.addColorStop(1, 'rgba(244,0,9,0)');
+  ctx.fillStyle = grd;
+  ctx.fillRect(cx - glowR, cy - glowR, glowR * 2, glowR * 2);
+
+  if (hasCenterImg) {
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(cx, cy, centerR, 0, Math.PI * 2);
+    ctx.clip();
+    try { ctx.drawImage(centerImg, cx - centerR, cy - centerR, centerR * 2, centerR * 2); } catch(e) {}
+    ctx.restore();
+    ctx.strokeStyle = '#F40009';
+    ctx.lineWidth = 2.5;
+    ctx.beginPath();
+    ctx.arc(cx, cy, centerR, 0, Math.PI * 2);
+    ctx.stroke();
+  } else {
+    // Initials avatar for center too
+    ctx.fillStyle = '#F40009';
+    ctx.beginPath();
+    ctx.arc(cx, cy, centerR, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.fillStyle = '#fff';
+    ctx.font = "700 18px 'IBM Plex Sans',sans-serif";
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(getInitials(currentCenter), cx, cy);
+    ctx.textBaseline = 'alphabetic';
+  }
+
+  // Label below center
+  ctx.fillStyle = '#fff';
+  ctx.font = "600 13px 'IBM Plex Sans',sans-serif";
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText(currentCenter, cx, cy + centerR + 18);
+}
+
+function drawNeurons() {
+  // M2: Reset label collision grid each frame
+  resetLabelGrid();
+
+  // Sort: draw low-score first, high-score on top (high-score labels win collisions)
+  const sorted = [...nodes].sort((a,b) => a.scorePct - b.scorePct);
+
+  // Two-pass: first draw all nodes, then draw labels on top
+  // Pass 1: Node bodies
+  sorted.forEach(n => {
+    const c = n.contact;
+    const isHovered = hoveredNode === n;
+    const isSelected = selectedNode && selectedNode.name === c.name;
+    const isSearch = searchTerm && c.name.toLowerCase().includes(searchTerm);
+    const dimmed = searchTerm && !isSearch;
+    const img = c.image_url ? getImage(c.image_url) : null;
+    const hasImg = img && img !== 'failed';
+    const highlight = isHovered || isSelected;
+    const nodeR = n.r;
+    const sp = n.scorePct || 0;
+
+    // Score < 30: slightly dimmed; M7: dim non-connected on hover
+    let baseAlpha = dimmed ? 0.05 : (sp < 0.18 ? 0.6 : 1);
+    // Node opacity from animation
+    if (n.alpha !== undefined && n.alpha < 1) baseAlpha *= n.alpha;
+    // M7: Dim non-connected nodes when hovering
+    if (hoveredNode && hoveredNode !== n && !isHovered) {
+      const hc = hoveredNode.contact;
+      const connNames = new Set([...(hc.coaches_worked_with||[]), ...(hc.sds_worked_with||[])]);
+      if (!connNames.has(c.name)) baseAlpha *= 0.25;
+    }
+    ctx.globalAlpha = baseAlpha;
+
+    // Score indicator: subtle border thickness based on relevance (no animated ring)
+    // Replaced circular progress arcs with clean border styling
+
+    // Hover / select ring
+    if (highlight) {
+      ctx.globalAlpha = 1;
+      ctx.strokeStyle = '#F40009';
+      ctx.lineWidth = 2.5;
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, nodeR + 6, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.globalAlpha = baseAlpha;
+    }
+
+    // M1: Node body — Photo-circle OR Initials-avatar for ALL contacts
+    if (hasImg) {
+      // Photo circle
+      ctx.save();
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, nodeR, 0, Math.PI * 2);
+      ctx.clip();
+      try { ctx.drawImage(img, n.x - nodeR, n.y - nodeR, nodeR * 2, nodeR * 2); } catch(e) {}
+      ctx.restore();
+      // Category color ring around photo
+      ctx.strokeStyle = highlight ? '#F40009' : n.color;
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, nodeR, 0, Math.PI * 2);
+      ctx.stroke();
+    } else {
+      // M1: Initials-Avatar — colored circle with white initials (like LinkedIn/Slack)
+      ctx.fillStyle = n.color;
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, nodeR, 0, Math.PI * 2);
+      ctx.fill();
+      // White initials
+      ctx.globalAlpha = dimmed ? 0.05 : (sp < 0.18 ? 0.7 : 0.95);
+      ctx.fillStyle = '#fff';
+      const initFontSize = Math.max(7, nodeR * 0.75);
+      ctx.font = `600 ${initFontSize}px 'IBM Plex Sans',sans-serif`;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(getInitials(c.name), n.x, n.y);
+      ctx.textBaseline = 'alphabetic';
+      // Subtle border
+      ctx.strokeStyle = highlight ? '#F40009' : hexToRgba(n.color, 0.5);
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, nodeR, 0, Math.PI * 2);
+      ctx.stroke();
+    }
+
+    // Drill-down indicator
+    if (c.has_drilldown && !dimmed && (highlight || sp > 0.25)) {
+      ctx.globalAlpha = highlight ? 0.9 : 0.35;
+      ctx.fillStyle = '#F40009';
+      ctx.font = "700 9px 'JetBrains Mono',monospace";
+      ctx.textAlign = 'left';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('>>', n.x + nodeR + 4, n.y);
+      ctx.textBaseline = 'alphabetic';
+    }
+  });
+
+  // Pass 2: Labels — drawn on top, with collision detection
+  // Process from highest score to lowest so important labels win
+  const byScore = [...nodes].sort((a,b) => b.scorePct - a.scorePct);
+  byScore.forEach(n => {
+    const c = n.contact;
+    const isHovered = hoveredNode === n;
+    const isSelected = selectedNode && selectedNode.name === c.name;
+    const isSearch = searchTerm && c.name.toLowerCase().includes(searchTerm);
+    const dimmed = searchTerm && !isSearch;
+    const highlight = isHovered || isSelected;
+    const sp = n.scorePct || 0;
+    const nodeR = n.r;
+
+    if (dimmed) return;
+
+    // Determine if label should be shown
+    let labelThreshold = nodes.length > 200 ? 0.7 : (nodes.length > 100 ? 0.6 : 0.45);
+    if (viewScale > 2) labelThreshold = Math.max(0.05, labelThreshold - 0.4);
+    else if (viewScale > 1.5) labelThreshold = Math.max(0.1, labelThreshold - 0.3);
+    else if (viewScale > 1) labelThreshold = Math.max(0.2, labelThreshold - 0.15);
+
+    const wantLabel = highlight || isSearch || sp > labelThreshold;
+    if (!wantLabel) return;
+
+    const fontSize = highlight ? 11 : (sp > 0.65 ? 10 : 9);
+    ctx.font = (highlight ? '600' : '400') + ` ${fontSize}px 'IBM Plex Sans',sans-serif`;
+    ctx.textAlign = 'center';
+
+    let label = c.name;
+    const maxLabelW = 90;
+    if (ctx.measureText(label).width > maxLabelW) {
+      while (ctx.measureText(label + '..').width > maxLabelW && label.length > 3) label = label.slice(0, -1);
+      label += '..';
+    }
+
+    const labelW = ctx.measureText(label).width;
+    const labelH = fontSize + 2;
+    const labelX = n.x - labelW / 2;
+    const labelY = n.y + nodeR + 6;
+
+    // M2: Collision check — highlighted/hovered always shown
+    if (!highlight && !isSearch) {
+      if (!canPlaceLabel(labelX, labelY, labelW, labelH)) return;
+    }
+
+    const labelAlpha = highlight ? 1 : (0.4 + sp * 0.5);
+    ctx.globalAlpha = labelAlpha;
+    ctx.fillStyle = highlight ? '#fff' : '#ccc';
+    ctx.fillText(label, n.x, labelY + fontSize * 0.8);
+  });
+
+  ctx.globalAlpha = 1;
+}
+
+function setupEvents() {
+  window.addEventListener('resize', resize);
+  canvas.addEventListener('mousemove', onMouseMove);
+  canvas.addEventListener('click', onClick);
+  canvas.addEventListener('dblclick', onDblClick);
+  document.addEventListener('keydown', onKeyDown);
+  const scoreSlider = document.getElementById('score-slider');
+  if (scoreSlider) {
+    scoreSlider.addEventListener('input', (e) => {
+      scoreThreshold = parseInt(e.target.value);
+      document.getElementById('score-val').textContent = '≥' + scoreThreshold;
+      onFilterChange();
+    });
+  }
+  document.getElementById('search-input').addEventListener('input', onSearch);
+  document.getElementById('detail-close').addEventListener('click', closeDetail);
+  document.getElementById('pro-filter-btn').addEventListener('click', toggleProFilter);
+  const _availBtn = document.getElementById('avail-filter-btn');
+  if (_availBtn) _availBtn.addEventListener('click', toggleAvailFilter);
+  // Fix B (A6 2026-05-13) — Mitspieler-aktiv-Filter
+  const _msBtn = document.getElementById('mitspieler-active-btn');
+  if (_msBtn) _msBtn.addEventListener('click', toggleMitspielerActive);
+
+  // Zoom (mouse wheel)
+  canvas.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    const rect = canvas.getBoundingClientRect();
+    const mx = e.clientX - rect.left;
+    const my = e.clientY - rect.top;
+    const zoomFactor = e.deltaY < 0 ? 1.12 : 0.89;
+    const newScale = Math.max(ZOOM_MIN, Math.min(ZOOM_MAX, viewScale * zoomFactor));
+    const scaleChange = newScale / viewScale;
+    viewOffsetX = mx - scaleChange * (mx - viewOffsetX);
+    viewOffsetY = my - scaleChange * (my - viewOffsetY);
+    viewScale = newScale;
+  }, { passive: false });
+
+  // Pan (drag when zoomed)
+  canvas.addEventListener('mousedown', (e) => {
+    if (e.button === 1 || (e.button === 0 && e.shiftKey) || (e.button === 0 && viewScale > 1.05)) {
+      const n = getNodeAt(e.clientX - canvas.getBoundingClientRect().left, e.clientY - canvas.getBoundingClientRect().top);
+      if (!n) {
+        isPanning = true;
+        panLastX = e.clientX;
+        panLastY = e.clientY;
+        canvas.style.cursor = 'grabbing';
+        e.preventDefault();
+      }
+    }
+  });
+  window.addEventListener('mousemove', (e) => {
+    if (isPanning) {
+      viewOffsetX += e.clientX - panLastX;
+      viewOffsetY += e.clientY - panLastY;
+      panLastX = e.clientX;
+      panLastY = e.clientY;
+    }
+  });
+  window.addEventListener('mouseup', () => {
+    if (isPanning) {
+      isPanning = false;
+      canvas.style.cursor = 'default';
+    }
+  });
+
+  // M8: Minimap click-to-navigate
+  const minimap = document.getElementById('minimap');
+  if (minimap) {
+    minimap.addEventListener('click', (e) => {
+      const rect = minimap.getBoundingClientRect();
+      const mx = e.clientX - rect.left;
+      const my = e.clientY - rect.top;
+      const worldX = (mx / 160) * W;
+      const worldY = (my / 120) * H;
+      viewOffsetX = W / 2 - worldX * viewScale;
+      viewOffsetY = H / 2 - worldY * viewScale;
+    });
+  }
+
+  // Mobile sidebar toggle
+  const mobileToggle = document.getElementById('mobile-toggle');
+  if (mobileToggle) {
+    mobileToggle.addEventListener('click', () => {
+      const sb = document.querySelector('.sidebar-left');
+      sb.classList.toggle('mobile-open');
+      mobileToggle.textContent = sb.classList.contains('mobile-open') ? '\u2715' : '\u2630';
+    });
+  }
+
+  // Touch support: tap = click, long-press = drill-down
+  let touchTimer = null;
+  canvas.addEventListener('touchstart', (e) => {
+    const touch = e.touches[0];
+    const rect = canvas.getBoundingClientRect();
+    const sx = (touch.clientX - rect.left) * (canvas.width / rect.width);
+    const sy = (touch.clientY - rect.top) * (canvas.height / rect.height);
+    const n = getNodeAt(sx, sy);
+    if (n) {
+      e.preventDefault();
+      touchTimer = setTimeout(() => { if (n.contact.has_drilldown) drillDown(n.contact); touchTimer = null; }, 500);
+    }
+  }, { passive: false });
+  canvas.addEventListener('touchend', (e) => {
+    if (touchTimer) { clearTimeout(touchTimer); touchTimer = null; /* short tap = click handled by click event */ }
+  });
+}
+
+function getNodeAt(sx, sy) {
+  const wx = (sx - viewOffsetX) / viewScale;
+  const wy = (sy - viewOffsetY) / viewScale;
+  const hitR = 8 / viewScale;
+  for (let i = nodes.length - 1; i >= 0; i--) {
+    const n = nodes[i];
+    const dx = wx - n.x, dy = wy - n.y;
+    if (dx*dx + dy*dy <= (n.r+hitR)*(n.r+hitR)) return n;
+  }
+  return null;
+}
+
+function getInitialsForTooltip(name) {
+  if (!name) return '?';
+  const parts = name.trim().split(/\s+/);
+  if (parts.length === 1) return parts[0].charAt(0).toUpperCase();
+  return (parts[0].charAt(0) + parts[parts.length - 1].charAt(0)).toUpperCase();
+}
+
+function onMouseMove(e) {
+  const rect = canvas.getBoundingClientRect();
+  const x = e.clientX - rect.left, y = e.clientY - rect.top;
+  const n = getNodeAt(x, y);
+  hoveredNode = n;
+  canvas.style.cursor = n ? 'pointer' : (isPanning ? 'grabbing' : (viewScale > 1.05 ? 'grab' : 'crosshair'));
+  const tt = document.getElementById('tooltip');
+  if (n) {
+    const c = n.contact;
+    const score = c.relevance_score || 0;
+    const cat = CATEGORIES[c.category] || {};
+    const catColor = cat.color || '#555';
+
+    // Name + role
+    document.getElementById('tt-name').textContent = c.name;
+    const roleClub = [c.role, c.current_club].filter(Boolean).join(' · ');
+    document.getElementById('tt-role').textContent = roleClub;
+
+    // Avatar: photo or initials
+    const avatarImg = document.getElementById('tt-avatar-img');
+    const avatarInit = document.getElementById('tt-avatar-init');
+    if (c.image_url) {
+      avatarImg.src = c.image_url;
+      avatarImg.style.display = 'block';
+      avatarImg.style.borderColor = catColor;
+      avatarInit.style.display = 'none';
+    } else {
+      avatarImg.style.display = 'none';
+      avatarInit.style.display = 'flex';
+      avatarInit.style.background = catColor;
+      avatarInit.textContent = getInitialsForTooltip(c.name);
+    }
+
+    // Score bar
+    const fill = document.getElementById('tt-score-fill');
+    fill.style.width = score + '%';
+    fill.style.background = catColor;
+    document.getElementById('tt-score-val').textContent = score;
+
+    // Stations
+    const stations = c.stations || [];
+    const stHtml = stations.length > 0 ? stations.slice(0, 3).join(', ') + (stations.length > 3 ? ' +' + (stations.length - 3) : '') : '';
+    document.getElementById('tt-stations').textContent = stHtml;
+
+    // Meta line (shared stations, category)
+    const meta = [];
+    if (c.shared_station_count > 0) meta.push(c.shared_station_count + ' gemeins. Stationen');
+    if (c.category) meta.push(cat.label || c.category);
+    document.getElementById('tt-meta').textContent = meta.join(' · ');
+
+    // Action hint
+    document.getElementById('tt-action').textContent = c.has_drilldown ? '>> Netzwerk erkunden' : '';
+
+    tt.style.display = 'block';
+    const container = document.getElementById('canvas-container').getBoundingClientRect();
+    let tx = e.clientX - container.left + 18;
+    let ty = e.clientY - container.top - 10;
+    // Flip if near edges
+    if (tx + 300 > container.width) tx = e.clientX - container.left - 300;
+    if (ty + 160 > container.height) ty = ty - 140;
+    if (ty < 10) ty = 10;
+    tt.style.left = tx + 'px';
+    tt.style.top = ty + 'px';
+  } else {
+    tt.style.display = 'none';
+  }
+}
+
+function onClick(e) {
+  if (isPanning) return;  // don't click while panning
+  const rect = canvas.getBoundingClientRect();
+  const n = getNodeAt(e.clientX - rect.left, e.clientY - rect.top);
+  if (n) {
+    selectContact(n.contact);
+    highlightNode(n.contact.name);
+  } else {
+    closeDetail();
+    selectedNode = null;
+    unhighlightAll();
+  }
+}
+
+function onDblClick(e) {
+  const rect = canvas.getBoundingClientRect();
+  const n = getNodeAt(e.clientX - rect.left, e.clientY - rect.top);
+  if (n && n.contact.has_drilldown) drillDown(n.contact);
+  else if (!n) {
+    // Reset zoom on double-click on empty space
+    viewScale = 1;
+    viewOffsetX = 0;
+    viewOffsetY = 0;
+  }
+}
+
+function onKeyDown(e) {
+  if (e.key === 'Backspace' && document.activeElement.tagName !== 'INPUT') {
+    e.preventDefault();
+    navigateBack();
+  }
+  if (e.key === 'Escape') {
+    if (document.getElementById('detail-panel').classList.contains('open')) {
+      closeDetail();
+    } else if (viewScale > 1.05) {
+      viewScale = 1; viewOffsetX = 0; viewOffsetY = 0;
+    }
+  }
+}
+
+function onSearch(e) {
+  searchTerm = e.target.value.toLowerCase().trim();
+  buildContactList();
+  layoutNodes();
+  updateStats();
+}
+
+// ═══════════════════════════════════════════════════
+// DETAIL PANEL
+// ═══════════════════════════════════════════════════
+function selectContact(c) {
+  selectedNode = c;
+  const panel = document.getElementById('detail-panel');
+  panel.classList.add('open');
+  document.getElementById('d-name').textContent = c.name;
+  // Profile image or initials avatar
+  const avatarEl = document.getElementById('d-avatar');
+  const avatarInitEl = document.getElementById('d-avatar-init');
+  const cat = CATEGORIES[c.category] || {};
+  if (c.image_url) {
+    avatarEl.src = c.image_url; avatarEl.classList.remove('hidden');
+    if (avatarInitEl) avatarInitEl.style.display = 'none';
+  } else {
+    avatarEl.src = ''; avatarEl.classList.add('hidden');
+    if (avatarInitEl) {
+      avatarInitEl.style.display = 'flex';
+      avatarInitEl.style.background = cat.color || '#555';
+      avatarInitEl.textContent = getInitialsForList(c.name);
+    }
+  }
+  const roleEl = document.getElementById('d-role');
+  const proTag = c.pro_status==='trainer' ? ' · Trainer' : c.pro_status==='sd' ? ' · Sporting Director' : c.pro_status==='exec' ? ' · Executive (GF Sport)' : c.pro_status==='exec_gov' ? ' · Präsidium / AR' : '';
+  roleEl.innerHTML = (c.role||'') + (proTag ? `<span style="color:var(--red);font-weight:600">${proTag}</span>` : '');
+  document.getElementById('d-note').textContent = c.note || '';
+
+  // Meta info — definition-list for clear label/value hierarchy
+  const metaSection = document.getElementById('d-meta-section');
+  const metaDiv = document.getElementById('d-meta');
+  const rows = [];
+  const natStr = Array.isArray(c.nationality)
+    ? c.nationality.filter(n => !/^U\d|DDR/.test(n)).join(', ')
+    : (c.nationality || '');
+  if (natStr) rows.push(['Nation', natStr]);
+  if (c.age && c.dob) rows.push(['Geboren', `${c.dob} (${c.age} J.)`]);
+  else if (c.dob) rows.push(['Geboren', c.dob]);
+  if (c.current_club) rows.push(['Verein', c.current_club]);
+  if (c.license) rows.push(['Lizenz', c.license]);
+  if (c.shared_matches) {
+    const hrs = c.shared_minutes ? ` · ${Math.round(c.shared_minutes/90)}h` : '';
+    rows.push(['Gemeinsame Spiele', `<span class="dd-accent">${c.shared_matches}${hrs}</span>`, true]);
+  }
+  if (rows.length) {
+    const html = '<dl>' + rows.map(r => {
+      const [label, value, isAccent] = r;
+      return `<dt>${label}</dt><dd${isAccent ? ' class="dd-accent"' : ''}>${value}</dd>`;
+    }).join('') + '</dl>';
+    metaDiv.innerHTML = html;
+    metaSection.style.display = 'block';
+  } else {
+    metaSection.style.display = 'none';
+  }
+
+  // Background summary
+  const sumSection = document.getElementById('d-summary-section');
+  const sumDiv = document.getElementById('d-summary');
+  if (c.background_summary) { sumDiv.textContent = c.background_summary; sumSection.style.display = 'block'; }
+  else { sumSection.style.display = 'none'; }
+
+  // Stations
+  const stDiv = document.getElementById('d-stations');
+  stDiv.innerHTML = '';
+  (c.stations||[]).forEach(st => {
+    const col = STATION_COLORS[st] || '#555';
+    stDiv.innerHTML += `<span class="detail-station-tag" style="border-color:${col};color:${col}">${st}</span>`;
+  });
+
+  // TM link
+  const tmSection = document.getElementById('d-tm-section');
+  const tmLink = document.getElementById('d-tm');
+  if (c.tm_url && c.tm_url.startsWith('http')) {
+    tmLink.href = c.tm_url;
+    tmSection.style.display = 'block';
+  } else if (c.tm_url && c.tm_url.startsWith('/')) {
+    tmLink.href = 'https://www.transfermarkt.de' + c.tm_url;
+    tmSection.style.display = 'block';
+  } else {
+    tmSection.style.display = 'none';
+  }
+
+  // Dashboard cross-link
+  const dashSection = document.getElementById('d-dashboard-section');
+  const dashLink = document.getElementById('d-dashboard-link');
+  const dashSlug = c._tm_id && DASHBOARD_INDEX[c._tm_id];
+  if (dashSlug) {
+    dashLink.href = dashSlug + '_network.html';
+    dashSection.style.display = 'block';
+  } else {
+    dashSection.style.display = 'none';
+  }
+
+  // Career history (structured table or legacy string fallback)
+  const careerSection = document.getElementById('d-career-section');
+  const careerDiv = document.getElementById('d-career');
+  if (c.career_history && Array.isArray(c.career_history) && c.career_history.length) {
+    let html = '<table class="career-table"><thead><tr><th>Verein</th><th>Rolle</th><th>Zeitraum</th></tr></thead><tbody>';
+    c.career_history.forEach(e => {
+      const period = e.to && e.to !== '-' ? `${e.from} — ${e.to}` : `seit ${e.from}`;
+      html += `<tr><td>${e.club||''}</td><td>${e.role||''}</td><td class="career-season">${period}</td></tr>`;
+    });
+    html += '</tbody></table>';
+    careerDiv.innerHTML = html;
+    careerSection.style.display = 'block';
+  } else if (c.career_history && typeof c.career_history === 'string') {
+    careerDiv.innerHTML = c.career_history.replace(/,\s*/g, '<br>');
+    careerSection.style.display = 'block';
+  } else { careerSection.style.display = 'none'; }
+
+  // Agent / Berater (Blacklist: keine Agenturen, nur Rauschwerte aus TM)
+  const AGENT_BLACKLIST = new Set([
+    '', 'ohne Berater', 'Familienangehörige', 'Familienangehoerige',
+    'Eltern', 'keine Angabe', 'kein Berater', '-', 'N/A', 'unbekannt'
+  ]);
+  const agentRow = document.getElementById('d-agent-row');
+  if (agentRow) {
+    const a = (c.agent || '').trim();
+    if (a && !AGENT_BLACKLIST.has(a)) {
+      document.getElementById('d-agent-value').textContent = a;
+      agentRow.style.display = '';
+    } else { agentRow.style.display = 'none'; }
+  }
+
+  // Availability-Status (Replacement-Pool-Indikator)
+  const availRow = document.getElementById('d-avail-row');
+  if (availRow) {
+    const st = c.availability_status;
+    const STATUS_LABELS = {
+      vereinslos: 'Vereinslos',
+      frei_zum_saisonende: 'Frei zum Saisonende',
+      wechselbereit: 'Wechselbereit',
+      kontraktiert: 'Kontraktiert',
+      unbekannt: 'Unbekannt',
+    };
+    if (st && STATUS_LABELS[st] && st !== 'unbekannt') {
+      const reason = c.availability_reason ? ` title="${c.availability_reason.replace(/"/g, '&quot;')}"` : '';
+      document.getElementById('d-avail-value').innerHTML =
+        `<span class="avail-badge avail-${st}"${reason}>${STATUS_LABELS[st]}</span>`;
+      availRow.style.display = '';
+    } else { availRow.style.display = 'none'; }
+  }
+
+  // Vertrag bis (Aktivierungs-Trigger — < 90 Tage = rot)
+  const contractRow = document.getElementById('d-contract-row');
+  if (contractRow) {
+    if (c.contract_until && c.contract_until !== 'unbekannt') {
+      const days = c.contract_days_remaining;
+      const cleanDate = String(c.contract_until).replace('vsl.', '').trim();
+      let html = cleanDate;
+      if (typeof days === 'number') {
+        const color = days < 90 ? '#F40009' : days < 180 ? '#f0a500' : 'var(--text-dim)';
+        const label = days < 0 ? 'abgelaufen' : `noch ${days} Tage`;
+        html += ` <span style="color:${color}">· ${label}</span>`;
+      }
+      document.getElementById('d-contract-value').innerHTML = html;
+      contractRow.style.display = '';
+    } else { contractRow.style.display = 'none'; }
+  }
+
+  // GemeinsameSpiele stats
+  const gsRow = document.getElementById('d-gs-row');
+  if (gsRow) {
+    if (c.shared_matches) {
+      const mins = c.shared_minutes ? ` · ${Math.round(c.shared_minutes/60)}h` : '';
+      document.getElementById('d-gs-value').textContent = `${c.shared_matches} Spiele${mins}`;
+      gsRow.style.display = '';
+    } else { gsRow.style.display = 'none'; }
+  }
+
+  // Fix C (A8 2026-05-13) — Mitspieler-Stationen-Tabelle:
+  // For former_teammate contacts, render a `career-table`-styled breakdown of
+  // {club, seasons, matches} mirroring the trainer Karriere-Timeline UX.
+  // Reuses the existing #d-career-section markup if there's no career_history;
+  // otherwise injects right above the TM-link section. We render in-place using
+  // a dedicated div if available, falling back to #d-career-section.
+  if (c.category === 'former_teammate' && Array.isArray(c.shared_stations) && c.shared_stations.length) {
+    const careerSection = document.getElementById('d-career-section');
+    const careerDiv = document.getElementById('d-career');
+    if (careerSection && careerDiv) {
+      // Only inject if career_history is absent (otherwise keep coaching career view)
+      const hasCareer = c.career_history && (Array.isArray(c.career_history) ? c.career_history.length : c.career_history.length > 0);
+      if (!hasCareer) {
+        let html = '<table class="career-table"><thead><tr><th>Verein</th><th>Saisons gemeinsam</th><th>Spiele</th></tr></thead><tbody>';
+        c.shared_stations.forEach(s => {
+          const seasons = (s.seasons || []).slice().sort();
+          const seasonStr = seasons.length
+            ? (seasons.length === 1 ? `${seasons[0]}/${String(seasons[0]+1).slice(2)}` :
+               `${seasons[0]}/${String(seasons[0]+1).slice(2)}–${seasons[seasons.length-1]}/${String(seasons[seasons.length-1]+1).slice(2)}`)
+            : '—';
+          const matchStr = s.matches ? s.matches : '—';
+          html += `<tr><td>${s.club||''}</td><td class="career-season">${seasonStr}</td><td>${matchStr}</td></tr>`;
+        });
+        html += '</tbody></table>';
+        careerDiv.innerHTML = html;
+        careerSection.style.display = 'block';
+      }
+    }
+  }
+
+  // Connections (coaches + SDs worked with)
+  const connSection = document.getElementById('d-connections-section');
+  const connDiv = document.getElementById('d-connections');
+  const connParts = [];
+  if (c.coaches_worked_with && c.coaches_worked_with.length) {
+    const cwNames = c.coaches_worked_with.map(x => typeof x === 'string' ? x : x.name || x);
+    connParts.push(`<span class="conn-label">Trainer-Kollegen</span><span class="conn-names">${cwNames.slice(0,8).join(', ')}${cwNames.length>8?' (+' + (cwNames.length-8) + ')':''}</span>`);
+  }
+  if (c.sds_worked_with && c.sds_worked_with.length) {
+    const sdNames = c.sds_worked_with.map(x => typeof x === 'string' ? x : x.name || x);
+    connParts.push(`<span class="conn-label">Sportdirektoren</span><span class="conn-names">${sdNames.join(', ')}</span>`);
+  }
+  if (connParts.length) { connDiv.innerHTML = connParts.join(''); connSection.style.display = 'block'; }
+  else { connSection.style.display = 'none'; }
+
+  // Top players coached
+  const playersSection = document.getElementById('d-players-section');
+  const playersDiv = document.getElementById('d-players');
+  if (c.top_players_coached && c.top_players_coached.length) {
+    playersDiv.innerHTML = c.top_players_coached.map(p => typeof p === 'string' ? p : `${p.name||p} (${p.appearances||'?'} Spiele)`).join('<br>');
+    playersSection.style.display = 'block';
+  } else { playersSection.style.display = 'none'; }
+
+  // Drilldown preview
+  const ddSection = document.getElementById('d-drilldown-section');
+  const ddList = document.getElementById('d-drilldown-list');
+  const ddBtn = document.getElementById('d-drill-btn');
+  const key = c.name.toLowerCase().replace(/ /g, '_');
+  // DRILLDOWN is null until lazily fetched (externalized dashboards) — guard the lookup
+  const dd = (DRILLDOWN && DRILLDOWN[key]) || null;
+  if (c.has_drilldown && dd) {
+    ddList.innerHTML = '';
+    dd.contacts.slice(0, 5).forEach(sc => {
+      const div = document.createElement('div');
+      div.className = 'detail-sub-contact';
+      div.textContent = `${sc.name} — ${sc.role || sc.category}`;
+      ddList.appendChild(div);
+    });
+    if (dd.contacts.length > 5) {
+      const more = document.createElement('div');
+      more.className = 'detail-sub-contact';
+      more.style.color = 'var(--text-muted)';
+      more.textContent = `+ ${dd.contacts.length - 5} weitere...`;
+      ddList.appendChild(more);
+    }
+    ddBtn.onclick = async () => await drillDown(c);
+    ddSection.style.display = 'block';
+  } else {
+    ddSection.style.display = 'none';
+  }
+}
+
+function closeDetail() {
+  document.getElementById('detail-panel').classList.remove('open');
+}
+
+function highlightNode(name) {
+  document.querySelectorAll('.contact-item').forEach(el => {
+    el.classList.toggle('highlighted', el.dataset.name === name);
+  });
+}
+
+function unhighlightAll() {
+  document.querySelectorAll('.contact-item').forEach(el => el.classList.remove('highlighted'));
+}
+
+// ═══════════════════════════════════════════════════
+// TABLE VIEW
+// ═══════════════════════════════════════════════════
+let currentView = 'table';
+let tableSortCol = 'score';
+let tableSortDir = 'desc';
+let tableCatFilter = null;
+
+function switchView(view) {
+  // Graph-view removed (2026-05-15 UX cleanup). Always render table.
+  currentView = 'table';
+  const canvasEl = document.getElementById('canvas-container');
+  const tableEl = document.getElementById('table-container');
+  if (canvasEl) canvasEl.style.display = 'none';
+  if (tableEl)  tableEl.style.display = 'block';
+  buildTable();
+}
+
+function buildTableCategoryFilters() {
+  const el = document.getElementById('table-category-filters');
+  if (!el) return;
+  el.innerHTML = '';
+
+  // "Alle" button
+  const allBtn = document.createElement('button');
+  allBtn.className = 'table-cat-btn' + (tableCatFilter === null ? ' active' : '');
+  allBtn.textContent = 'Alle';
+  allBtn.style.borderColor = tableCatFilter === null ? 'var(--red)' : '';
+  allBtn.style.background = tableCatFilter === null ? 'var(--red)' : '';
+  allBtn.onclick = () => { tableCatFilter = null; buildTableCategoryFilters(); buildTable(); };
+  el.appendChild(allBtn);
+
+  // Per-category buttons
+  // FIX 2026-05-21 (F6): Show BOTH visible-and-total counts to align with
+  // sidebar. Pre-fix the button showed "(26)" while sidebar showed "167" —
+  // same label, different number, confused users. New format:
+  //  - When filter active and visible < total: "Mitspieler · 26 / 167"
+  //  - When all visible: "Mitspieler · 167"
+  const cats_filtered = {};
+  const cats_total = {};
+  const _filteredForCount = getFilteredContacts();
+  _filteredForCount.forEach(c => {
+    const cat = c.category || 'other';
+    cats_filtered[cat] = (cats_filtered[cat] || 0) + 1;
+  });
+  // Total per category — across NETWORK.contacts (= sidebar number)
+  (currentContacts || NETWORK.contacts || []).forEach(c => {
+    const cat = c.category || 'other';
+    cats_total[cat] = (cats_total[cat] || 0) + 1;
+  });
+  // Fix A1c v2 (2026-05-14) — Lehrgang-Counter erweitern um Station-Match.
+  // LG-Kollegen sind oft unter primärer Kategorie (head_coach etc.), nur ihre
+  // stations[] enthalten "DFB-Lehrgang YYYY". Damit Filter-Count = Filter-Display.
+  let _lehrgangExtraF = 0;
+  let _lehrgangExtraT = 0;
+  _filteredForCount.forEach(c => {
+    if (c.category === 'lehrgang') return;
+    if ((c.stations || []).some(s => typeof s === 'string' &&
+        (s.includes('DFB-Lehrgang') || s.includes('Mgmt-Lehrgang') || s.includes('DFB Fußball-Lehrer')))) {
+      _lehrgangExtraF++;
+    }
+  });
+  (currentContacts || NETWORK.contacts || []).forEach(c => {
+    if (c.category === 'lehrgang') return;
+    if ((c.stations || []).some(s => typeof s === 'string' &&
+        (s.includes('DFB-Lehrgang') || s.includes('Mgmt-Lehrgang') || s.includes('DFB Fußball-Lehrer')))) {
+      _lehrgangExtraT++;
+    }
+  });
+  if (_lehrgangExtraF > 0) cats_filtered.lehrgang = (cats_filtered.lehrgang || 0) + _lehrgangExtraF;
+  if (_lehrgangExtraT > 0) cats_total.lehrgang = (cats_total.lehrgang || 0) + _lehrgangExtraT;
+
+  // Sort by total (= sidebar order), show both numbers in label
+  Object.entries(cats_total).sort((a,b) => b[1] - a[1]).forEach(([cat, total]) => {
+    const visible = cats_filtered[cat] || 0;
+    const info = CATEGORIES[cat] || {};
+    const btn = document.createElement('button');
+    btn.className = 'table-cat-btn' + (tableCatFilter === cat ? ' active' : '');
+    const isActive = tableCatFilter === cat;
+    btn.style.borderColor = isActive ? (info.color || '#555') : '';
+    btn.style.background = isActive ? (info.color || '#555') : '';
+    const label = info.label || cat;
+    btn.textContent = (visible !== total)
+      ? `${label} · ${visible} / ${total}`
+      : `${label} · ${total}`;
+    btn.title = (visible !== total)
+      ? `Sichtbar: ${visible} (nach Score/Filter) · Total in Network: ${total}`
+      : `${total} Kontakte in dieser Kategorie`;
+    btn.onclick = () => { tableCatFilter = tableCatFilter === cat ? null : cat; buildTableCategoryFilters(); buildTable(); };
+    el.appendChild(btn);
+  });
+}
+
+function getInitialsForTable(name) {
+  if (!name) return '?';
+  const parts = name.trim().split(/\s+/);
+  if (parts.length === 1) return parts[0].charAt(0).toUpperCase();
+  return (parts[0].charAt(0) + parts[parts.length - 1].charAt(0)).toUpperCase();
+}
+
+function buildTable() {
+  const tbody = document.getElementById('table-body');
+  if (!tbody) return;
+  tbody.innerHTML = '';
+
+  let filtered = getFilteredContacts();
+  if (tableCatFilter) {
+    // Fix A1c v2 (2026-05-14) — Lehrgang-Filter zeigt auch Kontakte mit DFB-Lehrgang-Station
+    if (tableCatFilter === 'lehrgang') {
+      filtered = filtered.filter(c =>
+        c.category === 'lehrgang' ||
+        (c.stations || []).some(s => typeof s === 'string' &&
+          (s.includes('DFB-Lehrgang') || s.includes('Mgmt-Lehrgang') || s.includes('DFB Fußball-Lehrer')))
+      );
+    } else {
+      filtered = filtered.filter(c => c.category === tableCatFilter);
+    }
+  }
+
+  // Conditional Sp./Min/Sp columns — hide if no players/teammates in current filter
+  const hasPlayerRows = filtered.some(c => c.category === 'player_coached' || c.category === 'former_teammate');
+  const tableEl = document.getElementById('contacts-table');
+  if (tableEl) tableEl.classList.toggle('table-hide-player-cols', !hasPlayerRows);
+
+  // Sort
+  filtered.sort((a, b) => {
+    let va, vb;
+    switch (tableSortCol) {
+      case 'name': va = a.name || ''; vb = b.name || ''; break;
+      case 'role': va = a.role || ''; vb = b.role || ''; break;
+      case 'category': va = a.category || ''; vb = b.category || ''; break;
+      case 'club': va = a.current_club || ''; vb = b.current_club || ''; break;
+      case 'score': va = a.relevance_score || 0; vb = b.relevance_score || 0; break;
+      case 'appearances': va = a.appearances || 0; vb = b.appearances || 0; break;
+      case 'stations': va = (a.stations||[]).length; vb = (b.stations||[]).length; break;
+      case 'nationality': va = Array.isArray(a.nationality) ? a.nationality[0]||'' : a.nationality||''; vb = Array.isArray(b.nationality) ? b.nationality[0]||'' : b.nationality||''; break;
+      default: va = a.name || ''; vb = b.name || '';
+    }
+    if (typeof va === 'string') {
+      return tableSortDir === 'asc' ? va.localeCompare(vb) : vb.localeCompare(va);
+    }
+    return tableSortDir === 'asc' ? va - vb : vb - va;
+  });
+
+  filtered.forEach(c => {
+    const cat = CATEGORIES[c.category] || {};
+    const catColor = cat.color || '#555';
+    const score = c.relevance_score || 0;
+    const nat = Array.isArray(c.nationality) ? c.nationality.filter(n => !n.match(/^U\d|DDR/)).join(', ') : (c.nationality || '');
+
+    const tr = document.createElement('tr');
+    tr.style.cursor = 'pointer';
+    tr.onclick = () => { selectContact(c); highlightNode(c.name); };
+
+    // Name cell with avatar
+    const tdName = document.createElement('td');
+    const avatarHtml = c.image_url
+      ? '<img class="td-avatar" src="' + c.image_url + '" style="border:1.5px solid ' + catColor + '" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">' +
+        '<div class="td-avatar-init" style="display:none;background:' + catColor + '">' + getInitialsForTable(c.name) + '</div>'
+      : '<div class="td-avatar-init" style="background:' + catColor + '">' + getInitialsForTable(c.name) + '</div>';
+    const dashboardSlug = c._tm_id && DASHBOARD_INDEX[c._tm_id];
+    const dashIcon = dashboardSlug ? ' <a class="td-dash-link" href="' + dashboardSlug + '_network.html" title="Netzwerk öffnen" onclick="event.stopPropagation()">NET</a>' : '';
+    tdName.innerHTML = '<div class="td-name">' + avatarHtml + '<span class="td-name-text">' + c.name + dashIcon + '</span></div>';
+
+    // Role — clean display per category
+    const tdRole = document.createElement('td');
+    const SONSTIGES_FALLBACK = {head_coach:'Trainer',coaching_staff:'Trainerstab',sporting_director:'Sportdirektor',management:'Management',scouting:'Scout',medical:'Med./Perf.',analyst:'Analyst',academy:'Jugend',lehrgang:'Trainer'};
+    const rawRole = c.role || '';
+    const displayRole = (rawRole === 'Sonstiges' && SONSTIGES_FALLBACK[c.category]) ? SONSTIGES_FALLBACK[c.category] : rawRole;
+    // For players: role = position only (no stats appended)
+    let roleText = displayRole;
+    if (c.category === 'player_coached' || c.category === 'former_teammate') {
+        // Strip "Mitspieler (...)" wrapper → just position
+        const posMatch = rawRole.match(/\(([^)]+)\)/);
+        if (posMatch) roleText = posMatch[1];
+    }
+    // Strip redundant club suffix — TM formats role as "Title, Club" which duplicates the Verein column
+    if (c.current_club && roleText.endsWith(', ' + c.current_club)) {
+        roleText = roleText.slice(0, -(', ' + c.current_club).length);
+    }
+    tdRole.textContent = roleText;
+    tdRole.style.maxWidth = '160px';
+    tdRole.style.overflow = 'hidden';
+    tdRole.style.textOverflow = 'ellipsis';
+    tdRole.style.whiteSpace = 'nowrap';
+
+    // Club (separate column)
+    const tdClub = document.createElement('td');
+    tdClub.textContent = c.current_club || '';
+    tdClub.style.color = 'var(--text)';
+
+    // Player stats (appearances | avg min) — only for player_coached
+    const tdApps = document.createElement('td');
+    tdApps.className = 'col-apps';  // hides with table-hide-player-cols
+    tdApps.style.textAlign = 'center';
+    tdApps.style.fontFamily = "'JetBrains Mono',monospace";
+    tdApps.style.fontSize = '11px';
+    if (c.category === 'player_coached' && c.appearances) {
+        // Only show REAL appearance data (from TM players_used scrape).
+        // Never display est_games — it's an n_seasons*22 fabrication.
+        tdApps.textContent = c.appearances;
+        tdApps.style.color = 'var(--text)';
+    } else {
+        tdApps.textContent = '–';
+        tdApps.style.color = 'var(--text-muted)';
+    }
+
+    const tdAvgMin = document.createElement('td');
+    tdAvgMin.className = 'col-min';  // hides with table-hide-player-cols
+    tdAvgMin.style.textAlign = 'center';
+    tdAvgMin.style.fontFamily = "'JetBrains Mono',monospace";
+    tdAvgMin.style.fontSize = '11px';
+    if (c.category === 'player_coached' && c.minutes && c.appearances) {
+        tdAvgMin.textContent = Math.round(c.minutes / c.appearances) + "'";
+        tdAvgMin.style.color = 'var(--text)';
+    } else {
+        tdAvgMin.textContent = '';
+    }
+
+    // Category badge
+    const tdCat = document.createElement('td');
+    tdCat.innerHTML = '<span class="td-cat-badge" style="background:' + catColor + '22;color:' + catColor + ';border:1px solid ' + catColor + '44">' + (cat.label || c.category || '') + '</span>';
+
+    // Score with bar — visual-amplify so 50 vs 80 looks distinguishable (bar is 64px)
+    // Mapping: real-pct of 0–100 score → 25–100% of bar-width (so anything > 0 is at least 1/4 visible)
+    const tdScore = document.createElement('td');
+    tdScore.style.textAlign = 'center';
+    tdScore.style.verticalAlign = 'middle';
+    // Score Hero — bigger number stacked above bar. Tier-color glow for high scores.
+    const barPct = score > 0 ? Math.round(20 + (score / 100) * 80) : 0;
+    const scoreColor = score >= 80 ? '#fff' : score >= 60 ? 'var(--text)' : score >= 40 ? 'var(--text-dim)' : 'var(--text-3)';
+    const scoreSize  = score >= 80 ? '17px' : score >= 60 ? '15px' : '13px';
+    const scoreWeight = score >= 70 ? '700' : score >= 40 ? '600' : '400';
+    tdScore.innerHTML = (
+      '<div style="display:inline-flex;flex-direction:column;align-items:center;gap:3px;min-width:64px">' +
+        '<span style="font-family:\'JetBrains Mono\',monospace;font-size:' + scoreSize + ';color:' + scoreColor + ';font-weight:' + scoreWeight + ';line-height:1">' + score + '</span>' +
+        '<span class="td-score-bar" style="width:60px"><span class="td-score-fill" style="width:' + barPct + '%;background:' + catColor + '"></span></span>' +
+      '</div>'
+    );
+
+    // Stations
+    const tdStations = document.createElement('td');
+    const stHtml = (c.stations || []).map(st => {
+      const stCol = STATION_COLORS[st] || '#555';
+      return '<span class="td-station-tag" style="border-color:' + stCol + '44;color:' + stCol + '">' + st + '</span>';
+    }).join('');
+    tdStations.innerHTML = stHtml;
+
+    // Nationality
+    const tdNat = document.createElement('td');
+    tdNat.textContent = nat;
+
+    // TM link — always show if we have tm_url or _tm_id
+    const tdTm = document.createElement('td');
+    tdTm.style.textAlign = 'center';
+    let tmUrl = '';
+    if (c.tm_url) {
+      tmUrl = c.tm_url.startsWith('http') ? c.tm_url : (c.tm_url.startsWith('/') ? 'https://www.transfermarkt.de' + c.tm_url : '');
+    } else if (c._tm_id) {
+      tmUrl = 'https://www.transfermarkt.de/x/profil/spieler/' + c._tm_id;
+    }
+    if (tmUrl) tdTm.innerHTML = '<a class="td-tm-link" href="' + tmUrl + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">TM</a>';
+
+    tr.appendChild(tdName);
+    tr.appendChild(tdRole);
+    tr.appendChild(tdClub);
+    tr.appendChild(tdCat);
+    tr.appendChild(tdApps);
+    tr.appendChild(tdAvgMin);
+    tr.appendChild(tdScore);
+    tr.appendChild(tdStations);
+    tr.appendChild(tdNat);
+    tr.appendChild(tdTm);
+    tbody.appendChild(tr);
+  });
+
+  // Update header sort indicators (aria-sort drives both screen-reader + visual ::after arrow)
+  document.querySelectorAll('.th-sort').forEach(th => {
+    th.classList.remove('asc', 'desc');
+    th.removeAttribute('aria-sort');
+    if (th.dataset.col === tableSortCol) {
+      const ariaVal = tableSortDir === 'asc' ? 'ascending' : 'descending';
+      th.setAttribute('aria-sort', ariaVal);
+      th.classList.add(tableSortDir);  // legacy fallback
+    }
+  });
+}
+
+function setupTableSort() {
+  document.querySelectorAll('.th-sort').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (tableSortCol === col) {
+        tableSortDir = tableSortDir === 'asc' ? 'desc' : 'asc';
+      } else {
+        tableSortCol = col;
+        tableSortDir = col === 'score' || col === 'stations' || col === 'appearances' ? 'desc' : 'asc';
+      }
+      buildTable();
+    });
+  });
+}
+
+// ═══════════════════════════════════════════════════
+// LAZY-LOADING DRILLDOWN DATA
+// ═══════════════════════════════════════════════════
+let _drilldownCache = DRILLDOWN;  // null if external, object if inline
+
+async function getDrilldown() {
+  if (_drilldownCache !== null) {
+    return _drilldownCache;  // Already loaded
+  }
+  if (!DRILLDOWN_URL) {
+    return {};  // No external URL, empty drilldown
+  }
+  try {
+    const response = await fetch(DRILLDOWN_URL);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    _drilldownCache = await response.json();
+    return _drilldownCache;
+  } catch (err) {
+    console.error('Failed to load drilldown data:', err);
+    return {};
+  }
+}
+
+// ═══════════════════════════════════════════════════
+// DRILL-DOWN & NAVIGATION
+// ═══════════════════════════════════════════════════
+async function drillDown(contact) {
+  const key = contact.name.toLowerCase().replace(/ /g, '_');
+  const dd = await getDrilldown();
+  if (!dd || !dd[key]) return;
+
+  const overlay = document.getElementById('transition-overlay');
+  overlay.style.background = 'rgba(10,10,18,0.85)';
+  setTimeout(async () => {
+    breadcrumbs.push({name: contact.name, level: breadcrumbs.length});
+    updateBreadcrumb();
+    const drilldownData = await getDrilldown();  // Fetch again (cached)
+    const subNetwork = drilldownData[key];
+    const contacts = subNetwork.contacts.map(c => {
+      const ckey = c.name.toLowerCase().replace(/ /g, '_');
+      return {
+        name: c.name,
+        stations: c.stations || [c.station || 'Unbekannt'],
+        category: c.category || 'coaching_staff',
+        role: c.role || '',
+        note: c.note || '',
+        has_drilldown: !!drilldownData[ckey],
+        strength: c.strength || 2,
+        image_url: c.image_url || null,
+        background_summary: c.background_summary || '',
+        tm_url: c.tm_url || '',
+        nationality: c.nationality || '',
+        dob: c.dob || '', age: c.age || '',
+        current_club: c.current_club || '', license: c.license || ''
+      };
+    });
+    const stations = subNetwork.stations || [...new Set(contacts.flatMap(c => c.stations))];
+    loadLevel(contacts, stations, contact.name);
+    overlay.style.background = 'rgba(10,10,18,0)';
+  }, 350);
+}
+
+async function navigateBack() {
+  if (breadcrumbs.length <= 1) return;
+  const overlay = document.getElementById('transition-overlay');
+  overlay.style.background = 'rgba(10,10,18,0.85)';
+  setTimeout(async () => {
+    breadcrumbs.pop();
+    updateBreadcrumb();
+    if (breadcrumbs.length === 1) {
+      loadLevel(NETWORK.contacts, NETWORK.stations, NETWORK.center);
+    } else {
+      const parentName = breadcrumbs[breadcrumbs.length - 1].name;
+      const pkey = parentName.toLowerCase().replace(/ /g, '_');
+      const drilldownData = await getDrilldown();
+      const pdd = drilldownData[pkey];
+      if (pdd) {
+        const contacts = pdd.contacts.map(c => ({
+          name: c.name, stations: c.stations || [c.station || 'Unbekannt'],
+          category: c.category || 'coaching_staff', role: c.role || '',
+          note: c.note || '', has_drilldown: !!drilldownData[c.name.toLowerCase().replace(/ /g, '_')],
+          strength: c.strength || 2, image_url: c.image_url || null,
+          background_summary: c.background_summary || '',
+          tm_url: c.tm_url || '',
+          nationality: c.nationality || '', dob: c.dob || '', age: c.age || '',
+          current_club: c.current_club || '', license: c.license || ''
+        }));
+        loadLevel(contacts, pdd.stations || [], parentName);
+      }
+    }
+    overlay.style.background = 'rgba(10,10,18,0)';
+  }, 350);
+}
+
+function updateBreadcrumb() {
+  const el = document.getElementById('breadcrumb');
+  el.innerHTML = '';
+  breadcrumbs.forEach((b, i) => {
+    if (i > 0) {
+      const sep = document.createElement('span');
+      sep.className = 'sep';
+      sep.textContent = '›';
+      el.appendChild(sep);
+    }
+    const span = document.createElement('span');
+    span.className = 'crumb' + (i === breadcrumbs.length - 1 ? ' active' : '');
+    span.textContent = b.name;
+    if (i < breadcrumbs.length - 1) {
+      span.onclick = async () => {
+        const overlay = document.getElementById('transition-overlay');
+        overlay.style.background = 'rgba(10,10,18,0.85)';
+        setTimeout(async () => {
+          breadcrumbs.splice(i + 1);
+          updateBreadcrumb();
+          if (i === 0) {
+            loadLevel(NETWORK.contacts, NETWORK.stations, NETWORK.center);
+          } else {
+            const pName = breadcrumbs[i].name;
+            const pkey = pName.toLowerCase().replace(/ /g, '_');
+            const drilldownData = await getDrilldown();
+            const pdd = drilldownData[pkey];
+            if (pdd) {
+              const contacts = pdd.contacts.map(c => ({
+                name: c.name, stations: c.stations || [c.station || 'Unbekannt'],
+                category: c.category || 'coaching_staff', role: c.role || '',
+                note: c.note || '', has_drilldown: !!drilldownData[c.name.toLowerCase().replace(/ /g, '_')],
+                strength: c.strength || 2, image_url: c.image_url || null,
+                background_summary: c.background_summary || '',
+                tm_url: c.tm_url || '',
+                nationality: c.nationality || '', dob: c.dob || '', age: c.age || '',
+                current_club: c.current_club || '', license: c.license || ''
+              }));
+              loadLevel(contacts, pdd.stations || [], pName);
+            }
+          }
+          closeDetail();
+          overlay.style.background = 'rgba(10,10,18,0)';
+        }, 350);
+      };
+    }
+    el.appendChild(span);
+  });
+}
+
+// ═══════════════════════════════════════════════════
+// START
+// ═══════════════════════════════════════════════════
+window.addEventListener('load', init);
+</script>
+<script src="/assets/workflow.js" defer></script><!-- WORKFLOW_INSERT:js -->
+<script><!-- WORKFLOW_INSERT:bind -->
+// Bind detail-panel openDetail to workflow widgets:
+// each time a contact panel opens, copy the active tm_id onto the workflow
+// containers so PF_WORKFLOW.refreshPipelineUI / renderNotes / renderReminders
+// pick the right entry. Hooks the existing global `openDetail` if present.
+(function(){
+  function syncTmId(tmId) {
+    const id = tmId == null ? '' : String(tmId);
+    document.querySelectorAll('.workflow-pipeline [data-tm-id], .workflow-notes, .workflow-notes [data-tm-id], .workflow-reminder, .workflow-reminder [data-tm-id]').forEach(el => {
+      el.dataset.tmId = id;
+    });
+    if (window.PF_WORKFLOW) {
+      window.PF_WORKFLOW.refreshPipelineUI();
+      if (id) {
+        window.PF_WORKFLOW.renderNotes(id);
+        window.PF_WORKFLOW.renderReminders(id);
+      }
+    }
+  }
+  // Wrap existing openDetail if defined later — poll once on idle
+  function tryWrap() {
+    if (typeof window.openDetail === 'function' && !window.openDetail.__wfWrapped) {
+      const orig = window.openDetail;
+      window.openDetail = function(c, ...rest) {
+        const r = orig.apply(this, [c, ...rest]);
+        try { syncTmId(c && (c.tm_id || c.tmId)); } catch (_) {}
+        return r;
+      };
+      window.openDetail.__wfWrapped = true;
+    }
+  }
+  if (document.readyState === 'complete') tryWrap();
+  else window.addEventListener('load', tryWrap);
+  // Also expose for templates that fire a custom event
+  document.addEventListener('contact-opened', (e) => syncTmId(e.detail && e.detail.tm_id));
+})();
+</script>
+</body>
+</html>
