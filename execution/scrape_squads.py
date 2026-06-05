@@ -321,21 +321,25 @@ def _detect_specific_role(text: str) -> Optional[str]:
     # (These are full head coaches on interim basis — e.g. René Wagner @ Köln,
     # Marie-Louise Eta @ Union. Check BEFORE the \btrainer\b regex because
     # "Interimstrainer" has no word boundary before "trainer".)
-    if "interimstrainer" in t or "interimscheftrainer" in t:
+    # PATTERN 40 FIX (2026-05-26): female-form keywords added throughout.
+    # Wittmann-Bug: TM listete sie als "Trainerin" → fiel auf other_staff,
+    # Ingolstadt wurde fälschlich als vakant geflagged. Systemisch alle
+    # Trainer-Rollen müssen *innen-Form akzeptieren.
+    if "interimstrainer" in t or "interimscheftrainer" in t or "interimstrainerin" in t or "interimscheftrainerin" in t:
         return "head_coach"
-    if "cheftrainer" in t or "head coach" in t:
+    if "cheftrainer" in t or "cheftrainerin" in t or "head coach" in t:
         return "head_coach"
-    elif "co-trainer" in t or "assistenztrainer" in t or "assistant" in t:
+    elif "co-trainer" in t or "co-trainerin" in t or "assistenztrainer" in t or "assistenztrainerin" in t or "assistant" in t:
         # Must check co-trainer BEFORE the generic "trainer" below
         pass  # fall through to return below
-    elif re.search(r'\btrainer\b', t) and "co-" not in t and "torwart" not in t and "athletik" not in t and "fitness" not in t and "kondition" not in t and "u19" not in t and "u17" not in t and "jugend" not in t and "nachwuchs" not in t:
-        # Plain "Trainer" on TM = Cheftrainer (head coach)
+    elif re.search(r'\btrainer(in)?\b', t) and "co-" not in t and "torwart" not in t and "athletik" not in t and "fitness" not in t and "kondition" not in t and "u19" not in t and "u17" not in t and "jugend" not in t and "nachwuchs" not in t:
+        # Plain "Trainer"/"Trainerin" on TM = Cheftrainer (head coach)
         return "head_coach"
-    if "co-trainer" in t or "assistenztrainer" in t or "assistant" in t:
+    if "co-trainer" in t or "co-trainerin" in t or "assistenztrainer" in t or "assistenztrainerin" in t or "assistant" in t:
         return "assistant_coach"
-    elif "torwarttrainer" in t or "goalkeeper" in t:
+    elif "torwarttrainer" in t or "torwarttrainerin" in t or "goalkeeper" in t:
         return "goalkeeper_coach"
-    elif "athletiktrainer" in t or "fitnesstrainer" in t or "konditionstrainer" in t:
+    elif "athletiktrainer" in t or "athletiktrainerin" in t or "fitnesstrainer" in t or "fitnesstrainerin" in t or "konditionstrainer" in t or "konditionstrainerin" in t:
         return "fitness_coach"
     elif "sportdirektor" in t or "sportvorstand" in t or "sporting director" in t:
         return "sporting_director"

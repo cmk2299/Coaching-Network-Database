@@ -52,7 +52,7 @@ def collect_clubs(league_codes: list[str]) -> dict[str, list[dict]]:
     return by_league
 
 
-def head_coach_for_club(club_tm_id: int) -> dict | None:
+def head_coach_for_club(club_tm_id: int) -> "dict | None":
     """Read head_coach from staff/{tm_id}.json. Returns None if missing."""
     path = STAFF_DIR / f"{club_tm_id}.json"
     if not path.exists():

@@ -436,8 +436,38 @@ def load_persons_index() -> dict:
         return json.load(f)
 
 
-def get_profile_path(tm_id: int) -> Path:
-    """Get the output path for a person's profile."""
+def get_profile_path(tm_id: int, person_type: str = None) -> Path:
+    """Get the output path for a person's profile.
+
+    Post-Sprint A (namespace migration): profile files are stored as
+    `{type}_{tm_id}.json` instead of plain `{tm_id}.json`.
+
+    PATTERN 24 FIX (2026-05-23): When `person_type` is given, ALWAYS return
+    `{person_type}_{tm_id}.json` even if that file doesn't exist yet. Previously
+    the function fell through to the OTHER namespace if the typed file didn't
+    exist — which caused write-corruption: scraping Pep Guardiola (trainer/5672)
+    overwrote Étienne Didot (spieler/5672) because `trainer_5672.json` didn't
+    exist yet so the path resolved to `spieler_5672.json`.
+
+    Read-only callers can still find existing files in either namespace by
+    omitting `person_type`.
+
+    Resolution order:
+      1. `{person_type}_{tm_id}.json` — if `person_type` given, return this
+         path UNCONDITIONALLY (the file may not exist yet — that's fine for writes).
+      2. `trainer_{tm_id}.json` (if exists)
+      3. `spieler_{tm_id}.json` (if exists)
+      4. `{tm_id}.json` (legacy fallback)
+    """
+    if person_type:
+        # Always return the typed path. Caller must trust their person_type.
+        # If the file doesn't exist, that's correct for writes.
+        return PROFILES_DIR / f"{person_type}_{tm_id}.json"
+    for kind in ("trainer", "spieler"):
+        p = PROFILES_DIR / f"{kind}_{tm_id}.json"
+        if p.exists():
+            return p
+    # Legacy fallback
     return PROFILES_DIR / f"{tm_id}.json"
 
 
@@ -523,7 +553,10 @@ def main():
             print("  FAILED to fetch page")
             return
         profile = parse_profile(html, single_tm_id, single_type)
-        profile_path = get_profile_path(single_tm_id)
+        # PATTERN 24 FIX: pass single_type so the path uses the correct namespace.
+        # Otherwise get_profile_path() falls through to the OTHER namespace if
+        # the typed file doesn't exist yet, overwriting the other person.
+        profile_path = get_profile_path(single_tm_id, single_type)
         with open(profile_path, "w", encoding="utf-8") as f:
             json.dump(profile, f, ensure_ascii=False, indent=2)
         career_count = len(profile.get("career_history", []))
@@ -571,10 +604,14 @@ def main():
     start_time = time.time()
 
     for i, (tm_id, url, person_type) in enumerate(queue, 1):
-        profile_path = get_profile_path(tm_id)
+        # PATTERN 24 FIX: pass person_type to avoid cross-namespace overwrites.
+        # Without person_type the function may return the file for the OTHER
+        # namespace; subsequent write would clobber that other person.
+        profile_path = get_profile_path(tm_id, person_type)
 
-        # Double-check (race condition safety)
-        if profile_path.exists():
+        # Double-check (race condition safety) — check ANY existing namespace
+        # to avoid duplicate scrapes when only one namespace was scraped before.
+        if profile_path.exists() or get_profile_path(tm_id).exists():
             stats["skipped"] += 1
             continue
 
@@ -634,20 +671,56 @@ def main():
 
 
 def build_master_file():
-    """Merge all individual profiles + persons_index into a single master file."""
+    """Merge all individual profiles + persons_index into a single master file.
+
+    Post-Sprint A: emits type-aware keys (`spieler_<id>`, `trainer_<id>`) for
+    every profile file on disk, PLUS keeps numeric `<id>` legacy aliases that
+    point to whichever variant has more data (or trainer if both equal).
+    """
     print("\nBuilding master persons file...")
 
     idx = load_persons_index()
     persons = idx["persons"]
 
-    # Load all profile files
-    profile_files = list(PROFILES_DIR.glob("*.json"))
+    # Discover every profile file (namespace-aware)
+    profile_paths_by_tmid: dict[int, dict[str, Path]] = {}
+    for p in PROFILES_DIR.glob("*.json"):
+        stem = p.stem
+        if stem.startswith("spieler_"):
+            tm = stem[len("spieler_"):]
+            kind = "spieler"
+        elif stem.startswith("trainer_"):
+            tm = stem[len("trainer_"):]
+            kind = "trainer"
+        elif stem.isdigit():
+            tm = stem
+            kind = None  # legacy — derive from JSON
+        else:
+            continue
+        if not tm.isdigit():
+            continue
+        tm_id = int(tm)
+        profile_paths_by_tmid.setdefault(tm_id, {})
+        if kind:
+            profile_paths_by_tmid[tm_id][kind] = p
+        else:
+            # Legacy file — read .type from JSON
+            try:
+                with open(p) as fh:
+                    data = json.load(fh)
+                k2 = data.get("type")
+                if k2 in ("spieler", "trainer"):
+                    profile_paths_by_tmid[tm_id].setdefault(k2, p)
+            except Exception:
+                pass
+
     profiles_loaded = 0
+    master: dict[str, dict] = {}
 
-    master = {}
-
-    for pid, person in persons.items():
-        tm_id = person["tm_id"]
+    def build_entry(tm_id: int, kind: str, profile_path: Path, index_person):
+        """Compose a master entry from profile JSON + persons_index data."""
+        nonlocal profiles_loaded
+        person = index_person or {}
         entry = {
             "tm_id": tm_id,
             "name": person.get("name"),
@@ -657,34 +730,62 @@ def build_master_file():
             "dob": person.get("dob"),
             "appearances_in_db": person.get("appearances", []),
         }
-
-        # Merge profile data if available
-        profile_path = get_profile_path(tm_id)
-        if profile_path.exists():
-            try:
-                profile = json.load(open(profile_path))
-                # Profile data overrides index data (more complete)
-                entry["name"] = profile.get("name") or entry["name"]
-                entry["nationality"] = profile.get("nationality") or entry.get("nationality")
-                entry["dob"] = profile.get("dob") or entry.get("dob")
-                entry["image_url"] = profile.get("image_url") or entry.get("image_url")
-                entry["birthplace"] = profile.get("birthplace")
-                entry["current_club"] = profile.get("current_club")
-                entry["career_history"] = profile.get("career_history", [])
-                entry["type"] = profile.get("type")
-                entry["license"] = profile.get("license")
-                entry["position"] = profile.get("position")
-                entry["foot"] = profile.get("foot")
-                entry["height_cm"] = profile.get("height_cm")
-                entry["agent"] = profile.get("agent")
-                entry["contract_until"] = profile.get("contract_until")
-                entry["profile_scraped"] = True
-                profiles_loaded += 1
-            except Exception as e:
-                entry["profile_scraped"] = False
-        else:
+        try:
+            profile = json.load(open(profile_path))
+            entry["name"] = profile.get("name") or entry["name"]
+            entry["nationality"] = profile.get("nationality") or entry.get("nationality")
+            entry["dob"] = profile.get("dob") or entry.get("dob")
+            entry["image_url"] = profile.get("image_url") or entry.get("image_url")
+            entry["birthplace"] = profile.get("birthplace")
+            entry["current_club"] = profile.get("current_club")
+            entry["career_history"] = profile.get("career_history", [])
+            entry["type"] = profile.get("type") or kind
+            entry["license"] = profile.get("license")
+            entry["position"] = profile.get("position")
+            entry["foot"] = profile.get("foot")
+            entry["height_cm"] = profile.get("height_cm")
+            entry["agent"] = profile.get("agent")
+            entry["contract_until"] = profile.get("contract_until")
+            entry["tm_url"] = profile.get("tm_url") or entry.get("tm_url")
+            entry["profile_scraped"] = True
+            profiles_loaded += 1
+        except Exception:
             entry["profile_scraped"] = False
+            entry["type"] = kind
+        return entry
 
+    # Emit type-aware keys for every profile-on-disk
+    seen_tmids = set(profile_paths_by_tmid.keys())
+    for tm_id, by_kind in profile_paths_by_tmid.items():
+        idx_person = persons.get(str(tm_id))
+        entries_for_id = {}
+        for kind, path in by_kind.items():
+            ent = build_entry(tm_id, kind, path, idx_person)
+            master[f"{kind}_{tm_id}"] = ent
+            entries_for_id[kind] = ent
+        # Legacy alias: numeric key → trainer if both exist, else whichever exists.
+        if "trainer" in entries_for_id:
+            master[str(tm_id)] = entries_for_id["trainer"]
+        elif "spieler" in entries_for_id:
+            master[str(tm_id)] = entries_for_id["spieler"]
+
+    # Persons-index entries without a profile file: stub with legacy key only
+    for pid, person in persons.items():
+        if not pid.isdigit():
+            continue
+        tm_id = int(pid)
+        if tm_id in seen_tmids:
+            continue
+        entry = {
+            "tm_id": tm_id,
+            "name": person.get("name"),
+            "tm_url": person.get("tm_url"),
+            "image_url": person.get("image_url"),
+            "nationality": person.get("nationality"),
+            "dob": person.get("dob"),
+            "appearances_in_db": person.get("appearances", []),
+            "profile_scraped": False,
+        }
         master[str(tm_id)] = entry
 
     # Save master
@@ -694,6 +795,10 @@ def build_master_file():
             "total_persons": len(master),
             "profiles_scraped": profiles_loaded,
             "profiles_missing": len(master) - profiles_loaded,
+            "type_aware_keys": True,
+            "spieler_keys": sum(1 for k in master if k.startswith("spieler_")),
+            "trainer_keys": sum(1 for k in master if k.startswith("trainer_")),
+            "legacy_keys": sum(1 for k in master if k.isdigit()),
         },
         "persons": master,
     }
@@ -704,9 +809,11 @@ def build_master_file():
 
     size_mb = master_path.stat().st_size / 1024 / 1024
     print(f"Master file: {master_path}")
-    print(f"  Total persons: {len(master):,}")
+    print(f"  Total keys: {len(master):,}")
+    print(f"    spieler_*: {output['meta']['spieler_keys']:,}")
+    print(f"    trainer_*: {output['meta']['trainer_keys']:,}")
+    print(f"    legacy:    {output['meta']['legacy_keys']:,}")
     print(f"  With profiles: {profiles_loaded:,}")
-    print(f"  Without profiles: {len(master) - profiles_loaded:,}")
     print(f"  File size: {size_mb:.1f} MB")
 
 

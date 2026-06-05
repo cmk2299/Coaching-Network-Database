@@ -257,10 +257,14 @@ def regenerate_dashboard(html_path: Path, template_lines: list, dashboard_index:
         if '__CENTER_TM_ID_PLACEHOLDER__' in lines[i]:
             lines[i] = lines[i].replace('__CENTER_TM_ID_PLACEHOLDER__', ctm_json)
 
-    # Replace hardcoded name
+    # Replace center-name placeholder with the actual coach name.
+    # FIX 2026-05-21 (F2): Same fix as generate_dashboard.py — naive
+    # "Alexander Blessin" replace corrupted contact names in embedded JSON.
+    # Backward compat: also replace the literal "Alexander Blessin" string
+    # in case a template was regenerated before the placeholder migration.
     output_lines = []
     for line in lines:
-        line = line.replace("Alexander Blessin", coach_name)
+        line = line.replace("__CENTER_NAME_PLACEHOLDER__", coach_name)
         output_lines.append(line)
 
     with open(html_path, 'w', encoding='utf-8') as f:
@@ -307,8 +311,37 @@ def main():
     externalized_bytes = 0
     t0 = time.time()
 
+    # FIX 2026-05-21 (F2 ext): Canonical network source is data/networks/{tm_id}.json,
+    # NOT the embedded JSON in the existing dashboard HTML. Previous version
+    # read NETWORK from HTML — which propagated any prior corruption (e.g., the
+    # "Alexander Blessin" string-replace bug) forward into every regenerate cycle.
+    # Now we load from the source-of-truth JSON when available; fall back to HTML
+    # extraction only for dashboards without a matching source file.
+    NETWORK_DIR = Path("data/networks")
     for i, dp in enumerate(dashboards, 1):
-        network, drilldown, drilldown_url = extract_data_from_dashboard(dp)
+        network = drilldown = None
+        drilldown_url = ''
+        # Try canonical source via reverse lookup
+        target_stem = dp.stem
+        base_slug = target_stem.replace("_nlz_network", "").replace("_sd_network", "").replace("_network", "")
+        canonical_tm_id = tm_id_lookup.get(base_slug)
+        if canonical_tm_id is not None:
+            net_json_path = NETWORK_DIR / f"{canonical_tm_id}.json"
+            if net_json_path.exists():
+                try:
+                    with open(net_json_path, 'r', encoding='utf-8') as nf:
+                        network = json.load(nf)
+                    # Load matching drilldown JSON if present
+                    dd_external = dp.parent / f"{dp.stem}_drilldown.json"
+                    if dd_external.exists():
+                        with open(dd_external, 'r', encoding='utf-8') as df:
+                            drilldown = json.load(df)
+                except Exception as e:
+                    print(f"  [{i}/{len(dashboards)}] ⚠ canonical-load failed for {dp.name}: {e}")
+                    network = None
+        # Fallback to old extraction if canonical not found
+        if network is None:
+            network, drilldown, drilldown_url = extract_data_from_dashboard(dp)
         if network is None:
             print(f"  [{i}/{len(dashboards)}] ✗ {dp.name} — could not extract NETWORK data")
             failed += 1

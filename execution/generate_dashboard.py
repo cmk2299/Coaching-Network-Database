@@ -155,6 +155,7 @@ def generate_dashboard(network: dict, output_path: Path, drilldown: dict = None,
     if use_external_drilldown and drilldown_json != '{}':
         # Save drilldown as external JSON file
         drilldown_path = output_path.parent / f"{slug}_drilldown.json"
+        drilldown_path.parent.mkdir(parents=True, exist_ok=True)
         with open(drilldown_path, "w", encoding="utf-8") as f:
             f.write(drilldown_json)
 
@@ -202,10 +203,15 @@ def generate_dashboard(network: dict, output_path: Path, drilldown: dict = None,
         if '__CENTER_TM_ID_PLACEHOLDER__' in lines[i]:
             lines[i] = lines[i].replace('__CENTER_TM_ID_PLACEHOLDER__', ctm_json)
 
-    # Replace all hardcoded 'Alexander Blessin' with the new coach name
+    # Replace center-name placeholder with the actual coach name.
+    # FIX 2026-05-21 (F2): Previous version used naive `line.replace("Alexander Blessin", coach_name)`
+    # which corrupted contact names in embedded NETWORK JSON whenever Blessin
+    # appeared as a contact (e.g., Bornemann's SD-network had a coach_hired entry
+    # for Blessin → name got replaced with "Andreas Bornemann"). Now uses a
+    # unique placeholder marker that cannot appear in real names or data.
     result = []
     for line in lines:
-        line = line.replace("Alexander Blessin", coach_name)
+        line = line.replace("__CENTER_NAME_PLACEHOLDER__", coach_name)
         result.append(line)
 
     # Write output
@@ -235,8 +241,17 @@ def main():
     network = load_network(Path(args.network))
     coach_name = network["center"]
 
-    # Generate output filename from coach name
-    slug = re.sub(r'[^a-z0-9]+', '_', coach_name.lower()).strip('_')
+    # PATTERN 30 FIX (2026-05-23): use canonical slugify() for diacritic
+    # transliteration (é→e, ä→ae, ß→ss). Inline regex below dropped
+    # non-ASCII chars entirely → "René Wagner" → "ren_wagner" (broken URL).
+    try:
+        import sys as _sys
+        _sys.path.insert(0, str(Path(__file__).parent))
+        from lib.normalization import slugify
+        slug = slugify(coach_name)
+    except Exception:
+        # Fallback to old behavior (shouldn't trigger)
+        slug = re.sub(r'[^a-z0-9]+', '_', coach_name.lower()).strip('_')
 
     if args.output:
         output_path = Path(args.output)

@@ -217,7 +217,16 @@ def load_persons_index(path: Path) -> tuple[dict, dict, dict]:
 # ----------------------------------------------------------------------------
 
 def has_network(tm_id: str) -> bool:
-    return (NETWORKS_DIR / f"{tm_id}.json").exists()
+    """Check if a network exists for this tm_id.
+
+    Networks are keyed by the bare numeric tm_id (e.g. '26099.json').
+    Coachinside diff uses namespaced ids ('trainer_26099', 'spieler_9594').
+    Strip the namespace prefix before checking.
+    """
+    if not tm_id:
+        return False
+    bare = str(tm_id).split("_")[-1]  # 'trainer_26099' -> '26099'
+    return (NETWORKS_DIR / f"{bare}.json").exists()
 
 
 # ----------------------------------------------------------------------------
