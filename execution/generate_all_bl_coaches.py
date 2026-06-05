@@ -996,6 +996,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Coach Network Explorer — {season_str}</title>
+<meta name="description" content="Interaktive Trainer-Netzwerke der Bundesliga {season_str} — {len(coaches)} Trainer mit Kontakten, Karrierewegen und Beziehungs-Netzwerken. projectFIVE / SPORTFIVE.">
 <meta property="og:title" content="Coach Network Explorer — Bundesliga {season_str}">
 <meta property="og:description" content="Interaktive Trainer-Netzwerke der Bundesliga — {len(coaches)} Trainer, Kontakte, Karrierewege">
 <meta property="og:type" content="website">
