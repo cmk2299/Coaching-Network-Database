@@ -148,7 +148,7 @@ def get_all_head_coaches(club_registry: Dict[int, dict], leagues: List[str],
         coaches.append({
             "tm_id": head["tm_id"],
             "name": head["name"],
-            "slug": re.sub(r'[^a-z0-9]+', '_', head["name"].lower()).strip('_'),
+            "slug": slugify(head["name"]),  # canonical (umlaut-safe) — naive regex made "Rösler"→"r_sler" (404/stale orphan)
             "club": normalize_club(club.get("name", staff.get("club_name", "?")), club_id),
             "club_tm_id": club_id,
             "league": league,
