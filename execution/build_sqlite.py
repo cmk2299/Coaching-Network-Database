@@ -236,7 +236,22 @@ def import_persons(conn):
             errors += 1
             continue
 
-        tm_id = p.get("tm_id", int(f.stem))
+        # Profile filenames are namespaced post-migration: trainer_<id>.json /
+        # spieler_<id>.json (also legacy <id>.json). int(f.stem) crashes on the
+        # prefixed form, so derive tm_id from JSON first, then fall back to the
+        # numeric tail of the stem.
+        tm_id = p.get("tm_id")
+        if tm_id is None:
+            stem = f.stem
+            for pfx in ("trainer_", "spieler_"):
+                if stem.startswith(pfx):
+                    stem = stem[len(pfx):]
+                    break
+            try:
+                tm_id = int(stem)
+            except ValueError:
+                errors += 1
+                continue
         nat_raw = p.get("nationality")
         nationality = resolve_nationality(nat_raw)
         nationalities_json = json.dumps(nat_raw) if isinstance(nat_raw, list) else None
