@@ -1218,7 +1218,7 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
 <div class="hdr">
   <div class="hdr-inner">
     <h1><b>p5</b> Coach Network Explorer</h1>
-    <div class="hdr-right"><a href="/clubs.html" class="btn btn--secondary btn--sm" style="margin-bottom:4px">Vereine →</a><br>Saison {season_str} · Stand {now}</div>
+    <div class="hdr-right"><a href="/clubs" class="btn btn--secondary btn--sm" style="margin-bottom:4px">Vereine →</a><br>Saison {season_str} · Stand {now}</div>
   </div>
 </div>
 

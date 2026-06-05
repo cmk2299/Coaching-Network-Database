@@ -256,10 +256,6 @@ def render_club_index(clubs: List[Tuple[int, dict]]) -> str:
 <title>Club Finder — Trainer und Kader</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/tokens.css">
-<link rel="stylesheet" href="/assets/base.css">
-<link rel="stylesheet" href="/assets/buttons.css">
-<link rel="stylesheet" href="/assets/haptik.css">
 <style>
 /* Fallback tokens — also defined in /assets/tokens.css */
 :root{{
@@ -443,10 +439,6 @@ def render_club_page(club: dict, staff: List[dict], squad: List[dict],
 <title>{escape_html(club_name)} — Club Profil</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/tokens.css">
-<link rel="stylesheet" href="/assets/base.css">
-<link rel="stylesheet" href="/assets/buttons.css">
-<link rel="stylesheet" href="/assets/haptik.css">
 <style>
 /* Fallback tokens */
 :root{{
