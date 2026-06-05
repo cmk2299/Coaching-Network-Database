@@ -240,6 +240,15 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
     extra = sorted([c for c in coaches if c["league"] == "EXTRA"], key=lambda x: x["name"])
     other = sorted([c for c in coaches if c["league"] not in ("BL1", "BL2", "BL3", "HIST-A", "HIST-B", "HIST-C", "HIST-D", "EXTRA")], key=lambda x: x["club"])
 
+    # Drop empty (0-contact) networks from OPTIONAL sections — a dashboard with no
+    # contacts is a dead-end click (e.g. NLZ coaches with no TM data: Weinecker,
+    # Özbakir). Current BL1/2/3 coaches are kept regardless so the league tables
+    # stay complete. Systematik: applies to every optional list, not per-name.
+    _nonempty = lambda lst: [c for c in lst if (c.get("contacts") or 0) > 0]
+    hist_a, hist_c, hist_d = _nonempty(hist_a), _nonempty(hist_c), _nonempty(hist_d)
+    hist_b = _nonempty(hist_b)
+    extra, other = _nonempty(extra), _nonempty(other)
+
     # Load network stats for contact counts
     network_stats = {}
     for c in coaches:
