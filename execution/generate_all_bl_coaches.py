@@ -1010,6 +1010,12 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
 <meta property="og:description" content="Interaktive Trainer-Netzwerke der Bundesliga — {len(coaches)} Trainer, Kontakte, Karrierewege">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://coach-network-explorer.vercel.app">
+<meta property="og:site_name" content="Coach Network Explorer">
+<meta property="og:locale" content="de_DE">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Coach Network Explorer — Bundesliga {season_str}">
+<meta name="twitter:description" content="Interaktive Trainer-Netzwerke der Bundesliga — {len(coaches)} Trainer, Kontakte, Karrierewege">
+<link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <!-- /assets/*.css removed 2026-05-21 (lost in worktree-collision incident; styling now inline) -->
