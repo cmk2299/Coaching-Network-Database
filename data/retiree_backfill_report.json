@@ -1,0 +1,230 @@
+{
+  "stats": {
+    "checked": 2217,
+    "no_spieler": 0,
+    "no_trainer_link": 2051,
+    "dob_reject": 145,
+    "scraped_with_role": 31,
+    "scraped_no_role": 11,
+    "errors": 0
+  },
+  "found": [
+    {
+      "spieler": 196623,
+      "trainer": 90551,
+      "name": "Nujin Hassan",
+      "role": "Co-Trainer",
+      "club": "Bielefeld U17"
+    },
+    {
+      "spieler": 50057,
+      "trainer": 141732,
+      "name": "Aaron Ramsey",
+      "role": "Interimstrainer",
+      "club": "Cardiff City"
+    },
+    {
+      "spieler": 42072,
+      "trainer": 156250,
+      "name": "Tobias Kempe",
+      "role": "Trainer",
+      "club": "SV Germania Eberstadt"
+    },
+    {
+      "spieler": 91482,
+      "trainer": 148610,
+      "name": "Maximilian Oesterhelweg",
+      "role": "Marketingmitarbeiter",
+      "club": "Energie Cottbus"
+    },
+    {
+      "spieler": 25950,
+      "trainer": 131578,
+      "name": "Martin Dausch",
+      "role": "Spielertrainer",
+      "club": "TSV Kottern"
+    },
+    {
+      "spieler": 66971,
+      "trainer": 153209,
+      "name": "Stefan Parensen",
+      "role": "Co-Trainer",
+      "club": "Delbrücker SC"
+    },
+    {
+      "spieler": 26486,
+      "trainer": 155825,
+      "name": "Chinedu Ede",
+      "role": "Co-Trainer",
+      "club": "U. Berlin U17"
+    },
+    {
+      "spieler": 83965,
+      "trainer": 156444,
+      "name": "Dimitrios Christofi",
+      "role": "Sportlicher Leiter",
+      "club": "EN Paralimniou"
+    },
+    {
+      "spieler": 157869,
+      "trainer": 156242,
+      "name": "Kostadin Velkov",
+      "role": "Co-Trainer",
+      "club": "Loko Sofia"
+    },
+    {
+      "spieler": 43257,
+      "trainer": 157013,
+      "name": "Romain Brégerie",
+      "role": "Vorstand Sport",
+      "club": "VfB Lübeck"
+    },
+    {
+      "spieler": 182750,
+      "trainer": 122164,
+      "name": "Robin Fechner",
+      "role": "Technischer Leiter",
+      "club": "RW Essen"
+    },
+    {
+      "spieler": 207577,
+      "trainer": 120183,
+      "name": "Patrick Bade",
+      "role": "Torwarttrainer",
+      "club": "Frauenfußball"
+    },
+    {
+      "spieler": 109792,
+      "trainer": 153181,
+      "name": "Gianluca Korte",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "club": "Wehen Wiesbaden"
+    },
+    {
+      "spieler": 109793,
+      "trainer": 153181,
+      "name": "Raffael Korte",
+      "role": "Mitarbeiter/-in d. Geschäftsstelle",
+      "club": "Wehen Wiesbaden"
+    },
+    {
+      "spieler": 3539,
+      "trainer": 115696,
+      "name": "Luke Steele",
+      "role": "Trainer",
+      "club": "Peterb Sports"
+    },
+    {
+      "spieler": 93869,
+      "trainer": 105824,
+      "name": "Philip Sprint",
+      "role": "Torwarttrainer",
+      "club": "Hertha BSC U19"
+    },
+    {
+      "spieler": 405673,
+      "trainer": 145621,
+      "name": "Sebastian Hornung",
+      "role": "Torwarttrainer",
+      "club": "Hoffenheim Jgd."
+    },
+    {
+      "spieler": 119291,
+      "trainer": 157148,
+      "name": "Steffen Schäfer",
+      "role": "Teammanager",
+      "club": "Grasshoppers"
+    },
+    {
+      "spieler": 70299,
+      "trainer": 41259,
+      "name": "Ömer Kanca",
+      "role": "Spielertrainer",
+      "club": "Oberweikertsh."
+    },
+    {
+      "spieler": 45877,
+      "trainer": 67500,
+      "name": "Ozan Yilmaz",
+      "role": "Co-Trainer",
+      "club": "TSV Marl-Hüls"
+    },
+    {
+      "spieler": 70544,
+      "trainer": 142029,
+      "name": "Jacob Schoop",
+      "role": "Gegneranalyst",
+      "club": "Naestved BK"
+    },
+    {
+      "spieler": 37836,
+      "trainer": 142480,
+      "name": "Sergey Evlyushkin",
+      "role": "Interimstrainer",
+      "club": "Hes. Kassel II"
+    },
+    {
+      "spieler": 103614,
+      "trainer": 129052,
+      "name": "Julien Latendresse-Levesque",
+      "role": "Interimstrainer",
+      "club": "Radefelder SV"
+    },
+    {
+      "spieler": 38192,
+      "trainer": 155589,
+      "name": "Carlos Silvio",
+      "role": "Verbindungstrainer",
+      "club": "FC Zürich"
+    },
+    {
+      "spieler": 62880,
+      "trainer": 70578,
+      "name": "Filip Luksik",
+      "role": "Co-Trainer",
+      "club": "TSG Neustrelitz"
+    },
+    {
+      "spieler": 71085,
+      "trainer": 156017,
+      "name": "Jules Reimerink",
+      "role": "Interimstrainer",
+      "club": "TuS Bersenbrück"
+    },
+    {
+      "spieler": 38409,
+      "trainer": 140809,
+      "name": "Sandrino Braun-Schumacher",
+      "role": "Co-Trainer",
+      "club": "Frauenfußball"
+    },
+    {
+      "spieler": 112566,
+      "trainer": 155401,
+      "name": "Maurice Pluntke",
+      "role": "Scout",
+      "club": "F. Düsseldorf"
+    },
+    {
+      "spieler": 31439,
+      "trainer": 29883,
+      "name": "Thorsten Barg",
+      "role": "Spielertrainer",
+      "club": "TGSV Holzhausen"
+    },
+    {
+      "spieler": 7920,
+      "trainer": 156251,
+      "name": "Luis García",
+      "role": "Geschäftsführer",
+      "club": "Johor DT"
+    },
+    {
+      "spieler": 57091,
+      "trainer": 157012,
+      "name": "Hanno Behrens",
+      "role": "Vorstand Sport",
+      "club": "VfB Lübeck"
+    }
+  ]
+}
