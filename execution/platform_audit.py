@@ -37,10 +37,13 @@ SEASON = 2026  # 2026/2027
 
 sys.path.insert(0, str(Path(__file__).parent))
 try:
-    from lib.normalization import slugify
+    from lib.normalization import slugify, normalize_club
 except Exception:
     def slugify(s):
         return re.sub(r"[^a-z0-9]+", "_", (s or "").lower()).strip("_")
+
+    def normalize_club(name, tm_id=None):
+        return name
 
 
 def C1_template_drilldown_guard():
@@ -219,14 +222,22 @@ def C9_player_current_club_staleness(sample_networks=60, per_net=40):
                 continue
             pcc = prof.get("current_club")
             real = pcc.get("name") if isinstance(pcc, dict) else pcc
+            real_id = pcc.get("tm_id") if isinstance(pcc, dict) else None
             if not real:
+                continue
+            # profile="Karriereende" but network shows a real club = legitimate
+            # post-career enrichment (player now coaches/works there). The network
+            # is MORE accurate than the (playing-career-only) profile here.
+            if real == "Karriereende":
                 continue
             compared += 1
             shown = ccname(c)
             # post_career_role contacts legitimately show their work club, skip
             if c.get("post_career_role"):
                 continue
-            if shown != real:
+            # Normalize BOTH sides: the builder stores normalize_club(real), so
+            # "SC Paderborn 07" → "SC Paderborn" is correct, not a mismatch.
+            if normalize_club(shown or "") != normalize_club(real, real_id):
                 mism += 1
         checked += 1
         if compared >= 6 and mism / compared >= 0.30:

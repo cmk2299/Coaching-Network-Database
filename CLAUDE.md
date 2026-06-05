@@ -469,11 +469,40 @@ Single self-contained HTML file with embedded JSON data. Template uses `__NETWOR
   - A-Lizenz Auftakt 2026 erfolgte 27.01.2026 mit Andreas Rettig (Quelle: dfb-akademie.de) — Cohort wird Anfang 2027 publik
   - DFB-Akademie publiziert Cohort-Listen NICHT öffentlich; Scrape-Quellen sind kicker.de, dfb.de news, reviersport.de pro Cohort
 
+### Chrome-Audit + Systemic Fixes 2026-05-21 ✅
+Live UI/Daten-Audit via Chrome MCP an Blessin (Trainer-Perspektive) + Bornemann (SD-Perspektive). Plus 4 weitere Coaches Spot-Check (Eta, Hecking, Schwartz, Krösche). **11 Findings** dokumentiert in `AUDIT_2026-05-21.md` mit Severity + systemic-fix Proposals.
+
+**Implementiert:**
+- ✅ **F2 (P0): Coach-Hired-Name-Bug** — naive `replace("Alexander Blessin", coach_name)` im Template-Generator korrumpierte Contact-Namen im embedded JSON. Bornemann SD-Network zeigte Blessin als "Andreas Bornemann". Fix: unique Placeholder `__CENTER_NAME_PLACEHOLDER__` + canonical-source (`data/networks/{tm_id}.json`) statt korrupte HTML als Datenquelle in `regenerate_dashboards.py`. 660+ Dashboards regeneriert.
+- ✅ **F1 Quick-Guard (P0): TM-Namespace-Kollision** — TM nutzt getrennte ID-Namespaces für `/spieler/<id>` vs `/trainer/<id>`. `persons_master` keyed nur auf tm_id → zuletzt gescrapeter überschreibt → Frankenstein-Profile (Bobic-Anzeige zeigt Walter Junghans-Karriere, Hagg zeigt Piwowarski, Tuchel zeigt Sam Stevens, etc.). Quantifiziert: **679 dual-namespace IDs** in Cache, ~500-700 korrumpierte Mitspieler-Display-Einträge. Quick-Guard in `build_coach_network.py`: vor Profile-Enrichment Name-Validation (Surname-fuzzy-match). Bei Mismatch → DROP enrichment. Verhindert Display-Korruption ohne full Migration. Volle Migration in separater Sprint.
+- ✅ **F7 (P2): DFB-Display** — `NATIONAL_FEDERATIONS` Dict + `federation_label()` Helper in `lib/normalization.py`. "Geschäftsführer Sport, Deutschland" → "...DFB". Wiring im finalize-Pass in `build_coach_network.py`.
+- ✅ **F8 (P2): "gehirt"-Typo** — `build_coach_network.py:1917` "Trainer (gehirt YYYY)" → "Trainer (geholt YYYY)".
+- ✅ **F6 (P1): Filter-Count UX** — Template `buildTableCategoryFilters()` zeigt jetzt `"Mitspieler · 26 / 167"` statt `"Mitspieler (26)"`. Sidebar-Total + sichtbare-Filtered-Count beide visible. Tooltip differenziert.
+- ✅ **F9 (P2): Role-Display Konsistenz** — `compute_role_display()` neue Priority 3.5 für executive/SD/management Kategorien: career_history[0].role mit Specific-Keywords (Geschäftsführer, Sportvorstand, Direktor) gewinnt gegen generische section ("Management"). Bornemann zeigt jetzt "Geschäftsführer Sport" statt "Management". Re-run nach career_history-load in `build_coach_network.py`.
+- ✅ **F11 (P1): vercel.json + 404.html restored** — Worktree-Disaster vom 21.05 hatte beide aus `output/` weggewischt. Neu erstellt: vercel.json mit Cache-Control + Routing, 404.html mit SPORTFIVE-Brand + "Zurück zum Index" CTA.
+
+**Pending (Directive):**
+- ⏳ **F1 Full Migration** — `persons_master` Key-Schema auf `<type>_<tm_id>` migrieren, 679 IDs re-scrapen, Reader updaten. ~2-3h, separater Sprint.
+- ⏳ **F3+F4+F5** — Coverage-Expansion PL/LaLiga/Bayern-Akademie. Mitspieler mit aktiver Rolle in nicht-gescrapten Vereinen werden vom Quick-Guard mitigiert (Display zeigt nur "Mitspieler" ohne falsche Karriere), aber für volle Auflösung müssen die Vereine gescraped werden.
+- ⏳ **F11.b**: National-Team-Coaches (Nagelsmann + 31 weitere) sind in `persons_master`, haben aber kein Network/Dashboard. Pipeline-Erweiterung in separater Sprint.
+
+**Audit-Report:** `AUDIT_2026-05-21.md`
+**Directive:** `directives/DIRECTIVE_2026-05-21_evening_deploy.md`
+**Run-Reihenfolge:** Phase 1 (Deploy F2, ~5min) → Phase 2 (run_mvp.sh full rebuild, ~100min) → Phase 3 (Polish optional) → Phase 4 (F1 Migration, separater Sprint).
+
 ### Trainerwechsel-Snapshot Refactor (2026-05-04) ✅
 - **Bug:** TM-Endpunkt `/{liga}/trainer/wettbewerb/{Lx}` liefert seit April 2026 HTTP 404 — kompletter Pfad ist tot, nicht nur Vercel-IP-Block
 - **Fix:** `execution/check_coach_changes.py` komplett refactored — liest jetzt **lokale** `data/staff/*.json` + `data/club_registry.json` statt TM-Live
 - **Datenfrische:** abhängig von `run_mvp.sh` Staff-Refresh (`--max-age-days=1`), nicht von Live-TM-Aufruf
 - **Output:** `output/api/check-coaches.json` mit BL1 (18) + BL2 (18) + BL3 (19) coaches, 0 errors
+
+### Next Steps (Priority Order, 2026-05-21)
+1. **F2-Deploy (5 min)** — `cd output && npx vercel deploy --prod --yes --scope cmk2299s-projects`. F2-Fix ist lokal verifiziert, nur Vercel-Push fehlt.
+2. **Phase 2 Full Rebuild (~100min)** — `bash run_mvp.sh` mit `--all-bl-coaches`. Aktiviert F1-Quick-Guard, F6, F7, F8, F9 für alle Networks. Inkludiert Sprint 1+2 (Filter-Count + Marcel Schuhen Spieler-Klassifikation, LG 70/71 Trainer Networks).
+3. **Daily-Refresh aktivieren** — `bash setup_daily_refresh.sh` (5 min). LaunchAgent `com.footballdb.daily-refresh` täglich 06:00 + ntfy-Push.
+4. **F1 Full Migration (~2-3h, separater Sprint)** — `persons_master` Key-Migration auf `<type>_<id>`. Eliminiert die Namespace-Korruption komplett. Details in `directives/DIRECTIVE_2026-05-21_evening_deploy.md` §2.3.
+5. **Sprint 3: Variant 2 NLZ-Discovery** — `bash run_youth_discovery.sh` (3-5h, overnight).
+6. **Sprint 10b: P1+P2 Ligen scrapen** — configs ready, need `scrape_club_registry.py` + `scrape_squads.py` run.
 
 ### Next Steps (Priority Order, 2026-05-19)
 1. **Daily Refresh aktivieren** — User-Action:
@@ -511,6 +540,7 @@ Single self-contained HTML file with embedded JSON data. Template uses `__NETWOR
 
 ### Known Data Pipeline Quirks
 - **Staff-Refresh ohne Age-Check (pre-2026-04-19):** `scrape_squads.py --staff-only` überspringt JEDE existierende Staff-Datei ohne Altersprüfung. Folge: seit Einführung gab es **nie** einen echten Refresh über `run_mvp.sh`, Daten waren 22-45+ Tage alt. Fix: `--max-age-days=N` Flag + `--force`. `run_mvp.sh` nutzt jetzt `--max-age-days=1`.
+- **C9 Station-Stamp Staleness (2026-06-05):** Netzwerke, die VOR dem current_club-Lambda-Fix (2026-06-04) in `build_coach_network.build_network` gebaut wurden, tragen auf `player_coached`-Kontakten den **Coach-Station-Namen** statt des echten Spieler-current_club aus dem Profil (z.B. alle Klon-Spieler zeigten "SV Werder Bremen II"). Der aktuelle Builder liest current_club korrekt aus `spieler_{id}.json`. **137 stale Netzwerke** detektiert (inkl. Nagelsmann, Streich, Bosz, Ilzer). Detection: `platform_audit.py` Check C9 (Profil-autoritativ, flaggt bei ≥30% mismatch der player_coached-Kontakte). **Fix-Tool:** `python3 execution/rebuild_stale_networks.py --ids-file <liste>` — baut Netzwerk-JSON neu via aktuellem `build_network`, bewahrt `_*meta` (NLZ-Tier/parent_club), und regeneriert ALLE existierenden Dashboard-Varianten (`_network` + `_nlz_network`; **NICHT** `_sd_network` — das ist SD-zentriert, anderer Builder). **Lehre:** Nach Builder-Logik-Fixes ALLE betroffenen Netzwerke neu bauen, nicht nur Stichprobe (Systematik vor Ad-Hoc) — sonst bleibt stale Output auf Disk, weil `regenerate_dashboards.py` die eingebackene NETWORK-Konstante aus dem alten HTML wiederverwendet (es liest NICHT die frische `data/networks/{id}.json`).
 
 ---
 
