@@ -2704,6 +2704,35 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
     if _san:
         print(f"  ID-sanitizer: reset {_san} contact(s) with mismatched namespace id")
 
+    # Same-profile dedup (logic_audit LX2 2026-06-07): one person can enter via
+    # two different _tm_id values that BOTH resolve to the same TM profile url
+    # (e.g. Hans-Jörg Honold: staff id 10853 + academy id 24762, both pointing at
+    # /trainer/10853). Merge by tm_url namespace: keep the higher-relevance
+    # contact, union its stations. Only touches exact same-profile pairs, so
+    # networks without such a collision are unaffected.
+    _by_url = {}
+    _dedup_drop = set()
+    for c in contacts_list:
+        m = _re_module.search(r"/(spieler|trainer)/(\d+)", c.get("tm_url") or "")
+        if not m:
+            continue
+        key = (m.group(1), m.group(2))
+        prev = _by_url.get(key)
+        if prev is None:
+            _by_url[key] = c
+            continue
+        rank = lambda x: ((x.get("relevance_score") or 0), len(x.get("stations") or []))
+        better, worse = (c, prev) if rank(c) > rank(prev) else (prev, c)
+        su = better.setdefault("stations", [])
+        for s in worse.get("stations", []) or []:
+            if s not in su:
+                su.append(s)
+        _dedup_drop.add(id(worse))
+        _by_url[key] = better
+    if _dedup_drop:
+        contacts_list = [c for c in contacts_list if id(c) not in _dedup_drop]
+        print(f"  Same-URL dedup: merged {len(_dedup_drop)} duplicate-profile contact(s)")
+
     network = {
         "center": profile["name"],
         "center_info": {
