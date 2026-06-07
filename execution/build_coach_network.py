@@ -1269,7 +1269,17 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                 coll_id = colleague["tm_id"]
                 coll_name = colleague["name"]
 
-                if coll_id in contacts_map:
+                # LX3 guard (logic_audit 2026-06-07): coaching_licenses tm_ids are
+                # fuzzy-matched and can point at the wrong person (e.g. Wildersinn→
+                # 15516=gil). If the resolved profile name doesn't match the
+                # colleague name, the tm_id/url are wrong — drop the link entirely
+                # and add the colleague name-only (preserves the real Lehrgang tie
+                # without showing a stranger's profile/career/photo).
+                if coll_id is not None and profile_namespace_mismatch(
+                        coll_name, (profiles.get(coll_id) or {}).get("name", "")):
+                    coll_id = None
+
+                if coll_id is not None and coll_id in contacts_map:
                     existing = contacts_map[coll_id]
                     if station_name not in existing["stations"]:
                         existing["stations"].append(station_name)
@@ -1318,7 +1328,11 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                     except (ValueError, TypeError):
                         _lehrgang_year = 2015
 
-                    contacts_map[coll_id] = {
+                    # name-only colleagues (coll_id dropped by LX3 guard) must not
+                    # all collide on key None — synthesize a stable per-name key.
+                    map_key = coll_id if coll_id is not None \
+                        else f"_lehrgang_nameonly::{coll_name}"
+                    contacts_map[map_key] = {
                         "name": coll_name,
                         "stations": [station_name],
                         "category": "lehrgang",
@@ -2521,6 +2535,16 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                     "confidence": h.get("confidence"),
                     "tenure_years": h.get("tenure_years"),
                 }
+                # LX2 dedup (logic_audit 2026-06-07): a coach hired in multiple
+                # stints (e.g. Falko Götz 2002 + 2004) used to create duplicate
+                # contacts. Accumulate all hire years on the single contact and
+                # reflect them in the "Trainer (geholt …)" role.
+                _yrs = existing.setdefault("_hire_years", [])
+                if h.get("year") and h.get("year") not in _yrs:
+                    _yrs.append(h.get("year"))
+                if (existing.get("role") or "").startswith("Trainer (geholt"):
+                    existing["role"] = ("Trainer (geholt "
+                                        + ", ".join(str(y) for y in sorted(_yrs)) + ")")
                 # Promote to coach_hired (more specific than head_coach)
                 existing["category"] = "coach_hired"
                 # Fix A2: Score-Boost für existing hires (NICHT für neu-erzeugte)
@@ -2532,7 +2556,7 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                 )
             else:
                 # Add minimal hire-only contact
-                contacts_list.append({
+                new_hire = {
                     "name": h.get("coach_name", "?"),
                     "tm_id": ht_id,
                     "_tm_id": ht_id,
@@ -2546,9 +2570,18 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                         "confidence": h.get("confidence"),
                         "tenure_years": h.get("tenure_years"),
                     },
+                    "_hire_years": [h.get("year")] if h.get("year") else [],
                     "pro_status": "trainer",
                     "shared_station_count": 1,
-                })
+                }
+                contacts_list.append(new_hire)
+                # LX2 dedup: register so a later hire of the SAME coach merges
+                # into this contact instead of appending a second one.
+                if ht_id_int is not None:
+                    existing_ids[ht_id_int] = new_hire
+                _hn = (h.get("coach_name") or "").strip().lower()
+                if _hn:
+                    existing_by_name[_hn] = new_hire
                 added_hires += 1
 
         # Add co-DMs at the same primary club (Tier 2/3 + nlz)
