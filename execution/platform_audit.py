@@ -33,9 +33,9 @@ DATA = ROOT / "data"
 PROFILES = DATA / "person_profiles"
 TEMPLATE = ROOT / "blessin_network_v3.html"
 INDEX = OUT / "index.html"
-SEASON = 2025  # 2025/2026 — MUST track build_coach_network.py CURRENT_SEASON.
-# Bump both together at season rollover (~Aug, once squad/_YYYY data flips majority).
-# Setting this a season ahead makes C8 demand the index mislabel current-season data.
+SEASON = 2026  # 2026/2027 — platform migrated forward (relegations + all coach
+# overrides Hütter/Rapp/Lustrinelli/Strobl are "ab 2026/27"). Index title + badge
+# both render 26/27. Bump at the next season rollover (~Aug 2027).
 
 sys.path.insert(0, str(Path(__file__).parent))
 try:

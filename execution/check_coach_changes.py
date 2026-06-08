@@ -30,7 +30,25 @@ from lib.normalization import normalize_club  # noqa: E402
 OUT = BASE / "output" / "api" / "check-coaches.json"
 REGISTRY = BASE / "data" / "club_registry.json"
 STAFF_DIR = BASE / "data" / "staff"
-SEASON = "2025/2026"
+
+
+def _latest_season() -> str:
+    """Derive the latest season label present in the registry's leagues maps so
+    this snapshot never goes stale on a hardcoded constant (was "2025/2026")."""
+    try:
+        import json as _json
+        reg = _json.load(open(REGISTRY))
+        clubs = reg.get("clubs", reg) if isinstance(reg, dict) else reg
+        seasons = set()
+        for c in (clubs.values() if isinstance(clubs, dict) else clubs):
+            seasons.update((c.get("leagues") or {}).keys())
+        # season labels sort lexicographically by start year ("2026/2027" > "2025/2026")
+        return max(seasons) if seasons else "2025/2026"
+    except Exception:
+        return "2025/2026"
+
+
+SEASON = _latest_season()
 
 LEAGUE_LABELS = {
     "L1": ("BL1", "1. Bundesliga"),
@@ -52,15 +70,34 @@ def collect_clubs(league_codes: list[str]) -> dict[str, list[dict]]:
     return by_league
 
 
+def _appointed_overrides() -> "dict[int, dict]":
+    """Map club_tm_id -> appointed-coach override. Covers TM-lag where a newly
+    hired Cheftrainer isn't on TM's staff page yet (e.g. Strobl@Wolfsburg,
+    Lustrinelli@Union). Without this, such clubs falsely report 'missing'."""
+    try:
+        ov = json.loads((BASE / "data" / "coach_overrides.json").read_text())
+    except (json.JSONDecodeError, OSError):
+        return {}
+    out = {}
+    for e in ov.get("appointed", []):
+        cid = e.get("club_tm_id")
+        if cid and e.get("name") and e.get("tm_id"):
+            out[int(cid)] = {"name": e["name"].strip(), "tm_id": int(e["tm_id"]),
+                             "source": "override"}
+    return out
+
+
 def head_coach_for_club(club_tm_id: int) -> "dict | None":
-    """Read head_coach from staff/{tm_id}.json. Returns None if missing."""
+    """Read head_coach from staff/{tm_id}.json. Returns None if missing.
+    Falls back to an appointed-override when TM hasn't listed the new HC yet."""
+    override = _appointed_overrides().get(int(club_tm_id))
     path = STAFF_DIR / f"{club_tm_id}.json"
     if not path.exists():
-        return None
+        return override
     try:
         data = json.loads(path.read_text())
     except (json.JSONDecodeError, OSError):
-        return None
+        return override
     candidates = []
     for entry in data.get("staff", []):
         section = (entry.get("section") or "").strip()
@@ -72,7 +109,7 @@ def head_coach_for_club(club_tm_id: int) -> "dict | None":
         if role == "head_coach" or "cheftrainer" in role_text or role_text == "trainer":
             candidates.append(entry)
     if not candidates:
-        return None
+        return override
     # Prefer explicit head_coach role, then first in list
     candidates.sort(key=lambda e: 0 if (e.get("role") or "").lower() == "head_coach" else 1)
     pick = candidates[0]
