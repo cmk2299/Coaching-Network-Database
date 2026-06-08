@@ -88,12 +88,16 @@ def _appointed_overrides() -> "dict[int, dict]":
 
 
 def head_coach_for_club(club_tm_id: int) -> "dict | None":
-    """Read head_coach from staff/{tm_id}.json. Returns None if missing.
-    Falls back to an appointed-override when TM hasn't listed the new HC yet."""
+    """Return the club's head coach. An appointed-override ALWAYS wins — it is a
+    manually-confirmed statement "this club's HC is X now" and must take
+    precedence over the scraped staff page, which lags reality (still lists the
+    outgoing HC, e.g. Hjulmand@Leverkusen until TM updates)."""
     override = _appointed_overrides().get(int(club_tm_id))
+    if override:
+        return override
     path = STAFF_DIR / f"{club_tm_id}.json"
     if not path.exists():
-        return override
+        return None
     try:
         data = json.loads(path.read_text())
     except (json.JSONDecodeError, OSError):

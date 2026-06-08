@@ -10,12 +10,12 @@
       "added": "2026-06-04"
     },
     {
-      "club_tm_id": 10,
-      "club": "Arminia Bielefeld",
-      "tm_id": 35168,
-      "name": "Mitch Kniat",
-      "note": "Trennung nach 3 Jahren Ende Saison 2025/26. Nachfolger noch offen. TM noch nicht aktualisiert. Quelle: nw.de / sportschau Juni 2026",
-      "added": "2026-06-04"
+      "club_tm_id": 48,
+      "club": "Karlsruher SC",
+      "tm_id": 49834,
+      "name": "Christian Eichner",
+      "note": "Trennung im Sommer nach 6,5 Jahren. Nachfolger Senft (siehe appointed). TM noch nicht aktualisiert. Quelle: ksc.de / bundesliga.com Juni 2026",
+      "added": "2026-06-08"
     }
   ],
   "appointed": [
@@ -67,6 +67,26 @@
       "name": "Carles Martínez",
       "tm_url": "https://www.transfermarkt.de/carles-martinez/profil/trainer/40683",
       "note": "Neuer Cheftrainer (von FC Toulouse, Vertrag bis 2028), ersetzt Hjulmand (5372) nach weniger als einem Jahr. TM noch nicht aktualisiert. Quelle: bundesliga.com + sportschau + t-online Juni 2026",
+      "added": "2026-06-08"
+    },
+    {
+      "club_tm_id": 10,
+      "club": "Arminia Bielefeld",
+      "replaces_tm_id": 35168,
+      "tm_id": 59373,
+      "name": "Oliver Kirch",
+      "tm_url": "https://www.transfermarkt.de/oliver-kirch/profil/trainer/59373",
+      "note": "Neuer Cheftrainer (von Gladbach II, Trainingsstart 27.06.), ersetzt Kniat (35168). TM noch nicht aktualisiert. Quelle: kicker.de + sportschau + nw.de Juni 2026",
+      "added": "2026-06-08"
+    },
+    {
+      "club_tm_id": 48,
+      "club": "Karlsruher SC",
+      "replaces_tm_id": 49834,
+      "tm_id": 53318,
+      "name": "Maximilian Senft",
+      "tm_url": "https://www.transfermarkt.de/maximilian-senft/profil/trainer/53318",
+      "note": "Neuer Cheftrainer (von SV Ried, Österreicher), ersetzt Eichner (49834) nach 6,5 Jahren. TM noch nicht aktualisiert. Quelle: ksc.de + bundesliga.com + Sky Juni 2026",
       "added": "2026-06-08"
     }
   ],
