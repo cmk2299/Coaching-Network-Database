@@ -58,6 +58,16 @@
       "tm_url": "https://www.transfermarkt.de/marcel-rapp/profil/trainer/24235",
       "note": "Nachfolger von Blessin (26099) nach Abstieg in 2.BL. Zuvor Holstein Kiel 2021-Feb 2026. TM noch nicht aktualisiert. Quelle: kicker.de + t-online Juni 2026",
       "added": "2026-06-08"
+    },
+    {
+      "club_tm_id": 15,
+      "club": "Bayer 04 Leverkusen",
+      "replaces_tm_id": 5372,
+      "tm_id": 40683,
+      "name": "Carles Martínez",
+      "tm_url": "https://www.transfermarkt.de/carles-martinez/profil/trainer/40683",
+      "note": "Neuer Cheftrainer (von FC Toulouse, Vertrag bis 2028), ersetzt Hjulmand (5372) nach weniger als einem Jahr. TM noch nicht aktualisiert. Quelle: bundesliga.com + sportschau + t-online Juni 2026",
+      "added": "2026-06-08"
     }
   ],
   "sd": [
