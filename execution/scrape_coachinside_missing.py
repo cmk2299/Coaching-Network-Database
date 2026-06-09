@@ -329,9 +329,11 @@ def run_person_scraper(tm_id: int) -> tuple[bool, str]:
         )
         if r.returncode != 0:
             return False, r.stderr[-500:]
-        # Scraper writes data/person_profiles/{tm_id}.json
-        prof = DATA / "person_profiles" / f"{tm_id}.json"
-        if not prof.exists():
+        # Scraper writes namespaced profiles post-migration: trainer_{id}.json
+        # (legacy {id}.json kept as fallback for old data).
+        pdir = DATA / "person_profiles"
+        if not ((pdir / f"trainer_{tm_id}.json").exists()
+                or (pdir / f"{tm_id}.json").exists()):
             return False, "profile file missing after scrape"
         return True, ""
     except subprocess.TimeoutExpired:
