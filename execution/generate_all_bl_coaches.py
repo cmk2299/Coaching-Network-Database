@@ -244,11 +244,6 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
     # contacts is a dead-end click (e.g. NLZ coaches with no TM data: Weinecker,
     # Özbakir). Current BL1/2/3 coaches are kept regardless so the league tables
     # stay complete. Systematik: applies to every optional list, not per-name.
-    _nonempty = lambda lst: [c for c in lst if (c.get("contacts") or 0) > 0]
-    hist_a, hist_c, hist_d = _nonempty(hist_a), _nonempty(hist_c), _nonempty(hist_d)
-    hist_b = _nonempty(hist_b)
-    extra, other = _nonempty(extra), _nonempty(other)
-
     # Load network stats for contact counts
     network_stats = {}
     for c in coaches:
@@ -262,6 +257,18 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
                 }
             except Exception:
                 pass
+
+    # Drop empty (0-contact) networks from OPTIONAL sections — a dashboard with no
+    # contacts is a dead-end click (e.g. NLZ coaches with no TM data: Weinecker,
+    # Özbakir). Current BL1/2/3 tables are kept complete. The contact count lives
+    # in network_stats (NOT on the coach dict — extra/hist dicts have no "contacts"
+    # key, so the filter must read network_stats or it would drop EVERY optional
+    # coach, wiping the "Weitere"/historical sections).
+    _nonempty = lambda lst: [c for c in lst
+                             if network_stats.get(c["tm_id"], {}).get("contacts", 0) > 0]
+    hist_a, hist_c, hist_d = _nonempty(hist_a), _nonempty(hist_c), _nonempty(hist_d)
+    hist_b = _nonempty(hist_b)
+    extra, other = _nonempty(extra), _nonempty(other)
 
     # Load Hot-Seat-Scores (powered by execution/calc_hot_seat_score.py)
     hot_seat_by_coach = {}
@@ -1067,14 +1074,41 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
 
 /* ── Search ── */
 .search-wrap{{padding:20px 40px 0}}
+.search-box{{position:relative;max-width:480px}}
 .search{{
-  width:100%;max-width:360px;padding:9px 14px;
+  width:100%;padding:12px 14px 12px 38px;
   background:var(--surface);border:1px solid var(--border);
-  color:var(--text);font:inherit;font-size:13px;border-radius:6px;outline:none;
-  transition:border-color .15s;
+  color:var(--text);font:inherit;font-size:14px;border-radius:8px;outline:none;
+  transition:border-color .15s,box-shadow .15s;
 }}
-.search:focus{{border-color:var(--accent)}}
+.search:focus{{border-color:var(--accent);box-shadow:0 0 0 3px rgba(244,0,9,.12)}}
 .search::placeholder{{color:var(--text-3)}}
+.search-box::before{{
+  content:"\\2315";position:absolute;left:13px;top:50%;transform:translateY(-50%);
+  color:var(--text-3);font-size:16px;pointer-events:none;
+}}
+/* typeahead dropdown */
+.search-suggest{{
+  position:absolute;top:calc(100% + 6px);left:0;right:0;z-index:50;
+  background:var(--surface);border:1px solid var(--border);border-radius:8px;
+  box-shadow:0 12px 32px rgba(0,0,0,.45);overflow:hidden;display:none;
+  max-height:380px;overflow-y:auto;
+}}
+.search-suggest.open{{display:block}}
+.sug-item{{
+  display:flex;align-items:center;gap:10px;padding:9px 14px;cursor:pointer;
+  text-decoration:none;border-bottom:1px solid var(--border);
+}}
+.sug-item:last-child{{border-bottom:none}}
+.sug-item:hover,.sug-item.active{{background:rgba(244,0,9,.10)}}
+.sug-name{{color:var(--text);font-size:13px;font-weight:600;flex:0 0 auto}}
+.sug-club{{color:var(--text-3);font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
+.sug-badge{{
+  font:600 10px/1 'JetBrains Mono',monospace;color:var(--text-2);
+  background:var(--bg);border:1px solid var(--border);border-radius:4px;
+  padding:3px 6px;flex:0 0 auto;text-transform:uppercase;letter-spacing:.03em;
+}}
+.sug-empty{{padding:12px 14px;color:var(--text-3);font-size:13px}}
 
 /* ── League sections ── */
 .section{{padding:28px 40px 0}}
@@ -1246,7 +1280,11 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
 </div>
 
 <div class="search-wrap">
-  <input type="text" class="search" placeholder="Trainer oder Verein filtern..." id="q" oninput="filter()">
+  <div class="search-box">
+    <input type="text" class="search" placeholder="Trainer suchen — Name eingeben, direkt zum Netzwerk…" id="q"
+           autocomplete="off" oninput="onSearch()" onfocus="onSearch()" onkeydown="sugKey(event)">
+    <div class="search-suggest" id="suggest"></div>
+  </div>
 </div>
 
 <div class="update-banner">
@@ -1313,6 +1351,72 @@ function filter(){{
     s.style.display=vis.length?'':'none';
   }});
 }}
+
+/* ── Typeahead: jump straight to any coach by name, no league needed ── */
+const SECTION_BADGE={{bl1:'BL1',bl2:'BL2',bl3:'3.Liga',sds:'SD','decision-makers':'DM',dms:'DM',
+  nlz:'NLZ',extra:'Netzwerk','hist-a':'Ehemalig','hist-c':'Co-Trainer','hist-d':'Historisch'}};
+let COACH_INDEX=null, sugActive=-1;
+function buildCoachIndex(){{
+  const seen={{}}, idx=[];
+  document.querySelectorAll('.row-wrap').forEach(r=>{{
+    const a=r.querySelector('a.row'); if(!a) return;
+    const href=a.getAttribute('href'); if(!href||seen[href]) return; seen[href]=1;
+    const sec=r.closest('.section');
+    const badge=(sec&&SECTION_BADGE[sec.id])||'Netzwerk';
+    // .row-name includes the nat-badge ISO span (e.g. "SUI") — strip it for a clean name
+    let nm=r.dataset.name;
+    const rn=r.querySelector('.row-name');
+    if(rn){{const cl=rn.cloneNode(true);cl.querySelectorAll('.nat-badge').forEach(b=>b.remove());nm=cl.textContent.trim()||nm;}}
+    idx.push({{
+      name:nm,
+      club:(r.querySelector('.row-club')||{{}}).textContent.trim()||r.dataset.club,
+      key:(r.dataset.name||'')+' '+(r.dataset.club||''),
+      href:href, badge:badge
+    }});
+  }});
+  return idx;
+}}
+function onSearch(){{
+  filter();
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  const box=document.getElementById('suggest');
+  if(!q){{box.classList.remove('open');box.innerHTML='';sugActive=-1;return;}}
+  if(!COACH_INDEX) COACH_INDEX=buildCoachIndex();
+  const starts=[],contains=[];
+  for(const c of COACH_INDEX){{
+    const n=c.name.toLowerCase();
+    if(n.startsWith(q)) starts.push(c);
+    else if(c.key.includes(q)) contains.push(c);
+    if(starts.length>=8) break;
+  }}
+  const hits=starts.concat(contains).slice(0,8);
+  sugActive=-1;
+  if(!hits.length){{box.innerHTML='<div class="sug-empty">Kein Trainer gefunden</div>';box.classList.add('open');return;}}
+  box.innerHTML=hits.map((c,i)=>
+    `<a class="sug-item" href="${{c.href}}" data-i="${{i}}">`+
+    `<span class="sug-name">${{c.name}}</span>`+
+    `<span class="sug-club">${{c.club}}</span>`+
+    `<span class="sug-badge">${{c.badge}}</span></a>`).join('');
+  box.classList.add('open');
+}}
+function sugKey(e){{
+  const box=document.getElementById('suggest');
+  const items=[...box.querySelectorAll('.sug-item')];
+  if(!box.classList.contains('open')||!items.length){{
+    if(e.key==='Enter'){{const f=document.querySelector('.row-wrap[style=""] a.row,.row-wrap:not([style]) a.row');if(f)f.click();}}
+    return;
+  }}
+  if(e.key==='ArrowDown'){{e.preventDefault();sugActive=Math.min(sugActive+1,items.length-1);}}
+  else if(e.key==='ArrowUp'){{e.preventDefault();sugActive=Math.max(sugActive-1,0);}}
+  else if(e.key==='Enter'){{e.preventDefault();(items[sugActive]||items[0]).click();return;}}
+  else if(e.key==='Escape'){{box.classList.remove('open');return;}}
+  else return;
+  items.forEach((it,i)=>it.classList.toggle('active',i===sugActive));
+  if(items[sugActive])items[sugActive].scrollIntoView({{block:'nearest'}});
+}}
+document.addEventListener('click',e=>{{
+  if(!e.target.closest('.search-box')){{const b=document.getElementById('suggest');if(b)b.classList.remove('open');}}
+}});
 
 function sortRows(el, key){{
   const section=el.closest('.section');
