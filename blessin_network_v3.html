@@ -2606,9 +2606,17 @@ function buildTable() {
     // For players: role = position only (no stats appended)
     let roleText = displayRole;
     if (c.category === 'player_coached' || c.category === 'former_teammate') {
-        // Strip "Mitspieler (...)" wrapper → just position
-        const posMatch = rawRole.match(/\(([^)]+)\)/);
-        if (posMatch) roleText = posMatch[1];
+        // Role can be "Mitspieler/Karriereende (Position)" → show position,
+        // OR a post-career role "Trainer/Sportdirektor (Club)" → show the role
+        // word (the club is already in the Verein column). Distinguish by prefix
+        // so we never surface the club name in the Rolle column (Gentner/Klose bug).
+        const m = rawRole.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+        if (m) {
+            const prefix = m[1].trim(), inner = m[2].trim();
+            roleText = /^(mitspieler|karriereende|spieler|ehemaliger)/i.test(prefix) || prefix === ''
+                ? inner       // playing context → position
+                : prefix;     // post-career role → role word, club stays in Verein
+        }
     }
     // Strip redundant club suffix — TM formats role as "Title, Club" which duplicates the Verein column
     if (c.current_club && roleText.endsWith(', ' + c.current_club)) {
