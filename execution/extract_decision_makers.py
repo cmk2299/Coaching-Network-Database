@@ -81,12 +81,18 @@ def classify_tier(staff_role: str, staff_section: str, tm_title: str):
     return None
 
 
+# Leagues to extract Decision-Maker from. DACH-Fokus (Stakeholder-Mandat):
+# deutsche Profiligen + Österreich (ABL/AUT2) + Schweiz (SUI). Staff-Dateien für
+# diese Ligen sind bereits gescraped (siehe data/staff/).
+DM_LEAGUES = ("BL1", "BL2", "BL3", "ABL", "AUT2", "SUI")
+
+
 def main():
     registry = json.load(open(BASE / "data/club_registry.json"))["clubs"]
     persons = json.load(open(BASE / "data/persons_master.json"))["persons"]
     season = "2025/2026"
     bl_clubs = [c for c in registry if any(
-        l in ("BL1", "BL2", "BL3")
+        l in DM_LEAGUES
         for l in c.get("leagues", {}).get(season, [])
     )]
 
@@ -125,7 +131,7 @@ def main():
                 "club_tm_id": c["tm_id"],
                 "club_name": c["name"],
                 "league": next((l for l in c.get("leagues", {}).get(season, [])
-                                if l in ("BL1", "BL2", "BL3")), None),
+                                if l in DM_LEAGUES), None),
                 "role": entry.get("role", ""),
                 "section": entry.get("section", ""),
                 "tm_title": tm_title,

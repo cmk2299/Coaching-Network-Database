@@ -50,6 +50,11 @@ try:
 except Exception:
     def classify_role(s):
         return ""
+try:
+    from lib.normalization import normalize_club
+except Exception:
+    def normalize_club(name, tm_id=None):
+        return name or ""
 
 MGMT_KEYWORDS = (
     "sportdirektor", "sportvorstand", "sportlich", "geschäftsführer", "direktor",
@@ -296,11 +301,20 @@ def audit_network(path, persons, enabled):
                         out.append(("LP2", nid, name,
                                     f"minutes {mn} > appearances {app}*130"))
             # LP3 current_club stamped from coach station (profile-authoritative)
-            if on("LP3") and prof:
+            # Normalize BOTH sides via normalize_club() before comparing: the contact
+            # value is already normalized at build time ("TSG Hoffenheim") while the
+            # profile value is raw ("TSG 1899 Hoffenheim") — a naive string compare
+            # produced ~1600 false positives for active players still at the club.
+            # Skip post-career contacts: their current_club is intentionally their
+            # REAL current employer (e.g. retired player now coaching at the same
+            # club the coach passed through) — not a stale coach-station stamp.
+            if on("LP3") and prof and not c.get("post_career_role"):
                 disp = cc_name(c.get("current_club"))
                 truth = cc_name(prof.get("current_club"))
+                disp_n = normalize_club(disp, None) if disp else ""
+                truth_n = normalize_club(truth, None) if truth else ""
                 if disp and disp in coach_stations and truth and \
-                   strip_accents(disp).lower() != strip_accents(truth).lower():
+                   strip_accents(disp_n).lower() != strip_accents(truth_n).lower():
                     out.append(("LP3", nid, name,
                                 f"shows current_club='{disp}' (coach station) but profile='{truth}'"))
 

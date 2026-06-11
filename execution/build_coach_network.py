@@ -1413,6 +1413,11 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             else:
                 c["current_club"] = role  # e.g. "TV-Experte"
                 c["role"] = role
+            # Mark as post-career so downstream (template role-display + logic_audit LP3)
+            # treats current_club as the player's REAL current employer, not a stale
+            # coach-station stamp. Without this flag the audit false-flags retired
+            # players who now coach/work at the same club the coach passed through.
+            c["post_career_role"] = True
             post_career_resolved += 1
 
     if post_career_resolved:
