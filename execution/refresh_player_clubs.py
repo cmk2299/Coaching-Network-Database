@@ -82,9 +82,22 @@ def main():
     # retried on the next run (no more silently marking thousands of blocks as done).
     done_fh = open(DONE, "a")
     tlog = BASE / f"data/player_transfers_{args.stamp}.json"
+    master = BASE / "data/player_transfers_master.json"
 
     def save_transfers():
         json.dump(transfers, open(tlog, "w"), ensure_ascii=False, indent=2)
+        # Cumulative master across ALL runs — merge + dedupe by tm_id so batches
+        # never overwrite each other's findings.
+        prev = {}
+        if master.exists():
+            try:
+                for t in json.load(open(master)):
+                    prev[t["tm_id"]] = t
+            except Exception:
+                pass
+        for t in transfers:
+            prev[t["tm_id"]] = t
+        json.dump(list(prev.values()), open(master, "w"), ensure_ascii=False, indent=2)
 
     for i, tm_id in enumerate(todo, 1):
         if ok >= args.max_per_run:
