@@ -31,6 +31,7 @@ from collections import defaultdict
 from typing import Optional, Dict, List, Tuple, Set
 
 # ── Shared library imports ────────────────────────────────────────────
+from lib.network_stages import enrich_cross_references
 from lib.normalization import (
     CLUB_NAME_NORMALIZE,
     normalize_club,
@@ -843,7 +844,7 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         category = classify_role(latest_role)
         other_current = other.get("current_club") or {}
 
-        station_names = list(shared_stations.keys())
+        station_names = sorted(shared_stations.keys())  # sorted → deterministic order
         total_seasons = sum(len(s) for s in shared_stations.values())
         all_shared_seasons = set().union(*shared_stations.values())
         latest_shared = max(all_shared_seasons) if all_shared_seasons else 2015
@@ -1151,7 +1152,7 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             continue
 
         player_data = pinfo.get("data", {})
-        station_names = list(pinfo["stations"])
+        station_names = sorted(pinfo["stations"])  # sorted → deterministic note/stations order
         seasons = sorted(pinfo["seasons"])
 
         n_seasons = len(seasons)
@@ -1424,50 +1425,10 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         print(f"  Post-career resolved: {post_career_resolved} contacts (from cached TM HTML)")
 
     # ── Multi-Station Enrichment: Cross-references between contacts ──
-    # Compute coaches_worked_with, sds_worked_with, shared_station_count
-    # This enables discovery of "triangular" relationships (contact A worked with
-    # contact B at a different station than they both worked with the center coach)
-    cross_refs = 0
-    for tm_id, contact in contacts_map.items():
-        contact_stations = set(contact.get("stations", []))
-        coaches_w = []
-        sds_w = []
-
-        # Find other contacts that share at least one station with this contact
-        for other_id, other in contacts_map.items():
-            if other_id == tm_id:
-                continue
-
-            other_stations = set(other.get("stations", []))
-            shared = contact_stations & other_stations
-
-            if not shared:
-                continue
-
-            cat = other.get("category", "")
-            if cat in ("head_coach", "coaching_staff"):
-                coaches_w.append({
-                    "name": other["name"],
-                    "shared": sorted(list(shared))
-                })
-            elif cat == "sporting_director":
-                sds_w.append({
-                    "name": other["name"],
-                    "shared": sorted(list(shared))
-                })
-
-        # Cap at 10 coaches and 5 SDs
-        if coaches_w:
-            contact["coaches_worked_with"] = sorted(coaches_w, key=lambda x: x["name"])[:10]
-            cross_refs += len(contact["coaches_worked_with"])
-
-        if sds_w:
-            contact["sds_worked_with"] = sorted(sds_w, key=lambda x: x["name"])[:5]
-            cross_refs += len(contact["sds_worked_with"])
-
-        # Store shared station count (number of stations with center coach)
-        contact["shared_station_count"] = len(contact_stations)
-
+    # Extracted to lib.network_stages.enrich_cross_references (decomposition
+    # 2026-06-20). Discovers "triangular" relationships: contacts that share a
+    # station with each other (not just with the center coach).
+    cross_refs = enrich_cross_references(contacts_map)
     if cross_refs > 0:
         print(f"  Cross-references: {cross_refs} coach/SD connections between contacts")
 
@@ -2411,8 +2372,21 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             if l.get("shared_minutes"):
                 winner["shared_minutes"] = max(winner.get("shared_minutes",0), l["shared_minutes"])
 
-        # Track merge so future audits can verify
-        winner["_merged_aliases"] = sorted({_tid(c) for c in entries if _tid(c) != _tid(winner)})
+        # Track merge so future audits can verify. Use ONLY real tm_ids here —
+        # _tid() falls back to id(c) (a non-deterministic memory address) for
+        # contacts without a parseable tm_url, which must never be persisted.
+        def _real_tid(c):
+            m = re.search(r"/(?:spieler|trainer)/(\d+)", c.get("tm_url", "") or "")
+            if m:
+                return int(m.group(1))
+            v = c.get("_tm_id") or c.get("tm_id")
+            try:
+                return int(v)
+            except (TypeError, ValueError):
+                return None
+        _wt = _real_tid(winner)
+        winner["_merged_aliases"] = sorted(
+            {t for c in entries if (t := _real_tid(c)) is not None and t != _wt})
 
         for l in losers:
             _to_drop.add(id(l))

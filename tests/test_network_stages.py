@@ -1,0 +1,55 @@
+"""Unit tests for execution/lib/network_stages.py — extracted build_network() stages."""
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "execution"))
+from lib.network_stages import enrich_cross_references  # noqa: E402
+
+
+class TestEnrichCrossReferences:
+    def test_shared_station_links_coach(self):
+        contacts = {
+            1: {"name": "Alpha", "category": "head_coach", "stations": ["FC X", "FC Y"]},
+            2: {"name": "Beta", "category": "coaching_staff", "stations": ["FC Y"]},
+        }
+        n = enrich_cross_references(contacts)
+        assert n == 2  # Alpha↔Beta share FC Y, both coach-type
+        assert contacts[1]["coaches_worked_with"] == [{"name": "Beta", "shared": ["FC Y"]}]
+        assert contacts[2]["coaches_worked_with"] == [{"name": "Alpha", "shared": ["FC Y"]}]
+
+    def test_sd_goes_to_sds_bucket(self):
+        contacts = {
+            1: {"name": "Coach", "category": "head_coach", "stations": ["FC X"]},
+            2: {"name": "Boss", "category": "sporting_director", "stations": ["FC X"]},
+        }
+        enrich_cross_references(contacts)
+        assert contacts[1]["sds_worked_with"] == [{"name": "Boss", "shared": ["FC X"]}]
+        assert "coaches_worked_with" not in contacts[1]
+
+    def test_no_shared_station_no_link(self):
+        contacts = {
+            1: {"name": "A", "category": "head_coach", "stations": ["FC X"]},
+            2: {"name": "B", "category": "head_coach", "stations": ["FC Z"]},
+        }
+        assert enrich_cross_references(contacts) == 0
+        assert "coaches_worked_with" not in contacts[1]
+
+    def test_shared_station_count_stamped(self):
+        contacts = {1: {"name": "A", "category": "head_coach", "stations": ["X", "Y", "Z"]}}
+        enrich_cross_references(contacts)
+        assert contacts[1]["shared_station_count"] == 3
+
+    def test_coaches_capped_at_10(self):
+        contacts = {0: {"name": "Center", "category": "head_coach", "stations": ["X"]}}
+        for i in range(1, 16):
+            contacts[i] = {"name": f"C{i:02d}", "category": "head_coach", "stations": ["X"]}
+        enrich_cross_references(contacts)
+        assert len(contacts[0]["coaches_worked_with"]) == 10  # capped
+
+    def test_shared_list_sorted(self):
+        contacts = {
+            1: {"name": "A", "category": "head_coach", "stations": ["FC Z", "FC A", "FC M"]},
+            2: {"name": "B", "category": "head_coach", "stations": ["FC Z", "FC A", "FC M"]},
+        }
+        enrich_cross_references(contacts)
+        assert contacts[1]["coaches_worked_with"][0]["shared"] == ["FC A", "FC M", "FC Z"]
