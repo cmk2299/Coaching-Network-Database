@@ -31,7 +31,11 @@ from collections import defaultdict
 from typing import Optional, Dict, List, Tuple, Set
 
 # ── Shared library imports ────────────────────────────────────────────
-from lib.network_stages import enrich_cross_references
+from lib.network_stages import (
+    enrich_cross_references,
+    normalize_contact_urls,
+    remove_connection_self_loops,
+)
 from lib.normalization import (
     CLUB_NAME_NORMALIZE,
     normalize_club,
@@ -2401,35 +2405,12 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
     # which break when rendered as <a href=...> in the dashboard (would resolve to
     # coach-network-explorer.vercel.app/lambertz/... → 404).
     # 44,600 contacts across networks had broken relative URLs.
-    _tm_base = "https://www.transfermarkt.de"
-    _url_fixed = 0
-    for c in contacts_list:
-        url = c.get("tm_url") or ""
-        if url and url.startswith("/"):
-            c["tm_url"] = _tm_base + url
-            _url_fixed += 1
+    # Extracted to lib.network_stages (decomposition 2026-06-20).
+    _url_fixed = normalize_contact_urls(contacts_list)
     if _url_fixed:
         print(f"  Pattern 27: normalized {_url_fixed} relative tm_urls → absolute")
 
-    # PATTERN 26b (2026-05-23): remove self-loops from coaches_worked_with /
-    # sds_worked_with. After dedup, the winner's relationships array may still
-    # reference the loser by name — which is now the SAME person as the winner.
-    # Also catches any pre-existing self-loops from cross-reference logic where
-    # spieler+trainer dual-namespace contacts referenced each other.
-    _surviving_names = {(c.get("name") or "").strip().lower() for c in contacts_list}
-    _self_loops_removed = 0
-    for c in contacts_list:
-        nm = (c.get("name") or "").strip().lower()
-        for key in ("coaches_worked_with", "sds_worked_with"):
-            arr = c.get(key) or []
-            if not arr:
-                continue
-            filtered = [x for x in arr if isinstance(x, dict)
-                        and (x.get("name","").strip().lower() != nm)]
-            removed = len(arr) - len(filtered)
-            if removed:
-                _self_loops_removed += removed
-                c[key] = filtered
+    _self_loops_removed = remove_connection_self_loops(contacts_list)
     if _self_loops_removed:
         print(f"  Pattern 26b: removed {_self_loops_removed} self-loops/stale dedup refs")
 

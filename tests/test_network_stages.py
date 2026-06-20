@@ -3,7 +3,11 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "execution"))
-from lib.network_stages import enrich_cross_references  # noqa: E402
+from lib.network_stages import (  # noqa: E402
+    enrich_cross_references,
+    normalize_contact_urls,
+    remove_connection_self_loops,
+)
 
 
 class TestEnrichCrossReferences:
@@ -53,3 +57,35 @@ class TestEnrichCrossReferences:
         }
         enrich_cross_references(contacts)
         assert contacts[1]["coaches_worked_with"][0]["shared"] == ["FC A", "FC M", "FC Z"]
+
+
+class TestNormalizeContactUrls:
+    def test_relative_made_absolute(self):
+        cs = [{"tm_url": "/lambertz/profil/spieler/8640"}]
+        assert normalize_contact_urls(cs) == 1
+        assert cs[0]["tm_url"] == "https://www.transfermarkt.de/lambertz/profil/spieler/8640"
+
+    def test_absolute_untouched(self):
+        cs = [{"tm_url": "https://www.transfermarkt.de/x/profil/spieler/1"}]
+        assert normalize_contact_urls(cs) == 0
+
+    def test_missing_url_ok(self):
+        cs = [{"name": "no url"}]
+        assert normalize_contact_urls(cs) == 0
+
+
+class TestRemoveConnectionSelfLoops:
+    def test_self_reference_removed(self):
+        cs = [{"name": "Tuchel", "coaches_worked_with": [
+            {"name": "Tuchel", "shared": ["X"]}, {"name": "Löw", "shared": ["Y"]}]}]
+        assert remove_connection_self_loops(cs) == 1
+        assert cs[0]["coaches_worked_with"] == [{"name": "Löw", "shared": ["Y"]}]
+
+    def test_case_insensitive(self):
+        cs = [{"name": "Klopp", "sds_worked_with": [{"name": "klopp", "shared": ["X"]}]}]
+        assert remove_connection_self_loops(cs) == 1
+        assert cs[0]["sds_worked_with"] == []
+
+    def test_no_loop_no_change(self):
+        cs = [{"name": "A", "coaches_worked_with": [{"name": "B", "shared": ["X"]}]}]
+        assert remove_connection_self_loops(cs) == 0

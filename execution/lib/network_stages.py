@@ -46,3 +46,39 @@ def enrich_cross_references(contacts_map: Dict) -> int:
         contact["shared_station_count"] = len(contact_stations)
 
     return cross_refs
+
+
+TM_BASE = "https://www.transfermarkt.de"
+
+
+def normalize_contact_urls(contacts_list) -> int:
+    """Make every contact's ``tm_url`` absolute. GemeinsameSpiele supplies relative
+    URLs (e.g. '/lambertz/profil/spieler/8640') which 404 when rendered as <a href>.
+    Mutates in place; returns the count fixed."""
+    fixed = 0
+    for c in contacts_list:
+        url = c.get("tm_url") or ""
+        if url.startswith("/"):
+            c["tm_url"] = TM_BASE + url
+            fixed += 1
+    return fixed
+
+
+def remove_connection_self_loops(contacts_list) -> int:
+    """Drop self-references from ``coaches_worked_with`` / ``sds_worked_with`` — after
+    spieler+trainer dedup a contact's connection arrays may still list the contact
+    itself (same name). Mutates in place; returns the count removed."""
+    removed_total = 0
+    for c in contacts_list:
+        nm = (c.get("name") or "").strip().lower()
+        for key in ("coaches_worked_with", "sds_worked_with"):
+            arr = c.get(key) or []
+            if not arr:
+                continue
+            filtered = [x for x in arr if isinstance(x, dict)
+                        and (x.get("name", "").strip().lower() != nm)]
+            removed = len(arr) - len(filtered)
+            if removed:
+                removed_total += removed
+                c[key] = filtered
+    return removed_total
