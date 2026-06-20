@@ -1,0 +1,4 @@
+# Internal projectFIVE / SPORTFIVE Berater-Tool — NOT for public indexing.
+# Contains personal data (DSGVO); access should be auth-gated.
+User-agent: *
+Disallow: /

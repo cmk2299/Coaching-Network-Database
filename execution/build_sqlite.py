@@ -613,14 +613,30 @@ def main():
     print("\n[7/7] Optimizing...")
     conn.execute("PRAGMA journal_mode=DELETE")
     conn.execute("VACUUM")
+
+    # Referential-integrity GATE (2026-06-20): FKs are declared but SQLite does
+    # not enforce them by default, so prior "0 FK violations" claims were a
+    # one-time manual check, not a guarantee. Verify here and report loudly so
+    # doc claims can't drift from reality. --strict makes it a hard build failure.
+    violations = list(conn.execute("PRAGMA foreign_key_check"))
     conn.close()
+    if violations:
+        from collections import Counter
+        by_tbl = Counter(v[0] for v in violations)
+        print(f"\n  ⚠ FK INTEGRITY: {len(violations)} violation(s) — "
+              + ", ".join(f"{t}:{n}" for t, n in by_tbl.most_common()))
+        if "--strict" in sys.argv:
+            print("  ✗ --strict set → failing build on FK violations")
+            sys.exit(1)
+    else:
+        print("\n  ✓ FK integrity: 0 violations")
 
     elapsed = time.time() - t0
     size_mb = db_path.stat().st_size / 1024 / 1024
 
     print(f"\n{'='*60}")
     print(f"  Done in {elapsed:.1f}s")
-    print(f"  Output: {db_path} ({size_mb:.1f} MB)")
+    print(f"  Output: {db_path} ({size_mb:.1f} MB)  FK-violations: {len(violations)}")
     print(f"{'='*60}")
 
     # Quick verification

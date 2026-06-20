@@ -57,7 +57,9 @@ def fetch_fresh(tm_id: int) -> str | None:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--ids-file", default="/tmp/player_refresh_ids.json")
+    # Durable path (NOT /tmp): a reboot wipes /tmp and the work-universe becomes
+    # unrecoverable (the done-file records only what's done, not what's left).
+    ap.add_argument("--ids-file", default=str(BASE / "data" / "work" / "player_refresh_ids.json"))
     ap.add_argument("--stamp", default="refresh", help="suffix for the transfers log")
     ap.add_argument("--max-per-run", type=int, default=8000,
                     help="stop after N successful scrapes this run (block-avoidance batch cap)")

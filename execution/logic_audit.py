@@ -338,6 +338,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", type=Path)
     ap.add_argument("--limit", type=int)
+    ap.add_argument("--sample", type=int, help="random sample of N networks")
+    ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--check", help="comma list, e.g. LP1,LX3")
     ap.add_argument("--examples", type=int, default=8)
     args = ap.parse_args()
@@ -349,6 +351,9 @@ def main():
     files = sorted(NETWORKS.glob("*.json"))
     if args.limit:
         files = files[: args.limit]
+    if args.sample and args.sample < len(files):
+        import random as _r
+        files = _r.Random(args.seed).sample(files, args.sample)
     print(f"  Auditing {len(files)} networks, checks={sorted(enabled)}\n", flush=True)
 
     findings = []

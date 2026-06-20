@@ -1,13 +1,15 @@
-# Football Coaches DB Dependencies
+# Football Coaches DB — pipeline dependencies (pinned for reproducible builds).
+# Pinned 2026-06-20: unpinned >= ranges risked a silent bs4/lxml/requests major
+# bump that would change scrape parsing. Bump deliberately, then re-run
+# tests + run_audit_loop.sh.
 
-# Dashboard
-streamlit>=1.30.0
-streamlit-agraph>=0.0.45
+# Web scraping + data pipeline (REQUIRED for execution/)
+requests==2.32.4
+beautifulsoup4==4.14.3
+lxml==6.0.2
+python-dotenv==1.2.1
 
-# Web scraping
-requests>=2.31.0
-beautifulsoup4>=4.12.0
-lxml>=5.0.0
-
-# Data processing
-python-dotenv>=1.0.0
+# Legacy local Streamlit dashboard (dashboard/app.py) — NOT used by the static
+# HTML pipeline deployed to Vercel. Optional: install only to run run_dashboard.sh.
+# streamlit>=1.30.0
+# streamlit-agraph>=0.0.45

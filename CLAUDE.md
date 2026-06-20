@@ -518,6 +518,18 @@ Live UI/Daten-Audit via Chrome MCP an Blessin (Trainer-Perspektive) + Bornemann 
 
 **Sprint-Prep-Detail:** `SPRINT_PREP_2026-05-19.md`
 
+### Audit + Hardening (2026-06-20) ✅
+3-Perspektiven-Audit (Data-Eng / CTO / CIO) → `AUDIT_2026-06-20.md`. Umgesetzt:
+- **DSGVO:** `output/vercel.json` sendet `X-Robots-Tag: noindex,nofollow,noarchive` auf allen Responses + `output/robots.txt` (Disallow). Stoppt öffentliche Indexierung der PII. **Offen (User-Action):** Auth-Gate (Vercel Deployment Protection — für Preview-URLs bereits AN, Prod aktivieren) + Legal-Review DSGVO/TM-ToS.
+- **Deploy Quality-Gate:** `run_mvp.sh` Step 4b führt `logic_audit.py` + `scoring_audit.py` als **blockierendes** Gate vor Deploy aus (`SKIP_GATE=1` Override). Smoke-Test prüft jetzt ≥50 Coach-Rows live, nicht nur HTTP 200.
+- **Scraper-Härtung:** `scrape_person_profiles.py` `fetch_page` mit Status-Code-Retry/Backoff + `looks_like_block()` Sentinel — cached **keine** Block-/Interstitial-Seiten mehr (verhinderte Cache-Poisoning für 30 Tage). Respektiert weiter `REQUEST_DELAY=0` von refresh_player_clubs.
+- **Tests + CI:** `tests/test_normalization.py` (23 echte Unit-Tests, `python3 -m pytest tests/`); `.github/workflows/ci.yml` (pytest + compileall hart, ruff F/E9 non-blocking). Vorher war `tests/` leer trotz Doku-Claim "47 Tests".
+- **Reproduzierbarkeit:** `requirements.txt` exakt gepinnt (war `>=`); streamlit als optional/legacy markiert.
+- **Resumability:** `refresh_player_clubs.py` ID-Liste default von `/tmp` → `data/work/` (Reboot-sicher).
+- **SQLite FK-Gate:** `build_sqlite.py` prüft `PRAGMA foreign_key_check` am Ende (`--strict` = Build-Fail). Doku-Claim "0 FK violations" war falsch (~79 staff→persons Orphans real).
+- **Doku-Drift korrigiert:** persons_master ist ~289 MB (nicht 51.9 MB); person_profiles ~99k Dateien.
+- **Offen (P0/P1, User-Entscheidung):** Offsite-Backups (+ `run_mvp.sh`/CSS in git committen — aktuell untracked), `build_network()` (2123 Zeilen) dekomponieren, Serve-from-DB statt eingebettetes NETWORK-JSON.
+
 ### Known TM HTML Parsing Quirks (Self-annealed)
 - **Name concatenation:** `<h1>` concatenates first+last without space (e.g., "RainerBonhof"). Fix: use `<title>` tag as primary source (has proper spacing), h1 as fallback with regex `re.sub(r"([a-zäöüß])([A-ZÄÖÜ])", r"\1 \2", raw_name)`
 - **Career table classes:** TM doesn't use `tr.odd/tr.even` anymore. Fix: parse all `tr` rows containing `td` elements without class filter

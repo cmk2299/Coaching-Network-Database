@@ -2738,6 +2738,23 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         contacts_list = [c for c in contacts_list if id(c) not in _dedup_drop]
         print(f"  Same-URL dedup: merged {len(_dedup_drop)} duplicate-profile contact(s)")
 
+    # ── SCORING FINALIZER (2026-06-20) ─────────────────────────────────────
+    # Single chokepoint after ALL contacts exist (incl. Phase-6 DM-Enrichment
+    # additions: coach_hired / co_decision_maker, which are appended after the
+    # main strength loop + sort). Guarantees two invariants validated by
+    # execution/scoring_audit.py: every contact has a strength (1-5 from
+    # relationship duration), and contacts are ordered by relevance_score DESC.
+    for c in contacts_list:
+        if c.get("strength") is None:
+            _st = c.get("seasons_together", 1) or 1
+            c["strength"] = min(5, max(1, (_st + 1) // 2))
+    contacts_list.sort(key=lambda c: (
+        -(c.get("relevance_score") or 0),
+        cat_order.get(c.get("category", ""), 99),
+        (c.get("name") or "").lower(),
+        _safe_int(c.get("tm_id")),
+    ))
+
     network = {
         "center": profile["name"],
         "center_info": {

@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest ruff
+
+      - name: Lint (real bugs only — syntax errors + undefined names)
+        # Scope to F (pyflakes) + E9 (syntax) so 152 legacy scripts don't fail on
+        # style; this still surfaces undefined names / broken imports / syntax.
+        # Non-blocking for now (legacy scripts may have F-findings); tighten to a
+        # hard gate once execution/ is clean.
+        continue-on-error: true
+        run: ruff check execution/ tests/ --select F,E9 --output-format=github
+
+      - name: Compile-check all execution scripts
+        run: python -m compileall -q execution/
+
+      - name: Unit tests
+        run: python -m pytest tests/ -v

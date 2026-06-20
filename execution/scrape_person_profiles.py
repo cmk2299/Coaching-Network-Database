@@ -16,6 +16,7 @@ Usage:
 
 import json
 import time
+import random
 import re
 import sys
 from datetime import datetime
@@ -44,10 +45,39 @@ HEADERS = {
 REQUEST_DELAY = 3  # seconds
 CACHE_DAYS = 30
 
+# Block/anti-bot sentinels — if a 200-OK body matches any of these (or is too
+# short / has no real profile markers) it is NOT a profile and MUST NOT be
+# cached, or it would poison person_profiles for CACHE_DAYS. (Audit 2026-06-20:
+# the previous fetch_page cached any 200 as a valid profile.)
+BLOCK_MARKERS = (
+    "just a moment", "attention required", "cf-browser-verification",
+    "cf-challenge", "captcha", "zugriff verweigert", "access denied",
+    "request blocked", "rate limit", "are you a robot", "/cdn-cgi/challenge",
+)
+# A genuine TM profile reliably contains at least one of these structural hooks.
+PROFILE_MARKERS = ("data-header", "info-table", "spielerdaten", "/profil/")
+MIN_PROFILE_LEN = 3000
+RETRY_STATUS = {429, 403, 500, 502, 503, 504}
+MAX_RETRIES = 3
+
+
+def looks_like_block(html: str) -> bool:
+    """True if a 200-OK body is an anti-bot/interstitial page rather than a profile."""
+    if not html or len(html) < MIN_PROFILE_LEN:
+        return True
+    low = html.lower()
+    if any(m in low for m in BLOCK_MARKERS):
+        return True
+    if not any(m in low for m in PROFILE_MARKERS):
+        return True
+    return False
+
 
 # ── Fetch with caching ──────────────────────────────
 def fetch_page(url: str, cache_key: str) -> Optional[str]:
-    """Fetch page with HTML caching and rate limiting."""
+    """Fetch a profile page with HTML caching, rate limiting, retry/backoff, and
+    block-page detection. Returns None (and caches NOTHING) on block/failure so
+    a transient soft-block never poisons the cache."""
     cache_path = CACHE_DIR / f"{cache_key}.html"
 
     if cache_path.exists():
@@ -55,16 +85,37 @@ def fetch_page(url: str, cache_key: str) -> Optional[str]:
         if age_hours < CACHE_DAYS * 24:
             return cache_path.read_text(encoding="utf-8")
 
-    time.sleep(REQUEST_DELAY)
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
+    for attempt in range(1, MAX_RETRIES + 1):
+        # Jittered delay — fixed intervals are a detectable scraping pattern.
+        time.sleep(REQUEST_DELAY + random.uniform(0, REQUEST_DELAY)) if REQUEST_DELAY else None
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=30)
+        except Exception as e:
+            print(f"    ERROR (attempt {attempt}): {e}")
+            if attempt < MAX_RETRIES:
+                time.sleep(min(60, 2 ** attempt * 5)); continue
+            return None
+
+        if resp.status_code in RETRY_STATUS:
+            print(f"    WARN: HTTP {resp.status_code} for {cache_key} (attempt {attempt})")
+            if attempt < MAX_RETRIES:
+                time.sleep(min(120, 2 ** attempt * 5)); continue
+            return None  # exhausted retries — do NOT cache
+        try:
+            resp.raise_for_status()
+        except Exception as e:
+            print(f"    ERROR: {e}")
+            return None
+
         html = resp.text
+        if looks_like_block(html):
+            print(f"    BLOCK/empty page for {cache_key} — not caching")
+            if attempt < MAX_RETRIES:
+                time.sleep(min(120, 2 ** attempt * 5)); continue
+            return None
         cache_path.write_text(html, encoding="utf-8")
         return html
-    except Exception as e:
-        print(f"    ERROR: {e}")
-        return None
+    return None
 
 
 # ── Profile Parsing ─────────────────────────────────

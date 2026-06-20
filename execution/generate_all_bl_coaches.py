@@ -100,12 +100,19 @@ def get_all_head_coaches(club_registry: Dict[int, dict], leagues: List[str],
     # coaches TM hasn't listed yet (TM lag). Keyed by club_tm_id; swaps the stale
     # scraped head_coach for the real one. Systemic: applies to any future appointment.
     _appointed_by_club = {}
+    _sacked_ids = set()          # tm_ids of departed coaches
+    _sacked_club_ids = set()     # club_tm_ids with a sacked entry
     try:
         _ovp = Path(__file__).parent.parent / 'data' / 'coach_overrides.json'
         _ovd = json.load(open(_ovp))
         for a in _ovd.get('appointed', []):
             if a.get('club_tm_id') is not None:
                 _appointed_by_club[a['club_tm_id']] = a
+        for s in _ovd.get('sacked', []):
+            if s.get('tm_id'):
+                _sacked_ids.add(int(s['tm_id']))
+            if s.get('club_tm_id') is not None:
+                _sacked_club_ids.add(int(s['club_tm_id']))
     except Exception:
         pass
 
@@ -127,9 +134,11 @@ def get_all_head_coaches(club_registry: Dict[int, dict], leagues: List[str],
         # co-trainer.
         head_candidates = [s for s in trainerstab if s.get("role") == "head_coach"]
         _appt = _appointed_by_club.get(club_id)
+        _is_appointed = False
         if not head_candidates:
             if _appt:
                 head = {"tm_id": _appt["tm_id"], "name": _appt["name"], "tm_url": _appt.get("tm_url", "")}
+                _is_appointed = True
             else:
                 print(f"  WARN: {staff.get('club_name','?')} (club {club_id}) — no head_coach in Trainerstab, skipping")
                 continue
@@ -138,10 +147,30 @@ def get_all_head_coaches(club_registry: Dict[int, dict], leagues: List[str],
             # Override: confirmed incoming coach replaces stale TM head_coach
             if _appt and (_appt.get("replaces_tm_id") is None or head.get("tm_id") == _appt.get("replaces_tm_id")):
                 head = {"tm_id": _appt["tm_id"], "name": _appt["name"], "tm_url": _appt.get("tm_url", "")}
+                _is_appointed = True
         league_data = club.get("leagues") or club.get("league_history", {})
         # Try "2025/2026" format first, then "2025"
         club_leagues = league_data.get(f"{season}/{season+1}", league_data.get(str(season), []))
         league = "BL1" if "BL1" in club_leagues else ("BL3" if "BL3" in club_leagues else "BL2")
+
+        # Sacked without appointed successor → club is vakant. The scraped HC is the
+        # departed coach (TM-lag); show a vacancy row so the club stays in the league
+        # table (count intact) instead of falsely listing the gone coach.
+        if not _is_appointed and (int(head.get("tm_id", 0)) in _sacked_ids or club_id in _sacked_club_ids):
+            coaches.append({
+                "tm_id": 0,
+                "name": "vakant",
+                "slug": "",
+                "club": normalize_club(club.get("name", staff.get("club_name", "?")), club_id),
+                "club_tm_id": club_id,
+                "league": league,
+                "tm_url": "",
+                "image_url": "",
+                "nationality": "",
+                "has_profile": False,
+                "_vacant": True,
+            })
+            continue
 
         profile = load_coach_profile(head["tm_id"])
 
@@ -156,6 +185,8 @@ def get_all_head_coaches(club_registry: Dict[int, dict], leagues: List[str],
             "image_url": profile.get("image_url", "") if profile else "",
             "nationality": filter_nationality(profile.get("nationality", "")) if profile else "",
             "has_profile": profile is not None,
+            "_appointed": _is_appointed,
+            "_league_hc": True,  # authoritative current head coach → never index-excluded
         })
 
     return coaches
@@ -227,6 +258,10 @@ def load_all_network_coaches(existing_tm_ids: set) -> List[dict]:
 def generate_index_page(coaches: List[dict], season: int = 2025, include_historical: bool = False,
                          include_decision_makers: bool = False, include_nlz: bool = False):
     """Generate index.html with coach selection cards."""
+    # Hot-Seat temporär ausgeblendet (Off-Season, User-Request 2026-06-19) — wieder
+    # aktivieren nach Saisonbeginn: SHOW_HOT_SEAT = True. Steuert: Tabellen-Spalte,
+    # Stats-Bar-Counter und den liga-übergreifenden Hot-Seat-Block.
+    SHOW_HOT_SEAT = False
     bl1 = sorted([c for c in coaches if c["league"] == "BL1"], key=lambda x: x["club"])
     bl2 = sorted([c for c in coaches if c["league"] == "BL2"], key=lambda x: x["club"])
     bl3 = sorted([c for c in coaches if c["league"] == "BL3"], key=lambda x: x["club"])
@@ -273,13 +308,29 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
     # Load Hot-Seat-Scores (powered by execution/calc_hot_seat_score.py)
     hot_seat_by_coach = {}
     hot_seat_path = BASE / "data" / "hot_seat_scores.json"
-    if hot_seat_path.exists():
+    if SHOW_HOT_SEAT and hot_seat_path.exists():
         try:
             hs = json.load(open(hot_seat_path))
             for r in hs.get("scores", []):
                 hot_seat_by_coach[r["coach_tm_id"]] = r
         except Exception:
             pass
+    # When hidden, an empty score map zeroes the stats-bar counter and the
+    # liga-übergreifend Hot-Seat block automatically (both gate on the data).
+    # The residual column is collapsed via injected CSS (hot_seat_hide_css).
+    hot_seat_hide_css = "" if SHOW_HOT_SEAT else """
+/* Hot-Seat temporär ausgeblendet (Off-Season) — Block entfernen zum Reaktivieren */
+.table-hdr span:nth-child(4){display:none}
+.row-hotseat{display:none}
+.table-hdr,.row{grid-template-columns:44px 1fr 1fr 64px 64px 32px}
+.vacancy-block .table-hdr,.vacancy-block .row{grid-template-columns:44px 1fr 1fr 88px 140px 0 32px}
+.vacancy-block .row-hotseat{display:block}
+.vacancy-block .table-hdr span:nth-child(4){display:revert}
+.hot-seat-block{display:none}
+@media(max-width:768px){
+.table-hdr,.row{grid-template-columns:36px 1fr 32px}
+}
+"""
 
     # Country → ISO-3 code mapping (replaces emoji flags with text badges)
     # Keeps UI emoji-free per brand policy; rendered via .nat-badge CSS class.
@@ -309,6 +360,9 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
         rows = []
         for c in coach_list:
             dashboard_file = f"dashboards/{c['slug']}_network.html"
+            # Rows without a real dashboard (newly-appointed coaches, vacancies) must
+            # not link to a 404. Link to the TM profile if we have one, else no link.
+            _has_dash = bool(c.get("slug")) and (DASHBOARD_DIR / f"{c['slug']}_network.html").exists()
             img = c.get("image_url", "")
             img_html = f'<img src="{img}" alt="" onerror="this.parentElement.innerHTML=\'&bull;\'">' if img else '<span>&bull;</span>'
             stats = network_stats.get(c["tm_id"], {})
@@ -337,17 +391,29 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
             else:
                 hs_cell = '<div class="row-hotseat row-hotseat--empty" title="Kein Hot-Seat-Score">—</div>'
 
+            # Choose row container: real dashboard → internal link; TM profile →
+            # external link; otherwise (vacancy) → non-clickable div.
+            if _has_dash:
+                row_open, row_close = f'<a href="{dashboard_file}" class="row">', '</a>'
+                go_cell = '<div class="row-go">&rsaquo;</div>'
+            elif c.get("tm_url"):
+                row_open, row_close = f'<a href="{c["tm_url"]}" target="_blank" rel="noopener" class="row">', '</a>'
+                go_cell = '<div class="row-go" title="Noch kein Netzwerk — TM-Profil">&#x2197;</div>'
+            else:
+                row_open, row_close = '<div class="row row--vacant">', '</div>'
+                go_cell = '<div class="row-go"></div>'
+
             rows.append(f"""
         <div class="row-wrap" data-name="{c['name'].lower()}" data-club="{c['club'].lower()}" data-contacts="{contacts}" data-stations="{stations}" data-hotseat="{hs_score}">
-          <a href="{dashboard_file}" class="row">
+          {row_open}
             <div class="row-img">{img_html}</div>
             <div class="row-name">{nat_html}{c['name']}</div>
             <div class="row-club">{c['club']}</div>
             {hs_cell}
             <div class="row-stat">{contacts}</div>
             <div class="row-stat">{stations}</div>
-            <div class="row-go">&rsaquo;</div>
-          </a>
+            {go_cell}
+          {row_close}
           <button class="row-refresh" onclick="event.stopPropagation();refreshClub({c['club_tm_id']},this)" title="Staff-Daten aktualisieren">&#x21bb;</button>
         </div>""")
         return "\n".join(rows)
@@ -491,7 +557,10 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
             dm_built = sum(1 for d in dm_reg if d.get("tm_id") in net_ids)
     except Exception:
         pass
-    trainer_total = max(0, networks_count - nlz_built - dm_built)
+    # Trainer gesamt = tatsächlich im Index gelistete Coaches (nach Exclude-Filter),
+    # NICHT die rohe Netzwerk-Anzahl auf der Platte (die enthält ~1.900 ausgeblendete
+    # Kontakt-Coaches, die nur als Drilldown-Ziele existieren).
+    trainer_total = len(coaches)
 
     # Hires-Count (from hire_history.json)
     hires_count = 0
@@ -897,7 +966,10 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
     top_hot_seat = hot_seat_ranked[:5]
 
     hot_seat_block = ""
-    if top_hot_seat:
+    # Vacancy detection runs ALWAYS (independent of Hot-Seat, which may be disabled
+    # off-season) — vacant posts are leads in their own right. rows_hs stays empty
+    # when top_hot_seat is empty, so the Hot-Seat section is simply omitted below.
+    if True:
         rows_hs = []
         for r in top_hot_seat:
             cls_short = {"critical": "critical", "hot-seat": "hot", "warm": "warm"}.get(r["status"], "empty")
@@ -994,7 +1066,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
 
 """
 
-        hot_seat_block = vacancy_block + f"""<div class="section hot-seat-block" id="hot-seat-cross-liga">
+        _hs_section = f"""<div class="section hot-seat-block" id="hot-seat-cross-liga">
   <div class="section-hdr">
     <h2 class="section-title">Hot-Seat · liga-übergreifend</h2>
     <span class="section-count">{len(top_hot_seat)}</span>
@@ -1004,7 +1076,8 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
     <span></span><span>Trainer</span><span>Verein</span><span style="text-align:center" title="Hot-Seat-Score (0-100)">Hot-Seat</span><span></span><span></span><span></span>
   </div>
 {''.join(rows_hs)}
-</div>"""
+</div>""" if top_hot_seat else ""
+        hot_seat_block = vacancy_block + _hs_section
 
     html = f"""<!DOCTYPE html>
 <html lang="de">
@@ -1261,6 +1334,7 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
   .row-club,.row-stat,.table-hdr span:nth-child(3),.table-hdr span:nth-child(5),.table-hdr span:nth-child(6){{display:none}}
   .stats{{gap:20px;flex-wrap:wrap}}
 }}
+{hot_seat_hide_css}
 </style>
 </head>
 <body>
@@ -1478,7 +1552,10 @@ def main():
     parser = argparse.ArgumentParser(description="Generate all BL coach dashboards")
     parser.add_argument("--leagues", nargs="+", default=["BL1", "BL2"],
                         help="Leagues to include (default: BL1 BL2). Add BL3 for 3. Liga.")
-    parser.add_argument("--season", type=int, default=2025)
+    parser.add_argument("--season", type=int, default=2026,
+                        help="Season start year; 2026 = Saison 2026/27 league memberships "
+                             "(after promotions/relegations). Registry leagues maps key on "
+                             "'<season>/<season+1>'.")
     parser.add_argument("--skip-networks", action="store_true")
     parser.add_argument("--skip-index", action="store_true")
     parser.add_argument("--only", type=int, nargs="+", help="Only specific tm_ids")
@@ -1514,11 +1591,45 @@ def main():
     if args.all_networks:
         existing_ids = {c["tm_id"] for c in coaches}
         extra = load_all_network_coaches(existing_ids)
+        # Sacked coaches must not re-enter via their old network (which still lists
+        # the club they left) — the authoritative league row is already the appointed
+        # successor or a vacancy placeholder. Filter departed coaches out of extras.
+        try:
+            _sacked_extra = {int(s["tm_id"]) for s in
+                             json.load(open(BASE / "data" / "coach_overrides.json")).get("sacked", [])
+                             if s.get("tm_id")}
+            if _sacked_extra:
+                _b = len(extra)
+                extra = [c for c in extra if c["tm_id"] not in _sacked_extra]
+                if _b != len(extra):
+                    print(f"  Sacked-Filter: {_b - len(extra)} entlassene Coaches aus Netzwerk-Extras entfernt")
+        except Exception as e:
+            print(f"  WARN: Sacked-Filter übersprungen: {e}")
         print(f"\n  Loaded {len(extra)} additional coaches from network JSONs")
         coaches.extend(extra)
 
     if args.only:
         coaches = [c for c in coaches if c["tm_id"] in args.only]
+
+    # ── Index-Filter: expansion contact-coaches aus der Hauptliste ausblenden ──
+    # Drop-Liste = Kontakt-Coaches (Co-Trainer/Ex-Trainer/Gegner aus fremden Netzwerken),
+    # die ein eigenes Netzwerk-JSON haben, aber NICHT als eigenständige Trainer gelistet
+    # werden sollen. Ihre Dashboards + JSONs bleiben erhalten → Drilldown funktioniert.
+    # Coachinside-Coaches sind explizit ausgenommen (siehe data/index_exclude_ids.json).
+    exclude_path = BASE / "data" / "index_exclude_ids.json"
+    if exclude_path.exists() and not args.only:
+        try:
+            exclude_ids = set(json.load(open(exclude_path)))
+            before = len(coaches)
+            # Never exclude an authoritative current head coach (_league_hc) — a coach
+            # can be both an old contact-coach AND a club's current HC (e.g. promoted
+            # 3.-Liga clubs Großaspach/Fortuna Köln), and the league table must show them.
+            coaches = [c for c in coaches
+                       if c.get("_league_hc") or c["tm_id"] not in exclude_ids]
+            print(f"\n  Index-Filter: {before - len(coaches)} Kontakt-Coaches ausgeblendet "
+                  f"(Dashboards bleiben für Drilldown erhalten)")
+        except Exception as e:
+            print(f"\n  WARN: index_exclude_ids.json konnte nicht geladen werden: {e}")
 
     print(f"\n  Found {len(coaches)} total coaches ({len([c for c in coaches if not c.get('is_historical')])} active, {len([c for c in coaches if c.get('is_historical')])} historical)")
 
@@ -1606,6 +1717,12 @@ def main():
             # Existing dashboards are marked as having them
             if c.get("is_historical"):
                 c["has_dashboard"] = True  # Always include historical coaches in index
+            elif c.get("_appointed") or c.get("_vacant") or c.get("_league_hc"):
+                # Authoritative current head coaches (incl. newly-appointed, vacancy
+                # placeholders, and HCs of just-promoted clubs whose networks aren't
+                # built yet) must stay in the league table even without a dashboard
+                # file — make_rows links them to their TM profile instead of a 404.
+                c["has_dashboard"] = True
             else:
                 c["has_dashboard"] = (DASHBOARD_DIR / f"{c['slug']}_network.html").exists()
 
