@@ -31,6 +31,7 @@ from collections import defaultdict
 from typing import Optional, Dict, List, Tuple, Set
 
 # ── Shared library imports ────────────────────────────────────────────
+from lib import scoring
 from lib.network_stages import (
     enrich_cross_references,
     normalize_contact_urls,
@@ -1496,16 +1497,9 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         stations = c.get("shared_station_count", len(c.get("stations", [])))
         latest = c.get("_latest_season", 2015)
 
-        # ─ Dimension 1: Beziehungsstärke (0–40 pts) ─
-        # Shared stations: 15 pts each (max 30)
-        station_pts = min(stations * 15, 30)
-        # Shared seasons: 3 pts each (max 15)
-        season_pts = min(seasons * 3, 15)
-        # Lehrgang bonus: intensive bond, but weaker than actual shared work
-        lehrgang_bonus = 5 if c.get("lehrgang_cohort") or cat == "lehrgang" else 0
-        relationship_score = station_pts + season_pts + lehrgang_bonus
-        # Cap at 40
-        relationship_score = min(relationship_score, 40)
+        # ─ Dimension 1: Beziehungsstärke (0–40 pts) ─ (lib.scoring)
+        relationship_score = scoring.score_relationship(
+            stations, seasons, bool(c.get("lehrgang_cohort")) or cat == "lehrgang")
 
         # ─ Dimension 2: Entscheidungsmacht / Rollen-Gewicht (0–35 pts) ─
         # SCORING_AUDIT 2026-04-30 D1 (live): executive tier separated from management.
@@ -1518,39 +1512,8 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         #   = ratification / vote-of-confidence — wichtig aber Sekundär
         # executive_secondary (AR-Mitglied / Marketing / Finanzen)
         #   = formal Verbindung, kein Trainer-Hire-Einfluss
-        if is_sd_center:
-            # SD/Exec center: head coaches & coaching staff are the strategic pool.
-            role_weights = {
-                "head_coach": 35,
-                "coaching_staff": 22,    # assistants = next-gen head coaches
-                "sporting_director": 22, # peer SDs (lateral move / referrals)
-                "executive": 22,         # Sport-GF/Sportvorstand peers
-                "executive_governance": 14,  # Präsident/AR-Chair Veto-Power
-                "executive_secondary": 9,  # AR-Mitglied / Marketing — irrelevant
-                "scouting": 14,
-                "lehrgang": 10,
-                "academy": 8,
-                "management": 6,
-                "analyst": 4,
-                "other_staff": 2,
-                "medical": 2,
-            }
-        else:
-            role_weights = {
-                "sporting_director": 35,  # SDs = highest value (they make hiring decisions)
-                "executive": 32,           # GF Sport / Vorstand Sport / Director of Football — primärer Berater-Ansprechpartner
-                "executive_governance": 20,  # Präsident, AR-Vorsitz — Veto/Confirm role
-                "executive_secondary": 12, # AR-Mitglied / Marketing — formal-only
-                "head_coach": 25,
-                "coaching_staff": 12,
-                "lehrgang": 10,           # Lehrgang = shared training, not shared work
-                "scouting": 10,
-                "management": 8,           # Pressesprecher, Gen-Vorstand
-                "academy": 6,
-                "analyst": 4,
-                "other_staff": 2,
-                "medical": 2,
-            }
+        # Role weights (Dimension 2) — coach- vs SD/Exec-centered (lib.scoring)
+        role_weights = scoring.role_weights(is_sd_center)
 
         # Former teammates: score by their POST-playing career
         is_still_player = False  # Only relevant for former_teammate; init for league/recency modifiers
@@ -1767,160 +1730,19 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         else:
             role_score = role_weights.get(cat, 2)
 
-        # ─ Dimension 3: Liga-Level (0–20 pts, role-weighted) ─
-        # Key insight: league prestige matters most for decision-makers.
-        # A kit manager at Bayern shouldn't get the same +20 as their SD.
+        # ─ Dimensions 3+4, floor, GS bonus, final (lib.scoring) ─
         current_club = c.get("current_club", "")
-        club_league = club_best_league.get(current_club, "")
-        league_weights = {
-            "BL1": 20, "PL": 20, "SA": 18, "L1": 18, "Liga": 18,
-            "BL2": 15, "Eredivisie": 15, "Championship": 14,
-            "BL3": 10, "SerieB": 10, "Ligue2": 10, "LaLiga2": 10,
-            "BEL1": 12, "SUI1": 10, "TUR1": 12, "DEN1": 8, "SWE1": 8, "NOR1": 8,
-        }
-        league_raw = league_weights.get(club_league, 0)
-        # Fallback: national teams get max raw score
-        if not league_raw and current_club:
-            if current_club in ("Deutschland", "England", "France", "Spain", "Italy"):
-                league_raw = 20
-
-        # Role-based league modifier: decision-makers get full weight,
-        # low-influence roles get discounted (fixes "kit manager at Bayern = 77" bug)
-        if is_sd_center:
-            LEAGUE_MOD = {
-                "head_coach": 1.0, "coaching_staff": 0.85,
-                "sporting_director": 0.75, "executive": 0.75,
-                "management": 0.5, "scouting": 0.7,
-                "lehrgang": 0.4, "academy": 0.5, "analyst": 0.4,
-                "player_coached": 0.4, "former_teammate": 0.25,
-                "other_staff": 0.15, "medical": 0.15,
-            }
-        else:
-            LEAGUE_MOD = {
-                "sporting_director": 1.0, "head_coach": 1.0, "executive": 1.0,
-                "management": 0.7, "coaching_staff": 0.65, "scouting": 0.65,
-                "lehrgang": 0.35, "academy": 0.45, "analyst": 0.35,
-                "player_coached": 0.4, "former_teammate": 0.25,
-                "other_staff": 0.15, "medical": 0.15,
-            }
-        league_mod = LEAGUE_MOD.get(cat, 0.25)
-        # Override: former teammates who became coaches/SDs are decision-makers now
-        if cat == "former_teammate" and not is_still_player:
-            if role_score >= 25:  # became head_coach or SD (25+ from role_weights + bonus)
-                league_mod = 1.0
-            elif role_score >= 10:  # became coaching_staff/scouting
-                league_mod = 0.65
-        league_score = int(league_raw * league_mod)
-
-        # ─ Dimension 4: Rezenz / Recency (0–15 pts, role-weighted) ─
-        # Recent connections more actionable — but recency of a kit manager
-        # matters less than recency of a sporting director.
-        years_ago = 2025 - latest
-        if years_ago <= 1:
-            recency_raw = 15
-        elif years_ago <= 3:
-            recency_raw = 12
-        elif years_ago <= 5:
-            recency_raw = 8
-        elif years_ago <= 8:
-            recency_raw = 4
-        else:
-            recency_raw = 0
-
-        if is_sd_center:
-            RECENCY_MOD = {
-                "head_coach": 1.0, "coaching_staff": 0.85,
-                "sporting_director": 0.75, "executive": 0.7,
-                "management": 0.5, "scouting": 0.75,
-                "lehrgang": 0.5, "academy": 0.5, "analyst": 0.5,
-                "player_coached": 0.5, "former_teammate": 0.35,
-                "other_staff": 0.25, "medical": 0.25,
-            }
-        else:
-            RECENCY_MOD = {
-                "sporting_director": 1.0, "head_coach": 1.0, "executive": 0.9,
-                "management": 0.7, "coaching_staff": 0.7, "scouting": 0.7,
-                "lehrgang": 0.5, "academy": 0.5, "analyst": 0.5,
-                "player_coached": 0.5, "former_teammate": 0.35,
-                "other_staff": 0.25, "medical": 0.25,
-            }
-        recency_mod = RECENCY_MOD.get(cat, 0.35)
-        # Override: former teammates who became coaches/SDs
-        if cat == "former_teammate" and not is_still_player:
-            if role_score >= 25:
-                recency_mod = 1.0
-            elif role_score >= 10:
-                recency_mod = 0.7
-        recency_score = int(recency_raw * recency_mod)
-
-        # ─ Category floor (evidence-gated, SCORING_AUDIT D2) ─
-        # Old behavior promoted every SD/HC to ≥60/50 regardless of evidence; combined
-        # with D1 misclassification this forced Rehatrainer to ≥50. Now: floor only
-        # kicks in if the contact has at least ONE shared station OR shared match.
+        league_score = scoring.score_league(
+            current_club, club_best_league, cat, is_sd_center, role_score, is_still_player)
+        recency_score = scoring.score_recency(
+            latest, cat, is_sd_center, role_score, is_still_player)
         has_evidence = bool(c.get("stations")) or c.get("shared_matches", 0) > 0
-        category_floor = 0
-        if has_evidence:
-            if is_sd_center:
-                if cat == "head_coach":
-                    category_floor = 65
-                elif cat == "coaching_staff":
-                    category_floor = 50
-                elif cat == "sporting_director":
-                    category_floor = 50
-                elif cat == "executive":
-                    category_floor = 50  # Sport-GF/Sportvorstand — operative Hire-Decider
-                elif cat == "executive_governance":
-                    category_floor = 38  # Präsident/AR-Vorsitz — ratification only
-            else:
-                if cat == "sporting_director":
-                    category_floor = 60
-                elif cat == "executive":
-                    category_floor = 58  # Sport-GF/Sportvorstand — primärer Berater-Ansprechpartner
-                elif cat == "executive_governance":
-                    category_floor = 45  # Präsident/AR-Vorsitz — Veto-Power, kein Driver
-                elif cat == "head_coach":
-                    category_floor = 50
+        floor = scoring.category_floor(cat, is_sd_center, has_evidence)
+        gs_b = scoring.gs_bonus(c.get("_gs_verified"), c.get("shared_matches", 0))
 
-        # ─ GemeinsameSpiele bonus (capped at 15, SCORING_AUDIT D5) ─
-        # Bonus tiers: +5 verified, +5 ≥50, +5 ≥100 → max 15. The cap was implicit
-        # before (couldn't exceed 15 anyway) but is now explicit so future tiers
-        # don't accidentally inflate.
-        gs_bonus = 0
-        if c.get("_gs_verified"):
-            gs_bonus += 5  # Echte Spieldaten bestätigt
-        sm = c.get("shared_matches", 0)
-        if sm >= 50:
-            gs_bonus += 5  # Langjähriger Mitspieler
-        if sm >= 100:
-            gs_bonus += 5  # Enger Spielpartner
-        gs_bonus = min(gs_bonus, 15)
-
-        # ─ Lehrgang correction (SCORING_AUDIT D6: avoid triple-dipping) ─
-        # Lehrgang colleagues already get role_weight 10 + relationship +5. They
-        # used to ALSO score +15 station-bonus because "DFB-Lehrgang YYYY" appeared
-        # in coach_club_seasons. Pseudo-club filter (is_pseudo_club) removes that
-        # third dip. Nothing to do here besides documentation.
-
-        # ─ Final score (0–100) ─
-        total = relationship_score + role_score + league_score + recency_score + gs_bonus
-
-        # SCORING_AUDIT 2026-04-30 D2 (live): multi-station multiplier — a brother/long-time
-        # co-trainer with 5+ shared stations should outrank a newcomer at 1 current station.
-        # Only applies to "real work" categories where station-count signals depth, not to
-        # players (whose station list reflects shared matches, not professional overlap).
-        MULTI_STATION_MULT = {1: 1.0, 2: 1.10, 3: 1.20, 4: 1.30, 5: 1.40}  # caps at 1.40 for 5+
-        if cat not in ("player_coached", "former_teammate", "lehrgang"):
-            # Bug Q fix (2026-05-15): exclude pseudo-stations (DFB-Lehrgang, Trainerausbildung,
-            # Frauenfußball etc.) from station-count multiplier. A coach who shares 1 real club
-            # + DFB-Lehrgang should not get the "2 stations" multi-station bonus — only real
-            # professional overlap counts as depth.
-            real_stations = [s for s in (c.get("stations") or []) if not is_pseudo_club(s)]
-            station_count = len(real_stations)
-            if station_count >= 2:
-                mult = MULTI_STATION_MULT.get(station_count, 1.40)
-                total = int(round(total * mult))
-
-        total = max(total, category_floor)
+        total = relationship_score + role_score + league_score + recency_score + gs_b
+        total = scoring.apply_multi_station_multiplier(total, cat, c.get("stations"))
+        total = max(total, floor)
         c["relevance_score"] = min(total, 100)
 
     # Print score distribution

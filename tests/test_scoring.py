@@ -1,0 +1,106 @@
+"""Unit tests for execution/lib/scoring.py — pure relevance-scoring components."""
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "execution"))
+from lib import scoring as S  # noqa: E402
+
+
+class TestRelationship:
+    def test_caps_at_40(self):
+        assert S.score_relationship(10, 10, True) == 40
+
+    def test_stations_cap_30_seasons_cap_15(self):
+        # 3 stations*15=45→cap30; 6 seasons*3=18→cap15; no lehrgang → 45→cap40
+        assert S.score_relationship(3, 6, False) == 40
+
+    def test_small(self):
+        # 1 station=15, 1 season=3, no lehrgang = 18
+        assert S.score_relationship(1, 1, False) == 18
+
+    def test_lehrgang_bonus(self):
+        assert S.score_relationship(0, 0, True) == 5
+
+
+class TestRoleWeights:
+    def test_coach_center_sd_top(self):
+        assert S.role_weights(False)["sporting_director"] == 35
+        assert S.role_weights(False)["head_coach"] == 25
+
+    def test_sd_center_hc_top(self):
+        assert S.role_weights(True)["head_coach"] == 35
+        assert S.role_weights(True)["sporting_director"] == 22
+
+
+class TestLeague:
+    def test_bl1_hc_full(self):
+        # BL1=20, coach-center head_coach mod 1.0 → 20
+        assert S.score_league("FC Bayern", {"FC Bayern": "BL1"}, "head_coach",
+                              False, 0, False) == 20
+
+    def test_low_role_discounted(self):
+        # BL1=20, other_staff mod 0.15 → int(3.0)=3
+        assert S.score_league("X", {"X": "BL1"}, "other_staff", False, 0, False) == 3
+
+    def test_unknown_club_zero(self):
+        assert S.score_league("Nowhere", {}, "head_coach", False, 0, False) == 0
+
+    def test_national_team_fallback(self):
+        assert S.score_league("Deutschland", {}, "head_coach", False, 0, False) == 20
+
+    def test_promoted_teammate_full_mod(self):
+        # former_teammate w/ role_score>=25 → mod 1.0 on BL1
+        assert S.score_league("X", {"X": "BL1"}, "former_teammate", False, 30, False) == 20
+
+
+class TestRecency:
+    def test_recent_full(self):
+        # latest 2025, now 2025 → years_ago 0 → 15; head_coach mod 1.0
+        assert S.score_recency(2025, "head_coach", False, 0, False) == 15
+
+    def test_old_zero(self):
+        assert S.score_recency(2010, "head_coach", False, 0, False) == 0
+
+    def test_mid_discounted_role(self):
+        # years_ago 2 → raw 12; other_staff mod 0.25 → int(3.0)=3
+        assert S.score_recency(2023, "other_staff", False, 0, False) == 3
+
+
+class TestCategoryFloor:
+    def test_no_evidence_zero(self):
+        assert S.category_floor("sporting_director", False, False) == 0
+
+    def test_sd_floor_coach_center(self):
+        assert S.category_floor("sporting_director", False, True) == 60
+
+    def test_hc_floor_sd_center(self):
+        assert S.category_floor("head_coach", True, True) == 65
+
+    def test_unknown_cat_zero(self):
+        assert S.category_floor("other_staff", False, True) == 0
+
+
+class TestGsBonus:
+    def test_none(self):
+        assert S.gs_bonus(False, 0) == 0
+
+    def test_verified_only(self):
+        assert S.gs_bonus(True, 10) == 5
+
+    def test_tiers_cap_15(self):
+        assert S.gs_bonus(True, 150) == 15  # 5+5+5
+
+
+class TestMultiStation:
+    def test_excluded_categories_unchanged(self):
+        assert S.apply_multi_station_multiplier(50, "former_teammate", ["A", "B", "C"]) == 50
+
+    def test_two_real_stations_110(self):
+        assert S.apply_multi_station_multiplier(50, "head_coach", ["FC A", "FC B"]) == 55
+
+    def test_single_station_unchanged(self):
+        assert S.apply_multi_station_multiplier(50, "head_coach", ["FC A"]) == 50
+
+    def test_five_plus_caps_140(self):
+        st = ["FC A", "FC B", "FC C", "FC D", "FC E", "FC F"]
+        assert S.apply_multi_station_multiplier(50, "head_coach", st) == 70  # 50*1.40
