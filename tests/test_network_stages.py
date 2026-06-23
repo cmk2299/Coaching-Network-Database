@@ -89,3 +89,36 @@ class TestRemoveConnectionSelfLoops:
     def test_no_loop_no_change(self):
         cs = [{"name": "A", "coaches_worked_with": [{"name": "B", "shared": ["X"]}]}]
         assert remove_connection_self_loops(cs) == 0
+
+
+from lib.network_stages import parse_coach_stations  # noqa: E402
+
+
+class TestParseCoachStations:
+    def test_groups_seasons_and_roles_by_club(self):
+        career = [
+            {"club_tm_id": 10, "club_name": "FC X", "role": "Cheftrainer",
+             "date_from": "01.07.2020", "date_to": "30.06.2021"},
+            {"club_tm_id": 10, "club_name": "FC X", "role": "Co-Trainer",
+             "date_from": "01.07.2019", "date_to": "30.06.2020"},
+        ]
+        st = parse_coach_stations(career)
+        assert set(st[10]["roles"]) == {"Cheftrainer", "Co-Trainer"}
+        assert 2020 in st[10]["seasons"]
+
+    def test_skips_entries_without_club_id(self):
+        st = parse_coach_stations([{"club_name": "No ID", "role": "x"}])
+        assert len(st) == 0
+
+    def test_skips_pseudo_clubs(self):
+        career = [{"club_tm_id": 99, "club_name": "DFB-Lehrgang",
+                   "date_from": "01.07.2020", "date_to": "30.06.2021"}]
+        # DFB-Lehrgang is a pseudo/virtual bucket → skipped
+        from lib.normalization import is_pseudo_club
+        if is_pseudo_club("DFB-Lehrgang"):
+            assert len(parse_coach_stations(career)) == 0
+
+    def test_missing_key_returns_default(self):
+        # defaultdict contract preserved for callers indexing unknown clubs
+        st = parse_coach_stations([])
+        assert st[123] == {"name": "", "seasons": set(), "roles": set()}

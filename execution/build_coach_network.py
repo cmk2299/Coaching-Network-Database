@@ -35,6 +35,7 @@ from lib import scoring
 from lib.network_stages import (
     enrich_cross_references,
     normalize_contact_urls,
+    parse_coach_stations,
     remove_connection_self_loops,
 )
 from lib.normalization import (
@@ -693,23 +694,8 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         print(f"  ✗ No career history")
         return None
 
-    # ── Parse coach's career stations ──
-    coach_stations = defaultdict(lambda: {"name": "", "seasons": set(), "roles": set()})
-    for entry in career:
-        club_id = entry.get("club_tm_id")
-        if not club_id:
-            continue
-        club_name_raw = entry.get("club_name", "")
-        # SCORING_AUDIT D3 / DB_LOGIC P0: skip TM virtual buckets (Frauenfußball,
-        # DFB-Lehrgang, etc.). They aggregate staff across many real clubs and would
-        # +15-station-bonus every coincidental peer. Lehrgang is added later as
-        # a pure relationship via Step 4 (no station credit).
-        if is_pseudo_club(club_name_raw):
-            continue
-        seasons = get_season_range(entry.get("date_from", ""), entry.get("date_to", ""))
-        coach_stations[club_id]["name"] = normalize_club(club_name_raw, club_id)
-        coach_stations[club_id]["seasons"].update(seasons)
-        coach_stations[club_id]["roles"].add(entry.get("role", ""))
+    # ── Parse coach's career stations ── (lib.network_stages)
+    coach_stations = parse_coach_stations(career)
 
     # Quick lookup: which (club, season) was this coach at?
     coach_club_seasons = {}  # (club_tm_id, season) → club_name

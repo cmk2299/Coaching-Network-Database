@@ -4,7 +4,30 @@ Part of the 2026-06-20 decomposition of the 2,100-line build_network() monolith
 into named pure stages. Each function here is verified byte-identical against a
 golden network snapshot before landing (see /tmp golden harness in the audit work).
 """
+from collections import defaultdict
 from typing import Dict
+
+from .normalization import is_pseudo_club, get_season_range, normalize_club
+
+
+def parse_coach_stations(career: list):
+    """Parse a coach's career_history into stations: club_tm_id → {name, seasons(set),
+    roles(set)}. Skips TM virtual buckets (Frauenfußball / DFB-Lehrgang etc. via
+    is_pseudo_club) which would otherwise +station-bonus coincidental peers. Returns
+    a defaultdict so callers can keep indexing missing keys safely."""
+    coach_stations = defaultdict(lambda: {"name": "", "seasons": set(), "roles": set()})
+    for entry in career:
+        club_id = entry.get("club_tm_id")
+        if not club_id:
+            continue
+        club_name_raw = entry.get("club_name", "")
+        if is_pseudo_club(club_name_raw):
+            continue
+        seasons = get_season_range(entry.get("date_from", ""), entry.get("date_to", ""))
+        coach_stations[club_id]["name"] = normalize_club(club_name_raw, club_id)
+        coach_stations[club_id]["seasons"].update(seasons)
+        coach_stations[club_id]["roles"].add(entry.get("role", ""))
+    return coach_stations
 
 
 def enrich_cross_references(contacts_map: Dict) -> int:
