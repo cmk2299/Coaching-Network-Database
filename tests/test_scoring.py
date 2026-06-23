@@ -141,3 +141,51 @@ class TestDetermineTodayRole:
 
     def test_empty(self):
         assert S.determine_today_role(None, []) == ("none", False)
+
+
+def _noop_future(e):
+    return False
+
+
+class TestScoreFormerTeammate:
+    def test_still_player_scores_zero_base(self):
+        c = {"name": "X", "category": "former_teammate"}
+        rs, cat = S.score_former_teammate(c, {}, [], True, "none", False,
+            S.role_weights(False), profiles={}, spieler_tm_id=1,
+            is_future_career_entry=_noop_future)
+        assert rs == 0 and cat == "former_teammate"
+
+    def test_no_career_scores_three(self):
+        c = {"name": "X", "category": "former_teammate"}
+        rs, cat = S.score_former_teammate(c, {}, [], False, "none", False,
+            S.role_weights(False), profiles={}, spieler_tm_id=1,
+            is_future_career_entry=_noop_future)
+        assert rs == 3 and cat == "former_teammate"
+
+    def test_sd_promotion_upgrades_category(self):
+        c = {"name": "Di Leone", "category": "former_teammate"}
+        career = [{"role": "Sportdirektor", "club": "FC X", "date_to": "-"}]
+        prof = {"current_club": {"name": "FC X"}, "type": "trainer"}
+        rs, cat = S.score_former_teammate(c, prof, career, False, "none", False,
+            S.role_weights(False), profiles={}, spieler_tm_id=1,
+            is_future_career_entry=_noop_future)
+        assert cat == "sporting_director"
+        assert c["category"] == "sporting_director" and c["pro_status"] == "sd"
+        assert c.get("_teammate_promoted") is True
+        # coach-centered weight for SD is 35, +8 promotion bonus
+        assert rs == S.role_weights(False)["sporting_director"] + 8
+
+    def test_today_active_pro_bonus(self):
+        c = {"name": "X", "category": "former_teammate"}
+        rs, _ = S.score_former_teammate(c, {}, [], False, "head_coach", True,
+            S.role_weights(False), profiles={}, spieler_tm_id=1,
+            is_future_career_entry=_noop_future)
+        assert rs == 3 + 10  # no-career base 3 + active-DM today bonus 10
+
+    def test_geschaeftsfuehrer_becomes_executive(self):
+        c = {"name": "X", "category": "former_teammate"}
+        career = [{"role": "Geschäftsführer", "club": "FC X", "date_to": "-"}]
+        rs, cat = S.score_former_teammate(c, {"current_club": "FC X"}, career, False,
+            "none", False, S.role_weights(False), profiles={}, spieler_tm_id=1,
+            is_future_career_entry=_noop_future)
+        assert cat == "executive" and c["category"] == "executive"

@@ -6,7 +6,10 @@ Final score = relationship + role + league + recency + gs_bonus, then multi-stat
 multiplier, then max(.,category_floor), capped at 100. (role_score itself is computed
 in build_network because the former_teammate path has side effects.)
 """
-from .normalization import is_pseudo_club, classify_role
+from .normalization import (
+    is_pseudo_club, classify_role, normalize_club, compute_role_display,
+    build_trainer_url, resolve_trainer_tm_id,
+)
 
 # Role sets for former-teammate "what are they NOW?" detection. NOTE the two sets
 # differ deliberately (matches the original inline logic): the player-exit check
@@ -29,6 +32,148 @@ def is_still_active_player(profile: dict, career: list) -> bool:
     if not career:
         return False
     return not any(classify_role(e.get("role", "")) in _PLAYER_EXIT_ROLES for e in career)
+
+
+def score_former_teammate(c, teammate_profile, teammate_career, is_still_player,
+                          today_role, today_active, weights, *,
+                          profiles, spieler_tm_id, is_future_career_entry):
+    """Compute role_score for a former_teammate AND apply post-career promotion.
+
+    MUTATES ``c`` (category / pro_status / current_club / career_history / role /
+    tm_id / tm_url / _teammate_promoted) when the teammate's post-playing career
+    classifies them as a decision-maker (HC/SD/Exec) or scout. Returns
+    ``(role_score, cat)`` — cat is the possibly-upgraded category, which the caller
+    must use for the league/recency/floor dimensions.
+    """
+    cat = "former_teammate"
+    if is_still_player:
+        role_score = 0  # Active players without football-business career = low relevance
+    elif teammate_career:
+        # Q2: Smart "Geschäftsführer" classification
+        first_role = teammate_career[0].get("role", "")
+        post_role = classify_role(first_role)
+        # Plain "Geschäftsführer" / "Vorstandsmitglied" at non-commercial club → executive
+        rl = first_role.lower()
+        if "geschäftsführer" in rl or "vorstandsmitglied" in rl:
+            if not any(x in rl for x in ["marketing", "finanzen", "kaufmännisch", "vertrieb", "kommunikation"]):
+                post_role = "executive"
+
+        role_score = weights.get(post_role, 2)
+
+        # Q1: Promote category for Executive/SD/HC/Scout ex-teammates
+        if post_role in ("head_coach", "sporting_director", "executive"):
+            role_score += 8
+            # Category upgrade — appears in Decision-Maker filter
+            cat = post_role
+            c["category"] = post_role
+            c["pro_status"] = {
+                "executive": "exec",
+                "head_coach": "trainer",
+                "sporting_director": "sd",
+            }[post_role]
+            # PATTERN 23 FIX: refresh role/current_club/career_history so the contact
+            # doesn't keep the stale "Mitspieler (Position)" string (Grover Gibson /
+            # Di Leone bug). Not relying on later profile-enrichment (may be skipped).
+            try:
+                _tm_first = teammate_career[0] if teammate_career else {}
+                _tm_current_club = ""
+                _tp_cc = teammate_profile.get("current_club") or {}
+                if isinstance(_tp_cc, dict):
+                    _tm_current_club = normalize_club(_tp_cc.get("name", ""), _tp_cc.get("tm_id")) or ""
+                elif isinstance(_tp_cc, str):
+                    _tm_current_club = normalize_club(_tp_cc) or ""
+                if not _tm_current_club:
+                    _tm_current_club = normalize_club(_tm_first.get("club", "") or _tm_first.get("club_name", ""),
+                                                      _tm_first.get("club_tm_id")) or ""
+                if _tm_current_club:
+                    c["current_club"] = _tm_current_club
+                # PATTERN 15 EXTENSION: filter future entries from copied career_history
+                if teammate_career and not c.get("career_history"):
+                    _tc_current = [e for e in teammate_career if not is_future_career_entry(e)]
+                    _tc_display = _tc_current if _tc_current else teammate_career
+                    c["career_history"] = [
+                        {"club": normalize_club(e.get("club", "") or e.get("club_name", ""), e.get("club_tm_id")),
+                         "role": e.get("role", ""),
+                         "from": e.get("date_from", "") or e.get("from", ""),
+                         "to":   e.get("date_to", "")   or e.get("to", "")}
+                        for e in _tc_display
+                    ]
+                c["role"] = compute_role_display(
+                    category=post_role,
+                    section="",
+                    club_name=_tm_current_club,
+                    career_history=c.get("career_history") or teammate_career,
+                    position=c.get("playing_position", "") or "",
+                    person_type=teammate_profile.get("type", "") or "",
+                )
+                c["_teammate_promoted"] = True
+                # PATTERN 34: promoted-to-HC → refresh tm_id+tm_url to trainer namespace
+                # so dashboard cross-links resolve (was left at /profil/spieler/{id}).
+                if post_role == "head_coach":
+                    try:
+                        trainer_tmid = resolve_trainer_tm_id(
+                            spieler_tm_id=spieler_tm_id,
+                            person_name=c.get("name", ""),
+                            persons_master=profiles or {},
+                        )
+                        if trainer_tmid:
+                            c["tm_id"] = trainer_tmid
+                            _new_url = build_trainer_url(c.get("name", ""), trainer_tmid)
+                            if _new_url:
+                                c["tm_url"] = _new_url
+                    except Exception:
+                        pass
+            except Exception:
+                pass
+        elif post_role == "scouting":
+            # Scout-promotion (Minkwitz-Pattern) — relevant for talent pipeline
+            cat = "scouting"
+            c["category"] = "scouting"
+            c["pro_status"] = "scout"
+            try:
+                _tp_cc = teammate_profile.get("current_club") or {}
+                _tm_current_club = ""
+                if isinstance(_tp_cc, dict):
+                    _tm_current_club = normalize_club(_tp_cc.get("name", ""), _tp_cc.get("tm_id")) or ""
+                elif isinstance(_tp_cc, str):
+                    _tm_current_club = normalize_club(_tp_cc) or ""
+                if _tm_current_club:
+                    c["current_club"] = _tm_current_club
+                if teammate_career and not c.get("career_history"):
+                    _tc_current = [e for e in teammate_career if not is_future_career_entry(e)]
+                    _tc_display = _tc_current if _tc_current else teammate_career
+                    c["career_history"] = [
+                        {"club": normalize_club(e.get("club", "") or e.get("club_name", ""), e.get("club_tm_id")),
+                         "role": e.get("role", ""),
+                         "from": e.get("date_from", "") or e.get("from", ""),
+                         "to":   e.get("date_to", "")   or e.get("to", "")}
+                        for e in _tc_display
+                    ]
+                c["role"] = compute_role_display(
+                    category="scouting",
+                    section="",
+                    club_name=_tm_current_club,
+                    career_history=c.get("career_history") or teammate_career,
+                    position=c.get("playing_position", "") or "",
+                    person_type=teammate_profile.get("type", "") or "",
+                )
+                c["_teammate_promoted"] = True
+            except Exception:
+                pass
+    else:
+        role_score = 3  # Still active player, less relevant for placements
+
+    # Fix A (A1e) — Today-role bonus, ADDITIVE: active DM +10, active staff/scout +5,
+    # ex-trainer +2, none +0.
+    _ACTIVE_PRO = {"head_coach", "sporting_director", "executive"}
+    _ACTIVE_STAFF = {"coaching_staff", "scouting", "analyst", "academy", "management"}
+    if today_active and today_role in _ACTIVE_PRO:
+        role_score += 10
+    elif today_active and today_role in _ACTIVE_STAFF:
+        role_score += 5
+    elif today_role.startswith("ex_"):
+        role_score += 2
+    return role_score, cat
 
 
 def determine_today_role(staff_info, career: list):
