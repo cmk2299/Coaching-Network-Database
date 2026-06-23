@@ -104,3 +104,40 @@ class TestMultiStation:
     def test_five_plus_caps_140(self):
         st = ["FC A", "FC B", "FC C", "FC D", "FC E", "FC F"]
         assert S.apply_multi_station_multiplier(50, "head_coach", st) == 70  # 50*1.40
+
+
+class TestIsStillActivePlayer:
+    def test_typed_player(self):
+        assert S.is_still_active_player({"type": "player"}, []) is True
+
+    def test_career_only_player_roles(self):
+        career = [{"role": "Spieler"}]  # not a coaching/mgmt role
+        assert S.is_still_active_player({}, career) is True
+
+    def test_career_with_coaching_role(self):
+        career = [{"role": "Cheftrainer"}]
+        assert S.is_still_active_player({}, career) is False
+
+    def test_empty_profile_empty_career(self):
+        assert S.is_still_active_player({}, []) is False
+
+
+class TestDetermineTodayRole:
+    def test_staff_index_wins(self):
+        assert S.determine_today_role({"category": "sporting_director"},
+                                      [{"role": "Cheftrainer", "date_to": "-"}]) == ("sporting_director", True)
+
+    def test_current_career_role(self):
+        # no staff info; career[0] still active (no date_to) and an active football role
+        assert S.determine_today_role(None, [{"role": "Cheftrainer", "date_to": "-"}]) == ("head_coach", True)
+
+    def test_past_role_becomes_ex(self):
+        career = [{"role": "Spieler", "date_to": "2020"}, {"role": "Co-Trainer", "date_to": "2022"}]
+        role, active = S.determine_today_role(None, career)
+        assert role == "ex_coaching_staff" and active is False
+
+    def test_no_football_role(self):
+        assert S.determine_today_role(None, [{"role": "Spieler", "date_to": "2020"}]) == ("none", False)
+
+    def test_empty(self):
+        assert S.determine_today_role(None, []) == ("none", False)

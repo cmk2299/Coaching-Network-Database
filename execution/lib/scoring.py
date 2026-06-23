@@ -6,7 +6,50 @@ Final score = relationship + role + league + recency + gs_bonus, then multi-stat
 multiplier, then max(.,category_floor), capped at 100. (role_score itself is computed
 in build_network because the former_teammate path has side effects.)
 """
-from .normalization import is_pseudo_club
+from .normalization import is_pseudo_club, classify_role
+
+# Role sets for former-teammate "what are they NOW?" detection. NOTE the two sets
+# differ deliberately (matches the original inline logic): the player-exit check
+# excludes "executive", the today-role check includes it.
+_PLAYER_EXIT_ROLES = frozenset({
+    "head_coach", "coaching_staff", "sporting_director",
+    "scouting", "management", "analyst", "academy",
+})
+_ACTIVE_FOOTBALL_ROLES = frozenset({
+    "head_coach", "coaching_staff", "sporting_director", "executive",
+    "scouting", "analyst", "academy", "management",
+})
+
+
+def is_still_active_player(profile: dict, career: list) -> bool:
+    """True if a former teammate is still a pure player — profile typed 'player',
+    or a career with no coaching/management role anywhere."""
+    if (profile or {}).get("type") == "player":
+        return True
+    if not career:
+        return False
+    return not any(classify_role(e.get("role", "")) in _PLAYER_EXIT_ROLES for e in career)
+
+
+def determine_today_role(staff_info, career: list):
+    """Return (today_role, today_active) for a former teammate. Priority:
+      1) active-staff-index category (most reliable signal for TODAY)
+      2) current career[0] (no/'-' date_to) in an active football role
+      3) any past coaching/management role → 'ex_<role>'
+      4) else ('none', False)"""
+    if staff_info and staff_info.get("category") in _ACTIVE_FOOTBALL_ROLES:
+        return staff_info["category"], True
+    if career:
+        first = career[0]
+        first_to = (first.get("date_to") or "").strip()
+        first_classified = classify_role(first.get("role", ""))
+        if (not first_to or first_to == "-") and first_classified in _ACTIVE_FOOTBALL_ROLES:
+            return first_classified, True
+        had_role = next((classify_role(e.get("role", "")) for e in career
+                         if classify_role(e.get("role", "")) in _ACTIVE_FOOTBALL_ROLES), None)
+        if had_role:
+            return "ex_" + had_role, False
+    return "none", False
 
 # ── Role weights (Dimension 2) — coach-centered vs SD/Exec-centered networks ──
 ROLE_WEIGHTS_SD_CENTER = {

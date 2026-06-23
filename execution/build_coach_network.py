@@ -1528,14 +1528,8 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             if teammate_profile and not _name_matches(teammate_profile.get("name"), c.get("name", "")):
                 teammate_profile = {}
             teammate_career = teammate_profile.get("career_history", [])
-            # Detect if person is still an active player (no coaching/management career)
-            is_still_player = (teammate_profile.get("type") == "player" or
-                               (teammate_career and not any(
-                                   classify_role(e.get("role", "")) in
-                                   ("head_coach", "coaching_staff", "sporting_director",
-                                    "scouting", "management", "analyst", "academy")
-                                   for e in teammate_career
-                               )))
+            # Detect if person is still an active player (lib.scoring)
+            is_still_player = scoring.is_still_active_player(teammate_profile, teammate_career)
 
             # Fix A (A1e 2026-05-13) — derive `_today_role`: who are they NOW?
             # Priority order:
@@ -1543,36 +1537,9 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             #   2) First career_history entry without date_to → currently in that role
             #   3) Any coaching/management entry in career → "ex_trainer"
             #   4) Otherwise → "none" (Karriereende without football role)
-            _today_role = "none"
-            _today_active = False
             _staff_info = lookup_active_staff(_active_staff_idx_for_score, c.get("name", "")) \
                 if _active_staff_idx_for_score else None
-            if _staff_info and _staff_info.get("category") in (
-                "head_coach", "coaching_staff", "sporting_director",
-                "executive", "scouting", "analyst", "academy", "management",
-            ):
-                _today_role = _staff_info["category"]
-                _today_active = True
-            elif teammate_career:
-                first = teammate_career[0]
-                first_to = (first.get("date_to") or "").strip()
-                first_classified = classify_role(first.get("role", ""))
-                # "to" missing or '-' = currently in that role
-                if (not first_to or first_to == "-") and first_classified in (
-                    "head_coach", "coaching_staff", "sporting_director",
-                    "executive", "scouting", "analyst", "academy", "management",
-                ):
-                    _today_role = first_classified
-                    _today_active = True
-                else:
-                    # Had a coaching/management career in the past?
-                    had_role = next((classify_role(e.get("role", "")) for e in teammate_career
-                                     if classify_role(e.get("role", "")) in (
-                                         "head_coach", "coaching_staff", "sporting_director",
-                                         "executive", "scouting", "analyst", "academy", "management")),
-                                    None)
-                    if had_role:
-                        _today_role = "ex_" + had_role
+            _today_role, _today_active = scoring.determine_today_role(_staff_info, teammate_career)
             # Expose for filter (Fix B) + downstream debugging
             c["_today_role"] = _today_role
             c["_today_active"] = _today_active
