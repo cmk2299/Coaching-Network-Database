@@ -746,7 +746,8 @@ canvas { display:block; width:100%; height:100%; }
 // ═══════════════════════════════════════════════════
 // DATA (embedded)
 // ═══════════════════════════════════════════════════
-const NETWORK = {};
+let NETWORK = {};
+const NETWORK_URL = '';
 const DRILLDOWN = {};
 const DRILLDOWN_URL = '';
 const DASHBOARD_INDEX = __DASHBOARD_INDEX_PLACEHOLDER__;
@@ -791,7 +792,7 @@ let canvas, ctx, W, H, dpr;
 let currentCenter = '__CENTER_NAME_PLACEHOLDER__';
 let currentContacts = [];
 let currentStations = [];
-let breadcrumbs = [{name:NETWORK.center,level:0}];
+let breadcrumbs = [];  // initialised in boot() once NETWORK is loaded
 let nodes = [];
 let activeFilters = {stations:new Set(), categories:new Set(), agents:new Set()};
 let searchTerm = '';
@@ -2892,7 +2893,25 @@ function updateBreadcrumb() {
 // ═══════════════════════════════════════════════════
 // START
 // ═══════════════════════════════════════════════════
-window.addEventListener('load', init);
+// Serve-from-DB (2026-06-24): when NETWORK_URL is set, the network JSON lives in
+// an external {slug}_network.json (single canonical source, no embed/drift) and
+// is fetched before init. Falls back to inline NETWORK when NETWORK_URL is empty.
+async function boot() {
+  if (NETWORK_URL) {
+    try {
+      const r = await fetch(NETWORK_URL);
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      NETWORK = await r.json();
+    } catch (e) {
+      console.error('Network-Daten konnten nicht geladen werden:', e);
+      document.body.innerHTML = '<div style="color:#e8e8ec;font-family:sans-serif;padding:40px;text-align:center">Netzwerk-Daten konnten nicht geladen werden. Bitte neu laden.</div>';
+      return;
+    }
+  }
+  breadcrumbs = [{name: NETWORK.center, level: 0}];
+  init();
+}
+window.addEventListener('load', boot);
 </script>
 <script src="/assets/workflow.js" defer></script><!-- WORKFLOW_INSERT:js -->
 <script><!-- WORKFLOW_INSERT:bind -->

@@ -111,14 +111,17 @@ def generate_dashboard(network: dict, output_path: Path, drilldown: dict = None,
     lines = load_template()
     coach_name = network["center"]
 
-    # Find the data lines (const NETWORK = ... and const DRILLDOWN = ...)
+    # Find the data lines (NETWORK / NETWORK_URL / DRILLDOWN / DRILLDOWN_URL)
     network_line_idx = None
+    network_url_line_idx = None
     drilldown_line_idx = None
     drilldown_url_line_idx = None
 
     for i, line in enumerate(lines):
         stripped = line.strip()
-        if stripped.startswith("const NETWORK") and "=" in stripped:
+        if stripped.startswith("const NETWORK_URL") and "=" in stripped:
+            network_url_line_idx = i
+        elif (stripped.startswith("let NETWORK") or stripped.startswith("const NETWORK")) and "=" in stripped:
             network_line_idx = i
         elif stripped.startswith("const DRILLDOWN_URL") and "=" in stripped:
             drilldown_url_line_idx = i
@@ -148,8 +151,20 @@ def generate_dashboard(network: dict, output_path: Path, drilldown: dict = None,
     # Generate slug from output filename (e.g., "blessin_network.html" -> "blessin_network")
     slug = output_path.stem
 
-    # Replace data lines
-    new_network_line = f"const NETWORK = {network_json};\n"
+    # Replace data lines.
+    # Serve-from-DB (2026-06-24): externalize NETWORK to {slug}_network.json so the
+    # HTML is a thin shell over a single canonical data file (no embed/drift; only
+    # the JSON re-uploads on data change). Falls back to inline if URL slot absent.
+    if network_url_line_idx is not None:
+        network_path = output_path.parent / f"{slug}_network.json"
+        network_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(network_path, "w", encoding="utf-8") as f:
+            f.write(network_json)
+        new_network_line = "let NETWORK = null;\n"
+        new_network_url_line = f"const NETWORK_URL = '{slug}_network.json';\n"
+    else:
+        new_network_line = f"let NETWORK = {network_json};\n"
+        new_network_url_line = None
 
     if use_external_drilldown and drilldown_json != '{}':
         # Save drilldown as external JSON file
@@ -168,6 +183,8 @@ def generate_dashboard(network: dict, output_path: Path, drilldown: dict = None,
         new_drilldown_url_line = "const DRILLDOWN_URL = '';\n"
 
     lines[network_line_idx] = new_network_line
+    if network_url_line_idx is not None and new_network_url_line is not None:
+        lines[network_url_line_idx] = new_network_url_line
     if drilldown_line_idx is not None:
         lines[drilldown_line_idx] = new_drilldown_line
     if drilldown_url_line_idx is not None:
