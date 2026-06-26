@@ -1736,6 +1736,13 @@ def main():
                             include_nlz=args.include_nlz)
 
     print("\n  Done! Open output/index.html")
+    try:
+        from lib.logging_setup import write_run_summary
+        write_run_summary("generate_all_bl_coaches", season=args.season,
+                          leagues=args.leagues, coaches=len(coaches),
+                          skip_networks=args.skip_networks)
+    except Exception:
+        pass
 
 
 if __name__ == "__main__":

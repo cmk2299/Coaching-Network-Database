@@ -29,3 +29,6 @@ venv/
 # OS
 .DS_Store
 audit/
+
+# Run logs + structured-logging artifacts (keep the lib, ignore the output)
+logs/

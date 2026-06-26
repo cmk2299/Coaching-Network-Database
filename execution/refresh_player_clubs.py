@@ -146,6 +146,12 @@ def main():
     print(f"\nDone: ok={ok} transfers={len(transfers)} unchanged={unchanged} "
           f"fail={fail} time={(time.time()-t0)/3600:.1f}h")
     print(f"Transfers → {tlog}")
+    try:
+        from lib.logging_setup import write_run_summary
+        write_run_summary("refresh_player_clubs", ok=ok, transfers=len(transfers),
+                          unchanged=unchanged, fail=fail)
+    except Exception:
+        pass
 
 
 if __name__ == "__main__":
