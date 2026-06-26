@@ -87,14 +87,37 @@ def _appointed_overrides() -> "dict[int, dict]":
     return out
 
 
+def _sacked_overrides() -> "dict[int, set]":
+    """Map club_tm_id -> set of sacked coach tm_ids. A sacked-without-appointed
+    club is a confirmed vacancy: the scraped staff page still lists the outgoing
+    HC (TM-lag), so we must suppress him and report the club as vakant
+    (e.g. Werner@RB Leipzig freigestellt, kein bestätigter Nachfolger)."""
+    try:
+        ov = json.loads((BASE / "data" / "coach_overrides.json").read_text())
+    except (json.JSONDecodeError, OSError):
+        return {}
+    out: "dict[int, set]" = {}
+    for e in ov.get("sacked", []):
+        cid = e.get("club_tm_id")
+        if cid:
+            out.setdefault(int(cid), set())
+            if e.get("tm_id"):
+                out[int(cid)].add(int(e["tm_id"]))
+    return out
+
+
 def head_coach_for_club(club_tm_id: int) -> "dict | None":
     """Return the club's head coach. An appointed-override ALWAYS wins — it is a
     manually-confirmed statement "this club's HC is X now" and must take
     precedence over the scraped staff page, which lags reality (still lists the
-    outgoing HC, e.g. Hjulmand@Leverkusen until TM updates)."""
+    outgoing HC, e.g. Hjulmand@Leverkusen until TM updates).
+
+    A sacked-override (without a matching appointed) forces the club to vakant:
+    the scraped HC is the departed coach until TM updates."""
     override = _appointed_overrides().get(int(club_tm_id))
     if override:
         return override
+    sacked = _sacked_overrides().get(int(club_tm_id))
     path = STAFF_DIR / f"{club_tm_id}.json"
     if not path.exists():
         return None
@@ -113,6 +136,8 @@ def head_coach_for_club(club_tm_id: int) -> "dict | None":
         if role == "head_coach" or "cheftrainer" in role_text or role_text == "trainer":
             candidates.append(entry)
     if not candidates:
+        if sacked is not None:
+            return {"name": "vakant", "tm_id": None, "vacant": True}
         return override
     # Prefer explicit head_coach role, then first in list
     candidates.sort(key=lambda e: 0 if (e.get("role") or "").lower() == "head_coach" else 1)
@@ -121,6 +146,9 @@ def head_coach_for_club(club_tm_id: int) -> "dict | None":
     name = (pick.get("name") or "").strip()
     if not name or not tm_id:
         return None
+    # Sacked-override: scraped pick is the departed HC → club is vakant
+    if sacked is not None and (not sacked or int(tm_id) in sacked):
+        return {"name": "vakant", "tm_id": None, "vacant": True}
     return {"name": name, "tm_id": int(tm_id)}
 
 
