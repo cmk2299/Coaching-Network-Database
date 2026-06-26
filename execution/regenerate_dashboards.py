@@ -120,12 +120,17 @@ def extract_data_from_dashboard(html_path: Path) -> tuple:
         lines = f.readlines()
 
     network = None
+    network_url = ''
     drilldown = None
     drilldown_url = ''
 
     for line in lines:
         stripped = line.strip()
-        if stripped.startswith('const NETWORK') and '=' in stripped and network is None:
+        if stripped.startswith('const NETWORK_URL') and '=' in stripped:
+            val = extract_json_from_line(stripped, 'NETWORK_URL')
+            if val is not None:
+                network_url = val
+        elif (stripped.startswith('let NETWORK') or stripped.startswith('const NETWORK')) and '=' in stripped and network is None:
             network = extract_json_from_line(stripped, 'NETWORK')
         elif stripped.startswith('const DRILLDOWN_URL') and '=' in stripped:
             val = extract_json_from_line(stripped, 'DRILLDOWN_URL')
@@ -135,6 +140,17 @@ def extract_data_from_dashboard(html_path: Path) -> tuple:
             # Skip if it's DRILLDOWN_URL
             if not stripped.startswith('const DRILLDOWN_URL'):
                 drilldown = extract_json_from_line(stripped, 'DRILLDOWN')
+
+    # Serve-from-DB: when NETWORK was externalized (let NETWORK = null + URL),
+    # reload it from {slug}_network.json so regeneration has the canonical data.
+    if network is None or network == {}:
+        ext = html_path.parent / (network_url or f"{html_path.stem}_network.json")
+        if ext.exists():
+            try:
+                with open(ext, 'r', encoding='utf-8') as ef:
+                    network = json.loads(ef.read())
+            except Exception:
+                pass
 
     # If drilldown is empty, try to load from external JSON file.
     # Case 1: DRILLDOWN_URL is set explicitly (DRILLDOWN = null + URL = 'file.json')
@@ -183,13 +199,16 @@ def regenerate_dashboard(html_path: Path, template_lines: list, dashboard_index:
 
     # Find replacement lines in template
     network_line_idx = None
+    network_url_line_idx = None
     drilldown_line_idx = None
     drilldown_url_line_idx = None
     dashboard_index_line_idx = None
 
     for i, line in enumerate(template_lines):
         stripped = line.strip()
-        if stripped.startswith("const NETWORK") and "=" in stripped:
+        if stripped.startswith("const NETWORK_URL") and "=" in stripped:
+            network_url_line_idx = i
+        elif (stripped.startswith("let NETWORK") or stripped.startswith("const NETWORK")) and "=" in stripped:
             network_line_idx = i
         elif stripped.startswith("const DRILLDOWN_URL") and "=" in stripped:
             drilldown_url_line_idx = i
@@ -207,8 +226,18 @@ def regenerate_dashboard(html_path: Path, template_lines: list, dashboard_index:
     network_json = json.dumps(network, ensure_ascii=False, separators=(',', ':'))
     drilldown_json = json.dumps(drilldown or {}, ensure_ascii=False, separators=(',', ':'))
 
-    # Decide: inline or external drilldown
     slug = html_path.stem
+
+    # Serve-from-DB: externalize NETWORK to {slug}_network.json (thin-shell HTML).
+    if network_url_line_idx is not None:
+        with open(html_path.parent / f"{slug}_network.json", 'w', encoding='utf-8') as f:
+            f.write(network_json)
+        lines[network_line_idx] = "let NETWORK = null;\n"
+        lines[network_url_line_idx] = f"const NETWORK_URL = '{slug}_network.json';\n"
+    else:
+        lines[network_line_idx] = f"let NETWORK = {network_json};\n"
+
+    # Decide: inline or external drilldown
     use_external = (lazy_threshold > 0 and len(drilldown_json) > lazy_threshold
                     and drilldown_json != '{}')
 
@@ -218,14 +247,11 @@ def regenerate_dashboard(html_path: Path, template_lines: list, dashboard_index:
         with open(drilldown_path, 'w', encoding='utf-8') as f:
             f.write(drilldown_json)
         result['externalized'] = len(drilldown_json)
-
-        lines[network_line_idx] = f"const NETWORK = {network_json};\n"
         if drilldown_line_idx is not None:
             lines[drilldown_line_idx] = "const DRILLDOWN = null;\n"
         if drilldown_url_line_idx is not None:
             lines[drilldown_url_line_idx] = f"const DRILLDOWN_URL = '{slug}_drilldown.json';\n"
     else:
-        lines[network_line_idx] = f"const NETWORK = {network_json};\n"
         if drilldown_line_idx is not None:
             lines[drilldown_line_idx] = f"const DRILLDOWN = {drilldown_json};\n"
         if drilldown_url_line_idx is not None:
