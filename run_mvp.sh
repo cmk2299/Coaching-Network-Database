@@ -107,6 +107,8 @@ if [ "${SKIP_GATE:-0}" -eq 0 ]; then
   log "Step 4b: quality gate (logic + scoring audit)"
   python3 execution/logic_audit.py   2>&1 | tail -3 || fail "Step 4b: logic_audit found defects — deploy blocked"
   python3 execution/scoring_audit.py 2>&1 | tail -3 || fail "Step 4b: scoring_audit found defects — deploy blocked"
+  # Volume gate: block on catastrophic artifact loss (the 2026-05-21 wipe class)
+  python3 execution/validate_pipeline.py 2>&1 | tail -8 || fail "Step 4b: pipeline volume regressed — deploy blocked (re-baseline if intentional)"
   log "  ✓ Quality gate passed"
 else
   log "Step 4b: quality gate SKIPPED (SKIP_GATE=1)"
