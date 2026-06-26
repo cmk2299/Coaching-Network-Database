@@ -83,7 +83,7 @@ def fetch_page(url: str, save_as: str = None) -> Optional[BeautifulSoup]:
 
     except requests.exceptions.HTTPError as e:
         if e.response.status_code == 429:
-            print(f"  Rate limited. Waiting 60 seconds...")
+            print("  Rate limited. Waiting 60 seconds...")
             time.sleep(60)
             return fetch_page(url, save_as)
         print(f"  ERROR: HTTP {e.response.status_code}")
@@ -504,7 +504,7 @@ def scrape_teammates(coach_profile_url: str = None, player_id: str = None, playe
     ensure_dirs()
 
     print(f"\n{'=' * 50}")
-    print(f"Scraping Teammates")
+    print("Scraping Teammates")
     print(f"{'=' * 50}")
 
     # If we have player_id and slug directly, use them
@@ -579,7 +579,7 @@ def scrape_teammates(coach_profile_url: str = None, player_id: str = None, playe
     save_cache(cache_key, result)
 
     print(f"\n{'=' * 50}")
-    print(f"Teammates scraped!")
+    print("Teammates scraped!")
     print(f"Total: {len(all_teammates)}")
     print(f"Coaches: {len(categorized['coaches'])}")
     print(f"Directors: {len(categorized['sporting_directors'])}")

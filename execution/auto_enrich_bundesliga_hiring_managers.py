@@ -127,7 +127,7 @@ def auto_enrich_all_coaches():
             for hm in hiring_managers:
                 print(f"     - {hm['name']} ({hm['role']})")
         else:
-            print(f"  ⚠️  No hiring managers found (needs manual research)")
+            print("  ⚠️  No hiring managers found (needs manual research)")
 
     # Save suggestions
     if suggestions:
@@ -144,9 +144,9 @@ def auto_enrich_all_coaches():
             json.dump(output, f, indent=2, ensure_ascii=False)
 
         print("\n✅ Auto-enrichment complete!")
-        print(f"\nNext steps:")
+        print("\nNext steps:")
         print(f"1. Review suggestions in: {SUGGESTED_DATA}")
-        print(f"2. Verify accuracy of hiring managers")
+        print("2. Verify accuracy of hiring managers")
         print(f"3. Merge verified data into: {MANUAL_DATA}")
 
     else:

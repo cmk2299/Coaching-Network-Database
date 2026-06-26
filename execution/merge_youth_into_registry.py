@@ -84,13 +84,13 @@ def main():
         registry_data["_meta"]["last_youth_merge_at"] = datetime.now(timezone.utc).isoformat()
         registry_data["_meta"]["youth_clubs_added"] = registry_data["_meta"].get("youth_clubs_added", 0) + len(new_clubs)
 
-    print(f"=== Youth-Teams Merge Summary ===")
+    print("=== Youth-Teams Merge Summary ===")
     print(f"  Discovered: {len(discovered)}")
     print(f"  New clubs added: {len(new_clubs)}")
     print(f"  Existing clubs updated (league-tag): {len(updated)}")
 
     if new_clubs[:8]:
-        print(f"\n  Sample new clubs:")
+        print("\n  Sample new clubs:")
         for c in new_clubs[:8]:
             print(f"    tm_id={c['tm_id']:<7} {c['name']:<35} parent={c['parent_name']}")
 
@@ -98,7 +98,7 @@ def main():
     by_type = {}
     for c in new_clubs:
         by_type[c["team_type"]] = by_type.get(c["team_type"], 0) + 1
-    print(f"\n  Breakdown:")
+    print("\n  Breakdown:")
     for t, n in sorted(by_type.items()):
         print(f"    {t}: {n}")
 
@@ -106,7 +106,7 @@ def main():
         json.dump(registry_data, open(REGISTRY, "w"), ensure_ascii=False, indent=2)
         print(f"\n  ✓ Merged into {REGISTRY}")
     else:
-        print(f"\n  Dry-run only — re-run without --dry-run to persist.")
+        print("\n  Dry-run only — re-run without --dry-run to persist.")
 
 
 if __name__ == "__main__":

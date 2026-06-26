@@ -22,13 +22,11 @@ jobs:
           pip install -r requirements.txt
           pip install pytest ruff
 
-      - name: Lint (real bugs only — syntax errors + undefined names)
-        # Scope to F (pyflakes) + E9 (syntax) so 152 legacy scripts don't fail on
-        # style; this still surfaces undefined names / broken imports / syntax.
-        # Non-blocking for now (legacy scripts may have F-findings); tighten to a
-        # hard gate once execution/ is clean.
-        continue-on-error: true
-        run: ruff check execution/ tests/ --select F,E9 --output-format=github
+      - name: Lint (real bugs — syntax, undefined names, unused imports/f-strings)
+        # HARD GATE (2026-06-24): F (pyflakes) + E9 (syntax). F841 (assigned-but-
+        # unused local) is excluded — 39 remain in legacy scripts and its autofix
+        # is unsafe (may drop a side-effecting RHS); clean those up before adding it.
+        run: ruff check execution/ tests/ --select F,E9 --ignore F841 --output-format=github
 
       - name: Compile-check all execution scripts
         run: python -m compileall -q execution/

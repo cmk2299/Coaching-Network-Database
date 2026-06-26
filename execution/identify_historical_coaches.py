@@ -16,7 +16,7 @@ import json
 import re
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, List, Set, Tuple
+from typing import Dict, Set, Tuple
 
 BASE = Path(__file__).parent.parent
 DATA_DIR = BASE / "data"
@@ -318,7 +318,7 @@ def main():
     with open(output_path, "w") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"\n✓ Analysis complete!")
+    print("\n✓ Analysis complete!")
     print(f"  Total historical coaches: {output['total']}")
     for cat in ["A", "B", "C", "D"]:
         label = output["category_labels"][cat]

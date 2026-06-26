@@ -20,7 +20,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from build_coach_network import (
     build_network, generate_background_summaries, build_drilldown,
-    strip_internal_fields, preload_all_profiles, build_profile_index, OUTPUT_DIR,
+    strip_internal_fields, preload_all_profiles, build_profile_index,
 )
 from generate_dashboard import generate_dashboard
 from lib.normalization import slugify

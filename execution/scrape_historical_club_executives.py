@@ -233,7 +233,7 @@ def main():
     print(f"  ✓ Loaded {len(current_executives)} current executives")
 
     # Step 2: Scrape career histories
-    print(f"\n[2/4] Scraping career histories for all executives...")
+    print("\n[2/4] Scraping career histories for all executives...")
     print(f"  (This will take ~{len(current_executives) * 2} seconds due to rate limiting)")
     print()
 
@@ -291,15 +291,15 @@ def main():
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
 
-    print(f"\n✅ COMPLETE!")
+    print("\n✅ COMPLETE!")
     print(f"📁 Saved to: {output_file}")
-    print(f"📊 Coverage:")
+    print("📊 Coverage:")
     print(f"   - {total_clubs} clubs")
     print(f"   - {total_club_years} club-years")
     print(f"   - {len(executives_with_history)} executives")
 
     # Show sample clubs with most coverage
-    print(f"\n🏆 Top 10 clubs by year coverage:")
+    print("\n🏆 Top 10 clubs by year coverage:")
     sorted_clubs = sorted(output_mapping.items(), key=lambda x: len(x[1]), reverse=True)
     for i, (club, years_dict) in enumerate(sorted_clubs[:10], 1):
         year_range = f"{min(years_dict.keys())}-{max(years_dict.keys())}"

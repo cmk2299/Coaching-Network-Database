@@ -707,7 +707,7 @@ def main():
     elapsed = time.time() - start_time
     print()
     print("=" * 60)
-    print(f"PHASE 3 BATCH COMPLETE")
+    print("PHASE 3 BATCH COMPLETE")
     print(f"Duration: {elapsed/60:.1f} min")
     print(f"Scraped: {stats['scraped']}")
     print(f"Failed: {stats['failed']}")

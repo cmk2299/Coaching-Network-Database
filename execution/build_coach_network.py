@@ -28,7 +28,7 @@ import re
 import time
 from pathlib import Path
 from collections import defaultdict
-from typing import Optional, Dict, List, Tuple, Set
+from typing import Optional, Dict, List, Tuple
 
 # ── Shared library imports ────────────────────────────────────────────
 from lib import scoring
@@ -39,19 +39,14 @@ from lib.network_stages import (
     remove_connection_self_loops,
 )
 from lib.normalization import (
-    CLUB_NAME_NORMALIZE,
     normalize_club,
     classify_role,
     classify_staff_section,
-    parse_season_from_date,
     get_season_range,
     format_season,
     validate_staff_tm_id,
     league_rank as _league_rank,
     filter_nationality,
-    is_pseudo_club,
-    slugify,
-    # Systematik-Helper (2026-05-19) — single source of truth für Role/Stations/URL
     compute_role_display,
     compute_shared_playing_stations,
     build_trainer_url,
@@ -691,7 +686,7 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
 
     career = profile.get("career_history", [])
     if not career:
-        print(f"  ✗ No career history")
+        print("  ✗ No career history")
         return None
 
     # ── Parse coach's career stations ── (lib.network_stages)
@@ -1348,7 +1343,7 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         print(f"  Lehrgang total: {lehrgang_added} new contacts across "
               f"{len(lehrgang_records)} memberships")
     else:
-        print(f"  Lehrgang: not found in cohort data")
+        print("  Lehrgang: not found in cohort data")
 
     # ── Enrich contacts from person_profiles (images, nationality, etc.) ──
     # PATTERN 25 FIX (2026-05-23): apply F1 dual-namespace guard HERE too.

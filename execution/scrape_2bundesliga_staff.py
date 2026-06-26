@@ -4,7 +4,6 @@ Scrape ALL coaching staff from 2. Bundesliga clubs (Top 8)
 Targets: Head Coaches, Co-Trainer, U23, U19 trainers
 """
 
-import sys
 import time
 import json
 from pathlib import Path
@@ -79,9 +78,9 @@ def scrape_club_staff(club_name, club_url):
                             'club': club_name,
                             'profile': profile
                         })
-                        print(f"      → Scraped profile successfully")
+                        print("      → Scraped profile successfully")
                     else:
-                        print(f"      ⚠ Failed to scrape profile")
+                        print("      ⚠ Failed to scrape profile")
                 except Exception as e:
                     print(f"      ⚠ Error scraping: {e}")
 
@@ -132,7 +131,7 @@ def main():
     print("=" * 70)
     print(f"Clubs processed: {clubs_processed}/{len(BUNDESLIGA_2_CLUBS)}")
     print(f"Total coaches scraped: {len(all_coaches)}")
-    print(f"Saved to: preload/")
+    print("Saved to: preload/")
     print("=" * 70)
 
     # Save summary

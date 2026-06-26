@@ -163,7 +163,7 @@ def main():
     print(f"  ⏱️  Estimated time: {len(candidates) * RATE_LIMIT / 60:.0f} minutes")
 
     # Scrape
-    print(f"\n🔍 Scraping playing careers...")
+    print("\n🔍 Scraping playing careers...")
     results = []
     with_career = 0
     without_career = 0
@@ -206,7 +206,7 @@ def main():
             time.sleep(RATE_LIMIT)
 
     # Save results
-    print(f"\n💾 Saving results...")
+    print("\n💾 Saving results...")
     output = {
         'generated_at': datetime.now().isoformat(),
         'total_scraped': len(results),

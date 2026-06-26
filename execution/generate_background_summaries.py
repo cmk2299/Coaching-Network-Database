@@ -21,7 +21,6 @@ Rules:
 """
 
 import json
-import os
 from pathlib import Path
 
 # Paths
@@ -172,7 +171,7 @@ def generate_summary(contact, profile_map, drilldown_data, network_size_map):
 
         # Use note for context
         if "Architekt des RB-Systems" in note:
-            return f"Sportdirektor bei RB Leipzig. Architekt des RB-Systems, prägte Blessins Weg zu Leipzig."
+            return "Sportdirektor bei RB Leipzig. Architekt des RB-Systems, prägte Blessins Weg zu Leipzig."
         elif "Holte Blessin nach Oostende" in note:
             return f"{role} bei {club} mit Brighton-Netzwerk, holte Blessin zu KV Oostende."
         elif role:
@@ -264,7 +263,7 @@ def main():
         json.dump(summaries, f, ensure_ascii=False, indent=2)
 
     # Update network file with summaries
-    print(f"Updating network file with summaries...")
+    print("Updating network file with summaries...")
     with open(NETWORK_FILE, 'w', encoding='utf-8') as f:
         json.dump(network_data, f, ensure_ascii=False, indent=2)
 

@@ -8,7 +8,6 @@ import json
 import re
 from pathlib import Path
 from datetime import datetime
-from collections import defaultdict
 
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -124,7 +123,7 @@ def load_existing_connections():
 
         print(f"  ✓ Loaded {len(sd_data.get('connections', []))} SD ↔ Coach connections (FIXED)")
     else:
-        print(f"  ⚠️  No fixed SD overlaps found, skipping")
+        print("  ⚠️  No fixed SD overlaps found, skipping")
 
     # Load FIXED Executive ↔ Coach overlaps (filter to top connections only)
     exec_coach_file = DATA_DIR / "executive_coach_overlaps_fixed.json"
@@ -154,7 +153,7 @@ def load_existing_connections():
 
         print(f"  ✓ Loaded {len(filtered_exec)} Executive ↔ Coach connections (FIXED, filtered)")
     else:
-        print(f"  ⚠️  No fixed executive overlaps found, skipping")
+        print("  ⚠️  No fixed executive overlaps found, skipping")
 
     print(f"  Total existing connections: {len(connections)}")
 
@@ -188,7 +187,7 @@ def deduplicate_profiles(profiles):
 
 def save_master_profiles(profiles):
     """Save consolidated master profile file"""
-    print(f"\n💾 Saving master profiles...")
+    print("\n💾 Saving master profiles...")
 
     output = {
         'generated_at': datetime.now().isoformat(),
@@ -204,7 +203,7 @@ def save_master_profiles(profiles):
 
 def save_master_connections(connections):
     """Save consolidated master connections file"""
-    print(f"\n💾 Saving master connections...")
+    print("\n💾 Saving master connections...")
 
     output = {
         'generated_at': datetime.now().isoformat(),

@@ -1572,10 +1572,10 @@ def main():
     args = parser.parse_args()
 
     print(f"\n{'='*70}")
-    print(f"  Coach Network Explorer \u2014 Batch Generator")
+    print("  Coach Network Explorer \u2014 Batch Generator")
     print(f"  Leagues: {', '.join(args.leagues)} | Season: {format_season(args.season)}")
     if args.include_historical:
-        print(f"  Include: Historical Coaches ✓")
+        print("  Include: Historical Coaches ✓")
     print(f"{'='*70}")
 
     club_registry = load_club_registry()
@@ -1645,7 +1645,7 @@ def main():
             print(f"\n  [{i}/{len(coaches)}] {coach['name']} ({coach['club']}, {coach['league']})")
 
             if not coach["has_profile"]:
-                print(f"    \u26a0 No profile \u2014 skipping")
+                print("    \u26a0 No profile \u2014 skipping")
                 failed += 1
                 continue
 
@@ -1670,7 +1670,7 @@ def main():
                         needs_rebuild = True
 
                     if not needs_rebuild:
-                        print(f"    \u2714 Up to date (delta)")
+                        print("    \u2714 Up to date (delta)")
                         success += 1
                         continue
 
@@ -1735,7 +1735,7 @@ def main():
                             include_decision_makers=args.include_decision_makers,
                             include_nlz=args.include_nlz)
 
-    print(f"\n  Done! Open output/index.html")
+    print("\n  Done! Open output/index.html")
 
 
 if __name__ == "__main__":

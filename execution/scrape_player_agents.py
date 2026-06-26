@@ -5,7 +5,6 @@ Fetches data from individual player profiles.
 """
 
 import json
-import os
 import re
 import time
 from datetime import datetime, timedelta

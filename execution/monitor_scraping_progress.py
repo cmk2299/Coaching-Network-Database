@@ -69,14 +69,14 @@ def display_progress(previous_stats=None):
     print(f"📊 SCRAPING PROGRESS - {datetime.now().strftime('%H:%M:%S')}")
     print("=" * 70)
 
-    print(f"\n📁 COACHES:")
+    print("\n📁 COACHES:")
     print(f"  Total coaches: {stats['total_coaches']}")
     print(f"  With profile: {stats['with_profile']} ({stats['with_profile']/stats['total_coaches']*100:.1f}%)")
     print(f"  With companions: {stats['with_companions']} ({stats['with_companions']/stats['total_coaches']*100:.1f}%)")
     print(f"  With teammates: {stats['with_teammates']} ({stats['with_teammates']/stats['total_coaches']*100:.1f}%)")
     print(f"  With playing career: {stats['with_playing_career']} ({stats['with_playing_career']/stats['total_coaches']*100:.1f}%)")
 
-    print(f"\n🕸️  NETWORK CONNECTIONS:")
+    print("\n🕸️  NETWORK CONNECTIONS:")
     print(f"  Total companions: {stats['total_companions']}")
     print(f"  - Teammates: {stats['total_teammates']}")
     print(f"  - Management: {stats['total_management']}")
@@ -85,7 +85,7 @@ def display_progress(previous_stats=None):
 
     # Show delta if previous stats available
     if previous_stats:
-        print(f"\n📈 CHANGES (since last check):")
+        print("\n📈 CHANGES (since last check):")
         print(f"  Coaches: +{stats['total_coaches'] - previous_stats['total_coaches']}")
         print(f"  Companions: +{stats['total_companions'] - previous_stats['total_companions']}")
         print(f"  With companions: +{stats['with_companions'] - previous_stats['with_companions']}")

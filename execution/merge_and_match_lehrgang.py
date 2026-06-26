@@ -19,7 +19,6 @@ import shutil
 import unicodedata
 from pathlib import Path
 from collections import defaultdict
-from datetime import datetime
 
 BASE = Path(__file__).parent.parent
 LIC = BASE / "data" / "coaching_licenses.json"
@@ -245,7 +244,7 @@ def main():
     print("=" * 60)
     print(f"Before: {old_matched} / {old_total} matched")
     print(f"After:  {grand_matched} / {grand_total} matched (+{grand_matched - old_matched} matched, +{grand_total - old_total} grads)")
-    print(f"Match-pass:")
+    print("Match-pass:")
     print(f"  - newly rematched: {rematched}")
     print(f"  - ambiguous (skipped): {ambiguous}")
     print(f"  - still missing: {still_missing}")
@@ -255,7 +254,7 @@ def main():
             status = f"→ {resolved}" if resolved else "(skipped)"
             print(f"  LG {cid}: {nm:<32} ({n_matches} candidates) {status}")
     if rematched_samples:
-        print(f"\nFirst 15 new matches:")
+        print("\nFirst 15 new matches:")
         for cid, nm, tid, reason in rematched_samples[:15]:
             print(f"  LG {cid}: {nm:<32} → {tid} ({reason})")
 

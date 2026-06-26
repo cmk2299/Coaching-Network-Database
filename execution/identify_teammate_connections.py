@@ -142,7 +142,7 @@ def main():
     connections.sort(key=lambda x: x['shared_matches'], reverse=True)
 
     # Save results
-    print(f"\n💾 Saving results...")
+    print("\n💾 Saving results...")
     output = {
         'generated_at': datetime.now().isoformat(),
         'total_connections': len(connections),
@@ -164,7 +164,7 @@ def main():
     print(f"Coaches with teammate connections: {len(coach_connections_count)}")
 
     if connections:
-        print(f"\nTop 10 strongest connections (by shared matches):")
+        print("\nTop 10 strongest connections (by shared matches):")
         for i, conn in enumerate(connections[:10], 1):
             print(f"  {i}. {conn['coach_a']} ↔ {conn['coach_b']}")
             print(f"     {conn['shared_matches']} matches, {conn['teams_together']} teams")
@@ -175,7 +175,7 @@ def main():
         avg_connections = sum(connections_list) / len(connections_list)
         max_connections = max(connections_list)
 
-        print(f"\nConnection distribution:")
+        print("\nConnection distribution:")
         print(f"  Average: {avg_connections:.1f} connections per coach")
         print(f"  Max: {max_connections} connections")
 

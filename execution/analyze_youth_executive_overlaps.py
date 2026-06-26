@@ -23,7 +23,6 @@ import sys
 import json
 from pathlib import Path
 from datetime import datetime
-from collections import defaultdict
 
 # Add parent to path
 sys.path.insert(0, str(Path(__file__).parent))

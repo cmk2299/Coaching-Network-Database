@@ -15,13 +15,12 @@ import json
 import sys
 import time
 from pathlib import Path
-from datetime import datetime
 
 # Add project root to path
 PROJECT_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(PROJECT_ROOT / "execution"))
 
-from coach_db import CoachDB, parse_german_date, parse_career_period
+from coach_db import CoachDB, parse_german_date
 
 # Paths
 PRELOADED_DIR = PROJECT_ROOT / "tmp" / "preloaded"
@@ -143,8 +142,8 @@ def import_all_profiles(dry_run: bool = False, verbose: bool = False):
     print(f"Errors:             {errors}")
     print(f"Career stations:    {total_stations}")
     print(f"Time:               {elapsed:.1f}s")
-    print(f"")
-    print(f"Field completeness:")
+    print("")
+    print("Field completeness:")
     print(f"  Nationality:      {with_nationality}/{success} ({100*with_nationality/max(success,1):.0f}%)")
     print(f"  DOB:              {with_dob}/{success} ({100*with_dob/max(success,1):.0f}%)")
     print(f"  Birthplace:       {with_birthplace}/{success} ({100*with_birthplace/max(success,1):.0f}%)")
@@ -166,7 +165,7 @@ def import_all_profiles(dry_run: bool = False, verbose: bool = False):
         db_status = c.fetchone()[0]
         conn.close()
 
-        print(f"\nDatabase verification:")
+        print("\nDatabase verification:")
         print(f"  coaches table:           {db_coaches} rows")
         print(f"  career_stations table:   {db_stations} rows")
         print(f"  coach_current_status:    {db_status} rows")

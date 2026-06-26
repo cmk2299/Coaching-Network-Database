@@ -90,7 +90,7 @@ def main():
     elapsed = (time.time() - start) / 60
     print(f"\n✓ {ok:,} scraped, {fail} failed in {elapsed:.1f} min")
     print(f"  Log: {log_path}")
-    print(f"\nNext: python3 execution/scrape_person_profiles.py --merge-only")
+    print("\nNext: python3 execution/scrape_person_profiles.py --merge-only")
 
 
 if __name__ == "__main__":

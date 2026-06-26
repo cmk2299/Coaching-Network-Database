@@ -305,7 +305,7 @@ def main():
 
     # Highlight top mood-flagged coaches
     sorted_coaches = sorted(out.items(), key=lambda kv: -kv[1]["mood_score"])
-    print(f"\n=== Top Mood-Flagged ===")
+    print("\n=== Top Mood-Flagged ===")
     for tm_id, s in sorted_coaches[:8]:
         sigs = []
         if s["kiss_of_death_signals"]: sigs.append(f"KISS:{len(s['kiss_of_death_signals'])}")

@@ -9,7 +9,6 @@ import time
 import re
 from pathlib import Path
 from datetime import datetime
-from collections import defaultdict
 
 # Import from existing teammates scraper
 import sys
@@ -19,7 +18,6 @@ from scrape_teammates import (
     get_teammates_url,
     get_total_pages,
     parse_teammates,
-    extract_player_id_from_profile,
     CACHE_DIR,
     ensure_dirs
 )
@@ -223,11 +221,11 @@ def main():
     print(f"  ✓ {len(profiles)} total profiles")
     print(f"  ✓ {len(candidates)} candidates")
     print(f"  ⏱️  Estimated time: ~{len(candidates) * RATE_LIMIT / 60:.0f} minutes")
-    print(f"\n  Note: This will take 8-10 hours due to comprehensive scraping")
-    print(f"  Each coach requires: 1 teammates page + 1 profile page")
+    print("\n  Note: This will take 8-10 hours due to comprehensive scraping")
+    print("  Each coach requires: 1 teammates page + 1 profile page")
 
     # Scrape
-    print(f"\n🔍 Scraping playing careers...")
+    print("\n🔍 Scraping playing careers...")
     results = []
     with_career = 0
     without_career = 0
@@ -282,7 +280,7 @@ def main():
             time.sleep(RATE_LIMIT)
 
     # Save
-    print(f"\n💾 Saving results...")
+    print("\n💾 Saving results...")
     output = {
         'generated_at': datetime.now().isoformat(),
         'total_scraped': len(results),

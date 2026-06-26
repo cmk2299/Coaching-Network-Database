@@ -93,7 +93,7 @@ def main():
             else:
                 skipped += 1
 
-    print(f"\nDone:")
+    print("\nDone:")
     print(f"  Updated with contract: {updated}")
     print(f"  No contract field:     {none}")
     print(f"  Skipped (no profile):  {skipped}")

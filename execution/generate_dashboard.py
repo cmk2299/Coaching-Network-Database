@@ -28,7 +28,6 @@ _dashboard_index = {}
 
 import sys as _sys
 _sys.path.insert(0, str(Path(__file__).parent))
-from lib.normalization import slugify as _slugify  # noqa: E402  canonical slug rule
 from lib.dashboard_index import (  # noqa: E402
     build_dashboard_index as _build_dashboard_index,
     build_dashboard_variants as _build_dashboard_variants,
@@ -159,14 +158,14 @@ def generate_dashboard(network: dict, output_path: Path, drilldown: dict = None,
         with open(drilldown_path, "w", encoding="utf-8") as f:
             f.write(drilldown_json)
 
-        new_drilldown_line = f"const DRILLDOWN = null;\n"
+        new_drilldown_line = "const DRILLDOWN = null;\n"
         new_drilldown_url_line = f"const DRILLDOWN_URL = '{slug}_drilldown.json';\n"
 
         print(f"  → Drilldown saved externally: {drilldown_path} ({drilldown_size / 1_000_000:.1f} MB)")
     else:
         # Keep inline
         new_drilldown_line = f"const DRILLDOWN = {drilldown_json};\n"
-        new_drilldown_url_line = f"const DRILLDOWN_URL = '';\n"
+        new_drilldown_url_line = "const DRILLDOWN_URL = '';\n"
 
     lines[network_line_idx] = new_network_line
     if drilldown_line_idx is not None:

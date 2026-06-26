@@ -14,12 +14,11 @@ Examples:
 - "Max Eberl präsentiert neuen Trainer Vincent Kompany"
 """
 
-import json
 import re
 import time
 from datetime import datetime
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List, Dict
 from urllib.parse import quote_plus
 
 import requests
@@ -225,7 +224,6 @@ def find_decision_makers_for_hire(coach_name: str, club_name: str, year: str = N
 
 
 if __name__ == "__main__":
-    import sys
 
     # Test cases from user examples
     test_cases = [

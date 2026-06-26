@@ -290,7 +290,7 @@ if __name__ == "__main__":
     result = get_all_decision_makers("Alexander Blessin", stations)
 
     print(f"\n{'='*60}")
-    print(f"Decision Makers for Alexander Blessin")
+    print("Decision Makers for Alexander Blessin")
     print(f"{'='*60}")
     print(f"Total: {result['total']}")
 

@@ -51,7 +51,7 @@ def main():
     args = parser.parse_args()
 
     sd_files = find_sd_files()
-    print(f"\n=== SD-Alias-Generation ===")
+    print("\n=== SD-Alias-Generation ===")
     print(f"Found {len(sd_files)} SD-Network HTMLs in {DASH}")
 
     created = 0
@@ -86,7 +86,7 @@ def main():
         if args.dry_run:
             print(f"  would copy: {sd.name} → {alias.name}")
             if alias_drill and not alias_drill.exists():
-                print(f"             + drilldown alias")
+                print("             + drilldown alias")
             created += 1
             continue
 

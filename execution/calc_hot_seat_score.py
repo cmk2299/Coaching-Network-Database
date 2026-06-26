@@ -435,18 +435,18 @@ def main():
     print(f"\n=== Hot-Seat-Score Summary (Saison {args.season}/{args.season+1}) ===")
     print(f"  Clubs analyzed: {matched}")
     print(f"  No head-coach in staff: {no_coach}")
-    print(f"  Status:")
+    print("  Status:")
     for status in ("critical", "hot-seat", "warm", "ruhig"):
         n = len(by_status.get(status, []))
         print(f"    {status:<10} {n}")
 
-    print(f"\n=== Top 12 Hot-Seats ===")
+    print("\n=== Top 12 Hot-Seats ===")
     for r in results[:12]:
         print(f"  {r['score']:>3}  {r['status']:<10} {r['league']:<3} #{(r['position'] or '?'):<2} "
               f"{r['coach_name']:<22} ({r['club_name']:<24}) "
               f"PPG={r['ppg']:.2f} winless={r['winless_streak']} GD={r['goal_diff']:+d}")
 
-    print(f"\n  → data/hot_seat_scores.json")
+    print("\n  → data/hot_seat_scores.json")
 
 
 if __name__ == "__main__":

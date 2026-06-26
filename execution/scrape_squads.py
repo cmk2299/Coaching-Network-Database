@@ -71,7 +71,7 @@ def fetch_page(url: str, cache_key: str, cache_days: int = 30) -> Optional[str]:
         return html
     except requests.exceptions.HTTPError as e:
         if e.response.status_code == 429:
-            print(f"    RATE LIMITED — waiting 60s...")
+            print("    RATE LIMITED — waiting 60s...")
             time.sleep(60)
             return fetch_page(url, cache_key, cache_days)  # Retry once
         print(f"    ERROR {e.response.status_code}: {url}")
@@ -461,7 +461,7 @@ def _refresh_single_club(club_tm_id: int):
     )
 
     if not html:
-        print(f"  FAILED to fetch staff page")
+        print("  FAILED to fetch staff page")
         return
 
     staff = parse_staff_page(html, club_tm_id, name)
@@ -820,7 +820,7 @@ def _save_index(index: dict):
     print(f"  Career transitions: {len(transitions)}")
 
     if transitions:
-        print(f"\n  Sample transitions:")
+        print("\n  Sample transitions:")
         for t in transitions[:10]:
             print(f"    {t['name']}: {t['from_role']} → {t['to_role']}")
 
@@ -831,11 +831,11 @@ def _print_summary(stats: dict, elapsed: float):
     print("PHASE 2 SUMMARY")
     print("=" * 60)
     print(f"Duration: {elapsed/60:.1f} min")
-    print(f"\nSquad pages:")
+    print("\nSquad pages:")
     print(f"  Scraped: {stats['done_squads']}")
     print(f"  Skipped (cached): {stats['skipped_squads']}")
     print(f"  Players found: {stats['total_players']}")
-    print(f"\nStaff pages:")
+    print("\nStaff pages:")
     print(f"  Scraped: {stats['done_staff']}")
     print(f"  Skipped (cached): {stats['skipped_staff']}")
     print(f"  Staff found: {stats['total_staff']}")

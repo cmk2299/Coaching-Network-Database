@@ -93,13 +93,13 @@ def main():
                     with_demo += 1
                     print(f"   ✅ Success! Demographics: Nat={profile.get('nationality', 'N/A')}, Age={profile.get('age', 'N/A')}")
                 else:
-                    print(f"   ⚠️  Scraped but no demographics")
+                    print("   ⚠️  Scraped but no demographics")
 
                 # Save updated profile
                 save_preloaded(name, profile)
                 success_count += 1
             else:
-                print(f"   ❌ Scraping failed")
+                print("   ❌ Scraping failed")
                 failed_count += 1
                 failed_coaches.append((name, "Scraping returned None"))
 

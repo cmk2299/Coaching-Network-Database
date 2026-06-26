@@ -167,7 +167,7 @@ def main():
         cohort["matched"] = sum(1 for g in cohort["graduates"] if g.get("tm_id"))
         fl_course["cohorts"][cohort_id] = cohort
 
-    print(f"\n=== LG 70 + LG 71 stats ===")
+    print("\n=== LG 70 + LG 71 stats ===")
     print(f"  Graduates added: {grads_total}")
     print(f"  Matched to tm_id: {matched_total} ({100*matched_total/grads_total:.0f}%)")
     if samples:
@@ -194,7 +194,7 @@ def main():
     sources.update([COHORT_70["source"], COHORT_71["source"]])
     lic["meta"]["sources"] = sorted(sources)
 
-    print(f"\n=== Grand totals across all courses ===")
+    print("\n=== Grand totals across all courses ===")
     print(f"  {grand_total} graduates, {grand_matched} matched ({100*grand_matched/grand_total:.0f}%)")
 
     if not args.dry_run:

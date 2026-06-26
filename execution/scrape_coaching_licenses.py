@@ -170,7 +170,7 @@ def load_persons_master():
     """Load persons_master and build a name→tm_id index for fast matching."""
     master_path = DATA_DIR / "persons_master.json"
     if not master_path.exists():
-        print(f"  ✗ persons_master.json not found")
+        print("  ✗ persons_master.json not found")
         return {}, {}
     with open(master_path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -256,7 +256,7 @@ def match_name_to_tm_id(name: str, name_index: dict) -> dict:
 def build_coaching_licenses():
     """Build the coaching_licenses.json file."""
     print("Building coaching_licenses.json...")
-    print(f"  Loading persons_master...")
+    print("  Loading persons_master...")
     persons, name_index = load_persons_master()
     print(f"  {len(persons)} persons loaded, {len(name_index)} name index entries")
 

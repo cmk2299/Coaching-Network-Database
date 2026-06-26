@@ -26,11 +26,10 @@ Endpoints:
 import sqlite3
 import json
 from pathlib import Path
-from typing import Optional, List
+from typing import Optional
 
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
 
 BASE = Path(__file__).parent.parent
 DB_PATH = BASE / "data" / "coaches.db"
@@ -481,7 +480,7 @@ def list_refreshable_clubs():
 
 if __name__ == "__main__":
     import uvicorn
-    print(f"\n  projectFIVE API starting...")
+    print("\n  projectFIVE API starting...")
     print(f"  Database: {DB_PATH}")
-    print(f"  Docs: http://localhost:8000/docs\n")
+    print("  Docs: http://localhost:8000/docs\n")
     uvicorn.run(app, host="0.0.0.0", port=8000)

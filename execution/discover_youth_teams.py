@@ -30,7 +30,6 @@ import argparse
 import json
 import re
 import time
-import sys
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -165,7 +164,7 @@ def main():
     }
     OUTPUT.write_text(json.dumps(out, ensure_ascii=False, indent=2))
 
-    print(f"\n=== Summary ===")
+    print("\n=== Summary ===")
     print(f"  Mother clubs scanned: {len(mother_clubs)}")
     print(f"  Sub-clubs discovered: {len(all_sub_clubs)}")
     for t, n in sorted(by_type.items()):

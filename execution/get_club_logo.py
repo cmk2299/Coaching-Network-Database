@@ -122,6 +122,6 @@ if __name__ == "__main__":
         else:
             print(f"✗ {club:25s} → NOT FOUND")
 
-    print(f"\n=== TESTING BY ID ===\n")
+    print("\n=== TESTING BY ID ===\n")
     print(f"Bayern (ID 27, size=header): {get_logo_by_id(27, 'header')}")
     print(f"St. Pauli (ID 35, size=tiny): {get_logo_by_id(35, 'tiny')}")

@@ -5,7 +5,6 @@ Scrapes coach profiles from Transfermarkt.de with proper rate limiting.
 """
 
 import json
-import os
 import re
 import time
 from datetime import datetime
@@ -95,9 +94,9 @@ def fetch_page(url: str, save_as: str = None) -> Optional[BeautifulSoup]:
 
     except requests.exceptions.HTTPError as e:
         if e.response.status_code == 404:
-            print(f"  ERROR: Page not found (404)")
+            print("  ERROR: Page not found (404)")
         elif e.response.status_code == 429:
-            print(f"  ERROR: Rate limited (429). Waiting 60 seconds...")
+            print("  ERROR: Rate limited (429). Waiting 60 seconds...")
             time.sleep(60)
             return fetch_page(url, save_as)  # Retry
         else:
@@ -301,7 +300,7 @@ def scrape_coach(name: str = None, url: str = None) -> Optional[dict]:
     ensure_dirs()
 
     print(f"\n{'=' * 50}")
-    print(f"Scraping Coach Profile")
+    print("Scraping Coach Profile")
     print(f"{'=' * 50}")
 
     # If URL provided, use it directly
@@ -349,7 +348,7 @@ def scrape_coach(name: str = None, url: str = None) -> Optional[dict]:
     save_cache(cache_key, profile)
 
     print(f"\n{'=' * 50}")
-    print(f"Profile scraped successfully!")
+    print("Profile scraped successfully!")
     print(f"Name: {profile.get('name', 'Unknown')}")
     print(f"Club: {profile.get('current_club', 'Unknown')}")
     print(f"Cache: {cache_key}.json")

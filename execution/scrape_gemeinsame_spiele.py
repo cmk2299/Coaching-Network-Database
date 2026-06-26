@@ -81,7 +81,7 @@ def fetch_page(url: str, cache_key: str = None):
         resp = requests.get(url, headers=get_headers(), timeout=30)
 
         if resp.status_code == 429:
-            print(f"  Rate limited — waiting 60s...")
+            print("  Rate limited — waiting 60s...")
             time.sleep(60)
             return fetch_page(url, cache_key)
 
@@ -192,12 +192,12 @@ def scrape_one_coach(coach: dict, min_matches: int = 0) -> dict:
     # Page 1
     soup = fetch_page(base_url, f"{player_id}_p1")
     if not soup:
-        print(f"  ✗ Failed to fetch page 1")
+        print("  ✗ Failed to fetch page 1")
         return _empty_result(coach)
 
     # Check if redirected to homepage (amateur player)
     if soup.find("div", class_="no-data-box") or not soup.find("table", class_="items"):
-        print(f"  ✗ No gemeinsameSpiele data (amateur/no data)")
+        print("  ✗ No gemeinsameSpiele data (amateur/no data)")
         return _empty_result(coach)
 
     total_pages = get_total_pages(soup)
@@ -373,7 +373,7 @@ def main():
         print(f"\n[{i}/{total}] {coach['name']}")
 
         if args.skip_existing and is_fresh(out_path):
-            print(f"  ↷ Skipping (fresh output exists)")
+            print("  ↷ Skipping (fresh output exists)")
             skipped += 1
             continue
 

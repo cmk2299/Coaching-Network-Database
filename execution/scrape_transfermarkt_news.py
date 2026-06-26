@@ -126,7 +126,7 @@ def search_transfermarkt_news(coach_name: str, club_name: str, start_date: str) 
                     print(f"    ✓ Found article: {title[:80]}...")
                     return full_url
 
-        print(f"    ✗ No matching article found")
+        print("    ✗ No matching article found")
         return None
 
     except Exception as e:
@@ -277,4 +277,4 @@ if __name__ == "__main__":
                 print(f"  - {hm['name']} ({hm['role']})")
             print(f"  Article: {result['article_url']}")
         else:
-            print(f"❌ No hiring managers found")
+            print("❌ No hiring managers found")

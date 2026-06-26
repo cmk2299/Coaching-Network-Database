@@ -25,7 +25,6 @@ import json
 import re
 import sys
 from pathlib import Path
-from bs4 import BeautifulSoup
 
 sys.path.insert(0, str(Path(__file__).parent))
 from scrape_person_profiles import parse_profile, build_master_file  # noqa

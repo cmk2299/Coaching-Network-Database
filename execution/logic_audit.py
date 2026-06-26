@@ -37,7 +37,7 @@ import json
 import re
 import sys
 import unicodedata
-from collections import Counter, defaultdict
+from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]

@@ -127,13 +127,13 @@ def main():
                             **staff,
                             'profile_scraped': True
                         })
-                        print(f"    ✓ Profile saved")
+                        print("    ✓ Profile saved")
                     else:
                         all_coaches.append({
                             **staff,
                             'profile_scraped': False
                         })
-                        print(f"    ⚠ Profile scraping failed")
+                        print("    ⚠ Profile scraping failed")
 
                 except Exception as e:
                     print(f"    ❌ Error: {e}")

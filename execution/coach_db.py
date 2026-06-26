@@ -17,9 +17,8 @@ Benefits:
 import sqlite3
 import re
 from pathlib import Path
-from datetime import datetime, timedelta
-from typing import Optional, Dict, List, Tuple
-import json
+from datetime import datetime
+from typing import Optional, List, Tuple
 
 # Database path
 BASE_DIR = Path(__file__).parent.parent

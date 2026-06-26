@@ -163,7 +163,7 @@ def main():
             time.sleep(0.15)  # be gentle
         summary[label] = (ok, bad, len(links))
 
-    print(f"\n  SPOTCHECK: " + " | ".join(
+    print("\n  SPOTCHECK: " + " | ".join(
         f"{k}: {v[0]}/{v[2]} ok" for k, v in summary.items()) +
         f"  — {total_problems} problem(s)")
     return 1 if total_problems else 0

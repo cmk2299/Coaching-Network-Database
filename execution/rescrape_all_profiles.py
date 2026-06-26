@@ -25,7 +25,7 @@ def main():
 
     print(f"\n📊 Found {total} profiles to re-scrape")
     print(f"⏱️  Estimated time: {total * DELAY_BETWEEN_COACHES / 60:.1f} minutes")
-    print(f"🗑️  Clearing cache first...\n")
+    print("🗑️  Clearing cache first...\n")
 
     # Clear cache to force re-scraping
     cache_files = list(CACHE_DIR.glob("coach_*_profile.json"))
@@ -76,13 +76,13 @@ def main():
                     with_career += 1
                     print(f"   ✅ Success! {career_count} career entries")
                 else:
-                    print(f"   ⚠️  Scraped but no career history")
+                    print("   ⚠️  Scraped but no career history")
 
                 # Save updated profile
                 save_preloaded(name, profile)
                 success_count += 1
             else:
-                print(f"   ❌ Scraping failed")
+                print("   ❌ Scraping failed")
                 failed_count += 1
                 failed_coaches.append((name, "Scraping returned None"))
 

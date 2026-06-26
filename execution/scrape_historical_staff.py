@@ -273,4 +273,4 @@ if __name__ == "__main__":
                 print(f"  - {hm['name']} ({hm['role']})")
                 print(f"    Tenure: {hm['tenure_at_hiring']}")
         else:
-            print(f"❌ No decision makers found")
+            print("❌ No decision makers found")

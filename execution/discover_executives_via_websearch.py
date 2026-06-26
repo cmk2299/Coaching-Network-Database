@@ -107,7 +107,7 @@ def main():
     # Generate search plan
     search_plan = create_search_plan()
 
-    print(f"📋 Generated search plan:")
+    print("📋 Generated search plan:")
     print(f"   - {len(PRIORITY_CLUBS)} priority clubs")
     print(f"   - {sum(len(roles) for roles in ROLE_SEARCHES.values())} role types")
     print(f"   - {len(PRIORITY_YEARS)} time periods")
@@ -120,7 +120,7 @@ def main():
         print(f"\n   Club: {task['club']}")
         print(f"   Role: {task['role']} ({task['category']})")
         print(f"   Year: {task['year']}")
-        print(f"   Queries:")
+        print("   Queries:")
         for q in task['queries'][:2]:
             print(f"     - {q}")
 

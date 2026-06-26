@@ -31,7 +31,6 @@ from __future__ import annotations
 import argparse
 import json
 import subprocess
-import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -229,13 +228,13 @@ def main():
         "build_failed": [{"tm_id": c["tm_id"], "name": c["name"]} for c in built_fail],
     }
     REPORT_PATH.write_text(json.dumps(report, indent=2, ensure_ascii=False))
-    print(f"\n=== Summary ===")
+    print("\n=== Summary ===")
     print(f"  Scraped: {len(scraped_ok)} ok, {len(scraped_fail)} failed")
     print(f"  Built:   {len(built_ok)} ok, {len(built_fail)} failed")
     print(f"  Report → {REPORT_PATH}")
 
     if built_ok:
-        print(f"\nNew networks added:")
+        print("\nNew networks added:")
         for c in built_ok:
             print(f"  + {c['name']} (tm_id={c['tm_id']}) — {c['club_name']}")
 

@@ -164,7 +164,7 @@ def fetch_page(url: str, save_as: str = None) -> Optional[BeautifulSoup]:
 
     except requests.exceptions.HTTPError as e:
         if e.response.status_code == 429:
-            print(f"  Rate limited. Waiting 60 seconds...")
+            print("  Rate limited. Waiting 60 seconds...")
             time.sleep(60)
             return fetch_page(url, save_as)
         print(f"  ERROR: HTTP {e.response.status_code}")
@@ -361,7 +361,7 @@ def scrape_players_used(coach_profile_url: str) -> Optional[dict]:
     ensure_dirs()
 
     print(f"\n{'=' * 50}")
-    print(f"Scraping Players Used")
+    print("Scraping Players Used")
     print(f"{'=' * 50}")
 
     # Build URL for stations page
@@ -407,7 +407,7 @@ def scrape_players_used(coach_profile_url: str) -> Optional[dict]:
     save_cache(cache_key, result)
 
     print(f"\n{'=' * 50}")
-    print(f"Stations scraped!")
+    print("Stations scraped!")
     print(f"Stations: {len(stations)} bei {unique_clubs} Vereinen")
     print(f"Total games: {total_games}")
     print(f"Total players used: {total_players}")

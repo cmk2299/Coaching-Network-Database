@@ -74,7 +74,7 @@ def main():
     if args.max > 0:
         missing = missing[:args.max]
 
-    print(f"\n=== NLZ-Profile-Backfill ===")
+    print("\n=== NLZ-Profile-Backfill ===")
     print(f"Targets: {len(missing)} NLZ-Trainer ohne persons_master profile")
     from collections import Counter
     cnt = Counter(t.get("tier", "?") for t in missing)
@@ -115,7 +115,7 @@ def main():
     print(f"\n  ✓ {success} scraped, {fail} failed in "
           f"{(time.time()-start)/60:.1f} min")
     print(f"  Log: {log_path}")
-    print(f"\nNext step: python3 execution/build_all_nlz_networks.py")
+    print("\nNext step: python3 execution/build_all_nlz_networks.py")
 
 
 if __name__ == "__main__":

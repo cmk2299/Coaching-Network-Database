@@ -193,7 +193,7 @@ def main():
     }, open(out, "w"), ensure_ascii=False, indent=2)
 
     print(f"✓ Hire history built — {len(per_dm)} DMs, {sum(len(d['hires']) for d in per_dm.values())} hires")
-    print(f"  Top-DMs by hire-count:")
+    print("  Top-DMs by hire-count:")
     top = sorted(per_dm.items(), key=lambda kv: -len(kv[1]["hires"]))[:10]
     for tm_id, d in top:
         print(f"    {d['name']:<28} {len(d['hires'])} hires (tier {d['tier']})")

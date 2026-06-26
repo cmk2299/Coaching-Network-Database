@@ -10,7 +10,6 @@ Reads blessin_full_network.json and for each contact with tm_url:
 
 import json
 import time
-import os
 import sys
 from pathlib import Path
 from typing import Dict, Optional, Any, Tuple
@@ -93,7 +92,7 @@ def extract_from_info_table(soup: BeautifulSoup, search_key: str) -> Optional[st
                 if search_key.lower() in label:
                     value = cells[1].get_text(strip=True)
                     return value if value else None
-    except Exception as e:
+    except Exception:
         pass
 
     return None
@@ -199,7 +198,7 @@ def parse_current_club(soup: BeautifulSoup) -> Optional[str]:
                     # Clean up extra whitespace
                     value = ' '.join(value.split())
                     return value if value and len(value) > 2 else None
-    except Exception as e:
+    except Exception:
         pass
 
     return None
@@ -227,7 +226,7 @@ def scrape_coach_profile(contact_name: str, tm_url: str, cache: Dict) -> Dict[st
     # Normalize URL
     normalized_url = normalize_url(tm_url)
     if not normalized_url:
-        print(f"    SKIP: Invalid URL", file=sys.stderr)
+        print("    SKIP: Invalid URL", file=sys.stderr)
         return result
 
     # Check cache
@@ -236,7 +235,7 @@ def scrape_coach_profile(contact_name: str, tm_url: str, cache: Dict) -> Dict[st
         return {**result, **cached}
 
     # Fetch page
-    print(f"    Fetching...", file=sys.stderr)
+    print("    Fetching...", file=sys.stderr)
     html = fetch_profile_page(normalized_url)
     if not html:
         return result
@@ -304,11 +303,11 @@ def main():
         if found:
             print(f"    Found: {', '.join(found)}")
         else:
-            print(f"    Found: (no fields)")
+            print("    Found: (no fields)")
 
         # Save intermediate results every 10 contacts
         if idx % 10 == 0:
-            print(f"  [Checkpoint] Saving intermediate results...")
+            print("  [Checkpoint] Saving intermediate results...")
             with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
                 json.dump(enrichment_results, f, indent=2, ensure_ascii=False)
             save_cache(cache)
@@ -329,7 +328,7 @@ def main():
     print(f"Cache: {CACHE_FILE}")
 
     # Update original network file
-    print(f"\nUpdating original network file...")
+    print("\nUpdating original network file...")
     for contact in contacts:
         name = contact.get('name')
         if name in enrichment_results:
@@ -355,7 +354,7 @@ def main():
         count = sum(1 for r in enrichment_results.values() if r.get(field))
         print(f"{field:20s}: {count:3d} / {len(contacts_with_url)}")
 
-    print(f"\nDone!")
+    print("\nDone!")
 
 
 if __name__ == "__main__":

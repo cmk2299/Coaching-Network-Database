@@ -12,7 +12,7 @@ Output: Player-Coach edges for network graph
 import json
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, List, Optional
+from typing import List, Optional
 import re
 from collections import defaultdict
 
@@ -272,7 +272,7 @@ def build_connections():
             continue
 
     # Save connections
-    print(f"\n💾 Saving connections...")
+    print("\n💾 Saving connections...")
     OUTPUT_FILE.write_text(json.dumps(connections, indent=2))
     print(f"   ✓ Saved to {OUTPUT_FILE}")
 
@@ -286,7 +286,7 @@ def build_connections():
     print(f"✓ Clubs Matched: {len(stats['clubs_matched'])}")
 
     # Top connections
-    print(f"\n🏆 Top Players by Coach Connections:")
+    print("\n🏆 Top Players by Coach Connections:")
     player_conn_counts = defaultdict(int)
     for conn in connections:
         player_conn_counts[conn["player_name"]] += 1
@@ -295,7 +295,7 @@ def build_connections():
     for i, (player, count) in enumerate(top_players, 1):
         print(f"   {i:2}. {player}: {count} connections")
 
-    print(f"\n🏆 Top Coaches by Player Connections:")
+    print("\n🏆 Top Coaches by Player Connections:")
     coach_conn_counts = defaultdict(int)
     for conn in connections:
         coach_conn_counts[conn["coach_name"]] += 1
@@ -305,7 +305,7 @@ def build_connections():
         print(f"   {i:2}. {coach}: {count} players")
 
     # Sample connections
-    print(f"\n📋 Sample Connections:")
+    print("\n📋 Sample Connections:")
     for conn in connections[:5]:
         seasons_str = ", ".join(conn["seasons"][:3])
         if len(conn["seasons"]) > 3:

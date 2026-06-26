@@ -25,7 +25,6 @@ NETWORKS_DIR = BASE / "data" / "networks"
 
 # Re-export the canonical slugify so this script stays a single source of truth
 sys.path.insert(0, str(Path(__file__).parent))
-from lib.normalization import slugify  # noqa: E402
 from lib.dashboard_index import build_dashboard_index  # noqa: E402  central slug index
 
 # TM portrait URLs encode tm_id: .../portrait/header/{tm_id}-{ts}.jpg
@@ -230,7 +229,7 @@ def regenerate_dashboard(html_path: Path, template_lines: list, dashboard_index:
         if drilldown_line_idx is not None:
             lines[drilldown_line_idx] = f"const DRILLDOWN = {drilldown_json};\n"
         if drilldown_url_line_idx is not None:
-            lines[drilldown_url_line_idx] = f"const DRILLDOWN_URL = '';\n"
+            lines[drilldown_url_line_idx] = "const DRILLDOWN_URL = '';\n"
 
     # Inject dashboard index + variants + center tm_id (Sprint G Phase 5 Cross-Drilldown)
     di_json = json.dumps(dashboard_index, ensure_ascii=False, separators=(',', ':'))

@@ -14,7 +14,7 @@ Usage:
   python3 execution/backfill_retiree_roles.py --ids-file /tmp/retiree_candidates.txt   # all
   python3 execution/backfill_retiree_roles.py --ids 3851 63022                          # specific
 """
-import sys, re, json, time, argparse, unicodedata
+import sys, re, json, argparse, unicodedata
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]

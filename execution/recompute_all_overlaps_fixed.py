@@ -12,8 +12,7 @@ from datetime import datetime
 from identify_coach_connections import (
     normalize_club_name,
     parse_period,
-    calculate_overlap_years,
-    merge_overlapping_periods
+    calculate_overlap_years
 )
 
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -295,7 +294,7 @@ def main():
     print("=" * 70)
     print(f"SD ↔ Coach: {len(sd_connections)} connections")
     print(f"Executive ↔ Coach: {len(exec_connections)} connections")
-    print(f"\nNext step: Update master_connections.json to use these fixed files")
+    print("\nNext step: Update master_connections.json to use these fixed files")
     print("=" * 70)
 
 if __name__ == "__main__":

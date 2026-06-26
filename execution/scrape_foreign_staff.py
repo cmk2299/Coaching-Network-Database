@@ -16,14 +16,14 @@ import argparse
 import json
 import time
 from pathlib import Path
-from typing import List, Dict, Set, Optional
+from typing import List, Set, Optional
 
 import sys
 sys.path.insert(0, str(Path(__file__).parent))
 
-from scrape_squads import fetch_page, parse_staff_page, STAFF_DIR, TM_BASE, CACHE_DIR
+from scrape_squads import fetch_page, parse_staff_page, STAFF_DIR, TM_BASE
 from build_coach_network import (
-    load_club_registry, preload_all_profiles, normalize_club,
+    load_club_registry, preload_all_profiles,
 )
 
 BASE = Path(__file__).parent.parent
@@ -202,7 +202,7 @@ def main():
             to_scrape.append(club)
 
     print(f"\n{'='*60}")
-    print(f"  Foreign Staff Scraper")
+    print("  Foreign Staff Scraper")
     print(f"  Total foreign clubs: {len(clubs_to_scrape)}")
     print(f"  Already scraped: {already}")
     print(f"  To scrape: {len(to_scrape)}")

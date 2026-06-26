@@ -383,7 +383,7 @@ def main() -> int:
     if args.max > 0:
         missing = missing[:args.max]
 
-    print(f"== Coachinside MISSING scraper ==")
+    print("== Coachinside MISSING scraper ==")
     print(f"  Targets: {len(missing)}  (filter={flt or 'none'})")
     if args.dry_run:
         print("  DRY RUN")
@@ -431,7 +431,7 @@ def main() -> int:
                 "reason": "no-trainer-candidates",
                 "candidates": [],
             })
-            print(f"    → no Trainer candidates")
+            print("    → no Trainer candidates")
             continue
 
         # 3. validate
@@ -498,7 +498,7 @@ def main() -> int:
     # via the diff-rerun + the build_coach_network pipeline.
 
     print()
-    print(f"== DONE ==")
+    print("== DONE ==")
     print(f"  Scraped:   {len(scraped)}")
     print(f"  Unmatched: {len(unmatched)}")
     print(f"  Errors:    {len(errors)}")

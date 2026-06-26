@@ -82,12 +82,12 @@ def migrate_decision_makers():
         coaches_processed.add(coach_name)
 
     print(f"\n{'='*60}")
-    print(f"Migration Summary:")
+    print("Migration Summary:")
     print(f"  Coaches processed: {len(coaches_processed)}")
     print(f"  Total relationships: {total_relationships}")
     print(f"  Sportdirektoren created: {total_relationships}")  # Approximate
-    print(f"\n⚠️  NOTE: Relationships not yet linked to coaches")
-    print(f"    Need to add tm_id to manual_decision_makers.json first")
+    print("\n⚠️  NOTE: Relationships not yet linked to coaches")
+    print("    Need to add tm_id to manual_decision_makers.json first")
     print(f"{'='*60}")
 
 if __name__ == "__main__":

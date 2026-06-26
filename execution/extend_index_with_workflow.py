@@ -153,7 +153,7 @@ def main() -> int:
     original = INDEX.read_text(encoding="utf-8")
     patched, changes = patch(original)
     if patched == original:
-        print(f"  → No changes (already patched).")
+        print("  → No changes (already patched).")
     else:
         INDEX.write_text(patched, encoding="utf-8")
         print(f"  ✓ Patched {INDEX.relative_to(BASE)}")

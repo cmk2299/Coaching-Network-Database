@@ -190,7 +190,7 @@ def calculate_graph_metrics(nodes, edges):
 
 def save_graph(nodes, edges, metadata):
     """Save network graph to JSON"""
-    print(f"\n💾 Saving network graph...")
+    print("\n💾 Saving network graph...")
 
     output = {
         'nodes': nodes,
@@ -225,10 +225,10 @@ def main():
     print("✅ NETWORK GRAPH CONSTRUCTION COMPLETE")
     print("=" * 70)
     print(f"Network Size: {metadata['total_nodes']} nodes, {metadata['total_edges']} edges")
-    print(f"\nNode Types:")
+    print("\nNode Types:")
     for node_type, count in metadata['node_types'].items():
         print(f"  - {node_type}: {count}")
-    print(f"\nEdge Types:")
+    print("\nEdge Types:")
     for edge_type, count in metadata['edge_types'].items():
         print(f"  - {edge_type}: {count}")
     print("\n" + "=" * 70)

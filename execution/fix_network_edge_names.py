@@ -5,7 +5,6 @@ Converts old edge names from lowercase_underscore to Proper Case format
 """
 
 import json
-import re
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -51,7 +50,7 @@ def main():
 
     # Create node name mapping
     node_map = {node['name']: node for node in nodes}
-    print(f"  ✓ Created node map")
+    print("  ✓ Created node map")
 
     # Fix edge names
     print("\n🔧 Fixing edge names...")
@@ -93,7 +92,7 @@ def main():
 
     if unfixable:
         print(f"  ⚠️  {len(unfixable)} names could not be matched")
-        print(f"\n  Sample unfixable names:")
+        print("\n  Sample unfixable names:")
         for item in unfixable[:10]:
             print(f"    {item['original']} → {item['normalized']} ({item['type']})")
 

@@ -394,7 +394,7 @@ def analyze_all_overlaps():
         )[:5]
     }
 
-    print(f"  ✓ Generated insights")
+    print("  ✓ Generated insights")
 
     # Save output
     print("\n[4/4] Saving results...")

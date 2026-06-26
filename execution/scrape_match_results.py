@@ -18,7 +18,6 @@ Usage:
 """
 import argparse
 import json
-import sys
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -203,7 +202,7 @@ def main():
         club_form.items(),
         key=lambda kv: (kv[1].get("last5_ppg", 0), -(kv[1].get("position") or 99))
     )
-    print(f"\nWorst recent form (last 5 PPG):")
+    print("\nWorst recent form (last 5 PPG):")
     for tid, c in sorted_clubs[:8]:
         pos = f"#{c['position']}" if c['position'] else "?"
         print(f"  {c['league']:<3}  {pos:<4}  {c['name']:<28}  PPG={c['last5_ppg']:.2f}  "

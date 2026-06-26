@@ -94,10 +94,10 @@ def main():
     manual_data["coverage"]["total_positions"] = total_positions
 
     # Save merged data
-    print(f"\n[3/3] Saving merged data...")
+    print("\n[3/3] Saving merged data...")
     save_json(MANUAL_FILE, manual_data)
 
-    print(f"\n✅ MERGE COMPLETE!")
+    print("\n✅ MERGE COMPLETE!")
     print(f"  Total executives: {len(current_executives)} → {len(all_executives)} (+{len(new_executives)})")
     print(f"  Total clubs: {manual_data['coverage']['total_clubs']}")
     print(f"  Total positions: {total_positions}")

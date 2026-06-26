@@ -19,7 +19,6 @@ Usage:
 """
 import argparse
 import json
-import sys
 import unicodedata
 from pathlib import Path
 from collections import defaultdict
@@ -243,7 +242,7 @@ def main():
         lic["meta"].get("sources", []) + ["dfb.de", "dfl.de", "kicker.de"]
     ))
 
-    print(f"\n=== Management Course Stats ===")
+    print("\n=== Management Course Stats ===")
     print(f"  Total grads: {total_grads}")
     print(f"  Matched: {matched}")
     if samples:
@@ -253,7 +252,7 @@ def main():
             mode = s[3] if len(s) > 3 else ""
             print(f"    LG {cid}: {nm:<30} → tm_id={tid} ({mode})")
 
-    print(f"\n=== Grand Totals (across all courses) ===")
+    print("\n=== Grand Totals (across all courses) ===")
     print(f"  {grand_total} graduates total, {grand_matched} matched ({100*grand_matched/grand_total:.0f}%)")
 
     if not args.dry_run:

@@ -187,7 +187,7 @@ def build_full_network():
 
         print(f"   ✓ Added {coach_coach_added:,} existing coach-coach edges")
     else:
-        print(f"   ⚠️  No existing network found, skipping coach-coach edges")
+        print("   ⚠️  No existing network found, skipping coach-coach edges")
 
     # Save nodes and edges
     print("\n💾 Saving network data...")
@@ -207,7 +207,7 @@ def build_full_network():
     coach_nodes = [n for n in nodes.values() if n["type"] == "coach"]
     player_nodes = [n for n in nodes.values() if n["type"] == "player"]
 
-    print(f"\n📊 Network Statistics:")
+    print("\n📊 Network Statistics:")
     print(f"   • Total Nodes: {len(nodes):,}")
     print(f"     - Coaches: {len(coach_nodes):,}")
     print(f"     - Players: {len(player_nodes):,}")
@@ -225,7 +225,7 @@ def build_full_network():
     print(f"   • Avg Connections per Node: {len(edges) * 2 / len(nodes):.1f}")
 
     # Top connected nodes
-    print(f"\n🏆 Top 10 Most Connected Nodes:")
+    print("\n🏆 Top 10 Most Connected Nodes:")
     node_connections = defaultdict(int)
     for edge in edges:
         node_connections[edge["source"]] += 1

@@ -6,7 +6,6 @@ Exports coach profiles to Google Sheets for projectFIVE.
 
 import json
 import os
-from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -157,7 +156,7 @@ def export_coach(
     Returns True if successful.
     """
     print(f"\n{'=' * 50}")
-    print(f"Exporting to Google Sheets")
+    print("Exporting to Google Sheets")
     print(f"{'=' * 50}")
 
     # Get sheet ID from env if not provided

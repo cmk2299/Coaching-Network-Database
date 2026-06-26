@@ -88,7 +88,7 @@ def filter_network(graph):
         role = node.get('current_role', 'Unknown')
         node_types[role] = node_types.get(role, 0) + 1
 
-    print(f"\n  📊 Decision Makers by Role:")
+    print("\n  📊 Decision Makers by Role:")
     for role, count in sorted(node_types.items(), key=lambda x: x[1], reverse=True)[:10]:
         print(f"    - {role}: {count}")
 
@@ -128,7 +128,7 @@ def calculate_metrics(nodes, edges):
 
 def save_filtered_graph(nodes, edges, metadata):
     """Save filtered network graph"""
-    print(f"\n💾 Saving decision makers network...")
+    print("\n💾 Saving decision makers network...")
 
     output = {
         'nodes': nodes,
@@ -143,7 +143,7 @@ def save_filtered_graph(nodes, edges, metadata):
 
 def export_to_gexf(nodes, edges):
     """Export to GEXF format"""
-    print(f"\n📊 Exporting to GEXF...")
+    print("\n📊 Exporting to GEXF...")
 
     import xml.etree.ElementTree as ET
     from xml.dom import minidom
@@ -214,7 +214,7 @@ def export_to_gexf(nodes, edges):
 
 def export_to_csv(nodes, edges):
     """Export to CSV"""
-    print(f"\n📊 Exporting to CSV...")
+    print("\n📊 Exporting to CSV...")
 
     import csv
 
@@ -283,7 +283,7 @@ def main():
     print(f"Graph Density: {metadata['graph_density']}")
     print(f"Avg Connections: {metadata['avg_connections_per_node']}")
 
-    print(f"\n📁 Output Files:")
+    print("\n📁 Output Files:")
     print(f"  - {DECISION_MAKERS_GRAPH_FILE.name}")
     print(f"  - {DECISION_MAKERS_GEXF_FILE.name}")
     print(f"  - {DECISION_MAKERS_CSV_NODES.name}")
@@ -291,7 +291,7 @@ def main():
 
     # Top connections
     top_edges = sorted(dm_edges, key=lambda x: x.get('strength', 0), reverse=True)[:10]
-    print(f"\n🔥 Top 10 Decision Maker Connections:")
+    print("\n🔥 Top 10 Decision Maker Connections:")
     for i, edge in enumerate(top_edges, 1):
         # Find node names
         source_node = next(n for n in dm_nodes if n['id'] == edge['source'])

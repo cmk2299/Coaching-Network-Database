@@ -106,7 +106,7 @@ def preload_single_coach(coach_name: str, force: bool = False) -> dict:
     if not force:
         existing = load_preloaded(coach_name)
         if existing:
-            log(f"  Using existing preloaded data (age: fresh)")
+            log("  Using existing preloaded data (age: fresh)")
             return existing
 
     result = {
@@ -121,10 +121,10 @@ def preload_single_coach(coach_name: str, force: bool = False) -> dict:
 
     try:
         # 1. Scrape profile
-        log(f"  [1/7] Scraping profile...")
+        log("  [1/7] Scraping profile...")
         profile = scrape_coach(name=coach_name)
         if not profile:
-            log(f"  ERROR: Could not find coach profile")
+            log("  ERROR: Could not find coach profile")
             return result
 
         result["profile"] = profile
@@ -132,17 +132,17 @@ def preload_single_coach(coach_name: str, force: bool = False) -> dict:
         coach_id = profile.get("coach_id")
 
         # 2. Scrape teammates
-        log(f"  [2/7] Scraping teammates...")
+        log("  [2/7] Scraping teammates...")
         teammates = scrape_teammates(coach_profile_url=coach_url) if coach_url else None
         result["teammates"] = teammates
 
         # 3. Scrape players used
-        log(f"  [3/7] Scraping players used...")
+        log("  [3/7] Scraping players used...")
         players_used = scrape_players_used(coach_profile_url=coach_url) if coach_url else None
         result["players_used"] = players_used
 
         # 4. Scrape players detail
-        log(f"  [4/7] Scraping players detail...")
+        log("  [4/7] Scraping players detail...")
         players_detail = scrape_players_for_coach_url(coach_url, top_n=None) if coach_url else None
         result["players_detail"] = players_detail
 
@@ -177,7 +177,7 @@ def preload_single_coach(coach_name: str, force: bool = False) -> dict:
             log(f"        Found: {coaches_found} coaches, {directors_found} directors")
 
         # 6. Scrape companions
-        log(f"  [6/7] Scraping companions...")
+        log("  [6/7] Scraping companions...")
         if players_used and players_used.get("stations") and coach_id:
             stations_for_companions = []
             for station in players_used["stations"]:
@@ -208,7 +208,7 @@ def preload_single_coach(coach_name: str, force: bool = False) -> dict:
                 result["companions"] = companions
 
         # 7. Enrich decision makers
-        log(f"  [7/7] Enriching decision makers...")
+        log("  [7/7] Enriching decision makers...")
         if stations_for_companions:  # Use same stations list
             try:
                 from enrich_decision_makers import get_all_decision_makers

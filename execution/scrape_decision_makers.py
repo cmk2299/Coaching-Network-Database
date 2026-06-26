@@ -8,10 +8,7 @@ Scrapes all key decision makers for each club a coach worked at:
 - Board Members (Aufsichtsrat)
 """
 
-import json
-import re
 import time
-from datetime import datetime
 from pathlib import Path
 from typing import Optional, List, Dict
 

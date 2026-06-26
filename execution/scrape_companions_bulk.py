@@ -4,7 +4,6 @@ Bulk scrape companions for ALL coaches in preload/ directory
 This will massively expand the network connections
 """
 
-import sys
 import time
 import json
 from pathlib import Path
@@ -70,13 +69,13 @@ def scrape_companions_for_all():
         try:
             coach_data = load_preloaded(coach_name)
             if not coach_data:
-                print(f"  ⚠ Failed to load profile")
+                print("  ⚠ Failed to load profile")
                 results['failed'] += 1
                 continue
 
             coach_url = coach_data.get('url', '')
             if not coach_url:
-                print(f"  ⚠ No URL found")
+                print("  ⚠ No URL found")
                 results['failed'] += 1
                 continue
 
@@ -111,7 +110,7 @@ def scrape_companions_for_all():
                     'management': total_management
                 })
             else:
-                print(f"  ⚠ No companions data returned")
+                print("  ⚠ No companions data returned")
                 results['failed'] += 1
 
         except Exception as e:

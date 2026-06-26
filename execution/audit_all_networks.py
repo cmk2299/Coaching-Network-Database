@@ -99,13 +99,13 @@ def main():
 
     flagged, cat_counter, total_bad = audit()
 
-    print(f"\n=== Audit Result ===")
+    print("\n=== Audit Result ===")
     print(f"Networks with stale contacts : {len(flagged)}")
     print(f"Total stale-role contacts    : {total_bad}")
     print(f"By category                  : {dict(cat_counter)}")
 
     if flagged:
-        print(f"\nTop 10 affected networks:")
+        print("\nTop 10 affected networks:")
         for net_id, bad in sorted(flagged, key=lambda x: -len(x[1]))[:10]:
             print(f"  {net_id}: {len(bad)} stale "
                   f"(e.g. {bad[0]['name']} '{bad[0]['current_role']}' "

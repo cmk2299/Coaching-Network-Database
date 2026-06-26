@@ -242,7 +242,7 @@ def search_and_extract_hiring_manager(coach_name: str, club_name: str, start_dat
             if managers:
                 break  # Found something, no need to continue
 
-        except Exception as e:
+        except Exception:
             print(f"  Search failed for query: {query[:50]}...")
             continue
 

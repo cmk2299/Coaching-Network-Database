@@ -303,7 +303,7 @@ def main():
             continue
 
         # Step 2: Scrape full SD profile
-        print(f"  Scraping profile...")
+        print("  Scraping profile...")
         data = scrape_sd_profile(sd_info["profile_url"])
         data["expected_club"] = club_name
         data["expected_role"] = sd_info["role"]

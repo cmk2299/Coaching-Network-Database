@@ -8,7 +8,6 @@ import json
 import re
 from pathlib import Path
 from datetime import datetime
-from collections import defaultdict
 
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -349,7 +348,7 @@ def main():
     print("✅ CONNECTION IDENTIFICATION COMPLETE")
     print("=" * 70)
     print(f"Total Connections: {len(connections)}")
-    print(f"\nBy Type:")
+    print("\nBy Type:")
     print(f"  - Manager ↔ Assistant: {output['connection_types']['manager_assistant']}")
     print(f"  - Head Coaches Together: {output['connection_types']['head_coach_together']}")
     print(f"  - Youth Colleagues: {output['connection_types']['youth_colleagues']}")
@@ -357,7 +356,7 @@ def main():
 
     # Top connections
     top_10 = sorted(connections, key=lambda x: x['relationship_strength'], reverse=True)[:10]
-    print(f"\n🔥 Top 10 Strongest Connections:")
+    print("\n🔥 Top 10 Strongest Connections:")
     for i, conn in enumerate(top_10, 1):
         print(f"  {i}. {conn['coach_a']} ↔ {conn['coach_b']}")
         print(f"     Strength: {conn['relationship_strength']} | Years: {conn['total_years']} | Clubs: {conn['total_clubs']}")

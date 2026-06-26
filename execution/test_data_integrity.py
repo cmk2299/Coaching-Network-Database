@@ -13,12 +13,10 @@ Usage:
 
 import argparse
 import json
-import os
 import sqlite3
 import sys
 import time
 from pathlib import Path
-from collections import Counter
 
 BASE = Path(__file__).parent.parent
 DATA = BASE / "data"
@@ -136,7 +134,7 @@ def test_referential_integrity():
     # PRAGMA check
     fk_violations = conn.execute("PRAGMA foreign_key_check").fetchall()
     check(len(fk_violations) == 0,
-          f"PRAGMA foreign_key_check: 0 violations",
+          "PRAGMA foreign_key_check: 0 violations",
           f"PRAGMA foreign_key_check: {len(fk_violations)} violations!")
 
     # Manual FK checks
@@ -340,7 +338,7 @@ def test_network_quality():
             issues += 1
 
     if issues == 0:
-        ok(f"All sampled networks pass quality checks")
+        ok("All sampled networks pass quality checks")
 
 
 # ═════════════════════════════════════════════════════════════════════
@@ -404,7 +402,7 @@ def main():
     args = parser.parse_args()
 
     print(f"\n{'='*60}")
-    print(f"  Data Integrity Test Suite")
+    print("  Data Integrity Test Suite")
     print(f"{'='*60}")
 
     t0 = time.time()

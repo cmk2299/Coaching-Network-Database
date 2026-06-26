@@ -36,7 +36,7 @@ def fetch_player_profile(url):
         response = requests.get(url, headers=HEADERS, timeout=30)
         response.raise_for_status()
         return BeautifulSoup(response.text, 'lxml')
-    except Exception as e:
+    except Exception:
         return None
 
 def parse_player_profile(soup, url):
@@ -150,7 +150,7 @@ def parse_player_profile(soup, url):
                                 "assists": assists
                             })
 
-                    except Exception as e:
+                    except Exception:
                         continue
 
     # Filter career to 2015+
@@ -180,7 +180,7 @@ def main():
     urls_file = PLAYERS_DIR / "players_master_urls.json"
     if not urls_file.exists():
         print(f"❌ ERROR: {urls_file} not found!")
-        print(f"   Run scrape_bundesliga_squads_2015_2026.py first!")
+        print("   Run scrape_bundesliga_squads_2015_2026.py first!")
         return
 
     with open(urls_file, encoding='utf-8') as f:
@@ -233,7 +233,7 @@ def main():
                     with_career += 1
                     print(f"   ✅ Success! {career_count} career entries (2015+)")
                 else:
-                    print(f"   ⚠️  Scraped but no career since 2015")
+                    print("   ⚠️  Scraped but no career since 2015")
 
                 # Save profile
                 safe_name = re.sub(r'[^\w\-]', '_', name.lower())
@@ -256,7 +256,7 @@ def main():
                         json.dump(checkpoint, f, indent=2)
 
             else:
-                print(f"   ❌ Scraping failed")
+                print("   ❌ Scraping failed")
                 failed_count += 1
                 failed_players.append((name, "Parse failed"))
 

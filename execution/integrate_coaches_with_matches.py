@@ -175,7 +175,7 @@ def parse_career_dates(period_str: str) -> Optional[Dict]:
             "end_str": end_str if end_str else "Present"
         }
 
-    except Exception as e:
+    except Exception:
         return None
 
 def match_overlaps_tenure(match_date_str: str, tenure_start: datetime, tenure_end: datetime) -> bool:
@@ -370,7 +370,7 @@ def integrate_coaches_with_matches():
         enriched_coaches.append(coach)
 
     # Save enriched data
-    print(f"\n💾 Saving enriched profiles...")
+    print("\n💾 Saving enriched profiles...")
     OUTPUT_FILE.write_text(json.dumps(enriched_coaches, indent=2))
     print(f"   ✓ Saved to {OUTPUT_FILE}")
 
@@ -384,11 +384,11 @@ def integrate_coaches_with_matches():
     if stats['total_tenures'] > 0:
         print(f"✓ Tenures with Matches: {stats['tenures_with_matches']:,} ({stats['tenures_with_matches']/stats['total_tenures']*100:.1f}%)")
     else:
-        print(f"✓ Tenures with Matches: 0 (N/A)")
+        print("✓ Tenures with Matches: 0 (N/A)")
     print(f"\n✓ Total Matches Linked: {stats['total_matches_linked']:,}")
 
     # Top coaches by matches
-    print(f"\n🏆 Top 10 Coaches by Matches Managed (2015-2026):")
+    print("\n🏆 Top 10 Coaches by Matches Managed (2015-2026):")
 
     coach_match_counts = []
     for coach in enriched_coaches:

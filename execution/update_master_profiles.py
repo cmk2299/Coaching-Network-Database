@@ -131,7 +131,7 @@ def main():
     print("✅ MASTER PROFILES UPDATED")
     print("=" * 70)
     print(f"Total profiles: {len(profiles)}")
-    print(f"All profiles now have node_type and node_subcategory fields")
+    print("All profiles now have node_type and node_subcategory fields")
     print("=" * 70)
 
 

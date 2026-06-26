@@ -49,7 +49,7 @@ def validate_node_types(network):
     else:
         print(f"  ✅ All {len(network['nodes'])} nodes have valid types")
 
-    print(f"\n  Distribution:")
+    print("\n  Distribution:")
     for node_type in sorted(type_counts.keys()):
         print(f"    {node_type:20s}: {type_counts[node_type]:4d}")
 

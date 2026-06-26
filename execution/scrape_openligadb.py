@@ -209,7 +209,7 @@ def scrape_all_matches():
     print("="*60)
     print(f"\n✓ Total Seasons Scraped: {stats['total_seasons']}")
     print(f"✓ Total Matches: {stats['total_matches']:,}")
-    print(f"\n📁 Output Files:")
+    print("\n📁 Output Files:")
     print(f"   • Combined: {combined_file}")
 
     for league_code, league_stats in stats["leagues"].items():
@@ -219,7 +219,7 @@ def scrape_all_matches():
     finished_matches = [m for m in all_matches if m.get("is_finished")]
     upcoming_matches = [m for m in all_matches if not m.get("is_finished")]
 
-    print(f"\n📈 Match Status:")
+    print("\n📈 Match Status:")
     print(f"   • Finished: {len(finished_matches):,}")
     print(f"   • Upcoming: {len(upcoming_matches):,}")
 

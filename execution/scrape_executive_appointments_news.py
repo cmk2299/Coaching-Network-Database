@@ -284,7 +284,7 @@ def main():
             appointments = search_appointments_for_club_role(club, role_category, role_keywords)
             all_appointments.extend(appointments)
 
-    print(f"\n[2/2] Saving results...")
+    print("\n[2/2] Saving results...")
 
     # Save results
     output_file = Path(__file__).parent.parent / "data" / "executive_appointments_historical.json"
@@ -302,7 +302,7 @@ def main():
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2, ensure_ascii=False)
 
-    print(f"\n✅ COMPLETE!")
+    print("\n✅ COMPLETE!")
     print(f"📁 Saved to: {output_file}")
     print(f"📊 Found {len(all_appointments)} potential appointments")
     print()

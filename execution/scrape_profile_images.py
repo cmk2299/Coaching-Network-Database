@@ -169,14 +169,14 @@ def main():
         img = get_tm_image(center_url, center_name)
         if img:
             images[center_name] = img
-            print(f"  ✓ TM image found")
+            print("  ✓ TM image found")
         else:
             img = get_wikipedia_image(center_name)
             if img:
                 images[center_name] = img
-                print(f"  ✓ Wikipedia image found")
+                print("  ✓ Wikipedia image found")
             else:
-                print(f"  ✗ No image found")
+                print("  ✗ No image found")
         time.sleep(DELAY)
 
     # Process contacts
@@ -199,16 +199,16 @@ def main():
         if img:
             images[name] = img
             found += 1
-            print(f"✓ TM")
+            print("✓ TM")
         else:
             # Try Wikipedia
             img = get_wikipedia_image(name)
             if img:
                 images[name] = img
                 found += 1
-                print(f"✓ Wikipedia")
+                print("✓ Wikipedia")
             else:
-                print(f"✗")
+                print("✗")
 
         # Save incrementally
         if (i + 1) % 10 == 0:

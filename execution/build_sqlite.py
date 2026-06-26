@@ -16,7 +16,6 @@ Output:
 
 import argparse
 import json
-import os
 import re
 import sqlite3
 import time
@@ -28,7 +27,6 @@ sys.path.insert(0, str(Path(__file__).parent))
 from build_coach_network import (
     normalize_club, classify_role, classify_staff_section,
     parse_season_from_date, load_club_registry,
-    CLUB_NAME_NORMALIZE,
 )
 
 BASE = Path(__file__).parent.parent

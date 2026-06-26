@@ -118,7 +118,7 @@ def main():
         edge_types[edge_type] = edge_types.get(edge_type, 0) + 1
 
     # Save updated network
-    print(f"\n💾 Saving updated network...")
+    print("\n💾 Saving updated network...")
     output_file = DATA_DIR / "network_graph_with_teammates.json"
     with open(output_file, 'w') as f:
         json.dump(network, f, indent=2, ensure_ascii=False)
@@ -137,7 +137,7 @@ def main():
     print("=" * 70)
     print(f"Total nodes: {len(network['nodes'])}")
     print(f"Total edges: {len(network['edges'])}")
-    print(f"\nEdge types:")
+    print("\nEdge types:")
     for edge_type, count in sorted(edge_types.items(), key=lambda x: x[1], reverse=True):
         print(f"  {edge_type}: {count}")
     print("=" * 70)

@@ -104,7 +104,7 @@ def run_build(tm_id: int, name: str, log_handle) -> tuple[bool, str]:
 
         net_file = NETS / f"{tm_id}.json"
         if not net_file.exists():
-            log_handle.write(f"    network file missing after build\n")
+            log_handle.write("    network file missing after build\n")
             return False, "build-no-output"
 
         r2 = subprocess.run(
@@ -155,7 +155,7 @@ def main() -> int:
     if args.max > 0:
         targets = targets[:args.max]
 
-    print(f"== Coachinside Networks Builder ==")
+    print("== Coachinside Networks Builder ==")
     print(f"  Targets: {len(targets)}  (filter={flt or 'none'})")
     if args.dry_run:
         print("  DRY RUN — first 10:")

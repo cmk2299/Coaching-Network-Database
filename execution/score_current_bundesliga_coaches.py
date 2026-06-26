@@ -12,7 +12,6 @@ Output: Ranked list of coaches with scores and key connections
 
 import json
 from pathlib import Path
-from collections import defaultdict
 from datetime import datetime
 
 # Paths
@@ -343,7 +342,7 @@ def score_bundesliga_coaches():
     # Detailed view of #1 coach
     if scored_coaches:
         top_coach = scored_coaches[0]
-        print(f"\n" + "="*60)
+        print("\n" + "="*60)
         print(f"TOP COACH: {top_coach['name']}")
         print("="*60)
         print(f"Club: {top_coach['current_club']}")

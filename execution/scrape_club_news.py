@@ -8,7 +8,7 @@ import json
 import re
 import time
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Dict, List, Optional
 from bs4 import BeautifulSoup
 import requests
@@ -360,15 +360,15 @@ if __name__ == "__main__":
 
     # Test 1: Blessin at St. Pauli (2024)
     result1 = scrape_coach_announcement("FC St. Pauli", "Alexander Blessin", year=2024)
-    print(f"\nResult for Blessin at St. Pauli:")
+    print("\nResult for Blessin at St. Pauli:")
     print(json.dumps(result1, indent=2, ensure_ascii=False))
 
     # Test 2: Blessin at Genua (2022)
     result2 = scrape_coach_announcement("Genua CFC", "Alexander Blessin", year=2022)
-    print(f"\nResult for Blessin at Genua:")
+    print("\nResult for Blessin at Genua:")
     print(json.dumps(result2, indent=2, ensure_ascii=False))
 
     # Test 3: Riera at Eintracht Frankfurt (2024)
     result3 = scrape_coach_announcement("Eintracht Frankfurt", "Albert Riera", year=2024)
-    print(f"\nResult for Riera at Frankfurt:")
+    print("\nResult for Riera at Frankfurt:")
     print(json.dumps(result3, indent=2, ensure_ascii=False))

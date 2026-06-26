@@ -164,7 +164,7 @@ def main():
     if args.dry_run:
         # Sample
         sample = list(legacy_aliases.items())[:8]
-        print(f"\nDRY-RUN — sample alias mappings:")
+        print("\nDRY-RUN — sample alias mappings:")
         for old, new in sample:
             print(f"  {old:>10} → {new}")
         print(f"\nTotal new keys (with legacy aliases): {len(new_persons):,}")

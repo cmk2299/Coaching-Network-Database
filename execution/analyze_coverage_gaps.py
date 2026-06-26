@@ -22,7 +22,7 @@ import re
 import time
 from pathlib import Path
 from collections import defaultdict, Counter
-from typing import Dict, Set, List, Tuple, Optional
+from typing import Dict, Set, Tuple, Optional
 
 # ── Paths ──────────────────────────────────────────────────────────────
 BASE = Path(__file__).parent.parent
@@ -342,7 +342,7 @@ def main():
         bl_coach_career_clubs.update(person_clubs.get(coach_id, set()))
 
     print(f"\n{'─' * 70}")
-    print(f"  COVERAGE SUMMARY")
+    print("  COVERAGE SUMMARY")
     print(f"{'─' * 70}")
     print(f"  Total unique clubs in career data:  {len(all_career_ids):>6,}")
     print(f"  Clubs in registry:                  {len(covered_ids):>6,}  ({100*len(covered_ids)/len(all_career_ids):.1f}%)")
@@ -374,7 +374,7 @@ def main():
                 "seasons": sorted(info["seasons_seen"]) if info["seasons_seen"] else [],
             }
 
-    print(f"\n  Classification breakdown:")
+    print("\n  Classification breakdown:")
     for cat, count in category_counts.most_common():
         print(f"    {cat:25s}: {count:>5,}")
 
@@ -397,7 +397,7 @@ def main():
     league_groups = build_league_groups(missing_clubs, bl_coach_career_clubs)
 
     print(f"\n{'─' * 70}")
-    print(f"  MISSING CLUBS BY CATEGORY/REGION")
+    print("  MISSING CLUBS BY CATEGORY/REGION")
     print(f"{'─' * 70}")
     sorted_groups = sorted(league_groups.items(),
                             key=lambda x: x[1]["total_person_refs"], reverse=True)
@@ -409,7 +409,7 @@ def main():
 
     # ── BL Coach specific gaps ─────────────────────────────────────────
     print(f"\n{'─' * 70}")
-    print(f"  BL COACH CAREER GAPS (clubs in their careers with no staff data)")
+    print("  BL COACH CAREER GAPS (clubs in their careers with no staff data)")
     print(f"{'─' * 70}")
 
     for coach_id in sorted(bl_coaches):
@@ -464,11 +464,11 @@ def main():
 
     print(f"\n  ✓ Results saved to {output_path}")
     print(f"\n{'=' * 70}")
-    print(f"  NEXT STEPS:")
-    print(f"  1. Review top missing clubs — identify P0 leagues to add")
-    print(f"  2. Run: python execution/scrape_foreign_staff.py --all-bl-coaches")
-    print(f"  3. Add P0 leagues to registry, scrape staff/squads")
-    print(f"  4. Regenerate dashboards and measure improvement")
+    print("  NEXT STEPS:")
+    print("  1. Review top missing clubs — identify P0 leagues to add")
+    print("  2. Run: python execution/scrape_foreign_staff.py --all-bl-coaches")
+    print("  3. Add P0 leagues to registry, scrape staff/squads")
+    print("  4. Regenerate dashboards and measure improvement")
     print(f"{'=' * 70}")
 
 

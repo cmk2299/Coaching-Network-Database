@@ -18,7 +18,6 @@ Usage:
 import argparse
 import json
 import subprocess
-import sys
 import time
 from pathlib import Path
 
@@ -90,7 +89,7 @@ def run_build(tm_id: int, name: str, log_handle) -> bool:
             return False
         net_file = NETS / f"{tm_id}.json"
         if not net_file.exists():
-            log_handle.write(f"    network file missing after build\n")
+            log_handle.write("    network file missing after build\n")
             return False
         r2 = subprocess.run(
             ["python3", "execution/generate_dashboard.py", "--network", str(net_file)],
@@ -136,7 +135,7 @@ def main():
         print(f"  {r:<22} {n}")
 
     if args.dry_run:
-        print(f"\n  (dry-run — first 8 targets:)")
+        print("\n  (dry-run — first 8 targets:)")
         for t in targets[:8]:
             print(f"    {t['name']:<28} ({t['tm_id']}) [{t['role']}] @ {t['club']}")
         return

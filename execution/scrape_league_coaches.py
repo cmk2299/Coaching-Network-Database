@@ -5,7 +5,6 @@ Fetches live data from Transfermarkt.
 """
 
 import json
-import os
 import re
 import time
 from datetime import datetime, timedelta
@@ -176,7 +175,7 @@ def scrape_bundesliga_coaches(force_refresh: bool = False) -> dict:
             coaches[club_name] = coach_info
             print(f"  ✓ Coach: {coach_info.get('coach_name', 'Unknown')}")
         else:
-            print(f"  ✗ Could not find coach")
+            print("  ✗ Could not find coach")
 
     # Save to cache
     result = {

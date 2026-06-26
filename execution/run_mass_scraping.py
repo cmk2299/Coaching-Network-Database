@@ -14,7 +14,6 @@ import sys
 import time
 import os
 from datetime import datetime
-import json
 
 # Ensure we're in the right directory
 os.chdir("/Users/cmk/Documents/Football Coaches DB")
@@ -87,8 +86,8 @@ def main():
     overall_start = time.time()
 
     log("🚀 STARTING MASS SCRAPING - 3 PHASES")
-    log(f"Expected duration: 8-12 hours")
-    log(f"Expected results: ~17,000 data points")
+    log("Expected duration: 8-12 hours")
+    log("Expected results: ~17,000 data points")
     log(f"Start time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
     # Phase 1: Bundesliga Staff

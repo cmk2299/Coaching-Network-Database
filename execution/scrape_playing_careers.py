@@ -14,7 +14,6 @@ Usage:
 import json
 import time
 import re
-import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
@@ -314,7 +313,7 @@ def main():
         # Step 1: Find player ID (different from trainer ID on TM!)
         player_id = find_player_id(tm_id)
         if player_id is None:
-            print(f"  → Kein Spieler-Link auf Trainer-Seite (kein Profi)")
+            print("  → Kein Spieler-Link auf Trainer-Seite (kein Profi)")
             if profile_path.exists():
                 with open(profile_path) as f:
                     profile = json.load(f)
@@ -333,7 +332,7 @@ def main():
         html = fetch_page(url, cache_key)
 
         if not html:
-            print(f"  → Keine Spieler-Seite (kein Profi)")
+            print("  → Keine Spieler-Seite (kein Profi)")
             # Save empty playing_career to avoid re-checking
             if profile_path.exists():
                 with open(profile_path) as f:
@@ -346,7 +345,7 @@ def main():
             continue
 
         if args.dry_run:
-            print(f"  → HAT Spieler-Seite")
+            print("  → HAT Spieler-Seite")
             results["has_player_page"] += 1
             continue
 
@@ -384,7 +383,7 @@ def main():
 
     print()
     print("=" * 60)
-    print(f"Results:")
+    print("Results:")
     print(f"  Spieler-Seite vorhanden: {results['has_player_page']}")
     print(f"  Kein Profi-Spieler:      {results['no_player_page']}")
     print(f"  Total Karriere-Stationen: {results['total_stations']}")

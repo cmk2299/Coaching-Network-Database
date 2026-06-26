@@ -17,7 +17,6 @@ Usage:
 """
 
 import json
-import os
 import re
 import sys
 import time
@@ -252,7 +251,7 @@ def main():
             html = fetch_spieler_page(sid, slug)
 
         if not html:
-            print(f"  → Failed to fetch")
+            print("  → Failed to fetch")
             failed += 1
             continue
 
@@ -263,12 +262,12 @@ def main():
             if patch_profile(tid, career):
                 patched += 1
             else:
-                print(f"  → Failed to patch profile")
+                print("  → Failed to patch profile")
                 failed += 1
         else:
             # Mark as checked (empty playing career — maybe amateur)
             patch_profile(tid, [])
-            print(f"  → Empty career (amateur/no data)")
+            print("  → Empty career (amateur/no data)")
 
     print(f"\nDone: {patched} patched, {failed} failed, {already_cached} from cache")
 

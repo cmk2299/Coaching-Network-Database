@@ -10,7 +10,7 @@ Usage:
   python3 execution/expand_all_networks.py --only 10463 1982
 """
 from __future__ import annotations
-import argparse, json, sys, time, traceback
+import argparse, json, sys, time
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parents[1]
@@ -39,7 +39,7 @@ def main():
     if args.only:
         todo = [t for t in todo if t["tm_id"] in args.only]
 
-    print(f"Loading profiles...")
+    print("Loading profiles...")
     profiles = preload_all_profiles()
     idx = build_profile_index(profiles)
     print(f"  {len(profiles)} profiles loaded")

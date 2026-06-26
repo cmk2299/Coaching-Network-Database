@@ -28,7 +28,7 @@ import json
 import re
 import sys
 from pathlib import Path
-from typing import Dict, List, Set, Tuple
+from typing import Dict, List, Tuple
 
 # Canonical slug rule for dashboard cross-links
 sys.path.insert(0, str(Path(__file__).parent))
@@ -248,7 +248,7 @@ def escape_html(text: str) -> str:
 def render_club_index(clubs: List[Tuple[int, dict]]) -> str:
     """Render the clubs.html index page."""
     html_parts = []
-    html_parts.append(f"""<!DOCTYPE html>
+    html_parts.append("""<!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="UTF-8">
@@ -258,7 +258,7 @@ def render_club_index(clubs: List[Tuple[int, dict]]) -> str:
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 /* Fallback tokens — also defined in /assets/tokens.css */
-:root{{
+:root{
   --bg:#0a0a0e;--surface-1:#111318;--surface-2:#1a1d24;
   --surface:var(--surface-1);--surface-h:var(--surface-2);
   --border:rgba(255,255,255,.08);--accent:#F40009;--accent-glow:rgba(244,0,9,.12);
@@ -266,62 +266,62 @@ def render_club_index(clubs: List[Tuple[int, dict]]) -> str:
   --radius-sm:3px;--radius-md:6px;
   --font-sans:'IBM Plex Sans',system-ui,sans-serif;
   --font-mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
-}}
-*{{margin:0;padding:0;box-sizing:border-box}}
-html{{font-size:15px}}
-body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webkit-font-smoothing:antialiased}}
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{font-size:15px}
+body{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webkit-font-smoothing:antialiased}
 
-.hdr{{padding:28px 40px;border-bottom:1px solid var(--border)}}
-.hdr h1{{font-size:20px;font-weight:600;letter-spacing:-.5px}}
-.hdr p{{font-size:13px;color:var(--text-3);margin-top:6px}}
+.hdr{padding:28px 40px;border-bottom:1px solid var(--border)}
+.hdr h1{font-size:20px;font-weight:600;letter-spacing:-.5px}
+.hdr p{font-size:13px;color:var(--text-3);margin-top:6px}
 
-.nav{{padding:16px 40px;border-bottom:1px solid var(--border);display:flex;gap:16px;align-items:center}}
-.nav a{{font-size:13px;color:var(--accent);text-decoration:none;transition:color .15s;padding:6px 0}}
-.nav a:hover{{color:#fff}}
+.nav{padding:16px 40px;border-bottom:1px solid var(--border);display:flex;gap:16px;align-items:center}
+.nav a{font-size:13px;color:var(--accent);text-decoration:none;transition:color .15s;padding:6px 0}
+.nav a:hover{color:#fff}
 
-.search-wrap{{padding:20px 40px 0}}
-.search{{
+.search-wrap{padding:20px 40px 0}
+.search{
   width:100%;max-width:360px;padding:10px 14px;
   background:var(--surface);border:1px solid var(--border);
   color:var(--text);font:inherit;font-size:13px;border-radius:6px;
   outline:none;transition:border-color .15s;
-}}
-.search:focus{{border-color:var(--accent)}}
+}
+.search:focus{border-color:var(--accent)}
 
-.league-section{{padding:28px 40px 0}}
-.league-hdr{{
+.league-section{padding:28px 40px 0}
+.league-hdr{
   display:flex;align-items:center;gap:12px;margin-bottom:16px;padding-bottom:12px;
-}}
-.league-title{{font-size:13px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:1px}}
-.league-count{{font-size:12px;color:var(--text-3)}}
-.league-line{{flex:1;height:1px;background:var(--border)}}
+}
+.league-title{font-size:13px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:1px}
+.league-count{font-size:12px;color:var(--text-3)}
+.league-line{flex:1;height:1px;background:var(--border)}
 
-.clubs-table{{width:100%}}
-.club-row{{
+.clubs-table{width:100%}
+.club-row{
   display:grid;grid-template-columns:1fr 120px 100px 1fr 40px;
   align-items:center;gap:16px;
   padding:14px;border-bottom:1px solid var(--border);
   text-decoration:none;color:var(--text);
   transition:background .1s;
-}}
-.club-row:hover{{background:var(--surface-h)}}
-.club-name{{font-weight:500;font-size:14px}}
-.club-league{{
+}
+.club-row:hover{background:var(--surface-h)}
+.club-name{font-weight:500;font-size:14px}
+.club-league{
   font-size:11px;padding:4px 8px;border-radius:3px;
   background:var(--surface);color:var(--text-3);
   text-transform:uppercase;letter-spacing:.5px;white-space:nowrap;
-}}
-.club-stat{{font-size:12px;color:var(--text-2);text-align:right}}
-.club-go{{font-size:16px;color:var(--text-3);text-align:center;transition:color .15s}}
-.club-row:hover .club-go{{color:var(--accent)}}
+}
+.club-stat{font-size:12px;color:var(--text-2);text-align:right}
+.club-go{font-size:16px;color:var(--text-3);text-align:center;transition:color .15s}
+.club-row:hover .club-go{color:var(--accent)}
 
-.ftr{{padding:20px 40px;margin-top:32px;border-top:1px solid var(--border);font-size:11px;color:var(--text-3)}}
+.ftr{padding:20px 40px;margin-top:32px;border-top:1px solid var(--border);font-size:11px;color:var(--text-3)}
 
-@media(max-width:768px){{
-  .hdr,.nav,.search-wrap,.league-section,.ftr{{padding-left:16px;padding-right:16px}}
-  .club-row{{grid-template-columns:1fr 40px;gap:8px}}
-  .club-league,.club-stat{{display:none}}
-}}
+@media(max-width:768px){
+  .hdr,.nav,.search-wrap,.league-section,.ftr{padding-left:16px;padding-right:16px}
+  .club-row{grid-template-columns:1fr 40px;gap:8px}
+  .club-league,.club-stat{display:none}
+}
 </style>
 </head>
 <body>
@@ -552,7 +552,7 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
 
     # Trainerstab section
     if grouped_staff:
-        html_parts.append(f"""
+        html_parts.append("""
 <div class="section">
   <div class="section-title">Trainerstab & Management</div>
 """)

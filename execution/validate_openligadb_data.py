@@ -6,7 +6,6 @@ Validate OpenLigaDB data quality and generate statistics.
 import json
 from pathlib import Path
 from collections import Counter, defaultdict
-from datetime import datetime
 
 DATA_DIR = Path("data/openligadb")
 
@@ -30,7 +29,7 @@ def analyze_data_quality(matches):
     print(f"   • Upcoming: {upcoming:,} ({upcoming/total*100:.1f}%)")
 
     # Completeness checks
-    print(f"\n📋 Data Completeness (Finished Matches):")
+    print("\n📋 Data Completeness (Finished Matches):")
 
     finished_matches = [m for m in matches if m.get("is_finished")]
 
@@ -52,21 +51,21 @@ def analyze_data_quality(matches):
     print(f"   • Total Goals Logged: {total_goals:,}")
 
     # League breakdown
-    print(f"\n🏆 League Breakdown:")
+    print("\n🏆 League Breakdown:")
     league_counts = Counter(m.get("league") for m in matches)
     for league, count in sorted(league_counts.items()):
         league_name = "1. Bundesliga" if league == "bl1" else "2. Bundesliga"
         print(f"   • {league_name}: {count:,} matches")
 
     # Season breakdown
-    print(f"\n📅 Season Breakdown:")
+    print("\n📅 Season Breakdown:")
     season_counts = Counter(m.get("season") for m in matches)
     for season in sorted(season_counts.keys()):
         count = season_counts[season]
         print(f"   • {season}/{season+1}: {count:,} matches")
 
     # Team statistics
-    print(f"\n⚽ Team Statistics:")
+    print("\n⚽ Team Statistics:")
     team_counts = defaultdict(int)
     for match in matches:
         if match.get("team_home"):
@@ -75,12 +74,12 @@ def analyze_data_quality(matches):
             team_counts[match["team_away"]["name"]] += 1
 
     print(f"   • Unique Teams: {len(team_counts)}")
-    print(f"   • Top 5 Most Active Teams:")
+    print("   • Top 5 Most Active Teams:")
     for team, count in Counter(team_counts).most_common(5):
         print(f"     - {team}: {count:,} matches")
 
     # Goal statistics (finished matches only)
-    print(f"\n🥅 Goal Statistics (Finished Matches):")
+    print("\n🥅 Goal Statistics (Finished Matches):")
     goals_per_match = []
     home_goals = []
     away_goals = []
@@ -104,7 +103,7 @@ def analyze_data_quality(matches):
         print(f"   • Home Win Ratio: {sum(1 for h, a in zip(home_goals, away_goals) if h > a) / len(home_goals) * 100:.1f}%")
 
     # Data quality score
-    print(f"\n📈 Data Quality Score:")
+    print("\n📈 Data Quality Score:")
 
     quality_scores = {
         "Matches Retrieved": 100.0,  # We have all matches
@@ -136,7 +135,7 @@ def analyze_data_quality(matches):
     print(f"(Grade {grade}) {emoji}")
 
     # Sample matches
-    print(f"\n📋 Sample Recent Matches:")
+    print("\n📋 Sample Recent Matches:")
     recent = sorted(
         [m for m in finished_matches if m.get("date")],
         key=lambda x: x["date"],

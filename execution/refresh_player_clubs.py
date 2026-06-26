@@ -22,7 +22,6 @@ BASE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(BASE / "execution"))
 
 import scrape_person_profiles as SPP
-from bs4 import BeautifulSoup
 
 # Disable SPP's fixed internal sleep — we apply our OWN randomized delay instead
 # (fixed intervals are a detectable pattern; community-confirmed block trigger).

@@ -137,11 +137,11 @@ def main():
     print("FILTER SUMMARY")
     print("=" * 70)
 
-    print(f"\nOriginal Network:")
+    print("\nOriginal Network:")
     print(f"  • Nodes: {len(network['nodes'])}")
     print(f"  • Edges: {len(network['edges'])}")
 
-    print(f"\nFiltered Networks Created:")
+    print("\nFiltered Networks Created:")
     for result in results:
         print(f"\n  {result['name']}:")
         print(f"    Description: {result['description']}")

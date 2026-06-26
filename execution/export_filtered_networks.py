@@ -17,7 +17,7 @@ DATA_DIR = PROJECT_ROOT / "data"
 
 def export_to_gexf(graph, output_file, filter_name="full"):
     """Export to GEXF format for Gephi"""
-    print(f"  📊 Exporting to GEXF...")
+    print("  📊 Exporting to GEXF...")
 
     # Create root
     gexf = ET.Element('gexf', {
@@ -98,7 +98,7 @@ def export_to_gexf(graph, output_file, filter_name="full"):
 
 def export_to_d3(graph, output_file, filter_name="full"):
     """Export to D3.js format"""
-    print(f"  📊 Exporting to D3.js...")
+    print("  📊 Exporting to D3.js...")
 
     d3_graph = {
         'nodes': [],
@@ -133,7 +133,7 @@ def export_to_d3(graph, output_file, filter_name="full"):
 
 def export_to_csv(graph, nodes_file, edges_file, filter_name="full"):
     """Export to CSV format"""
-    print(f"  📊 Exporting to CSV...")
+    print("  📊 Exporting to CSV...")
 
     # Export nodes
     with open(nodes_file, 'w', newline='', encoding='utf-8') as f:

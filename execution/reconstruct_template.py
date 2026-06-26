@@ -23,7 +23,6 @@ What stays:
   - All HTML/CSS/JS template structure
 """
 import argparse
-import re
 import sys
 from pathlib import Path
 
@@ -78,8 +77,8 @@ def reconstruct(source: Path, output: Path) -> bool:
     output.write_text("\n".join(new_lines), encoding="utf-8")
     print(f"✓ Template reconstructed: {output} ({output.stat().st_size:,} bytes)")
     print(f"  Lines: {len(new_lines)}")
-    print(f"  Stripped: NETWORK, DRILLDOWN, DRILLDOWN_URL, DASHBOARD_INDEX, "
-          f"DASHBOARD_VARIANTS, CENTER_TM_ID")
+    print("  Stripped: NETWORK, DRILLDOWN, DRILLDOWN_URL, DASHBOARD_INDEX, "
+          "DASHBOARD_VARIANTS, CENTER_TM_ID")
     print("  Kept: 'Alexander Blessin' hardcoded refs (generator replaces these)")
     return True
 

@@ -155,7 +155,7 @@ def main() -> int:
     original = TEMPLATE.read_text(encoding="utf-8")
     patched, changes = patch(original)
     if patched == original:
-        print(f"  → No changes (already patched).")
+        print("  → No changes (already patched).")
         for c in changes:
             print(f"    - {c}")
         return 0

@@ -12,7 +12,6 @@ Usage:
 """
 import argparse
 import json
-import sys
 import unicodedata
 from pathlib import Path
 from collections import defaultdict
@@ -142,13 +141,13 @@ def main():
             json.dump(lic, f, ensure_ascii=False, indent=2)
         tmp.replace(LIC)
 
-    print(f"\n=== Rematch Summary ===")
+    print("\n=== Rematch Summary ===")
     print(f"  Rematched: {rematched}")
     print(f"  Ambiguous (skipped): {ambiguous}")
     print(f"  Still missing (not in persons_master): {still_missing}")
     print(f"  New total matched: {lic['meta']['matched_to_tm']} / {lic['meta']['total_graduates']}")
     if rematched_names:
-        print(f"\n  Sample (first 15):")
+        print("\n  Sample (first 15):")
         for cohort_id, nm, tm_id in rematched_names[:15]:
             print(f"    LG {cohort_id}: {nm:<28} → tm_id={tm_id}")
 
