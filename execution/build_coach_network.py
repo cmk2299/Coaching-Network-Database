@@ -34,6 +34,7 @@ from typing import Optional, Dict, List, Tuple
 # ── Shared library imports ────────────────────────────────────────────
 from lib import scoring
 from lib.network_stages import (
+    compute_playing_career_window,
     current_career_first,
     dedupe_same_profile_contacts,
     drop_low_value_categories,
@@ -933,43 +934,8 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
     playing_career = profile.get("playing_career", [])
     teammates_added = 0
     if playing_career:
-        # Estimate playing career time range:
-        # End of playing career = start of coaching career (first career_history entry)
-        coaching_start = None
-        if career:
-            for entry in reversed(career):  # Oldest first
-                date_from = entry.get("date_from", "")
-                m = re.search(r"(\d{2})/(\d{2})", date_from)
-                if m:
-                    y = int(m.group(1))
-                    coaching_start = 2000 + y if y < 90 else 1900 + y
-                    break
-        # Fallback: DOB + 35 years (typical retirement age)
-        if not coaching_start and profile.get("dob"):
-            try:
-                birth_year = int(profile["dob"][:4])
-                coaching_start = birth_year + 35
-            except (ValueError, TypeError):
-                coaching_start = 2010
-        if not coaching_start:
-            coaching_start = 2010
-
-        # Playing career span: assume started at ~18, ended at coaching_start
-        playing_end = coaching_start
-        dob = profile.get("dob", "")
-        try:
-            playing_start = int(dob[:4]) + 18 if dob else playing_end - 15
-        except (ValueError, TypeError):
-            playing_start = playing_end - 15
-
-        # Only search squad files within the actual playing career window.
-        # Conservative: use coaching_start - 2 as playing_end to account for
-        # the typical gap between retirement and first coaching role.
-        # If this yields no seasons >= 2010 (our squad data start), we skip
-        # entirely — avoids false matches (e.g. Blessin@Hoffenheim ~2004
-        # matching 2010+ players who were never his teammates).
-        playing_end_conservative = max(playing_end - 2, playing_start)
-        valid_seasons = set(range(max(playing_start, 2010), playing_end_conservative + 1))
+        # Window computed by lib.network_stages.compute_playing_career_window
+        valid_seasons = compute_playing_career_window(career, profile)
 
         playing_stations = {}
         for entry in playing_career:

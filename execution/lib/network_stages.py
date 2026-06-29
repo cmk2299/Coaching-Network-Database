@@ -74,6 +74,48 @@ def enrich_cross_references(contacts_map: Dict) -> int:
 import re as _re
 
 
+def compute_playing_career_window(career, profile):
+    """Estimate the season window in which the coach was an active player, used
+    by Section 2b to pull former teammates from squad files. Returns a set of
+    seasons (ints). Empty if the window doesn't overlap squad data start (2010).
+
+    Heuristic chain (each step is a fallback for the prior one):
+      • playing_end = start of coaching career (first career_history entry); else
+      • playing_end = DOB-year + 35 (typical retirement); else 2010.
+      • playing_start = DOB-year + 18 (rookie age); else playing_end - 15.
+    Conservative: subtract 2 from playing_end to skip the typical
+    retirement-to-first-coach gap (avoids false matches like Blessin@Hoffenheim
+    ~2004 matching 2010+ players who were never his teammates).
+    """
+    # End of playing career
+    coaching_start = None
+    if career:
+        for entry in reversed(career):
+            m = _re.search(r"(\d{2})/(\d{2})", entry.get("date_from", ""))
+            if m:
+                y = int(m.group(1))
+                coaching_start = 2000 + y if y < 90 else 1900 + y
+                break
+    if not coaching_start and profile.get("dob"):
+        try:
+            coaching_start = int(profile["dob"][:4]) + 35
+        except (ValueError, TypeError):
+            coaching_start = 2010
+    if not coaching_start:
+        coaching_start = 2010
+
+    # Start of playing career
+    playing_end = coaching_start
+    dob = profile.get("dob", "")
+    try:
+        playing_start = int(dob[:4]) + 18 if dob else playing_end - 15
+    except (ValueError, TypeError):
+        playing_start = playing_end - 15
+
+    playing_end_conservative = max(playing_end - 2, playing_start)
+    return set(range(max(playing_start, 2010), playing_end_conservative + 1))
+
+
 def is_future_career_entry(entry: dict) -> bool:
     """Return True if entry's date_from is a future season (26/27 or later).
     PATTERN 15 (2026-05-23): TM pre-enters next-season contracts before they

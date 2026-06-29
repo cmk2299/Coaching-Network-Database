@@ -270,3 +270,37 @@ class TestDedupeSameProfileContacts:
         out, dropped = dedupe_same_profile_contacts(cs)
         assert dropped == 0
         assert len(out) == 2
+
+
+class TestComputePlayingCareerWindow:
+    def test_coaching_start_from_career(self):
+        from lib.network_stages import compute_playing_career_window
+        # Career first entry (after reversed): date_from 15/16 → coaching_start 2015
+        # DOB 1980 → playing_start 1998. Window: [max(1998, 2010), 2015-2] = [2010, 2013]
+        career = [{"date_from": "20/21"}, {"date_from": "15/16"}]  # reversed → 15/16 first
+        profile = {"dob": "1980-01-01"}
+        win = compute_playing_career_window(career, profile)
+        assert win == set(range(2010, 2014))  # 2010..2013
+
+    def test_dob_fallback_when_no_career_dates(self):
+        from lib.network_stages import compute_playing_career_window
+        # No parseable career dates → coaching_start = DOB + 35 = 1980 + 35 = 2015
+        # playing_start = DOB + 18 = 1998. Window: [2010, 2013]
+        win = compute_playing_career_window([], {"dob": "1980-01-01"})
+        assert win == set(range(2010, 2014))
+
+    def test_no_data_uses_2010_default(self):
+        from lib.network_stages import compute_playing_career_window
+        # No career, no DOB → coaching_start=2010, playing_start=2010-15=1995
+        # End conservative=2008 → window empty (< 2010 floor)
+        win = compute_playing_career_window([], {})
+        assert win == set()
+
+    def test_modern_coach_window_overlaps_squad_era(self):
+        from lib.network_stages import compute_playing_career_window
+        # Coach started coaching at 2020/21, DOB 1985 → playing 2003..2018(cons)
+        # Window starts at max(2003, 2010) = 2010, ends at 2018
+        win = compute_playing_career_window(
+            [{"date_from": "20/21"}], {"dob": "1985-01-01"})
+        assert min(win) == 2010
+        assert max(win) == 2018

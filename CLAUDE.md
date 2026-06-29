@@ -160,7 +160,7 @@ data/                           # Persistent data
   ├── persons_index.json               # Phase 2: 34,513 unique persons index
   ├── person_profiles/                 # Phase 3: Individual TM profiles (JSON per person)
   │   └── {tm_id}.json                #   34,513 profiles (27,734 players + 6,779 coaches/staff)
-  ├── persons_master.json              # Phase 3: Merged master (51.9 MB, 34,513 entries)
+  ├── persons_master.json              # Phase 3: Merged master (~300 MB, ~99k entries; lazy-loaded with master-fast-path)
   ├── coaching_licenses.json            # DFB Fußball-Lehrer cohort data (LG 61-69)
   ├── blessin_full_network.json       # MVP: Main network (91 contacts, enriched)
   ├── blessin_drilldown_data.json     # MVP: Sub-networks for drill-down (119 entries)
@@ -242,7 +242,7 @@ Single self-contained HTML file with embedded JSON data. Template uses `__NETWOR
 
 ### Phase 3: Individual TM Profiles ✅ (2026-03-26)
 - **34,513 profiles scraped** (27,734 players + 6,779 coaches/staff)
-- **Master file:** `data/persons_master.json` (51.9 MB)
+- **Master file:** `data/persons_master.json` (~300 MB, ~99k entries — corrected 2026-06-29)
 - Coverage: name 100%, nationality ~100%, DOB ~90%, position 100% (players), foot 99% (players), image ~85%
 
 ### Berater (Agent) Field ✅ (2026-03-24)
@@ -348,7 +348,7 @@ Single self-contained HTML file with embedded JSON data. Template uses `__NETWOR
 - **Extracted `execution/lib/normalization.py`**: 33 CLUB_NAME_NORMALIZE entries + 9 shared functions
 - **Functions extracted:** `normalize_club`, `classify_role`, `classify_staff_section`, `parse_season_from_date`, `get_season_range`, `format_season`, `validate_staff_tm_id`, `league_rank`, `filter_nationality`
 - **Backward compatible:** `build_coach_network.py` re-exports all names, `build_sqlite.py` imports unchanged
-- **Tests:** `tests/test_normalization.py` — 47 tests covering all shared functions
+- **Tests:** `tests/test_*.py` — **110+ unit tests** covering normalization, scoring, network stages, logging, scraper block-detection (corrected 2026-06-29; prior "47 tests" claim was stale)
 - **Bare `except:` fixed:** 18 occurrences across 13 scripts → `except Exception:`
 - **Run tests:** `python3 -m pytest tests/ -v`
 
