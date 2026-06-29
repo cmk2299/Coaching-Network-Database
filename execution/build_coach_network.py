@@ -38,6 +38,7 @@ from lib.network_stages import (
     add_current_staff_colleagues,
     add_former_teammates_from_squads,
     add_gemeinsame_spiele_teammates,
+    add_players_coached,
     add_shared_career_stations,
     add_staff_at_career_stations,
     current_career_first,
@@ -790,164 +791,18 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
     if gs_path.exists():
         print(f"  GemeinsameSpiele: {gs_enriched} enriched, {gs_added} new contacts (5+ Spiele)")
 
-    # ── 3) Players coached — from squad files ──
-    players_coached = defaultdict(lambda: {"seasons": set(), "stations": set()})
-
-    for club_id, info in coach_stations.items():
-        coaching_roles = [r for r in info["roles"] if any(
-            x in r.lower() for x in ["trainer", "coach", "manager"]
-        )]
-        if not coaching_roles:
-            continue
-
-        for season in info["seasons"]:
-            squad = load_squad(club_id, season)
-            if not squad:
-                continue
-            for player in squad.get("players", []):
-                pid = player["tm_id"]
-                players_coached[pid]["seasons"].add(season)
-                players_coached[pid]["stations"].add(info["name"])
-                players_coached[pid]["data"] = player
-
-    # Load real appearance data from TM scrape (if available)
-    real_players_used = load_players_used(coach_tm_id)
-    has_real_data = len(real_players_used) > 0
-
-    # Filter: use real 20-game threshold if available, else 2-season proxy
-    MIN_REAL_APPEARANCES = 20
-
-    if has_real_data:
-        # Use real appearance data — include any player with 20+ games
-        top_players = {}
-        for pid, info in players_coached.items():
-            real = real_players_used.get(pid)
-            if real and real["appearances"] >= MIN_REAL_APPEARANCES:
-                top_players[pid] = info
-        # Fallback: if too few real matches, also include 2-season squad overlap
-        if len(top_players) < 10:
-            for pid, info in players_coached.items():
-                if pid not in top_players and len(info["seasons"]) >= 2:
-                    top_players[pid] = info
-        print(f"  Players coached: {len(players_coached)} total, {len(top_players)} top "
-              f"(real data: {len(real_players_used)} TM entries)")
+    # Section 3: extracted to lib.network_stages.add_players_coached
+    _pc_total, _pc_top, _pc_real = add_players_coached(
+        coach_tm_id, coach_stations, contacts_map,
+        load_squad, load_players_used, get_profile_ns,
+        _cache.get("profiles_ns") or {}, _name_matches,
+        normalize_club, filter_nationality, filter_default_image,
+        normalize_dob, format_season,
+    )
+    if _pc_real:
+        print(f"  Players coached: {_pc_total} total, {_pc_top} top (real TM data)")
     else:
-        # No real data — fall back to season-based estimation
-        top_players = {pid: info for pid, info in players_coached.items()
-                       if len(info["seasons"]) >= 2}
-        if len(top_players) < 10:
-            top_players = dict(sorted(
-                players_coached.items(),
-                key=lambda x: len(x[1]["seasons"]),
-                reverse=True
-            )[:30])
-        print(f"  Players coached: {len(players_coached)} total, {len(top_players)} top (est. — no TM data)")
-
-    for pid, pinfo in top_players.items():
-        if pid in contacts_map:
-            contacts_map[pid]["category"] = "player_coached"
-            # Enrich existing contact with real data
-            real = real_players_used.get(pid)
-            if real:
-                contacts_map[pid]["appearances"] = real["appearances"]
-                contacts_map[pid]["goals"] = real["goals"]
-                contacts_map[pid]["assists"] = real["assists"]
-                contacts_map[pid]["minutes"] = real["minutes"]
-            continue
-
-        player_data = pinfo.get("data", {})
-        station_names = sorted(pinfo["stations"])  # sorted → deterministic note/stations order
-        seasons = sorted(pinfo["seasons"])
-
-        n_seasons = len(seasons)
-
-        # Use real data if available, else estimate
-        real = real_players_used.get(pid)
-        if real:
-            est_games = real["appearances"]
-            total_minutes = real["minutes"]
-        else:
-            est_games = n_seasons * 22  # fallback estimate
-            total_minutes = 0
-
-        if n_seasons == 1:
-            note = f"{', '.join(station_names)} ({format_season(seasons[0])})"
-        else:
-            note = f"{', '.join(station_names)} ({format_season(seasons[0])}–{format_season(seasons[-1])})"
-
-        contacts_map[pid] = {
-            "name": player_data.get("name", f"Player {pid}"),
-            "stations": station_names,
-            "category": "player_coached",
-            "role": player_data.get("position", "Spieler"),
-            "note": note,
-            "tm_url": player_data.get("tm_url", ""),
-            "tm_id": pid,
-            "seasons_together": n_seasons,
-            "est_games": est_games,
-            "appearances": real["appearances"] if real else None,
-            "goals": real["goals"] if real else None,
-            "assists": real["assists"] if real else None,
-            "minutes": total_minutes if total_minutes else None,
-            "_latest_season": max(seasons),
-            "nationality": filter_nationality(player_data.get("nationality")),
-            "dob": normalize_dob(player_data.get("dob","") or ""),
-            "image_url": filter_default_image(player_data.get("image_url")),
-            # current_club must be the player's ACTUAL current club (incl. "Karriereende"
-            # for retired players) from their profile — NOT player_data.club_name, which
-            # is the squad/station where the coach met them (Augsburg-retiree bug).
-            # Use the SPIELER namespace explicitly AND verify the profile name matches
-            # the contact name: bare `pid` can collide with an unrelated person of the
-            # same id (TM namespace ID-reuse, e.g. trainer Udo Knierim 18100 vs
-            # spieler Per Nilsson 18100). If names don't match → None (no wrong data).
-            "current_club": (lambda _p, _nm: (
-                (normalize_club(_p["current_club"].get("name", ""), _p["current_club"].get("tm_id"))
-                 if isinstance(_p.get("current_club"), dict) and _p["current_club"].get("name")
-                 else (_p.get("current_club") if isinstance(_p.get("current_club"), str) else None))
-                if _name_matches(_p.get("name"), _nm) else None
-            ))(get_profile_ns("spieler", pid) or {}, player_data.get("name", "")),
-        }
-
-        # POST-CAREER ROLE (2026-06-04): for a player_coached contact who has retired
-        # / is vereinslos, surface their CURRENT football role (Trainer/SD/Direktor)
-        # from a NAME+DOB-verified trainer profile — the value the scout actually wants.
-        # Deterministic via TM, NO external search API. Collision-safe: we require
-        # both name AND birthdate to match the spieler profile, because TM reuses the
-        # same numeric id across namespaces for different people.
-        try:
-            _cc = contacts_map[pid].get("current_club")
-            _ccn = _cc.get("name") if isinstance(_cc, dict) else _cc
-            _sp = get_profile_ns("spieler", pid) or {}
-            # Only trust the spieler profile if its name matches the contact —
-            # else it's a namespace collision (wrong person) and DOB would be bogus.
-            if not _name_matches(_sp.get("name"), player_data.get("name", "")):
-                _sp = {}
-            _sp_dob = (_sp.get("dob") or "").strip()
-            _sp_name = (_sp.get("name") or "").strip().lower()
-            if _ccn in ("Karriereende", "Vereinslos", None) and _sp_dob and _sp_name:
-                _ns = _cache.get("profiles_ns") or {}
-                _match = None
-                for _k, _v in _ns.items():
-                    if not _k.startswith("trainer_"):
-                        continue
-                    if (_v.get("name") or "").strip().lower() != _sp_name:
-                        continue
-                    if (_v.get("dob") or "").strip() != _sp_dob:
-                        continue  # DOB gate → same person only
-                    _match = _v
-                    break
-                _tr_career = (_match or {}).get("career_history") or []
-                if _tr_career:
-                    _cur = _tr_career[0]  # most recent role
-                    _role = (_cur.get("role") or "").strip()
-                    _club = normalize_club(_cur.get("club_name", ""), _cur.get("club_tm_id"))
-                    if _role and _club:
-                        contacts_map[pid]["role"] = f"{_role} ({_club})"
-                        contacts_map[pid]["post_career_role"] = True
-                        if (_cur.get("date_to") or "").strip() in ("-", "", "heute"):
-                            contacts_map[pid]["current_club"] = _club
-        except Exception:
-            pass
+        print(f"  Players coached: {_pc_total} total, {_pc_top} top (est. — no TM data)")
 
     # ── 4) Lehrgangs-Kollegen (from coaching_licenses.json) ──
     # Person can be in multiple cohorts (UEFA Pro Lizenz + Management im Profifußball).

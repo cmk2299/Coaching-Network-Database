@@ -13,6 +13,7 @@ Stage pipeline order (the order they run in build_network):
   • add_shared_career_stations(...)                          → Section 2 (inverted-index sweep)
   • add_former_teammates_from_squads(...)                    → Section 2b
   • add_gemeinsame_spiele_teammates(...)                     → Section 2c (real TM match counts)
+  • add_players_coached(...)                                 → Section 3 (squad-overlap + post-career role)
   • resolve_post_career_roles(contacts_map, …)               → "Karriereende" → real role
   • enrich_cross_references(contacts_map)                    → triangular relationships
   • drop_low_value_categories(contacts_map)                  → strip scouting/medical
@@ -145,6 +146,167 @@ def compute_playing_career_window(career, profile):
 
     playing_end_conservative = max(playing_end - 2, playing_start)
     return set(range(max(playing_start, 2010), playing_end_conservative + 1))
+
+
+def add_players_coached(coach_tm_id, coach_stations, contacts_map,
+                          load_squad, load_players_used, get_profile_ns,
+                          profiles_ns, name_matches, normalize_club,
+                          filter_nationality, filter_default_image,
+                          normalize_dob, format_season):
+    """Section 3: discover players the coach actually coached, by sweeping
+    squad files of every club where the coach held a coaching role (trainer /
+    coach / manager). Filter to "top players" via real TM appearance data
+    (≥20 games) when available, else a 2-season squad-overlap proxy.
+
+    For each top player: either upgrade an existing contact to player_coached
+    (and enrich with real stats) or create a new one.  Crucial collision
+    guard on current_club (TM namespace ID-reuse: bare pid can resolve to a
+    completely different person; require name_matches against the spieler
+    profile before trusting any current_club value).
+
+    POST-CAREER ROLE enrichment (2026-06-04): for a player_coached contact
+    whose current_club is Karriereende/Vereinslos, look up the
+    name+DOB-verified TRAINER profile and surface their CURRENT football role
+    (the value the scout actually wants). Both gates required because TM
+    reuses numeric ids across spieler/trainer namespaces for different people.
+
+    Returns (players_coached_total, top_players_count, has_real_data) for
+    caller logging. Mutates contacts_map in place.
+    """
+    players_coached = defaultdict(lambda: {"seasons": set(), "stations": set()})
+    for club_id, info in coach_stations.items():
+        coaching_roles = [r for r in info["roles"] if any(
+            x in r.lower() for x in ["trainer", "coach", "manager"])]
+        if not coaching_roles:
+            continue
+        for season in info["seasons"]:
+            squad = load_squad(club_id, season)
+            if not squad:
+                continue
+            for player in squad.get("players", []):
+                pid = player["tm_id"]
+                players_coached[pid]["seasons"].add(season)
+                players_coached[pid]["stations"].add(info["name"])
+                players_coached[pid]["data"] = player
+
+    real_players_used = load_players_used(coach_tm_id)
+    has_real_data = len(real_players_used) > 0
+    MIN_REAL_APPEARANCES = 20
+
+    if has_real_data:
+        top_players = {pid: info for pid, info in players_coached.items()
+                       if (r := real_players_used.get(pid)) and r["appearances"] >= MIN_REAL_APPEARANCES}
+        if len(top_players) < 10:
+            for pid, info in players_coached.items():
+                if pid not in top_players and len(info["seasons"]) >= 2:
+                    top_players[pid] = info
+    else:
+        top_players = {pid: info for pid, info in players_coached.items()
+                       if len(info["seasons"]) >= 2}
+        if len(top_players) < 10:
+            top_players = dict(sorted(players_coached.items(),
+                                       key=lambda x: len(x[1]["seasons"]),
+                                       reverse=True)[:30])
+
+    for pid, pinfo in top_players.items():
+        real = real_players_used.get(pid)
+        if pid in contacts_map:
+            contacts_map[pid]["category"] = "player_coached"
+            if real:
+                contacts_map[pid]["appearances"] = real["appearances"]
+                contacts_map[pid]["goals"] = real["goals"]
+                contacts_map[pid]["assists"] = real["assists"]
+                contacts_map[pid]["minutes"] = real["minutes"]
+            continue
+
+        player_data = pinfo.get("data", {})
+        station_names = sorted(pinfo["stations"])
+        seasons = sorted(pinfo["seasons"])
+        n_seasons = len(seasons)
+
+        if real:
+            est_games = real["appearances"]
+            total_minutes = real["minutes"]
+        else:
+            est_games = n_seasons * 22
+            total_minutes = 0
+
+        if n_seasons == 1:
+            note = f"{', '.join(station_names)} ({format_season(seasons[0])})"
+        else:
+            note = (f"{', '.join(station_names)} "
+                    f"({format_season(seasons[0])}–{format_season(seasons[-1])})")
+
+        # current_club: bare pid can collide with an unrelated person of the
+        # same id (TM namespace ID-reuse: trainer Udo Knierim 18100 vs
+        # spieler Per Nilsson 18100). Require name_matches before trusting.
+        sp_profile_for_cc = get_profile_ns("spieler", pid) or {}
+        if name_matches(sp_profile_for_cc.get("name"), player_data.get("name", "")):
+            cc_raw = sp_profile_for_cc.get("current_club")
+            if isinstance(cc_raw, dict) and cc_raw.get("name"):
+                current_club_val = normalize_club(cc_raw.get("name", ""), cc_raw.get("tm_id"))
+            elif isinstance(cc_raw, str):
+                current_club_val = cc_raw
+            else:
+                current_club_val = None
+        else:
+            current_club_val = None
+
+        contacts_map[pid] = {
+            "name": player_data.get("name", f"Player {pid}"),
+            "stations": station_names,
+            "category": "player_coached",
+            "role": player_data.get("position", "Spieler"),
+            "note": note,
+            "tm_url": player_data.get("tm_url", ""),
+            "tm_id": pid,
+            "seasons_together": n_seasons,
+            "est_games": est_games,
+            "appearances": real["appearances"] if real else None,
+            "goals": real["goals"] if real else None,
+            "assists": real["assists"] if real else None,
+            "minutes": total_minutes if total_minutes else None,
+            "_latest_season": max(seasons),
+            "nationality": filter_nationality(player_data.get("nationality")),
+            "dob": normalize_dob(player_data.get("dob", "") or ""),
+            "image_url": filter_default_image(player_data.get("image_url")),
+            "current_club": current_club_val,
+        }
+
+        # POST-CAREER ROLE enrichment for retired players.
+        try:
+            cc = contacts_map[pid].get("current_club")
+            ccn = cc.get("name") if isinstance(cc, dict) else cc
+            sp = get_profile_ns("spieler", pid) or {}
+            if not name_matches(sp.get("name"), player_data.get("name", "")):
+                sp = {}
+            sp_dob = (sp.get("dob") or "").strip()
+            sp_name = (sp.get("name") or "").strip().lower()
+            if ccn in ("Karriereende", "Vereinslos", None) and sp_dob and sp_name:
+                match = None
+                for k, v in (profiles_ns or {}).items():
+                    if not k.startswith("trainer_"):
+                        continue
+                    if (v.get("name") or "").strip().lower() != sp_name:
+                        continue
+                    if (v.get("dob") or "").strip() != sp_dob:
+                        continue  # DOB gate → same person only
+                    match = v
+                    break
+                tr_career = (match or {}).get("career_history") or []
+                if tr_career:
+                    cur = tr_career[0]
+                    role = (cur.get("role") or "").strip()
+                    club = normalize_club(cur.get("club_name", ""), cur.get("club_tm_id"))
+                    if role and club:
+                        contacts_map[pid]["role"] = f"{role} ({club})"
+                        contacts_map[pid]["post_career_role"] = True
+                        if (cur.get("date_to") or "").strip() in ("-", "", "heute"):
+                            contacts_map[pid]["current_club"] = club
+        except Exception:
+            pass
+
+    return len(players_coached), len(top_players), has_real_data
 
 
 def add_gemeinsame_spiele_teammates(coach_tm_id, gs_path, playing_career,

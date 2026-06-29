@@ -486,3 +486,66 @@ class TestAddStaffAtCareerStations:
             compute_role_display=_StaffStubs.compute_role_display,
         )
         assert cm[999]["stations"] == ["Other Club", "Recent FC"]
+
+
+class TestAddGemeinsameSpieleTeammates:
+    @staticmethod
+    def _shared_stations(coach_playing_career, player_career_history):
+        return []  # default: no overlap
+
+    def _write_gs(self, tmp_path, teammates):
+        import json as _j
+        f = tmp_path / "1.json"
+        _j.dump({"teammates": teammates}, open(f, "w"))
+        return f
+
+    def test_no_file_no_ops(self, tmp_path):
+        from lib.network_stages import add_gemeinsame_spiele_teammates
+        cm = {}
+        e, a = add_gemeinsame_spiele_teammates(
+            1, tmp_path / "missing.json", [], cm, {}, self._shared_stations)
+        assert (e, a, cm) == (0, 0, {})
+
+    def test_enriches_existing_contact(self, tmp_path):
+        from lib.network_stages import add_gemeinsame_spiele_teammates
+        cm = {42: {"name": "X", "category": "former_teammate", "stations": ["FC A"]}}
+        gs = self._write_gs(tmp_path, [{"tm_id": 42, "shared_matches": 50,
+                                         "total_minutes": 4000, "teams_together": 2}])
+        e, a = add_gemeinsame_spiele_teammates(1, gs, [], cm, {}, self._shared_stations)
+        assert e == 1 and a == 0
+        assert cm[42]["shared_matches"] == 50
+        assert cm[42]["shared_minutes"] == 4000
+        assert cm[42]["_gs_verified"] is True
+
+    def test_below_threshold_no_new_contact(self, tmp_path):
+        from lib.network_stages import add_gemeinsame_spiele_teammates
+        cm = {}
+        gs = self._write_gs(tmp_path, [{"tm_id": 99, "shared_matches": 3}])  # <5
+        e, a = add_gemeinsame_spiele_teammates(1, gs, [], cm, {}, self._shared_stations)
+        assert (e, a, cm) == (0, 0, {})
+
+    def test_at_threshold_creates_new_contact(self, tmp_path):
+        from lib.network_stages import add_gemeinsame_spiele_teammates
+        cm = {}
+        gs = self._write_gs(tmp_path, [{"tm_id": 99, "name": "New", "shared_matches": 5,
+                                         "total_minutes": 450, "teams_together": 1}])
+        e, a = add_gemeinsame_spiele_teammates(1, gs, [], cm, {}, self._shared_stations)
+        assert (e, a) == (0, 1)
+        assert cm[99]["category"] == "former_teammate"
+        assert cm[99]["_gs_verified"] is True
+        assert cm[99]["shared_matches"] == 5
+
+    def test_fix_c_match_pushdown_for_single_station(self, tmp_path):
+        from lib.network_stages import add_gemeinsame_spiele_teammates
+        cm = {42: {"name": "X", "stations": ["FC A"],
+                   "shared_stations": [{"club": "FC A", "seasons": [2018], "matches": 0}]}}
+        gs = self._write_gs(tmp_path, [{"tm_id": 42, "shared_matches": 33}])
+        add_gemeinsame_spiele_teammates(1, gs, [], cm, {}, self._shared_stations)
+        # Fix C: single known overlap-station gets the match count pushed down
+        assert cm[42]["shared_stations"][0]["matches"] == 33
+
+    def test_skips_coach_self(self, tmp_path):
+        from lib.network_stages import add_gemeinsame_spiele_teammates
+        gs = self._write_gs(tmp_path, [{"tm_id": 1, "shared_matches": 50}])  # 1=coach
+        e, a = add_gemeinsame_spiele_teammates(1, gs, [], {}, {}, self._shared_stations)
+        assert (e, a) == (0, 0)
