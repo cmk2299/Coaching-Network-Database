@@ -71,6 +71,41 @@ def enrich_cross_references(contacts_map: Dict) -> int:
     return cross_refs
 
 
+CAT_ORDER = {"head_coach": 0, "sporting_director": 1, "executive": 2,
+             "executive_governance": 3, "coaching_staff": 4, "lehrgang": 5,
+             "scouting": 6, "management": 7, "executive_secondary": 8,
+             "academy": 9, "player_coached": 10, "former_teammate": 11,
+             "analyst": 12, "other_staff": 13, "medical": 14}
+
+
+def _safe_int(v):
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        return 0
+
+
+def scoring_finalizer(contacts_list):
+    """Single chokepoint after ALL contacts exist (incl. Phase-6 DM-Enrichment
+    additions: coach_hired / co_decision_maker, which are appended after the
+    main strength loop + sort). Guarantees two invariants validated by
+    execution/scoring_audit.py:
+      1. Every contact has strength (1-5, derived from seasons_together).
+      2. contacts_list is ordered by (-relevance_score, category, name, tm_id).
+    Mutates and sorts contacts_list in place; returns it for convenience."""
+    for c in contacts_list:
+        if c.get("strength") is None:
+            st = c.get("seasons_together", 1) or 1
+            c["strength"] = min(5, max(1, (st + 1) // 2))
+    contacts_list.sort(key=lambda c: (
+        -(c.get("relevance_score") or 0),
+        CAT_ORDER.get(c.get("category", ""), 99),
+        (c.get("name") or "").lower(),
+        _safe_int(c.get("tm_id")),
+    ))
+    return contacts_list
+
+
 def resolve_post_career_roles(contacts_map, parse_post_career_activity, normalize_club):
     """Resolve post-career activity for retired players in former_teammate /
     player_coached categories. TM profiles show "Karriereende" but often have a

@@ -155,3 +155,42 @@ class TestResolvePostCareerRoles:
         assert resolve_post_career_roles(contacts, fake_parse, lambda c: c) == 1
         assert contacts[1]["current_club"] == "TV-Experte"
         assert contacts[1]["role"] == "TV-Experte"
+
+
+class TestScoringFinalizer:
+    def test_fills_missing_strength_from_seasons_together(self):
+        from lib.network_stages import scoring_finalizer
+        cs = [{"name": "A", "relevance_score": 50, "seasons_together": 3}]
+        scoring_finalizer(cs)
+        assert cs[0]["strength"] == 2  # (3+1)//2 = 2
+
+    def test_strength_capped_at_5(self):
+        from lib.network_stages import scoring_finalizer
+        cs = [{"name": "A", "relevance_score": 50, "seasons_together": 20}]
+        scoring_finalizer(cs)
+        assert cs[0]["strength"] == 5
+
+    def test_strength_floor_1(self):
+        from lib.network_stages import scoring_finalizer
+        cs = [{"name": "A", "relevance_score": 50, "seasons_together": 0}]
+        scoring_finalizer(cs)
+        assert cs[0]["strength"] == 1
+
+    def test_sorts_desc_by_relevance_score(self):
+        from lib.network_stages import scoring_finalizer
+        cs = [
+            {"name": "Low", "relevance_score": 10, "category": "head_coach"},
+            {"name": "Hi",  "relevance_score": 90, "category": "head_coach"},
+            {"name": "Mid", "relevance_score": 50, "category": "head_coach"},
+        ]
+        scoring_finalizer(cs)
+        assert [c["name"] for c in cs] == ["Hi", "Mid", "Low"]
+
+    def test_category_tiebreak_on_equal_score(self):
+        from lib.network_stages import scoring_finalizer
+        cs = [
+            {"name": "P", "relevance_score": 50, "category": "player_coached"},
+            {"name": "C", "relevance_score": 50, "category": "head_coach"},
+        ]
+        scoring_finalizer(cs)
+        assert cs[0]["category"] == "head_coach"  # head_coach < player_coached in CAT_ORDER

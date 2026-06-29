@@ -39,6 +39,9 @@ def main():
     ap.add_argument("--update-baseline", action="store_true")
     ap.add_argument("--tolerance", type=float, default=0.05,
                     help="fraction a metric may drop before failing (default 0.05)")
+    ap.add_argument("--max-baseline-age-days", type=int, default=90,
+                    help="warn if baseline is older than N days (default 90; "
+                         "stops a fossil baseline from masking real regressions)")
     args = ap.parse_args()
 
     cur = metrics()
@@ -54,6 +57,19 @@ def main():
         return
 
     base = json.load(open(BASELINE))
+    # Stale-baseline guard: a baseline that hasn't been touched for months can
+    # silently mask a real regression (a wipe followed by a partial recovery
+    # could match an ancient baseline). Warn loudly so the operator re-baselines
+    # after intentional growth.
+    try:
+        import time
+        age_days = (time.time() - BASELINE.stat().st_mtime) / 86400
+        if age_days > args.max_baseline_age_days:
+            print(f"  ⚠ baseline is {age_days:.0f}d old (>{args.max_baseline_age_days}d) — "
+                  f"re-baseline after intentional growth: "
+                  f"python3 execution/validate_pipeline.py --update-baseline")
+    except OSError:
+        pass
     failures = []
     for k, cur_v in cur.items():
         base_v = base.get(k, 0)
