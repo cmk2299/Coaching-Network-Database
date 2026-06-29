@@ -34,9 +34,11 @@ from typing import Optional, Dict, List, Tuple
 # ── Shared library imports ────────────────────────────────────────────
 from lib import scoring
 from lib.network_stages import (
+    current_career_first,
     dedupe_same_profile_contacts,
     drop_low_value_categories,
     enrich_cross_references,
+    is_future_career_entry,
     normalize_contact_urls,
     parse_coach_stations,
     remove_connection_self_loops,
@@ -513,9 +515,6 @@ def build_profile_index(profiles: Dict[int, dict]) -> Dict[Tuple[int, int], List
     return _cache["profile_index"]
 
 
-import re as _re_module
-
-
 def filter_default_image(url):
     """PATTERN 36 FIX (2026-05-26): TM serves a placeholder avatar
     `https://img.a.transfermarkt.technology/portrait/medium/default.jpg`
@@ -602,21 +601,8 @@ def profile_namespace_mismatch(contact_name: str, profile_name: str) -> bool:
     return False
 
 
-def is_future_career_entry(entry: dict) -> bool:
-    """Return True if entry's date_from is a future season (26/27 or later).
-
-    PATTERN 15 FIX (2026-05-23): TM pre-enters next-season contracts before they
-    start.  These future entries can corrupt center_role and contact career_history.
-    Skip any entry whose start season is after 2025 (i.e. 26/27 or later).
-
-    Used in:
-    - build_network() center-role computation (filter career[0] future entries)
-    - Contact career_history enrichment (filter future entries from detail panel)
-    """
-    m = _re_module.match(r'(\d{2})/(\d{2})', entry.get('date_from', ''))
-    if not m:
-        return False
-    return (2000 + int(m.group(1))) > 2025  # 26/27 starts 2026
+# is_future_career_entry moved to lib.network_stages (re-exported below for
+# backwards compatibility with build_sqlite + any callers importing from here).
 
 
 def load_coach_profile(tm_id: int) -> Optional[dict]:
@@ -2085,9 +2071,7 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
     # is_future_career_entry() is now a module-level function (Pattern 15 extension).
     current_role = "Trainer"
     if career:
-        # Use first non-future entry; fall back to career[0] if all are future
-        _career_current = [e for e in career if not is_future_career_entry(e)]
-        latest = _career_current[0] if _career_current else career[0]
+        latest = current_career_first(career)
         _center_club = normalize_club(latest.get('club_name', ''), latest.get('club_tm_id'))
         current_role = compute_role_display(
             category=center_cat,

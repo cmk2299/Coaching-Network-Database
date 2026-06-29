@@ -74,6 +74,26 @@ def enrich_cross_references(contacts_map: Dict) -> int:
 import re as _re
 
 
+def is_future_career_entry(entry: dict) -> bool:
+    """Return True if entry's date_from is a future season (26/27 or later).
+    PATTERN 15 (2026-05-23): TM pre-enters next-season contracts before they
+    start; these corrupt center_role and contact career_history if not filtered."""
+    m = _re.match(r"(\d{2})/(\d{2})", entry.get("date_from", ""))
+    if not m:
+        return False
+    return (2000 + int(m.group(1))) > 2025
+
+
+def current_career_first(career):
+    """Return the FIRST career entry that isn't a future-season pre-entry,
+    falling back to career[0] when every entry is future. Pure helper used at
+    two call sites (center role + contact career_history enrichment)."""
+    if not career:
+        return None
+    current = [e for e in career if not is_future_career_entry(e)]
+    return current[0] if current else career[0]
+
+
 def sanitize_id_integrity(contacts_list, profiles_ns, name_matches):
     """Single chokepoint guarding against TM namespace id-reuse: if a contact's
     _tm_id resolves (in EITHER namespace) only to a DIFFERENT person, every
