@@ -12,6 +12,7 @@ Stage pipeline order (the order they run in build_network):
   • add_staff_at_career_stations(...)                        → Section 1b
   • add_shared_career_stations(...)                          → Section 2 (inverted-index sweep)
   • add_former_teammates_from_squads(...)                    → Section 2b
+  • add_gemeinsame_spiele_teammates(...)                     → Section 2c (real TM match counts)
   • resolve_post_career_roles(contacts_map, …)               → "Karriereende" → real role
   • enrich_cross_references(contacts_map)                    → triangular relationships
   • drop_low_value_categories(contacts_map)                  → strip scouting/medical
@@ -33,6 +34,7 @@ Design contract: every stage has injected dependencies (load_squad,
 normalize_club, etc.) instead of importing from lib.normalization directly.
 This keeps the lib import graph shallow and stages testable with simple stubs.
 """
+import json
 from collections import defaultdict
 from typing import Dict
 
@@ -143,6 +145,97 @@ def compute_playing_career_window(career, profile):
 
     playing_end_conservative = max(playing_end - 2, playing_start)
     return set(range(max(playing_start, 2010), playing_end_conservative + 1))
+
+
+def add_gemeinsame_spiele_teammates(coach_tm_id, gs_path, playing_career,
+                                     contacts_map, profiles,
+                                     compute_shared_playing_stations):
+    """Section 2c: enrich/add contacts from the per-coach GemeinsameSpiele JSON
+    (`data/gemeinsame_spiele/{coach_tm_id}.json`) — real TM match-count data
+    that complements the squad-overlap inference of Section 2b.
+
+    For each teammate record:
+      • If already in contacts_map: enrich with shared_matches / shared_minutes /
+        teams_together_count, mark _gs_verified for former_teammates, fill empty
+        stations via compute_shared_playing_stations, and (Fix C/A8) push match
+        count down to shared_stations when there's exactly one known overlap.
+      • Else: create a NEW former_teammate contact ONLY if shared_matches ≥ 5
+        (lowered 10→5 2026-05-10 to catch e.g. Bobic with 7 shared matches).
+
+    Returns (gs_enriched, gs_added) for caller logging; (0, 0) if gs_path
+    missing or malformed. Mutates contacts_map in place.
+    """
+    if not gs_path.exists():
+        return 0, 0
+    try:
+        gs_data = json.load(open(gs_path, encoding="utf-8"))
+    except Exception as e:
+        print(f"  GemeinsameSpiele: error loading {gs_path}: {e}")
+        return 0, 0
+
+    gs_added = gs_enriched = 0
+    for tm in gs_data.get("teammates", []):
+        pid = tm.get("tm_id")
+        if not pid or pid == coach_tm_id:
+            continue
+        shared_matches = tm.get("shared_matches", 0)
+        if pid in contacts_map:
+            existing = contacts_map[pid]
+            existing["shared_matches"] = shared_matches
+            existing["shared_minutes"] = tm.get("total_minutes", 0)
+            existing["teams_together_count"] = tm.get("teams_together", 0)
+            if existing.get("category") == "former_teammate":
+                existing["_gs_verified"] = True
+            # Bug-2-Systematik: backfill empty stations from playing_career ∩ career_history.
+            if not existing.get("stations") and profiles and playing_career:
+                try:
+                    tm_profile = profiles.get(int(pid))
+                except (ValueError, TypeError):
+                    tm_profile = None
+                if tm_profile:
+                    shared_pl = compute_shared_playing_stations(
+                        coach_playing_career=playing_career,
+                        player_career_history=tm_profile.get("career_history") or [],
+                    )
+                    if shared_pl:
+                        existing["stations"] = shared_pl
+            # Fix C (A8) — push match-count down when exactly one known overlap-station.
+            sst = existing.get("shared_stations") or []
+            if len(sst) == 1 and not sst[0].get("matches"):
+                sst[0]["matches"] = shared_matches
+            gs_enriched += 1
+        else:
+            if shared_matches < 5:
+                continue
+            gs_stations = []
+            if profiles and playing_career:
+                try:
+                    tm_profile = profiles.get(int(pid))
+                except (ValueError, TypeError):
+                    tm_profile = None
+                if tm_profile:
+                    gs_stations = compute_shared_playing_stations(
+                        coach_playing_career=playing_career,
+                        player_career_history=tm_profile.get("career_history") or [],
+                    )
+            contacts_map[pid] = {
+                "name": tm.get("name", f"Player {pid}"),
+                "stations": gs_stations,
+                "category": "former_teammate",
+                "role": f"Mitspieler ({tm.get('position', 'Spieler')})",
+                "note": f"Mitspieler ({shared_matches} gemeinsame Spiele)",
+                "tm_url": tm.get("tm_url", ""),
+                "tm_id": pid,
+                "shared_matches": shared_matches,
+                "shared_minutes": tm.get("total_minutes", 0),
+                "teams_together_count": tm.get("teams_together", 0),
+                "seasons_together": max(1, tm.get("teams_together", 1)),
+                "_latest_season": 2010,
+                "relationship_type": "playing",
+                "_gs_verified": True,
+            }
+            gs_added += 1
+    return gs_enriched, gs_added
 
 
 def add_former_teammates_from_squads(coach_tm_id, profile, career, contacts_map,
