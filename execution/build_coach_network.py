@@ -34,6 +34,7 @@ from typing import Optional, Dict, List, Tuple
 # ── Shared library imports ────────────────────────────────────────────
 from lib import scoring
 from lib.network_stages import (
+    drop_low_value_categories,
     enrich_cross_references,
     normalize_contact_urls,
     parse_coach_stations,
@@ -1464,12 +1465,8 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
     if cross_refs > 0:
         print(f"  Cross-references: {cross_refs} coach/SD connections between contacts")
 
-    # ── Remove low-value categories (scouting, medical) ──
-    EXCLUDED_CATEGORIES = {"scouting", "medical"}
-    before = len(contacts_map)
-    contacts_map = {k: v for k, v in contacts_map.items()
-                    if v.get("category") not in EXCLUDED_CATEGORIES}
-    removed = before - len(contacts_map)
+    # Extracted to lib.network_stages.drop_low_value_categories
+    contacts_map, removed = drop_low_value_categories(contacts_map)
     if removed:
         print(f"  Removed {removed} scouting/medical contacts")
 

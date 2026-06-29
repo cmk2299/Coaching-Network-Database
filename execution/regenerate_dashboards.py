@@ -306,6 +306,11 @@ def main():
     parser.add_argument("--lazy", type=int, default=0, metavar="BYTES",
                         help="Externalize drilldown JSON larger than BYTES (e.g. 500000 for 500KB). "
                              "0 = always inline (default).")
+    parser.add_argument("--changed-only", action="store_true",
+                        help="Incremental mode: skip dashboards whose canonical source "
+                             "data/networks/{tm_id}.json is older than the dashboard HTML "
+                             "AND the template is older than the dashboard. Drastically "
+                             "speeds up daily refreshes (typically 5-10 changes vs 4054).")
     args = parser.parse_args()
 
     if not TEMPLATE.exists():
@@ -343,6 +348,8 @@ def main():
     # Now we load from the source-of-truth JSON when available; fall back to HTML
     # extraction only for dashboards without a matching source file.
     NETWORK_DIR = Path("data/networks")
+    template_mtime = TEMPLATE.stat().st_mtime
+    skipped_clean = 0
     for i, dp in enumerate(dashboards, 1):
         network = drilldown = None
         drilldown_url = ''
@@ -350,6 +357,20 @@ def main():
         target_stem = dp.stem
         base_slug = target_stem.replace("_nlz_network", "").replace("_sd_network", "").replace("_network", "")
         canonical_tm_id = tm_id_lookup.get(base_slug)
+
+        # Incremental mode: skip if dashboard is newer than BOTH its canonical
+        # network JSON and the template. Dashboards needing regen: canonical
+        # data changed OR template changed OR HTML missing.
+        if args.changed_only and canonical_tm_id is not None:
+            try:
+                dp_mtime = dp.stat().st_mtime
+                net_path = NETWORK_DIR / f"{canonical_tm_id}.json"
+                net_mtime = net_path.stat().st_mtime if net_path.exists() else 0
+                if net_mtime <= dp_mtime and template_mtime <= dp_mtime:
+                    skipped_clean += 1
+                    continue
+            except OSError:
+                pass  # any stat failure → just process normally
         if canonical_tm_id is not None:
             net_json_path = NETWORK_DIR / f"{canonical_tm_id}.json"
             if net_json_path.exists():
@@ -401,7 +422,8 @@ def main():
 
     elapsed = time.time() - t0
     print(f"\n{'─'*50}")
-    print(f"  Regenerated: {success} ✓  Failed: {failed} ✗")
+    print(f"  Regenerated: {success} ✓  Failed: {failed} ✗"
+          + (f"  Skipped (clean): {skipped_clean}" if args.changed_only else ""))
     if externalized_count:
         print(f"  Externalized: {externalized_count} drilldowns ({externalized_bytes/1e6:.1f} MB saved from HTML)")
     print(f"  Time: {elapsed:.1f}s ({elapsed/max(1,len(dashboards))*1000:.0f}ms per dashboard)")

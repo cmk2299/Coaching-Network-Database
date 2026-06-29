@@ -91,7 +91,10 @@ log "  Networks: $NET_COUNT, Dashboards: $DASH_COUNT"
 # --- Step 3: Regenerate dashboards from canonical sources ---
 # Ensures F2 fix (canonical data/networks/*.json as source, not corrupt HTML).
 log "Step 3: regenerate dashboards (lazy >500KB)"
-python3 execution/regenerate_dashboards.py --lazy 500000 2>&1 | tail -5 \
+# --changed-only: incremental regen — skip dashboards whose canonical network
+# JSON + template are both older than the existing HTML. Cuts a daily refresh
+# from "all 4054 dashboards" to "only the ones whose source data actually changed."
+python3 execution/regenerate_dashboards.py --lazy 500000 --changed-only 2>&1 | tail -5 \
   || fail "Step 3: regenerate_dashboards"
 
 # --- Step 4: Club pages ---

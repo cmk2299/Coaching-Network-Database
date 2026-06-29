@@ -71,6 +71,18 @@ def enrich_cross_references(contacts_map: Dict) -> int:
     return cross_refs
 
 
+EXCLUDED_CATEGORIES = frozenset({"scouting", "medical"})
+
+
+def drop_low_value_categories(contacts_map):
+    """Drop contacts whose category is in EXCLUDED_CATEGORIES (scouting, medical)
+    — they're not strategically relevant for projectFIVE Berater workflow.
+    Returns (new_map, removed_count). Pure function — does not mutate input."""
+    kept = {k: v for k, v in contacts_map.items()
+            if v.get("category") not in EXCLUDED_CATEGORIES}
+    return kept, len(contacts_map) - len(kept)
+
+
 TM_BASE = "https://www.transfermarkt.de"
 
 
