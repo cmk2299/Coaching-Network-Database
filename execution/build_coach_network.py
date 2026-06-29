@@ -43,6 +43,7 @@ from lib.network_stages import (
     is_future_career_entry,
     normalize_contact_urls,
     parse_coach_stations,
+    refine_executive_tier,
     remove_connection_self_loops,
     resolve_post_career_roles,
     sanitize_id_integrity,
@@ -750,24 +751,15 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
                 if s["tm_id"] == coach_tm_id:
                     continue
                 validated_id = validate_staff_tm_id(s["name"], s["tm_id"], profiles)
-                # Category: section-based default, but refined via TM-title from
-                # persons_master if available. classify_role now returns three
-                # executive tiers: executive (Sport-GF/Sportvorstand),
-                # executive_governance (Präsident/AR-Vorsitz),
-                # executive_secondary (AR-Mitglied/Marketing).
+                # Section-based default refined via TM-title (executive tier:
+                # executive / executive_governance / executive_secondary).
+                # Extracted to lib.network_stages.refine_executive_tier.
                 section_cat = classify_staff_section(s.get("section", ""))
-                refined_cat = section_cat
-                if section_cat == "executive":
-                    cp = profiles.get(int(s["tm_id"]), {}) if profiles else {}
-                    title = ""
-                    for ce in (cp.get("career_history") or []):
-                        if str(ce.get("date_to", "")).strip() in ("-", ""):
-                            title = ce.get("role", "") or ""
-                            break
-                    if title:
-                        title_cat = classify_role(title)
-                        if title_cat in ("executive_secondary", "executive_governance"):
-                            refined_cat = title_cat
+                refined_cat = refine_executive_tier(
+                    section_cat,
+                    profiles.get(int(s["tm_id"]), {}) if profiles else {},
+                    classify_role,
+                )
                 contacts_map[s["tm_id"]] = {
                     "name": s["name"],
                     "stations": [club_name],

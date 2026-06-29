@@ -116,6 +116,32 @@ def compute_playing_career_window(career, profile):
     return set(range(max(playing_start, 2010), playing_end_conservative + 1))
 
 
+def refine_executive_tier(section_cat: str, person_profile: dict, classify_role):
+    """Refine a section-based "executive" classification into a finer tier
+    using the person's current TM job title (career_history entry with date_to
+    empty or '-'). Returns one of: "executive" (default sport-GF/Vorstand),
+    "executive_governance" (Präsident / Aufsichtsrats-Vorsitz),
+    "executive_secondary" (AR-Mitglied / Marketing).
+
+    `classify_role` is injected so the lib stays decoupled from
+    lib.normalization import chain; passing None or a non-callable returns
+    section_cat unchanged.
+    """
+    if section_cat != "executive" or not person_profile:
+        return section_cat
+    title = ""
+    for ce in (person_profile.get("career_history") or []):
+        if str(ce.get("date_to", "")).strip() in ("-", ""):
+            title = ce.get("role", "") or ""
+            break
+    if not title or not callable(classify_role):
+        return section_cat
+    title_cat = classify_role(title)
+    if title_cat in ("executive_secondary", "executive_governance"):
+        return title_cat
+    return section_cat
+
+
 def is_future_career_entry(entry: dict) -> bool:
     """Return True if entry's date_from is a future season (26/27 or later).
     PATTERN 15 (2026-05-23): TM pre-enters next-season contracts before they
