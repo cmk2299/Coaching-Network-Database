@@ -35,6 +35,7 @@ from typing import Optional, Dict, List, Tuple
 from lib import scoring
 from lib.network_stages import (
     CAT_ORDER,
+    add_current_staff_colleagues,
     compute_playing_career_window,
     current_career_first,
     dedupe_same_profile_contacts,
@@ -43,7 +44,6 @@ from lib.network_stages import (
     is_future_career_entry,
     normalize_contact_urls,
     parse_coach_stations,
-    refine_executive_tier,
     remove_connection_self_loops,
     resolve_post_career_roles,
     sanitize_id_integrity,
@@ -738,44 +738,16 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         for s in info["seasons"]:
             coach_club_seasons[(club_id, s)] = info["name"]
 
-    # ── 1) Current staff colleagues ──
+    # Section 1: current-club staff colleagues.
+    # Extracted to lib.network_stages.add_current_staff_colleagues.
     contacts_map = {}  # tm_id → contact dict
     current_club = profile.get("current_club") or {}
     current_club_id = current_club.get("tm_id")
-
-    if current_club_id:
-        staff = load_staff(current_club_id)
-        if staff:
-            club_name = normalize_club(staff.get("club_name", current_club.get("name", "")), current_club_id)
-            for s in staff.get("staff", []):
-                if s["tm_id"] == coach_tm_id:
-                    continue
-                validated_id = validate_staff_tm_id(s["name"], s["tm_id"], profiles)
-                # Section-based default refined via TM-title (executive tier:
-                # executive / executive_governance / executive_secondary).
-                # Extracted to lib.network_stages.refine_executive_tier.
-                section_cat = classify_staff_section(s.get("section", ""))
-                refined_cat = refine_executive_tier(
-                    section_cat,
-                    profiles.get(int(s["tm_id"]), {}) if profiles else {},
-                    classify_role,
-                )
-                contacts_map[s["tm_id"]] = {
-                    "name": s["name"],
-                    "stations": [club_name],
-                    "category": refined_cat,
-                    "role": compute_role_display(
-                        category=refined_cat,
-                        section=s.get("section", ""),
-                        club_name=club_name,
-                    ),
-                    "tm_url": s.get("tm_url", "") if validated_id else None,
-                    "tm_id": validated_id or s["tm_id"],  # Keep original for map key
-                    "_validated_tm_id": validated_id,  # Track if ID was validated
-                    "_staff_section": s.get("section", ""),  # Track original section for upgrade logic
-                    "seasons_together": 1,
-                    "_latest_season": 2025,  # current staff = recent
-                }
+    add_current_staff_colleagues(
+        coach_tm_id, profile, contacts_map, profiles,
+        load_staff, normalize_club, validate_staff_tm_id,
+        classify_staff_section, classify_role, compute_role_display,
+    )
 
     # ── 1b) Staff at ALL career stations (not just current) ──
     # This picks up foreign club staff files created by scrape_foreign_staff.py

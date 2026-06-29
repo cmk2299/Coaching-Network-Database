@@ -304,3 +304,50 @@ class TestComputePlayingCareerWindow:
             [{"date_from": "20/21"}], {"dob": "1985-01-01"})
         assert min(win) == 2010
         assert max(win) == 2018
+
+
+class TestRefineExecutiveTier:
+    @staticmethod
+    def _classify(role):
+        # Simplified fake of lib.normalization.classify_role
+        if "präsident" in role.lower() or "aufsichtsratsvorsitz" in role.lower():
+            return "executive_governance"
+        if "marketing" in role.lower() or "aufsichtsratsmitglied" in role.lower():
+            return "executive_secondary"
+        return "executive"
+
+    def test_non_executive_section_passes_through(self):
+        from lib.network_stages import refine_executive_tier
+        assert refine_executive_tier("head_coach", {"career_history": []}, self._classify) == "head_coach"
+
+    def test_no_profile_returns_section_cat(self):
+        from lib.network_stages import refine_executive_tier
+        assert refine_executive_tier("executive", {}, self._classify) == "executive"
+
+    def test_governance_title_refines(self):
+        from lib.network_stages import refine_executive_tier
+        prof = {"career_history": [
+            {"role": "Präsident", "date_to": ""},
+            {"role": "Spieler", "date_to": "2018"},
+        ]}
+        assert refine_executive_tier("executive", prof, self._classify) == "executive_governance"
+
+    def test_secondary_title_refines(self):
+        from lib.network_stages import refine_executive_tier
+        prof = {"career_history": [{"role": "Marketing-Vorstand", "date_to": "-"}]}
+        assert refine_executive_tier("executive", prof, self._classify) == "executive_secondary"
+
+    def test_plain_executive_title_keeps_section_cat(self):
+        from lib.network_stages import refine_executive_tier
+        prof = {"career_history": [{"role": "Sportvorstand", "date_to": "-"}]}
+        assert refine_executive_tier("executive", prof, self._classify) == "executive"
+
+    def test_no_current_role_keeps_section_cat(self):
+        from lib.network_stages import refine_executive_tier
+        prof = {"career_history": [{"role": "Old", "date_to": "2010"}]}  # all past
+        assert refine_executive_tier("executive", prof, self._classify) == "executive"
+
+    def test_non_callable_classify_safe(self):
+        from lib.network_stages import refine_executive_tier
+        prof = {"career_history": [{"role": "Anything", "date_to": "-"}]}
+        assert refine_executive_tier("executive", prof, None) == "executive"

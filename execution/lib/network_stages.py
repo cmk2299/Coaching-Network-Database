@@ -116,6 +116,57 @@ def compute_playing_career_window(career, profile):
     return set(range(max(playing_start, 2010), playing_end_conservative + 1))
 
 
+def add_current_staff_colleagues(coach_tm_id, profile, contacts_map, profiles,
+                                  load_staff, normalize_club, validate_staff_tm_id,
+                                  classify_staff_section, classify_role,
+                                  compute_role_display):
+    """Section 1: add the coach's current-club staff colleagues to contacts_map.
+
+    Reads profile.current_club.tm_id, calls injected load_staff(club_id), iterates
+    the returned staff, classifies each into a category, and writes into contacts_map.
+    Skips the coach themselves. Pure side-effects on contacts_map (which must be
+    a mutable dict — typically the build_network's working dict).
+
+    All dependencies are injected so this lib stays decoupled from lib.normalization
+    and build_coach_network's local helpers; the caller wires the canonical ones.
+    """
+    current_club = profile.get("current_club") or {}
+    current_club_id = current_club.get("tm_id")
+    if not current_club_id:
+        return
+    staff = load_staff(current_club_id)
+    if not staff:
+        return
+    club_name = normalize_club(
+        staff.get("club_name", current_club.get("name", "")), current_club_id)
+    for s in staff.get("staff", []):
+        if s["tm_id"] == coach_tm_id:
+            continue
+        validated_id = validate_staff_tm_id(s["name"], s["tm_id"], profiles)
+        section_cat = classify_staff_section(s.get("section", ""))
+        refined_cat = refine_executive_tier(
+            section_cat,
+            profiles.get(int(s["tm_id"]), {}) if profiles else {},
+            classify_role,
+        )
+        contacts_map[s["tm_id"]] = {
+            "name": s["name"],
+            "stations": [club_name],
+            "category": refined_cat,
+            "role": compute_role_display(
+                category=refined_cat,
+                section=s.get("section", ""),
+                club_name=club_name,
+            ),
+            "tm_url": s.get("tm_url", "") if validated_id else None,
+            "tm_id": validated_id or s["tm_id"],
+            "_validated_tm_id": validated_id,
+            "_staff_section": s.get("section", ""),
+            "seasons_together": 1,
+            "_latest_season": 2025,  # current staff = recent
+        }
+
+
 def refine_executive_tier(section_cat: str, person_profile: dict, classify_role):
     """Refine a section-based "executive" classification into a finer tier
     using the person's current TM job title (career_history entry with date_to
