@@ -34,6 +34,7 @@ from typing import Optional, Dict, List, Tuple
 # ── Shared library imports ────────────────────────────────────────────
 from lib import scoring
 from lib.network_stages import (
+    CAT_ORDER,
     compute_playing_career_window,
     current_career_first,
     dedupe_same_profile_contacts,
@@ -1570,16 +1571,9 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             c["pro_status"] = "staff"
 
     # Sort by relevance_score (primary), then category order (secondary)
-    cat_order = {"head_coach": 0, "sporting_director": 1, "executive": 2,
-                 "executive_governance": 3, "coaching_staff": 4, "lehrgang": 5,
-                 "scouting": 6, "management": 7, "executive_secondary": 8,
-                 "academy": 9, "player_coached": 10, "former_teammate": 11,
-                 "analyst": 12, "other_staff": 13, "medical": 14}
-
-    # SCORING_AUDIT D4: deterministic tiebreaker so rebuilds are reproducible.
-    # Order: relevance DESC, category, name ASC, tm_id ASC.
-    # Post-Sprint-A: tm_id can occasionally be a string (e.g. "trainer_8402")
-    # because typed-alias keys leak from preload_all_profiles. Coerce to int.
+    # Canonical sort identical to scoring_finalizer (uses lib.CAT_ORDER).
+    # Post-Sprint-A: tm_id can be a string ("trainer_8402") because typed-alias
+    # keys leak from preload_all_profiles — coerce to int for the sort key.
     def _safe_int(v):
         try:
             return int(v)
@@ -1589,7 +1583,7 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         contacts_map.values(),
         key=lambda c: (
             -c.get("relevance_score", 0),
-            cat_order.get(c.get("category", ""), 99),
+            CAT_ORDER.get(c.get("category", ""), 99),
             (c.get("name") or "").lower(),
             _safe_int(c.get("tm_id")),
         )
