@@ -24,6 +24,7 @@ Performance:
 
 import argparse
 import json
+import os
 import re
 import time
 from pathlib import Path
@@ -330,12 +331,57 @@ def parse_post_career_activity(tm_id: int) -> Optional[Dict[str, str]]:
 
 def preload_all_profiles() -> Dict[int, dict]:
     """
-    Load ALL person_profiles into memory. ~2,794 files, ~6 MB total.
-    This is the key optimization: instead of reading 2,794 files per coach,
-    we read them once and reuse.
+    Load ALL person_profiles into memory. ~99k files, ~389 MB on disk; 8-40s
+    (master fast-path vs glob); ~450 MB resident.
+
+    Fast path (2026-06-29): if persons_master.json exists AND is newer than the
+    newest individual profile file, load from master (1 file, 1 parse, ~8s).
+    Otherwise glob the 99k files (~40s). Master is built by build_master_file()
+    in scrape_person_profiles.py and serves the same content — both views are
+    just splits of master.persons by key shape.
     """
     if _cache["profiles"] is not None:
         return _cache["profiles"]
+
+    # Fast path: master is fresh.
+    master_path = DATA / "persons_master.json"
+    if master_path.exists():
+        master_mtime = master_path.stat().st_mtime
+        # Cheap freshness check: any profile newer than master = stale → fall through to glob.
+        try:
+            newest_profile = max(
+                (os.path.getmtime(os.path.join(PROFILES_DIR, p))
+                 for p in os.listdir(PROFILES_DIR) if p.endswith(".json")),
+                default=0,
+            )
+        except OSError:
+            newest_profile = float("inf")  # listdir failed → don't trust master
+        if newest_profile <= master_mtime:
+            print("  Loading profiles from persons_master.json (fast path)...")
+            t0 = time.time()
+            try:
+                persons = json.load(open(master_path)).get("persons", {})
+                profiles_by_tmid: dict[int, dict] = {}
+                profiles_by_ns: dict[str, dict] = {}
+                for key, data in persons.items():
+                    if key.startswith("spieler_"):
+                        profiles_by_ns[key] = data
+                    elif key.startswith("trainer_"):
+                        profiles_by_ns[key] = data
+                    else:
+                        # Legacy int-string key — the trainer-wins alias
+                        try:
+                            profiles_by_tmid[int(key)] = data
+                        except ValueError:
+                            continue
+                _cache["profiles"] = profiles_by_tmid
+                _cache["profiles_ns"] = profiles_by_ns
+                print(f"  ✓ {len(profiles_by_tmid)} profiles loaded in "
+                      f"{time.time()-t0:.1f}s ({len(profiles_by_ns)} namespace-keyed) "
+                      f"[fast path]")
+                return profiles_by_tmid
+            except (json.JSONDecodeError, OSError) as e:
+                print(f"  ⚠ master fast-path failed ({e}); falling back to glob")
 
     print("  Loading all profiles into memory...")
     t0 = time.time()
