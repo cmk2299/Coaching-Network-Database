@@ -39,6 +39,7 @@ from lib.network_stages import (
     normalize_contact_urls,
     parse_coach_stations,
     remove_connection_self_loops,
+    resolve_post_career_roles,
 )
 from lib.normalization import (
     normalize_club,
@@ -1427,33 +1428,9 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
     if ns_mismatch_skipped:
         print(f"  F1-Guard skipped {ns_mismatch_skipped} dual-namespace contacts (early-enrich)")
 
-    # ── Resolve post-career activity for retired players (former_teammates) ──
-    # TM player profiles show "Karriereende" but often have a "Zuletzt tätig als:"
-    # box showing their current role (Co-Trainer, Scout, TV-Experte, etc.)
-    post_career_resolved = 0
-    for tm_id, c in contacts_map.items():
-        current = c.get("current_club", "")
-        if current not in ("Karriereende", "") or c.get("category") not in ("former_teammate", "player_coached"):
-            continue
-
-        activity = parse_post_career_activity(tm_id)
-        if activity:
-            role = activity["role"]
-            club = activity.get("club")
-            if club:
-                club = normalize_club(club)
-                c["current_club"] = club
-                c["role"] = f"{role} ({club})"
-            else:
-                c["current_club"] = role  # e.g. "TV-Experte"
-                c["role"] = role
-            # Mark as post-career so downstream (template role-display + logic_audit LP3)
-            # treats current_club as the player's REAL current employer, not a stale
-            # coach-station stamp. Without this flag the audit false-flags retired
-            # players who now coach/work at the same club the coach passed through.
-            c["post_career_role"] = True
-            post_career_resolved += 1
-
+    # Extracted to lib.network_stages.resolve_post_career_roles
+    post_career_resolved = resolve_post_career_roles(
+        contacts_map, parse_post_career_activity, normalize_club)
     if post_career_resolved:
         print(f"  Post-career resolved: {post_career_resolved} contacts (from cached TM HTML)")
 

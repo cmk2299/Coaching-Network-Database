@@ -71,6 +71,41 @@ def enrich_cross_references(contacts_map: Dict) -> int:
     return cross_refs
 
 
+def resolve_post_career_roles(contacts_map, parse_post_career_activity, normalize_club):
+    """Resolve post-career activity for retired players in former_teammate /
+    player_coached categories. TM profiles show "Karriereende" but often have a
+    "Zuletzt tätig als:" box with the actual current role (Co-Trainer, Scout,
+    TV-Experte, ...). We mark these with post_career_role=True so downstream
+    (template role-display + logic_audit LP3) treats current_club as the player's
+    REAL employer, not a stale coach-station stamp. Returns count resolved.
+
+    Dependencies injected to keep this module import-light:
+      parse_post_career_activity(tm_id) -> dict | None
+      normalize_club(name) -> str
+    """
+    resolved = 0
+    for tm_id, c in contacts_map.items():
+        current = c.get("current_club", "")
+        if current not in ("Karriereende", "") or c.get("category") not in (
+                "former_teammate", "player_coached"):
+            continue
+        activity = parse_post_career_activity(tm_id)
+        if not activity:
+            continue
+        role = activity["role"]
+        club = activity.get("club")
+        if club:
+            club = normalize_club(club)
+            c["current_club"] = club
+            c["role"] = f"{role} ({club})"
+        else:
+            c["current_club"] = role
+            c["role"] = role
+        c["post_career_role"] = True
+        resolved += 1
+    return resolved
+
+
 EXCLUDED_CATEGORIES = frozenset({"scouting", "medical"})
 
 

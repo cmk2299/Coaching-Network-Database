@@ -122,3 +122,36 @@ class TestParseCoachStations:
         # defaultdict contract preserved for callers indexing unknown clubs
         st = parse_coach_stations([])
         assert st[123] == {"name": "", "seasons": set(), "roles": set()}
+
+
+class TestResolvePostCareerRoles:
+    def test_resolves_karriereende_to_post_career_role(self):
+        contacts = {1: {"name": "X", "category": "former_teammate", "current_club": "Karriereende"}}
+        def fake_parse(tid): return {"role": "Co-Trainer", "club": "FC Test"}
+        def fake_norm(c): return c
+        from lib.network_stages import resolve_post_career_roles
+        n = resolve_post_career_roles(contacts, fake_parse, fake_norm)
+        assert n == 1
+        c = contacts[1]
+        assert c["post_career_role"] is True
+        assert c["current_club"] == "FC Test"
+        assert c["role"] == "Co-Trainer (FC Test)"
+
+    def test_skips_non_retired_player(self):
+        contacts = {1: {"name": "X", "category": "former_teammate", "current_club": "FC Bayern"}}
+        from lib.network_stages import resolve_post_career_roles
+        assert resolve_post_career_roles(contacts, lambda _: {"role": "C"}, lambda c: c) == 0
+        assert "post_career_role" not in contacts[1]
+
+    def test_skips_wrong_category(self):
+        contacts = {1: {"name": "X", "category": "head_coach", "current_club": "Karriereende"}}
+        from lib.network_stages import resolve_post_career_roles
+        assert resolve_post_career_roles(contacts, lambda _: {"role": "C"}, lambda c: c) == 0
+
+    def test_clubless_role(self):
+        contacts = {1: {"name": "X", "category": "former_teammate", "current_club": ""}}
+        def fake_parse(tid): return {"role": "TV-Experte"}
+        from lib.network_stages import resolve_post_career_roles
+        assert resolve_post_career_roles(contacts, fake_parse, lambda c: c) == 1
+        assert contacts[1]["current_club"] == "TV-Experte"
+        assert contacts[1]["role"] == "TV-Experte"
