@@ -42,6 +42,7 @@ from lib.network_stages import (
     add_shared_career_stations,
     add_staff_at_career_stations,
     current_career_first,
+    enrich_contacts_from_profiles,
     dedupe_same_profile_contacts,
     drop_low_value_categories,
     enrich_cross_references,
@@ -918,36 +919,11 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
     else:
         print("  Lehrgang: not found in cohort data")
 
-    # ── Enrich contacts from person_profiles (images, nationality, etc.) ──
-    # PATTERN 25 FIX (2026-05-23): apply F1 dual-namespace guard HERE too.
-    # Previously this early-enrichment loop set current_club / image_url from
-    # whichever profile won the int-keyed lookup in preload_all_profiles().
-    # For dual-namespace IDs (e.g. tm_id=104: spieler=Bobic, trainer=Junghans),
-    # the contact-name "Fredi Bobic" was incorrectly enriched with
-    # "Bayern München II" (Junghans's club) and Junghans's image URL.
-    # The later F1 guard at line ~1903 only protected career_history enrichment.
-    enriched = 0
-    ns_mismatch_skipped = 0
-    for tm_id, c in contacts_map.items():
-        p = profiles.get(tm_id)
-        if not p:
-            continue
-        # F1 GUARD: skip enrichment if profile name doesn't match contact name
-        if profile_namespace_mismatch(c.get("name", ""), p.get("name", "")):
-            ns_mismatch_skipped += 1
-            continue
-        if not c.get("image_url") and p.get("image_url"):
-            c["image_url"] = filter_default_image(p["image_url"])
-            enriched += 1
-        if not c.get("nationality") and p.get("nationality"):
-            c["nationality"] = filter_nationality(p["nationality"])
-        if not c.get("dob") and p.get("dob"):
-            c["dob"] = normalize_dob(p["dob"])
-        if not c.get("current_club") and p.get("current_club"):
-            cc = p["current_club"]
-            c["current_club"] = normalize_club(cc.get("name", ""), cc.get("tm_id")) if isinstance(cc, dict) else str(cc)
-        if not c.get("license") and p.get("license"):
-            c["license"] = p["license"]
+    # Extracted to lib.network_stages.enrich_contacts_from_profiles
+    enriched, ns_mismatch_skipped = enrich_contacts_from_profiles(
+        contacts_map, profiles, profile_namespace_mismatch,
+        normalize_club, filter_nationality, filter_default_image, normalize_dob,
+    )
     if enriched:
         print(f"  Enriched {enriched} contacts with images from profiles")
     if ns_mismatch_skipped:

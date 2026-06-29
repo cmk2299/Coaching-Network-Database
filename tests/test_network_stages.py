@@ -549,3 +549,108 @@ class TestAddGemeinsameSpieleTeammates:
         gs = self._write_gs(tmp_path, [{"tm_id": 1, "shared_matches": 50}])  # 1=coach
         e, a = add_gemeinsame_spiele_teammates(1, gs, [], {}, {}, self._shared_stations)
         assert (e, a) == (0, 0)
+
+
+class TestAddPlayersCoached:
+    @staticmethod
+    def _name_match(a, b):
+        return (a or "").lower() == (b or "").lower()
+
+    @staticmethod
+    def _norm_club(name, tm_id=None):
+        return name
+    @staticmethod
+    def _fmt_season(y): return f"{y:02d}/{(y+1)%100:02d}"
+    @staticmethod
+    def _filter_nat(n): return n
+    @staticmethod
+    def _filter_img(u): return u
+    @staticmethod
+    def _norm_dob(d): return d
+
+    def _stations(self, club_id, name, roles, seasons):
+        return {club_id: {"tm_id": club_id, "name": name,
+                          "roles": set(roles), "seasons": set(seasons)}}
+
+    def test_no_coaching_role_no_players(self):
+        from lib.network_stages import add_players_coached
+        cm = {}
+        st = self._stations(1, "FC X", roles={"Spieler"}, seasons={2020, 2021})
+        total, top, real = add_players_coached(
+            42, st, cm, lambda c, s: {"players": []}, lambda c: {},
+            lambda kind, tid: None, {}, self._name_match,
+            self._norm_club, self._filter_nat, self._filter_img,
+            self._norm_dob, self._fmt_season)
+        assert (total, top, real) == (0, 0, False)
+        assert cm == {}
+
+    def test_promotes_existing_contact_with_real_stats(self):
+        from lib.network_stages import add_players_coached
+        cm = {99: {"name": "P", "category": "former_teammate", "stations": ["FC X"]}}
+        st = self._stations(1, "FC X", roles={"Cheftrainer"}, seasons={2020, 2021, 2022})
+        squad = {"players": [{"tm_id": 99, "name": "P"}]}
+        real = {99: {"appearances": 80, "goals": 12, "assists": 7, "minutes": 6500}}
+        add_players_coached(
+            42, st, cm, lambda c, s: squad, lambda c: real,
+            lambda kind, tid: None, {}, self._name_match,
+            self._norm_club, self._filter_nat, self._filter_img,
+            self._norm_dob, self._fmt_season)
+        assert cm[99]["category"] == "player_coached"
+        assert cm[99]["appearances"] == 80
+        assert cm[99]["goals"] == 12
+
+    def test_real_threshold_creates_new_player(self):
+        from lib.network_stages import add_players_coached
+        cm = {}
+        st = self._stations(1, "FC X", roles={"Trainer"}, seasons={2020})
+        squad = {"players": [{"tm_id": 50, "name": "Star", "position": "ST",
+                              "tm_url": "/x/spieler/50"}]}
+        real = {50: {"appearances": 25, "goals": 4, "assists": 2, "minutes": 2000}}
+        total, top, has_real = add_players_coached(
+            42, st, cm, lambda c, s: squad, lambda c: real,
+            lambda kind, tid: None, {}, self._name_match,
+            self._norm_club, self._filter_nat, self._filter_img,
+            self._norm_dob, self._fmt_season)
+        assert has_real and top == 1 and total == 1
+        assert cm[50]["category"] == "player_coached"
+        assert cm[50]["appearances"] == 25
+        assert cm[50]["current_club"] is None  # no profile lookup hit
+
+    def test_namespace_collision_blocks_current_club(self):
+        """If the spieler profile name doesn't match the squad-player name,
+        current_club must NOT inherit from the wrong-person profile."""
+        from lib.network_stages import add_players_coached
+        cm = {}
+        st = self._stations(1, "FC X", roles={"Trainer"}, seasons={2020, 2021})
+        squad = {"players": [{"tm_id": 100, "name": "Real Player"}]}
+        wrong_profile = {"name": "Different Person", "current_club": "Wrong Club"}
+        total, top, _ = add_players_coached(
+            42, st, cm, lambda c, s: squad, lambda c: {},
+            lambda kind, tid: wrong_profile if kind == "spieler" else None,
+            {}, self._name_match,
+            self._norm_club, self._filter_nat, self._filter_img,
+            self._norm_dob, self._fmt_season)
+        assert 100 in cm
+        assert cm[100]["current_club"] is None  # collision-guard fired
+
+    def test_post_career_role_requires_dob_gate(self):
+        """post_career_role enrichment must require BOTH name AND DOB match —
+        same-name-different-person without DOB match must NOT promote."""
+        from lib.network_stages import add_players_coached
+        cm = {}
+        st = self._stations(1, "FC X", roles={"Trainer"}, seasons={2020, 2021})
+        squad = {"players": [{"tm_id": 200, "name": "Retired P"}]}
+        # spieler profile says retired
+        sp = {"name": "Retired P", "dob": "1985-01-01", "current_club": "Karriereende"}
+        # trainer profile with SAME NAME but DIFFERENT DOB (collision)
+        wrong_trainer = {"name": "Retired P", "dob": "1990-05-05",
+                         "career_history": [{"role": "Trainer", "club_name": "X", "date_to": "-"}]}
+        profiles_ns = {"trainer_200": wrong_trainer}
+        add_players_coached(
+            42, st, cm, lambda c, s: squad, lambda c: {},
+            lambda kind, tid: sp if kind == "spieler" else None,
+            profiles_ns, self._name_match,
+            self._norm_club, self._filter_nat, self._filter_img,
+            self._norm_dob, self._fmt_season)
+        # DOB didn't match → post_career_role NOT set
+        assert "post_career_role" not in cm[200]

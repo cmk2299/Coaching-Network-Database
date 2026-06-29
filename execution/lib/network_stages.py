@@ -14,6 +14,7 @@ Stage pipeline order (the order they run in build_network):
   • add_former_teammates_from_squads(...)                    → Section 2b
   • add_gemeinsame_spiele_teammates(...)                     → Section 2c (real TM match counts)
   • add_players_coached(...)                                 → Section 3 (squad-overlap + post-career role)
+  • enrich_contacts_from_profiles(...)                       → backfill image/nat/dob/club from int-keyed profiles (F1 ns-guard)
   • resolve_post_career_roles(contacts_map, …)               → "Karriereende" → real role
   • enrich_cross_references(contacts_map)                    → triangular relationships
   • drop_low_value_categories(contacts_map)                  → strip scouting/medical
@@ -146,6 +147,48 @@ def compute_playing_career_window(career, profile):
 
     playing_end_conservative = max(playing_end - 2, playing_start)
     return set(range(max(playing_start, 2010), playing_end_conservative + 1))
+
+
+def enrich_contacts_from_profiles(contacts_map, profiles,
+                                    profile_namespace_mismatch,
+                                    normalize_club, filter_nationality,
+                                    filter_default_image, normalize_dob):
+    """Fill in missing image_url / nationality / dob / current_club / license
+    on each contact from the int-keyed `profiles` dict.
+
+    PATTERN 25 FIX: applies the F1 dual-namespace guard — for tm_ids that
+    resolve to different people in spieler vs trainer namespace (e.g. 104 =
+    spieler Bobic + trainer Junghans), preload_all_profiles' int-keyed dict
+    returns ONE of them. Without the guard the contact "Fredi Bobic" would
+    get enriched with Junghans's club + image. profile_namespace_mismatch is
+    injected so the lib stays decoupled.
+
+    Returns (enriched_count, ns_mismatch_skipped) for caller logging.
+    Mutates contacts in place.
+    """
+    enriched = 0
+    ns_mismatch_skipped = 0
+    for tm_id, c in contacts_map.items():
+        p = profiles.get(tm_id)
+        if not p:
+            continue
+        if profile_namespace_mismatch(c.get("name", ""), p.get("name", "")):
+            ns_mismatch_skipped += 1
+            continue
+        if not c.get("image_url") and p.get("image_url"):
+            c["image_url"] = filter_default_image(p["image_url"])
+            enriched += 1
+        if not c.get("nationality") and p.get("nationality"):
+            c["nationality"] = filter_nationality(p["nationality"])
+        if not c.get("dob") and p.get("dob"):
+            c["dob"] = normalize_dob(p["dob"])
+        if not c.get("current_club") and p.get("current_club"):
+            cc = p["current_club"]
+            c["current_club"] = (normalize_club(cc.get("name", ""), cc.get("tm_id"))
+                                 if isinstance(cc, dict) else str(cc))
+        if not c.get("license") and p.get("license"):
+            c["license"] = p["license"]
+    return enriched, ns_mismatch_skipped
 
 
 def add_players_coached(coach_tm_id, coach_stations, contacts_map,
