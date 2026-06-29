@@ -36,6 +36,7 @@ from lib import scoring
 from lib.network_stages import (
     CAT_ORDER,
     add_current_staff_colleagues,
+    add_staff_at_career_stations,
     compute_playing_career_window,
     current_career_first,
     dedupe_same_profile_contacts,
@@ -749,51 +750,13 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         classify_staff_section, classify_role, compute_role_display,
     )
 
-    # ── 1b) Staff at ALL career stations (not just current) ──
-    # This picks up foreign club staff files created by scrape_foreign_staff.py
-    # IMPORTANT: Staff files only contain CURRENT personnel, so we must check
-    # temporal overlap — only include staff if the coach was at this club recently
-    # enough that the current staff likely overlapped with them.
-    CURRENT_SEASON = 2025  # 2025/26
-    MAX_STAFF_SEASON_GAP = 1  # staff file is current; allow 1-season grace period
-    for club_id, info in coach_stations.items():
-        if club_id == current_club_id:
-            continue  # Already handled in step 1
-        # Only use staff file if coach was at this club recently
-        # Staff files are snapshots of CURRENT staff, so they're only valid
-        # if the coach's tenure overlaps with the current season (±1)
-        coach_latest_season = max(info["seasons"]) if info["seasons"] else 0
-        if coach_latest_season < CURRENT_SEASON - MAX_STAFF_SEASON_GAP:
-            continue  # Coach left this club too long ago; staff file is stale
-        staff = load_staff(club_id)
-        if not staff:
-            continue
-        club_name = normalize_club(info["name"], info.get("tm_id"))
-        for s in staff.get("staff", []):
-            if s["tm_id"] == coach_tm_id:
-                continue
-            if s["tm_id"] not in contacts_map:
-                validated_id = validate_staff_tm_id(s["name"], s["tm_id"], profiles)
-                _sec_1b = s.get("section", "")
-                _cat_1b = classify_staff_section(_sec_1b)
-                contacts_map[s["tm_id"]] = {
-                    "name": s["name"],
-                    "stations": [club_name],
-                    "category": _cat_1b,
-                    "role": compute_role_display(
-                        category=_cat_1b,
-                        section=_sec_1b,
-                        club_name=club_name,
-                    ),
-                    "tm_url": s.get("tm_url", "") if validated_id else None,
-                    "tm_id": validated_id or s["tm_id"],
-                    "_validated_tm_id": validated_id,
-                    "_staff_section": _sec_1b,  # Track original section for upgrade logic
-                    "seasons_together": 1,
-                    "_latest_season": max(info["seasons"]) if info["seasons"] else 2020,
-                }
-            elif club_name not in contacts_map[s["tm_id"]]["stations"]:
-                contacts_map[s["tm_id"]]["stations"].append(club_name)
+    # Section 1b: staff at ALL career-station clubs (foreign-staff coverage
+    # via scrape_foreign_staff). Extracted to lib.network_stages.
+    add_staff_at_career_stations(
+        coach_tm_id, coach_stations, current_club_id, contacts_map, profiles,
+        load_staff, normalize_club, validate_staff_tm_id,
+        classify_staff_section, compute_role_display,
+    )
 
     # ── 2) Shared career stations (using inverted index = FAST) ──
     # Instead of scanning all 2,794 profiles, we only look up profiles

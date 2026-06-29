@@ -351,3 +351,138 @@ class TestRefineExecutiveTier:
         from lib.network_stages import refine_executive_tier
         prof = {"career_history": [{"role": "Anything", "date_to": "-"}]}
         assert refine_executive_tier("executive", prof, None) == "executive"
+
+
+class _StaffStubs:
+    """Reusable fakes for the injected deps of staff-section extractors."""
+    @staticmethod
+    def normalize_club(name, tm_id=None):
+        return name
+    @staticmethod
+    def validate_staff_tm_id(name, tm_id, profiles):
+        return tm_id  # Pretend all IDs validate
+    @staticmethod
+    def classify_staff_section(section):
+        return {"Trainerstab": "coaching_staff", "Vorstand": "executive"}.get(section, "other_staff")
+    @staticmethod
+    def classify_role(role):
+        return "executive"
+    @staticmethod
+    def compute_role_display(category, section, club_name):
+        return f"{section} @ {club_name}"
+
+
+class TestAddCurrentStaffColleagues:
+    def test_skips_when_no_current_club(self):
+        from lib.network_stages import add_current_staff_colleagues
+        cm = {}
+        add_current_staff_colleagues(
+            42, {"current_club": {}}, cm, {}, lambda c: None,
+            _StaffStubs.normalize_club, _StaffStubs.validate_staff_tm_id,
+            _StaffStubs.classify_staff_section, _StaffStubs.classify_role,
+            _StaffStubs.compute_role_display,
+        )
+        assert cm == {}
+
+    def test_adds_colleagues_skipping_self(self):
+        from lib.network_stages import add_current_staff_colleagues
+        cm = {}
+        profile = {"current_club": {"tm_id": 7, "name": "FC X"}}
+        staff = {"club_name": "FC X", "staff": [
+            {"tm_id": 42, "name": "Coach Self", "section": "Trainerstab"},
+            {"tm_id": 100, "name": "Co-Trainer", "section": "Trainerstab"},
+        ]}
+        add_current_staff_colleagues(
+            42, profile, cm, {}, lambda c: staff,
+            _StaffStubs.normalize_club, _StaffStubs.validate_staff_tm_id,
+            _StaffStubs.classify_staff_section, _StaffStubs.classify_role,
+            _StaffStubs.compute_role_display,
+        )
+        assert 42 not in cm and 100 in cm
+        assert cm[100]["stations"] == ["FC X"]
+        assert cm[100]["category"] == "coaching_staff"
+
+    def test_no_staff_file_no_writes(self):
+        from lib.network_stages import add_current_staff_colleagues
+        cm = {}
+        profile = {"current_club": {"tm_id": 7}}
+        add_current_staff_colleagues(
+            42, profile, cm, {}, lambda c: None,
+            _StaffStubs.normalize_club, _StaffStubs.validate_staff_tm_id,
+            _StaffStubs.classify_staff_section, _StaffStubs.classify_role,
+            _StaffStubs.compute_role_display,
+        )
+        assert cm == {}
+
+
+class TestAddStaffAtCareerStations:
+    def _stations_recent(self, club_id, name):
+        from lib.network_stages import CURRENT_SEASON
+        return {club_id: {"tm_id": club_id, "name": name,
+                          "seasons": {CURRENT_SEASON, CURRENT_SEASON - 1}}}
+
+    def _stations_stale(self, club_id, name):
+        return {club_id: {"tm_id": club_id, "name": name, "seasons": {2018}}}
+
+    def test_skips_current_club(self):
+        from lib.network_stages import add_staff_at_career_stations
+        cm = {}
+        stations = self._stations_recent(50, "Old Club")
+        staff_called = []
+        def load(cid): staff_called.append(cid); return None
+        add_staff_at_career_stations(
+            42, stations, current_club_id=50, contacts_map=cm,
+            profiles={}, load_staff=load,
+            normalize_club=_StaffStubs.normalize_club,
+            validate_staff_tm_id=_StaffStubs.validate_staff_tm_id,
+            classify_staff_section=_StaffStubs.classify_staff_section,
+            compute_role_display=_StaffStubs.compute_role_display,
+        )
+        assert staff_called == []  # current club skipped, load_staff not called
+
+    def test_stale_club_skipped(self):
+        from lib.network_stages import add_staff_at_career_stations
+        cm = {}
+        stations = self._stations_stale(60, "Long Ago FC")  # 2018 = stale
+        called = []
+        def load(cid): called.append(cid); return {"staff": []}
+        add_staff_at_career_stations(
+            42, stations, current_club_id=None, contacts_map=cm,
+            profiles={}, load_staff=load,
+            normalize_club=_StaffStubs.normalize_club,
+            validate_staff_tm_id=_StaffStubs.validate_staff_tm_id,
+            classify_staff_section=_StaffStubs.classify_staff_section,
+            compute_role_display=_StaffStubs.compute_role_display,
+        )
+        assert called == []  # tenure too old → no load
+
+    def test_recent_club_adds_colleagues(self):
+        from lib.network_stages import add_staff_at_career_stations
+        cm = {}
+        stations = self._stations_recent(70, "Recent FC")
+        staff = {"staff": [{"tm_id": 999, "name": "Col", "section": "Trainerstab"}]}
+        add_staff_at_career_stations(
+            42, stations, current_club_id=None, contacts_map=cm,
+            profiles={}, load_staff=lambda c: staff,
+            normalize_club=_StaffStubs.normalize_club,
+            validate_staff_tm_id=_StaffStubs.validate_staff_tm_id,
+            classify_staff_section=_StaffStubs.classify_staff_section,
+            compute_role_display=_StaffStubs.compute_role_display,
+        )
+        assert 999 in cm
+        assert "Recent FC" in cm[999]["stations"]
+
+    def test_existing_contact_just_appends_station(self):
+        from lib.network_stages import add_staff_at_career_stations
+        cm = {999: {"name": "Col", "stations": ["Other Club"]}}
+        stations = self._stations_recent(70, "Recent FC")
+        staff = {"staff": [{"tm_id": 999, "name": "Col", "section": "Trainerstab"}]}
+        add_staff_at_career_stations(
+            42, stations, current_club_id=None, contacts_map=cm,
+            profiles={}, load_staff=lambda c: staff,
+            normalize_club=_StaffStubs.normalize_club,
+            validate_staff_tm_id=_StaffStubs.validate_staff_tm_id,
+            classify_staff_section=_StaffStubs.classify_staff_section,
+            compute_role_display=_StaffStubs.compute_role_display,
+        )
+        assert cm[999]["stations"] == ["Other Club", "Recent FC"]

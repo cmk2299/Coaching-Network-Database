@@ -116,6 +116,60 @@ def compute_playing_career_window(career, profile):
     return set(range(max(playing_start, 2010), playing_end_conservative + 1))
 
 
+CURRENT_SEASON = 2025  # 2025/26 — bump at season rollover
+MAX_STAFF_SEASON_GAP = 1  # staff file is current snapshot; allow 1-season grace
+
+
+def add_staff_at_career_stations(coach_tm_id, coach_stations, current_club_id,
+                                   contacts_map, profiles, load_staff,
+                                   normalize_club, validate_staff_tm_id,
+                                   classify_staff_section, compute_role_display):
+    """Section 1b: add staff from ALL the coach's career-station clubs (not just
+    the current one), picking up foreign-club staff via scrape_foreign_staff.
+
+    Critical temporal-overlap guard: staff files are CURRENT snapshots, so they
+    only validly represent colleagues if the coach's tenure overlaps with the
+    current season (±1). Skips stations the coach left too long ago, otherwise
+    foreign-club staff that joined years later would be falsely linked.
+
+    Skips the coach themselves and the current_club_id (already handled by
+    add_current_staff_colleagues). For tm_ids already in contacts_map, only
+    appends the new station to existing stations[]. Pure side-effects.
+    """
+    for club_id, info in coach_stations.items():
+        if club_id == current_club_id:
+            continue
+        coach_latest_season = max(info["seasons"]) if info["seasons"] else 0
+        if coach_latest_season < CURRENT_SEASON - MAX_STAFF_SEASON_GAP:
+            continue  # Stale: staff file post-dates coach's tenure
+        staff = load_staff(club_id)
+        if not staff:
+            continue
+        club_name = normalize_club(info["name"], info.get("tm_id"))
+        for s in staff.get("staff", []):
+            if s["tm_id"] == coach_tm_id:
+                continue
+            if s["tm_id"] not in contacts_map:
+                validated_id = validate_staff_tm_id(s["name"], s["tm_id"], profiles)
+                sec = s.get("section", "")
+                cat = classify_staff_section(sec)
+                contacts_map[s["tm_id"]] = {
+                    "name": s["name"],
+                    "stations": [club_name],
+                    "category": cat,
+                    "role": compute_role_display(category=cat, section=sec,
+                                                 club_name=club_name),
+                    "tm_url": s.get("tm_url", "") if validated_id else None,
+                    "tm_id": validated_id or s["tm_id"],
+                    "_validated_tm_id": validated_id,
+                    "_staff_section": sec,
+                    "seasons_together": 1,
+                    "_latest_season": max(info["seasons"]) if info["seasons"] else 2020,
+                }
+            elif club_name not in contacts_map[s["tm_id"]]["stations"]:
+                contacts_map[s["tm_id"]]["stations"].append(club_name)
+
+
 def add_current_staff_colleagues(coach_tm_id, profile, contacts_map, profiles,
                                   load_staff, normalize_club, validate_staff_tm_id,
                                   classify_staff_section, classify_role,
