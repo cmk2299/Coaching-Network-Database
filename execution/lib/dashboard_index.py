@@ -37,14 +37,57 @@ def _load_dm_ids() -> Set[int]:
         return set()
 
 
+_PERSONS_CACHE: Dict[str, dict] | None = None
+
+
 def _load_persons() -> Dict[str, dict]:
-    """Load persons_master {tm_id_str: person_dict}."""
+    """Lazily load persons_master {tm_id_str: person_dict}, memoized.
+
+    Perf (2026-06-29): persons_master is ~300MB. It's only needed as a FALLBACK
+    when a network file can't be read (the normal path takes slug from the network
+    JSON itself), so eager-loading it in build_dashboard_index AND
+    build_dashboard_variants wasted ~600MB and minutes (and OOM-killed when both
+    ran in one process). Now it loads at most once, and only if the fallback path
+    is actually hit."""
+    global _PERSONS_CACHE
+    if _PERSONS_CACHE is not None:
+        return _PERSONS_CACHE
     if not PERSONS_MASTER.exists():
-        return {}
+        _PERSONS_CACHE = {}
+        return _PERSONS_CACHE
     try:
-        return json.load(open(PERSONS_MASTER)).get("persons", {})
+        _PERSONS_CACHE = json.load(open(PERSONS_MASTER)).get("persons", {})
     except (json.JSONDecodeError, OSError):
-        return {}
+        _PERSONS_CACHE = {}
+    return _PERSONS_CACHE
+
+
+_SCAN_CACHE: "list[tuple[int, str]] | None" = None
+
+
+def _scan_networks() -> "list[tuple[int, str]]":
+    """Scan data/networks once → [(tm_id, slug), ...], memoized. Both
+    build_dashboard_index and build_dashboard_variants need the same (tm_id, slug)
+    list; without this they each json.load all ~3,300 network files (2× the I/O)."""
+    global _SCAN_CACHE
+    if _SCAN_CACHE is not None:
+        return _SCAN_CACHE
+    out: "list[tuple[int, str]]" = []
+    for net_file in sorted(NETWORKS_DIR.glob("*.json")):
+        try:
+            tm_id = int(net_file.stem)
+        except ValueError:
+            continue
+        try:
+            net = json.load(open(net_file))
+            slug = net.get("slug") or slugify(net.get("center", ""))
+        except (json.JSONDecodeError, OSError):
+            p = _load_persons().get(str(tm_id)) or {}
+            slug = slugify(p.get("name", ""))
+        if slug:
+            out.append((tm_id, slug))
+    _SCAN_CACHE = out
+    return out
 
 
 def build_dashboard_index() -> Dict[int, str]:
@@ -60,25 +103,10 @@ def build_dashboard_index() -> Dict[int, str]:
       4. nlz_dash file exists → "{slug}_nlz"
       5. fallback → "{slug}"  (file may appear later, e.g. mid-batch)
     """
-    persons = _load_persons()
     dm_ids = _load_dm_ids()
 
     index: Dict[int, str] = {}
-    for net_file in sorted(NETWORKS_DIR.glob("*.json")):
-        try:
-            tm_id = int(net_file.stem)
-        except ValueError:
-            continue
-        # Prefer network-internal slug (set by build_coach_network.py) → fallback to slugify(name)
-        try:
-            net = json.load(open(net_file))
-            slug = net.get("slug") or slugify(net.get("center", ""))
-        except (json.JSONDecodeError, OSError):
-            p = persons.get(str(tm_id)) or {}
-            slug = slugify(p.get("name", ""))
-        if not slug:
-            continue
-
+    for tm_id, slug in _scan_networks():
         coach_dash = DASHBOARD_DIR / f"{slug}_network.html"
         sd_dash = DASHBOARD_DIR / f"{slug}_sd_network.html"
         nlz_dash = DASHBOARD_DIR / f"{slug}_nlz_network.html"
@@ -105,22 +133,8 @@ def build_dashboard_variants() -> Dict[int, Dict[str, str]]:
     dashboards (e.g. Sebastian Hoeneß has both head_coach and NLZ-era networks),
     the template surfaces all variants as cross-links in the dashboard header.
     """
-    persons = _load_persons()
     variants: Dict[int, Dict[str, str]] = {}
-    for net_file in sorted(NETWORKS_DIR.glob("*.json")):
-        try:
-            tm_id = int(net_file.stem)
-        except ValueError:
-            continue
-        try:
-            net = json.load(open(net_file))
-            slug = net.get("slug") or slugify(net.get("center", ""))
-        except (json.JSONDecodeError, OSError):
-            p = persons.get(str(tm_id)) or {}
-            slug = slugify(p.get("name", ""))
-        if not slug:
-            continue
-
+    for tm_id, slug in _scan_networks():
         kinds: Dict[str, str] = {}
         if (DASHBOARD_DIR / f"{slug}_network.html").exists():
             kinds["coach"] = slug
