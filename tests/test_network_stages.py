@@ -194,3 +194,79 @@ class TestScoringFinalizer:
         ]
         scoring_finalizer(cs)
         assert cs[0]["category"] == "head_coach"  # head_coach < player_coached in CAT_ORDER
+
+
+class TestSanitizeIdIntegrity:
+    def test_no_profile_match_leaves_contact_alone(self):
+        from lib.network_stages import sanitize_id_integrity
+        cs = [{"name": "Schäfer", "_tm_id": 999, "category": "head_coach"}]
+        # empty profiles_ns = no profile to contradict
+        n = sanitize_id_integrity(cs, {}, lambda a, b: a == b)
+        assert n == 0
+        assert cs[0]["category"] == "head_coach"
+
+    def test_name_match_keeps_contact(self):
+        from lib.network_stages import sanitize_id_integrity
+        cs = [{"name": "Bode", "_tm_id": 5, "category": "head_coach",
+               "current_club": "Werder", "career_history": [{"club": "X"}]}]
+        ns = {"trainer_5": {"name": "Bode"}}
+        assert sanitize_id_integrity(cs, ns, lambda a, b: a == b) == 0
+        assert cs[0]["current_club"] == "Werder"
+
+    def test_mismatch_player_origin_reverts_to_former_teammate(self):
+        from lib.network_stages import sanitize_id_integrity
+        cs = [{"name": "Bode", "_tm_id": 5, "category": "head_coach",
+               "current_club": "US Salernitana", "shared_matches": 50,
+               "role": "Head Coach (Salernitana)", "post_career_role": True}]
+        # _tm_id 5 belongs to a different person
+        ns = {"spieler_5": {"name": "Someone Else"}}
+        assert sanitize_id_integrity(cs, ns, lambda a, b: a == b) == 1
+        c = cs[0]
+        assert c["category"] == "former_teammate"
+        assert c["pro_status"] == "player"
+        assert c["current_club"] is None
+        assert c["career_history"] is None
+        assert "post_career_role" not in c
+        assert c["role"] == "Mitspieler"
+
+    def test_mismatch_unknown_origin_neutralizes_role_paren(self):
+        from lib.network_stages import sanitize_id_integrity
+        cs = [{"name": "X", "_tm_id": 7, "category": "head_coach",
+               "role": "Cheftrainer (FC Wrong)", "current_club": "FC Wrong"}]
+        ns = {"trainer_7": {"name": "Different Person"}}
+        assert sanitize_id_integrity(cs, ns, lambda a, b: a == b) == 1
+        assert cs[0]["role"] == "Cheftrainer"
+        assert cs[0]["current_club"] is None
+
+
+class TestDedupeSameProfileContacts:
+    def test_merges_same_url_keeps_higher_score(self):
+        from lib.network_stages import dedupe_same_profile_contacts
+        cs = [
+            {"name": "Honold", "tm_url": "https://x/trainer/10853",
+             "relevance_score": 30, "stations": ["FC A"]},
+            {"name": "Honold", "tm_url": "https://x/trainer/10853",
+             "relevance_score": 80, "stations": ["FC B", "FC C"]},
+        ]
+        out, dropped = dedupe_same_profile_contacts(cs)
+        assert dropped == 1
+        assert len(out) == 1
+        assert out[0]["relevance_score"] == 80
+        assert set(out[0]["stations"]) == {"FC A", "FC B", "FC C"}
+
+    def test_different_namespace_not_merged(self):
+        from lib.network_stages import dedupe_same_profile_contacts
+        cs = [
+            {"tm_url": "https://x/spieler/5", "relevance_score": 10},
+            {"tm_url": "https://x/trainer/5", "relevance_score": 20},
+        ]
+        out, dropped = dedupe_same_profile_contacts(cs)
+        assert dropped == 0
+        assert len(out) == 2
+
+    def test_no_url_skipped(self):
+        from lib.network_stages import dedupe_same_profile_contacts
+        cs = [{"name": "no url"}, {"name": "no url 2"}]
+        out, dropped = dedupe_same_profile_contacts(cs)
+        assert dropped == 0
+        assert len(out) == 2

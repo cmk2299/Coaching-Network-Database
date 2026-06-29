@@ -48,10 +48,16 @@ for r in $(seq 1 "$ROUNDS"); do
 done
 
 echo "══════════════════════════════════════════════════════════════"
+echo "  PIPELINE VOLUME (artifact counts vs baseline):"
+$PY execution/validate_pipeline.py
+vrc=$?
+[ "$vrc" -ne 0 ] && fail_total=$((fail_total+1))
+
+echo "══════════════════════════════════════════════════════════════"
 if [ "$fail_total" -eq 0 ]; then
-  echo "  ✓✓ ALL $ROUNDS ROUNDS CLEAN ($LABEL)"
+  echo "  ✓✓ ALL $ROUNDS ROUNDS CLEAN ($LABEL) + volume OK"
   exit 0
 else
-  echo "  ✗ $fail_total/$ROUNDS rounds had findings — fix root cause, re-run."
+  echo "  ✗ $fail_total/$ROUNDS rounds had findings or volume regressed — fix root cause."
   exit 1
 fi

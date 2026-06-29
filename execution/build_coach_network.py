@@ -34,12 +34,14 @@ from typing import Optional, Dict, List, Tuple
 # ── Shared library imports ────────────────────────────────────────────
 from lib import scoring
 from lib.network_stages import (
+    dedupe_same_profile_contacts,
     drop_low_value_categories,
     enrich_cross_references,
     normalize_contact_urls,
     parse_coach_stations,
     remove_connection_self_loops,
     resolve_post_career_roles,
+    sanitize_id_integrity,
     scoring_finalizer,
 )
 from lib.normalization import (
@@ -2266,85 +2268,15 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
             "agent_relationships": (ap.get("agent_relationships") or [])[:3],
         }
 
-    # ── FINAL ID-INTEGRITY SANITIZER (2026-06-04) ──────────────────────────
-    # Single chokepoint guarding against TM namespace id-reuse: if a contact's
-    # _tm_id resolves (in EITHER namespace) only to a DIFFERENT person, any
-    # role/current_club enriched from that wrong profile is bogus. Strip such
-    # fields back to a safe player-base. Catches every upstream path at once
-    # (GS bogus ids, lookup_active_staff namesakes, career-history leaks).
-    _ns_cache = _cache.get("profiles_ns") or {}
-    _san = 0
-    for c in contacts_list:
-        tid = c.get("_tm_id")
-        if not tid:
-            continue
-        sp = _ns_cache.get(f"spieler_{tid}")
-        tr = _ns_cache.get(f"trainer_{tid}")
-        names = [p.get("name") for p in (sp, tr) if p]
-        if not names:
-            continue  # no profile to contradict the contact — leave as-is
-        if any(_name_matches(n, c.get("name", "")) for n in names):
-            continue  # at least one namespace confirms the person — OK
-        # Neither namespace matches → the id points at someone else. EVERY field
-        # enriched from that wrong profile is bogus, regardless of the contact's
-        # CURRENT category — because an upstream path may have FALSELY PROMOTED a
-        # player/teammate to head_coach/scouting/exec using the foreign profile
-        # (Marco Bode → "head_coach US Salernitana"; Ilsanker → wrong id 1040).
-        cat = c.get("category")
-        # Detect a player/teammate ORIGIN even if currently mislabeled.
-        is_player_origin = (
-            cat in ("former_teammate", "player_coached")
-            or c.get("shared_matches") is not None
-            or str(c.get("note", "")).lower().startswith(("mitspieler", "spieler"))
-            or c.get("relationship_type") == "playing"
-        )
-        c["current_club"] = None
-        c["career_history"] = None
-        c.pop("post_career_role", None)
-        if is_player_origin:
-            # revert any false promotion back to teammate/player
-            base_cat = "player_coached" if cat == "player_coached" else "former_teammate"
-            c["category"] = base_cat
-            c["pro_status"] = "player"
-            if not str(c.get("role", "")).lower().startswith(("mitspieler", "spieler")):
-                c["role"] = "Mitspieler" if base_cat == "former_teammate" else "Spieler"
-        else:
-            # unknown-origin contact with a wrong id: neutralize the role/club but
-            # keep the name; don't invent a category.
-            if c.get("role") and "(" in str(c.get("role")):
-                c["role"] = str(c["role"]).split("(")[0].strip() or "Unbekannt"
-        _san += 1
+    # Extracted to lib.network_stages (decomp 2026-06-29).
+    _san = sanitize_id_integrity(
+        contacts_list, _cache.get("profiles_ns") or {}, _name_matches)
     if _san:
         print(f"  ID-sanitizer: reset {_san} contact(s) with mismatched namespace id")
 
-    # Same-profile dedup (logic_audit LX2 2026-06-07): one person can enter via
-    # two different _tm_id values that BOTH resolve to the same TM profile url
-    # (e.g. Hans-Jörg Honold: staff id 10853 + academy id 24762, both pointing at
-    # /trainer/10853). Merge by tm_url namespace: keep the higher-relevance
-    # contact, union its stations. Only touches exact same-profile pairs, so
-    # networks without such a collision are unaffected.
-    _by_url = {}
-    _dedup_drop = set()
-    for c in contacts_list:
-        m = _re_module.search(r"/(spieler|trainer)/(\d+)", c.get("tm_url") or "")
-        if not m:
-            continue
-        key = (m.group(1), m.group(2))
-        prev = _by_url.get(key)
-        if prev is None:
-            _by_url[key] = c
-            continue
-        rank = lambda x: ((x.get("relevance_score") or 0), len(x.get("stations") or []))
-        better, worse = (c, prev) if rank(c) > rank(prev) else (prev, c)
-        su = better.setdefault("stations", [])
-        for s in worse.get("stations", []) or []:
-            if s not in su:
-                su.append(s)
-        _dedup_drop.add(id(worse))
-        _by_url[key] = better
+    contacts_list, _dedup_drop = dedupe_same_profile_contacts(contacts_list)
     if _dedup_drop:
-        contacts_list = [c for c in contacts_list if id(c) not in _dedup_drop]
-        print(f"  Same-URL dedup: merged {len(_dedup_drop)} duplicate-profile contact(s)")
+        print(f"  Same-URL dedup: merged {_dedup_drop} duplicate-profile contact(s)")
 
     # Extracted to lib.network_stages.scoring_finalizer (same name + behaviour).
     scoring_finalizer(contacts_list)

@@ -71,6 +71,85 @@ def enrich_cross_references(contacts_map: Dict) -> int:
     return cross_refs
 
 
+import re as _re
+
+
+def sanitize_id_integrity(contacts_list, profiles_ns, name_matches):
+    """Single chokepoint guarding against TM namespace id-reuse: if a contact's
+    _tm_id resolves (in EITHER namespace) only to a DIFFERENT person, every
+    field enriched from that wrong profile is bogus. Strips role/current_club/
+    career_history and reverts false promotions back to teammate/player base.
+
+    Dependencies injected to keep lib/ import-light:
+      profiles_ns: dict[str, dict]  — {kind}_{tm_id} keys, value=profile
+      name_matches(a, b) -> bool    — diacritic-insensitive, surname-anchored
+
+    Returns count sanitized.
+    """
+    san = 0
+    for c in contacts_list:
+        tid = c.get("_tm_id")
+        if not tid:
+            continue
+        sp = profiles_ns.get(f"spieler_{tid}")
+        tr = profiles_ns.get(f"trainer_{tid}")
+        names = [p.get("name") for p in (sp, tr) if p]
+        if not names:
+            continue
+        if any(name_matches(n, c.get("name", "")) for n in names):
+            continue
+        cat = c.get("category")
+        is_player_origin = (
+            cat in ("former_teammate", "player_coached")
+            or c.get("shared_matches") is not None
+            or str(c.get("note", "")).lower().startswith(("mitspieler", "spieler"))
+            or c.get("relationship_type") == "playing"
+        )
+        c["current_club"] = None
+        c["career_history"] = None
+        c.pop("post_career_role", None)
+        if is_player_origin:
+            base_cat = "player_coached" if cat == "player_coached" else "former_teammate"
+            c["category"] = base_cat
+            c["pro_status"] = "player"
+            if not str(c.get("role", "")).lower().startswith(("mitspieler", "spieler")):
+                c["role"] = "Mitspieler" if base_cat == "former_teammate" else "Spieler"
+        else:
+            if c.get("role") and "(" in str(c.get("role")):
+                c["role"] = str(c["role"]).split("(")[0].strip() or "Unbekannt"
+        san += 1
+    return san
+
+
+def dedupe_same_profile_contacts(contacts_list):
+    """Merge contacts that enter via different _tm_id values but BOTH resolve
+    to the same TM profile URL (Hans-Jörg Honold: staff id 10853 + academy id
+    24762, both pointing at /trainer/10853). Keep the higher-relevance contact,
+    union stations. Returns (new_list, dropped_count)."""
+    by_url = {}
+    dedup_drop = set()
+    for c in contacts_list:
+        m = _re.search(r"/(spieler|trainer)/(\d+)", c.get("tm_url") or "")
+        if not m:
+            continue
+        key = (m.group(1), m.group(2))
+        prev = by_url.get(key)
+        if prev is None:
+            by_url[key] = c
+            continue
+        rank = lambda x: ((x.get("relevance_score") or 0), len(x.get("stations") or []))
+        better, worse = (c, prev) if rank(c) > rank(prev) else (prev, c)
+        su = better.setdefault("stations", [])
+        for s in worse.get("stations", []) or []:
+            if s not in su:
+                su.append(s)
+        dedup_drop.add(id(worse))
+        by_url[key] = better
+    if dedup_drop:
+        return [c for c in contacts_list if id(c) not in dedup_drop], len(dedup_drop)
+    return contacts_list, 0
+
+
 CAT_ORDER = {"head_coach": 0, "sporting_director": 1, "executive": 2,
              "executive_governance": 3, "coaching_staff": 4, "lehrgang": 5,
              "scouting": 6, "management": 7, "executive_secondary": 8,
