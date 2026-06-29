@@ -58,13 +58,18 @@ class TestGateLogic:
         seeded = json.load(open(fake))
         assert "networks" in seeded
 
+    # Fake metrics: synthesize values so tests work in any env (CI has no
+    # output/index.html so real metrics() would always fail the gate).
+    _FAKE_METRICS = {"networks": 100, "person_profiles": 1000, "dashboards": 100,
+                     "staff_files": 50, "persons_master_bytes": 1000000,
+                     "index_exists": 1}
+
     def test_regression_above_tolerance_exits_nonzero(self, tmp_path, monkeypatch):
         mod = _import_module()
         fake = tmp_path / ".pipeline_baseline.json"
-        # Inflate baseline so current looks like a major drop
-        cur = mod.metrics()
+        monkeypatch.setattr(mod, "metrics", lambda: dict(self._FAKE_METRICS))
         inflated = {k: (v * 10 if isinstance(v, int) and k != "index_exists" else v)
-                    for k, v in cur.items()}
+                    for k, v in self._FAKE_METRICS.items()}
         json.dump(inflated, open(fake, "w"))
         monkeypatch.setattr(mod, "BASELINE", fake)
         monkeypatch.setattr(sys, "argv", ["validate_pipeline.py"])
@@ -77,8 +82,8 @@ class TestGateLogic:
     def test_within_tolerance_passes(self, tmp_path, monkeypatch):
         mod = _import_module()
         fake = tmp_path / ".pipeline_baseline.json"
-        cur = mod.metrics()
-        json.dump(cur, open(fake, "w"))
+        monkeypatch.setattr(mod, "metrics", lambda: dict(self._FAKE_METRICS))
+        json.dump(self._FAKE_METRICS, open(fake, "w"))
         monkeypatch.setattr(mod, "BASELINE", fake)
         monkeypatch.setattr(sys, "argv", ["validate_pipeline.py"])
         try:
