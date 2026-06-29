@@ -36,6 +36,7 @@ from lib import scoring
 from lib.network_stages import (
     CAT_ORDER,
     add_current_staff_colleagues,
+    add_shared_career_stations,
     add_staff_at_career_stations,
     compute_playing_career_window,
     current_career_first,
@@ -758,105 +759,14 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         classify_staff_section, compute_role_display,
     )
 
-    # ── 2) Shared career stations (using inverted index = FAST) ──
-    # Instead of scanning all 2,794 profiles, we only look up profiles
-    # that were at the same (club, season) as our coach.
-    candidate_ids = set()
-    for key in coach_club_seasons:
-        for tm_id in profile_index.get(key, []):
-            if tm_id != coach_tm_id:
-                candidate_ids.add(tm_id)
-
-    coaches_matched = 0
-    for other_id in candidate_ids:
-        other = profiles.get(other_id)
-        if not other:
-            continue
-
-        other_career = other.get("career_history", [])
-        if not other_career:
-            continue
-
-        # Find shared stations
-        shared_stations = defaultdict(set)  # club_name → set of seasons
-        for entry in other_career:
-            other_club_id = entry.get("club_tm_id")
-            if not other_club_id:
-                continue
-            for s in get_season_range(entry.get("date_from", ""), entry.get("date_to", "")):
-                key = (other_club_id, s)
-                if key in coach_club_seasons:
-                    shared_stations[coach_club_seasons[key]].add(s)
-
-        if not shared_stations:
-            continue
-
-        coaches_matched += 1
-        latest_role = other_career[0].get("role", "") if other_career else ""
-        category = classify_role(latest_role)
-        other_current = other.get("current_club") or {}
-
-        station_names = sorted(shared_stations.keys())  # sorted → deterministic order
-        total_seasons = sum(len(s) for s in shared_stations.values())
-        all_shared_seasons = set().union(*shared_stations.values())
-        latest_shared = max(all_shared_seasons) if all_shared_seasons else 2015
-
-        # Build note string
-        station_details = []
-        for sname, seasons in shared_stations.items():
-            s_sorted = sorted(seasons)
-            if len(s_sorted) == 1:
-                station_details.append(f"{sname} ({format_season(s_sorted[0])})")
-            else:
-                station_details.append(f"{sname} ({format_season(s_sorted[0])}–{format_season(s_sorted[-1])})")
-        note = "; ".join(station_details)
-
-        # SYSTEMIC FIX (2026-05-22): use compute_role_display() instead of raw
-        # latest_role string. Fixes TRAINER_NOT_CHEFTRAINER (285 contacts):
-        # TM stores "Trainer" as generic title even for head coaches; category is
-        # already "head_coach" via classify_role() → compute_role_display() maps it
-        # to "Cheftrainer, Club". Also fixes executive/SD display to use specific title.
-        cc_name = other_current.get("name", "") if other_current else ""
-        role_display = compute_role_display(
-            category=category,
-            section="",
-            club_name=cc_name,
-            career_history=[{"role": latest_role, "club": cc_name}] if latest_role else [],
-        )
-
-        if other_id in contacts_map:
-            existing = contacts_map[other_id]
-            for sn in station_names:
-                if sn not in existing["stations"]:
-                    existing["stations"].append(sn)
-            existing["seasons_together"] = max(existing.get("seasons_together", 0), total_seasons)
-            existing["_latest_season"] = max(existing.get("_latest_season", 0), latest_shared)
-            existing["note"] = note
-            # Upgrade category from other_staff ONLY if the contact is NOT from
-            # "Sonstiges" section (stadium speakers, mascots, etc.)
-            if existing.get("category") == "other_staff" and category != "other_staff":
-                staff_section = (existing.get("_staff_section") or "").lower()
-                if staff_section != "sonstiges":
-                    existing["category"] = category
-        else:
-            contacts_map[other_id] = {
-                "name": other.get("name", f"ID {other_id}"),
-                "stations": station_names,
-                "category": category,
-                "role": role_display,
-                "note": note,
-                "tm_url": other.get("tm_url", ""),
-                "tm_id": other_id,
-                "seasons_together": total_seasons,
-                "_latest_season": latest_shared,
-                "nationality": filter_nationality(other.get("nationality")),
-                "dob": normalize_dob(other.get("dob","") or ""),
-                "image_url": filter_default_image(other.get("image_url")),
-                "current_club": other_current.get("name") if other_current else None,
-                "license": other.get("license"),
-            }
-
-    print(f"  Candidates: {len(candidate_ids)}, matched: {coaches_matched}")
+    # Section 2: shared-career-stations sweep via inverted profile_index.
+    # Extracted to lib.network_stages.add_shared_career_stations.
+    _cand_count, coaches_matched = add_shared_career_stations(
+        coach_tm_id, coach_club_seasons, profile_index, profiles, contacts_map,
+        get_season_range, classify_role, compute_role_display, format_season,
+        filter_nationality, normalize_dob, filter_default_image,
+    )
+    print(f"  Candidates: {_cand_count}, matched: {coaches_matched}")
 
     # ── 2b) Former teammates from playing career ──
     playing_career = profile.get("playing_career", [])
