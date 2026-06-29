@@ -1,8 +1,37 @@
 """Extracted, individually-testable stages of build_coach_network.build_network().
 
-Part of the 2026-06-20 decomposition of the 2,100-line build_network() monolith
+Part of the 2026-06 decomposition of the 2,941-line build_network() monolith
 into named pure stages. Each function here is verified byte-identical against a
-golden network snapshot before landing (see /tmp golden harness in the audit work).
+golden network snapshot before landing (see /tmp/golden_harness.py).
+
+### Public API (stable; called by build_coach_network.py + tested in tests/test_network_stages.py)
+
+Stage pipeline order (the order they run in build_network):
+  • parse_coach_stations(career)                             → coach_stations dict
+  • add_current_staff_colleagues(...)                        → Section 1
+  • add_staff_at_career_stations(...)                        → Section 1b
+  • add_shared_career_stations(...)                          → Section 2 (inverted-index sweep)
+  • add_former_teammates_from_squads(...)                    → Section 2b
+  • resolve_post_career_roles(contacts_map, …)               → "Karriereende" → real role
+  • enrich_cross_references(contacts_map)                    → triangular relationships
+  • drop_low_value_categories(contacts_map)                  → strip scouting/medical
+  • normalize_contact_urls(contacts_list)                    → PATTERN 27
+  • remove_connection_self_loops(contacts_list)              → PATTERN 26b
+  • sanitize_id_integrity(contacts_list, profiles_ns, …)    → namespace-collision guard
+  • dedupe_same_profile_contacts(contacts_list)              → LX2 same-URL merger
+  • scoring_finalizer(contacts_list)                         → fill strength + canonical sort
+
+Helpers (used by stages or by callers):
+  • compute_playing_career_window(career, profile)           → set of valid seasons
+  • current_career_first(career)                             → first non-future entry
+  • is_future_career_entry(entry)                            → PATTERN 15
+  • refine_executive_tier(section_cat, profile, classify)    → finer executive class
+  • CAT_ORDER                                                → canonical category sort dict
+  • CURRENT_SEASON, MAX_STAFF_SEASON_GAP                     → temporal-overlap constants
+
+Design contract: every stage has injected dependencies (load_squad,
+normalize_club, etc.) instead of importing from lib.normalization directly.
+This keeps the lib import graph shallow and stages testable with simple stubs.
 """
 from collections import defaultdict
 from typing import Dict
@@ -114,6 +143,86 @@ def compute_playing_career_window(career, profile):
 
     playing_end_conservative = max(playing_end - 2, playing_start)
     return set(range(max(playing_start, 2010), playing_end_conservative + 1))
+
+
+def add_former_teammates_from_squads(coach_tm_id, profile, career, contacts_map,
+                                      load_squad, normalize_club,
+                                      filter_nationality, filter_default_image):
+    """Section 2b: discover the coach's former PLAYING teammates by sweeping
+    squad files of every club the coach played for, within the valid playing
+    window (compute_playing_career_window). Each squad-mate becomes a contact
+    with category=former_teammate (or upgrades to relationship_type='both' if
+    already present from career-overlap path).
+
+    Fix C (A8) preserved: each contact gets a per-club shared_stations record
+    accumulating club/seasons/matches.
+
+    Returns (playing_stations_count, valid_seasons, teammates_added) for caller
+    logging. Mutates contacts_map in place. Returns (0, set(), 0) if the coach
+    has no playing_career.
+    """
+    playing_career = profile.get("playing_career", [])
+    if not playing_career:
+        return 0, set(), 0
+
+    valid_seasons = compute_playing_career_window(career, profile)
+
+    playing_stations = {}
+    for entry in playing_career:
+        club_id = entry.get("club_tm_id")
+        if club_id:
+            playing_stations[club_id] = normalize_club(
+                entry.get("club_name", ""), club_id)
+
+    teammates_added = 0
+    for club_id, club_name in playing_stations.items():
+        for season in valid_seasons:
+            squad = load_squad(club_id, season)
+            if not squad:
+                continue
+            for player in squad.get("players", []):
+                pid = player.get("tm_id")
+                if not pid or pid == coach_tm_id:
+                    continue
+                if pid == profile.get("player_tm_id"):
+                    continue
+
+                if pid in contacts_map:
+                    existing = contacts_map[pid]
+                    if club_name not in existing["stations"]:
+                        existing["stations"].append(club_name)
+                    existing["_latest_season"] = max(
+                        existing.get("_latest_season", 0), season)
+                    if existing.get("relationship_type") != "playing":
+                        existing["relationship_type"] = "both"
+                    # Fix C (A8) — accumulate shared_stations per club/season
+                    shared_st = existing.setdefault("shared_stations", [])
+                    st_rec = next(
+                        (s for s in shared_st if s.get("club") == club_name), None)
+                    if st_rec is None:
+                        st_rec = {"club": club_name, "seasons": [], "matches": 0}
+                        shared_st.append(st_rec)
+                    if season not in st_rec["seasons"]:
+                        st_rec["seasons"].append(season)
+                else:
+                    contacts_map[pid] = {
+                        "name": player.get("name", f"Player {pid}"),
+                        "stations": [club_name],
+                        "category": "former_teammate",
+                        "role": f"Mitspieler ({player.get('position', 'Spieler')})",
+                        "note": f"Mitspieler bei {club_name}",
+                        "tm_url": player.get("tm_url", ""),
+                        "tm_id": pid,
+                        "seasons_together": 1,
+                        "_latest_season": season,
+                        "relationship_type": "playing",
+                        "nationality": filter_nationality(player.get("nationality")),
+                        "image_url": filter_default_image(player.get("image_url")),
+                        "shared_stations": [
+                            {"club": club_name, "seasons": [season], "matches": 0}],
+                    }
+                    teammates_added += 1
+    return len(playing_stations), valid_seasons, teammates_added
 
 
 def add_shared_career_stations(coach_tm_id, coach_club_seasons, profile_index,

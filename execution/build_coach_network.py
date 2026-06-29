@@ -36,9 +36,9 @@ from lib import scoring
 from lib.network_stages import (
     CAT_ORDER,
     add_current_staff_colleagues,
+    add_former_teammates_from_squads,
     add_shared_career_stations,
     add_staff_at_career_stations,
-    compute_playing_career_window,
     current_career_first,
     dedupe_same_profile_contacts,
     drop_low_value_categories,
@@ -768,69 +768,16 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
     )
     print(f"  Candidates: {_cand_count}, matched: {coaches_matched}")
 
-    # ── 2b) Former teammates from playing career ──
+    # Section 2b: extracted to lib.network_stages.add_former_teammates_from_squads
     playing_career = profile.get("playing_career", [])
-    teammates_added = 0
+    _ps_count, _valid_seasons, teammates_added = add_former_teammates_from_squads(
+        coach_tm_id, profile, career, contacts_map, load_squad, normalize_club,
+        filter_nationality, filter_default_image,
+    )
     if playing_career:
-        # Window computed by lib.network_stages.compute_playing_career_window
-        valid_seasons = compute_playing_career_window(career, profile)
-
-        playing_stations = {}
-        for entry in playing_career:
-            club_id = entry.get("club_tm_id")
-            if club_id:
-                club_name = normalize_club(entry.get("club_name", ""), club_id)
-                playing_stations[club_id] = club_name
-
-        for club_id, club_name in playing_stations.items():
-            for season in valid_seasons:
-                squad = load_squad(club_id, season)
-                if not squad:
-                    continue
-
-                for player in squad.get("players", []):
-                    pid = player.get("tm_id")
-                    if not pid or pid == coach_tm_id:
-                        continue
-                    if pid == profile.get("player_tm_id"):
-                        continue
-
-                    if pid in contacts_map:
-                        existing = contacts_map[pid]
-                        if club_name not in existing["stations"]:
-                            existing["stations"].append(club_name)
-                        existing["_latest_season"] = max(existing.get("_latest_season", 0), season)
-                        if existing.get("relationship_type") != "playing":
-                            existing["relationship_type"] = "both"
-                        # Fix C (A8 2026-05-13) — accumulate shared_stations per club/season
-                        shared_st = existing.setdefault("shared_stations", [])
-                        st_rec = next((s for s in shared_st if s.get("club") == club_name), None)
-                        if st_rec is None:
-                            st_rec = {"club": club_name, "seasons": [], "matches": 0}
-                            shared_st.append(st_rec)
-                        if season not in st_rec["seasons"]:
-                            st_rec["seasons"].append(season)
-                    else:
-                        contacts_map[pid] = {
-                            "name": player.get("name", f"Player {pid}"),
-                            "stations": [club_name],
-                            "category": "former_teammate",
-                            "role": f"Mitspieler ({player.get('position', 'Spieler')})",
-                            "note": f"Mitspieler bei {club_name}",
-                            "tm_url": player.get("tm_url", ""),
-                            "tm_id": pid,
-                            "seasons_together": 1,
-                            "_latest_season": season,
-                            "relationship_type": "playing",
-                            "nationality": filter_nationality(player.get("nationality")),
-                            "image_url": filter_default_image(player.get("image_url")),
-                            # Fix C (A8 2026-05-13) — per-club station breakdown
-                            "shared_stations": [{"club": club_name, "seasons": [season], "matches": 0}],
-                        }
-                        teammates_added += 1
-
-        print(f"  Former teammates: {len(playing_stations)} playing stations, "
-              f"seasons {min(valid_seasons) if valid_seasons else '?'}–{max(valid_seasons) if valid_seasons else '?'}, "
+        print(f"  Former teammates: {_ps_count} playing stations, "
+              f"seasons {min(_valid_seasons) if _valid_seasons else '?'}–"
+              f"{max(_valid_seasons) if _valid_seasons else '?'}, "
               f"{teammates_added} new contacts")
 
     # ── 2c) GemeinsameSpiele — echte Spieldaten (ergänzt Squad-Overlap) ──
