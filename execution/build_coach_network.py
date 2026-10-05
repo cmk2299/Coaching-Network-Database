@@ -1853,6 +1853,56 @@ def generate_background_summaries(network: dict) -> dict:
     return network
 
 
+# A person's trimmed sub-network does not depend on which center it is shown under,
+# and the same ~15k persons recur ~8.5x across all centers. Each is built once per
+# run and reused. Entries are stored serialized so callers never share objects.
+# NETWORK_DRILLDOWN_CACHE=<dir> shares the cache across parallel shard processes;
+# the dir must be fresh per run (stale entries would survive a data refresh).
+_SUB_NETWORK_CACHE: Dict[Tuple[int, int], str] = {}
+
+
+def _trimmed_sub_network(tm_id: int, profiles: Dict[int, dict],
+                         profile_index: Dict[Tuple[int, int], List[int]],
+                         max_contacts: int) -> Optional[dict]:
+    key = (tm_id, max_contacts)
+    cached = _SUB_NETWORK_CACHE.get(key)
+    cache_dir = os.environ.get("NETWORK_DRILLDOWN_CACHE")
+    cache_file = Path(cache_dir) / f"{tm_id}_{max_contacts}.json" if cache_dir else None
+    if cached is None and cache_file is not None:
+        try:
+            cached = cache_file.read_text(encoding="utf-8")
+            _SUB_NETWORK_CACHE[key] = cached
+        except FileNotFoundError:
+            pass
+    if cached is not None:
+        return json.loads(cached)
+
+    sub_network = build_network(tm_id, profiles, profile_index)
+    if sub_network:
+        # Skip background summaries for sub-networks (saves ~60% drilldown size)
+        # Trim to max_contacts (keep top contacts by strength)
+        if len(sub_network["contacts"]) > max_contacts:
+            sub_network["contacts"] = sub_network["contacts"][:max_contacts]
+            sub_network["total_contacts"] = len(sub_network["contacts"])
+
+        # Sub-networks: strip heavy fields to minimize inline JSON size.
+        # NOTE: keep _tm_id so drill-down contacts can cross-link to their own dashboards
+        # (Eta → Fischer → … chain).
+        for c in sub_network["contacts"]:
+            c["has_drilldown"] = False
+            c.pop("background_summary", None)  # Biggest text field
+            c.pop("coaches_worked_with", None)  # Not needed in sub-view
+            c.pop("sds_worked_with", None)
+
+    serialized = json.dumps(sub_network or None, ensure_ascii=False)
+    _SUB_NETWORK_CACHE[key] = serialized
+    if cache_file is not None:
+        tmp = cache_file.with_suffix(f".{os.getpid()}.tmp")
+        tmp.write_text(serialized, encoding="utf-8")
+        os.replace(tmp, cache_file)
+    return json.loads(serialized)
+
+
 def build_drilldown(center_network: dict, profiles: Dict[int, dict],
                     profile_index: Dict[Tuple[int, int], List[int]],
                     max_contacts: int = 15,
@@ -1886,25 +1936,9 @@ def build_drilldown(center_network: dict, profiles: Dict[int, dict],
         if not tm_id or tm_id not in profiles:
             continue
 
-        # Build their network
-        sub_network = build_network(tm_id, profiles, profile_index)
+        sub_network = _trimmed_sub_network(tm_id, profiles, profile_index, max_contacts)
         if not sub_network:
             continue
-
-        # Skip background summaries for sub-networks (saves ~60% drilldown size)
-        # Trim to max_contacts (keep top contacts by strength)
-        if len(sub_network["contacts"]) > max_contacts:
-            sub_network["contacts"] = sub_network["contacts"][:max_contacts]
-            sub_network["total_contacts"] = len(sub_network["contacts"])
-
-        # Sub-networks: strip heavy fields to minimize inline JSON size.
-        # NOTE: keep _tm_id so drill-down contacts can cross-link to their own dashboards
-        # (Eta → Fischer → … chain).
-        for c in sub_network["contacts"]:
-            c["has_drilldown"] = False
-            c.pop("background_summary", None)  # Biggest text field
-            c.pop("coaches_worked_with", None)  # Not needed in sub-view
-            c.pop("sds_worked_with", None)
 
         # Key must match template: name.toLowerCase().replace(/ /g, '_')
         key = contact["name"].lower().replace(" ", "_")

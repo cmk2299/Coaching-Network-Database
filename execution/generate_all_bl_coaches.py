@@ -1559,6 +1559,10 @@ def main():
     parser.add_argument("--skip-networks", action="store_true")
     parser.add_argument("--skip-index", action="store_true")
     parser.add_argument("--only", type=int, nargs="+", help="Only specific tm_ids")
+    parser.add_argument("--shard", metavar="K/N",
+                        help="Build only slice K of N of ALL networks (incl. index-excluded "
+                             "contact-coaches) and skip the index. Run N of these in parallel, "
+                             "then one --skip-networks pass for the index.")
     parser.add_argument("--delta", action="store_true",
                         help="Only rebuild coaches whose staff file is newer than network JSON")
     parser.add_argument("--include-historical", action="store_true",
@@ -1616,6 +1620,7 @@ def main():
     # die ein eigenes Netzwerk-JSON haben, aber NICHT als eigenständige Trainer gelistet
     # werden sollen. Ihre Dashboards + JSONs bleiben erhalten → Drilldown funktioniert.
     # Coachinside-Coaches sind explizit ausgenommen (siehe data/index_exclude_ids.json).
+    all_coaches = list(coaches)
     exclude_path = BASE / "data" / "index_exclude_ids.json"
     if exclude_path.exists() and not args.only:
         try:
@@ -1633,6 +1638,14 @@ def main():
 
     print(f"\n  Found {len(coaches)} total coaches ({len([c for c in coaches if not c.get('is_historical')])} active, {len([c for c in coaches if c.get('is_historical')])} historical)")
 
+    build_coaches = coaches
+    if args.shard:
+        k, n = (int(x) for x in args.shard.split("/"))
+        unique = {c["tm_id"]: c for c in all_coaches}
+        build_coaches = [unique[t] for t in sorted(unique)][k::n]
+        args.skip_index = True
+        print(f"  Shard {k}/{n}: {len(build_coaches)} of {len(unique)} networks")
+
     if not args.skip_networks:
         # Preload ALL profiles once (the key optimization)
         profiles = preload_all_profiles()
@@ -1641,8 +1654,8 @@ def main():
         success, failed = 0, 0
         t_total = time.time()
 
-        for i, coach in enumerate(coaches, 1):
-            print(f"\n  [{i}/{len(coaches)}] {coach['name']} ({coach['club']}, {coach['league']})")
+        for i, coach in enumerate(build_coaches, 1):
+            print(f"\n  [{i}/{len(build_coaches)}] {coach['name']} ({coach['club']}, {coach['league']})")
 
             if not coach["has_profile"]:
                 print("    \u26a0 No profile \u2014 skipping")
@@ -1708,8 +1721,8 @@ def main():
 
         elapsed = time.time() - t_total
         print(f"\n  {'─'*50}")
-        print(f"  Results: {success} \u2713  {failed} \u2717  of {len(coaches)} coaches")
-        print(f"  Total time: {elapsed:.0f}s ({elapsed/max(1,len(coaches)):.1f}s per coach)")
+        print(f"  Results: {success} \u2713  {failed} \u2717  of {len(build_coaches)} coaches")
+        print(f"  Total time: {elapsed:.0f}s ({elapsed/max(1,len(build_coaches)):.1f}s per coach)")
 
     if not args.skip_index:
         for c in coaches:

@@ -1,5 +1,6 @@
 #!/bin/bash
-# setup_daily_refresh.sh — Install/refresh the LaunchAgent that runs run_mvp.sh daily at 06:00.
+# setup_daily_refresh.sh — Install/refresh the LaunchAgent that runs run_mvp.sh weekly (Sunday 06:00).
+# Label and filename keep the historical "daily" name so the existing agent is replaced, not duplicated.
 #
 # Reconstructed 2026-05-21 after worktree-collision wipe lost the previous version.
 # The plist (~/Library/LaunchAgents/com.footballdb.daily-refresh.plist) was preserved
@@ -69,6 +70,8 @@ cat > "$PLIST" <<EOF
 
     <key>StartCalendarInterval</key>
     <dict>
+        <key>Weekday</key>
+        <integer>0</integer>
         <key>Hour</key>
         <integer>6</integer>
         <key>Minute</key>
@@ -109,5 +112,5 @@ echo ""
 echo "=== Status ==="
 launchctl list | grep "$LABEL" || echo "  ✗ NOT FOUND in launchctl list"
 echo ""
-echo "Next fires daily at 06:00. Manual trigger:"
+echo "Next fires Sunday 06:00 (or at the next wake after that). Manual trigger:"
 echo "  launchctl start $LABEL"

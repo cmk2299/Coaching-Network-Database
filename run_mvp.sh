@@ -1,5 +1,5 @@
 #!/bin/bash
-# run_mvp.sh — One-click daily pipeline: staff refresh → network rebuild → deploy
+# run_mvp.sh — One-click refresh pipeline: staff refresh → network rebuild → deploy
 #
 # Reconstructed 2026-05-21 after worktree-collision wipe lost the previous version.
 # Specified behaviour (per CLAUDE.md + directives/DIRECTIVE_2026-05-21_evening_deploy.md):
@@ -11,13 +11,14 @@
 #   5. Vercel production deploy
 #   6. ntfy push to cmk-coachdb
 #
-# Activated by LaunchAgent com.footballdb.daily-refresh @ 06:00 daily.
+# Activated weekly (Sunday 06:00) by LaunchAgent com.footballdb.daily-refresh.
 # Also runnable manually: bash run_mvp.sh
 #
 # Flags:
 #   --skip-staff       skip staff scrape (use existing files)
 #   --skip-deploy      build locally, skip Vercel push
 #   --max-age-days=N   stale threshold for staff (default 1)
+#   --jobs=N           parallel network-build processes (default 9)
 
 set -euo pipefail
 
@@ -32,11 +33,13 @@ exec > >(tee -a "$LOG") 2>&1
 SKIP_STAFF=0
 SKIP_DEPLOY=0
 MAX_AGE=1
+JOBS=9
 for arg in "$@"; do
   case "$arg" in
     --skip-staff)      SKIP_STAFF=1 ;;
     --skip-deploy)     SKIP_DEPLOY=1 ;;
     --max-age-days=*)  MAX_AGE="${arg#--max-age-days=}" ;;
+    --jobs=*)          JOBS="${arg#--jobs=}" ;;
   esac
 done
 
@@ -76,13 +79,24 @@ caffeinate -s python3 execution/discover_new_head_coaches.py 2>&1 | tail -15 \
 
 # --- Step 2: Rebuild all coach networks ---
 log "Step 2: rebuild all coach networks (BL1/2/3 + historical + SDs + NLZ)"
-caffeinate -s python3 execution/generate_all_bl_coaches.py \
-  --leagues BL1 BL2 BL3 \
-  --all-networks \
-  --include-historical \
-  --include-decision-makers \
-  --include-nlz 2>&1 | tail -15 \
-  || fail "Step 2: generate_all_bl_coaches"
+# Parallel shards share one per-run drilldown cache: each person's sub-network is
+# built once instead of ~8.5x. The cache dir must be fresh per run.
+GEN_ARGS=(--leagues BL1 BL2 BL3 --all-networks --include-historical --include-decision-makers --include-nlz)
+export NETWORK_DRILLDOWN_CACHE="$BASE/tmp/drilldown_cache"
+rm -rf "$NETWORK_DRILLDOWN_CACHE"; mkdir -p "$NETWORK_DRILLDOWN_CACHE" "logs/shards_${TS}"
+SHARD_PIDS=()
+for k in $(seq 0 $((JOBS - 1))); do
+  caffeinate -i -s python3 execution/generate_all_bl_coaches.py "${GEN_ARGS[@]}" --shard "$k/$JOBS" \
+    > "logs/shards_${TS}/shard_${k}.log" 2>&1 &
+  SHARD_PIDS+=($!)
+done
+SHARD_FAIL=0
+for pid in "${SHARD_PIDS[@]}"; do wait "$pid" || SHARD_FAIL=1; done
+grep -h "Results:" "logs/shards_${TS}"/shard_*.log || true
+rm -rf "$NETWORK_DRILLDOWN_CACHE"
+[ "$SHARD_FAIL" -eq 0 ] || fail "Step 2: a network shard crashed (see logs/shards_${TS}/)"
+python3 execution/generate_all_bl_coaches.py "${GEN_ARGS[@]}" --skip-networks 2>&1 | tail -15 \
+  || fail "Step 2: index generation"
 
 NET_COUNT=$(ls data/networks/*.json 2>/dev/null | wc -l | tr -d ' ')
 DASH_COUNT=$(ls output/dashboards/*_network.html 2>/dev/null | wc -l | tr -d ' ')
