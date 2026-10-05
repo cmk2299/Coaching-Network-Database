@@ -1597,7 +1597,8 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
         existing_ids = {}
         existing_by_name = {}
         for c in contacts_list:
-            tid = c.get("tm_id")
+            # Squad/academy-derived contacts carry their id only in _tm_id.
+            tid = c.get("tm_id") if c.get("tm_id") is not None else c.get("_tm_id")
             if tid is not None:
                 try:
                     existing_ids[int(tid)] = c

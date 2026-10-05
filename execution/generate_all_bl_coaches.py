@@ -1592,6 +1592,7 @@ def main():
         coaches.extend(historical_coaches)
 
     # Add all remaining network coaches
+    sacked_extra_coaches = []  # hidden from the index, but their dashboards stay reachable
     if args.all_networks:
         existing_ids = {c["tm_id"] for c in coaches}
         extra = load_all_network_coaches(existing_ids)
@@ -1604,6 +1605,7 @@ def main():
                              if s.get("tm_id")}
             if _sacked_extra:
                 _b = len(extra)
+                sacked_extra_coaches = [c for c in extra if c["tm_id"] in _sacked_extra]
                 extra = [c for c in extra if c["tm_id"] not in _sacked_extra]
                 if _b != len(extra):
                     print(f"  Sacked-Filter: {_b - len(extra)} entlassene Coaches aus Netzwerk-Extras entfernt")
@@ -1641,7 +1643,7 @@ def main():
     build_coaches = coaches
     if args.shard:
         k, n = (int(x) for x in args.shard.split("/"))
-        unique = {c["tm_id"]: c for c in all_coaches}
+        unique = {c["tm_id"]: c for c in sacked_extra_coaches + all_coaches}
         build_coaches = [unique[t] for t in sorted(unique)][k::n]
         args.skip_index = True
         print(f"  Shard {k}/{n}: {len(build_coaches)} of {len(unique)} networks")
