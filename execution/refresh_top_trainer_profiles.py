@@ -25,11 +25,14 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from lib.normalization import current_season_label  # noqa: E402
+
 BASE = Path(__file__).parent.parent
 DATA = BASE / "data"
 CACHE_DIR = BASE / "tmp" / "cache" / "profiles"
 PROFILES_DIR = DATA / "person_profiles"
-CURRENT_SEASON = "2025/2026"
+CURRENT_SEASON = current_season_label()
 
 # ── Prominent additions (Coachinside / pitch-relevant) ──────────────────
 # (tm_id, name, why)

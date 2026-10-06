@@ -18,8 +18,12 @@ Usage:
 import argparse
 import json
 import subprocess
+import sys
 import time
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from lib.normalization import current_season_label  # noqa: E402
 
 BASE = Path(__file__).parent.parent
 REG = BASE / "data" / "club_registry.json"
@@ -33,7 +37,7 @@ TIER_ROLES = {
     3: {"fitness_coach", "other_staff"},
 }
 ALL_ROLES = TIER_ROLES[1] | TIER_ROLES[2] | TIER_ROLES[3]
-SEASON = "2025/2026"
+SEASON = current_season_label()
 
 
 def collect_targets(roles: set) -> list[dict]:

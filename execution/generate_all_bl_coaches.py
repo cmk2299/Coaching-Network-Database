@@ -35,7 +35,7 @@ from build_coach_network import (
     preload_all_profiles, build_profile_index,
     OUTPUT_DIR, format_season, PROFILES_DIR, STAFF_DIR,
 )
-from lib.normalization import normalize_club, filter_nationality, slugify
+from lib.normalization import current_season_year, normalize_club, filter_nationality, slugify
 from generate_dashboard import generate_dashboard
 
 BASE = Path(__file__).parent.parent
@@ -1552,8 +1552,8 @@ def main():
     parser = argparse.ArgumentParser(description="Generate all BL coach dashboards")
     parser.add_argument("--leagues", nargs="+", default=["BL1", "BL2"],
                         help="Leagues to include (default: BL1 BL2). Add BL3 for 3. Liga.")
-    parser.add_argument("--season", type=int, default=2026,
-                        help="Season start year; 2026 = Saison 2026/27 league memberships "
+    parser.add_argument("--season", type=int, default=current_season_year(),
+                        help="Season start year (default: latest in the registry); 2026 = Saison 2026/27 league memberships "
                              "(after promotions/relegations). Registry leagues maps key on "
                              "'<season>/<season+1>'.")
     parser.add_argument("--skip-networks", action="store_true")

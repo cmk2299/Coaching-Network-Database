@@ -32,7 +32,7 @@ from typing import Dict, List, Tuple
 
 # Canonical slug rule for dashboard cross-links
 sys.path.insert(0, str(Path(__file__).parent))
-from lib.normalization import slugify as _dashboard_slugify  # noqa: E402
+from lib.normalization import current_season_label, current_season_year, slugify as _dashboard_slugify  # noqa: E402
 from datetime import datetime
 
 BASE = Path(__file__).parent.parent
@@ -43,8 +43,8 @@ NETWORKS_DIR = DATA_DIR / "networks"
 OUTPUT_DIR = BASE / "output"
 CLUBS_OUTPUT_DIR = OUTPUT_DIR / "clubs"
 
-CURRENT_SEASON = 2025
-CURRENT_SEASON_DISPLAY = "2025/2026"
+CURRENT_SEASON = current_season_year()
+CURRENT_SEASON_DISPLAY = current_season_label()
 
 # Design tokens (matching coach index)
 COLORS = {

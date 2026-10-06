@@ -104,3 +104,33 @@ class TestBuildTrainerUrl:
     def test_umlaut_name(self):
         url = N.build_trainer_url("Adi Hütter", 5018)
         assert "/profil/trainer/5018" in url and " " not in url
+
+
+class TestCurrentSeason:
+    def test_uses_latest_season_in_registry(self, tmp_path, monkeypatch):
+        import json
+        from lib import normalization as N
+        (tmp_path / "data").mkdir()
+        (tmp_path / "data" / "club_registry.json").write_text(json.dumps({"clubs": [
+            {"leagues": {"2024/2025": ["BL1"], "2026/2027": ["BL2"]}},
+            {"leagues": {"2025/2026": ["BL3"]}},
+            {"leagues": {}},
+        ]}))
+        monkeypatch.setattr(N, "BASE", tmp_path)
+        N.current_season_year.cache_clear()
+        try:
+            assert N.current_season_year() == 2026
+            assert N.current_season_label() == "2026/2027"
+        finally:
+            N.current_season_year.cache_clear()
+
+    def test_falls_back_to_calendar_without_registry(self, tmp_path, monkeypatch):
+        from datetime import date
+        from lib import normalization as N
+        monkeypatch.setattr(N, "BASE", tmp_path)
+        N.current_season_year.cache_clear()
+        try:
+            today = date.today()
+            assert N.current_season_year() == (today.year if today.month >= 7 else today.year - 1)
+        finally:
+            N.current_season_year.cache_clear()

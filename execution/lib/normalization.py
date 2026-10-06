@@ -12,11 +12,38 @@ Usage:
 import json
 import re
 import unicodedata
+from datetime import date
 from difflib import SequenceMatcher
+from functools import lru_cache
 from pathlib import Path
 from typing import Dict, List, Optional
 
 BASE = Path(__file__).parent.parent.parent  # execution/lib/ → project root
+
+
+@lru_cache(maxsize=1)
+def current_season_year() -> int:
+    """Start year of the current season (2026 for 2026/27).
+
+    Taken from the latest season that club_registry.json has league memberships
+    for, so every script rolls over together with the registry instead of on a
+    per-file constant. Falls back to the calendar (season starts in July) when
+    the registry is unavailable, e.g. in CI.
+    """
+    try:
+        reg = json.load(open(BASE / "data" / "club_registry.json"))
+        clubs = reg.get("clubs", reg) if isinstance(reg, dict) else reg
+        clubs = clubs.values() if isinstance(clubs, dict) else clubs
+        return max(int(s.split("/")[0]) for c in clubs for s in (c.get("leagues") or {}))
+    except (OSError, ValueError):
+        today = date.today()
+        return today.year if today.month >= 7 else today.year - 1
+
+
+def current_season_label() -> str:
+    """Registry key / display label of the current season, e.g. "2026/2027"."""
+    year = current_season_year()
+    return f"{year}/{year + 1}"
 
 
 # ── Pseudo-clubs (TM virtual buckets that pollute network coach_club_seasons) ──

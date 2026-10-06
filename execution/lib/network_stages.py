@@ -40,7 +40,7 @@ import json
 from collections import defaultdict
 from typing import Dict
 
-from .normalization import is_pseudo_club, get_season_range, normalize_club
+from .normalization import current_season_year, is_pseudo_club, get_season_range, normalize_club
 
 
 def parse_coach_stations(career: list):
@@ -634,7 +634,7 @@ def add_shared_career_stations(coach_tm_id, coach_club_seasons, profile_index,
     return len(candidate_ids), coaches_matched
 
 
-CURRENT_SEASON = 2025  # 2025/26 — bump at season rollover
+CURRENT_SEASON = current_season_year()
 MAX_STAFF_SEASON_GAP = 1  # staff file is current snapshot; allow 1-season grace
 
 
