@@ -51,18 +51,26 @@ def has_network(tm_id: int) -> bool:
 
 
 def has_profile(tm_id: int) -> bool:
-    """Check whether ANY profile file exists (trainer_X or spieler_X)."""
+    """Check whether a TRAINER profile exists (trainer_X, or a legacy un-namespaced file).
+
+    Staff tm_ids live in TM's trainer namespace. A spieler_X file with the same
+    number is a different person, so it must not count as this coach's profile.
+    """
     return any((PROFILES_DIR / f"{prefix}{tm_id}.json").exists()
-               for prefix in ("trainer_", "spieler_", ""))
+               for prefix in ("trainer_", ""))
 
 
-def bl_club_ids(leagues: list[str], current_season: str = "2025/2026") -> set[int]:
+def bl_club_ids(leagues: list[str], current_season: str | None = None) -> set[int]:
     """Return club_tm_ids that are CURRENTLY in any of the requested leagues
     (i.e. league membership in `current_season`). Historical clubs are excluded —
     we only want clubs whose staff file reflects an active BL HC.
     """
     reg = json.load(open(CLUB_REGISTRY))
     clubs = reg.get("clubs", []) if isinstance(reg, dict) else reg
+    if current_season is None:
+        # Latest season in the registry; labels sort by start year ("2026/2027" > "2025/2026").
+        current_season = max(s for c in clubs if isinstance(c, dict)
+                             for s in (c.get("leagues") or {}))
     ids = set()
     target = set(leagues)
     for c in clubs:

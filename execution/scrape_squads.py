@@ -573,11 +573,14 @@ def main():
     start_from = 0
     limit = None
     league_filter = None  # e.g. --leagues=POR,SCO,GRE
+    max_age_days = None   # --max-age-days=N: re-scrape current-season squads older than N days
     for arg in sys.argv[1:]:
         if arg.startswith("--start="):
             start_from = int(arg.split("=")[1])
         elif arg.startswith("--limit="):
             limit = int(arg.split("=")[1])
+        elif arg.startswith("--max-age-days="):
+            max_age_days = int(arg.split("=")[1])
         elif arg.startswith("--leagues="):
             league_filter = set(arg.split("=")[1].split(","))
         elif arg == "--index-only":
@@ -644,6 +647,7 @@ def main():
     }
 
     start_time = time.time()
+    current_season_year = max(int(sk.split("/")[0]) for c in clubs for sk in c["leagues"])
 
     # ── Part A: Scrape squad pages ────────────────
     print("─" * 60)
@@ -660,7 +664,11 @@ def main():
         for sk in seasons:
             sy = int(sk.split("/")[0])
             output_file = SQUADS_DIR / f"{tm_id}_{sy}.json"
-            if output_file.exists():
+            # Past seasons never change; only the current season's squad goes stale.
+            stale = (max_age_days is not None and sy == current_season_year
+                     and output_file.exists()
+                     and time.time() - output_file.stat().st_mtime > max_age_days * 86400)
+            if output_file.exists() and not stale:
                 stats["skipped_squads"] += 1
             else:
                 pending.append((sk, sy))
@@ -677,11 +685,18 @@ def main():
             # Fetch squad page (Kader + details)
             url = f"{TM_BASE}/{slug}/kader/verein/{tm_id}/saison_id/{season_year}/plus/1"
             cache_key = f"squad_{tm_id}_{season_year}"
-            html = fetch_page(url, cache_key, cache_days=30)
+            output_file = SQUADS_DIR / f"{tm_id}_{season_year}.json"
+            refreshing = output_file.exists()
+            html = fetch_page(url, cache_key, cache_days=max_age_days if refreshing else 30)
+            players = parse_squad_page(html, tm_id, name, season_year) if html else []
+            if not players and refreshing:
+                # Fetch failed or returned a block page: keep the existing squad
+                # rather than overwrite it with an empty one.
+                stats["errors"].append(f"squad_{tm_id}_{season_year}")
+                print("FAILED (kept existing file)")
+                continue
 
-            players = []
             if html:
-                players = parse_squad_page(html, tm_id, name, season_year)
                 print(f"{len(players)} players")
                 stats["total_players"] += len(players)
             else:
