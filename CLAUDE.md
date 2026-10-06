@@ -530,6 +530,16 @@ Live UI/Daten-Audit via Chrome MCP an Blessin (Trainer-Perspektive) + Bornemann 
 - **Doku-Drift korrigiert:** persons_master ist ~289 MB (nicht 51.9 MB); person_profiles ~99k Dateien.
 - **Offen (P0/P1, User-Entscheidung):** Offsite-Backups (+ `run_mvp.sh`/CSS in git committen — aktuell untracked), `build_network()` (2123 Zeilen) dekomponieren, Serve-from-DB statt eingebettetes NETWORK-JSON.
 
+### Post-Transfer-Refresh + Pipeline-Verschlankung (2026-10-06) ✅
+- **Laufzeit `run_mvp.sh` (gemessen 2026-10-06):** Staff-Scrape 53 min · Netzwerk-Rebuild (3.327 Netzwerke) 49 min · Dashboards/Clubs/Gate 2,5 min · Deploy ~10 min. Vorher brauchte der Rebuild allein >2 Tage und wurde nie fertig.
+- **Drilldown-Cache:** `build_drilldown()` baut jedes Unter-Netzwerk pro Lauf nur einmal (`_trimmed_sub_network`); vorher ~130k Builds für ~15k Personen. Output byte-identisch (Golden-Diff). `NETWORK_DRILLDOWN_CACHE=<dir>` teilt den Cache zwischen Prozessen — Verzeichnis muss pro Lauf frisch sein.
+- **Parallel-Shards:** `generate_all_bl_coaches.py --shard K/N` baut Slice K von N über ALLE Netzwerke (inkl. index-ausgeblendete Kontakt-Coaches und entlassene Trainer, die der normale Lauf überspringt) und lässt den Index aus. `run_mvp.sh --jobs=N` (Default 9) startet die Shards und danach einen `--skip-networks`-Lauf für den Index.
+- **Refresh-Rhythmus:** wöchentlich (LaunchAgent `com.footballdb.daily-refresh`, Sonntag 06:00 — Label behält den alten Namen). **Der Agent scheitert, solange `/bin/bash` keinen Festplattenvollzugriff hat** (TCC sperrt `~/Documents` für launchd-Prozesse: "Operation not permitted").
+- **Nach einem Transferfenster (Reihenfolge):** `scrape_squads.py --leagues=BL1,BL2,BL3 --max-age-days=1` → Spieler mit `current_club` ≠ Kader-Verein per `refresh_player_clubs.py` neu laden (altes `data/.player_refresh_done.txt` vorher wegschieben) → `scrape_person_profiles.py --merge-only` → `run_mvp.sh`. Nie zwei TM-Scrapes parallel.
+- **Lange Jobs:** auf dem Mac entkoppelt starten und mit `caffeinate -i -s` (nur `-s` greift nicht auf Akku); Zuklappen stoppt trotzdem alles.
+- **Fixes:** Phase-6-Dedupe liest jetzt auch `_tm_id` (doppelte co_decision_maker, LX2) · `discover_new_head_coaches.py` verlangt ein `trainer_`-Profil und nimmt die neueste Registry-Saison (vorher blockierte ein gleichnummeriges `spieler_`-Profil den Scrape; Saison war fest 2025/2026) · `scrape_squads.py --max-age-days` gilt jetzt auch für Kader der laufenden Saison und überschreibt bei Fehlabruf keinen bestehenden Kader.
+- **Offen — Saison-Konstanten noch auf 2025:** `lib/network_stages.py` `CURRENT_SEASON = 2025` (steuert das Staff-Zeitfenster im Netzwerk-Bau) und `generate_club_pages.py` `CURRENT_SEASON = 2025` (Club-Seiten zeigen die Ligazugehörigkeit der Vorsaison). Umstellen = Build-Logik-Änderung → Golden-Diff + voller Rebuild.
+
 ### Known TM HTML Parsing Quirks (Self-annealed)
 - **Name concatenation:** `<h1>` concatenates first+last without space (e.g., "RainerBonhof"). Fix: use `<title>` tag as primary source (has proper spacing), h1 as fallback with regex `re.sub(r"([a-zäöüß])([A-ZÄÖÜ])", r"\1 \2", raw_name)`
 - **Career table classes:** TM doesn't use `tr.odd/tr.even` anymore. Fix: parse all `tr` rows containing `td` elements without class filter
@@ -593,7 +603,7 @@ projectFIVE Trainerberatung gehört zu **SPORTFIVE**. Tool nutzt SPORTFIVE-Brand
 
 ## Deployment
 - **Host:** Vercel (scope: cmk2299s-projects)
-- **Deploy:** `cd output && npx vercel deploy --prod --yes --scope cmk2299s-projects`
+- **Deploy:** `cd output && npx vercel deploy --prod --yes --scope cmk2299s-projects --archive=tgz` (ohne `--archive=tgz` scheitert der Upload bei der aktuellen Größe von ~4 GB / 11.500 Dateien)
 - **URL:** https://coach-network-explorer.vercel.app
 - **One-click:** `bash run_mvp.sh` (includes staff refresh + build + deploy)
 
