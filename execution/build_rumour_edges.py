@@ -41,7 +41,10 @@ _DATE = re.compile(r"\((\d{2})\.(\d{2})\.(\d{4})\)")
 HEAD_COACH_ROLES = {"trainer", "cheftrainer", "teamchef", "spielertrainer"}
 SPORT_LEAD_KEYWORDS = ("sportdirektor", "sportvorstand", "geschäftsführer sport", "sportchef",
                        "sportlicher leiter", "direktor sport", "technischer direktor",
-                       "kaderplaner", "manager", "leiter lizenz", "direktor profifußball")
+                       "kaderplaner", "leiter lizenz", "direktor profifußball")
+# "Manager" alone is the classic German sporting-director title; compounds such as
+# Teammanager, Performance Manager or Manager Marketing are not transfer decision-makers.
+SPORT_LEAD_EXACT = {"manager", "sportmanager"}
 
 
 def season_of(day: date) -> int:
@@ -58,7 +61,7 @@ def role_type(role: str) -> str | None:
     lowered = (role or "").strip().lower()
     if lowered in HEAD_COACH_ROLES:
         return "head_coach"
-    if any(k in lowered for k in SPORT_LEAD_KEYWORDS):
+    if lowered in SPORT_LEAD_EXACT or any(k in lowered for k in SPORT_LEAD_KEYWORDS):
         return "sport_lead"
     return None
 
