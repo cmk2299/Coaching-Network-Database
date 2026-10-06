@@ -136,7 +136,9 @@ fi
 if [ "$SKIP_DEPLOY" -eq 0 ]; then
   log "Step 5: Vercel production deploy"
   cd output
-  DEPLOY_OUT=$(npx vercel deploy --prod --yes --scope cmk2299s-projects 2>&1)
+  # --archive=tgz: the plain file-by-file upload fails once output/ exceeds ~2 GB / 5000 files.
+  DEPLOY_OUT=$(npx vercel deploy --prod --yes --scope cmk2299s-projects --archive=tgz 2>&1) || {
+    cd "$BASE"; echo "$DEPLOY_OUT" | tail -20; fail "Step 5: vercel deploy"; }
   DEPLOY_URL=$(echo "$DEPLOY_OUT" | grep -oE "https://coach-network-explorer-[a-z0-9]+-cmk2299s-projects.vercel.app" | head -1)
   cd "$BASE"
   log "  Deploy: $DEPLOY_URL"
