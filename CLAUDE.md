@@ -540,6 +540,12 @@ Live UI/Daten-Audit via Chrome MCP an Blessin (Trainer-Perspektive) + Bornemann 
 - **Fixes:** Phase-6-Dedupe liest jetzt auch `_tm_id` (doppelte co_decision_maker, LX2) · `discover_new_head_coaches.py` verlangt ein `trainer_`-Profil und nimmt die neueste Registry-Saison (vorher blockierte ein gleichnummeriges `spieler_`-Profil den Scrape; Saison war fest 2025/2026) · `scrape_squads.py --max-age-days` gilt jetzt auch für Kader der laufenden Saison und überschreibt bei Fehlabruf keinen bestehenden Kader.
 - **Offen — Saison-Konstanten noch auf 2025:** `lib/network_stages.py` `CURRENT_SEASON = 2025` (steuert das Staff-Zeitfenster im Netzwerk-Bau) und `generate_club_pages.py` `CURRENT_SEASON = 2025` (Club-Seiten zeigen die Ligazugehörigkeit der Vorsaison). Umstellen = Build-Logik-Änderung → Golden-Diff + voller Rebuild.
 
+### Gerüchte-Prototyp (2026-10-07) — NICHT im Dashboard, nur Daten + Auswertung
+- **Quelle:** TM hat Gerüchte nur für Spieler (`/x/geruechte/spieler/{id}`, Box "Gerüchtearchiv"); für Trainer gibt es keine Gerüchteseite (404), Vereinsseiten zeigen nur aktuelle Gerüchte. Historie = 1 Abruf pro Spieler.
+- **Scraper:** `execution/scrape_player_rumours.py --leagues BL1,BL2,BL3` → `data/rumours/spieler_{id}.json` (resumable, 6–12 s Delay). Pilot: 1.579 Spieler in ~3,9 h ohne Block, 8.116 Gerüchte (2009–2026).
+- **Auswertung:** `execution/build_rumour_edges.py` → `data/rumour_edges.json`. Outcome je Gerücht (`happened` / `not_happened` / `unknown`) über Kader-Dateien; nicht zustande gekommene Gerüchte werden Cheftrainer + Sportverantwortlichen zugeordnet, die am Quelldatum im Amt waren (aus `career_history` der `trainer_`-Profile). Pilot: 4.383 nicht zustande gekommen, 3.921 zuordenbar, 8.303 Kanten für 682 Personen (363 mit Netzwerk).
+- **Grenzen:** Gerücht ≠ belegtes Interesse; Zuordnung zur Person ist eine Schlussfolgerung (Verein wurde in ihrer Amtszeit mit dem Spieler verbunden). Datum = letzter Quelleneintrag, nicht Beginn. Nur Spieler erfasst, die aktuell in BL1–3 spielen.
+
 ### Known TM HTML Parsing Quirks (Self-annealed)
 - **Name concatenation:** `<h1>` concatenates first+last without space (e.g., "RainerBonhof"). Fix: use `<title>` tag as primary source (has proper spacing), h1 as fallback with regex `re.sub(r"([a-zäöüß])([A-ZÄÖÜ])", r"\1 \2", raw_name)`
 - **Career table classes:** TM doesn't use `tr.odd/tr.even` anymore. Fix: parse all `tr` rows containing `td` elements without class filter
