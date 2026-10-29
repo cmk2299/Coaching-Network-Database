@@ -132,6 +132,8 @@ def main():
     ap.add_argument("--ids-file", help="JSON list of spieler tm_ids")
     ap.add_argument("--max-age-days", type=int, default=30)
     ap.add_argument("--limit", type=int, help="Stop after N scraped players")
+    ap.add_argument("--max-hours", type=float,
+                    help="Stop cleanly after this many hours (resume later; finished players are kept)")
     args = ap.parse_args()
 
     ids = list(args.ids or [])
@@ -149,8 +151,12 @@ def main():
           f"(~{len(todo) * (DELAY_MIN + DELAY_MAX) / 2 / 3600:.1f}h)", flush=True)
 
     ok = with_rumours = total_rumours = streak = 0
+    deadline = time.time() + args.max_hours * 3600 if args.max_hours else None
     for n, tm_id in enumerate(todo, 1):
         if args.limit and ok >= args.limit:
+            break
+        if deadline and time.time() >= deadline:
+            print(f"  --max-hours reached after {ok} players — stopping, rerun to resume.", flush=True)
             break
         time.sleep(random.uniform(DELAY_MIN, DELAY_MAX))
         html = SPP.fetch_page(f"{SPP.TM_BASE}/x/geruechte/spieler/{tm_id}", f"geruechte_{tm_id}")
