@@ -21,6 +21,18 @@ BASE = Path(__file__).resolve().parents[1]
 BASELINE = BASE / "data" / ".pipeline_baseline.json"
 
 
+def staff_with_entries() -> int:
+    """Staff files that list at least one person. File counts alone missed the
+    2026-10 incident where TM block pages emptied 179 staff files in place."""
+    n = 0
+    for path in glob.glob(str(BASE / "data" / "staff" / "*.json")):
+        try:
+            n += bool(json.load(open(path)).get("staff"))
+        except (ValueError, OSError):
+            pass
+    return n
+
+
 def metrics() -> dict:
     """Cheap, filesystem-level health metrics (no 289MB master load)."""
     pm = BASE / "data" / "persons_master.json"
@@ -29,6 +41,7 @@ def metrics() -> dict:
         "person_profiles": len(glob.glob(str(BASE / "data" / "person_profiles" / "*.json"))),
         "dashboards": len(glob.glob(str(BASE / "output" / "dashboards" / "*_network.html"))),
         "staff_files": len(glob.glob(str(BASE / "data" / "staff" / "*.json"))),
+        "staff_files_with_entries": staff_with_entries(),
         "persons_master_bytes": pm.stat().st_size if pm.exists() else 0,
         "index_exists": int((BASE / "output" / "index.html").exists()),
     }

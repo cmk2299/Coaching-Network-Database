@@ -28,6 +28,9 @@ from typing import Optional
 import requests
 from bs4 import BeautifulSoup
 
+sys.path.insert(0, str(Path(__file__).parent))
+from scrape_person_profiles import looks_like_block  # noqa: E402
+
 # ── Config ──────────────────────────────────────────
 BASE_DIR = Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -67,6 +70,10 @@ def fetch_page(url: str, cache_key: str, cache_days: int = 30) -> Optional[str]:
         resp = requests.get(url, headers=HEADERS, timeout=30)
         resp.raise_for_status()
         html = resp.text
+        if looks_like_block(html):
+            # TM soft-blocks with HTTP 200; caching or parsing it would wipe real data.
+            print(f"    BLOCK page for {cache_key} — not cached")
+            return None
         cache_path.write_text(html, encoding="utf-8")
         return html
     except requests.exceptions.HTTPError as e:
@@ -200,6 +207,25 @@ _POSITIONS = {
 
 
 # ── Staff Page Parser ─────────────────────────────
+def save_staff(staff_path: Path, record: dict) -> bool:
+    """Write a staff file unless the new parse is empty and a non-empty file exists.
+
+    TM block pages and layout breaks parse to zero staff; overwriting a good file
+    with that would make every head coach at the club disappear downstream.
+    Returns True if written.
+    """
+    if not record.get("staff") and staff_path.exists():
+        try:
+            if json.load(open(staff_path)).get("staff"):
+                return False
+        except (ValueError, OSError):
+            pass
+    tmp = staff_path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(staff_path)
+    return True
+
+
 def parse_staff_page(html: str, club_tm_id: int, club_name: str) -> list[dict]:
     """
     Parse a TM Mitarbeiter page.
@@ -466,14 +492,15 @@ def _refresh_single_club(club_tm_id: int):
 
     staff = parse_staff_page(html, club_tm_id, name)
     staff_path = STAFF_DIR / f"{club_tm_id}.json"
-    with open(staff_path, "w", encoding="utf-8") as f:
-        json.dump({
+    if not save_staff(staff_path, {
             "club_tm_id": club_tm_id,
             "club_name": name,
             "scraped_at": datetime.now().isoformat(),
             "staff_count": len(staff),
             "staff": staff,
-        }, f, ensure_ascii=False, indent=2)
+    }):
+        print("  Parsed 0 staff — kept existing file")
+        return
 
     head_coach = staff[0]["name"] if staff else "?"
     print(f"  Done: {len(staff)} staff members. Head coach: {head_coach}")
@@ -544,17 +571,18 @@ def _run_staff_only():
         )
         if html:
             staff = parse_staff_page(html, tm_id, club["name"])
-            with open(staff_path, "w", encoding="utf-8") as f:
-                json.dump({
+            if save_staff(staff_path, {
                     "club_tm_id": tm_id,
                     "club_name": club["name"],
                     "scraped_at": datetime.now().isoformat(),
                     "staff_count": len(staff),
                     "staff": staff,
-                }, f, ensure_ascii=False, indent=2)
-            total_staff += len(staff)
-            done += 1
-            print(f"{len(staff)} staff members")
+            }):
+                total_staff += len(staff)
+                done += 1
+                print(f"{len(staff)} staff members")
+            else:
+                print("0 staff parsed — kept existing file")
         else:
             print("FAILED")
 
@@ -763,8 +791,7 @@ def main():
             "staff": staff,
         }
 
-        with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(staff_data, f, ensure_ascii=False, indent=2)
+        save_staff(output_file, staff_data)
 
         stats["done_staff"] += 1
 
