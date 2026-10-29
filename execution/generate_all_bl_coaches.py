@@ -323,7 +323,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
 .table-hdr span:nth-child(4){display:none}
 .row-hotseat{display:none}
 .table-hdr,.row{grid-template-columns:44px 1fr 1fr 64px 64px 32px}
-.vacancy-block .table-hdr,.vacancy-block .row{grid-template-columns:44px 1fr 1fr 88px 140px 0 32px}
+.vacancy-block .table-hdr,.vacancy-block .row{grid-template-columns:44px 1fr 1fr 96px 140px 0 32px;column-gap:12px}
 .vacancy-block .row-hotseat{display:block}
 .vacancy-block .table-hdr span:nth-child(4){display:revert}
 .hot-seat-block{display:none}
@@ -398,7 +398,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
                 go_cell = '<div class="row-go">&rsaquo;</div>'
             elif c.get("tm_url"):
                 row_open, row_close = f'<a href="{c["tm_url"]}" target="_blank" rel="noopener" class="row">', '</a>'
-                go_cell = '<div class="row-go" title="Noch kein Netzwerk — TM-Profil">&#x2197;</div>'
+                go_cell = '<div class="row-go" title="Noch kein Netzwerk, öffnet das Transfermarkt-Profil">&#x2197;</div>'
             else:
                 row_open, row_close = '<div class="row row--vacant">', '</div>'
                 go_cell = '<div class="row-go"></div>'
@@ -440,15 +440,15 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
         if flagged_high:
             hot_seat_stats += (
                 f'<div class="stat-item">'
-                f'<div class="stat-val" style="color:#e74c3c">{flagged_high}</div>'
-                f'<div class="stat-lbl" title="Critical (≥80) + Hot-Seat (65-79) — Wechsel realistisch in 2-6 Wochen">'
+                f'<div class="stat-val" style="color:var(--crit)">{flagged_high}</div>'
+                f'<div class="stat-lbl" title="Critical (ab 80) und Hot-Seat (65 bis 79): Wechsel realistisch in 2 bis 6 Wochen">'
                 f'Hot-Seat</div></div>'
             )
         if flagged_warm:
             hot_seat_stats += (
                 f'<div class="stat-item">'
-                f'<div class="stat-val" style="color:#f39c12">{flagged_warm}</div>'
-                f'<div class="stat-lbl" title="Warm (45-64) — beobachten, Backstory aufbauen">'
+                f'<div class="stat-val" style="color:var(--hot)">{flagged_warm}</div>'
+                f'<div class="stat-lbl" title="Warm (45 bis 64): beobachten, Backstory aufbauen">'
                 f'Warm</div></div>'
             )
 
@@ -470,8 +470,8 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
     if sd_count:
         sd_stat = (
             f'<div class="stat-item">'
-            f'<div class="stat-val" style="color:#F40009">{sd_count}</div>'
-            f'<div class="stat-lbl" title="Sportdirektoren mit eigenem Netzwerk-Dashboard — Hire-Decider">'
+            f'<div class="stat-val">{sd_count}</div>'
+            f'<div class="stat-lbl" title="Sportdirektoren mit eigenem Netzwerk-Dashboard (Hire-Decider)">'
             f'Sportdirektoren</div></div>'
         )
 
@@ -485,7 +485,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
             dm_data_kpi = json.load(open(dm_registry_path))
             dm_count = dm_data_kpi.get("_meta", {}).get("total_decision_makers", 0)
             tiers = dm_data_kpi.get("tiers", {}) or {}
-            dm_tier_text = " · ".join(
+            dm_tier_text = ", ".join(
                 f"T{k}:{v}" if k in ("1", "2", "3") else f"NLZ:{v}"
                 for k, v in sorted(tiers.items())
             )
@@ -495,8 +495,8 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
     if dm_count:
         dm_stat = (
             f'<div class="stat-item">'
-            f'<div class="stat-val" style="color:#e76e3b">{dm_count}</div>'
-            f'<div class="stat-lbl" title="Trainer-Hire-Decision-Maker (Tier 1/2/3/NLZ) — {dm_tier_text}">'
+            f'<div class="stat-val">{dm_count}</div>'
+            f'<div class="stat-lbl" title="Trainer-Hire-Decision-Maker (Tier 1/2/3/NLZ): {dm_tier_text}">'
             f'Decision-Maker</div></div>'
         )
 
@@ -509,15 +509,15 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
             nlz_data_kpi = json.load(open(nlz_registry_path))
             nlz_count_kpi = nlz_data_kpi.get("_meta", {}).get("total_trainers", 0)
             tiers = nlz_data_kpi.get("_meta", {}).get("tiers", {}) or {}
-            nlz_tier_text = " · ".join(f"{k}:{v}" for k, v in sorted(tiers.items()))
+            nlz_tier_text = ", ".join(f"{k}:{v}" for k, v in sorted(tiers.items()))
         except Exception:
             pass
     nlz_stat = ""
     if nlz_count_kpi:
         nlz_stat = (
             f'<div class="stat-item">'
-            f'<div class="stat-val" style="color:#27ae60">{nlz_count_kpi}</div>'
-            f'<div class="stat-lbl" title="NLZ-Trainer (U10-23) — Aufstiegs-Pipeline 2027+ · {nlz_tier_text}">'
+            f'<div class="stat-val">{nlz_count_kpi}</div>'
+            f'<div class="stat-lbl" title="NLZ-Trainer (U10 bis U23), Aufstiegs-Pipeline 2027+: {nlz_tier_text}">'
             f'NLZ-Trainer</div></div>'
         )
 
@@ -575,7 +575,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
     if hires_count:
         hires_stat = (
             f'<div class="stat-item">'
-            f'<div class="stat-val" style="color:#e67e22">{hires_count:,}</div>'
+            f'<div class="stat-val">{hires_count:,}</div>'
             f'<div class="stat-lbl" title="Dokumentierte Trainer-Hire-Events durch Decision-Maker">'
             f'Hires erfasst</div></div>'
         )
@@ -725,7 +725,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
         <div class="row-wrap" data-name="{s['name'].lower()}" data-club="{s['club_name'].lower()}" data-contacts="{s['contacts']}" data-stations="{s['stations']}" data-hotseat="0">
           <a href="{dashboard_file}" class="row">
             <div class="row-img"><span>&bull;</span></div>
-            <div class="row-name">{s['name']}<span class="ci-pro" title="Sporting Director" style="color:#F40009;margin-left:6px">SD</span></div>
+            <div class="row-name">{s['name']}<span class="ci-pro" title="Sporting Director" style="color:var(--accent);margin-left:6px">SD</span></div>
             <div class="row-club">{s['club_name']}</div>
             <div class="row-hotseat row-hotseat--empty" title="SDs sind nicht im Hot-Seat-Index erfasst (only head coaches)">—</div>
             <div class="row-stat">{s['contacts']}</div>
@@ -740,7 +740,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
         sds_with_dashboards.sort(key=lambda s: s["club_name"])
         sd_section = f"""<div class="section" id="sds">
   <div class="section-hdr">
-    <h2 class="section-title">Sportdirektoren · Hire-Decider</h2>
+    <h2 class="section-title">Sportdirektoren (Hire-Decider)</h2>
     <span class="section-count">{len(sds_with_dashboards)}</span>
     <span class="section-line"></span>
   </div>
@@ -766,7 +766,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
                 agent_patterns = json.load(open(ap_path)).get("per_dm", {})
 
             tier_label = {"1": "Tier 1", "2": "Tier 2", "3": "Tier 3", "nlz": "NLZ"}
-            tier_color = {"1": "#F40009", "2": "#e67e22", "3": "#9b59b6", "nlz": "#2ecc40"}
+            tier_color = {"1": "var(--accent)", "2": "var(--cat-1)", "3": "var(--cat-2)", "nlz": "var(--cat-3)"}
 
             dm_rows = []
             for dm in dm_data.get("decision_makers", []):
@@ -785,7 +785,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
                 net_link = f"dashboards/{dm_slug}_sd_network.html" if dash.exists() else ""
                 tier = dm["tier"]
                 tier_lbl = tier_label.get(tier, tier)
-                tier_clr = tier_color.get(tier, "#999")
+                tier_clr = tier_color.get(tier, "var(--cat-none)")
                 row_a_open = f'<a href="{net_link}" class="row">' if net_link else '<div class="row" style="cursor:default;opacity:0.55">'
                 row_a_close = "</a>" if net_link else "</div>"
                 go_arrow = '<div class="row-go">&rsaquo;</div>' if net_link else '<div class="row-go" style="opacity:0.3">—</div>'
@@ -793,7 +793,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
         <div class="row-wrap" data-name="{dm['name'].lower()}" data-club="{(dm.get('club_name') or '').lower()}" data-contacts="{hires_count}" data-stations="0" data-hotseat="0" data-tier="{tier}">
           {row_a_open}
             <div class="row-img"><span style="color:{tier_clr}">●</span></div>
-            <div class="row-name">{dm['name']}<span class="ci-pro" title="{tier_lbl} — {dm.get('role','')}" style="color:{tier_clr};margin-left:6px;font-weight:600">{tier_lbl}</span></div>
+            <div class="row-name">{dm['name']}<span class="ci-pro" title="{tier_lbl}: {dm.get('role','')}" style="color:{tier_clr};margin-left:6px;font-weight:600">{tier_lbl}</span></div>
             <div class="row-club">{dm.get('club_name','')}</div>
             <div class="row-stat" title="Dokumentierte Hire-Events">{hires_count}</div>
             <div class="row-stat" title="Top Agent (≥2 Hires)" style="font-size:11px;text-align:right;color:var(--text-dim)">{top_agent or '—'}</div>
@@ -802,13 +802,13 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
         </div>""")
 
             tier_breakdown = dm_data.get("tiers", {})
-            tier_summary = " · ".join(
+            tier_summary = ", ".join(
                 f"T{k}:{v}" if k in ("1","2","3") else f"NLZ:{v}"
                 for k, v in sorted(tier_breakdown.items())
             )
             dm_section = f"""<div class="section" id="decision-makers">
   <div class="section-hdr">
-    <h2 class="section-title">Decision-Makers · Hire-Patterns</h2>
+    <h2 class="section-title">Decision-Makers und Hire-Patterns</h2>
     <span class="section-count">{len(dm_data.get('decision_makers', []))}</span>
     <span style="font-size:11px;color:var(--text-dim);margin-left:12px">{tier_summary}</span>
     <span class="section-line"></span>
@@ -844,7 +844,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
 
             nlz_trainers = nlz_data.get("trainers", [])
             tier_priority = {"U23": 0, "U19": 1, "U14-17": 2, "U10-13": 3}
-            tier_color = {"U23": "#3498db", "U19": "#27ae60", "U14-17": "#f39c12", "U10-13": "#95a5a6"}
+            tier_color = {"U23": "var(--cat-4)", "U19": "var(--cat-3)", "U14-17": "var(--cat-1)", "U10-13": "var(--cat-5)"}
             nlz_trainers.sort(key=lambda t: (tier_priority.get(t["tier"], 9),
                                               (t.get("parent_club") or "").lower(),
                                               t["name"].lower()))
@@ -868,12 +868,12 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
                 if lg:
                     m = re.search(r"\b(6[8-9]|7\d)\b", lg)
                     if m:
-                        star = '<span title="DFB-Lehrgang ' + lg + ' — Aufstiegs-Kandidat" style="color:#f1c40f;margin-left:4px">★</span>'
+                        star = '<span title="DFB-Lehrgang ' + lg + ' (Aufstiegs-Kandidat)" style="color:var(--warm);margin-left:4px">★</span>'
                     else:
                         star = '<span title="DFB-Lehrgang ' + lg + '" style="color:var(--text-dim);margin-left:4px;font-size:10px">●</span>'
 
                 tier = t["tier"]
-                tier_clr = tier_color.get(tier, "#999")
+                tier_clr = tier_color.get(tier, "var(--cat-none)")
                 row_a_open = f'<a href="{net_link}" class="row">' if net_link else '<div class="row" style="cursor:default;opacity:0.55">'
                 row_a_close = "</a>" if net_link else "</div>"
                 go_arrow = '<div class="row-go">&rsaquo;</div>' if net_link else '<div class="row-go" style="opacity:0.3">—</div>'
@@ -890,10 +890,10 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
         </div>""")
 
             tier_breakdown = nlz_data.get("_meta", {}).get("tiers", {})
-            nlz_summary = " · ".join(f"{k}:{v}" for k, v in sorted(tier_breakdown.items()))
+            nlz_summary = ", ".join(f"{k}:{v}" for k, v in sorted(tier_breakdown.items()))
             nlz_section = f"""<div class="section" id="nlz-pipeline">
   <div class="section-hdr">
-    <h2 class="section-title">Talente-Pipeline · NLZ-Trainer</h2>
+    <h2 class="section-title">Talente-Pipeline: NLZ-Trainer</h2>
     <span class="section-count">{len(nlz_trainers)}</span>
     <span style="font-size:11px;color:var(--text-dim);margin-left:12px">{nlz_summary}</span>
     <span class="section-line"></span>
@@ -1041,8 +1041,8 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
       <div class="row-img"><span>&bull;</span></div>
       <div class="row-name">{club_name}<span class="league-badge" title="{liga}">{liga}</span></div>
       <div class="row-club">{sd_name}</div>
-      <div class="row-hotseat" style="background:rgba(231,76,60,.22);color:#e74c3c;border:1px solid rgba(231,76,60,.5);font-weight:600">VAKANT</div>
-      <div class="row-stat" style="text-align:left">{interim} (Co)</div>
+      <div class="row-hotseat" style="background:color-mix(in srgb,var(--crit) 22%,transparent);color:var(--crit);border:1px solid color-mix(in srgb,var(--crit) 50%,transparent);font-weight:600">Vakant</div>
+      <div class="row-stat" style="text-align:left">{interim if interim == '—' else interim + ' (Co)'}</div>
       <div class="row-stat">&nbsp;</div>
       <div class="row-go">&rsaquo;</div>
     </a>
@@ -1054,7 +1054,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
         if vacancy_rows:
             vacancy_block = f"""<div class="section vacancy-block" id="vacancies-cross-liga" style="margin-bottom:24px">
   <div class="section-hdr">
-    <h2 class="section-title" style="color:#e74c3c">Vakante Cheftrainer-Posten · liga-übergreifend</h2>
+    <h2 class="section-title" style="color:var(--crit)">Vakante Cheftrainer-Posten, alle Ligen</h2>
     <span class="section-count">{len(vacancy_rows)}</span>
     <span class="section-line"></span>
   </div>
@@ -1068,7 +1068,7 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
 
         _hs_section = f"""<div class="section hot-seat-block" id="hot-seat-cross-liga">
   <div class="section-hdr">
-    <h2 class="section-title">Hot-Seat · liga-übergreifend</h2>
+    <h2 class="section-title">Hot-Seat, alle Ligen</h2>
     <span class="section-count">{len(top_hot_seat)}</span>
     <span class="section-line"></span>
   </div>
@@ -1106,43 +1106,52 @@ def generate_index_page(coaches: List[dict], season: int = 2025, include_histori
   --surface:var(--surface-1);--surface-h:var(--surface-2);
   --border:rgba(255,255,255,.08);--border-h:rgba(255,255,255,.16);
   --accent:#F40009;--accent-dim:#8b1a2b;--accent-glow:rgba(244,0,9,.12);
-  --text:#d4d4d8;--text-2:#8b8d97;--text-3:#7c7e88;
+  --text:#d4d4d8;--text-2:#8b8d97;--text-3:#7c7e88;--text-dim:var(--text-3);
   --radius-sm:3px;--radius-md:6px;--radius-lg:10px;
   --font-sans:'IBM Plex Sans',system-ui,sans-serif;
   --font-display:'Space Grotesk','IBM Plex Sans',sans-serif;
   --font-mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
+  --text-strong:#ededf0;--overlay:rgba(255,255,255,.06);--shadow:rgba(0,0,0,.45);
+  --crit:#e74c3c;--hot:#f39c12;--warm:#f1c40f;--good:#34C23A;
+  /* categorical series (decision-maker tiers, NLZ age groups) */
+  --cat-1:#e67e22;--cat-2:#b07cc6;--cat-3:#2ecc40;--cat-4:#3498db;--cat-5:#95a5a6;--cat-none:#8b8d97;
 }}
 *{{margin:0;padding:0;box-sizing:border-box}}
 html{{font-size:15px}}
+html,body{{overflow-x:clip}}
 body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webkit-font-smoothing:antialiased}}
+:where(a,button,input,select,[tabindex]):focus-visible{{outline:2px solid var(--accent);outline-offset:2px}}
+::selection{{background:var(--accent-dim);color:var(--text-strong)}}
+@media (prefers-reduced-motion:reduce){{*{{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}}}
 
 /* ── Header ── */
 .hdr{{padding:28px 0;border-bottom:1px solid var(--border);margin:0 40px}}
 .hdr-inner{{display:flex;align-items:baseline;justify-content:space-between;gap:24px}}
-.hdr h1{{font-family:'Space Grotesk',sans-serif;font-size:17px;font-weight:600;color:#fff;letter-spacing:-.3px}}
+.hdr h1{{font-family:var(--font-display);font-size:17px;font-weight:600;color:var(--text-strong);letter-spacing:-.3px}}
 .hdr h1 b{{color:var(--accent);font-weight:700}}
 .hdr-right{{font-size:12px;color:var(--text-3);text-align:right;line-height:1.5}}
+.hdr-link{{display:inline-flex;align-items:center;min-height:32px;padding:0 14px;margin-bottom:4px;
+  border:1px solid var(--border-h);border-radius:var(--radius-md);color:var(--text);font-size:13px;
+  text-decoration:none;transition:border-color .15s,color .15s}}
+.hdr-link:hover{{border-color:var(--accent);color:var(--text-strong)}}
 
 /* ── Stats bar ── */
 .stats{{display:flex;gap:32px;padding:24px 40px;border-bottom:1px solid var(--border)}}
 .stat-item{{display:flex;flex-direction:column}}
-.stat-val{{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:#fff;letter-spacing:-.5px}}
-.stat-lbl{{font-size:11px;color:var(--text-3);margin-top:2px;text-transform:uppercase;letter-spacing:.5px}}
+.stat-val{{font-family:var(--font-display);font-size:22px;font-weight:700;color:var(--text-strong);letter-spacing:-.5px;font-variant-numeric:tabular-nums}}
+.stat-lbl{{font-size:12px;color:var(--text-3);margin-top:2px}}
 
 /* ── Nationality badge (post-2026-05-21: inline since /assets/haptik.css gone) ── */
 .nat-badge{{
   display:inline-block;
-  font-family:'JetBrains Mono',monospace;
-  font-size:9px;font-weight:600;
-  letter-spacing:.05em;
+  font-size:11px;font-weight:600;
   padding:2px 5px;
   margin-right:8px;
   border-radius:3px;
-  background:rgba(255,255,255,.06);
+  background:var(--overlay);
   color:var(--text-2);
   border:1px solid var(--border);
   vertical-align:middle;
-  text-transform:uppercase;
 }}
 
 /* ── Search ── */
@@ -1154,7 +1163,7 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
   color:var(--text);font:inherit;font-size:14px;border-radius:8px;outline:none;
   transition:border-color .15s,box-shadow .15s;
 }}
-.search:focus{{border-color:var(--accent);box-shadow:0 0 0 3px rgba(244,0,9,.12)}}
+.search:focus{{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-glow)}}
 .search::placeholder{{color:var(--text-3)}}
 .search-box::before{{
   content:"\\2315";position:absolute;left:13px;top:50%;transform:translateY(-50%);
@@ -1164,7 +1173,7 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
 .search-suggest{{
   position:absolute;top:calc(100% + 6px);left:0;right:0;z-index:50;
   background:var(--surface);border:1px solid var(--border);border-radius:8px;
-  box-shadow:0 12px 32px rgba(0,0,0,.45);overflow:hidden;display:none;
+  box-shadow:0 12px 32px var(--shadow);overflow:hidden;display:none;
   max-height:380px;overflow-y:auto;
 }}
 .search-suggest.open{{display:block}}
@@ -1173,13 +1182,13 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
   text-decoration:none;border-bottom:1px solid var(--border);
 }}
 .sug-item:last-child{{border-bottom:none}}
-.sug-item:hover,.sug-item.active{{background:rgba(244,0,9,.10)}}
+.sug-item:hover,.sug-item.active{{background:var(--accent-glow)}}
 .sug-name{{color:var(--text);font-size:13px;font-weight:600;flex:0 0 auto}}
 .sug-club{{color:var(--text-3);font-size:12px;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
 .sug-badge{{
-  font:600 10px/1 'JetBrains Mono',monospace;color:var(--text-2);
+  font:600 10px/1 var(--font-mono);color:var(--text-2);
   background:var(--bg);border:1px solid var(--border);border-radius:4px;
-  padding:3px 6px;flex:0 0 auto;text-transform:uppercase;letter-spacing:.03em;
+  padding:3px 6px;flex:0 0 auto;
 }}
 .sug-empty{{padding:12px 14px;color:var(--text-3);font-size:13px}}
 
@@ -1190,28 +1199,27 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
   margin-bottom:4px;padding-bottom:12px;
 }}
 .section-title{{
-  font-family:'Space Grotesk',sans-serif;font-size:12px;font-weight:600;
-  color:var(--accent);text-transform:uppercase;letter-spacing:1.5px;
+  font-family:var(--font-display);font-size:15px;font-weight:600;
+  color:var(--accent);
   margin:0;line-height:inherit;display:inline-block;
 }}
 .section-count{{font-size:11px;color:var(--text-3)}}
 .section-line{{flex:1;height:1px;background:var(--border)}}
 
 /* D2: Hot-Seat Cross-Liga Top-Block (above league tables) */
-.hot-seat-block .section-title{{color:#e74c3c}}
+.hot-seat-block .section-title{{color:var(--crit)}}
 .league-badge{{
   display:inline-block;margin-left:8px;padding:1px 6px;
-  font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:600;
+  font-size:11px;font-weight:600;
   color:var(--text-3);border:1px solid var(--border-h);border-radius:3px;
-  letter-spacing:.5px;vertical-align:1px;
+  vertical-align:1px;
 }}
 
 /* ── Table header ── */
 .table-hdr{{
   display:grid;grid-template-columns:44px 1fr 1fr 64px 64px 64px 32px;
   align-items:center;gap:0;
-  padding:6px 16px;font-size:10px;color:var(--text-3);
-  text-transform:uppercase;letter-spacing:.8px;
+  padding:6px 16px;font-size:12px;color:var(--text-3);
 }}
 /* Hot-Seat (col 4) center; Kontakte (5), Stationen (6) right */
 .table-hdr span:nth-child(4){{text-align:center}}
@@ -1231,13 +1239,13 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
   transition:background .1s;
 }}
 /* Vacancy block: wider Interim column (last meaningful col holds "Name (Co)") */
-.vacancy-block .table-hdr,.vacancy-block .row{{grid-template-columns:44px 1fr 1fr 88px 140px 0 32px}}
+.vacancy-block .table-hdr,.vacancy-block .row{{grid-template-columns:44px 1fr 1fr 96px 140px 0 32px;column-gap:12px}}
 .vacancy-block .row-stat{{white-space:nowrap}}
 /* Hot-Seat cell — color-coded score badge */
-.row-hotseat{{text-align:center;font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:600;letter-spacing:.05em}}
-.row-hotseat--critical{{color:#e74c3c}}
-.row-hotseat--hot{{color:#f39c12}}
-.row-hotseat--warm{{color:#f1c40f}}
+.row-hotseat{{text-align:center;font-size:12px;font-weight:600;font-variant-numeric:tabular-nums}}
+.row-hotseat--critical{{color:var(--crit)}}
+.row-hotseat--hot{{color:var(--hot)}}
+.row-hotseat--warm{{color:var(--warm)}}
 .row-hotseat--ruhig{{color:var(--text-3);font-weight:400}}
 .row-hotseat--empty{{color:var(--text-3);opacity:.4}}
 .row:last-child{{border-bottom:none}}
@@ -1252,29 +1260,29 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
 /* Hot-Seat Badge (projectFIVE Trainer-Wackelkandidat-Score) */
 .hot-seat-badge{{
   display:inline-block;margin-left:8px;padding:2px 7px;border-radius:3px;
-  font-family:'JetBrains Mono',monospace;font-size:10px;font-weight:600;
+  font-family:var(--font-mono);font-size:10px;font-weight:600;
   letter-spacing:.05em;vertical-align:middle;cursor:help;
 }}
-.hot-seat-critical{{background:rgba(231,76,60,.18);color:#e74c3c;border:1px solid rgba(231,76,60,.4)}}
-.hot-seat-hot-seat{{background:rgba(243,156,18,.18);color:#f39c12;border:1px solid rgba(243,156,18,.4)}}
-.hot-seat-warm{{background:rgba(241,196,15,.12);color:#f1c40f;border:1px solid rgba(241,196,15,.3)}}
+.hot-seat-critical{{background:color-mix(in srgb,var(--crit) 18%,transparent);color:var(--crit);border:1px solid color-mix(in srgb,var(--crit) 40%,transparent)}}
+.hot-seat-hot-seat{{background:color-mix(in srgb,var(--hot) 18%,transparent);color:var(--hot);border:1px solid color-mix(in srgb,var(--hot) 40%,transparent)}}
+.hot-seat-warm{{background:color-mix(in srgb,var(--warm) 12%,transparent);color:var(--warm);border:1px solid color-mix(in srgb,var(--warm) 30%,transparent)}}
 .row-club{{font-size:13px;color:var(--text-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
-.row-stat{{font-family:'Space Grotesk',sans-serif;font-size:13px;color:var(--text-2);text-align:right;font-variant-numeric:tabular-nums}}
+.row-stat{{font-family:var(--font-display);font-size:13px;color:var(--text-2);text-align:right;font-variant-numeric:tabular-nums}}
 .row-go{{font-size:20px;color:var(--text-3);text-align:center;transition:color .15s}}
 .row:hover .row-go{{color:var(--accent)}}
-.row:hover .row-name{{color:#fff}}
+.row:hover .row-name{{color:var(--text-strong)}}
 .row-wrap{{position:relative}}
 .row-refresh{{
   position:absolute;right:8px;top:50%;transform:translateY(-50%);
   background:none;border:1px solid var(--border);color:var(--text-3);
   width:26px;height:26px;border-radius:3px;cursor:pointer;font-size:14px;
-  display:none;align-items:center;justify-content:center;transition:all .15s;z-index:2;
+  display:none;align-items:center;justify-content:center;transition:border-color .15s,color .15s;z-index:2;
 }}
 .row-wrap:hover .row-refresh{{display:flex}}
 .row-refresh:hover{{border-color:var(--accent);color:var(--accent)}}
 .row-refresh.loading{{animation:spin .8s linear infinite;color:var(--accent);border-color:var(--accent)}}
-.row-refresh.done{{color:#2ecc40;border-color:#2ecc40}}
-.row-refresh.fail{{color:#e74c3c;border-color:#e74c3c}}
+.row-refresh.done{{color:var(--good);border-color:var(--good)}}
+.row-refresh.fail{{color:var(--crit);border-color:var(--crit)}}
 @keyframes spin{{to{{transform:translateY(-50%) rotate(360deg)}}}}
 
 /* ── Update banner ── */
@@ -1283,11 +1291,10 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
   background:var(--surface);border:1px solid var(--border);border-radius:6px;
   display:flex;align-items:center;gap:12px;font-size:12px;color:var(--text-2);
 }}
-.update-dot{{width:6px;height:6px;border-radius:50%;background:#3b82f6;flex-shrink:0}}
 .update-btn{{
   background:none;border:1px solid var(--border);color:var(--text-2);
   padding:6px 14px;border-radius:4px;font-size:11px;cursor:pointer;
-  font-family:inherit;white-space:nowrap;transition:all .15s;
+  font-family:inherit;white-space:nowrap;transition:border-color .15s,color .15s;
 }}
 .update-btn:hover{{border-color:var(--accent);color:var(--accent)}}
 .update-btn.loading{{color:var(--accent);border-color:var(--accent);opacity:.7;pointer-events:none}}
@@ -1298,7 +1305,7 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
   background:var(--surface);border:1px solid var(--border);border-top:none;
   border-radius:0 0 6px 6px;font-size:13px;color:var(--text-2);
 }}
-.check-ok{{color:#2ecc40;font-weight:500}}
+.check-ok{{color:var(--good);font-weight:500}}
 .check-err{{color:var(--accent)}}
 .check-item{{
   padding:10px 0;border-bottom:1px solid var(--border);
@@ -1308,18 +1315,17 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
 .check-club{{font-weight:500;color:var(--text);min-width:180px}}
 .check-old{{color:var(--accent);text-decoration:line-through;opacity:.7}}
 .check-arrow{{color:var(--text-3);font-size:16px}}
-.check-new{{color:#2ecc40;font-weight:500}}
+.check-new{{color:var(--good);font-weight:500}}
 .check-tag{{
-  font-size:10px;padding:2px 8px;border-radius:3px;
-  text-transform:uppercase;letter-spacing:.5px;font-weight:600;
+  font-size:11px;padding:2px 8px;border-radius:3px;font-weight:600;
 }}
-.check-tag.neu{{background:#2ecc4020;color:#2ecc40}}
-.check-tag.weg{{background:#F4000920;color:var(--accent)}}
-.check-tag.vakant{{background:#f39c1220;color:#f39c12}}
+.check-tag.neu{{background:color-mix(in srgb,var(--good) 12%,transparent);color:var(--good)}}
+.check-tag.weg{{background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent)}}
+.check-tag.vakant{{background:color-mix(in srgb,var(--hot) 12%,transparent);color:var(--hot)}}
 .check-close{{
   margin-top:12px;background:none;border:1px solid var(--border);
   color:var(--text-3);padding:6px 16px;border-radius:4px;font-size:11px;
-  cursor:pointer;font-family:inherit;transition:all .15s;
+  cursor:pointer;font-family:inherit;transition:border-color .15s,color .15s;
 }}
 .check-close:hover{{border-color:var(--accent);color:var(--accent)}}
 
@@ -1333,6 +1339,15 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
   .table-hdr,.row{{grid-template-columns:36px 1fr 56px 32px;font-size:12px}}
   .row-club,.row-stat,.table-hdr span:nth-child(3),.table-hdr span:nth-child(5),.table-hdr span:nth-child(6){{display:none}}
   .stats{{gap:20px;flex-wrap:wrap}}
+  /* vacancy rows keep their wider desktop grid otherwise and squeeze the club name to 0 */
+  .stats{{display:grid;grid-template-columns:1fr 1fr}}
+  .section.vacancy-block .table-hdr,.section.vacancy-block .row{{grid-template-columns:36px 1fr 68px 24px;column-gap:4px}}
+  .section.vacancy-block .row-stat,.section.vacancy-block .row-club,
+  .section.vacancy-block .table-hdr span:nth-child(3),.section.vacancy-block .table-hdr span:nth-child(5){{display:none}}
+}}
+@media(min-width:1520px){{
+  .hdr,.stats,.section,.search-wrap,.update-banner,.check-results,.ftr{{max-width:1440px;margin-left:auto;margin-right:auto}}
+  .hdr{{max-width:1360px}}
 }}
 {hot_seat_hide_css}
 </style>
@@ -1342,27 +1357,26 @@ body{{background:var(--bg);color:var(--text);font-family:var(--font-sans);-webki
 <div class="hdr">
   <div class="hdr-inner">
     <h1><b>p5</b> Coach Network Explorer</h1>
-    <div class="hdr-right"><a href="/clubs" class="btn btn--secondary btn--sm" style="margin-bottom:4px">Vereine →</a><br>Saison {season_str} · Stand {now}</div>
+    <div class="hdr-right"><a href="/clubs" class="hdr-link">Vereine</a><br>Saison {season_str} · Stand {now}</div>
   </div>
 </div>
 
 <div class="stats">
   <div class="stat-item"><div class="stat-val">{trainer_total:,}</div><div class="stat-lbl" title="Profi-Trainer + Coachinside + Trainerstab + Historische (alle Coach-Networks ohne NLZ und ohne reine SD/Decision-Maker)">Trainer gesamt</div></div>
-  <div class="stat-item"><div class="stat-val" style="color:#F40009">{dm_count}</div><div class="stat-lbl" title="Sportdirektoren / Decision-Maker — Tier 1/2/3/NLZ ({dm_tier_text})">Sportdirektoren</div></div>
-  <div class="stat-item"><div class="stat-val" style="color:#27ae60">{nlz_count_kpi}</div><div class="stat-lbl" title="NLZ-Trainer (U10-U23) — Aufstiegs-Pipeline 2027+ · {nlz_tier_text}">NLZ-Trainer</div></div>
+  <div class="stat-item"><div class="stat-val">{dm_count}</div><div class="stat-lbl" title="Sportdirektoren und Decision-Maker, Tier 1/2/3/NLZ ({dm_tier_text})">Sportdirektoren</div></div>
+  <div class="stat-item"><div class="stat-val">{nlz_count_kpi}</div><div class="stat-lbl" title="NLZ-Trainer (U10 bis U23), Aufstiegs-Pipeline 2027+: {nlz_tier_text}">NLZ-Trainer</div></div>
   <div class="stat-item"><div class="stat-val">{total_contacts:,}</div><div class="stat-lbl" title="Aggregierte Beziehungs-Kontakte über alle Networks">Kontakte gesamt</div></div>
 </div>
 
 <div class="search-wrap">
   <div class="search-box">
-    <input type="text" class="search" placeholder="Trainer suchen — Name eingeben, direkt zum Netzwerk…" id="q"
+    <input type="text" class="search" placeholder="Trainer suchen" id="q"
            autocomplete="off" oninput="onSearch()" onfocus="onSearch()" onkeydown="sugKey(event)">
     <div class="search-suggest" id="suggest"></div>
   </div>
 </div>
 
 <div class="update-banner">
-  <div class="update-dot"></div>
   <span>Datenstand: <strong>{datetime.now().strftime('%d.%m.%Y')}</strong></span>
 </div>
 
