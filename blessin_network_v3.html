@@ -161,6 +161,10 @@ canvas { display:block; width:100%; height:100%; }
 .career-table td:first-child { color:var(--text); font-weight:500; }
 .career-table tr:last-child td { border-bottom:none; }
 .career-season { color:var(--text-dim); font-variant-numeric:tabular-nums; white-space:nowrap; }
+.targets-note { font-size:11px; color:var(--text-dim); line-height:1.5; margin:0 0 8px; }
+.targets-table a { color:inherit; text-decoration:underline; text-decoration-color:var(--border); text-underline-offset:2px; }
+.targets-table a:hover { text-decoration-color:currentColor; }
+.targets-more { font-size:11px; color:var(--text-dim); margin-top:6px; }
 .detail-connections { font-size:11px; color:var(--text-dim); line-height:1.6; }
 .detail-connections .conn-label { font-size:10px; text-transform:uppercase; letter-spacing:0.5px; color:var(--text-muted); margin-top:6px; display:block; }
 .detail-connections .conn-names { color:var(--text-dim); }
@@ -552,6 +556,7 @@ canvas { display:block; width:100%; height:100%; }
     </div>
     <!-- Sprint G Phase 5 — Cross-Drilldown: Quick-Links zu anderen Dashboard-Varianten -->
     <div id="cross-variants" style="display:none;gap:4px;flex-wrap:nowrap"></div>
+    <button class="pro-filter-btn" id="center-targets-btn" type="button" hidden title="Transferziele des Netzwerk-Zentrums, die nicht zustande kamen (Transfermarkt-Gerüchte)">Transferziele</button>
     <button class="pro-filter-btn" id="pro-filter-btn" title="Nur Decision-Maker anzeigen: Trainer, Sporting Directors, Executives (Vorstand/Präsident/CEO)">
       Nur Decision-Maker
     </button>
@@ -683,6 +688,11 @@ canvas { display:block; width:100%; height:100%; }
     <div class="detail-section" id="d-career-section" style="display:none">
       <h5>Karriere</h5>
       <div class="detail-career" id="d-career"></div>
+    </div>
+    <div class="detail-section" id="d-targets-section" style="display:none">
+      <h5>Transferziele (nicht zustande gekommen)</h5>
+      <p class="targets-note">Transfermarkt-Gerüchte, bei denen der Verein in der Amtszeit mit dem Spieler in Verbindung gebracht wurde und der Wechsel nicht stattfand. Kein belegtes Interesse.</p>
+      <div id="d-targets"></div>
     </div>
     <div class="detail-section" id="d-connections-section" style="display:none">
       <h5>Verbindungen</h5>
@@ -2172,6 +2182,47 @@ function onSearch(e) {
 // ═══════════════════════════════════════════════════
 // DETAIL PANEL
 // ═══════════════════════════════════════════════════
+function escHtml(v) {
+  return String(v == null ? '' : v).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+
+function renderTransferTargets(c) {
+  const section = document.getElementById('d-targets-section');
+  const list = c.transfer_targets || [];
+  if (!list.length) { section.style.display = 'none'; return; }
+  const fmt = d => d ? d.split('-').reverse().join('.') : '';
+  let html = '<table class="career-table targets-table"><thead><tr><th>Datum</th><th>Spieler</th><th>Verein</th></tr></thead><tbody>';
+  list.forEach(t => {
+    const player = t.url && /^https:\/\/www\.transfermarkt\.de\//.test(t.url)
+      ? `<a href="${escHtml(t.url)}" target="_blank" rel="noopener" title="Quelle: Transfermarkt-Gerüchteforum">${escHtml(t.player)}</a>`
+      : escHtml(t.player);
+    html += `<tr><td class="career-season">${fmt(t.date)}</td><td>${player}</td><td>${escHtml(t.club)}</td></tr>`;
+  });
+  html += '</tbody></table>';
+  const total = c.transfer_targets_total || list.length;
+  if (total > list.length) html += `<div class="targets-more">Die ${list.length} jüngsten von ${total} Einträgen</div>`;
+  document.getElementById('d-targets').innerHTML = html;
+  section.style.display = 'block';
+}
+
+function centerAsContact() {
+  const info = NETWORK.center_info || {};
+  return { name: NETWORK.center, role: info.role || '', image_url: info.image_url || '',
+           tm_url: info.tm_url || '', stations: [], category: '_center',
+           transfer_targets: info.transfer_targets, transfer_targets_total: info.transfer_targets_total };
+}
+
+function initCenterTargetsButton() {
+  const btn = document.getElementById('center-targets-btn');
+  const info = NETWORK.center_info || {};
+  if (!btn || !(info.transfer_targets || []).length) return;
+  btn.hidden = false;
+  btn.addEventListener('click', () => {
+    selectContact(centerAsContact());
+    document.getElementById('d-targets-section').scrollIntoView({block: 'start'});
+  });
+}
+
 function selectContact(c) {
   selectedNode = c;
   const panel = document.getElementById('detail-panel');
@@ -2278,6 +2329,8 @@ function selectContact(c) {
     careerDiv.innerHTML = c.career_history.replace(/,\s*/g, '<br>');
     careerSection.style.display = 'block';
   } else { careerSection.style.display = 'none'; }
+
+  renderTransferTargets(c);
 
   // Agent / Berater (Blacklist: keine Agenturen, nur Rauschwerte aus TM)
   const AGENT_BLACKLIST = new Set([
@@ -2910,6 +2963,7 @@ async function boot() {
   }
   breadcrumbs = [{name: NETWORK.center, level: 0}];
   init();
+  initCenterTargetsButton();
 }
 window.addEventListener('load', boot);
 </script>

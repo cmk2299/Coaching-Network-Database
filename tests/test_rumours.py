@@ -79,3 +79,18 @@ def test_outcome():
     assert E.outcome(_rumour(), 9, 27, covered, 2026) == "happened"          # plays there now
     assert E.outcome(_rumour(status="open"), 9, None, covered, 2026) == "unknown"
     assert E.outcome(_rumour(club=99), 9, None, covered, 2026) == "unknown"  # no squad coverage
+
+
+def test_transfer_targets_require_matching_name(monkeypatch):
+    from collections import defaultdict
+    import build_coach_network as B
+    edges = defaultdict(list)
+    edges[20940] = [{"person_name": "Sebastian Hoeneß", "date": "2026-07-23", "club": "VfB Stuttgart",
+                     "player_name": "Ørjan Nyland", "thread_url": "https://www.transfermarkt.de/x/thread_id/1"}]
+    monkeypatch.setattr(B, "TRANSFER_TARGETS", edges)
+    rows = B.transfer_targets_for(20940, "Sebastian Hoeness")
+    assert rows == [{"date": "2026-07-23", "club": "VfB Stuttgart", "player": "Ørjan Nyland",
+                     "url": "https://www.transfermarkt.de/x/thread_id/1"}]
+    # same number in the spieler namespace belongs to someone else
+    assert B.transfer_targets_for(20940, "Max Muster") == []
+    assert B.transfer_targets_for(None, "Sebastian Hoeneß") == []

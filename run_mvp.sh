@@ -77,6 +77,11 @@ log "Step 1b: auto-discover new BL head coaches"
 caffeinate -s python3 execution/discover_new_head_coaches.py 2>&1 | tail -15 \
   || log "  ⚠ Step 1b had errors (non-fatal, continuing)"
 
+# --- Step 1c: Transfer targets from scraped player rumours (feeds build_network) ---
+log "Step 1c: build rumour edges (transfer targets)"
+python3 execution/build_rumour_edges.py --quiet 2>&1 | tail -2 \
+  || log "  ⚠ Step 1c failed (non-fatal, networks keep previous transfer targets)"
+
 # --- Step 2: Rebuild all coach networks ---
 log "Step 2: rebuild all coach networks (BL1/2/3 + historical + SDs + NLZ)"
 # Parallel shards share one per-run drilldown cache: each person's sub-network is

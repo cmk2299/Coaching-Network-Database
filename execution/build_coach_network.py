@@ -121,6 +121,34 @@ DM_BY_CLUB = defaultdict(list)
 for _d in DECISION_MAKERS:
     DM_BY_CLUB[_d.get("club_tm_id")].append(_d)
 
+# Unrealised transfer targets: player rumours that did not happen, attributed to the
+# head coach / sporting lead in office (built by build_rumour_edges.py).
+MAX_TRANSFER_TARGETS = 30
+TRANSFER_TARGETS = defaultdict(list)
+_rt_path = DATA / "rumour_edges.json"
+if _rt_path.exists():
+    try:
+        for _e in json.load(open(_rt_path)).get("edges", []):
+            TRANSFER_TARGETS[int(_e["person_tm_id"])].append(_e)
+    except (ValueError, KeyError, TypeError):
+        TRANSFER_TARGETS = defaultdict(list)
+for _edges in TRANSFER_TARGETS.values():
+    _edges.sort(key=lambda e: (e.get("date") or "", e.get("player_name") or ""), reverse=True)
+
+
+def transfer_targets_for(tm_id, name: str) -> list:
+    """Display rows for a person's unrealised transfer targets, newest first.
+    The name check guards against TM's spieler/trainer id-namespace collisions."""
+    try:
+        edges = TRANSFER_TARGETS.get(int(tm_id), [])
+    except (TypeError, ValueError):
+        return []
+    if not edges or not _name_matches(edges[0].get("person_name") or "", name or ""):
+        return []
+    return [{"date": e.get("date"), "club": e.get("club"), "player": e.get("player_name"),
+             "url": e.get("thread_url")} for e in edges[:MAX_TRANSFER_TARGETS]]
+
+
 SD_AGENT_PATTERNS = {}
 _ap_path = DATA / "sd_agent_patterns.json"
 if _ap_path.exists():
@@ -1771,6 +1799,15 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
     # Extracted to lib.network_stages.scoring_finalizer (same name + behaviour).
     scoring_finalizer(contacts_list)
 
+    for c in contacts_list:
+        if c.get("category") in ("player_coached", "former_teammate"):
+            continue
+        targets = transfer_targets_for(c.get("_tm_id"), c.get("name"))
+        if targets:
+            c["transfer_targets"] = targets
+            c["transfer_targets_total"] = len(TRANSFER_TARGETS[int(c["_tm_id"])])
+    center_targets = transfer_targets_for(coach_tm_id, profile.get("name"))
+
     network = {
         "center": profile["name"],
         "center_info": {
@@ -1788,6 +1825,9 @@ def build_network(coach_tm_id: int, profiles: Dict[int, dict] = None,
     }
     if dm_metadata:
         network["dm_info"] = dm_metadata
+    if center_targets:
+        network["center_info"]["transfer_targets"] = center_targets
+        network["center_info"]["transfer_targets_total"] = len(TRANSFER_TARGETS[int(coach_tm_id)])
 
     elapsed = time.time() - t0
     print(f"  ✓ Done: {len(contacts_list)} contacts, {len(all_stations)} stations ({elapsed:.1f}s)")
@@ -1894,6 +1934,10 @@ def _trimmed_sub_network(tm_id: int, profiles: Dict[int, dict],
             c.pop("background_summary", None)  # Biggest text field
             c.pop("coaches_worked_with", None)  # Not needed in sub-view
             c.pop("sds_worked_with", None)
+            c.pop("transfer_targets", None)
+            c.pop("transfer_targets_total", None)
+        sub_network.get("center_info", {}).pop("transfer_targets", None)
+        sub_network.get("center_info", {}).pop("transfer_targets_total", None)
 
     serialized = json.dumps(sub_network or None, ensure_ascii=False)
     _SUB_NETWORK_CACHE[key] = serialized
